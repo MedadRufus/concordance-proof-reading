@@ -2,6 +2,7 @@ import html
 import os
 import re
 import sys
+import json
 
 from odf import teletype
 from odf.opendocument import load
@@ -90,17 +91,38 @@ ref_pattern = re.compile(
 )
 
 
+# Load KJV Bible data
+kjv_verses = {}
+try:
+    with open("kjv/json/verses-1769.json", "r", encoding="utf-8") as f:
+        kjv_verses = json.load(f)
+except FileNotFoundError:
+    print("Warning: KJV Bible data not found. Verse tooltips will show reference only.")
+
+
+def get_verse_text(book, chapter, verse):
+    """Get verse text from local KJV data"""
+    key = f"{book} {chapter}:{verse}"
+    verse_text = kjv_verses.get(key, "")
+    if verse_text:
+        return f"{book} {chapter}:{verse} (KJV) - {verse_text}"
+    return f"{book} {chapter}:{verse} (KJV)"
+
+
 def replace_reference(match):
     abbr = match.group(1)
     chapter = match.group(2)
     verse_part = match.group(3)
     full_book = BOOK_ABBR_TO_FULL.get(abbr, abbr)
-    # For complex verse ranges, just use the first verse for the link
+    # For complex verse ranges, just use the first verse
     first_verse = verse_part.split(";")[0].split(",")[0].split("-")[0]
+
+    verse_text = get_verse_text(full_book, chapter, first_verse)
     search_query = f"{full_book}+{chapter}%3A{first_verse}"
     url = f"https://www.biblegateway.com/passage/?search={search_query}&version=KJV"
     original = match.group(0)
-    return f'<a href="{html.escape(url)}">{html.escape(original)}</a>'
+
+    return f'<a href="{html.escape(url)}" class="bible-ref" title="{html.escape(verse_text)}">{html.escape(original)}</a>'
 
 
 def main():
@@ -134,8 +156,16 @@ def main():
     <style>
         body { font-family: Arial, sans-serif; line-height: 1.6; margin: 40px; }
         p { margin: 0 0 1em 0; }
-        a { color: #0066cc; text-decoration: none; }
-        a:hover { text-decoration: underline; }
+        .bible-ref { 
+            color: #0066cc; 
+            cursor: help; 
+            border-bottom: 1px dotted #0066cc;
+            text-decoration: none;
+        }
+        .bible-ref:hover { 
+            background-color: #f0f8ff;
+            text-decoration: underline;
+        }
     </style>
 </head>
 <body>
