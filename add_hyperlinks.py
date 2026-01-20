@@ -1,0 +1,156 @@
+import html
+import os
+import re
+import sys
+
+from odf import teletype
+from odf.opendocument import load
+from odf.text import P
+
+# Bible book abbreviation mapping
+BOOK_ABBR_TO_FULL = {
+    # Old Testament
+    "Gen.": "Genesis",
+    "Ex.": "Exodus",
+    "Lev.": "Leviticus",
+    "Num.": "Numbers",
+    "Deu.": "Deuteronomy",
+    "Deut.": "Deuteronomy",
+    "Josh.": "Joshua",
+    "Judg.": "Judges",
+    "Ruth": "Ruth",
+    "1 Sam.": "1 Samuel",
+    "2 Sam.": "2 Samuel",
+    "1 Kings": "1 Kings",
+    "2 Kings": "2 Kings",
+    "1 Chr.": "1 Chronicles",
+    "2 Chr.": "2 Chronicles",
+    "Ezra": "Ezra",
+    "Neh.": "Nehemiah",
+    "Esth.": "Esther",
+    "Job": "Job",
+    "Ps.": "Psalms",
+    "Prov.": "Proverbs",
+    "Eccl.": "Ecclesiastes",
+    "Song": "Song of Solomon",
+    "SS.": "Song of Solomon",
+    "Isa.": "Isaiah",
+    "Is.": "Isaiah",
+    "Jer.": "Jeremiah",
+    "Lam.": "Lamentations",
+    "Eze.": "Ezekiel",
+    "Dan.": "Daniel",
+    "Hos.": "Hosea",
+    "Joel": "Joel",
+    "Amos": "Amos",
+    "Obad.": "Obadiah",
+    "Jonah": "Jonah",
+    "Mic.": "Micah",
+    "Nah.": "Nahum",
+    "Hab.": "Habakkuk",
+    "Zeph.": "Zephaniah",
+    "Hag.": "Haggai",
+    "Zech.": "Zechariah",
+    "Mal.": "Malachi",
+    # New Testament
+    "Mt.": "Matthew",
+    "Mk.": "Mark",
+    "Lk.": "Luke",
+    "Jn.": "John",
+    "Acts": "Acts",
+    "Rom.": "Romans",
+    "1 Cor.": "1 Corinthians",
+    "2 Cor.": "2 Corinthians",
+    "Gal.": "Galatians",
+    "Eph.": "Ephesians",
+    "Phil.": "Philippians",
+    "Col.": "Colossians",
+    "1 Thess.": "1 Thessalonians",
+    "2 Thess.": "2 Thessalonians",
+    "1 Tim.": "1 Timothy",
+    "2 Tim.": "2 Timothy",
+    "Titus": "Titus",
+    "Philem.": "Philemon",
+    "Heb.": "Hebrews",
+    "Jas.": "James",
+    "1 Pet.": "1 Peter",
+    "2 Pet.": "2 Peter",
+    "1 Jn.": "1 John",
+    "2 Jn.": "2 John",
+    "3 Jn.": "3 John",
+    "Jude": "Jude",
+    "Rev.": "Revelation",
+}
+
+# Prepare regex pattern
+sorted_abbrs = sorted(BOOK_ABBR_TO_FULL.keys(), key=lambda x: -len(x))
+ABBR_PATTERN = "|".join(re.escape(abbr) for abbr in sorted_abbrs)
+ref_pattern = re.compile(
+    rf"\b({ABBR_PATTERN})\s+(\d+):(\d+(?:[-,;]\d+)*(?:[,;]\s*\d+:\d+(?:[-,]\d+)*)*)"
+)
+
+
+def replace_reference(match):
+    abbr = match.group(1)
+    chapter = match.group(2)
+    verse_part = match.group(3)
+    full_book = BOOK_ABBR_TO_FULL.get(abbr, abbr)
+    # For complex verse ranges, just use the first verse for the link
+    first_verse = verse_part.split(";")[0].split(",")[0].split("-")[0]
+    search_query = f"{full_book}+{chapter}%3A{first_verse}"
+    url = f"https://www.biblegateway.com/passage/?search={search_query}&version=KJV"
+    original = match.group(0)
+    return f'<a href="{html.escape(url)}">{html.escape(original)}</a>'
+
+
+def main():
+    if len(sys.argv) != 3:
+        print("Usage: python odt_bible_links.py <input.odt> <output.html>")
+        sys.exit(1)
+
+    odt_path = sys.argv[1]
+    html_path = sys.argv[2]
+
+    if not os.path.exists(odt_path):
+        print(f"Error: File '{odt_path}' not found.")
+        sys.exit(1)
+
+    doc = load(odt_path)
+    paragraphs = []
+    for elem in doc.getElementsByType(P):
+        txt = teletype.extractText(elem)
+        if txt.strip():
+            # Replace non-breaking spaces and normalize whitespace
+            txt = txt.replace("\u00a0", " ").replace("\xa0", " ")
+            txt = re.sub(r"\s+", " ", txt)
+            txt_linked = ref_pattern.sub(replace_reference, txt)
+            paragraphs.append(txt_linked)
+
+    html_content = """<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bible Concordance</title>
+    <style>
+        body { font-family: Arial, sans-serif; line-height: 1.6; margin: 40px; }
+        p { margin: 0 0 1em 0; }
+        a { color: #0066cc; text-decoration: none; }
+        a:hover { text-decoration: underline; }
+    </style>
+</head>
+<body>
+"""
+    for p in paragraphs:
+        html_content += f"<p>{p}</p>\n"
+    html_content += "</body>\n</html>"
+
+    with open(html_path, "w", encoding="utf-8") as f:
+        f.write(html_content)
+
+    print(f"Success: HTML saved to {html_path}")
+
+
+if __name__ == "__main__":
+    # Example usage:
+    # python add_hyperlinks.py concordance.odt output.html
+    main()
