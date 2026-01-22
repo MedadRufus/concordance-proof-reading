@@ -145,7 +145,7 @@ def replace_reference(match):
             ref_text = verse if ":" not in part else part
 
         linked_parts.append(
-            f'<a href="{html.escape(url)}" class="bible-ref" title="{html.escape(verse_text)}">{html.escape(ref_text)}</a>'
+            f'<a href="{html.escape(url)}" class="bible-ref" data-verse="{html.escape(verse_text)}">{html.escape(ref_text)}</a>'
         )
 
     return ", ".join(linked_parts)
@@ -185,10 +185,30 @@ def main():
             cursor: help; 
             border-bottom: 1px dotted #0066cc;
             text-decoration: none;
+            position: relative;
         }
         .bible-ref:hover { 
             background-color: #f0f8ff;
             text-decoration: underline;
+        }
+        .bible-ref::after {
+            content: attr(data-verse);
+            position: absolute;
+            bottom: 100%;
+            left: 0;
+            background: #333;
+            color: white;
+            padding: 8px 12px;
+            border-radius: 4px;
+            font-size: 12px;
+            z-index: 1000;
+            opacity: 0;
+            pointer-events: none;
+            white-space: nowrap;
+            min-width: 300px;
+        }
+        .bible-ref:hover::after {
+            opacity: 1;
         }
     </style>
 </head>
