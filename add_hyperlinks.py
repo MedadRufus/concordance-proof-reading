@@ -35,6 +35,9 @@ BOOK_ABBR_TO_FULL = {
     "Ps.": "Psalms",
     "Prov.": "Proverbs",
     "Eccl.": "Ecclesiastes",
+    # In the https://github.com/farskipper/kjv json,
+    # its called Solomon's Song, while most other
+    # bibles call it Song of Solomon
     "Song": "Solomon's Song",
     "SS.": "Solomon's Song",
     "Isa.": "Isaiah",
