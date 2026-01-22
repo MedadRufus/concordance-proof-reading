@@ -89,7 +89,7 @@ BOOK_ABBR_TO_FULL = {
 # Prepare regex pattern
 sorted_abbrs = sorted(BOOK_ABBR_TO_FULL.keys(), key=lambda x: -len(x))
 ABBR_PATTERN = "|".join(re.escape(abbr) for abbr in sorted_abbrs)
-ref_pattern = re.compile(rf"\b({ABBR_PATTERN})\s+(\d+:\d+(?:,\s*\d+:\d+)*)")
+ref_pattern = re.compile(rf"\b({ABBR_PATTERN})\s+(\d+:\d+(?:,\s*(?:\d+:|\d+)\d+)*)")
 
 
 # Load KJV Bible data
@@ -118,16 +118,30 @@ def replace_reference(match):
     # Split by commas only
     parts = [p.strip() for p in refs_part.split(",")]
     linked_parts = []
+    current_chapter = None
 
     for i, part in enumerate(parts):
-        chapter, verse = part.split(":", 1)
+        if ":" in part:
+            chapter, verse = part.split(":", 1)
+            current_chapter = chapter
+        else:
+            # Just a verse number, use current chapter
+            chapter = current_chapter
+            verse = part
+
         first_verse = verse.split("-")[0]
 
         verse_text = get_verse_text(full_book, chapter, first_verse)
         search_query = f"{full_book}+{chapter}%3A{first_verse}"
         url = f"https://www.biblegateway.com/passage/?search={search_query}&version=KJV"
 
-        ref_text = f"{abbr} {part}" if i == 0 else part
+        if i == 0:
+            ref_text = f"{abbr} {chapter}:{verse}"
+        elif ":" in part:
+            ref_text = part
+        else:
+            ref_text = verse
+
         linked_parts.append(
             f'<a href="{html.escape(url)}" class="bible-ref" title="{html.escape(verse_text)}">{html.escape(ref_text)}</a>'
         )
