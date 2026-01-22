@@ -75,6 +75,7 @@ BOOK_ABBR_TO_FULL = {
     "Titus": "Titus",
     "Tit.": "Titus",
     "Philem.": "Philemon",
+    "Phm.": "Philemon",
     "Heb.": "Hebrews",
     "Jas.": "James",
     "1 Pet.": "1 Peter",
