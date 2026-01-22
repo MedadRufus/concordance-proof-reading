@@ -164,8 +164,6 @@ def main():
     for elem in doc.getElementsByType(P):
         txt = teletype.extractText(elem)
         if txt.strip():
-            # Replace non-breaking spaces and normalize whitespace
-            txt = txt.replace("\u00a0", " ").replace("\xa0", " ")
             txt = re.sub(r"\s+", " ", txt)
             txt_linked = ref_pattern.sub(replace_reference, txt)
             paragraphs.append(txt_linked)
