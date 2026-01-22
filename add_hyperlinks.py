@@ -89,7 +89,7 @@ BOOK_ABBR_TO_FULL = {
 # Prepare regex pattern
 sorted_abbrs = sorted(BOOK_ABBR_TO_FULL.keys(), key=lambda x: -len(x))
 ABBR_PATTERN = "|".join(re.escape(abbr) for abbr in sorted_abbrs)
-ref_pattern = re.compile(rf"\b({ABBR_PATTERN})\s+(\d+:\d+(?:,\s*(?:\d+:|\d+)\d+)*)")
+ref_pattern = re.compile(rf"\b({ABBR_PATTERN})\s+(\d+:\d+(?:,\s*(?:\d+:\d+|\d+))*)")
 
 
 # Load KJV Bible data
@@ -137,10 +137,8 @@ def replace_reference(match):
 
         if i == 0:
             ref_text = f"{abbr} {chapter}:{verse}"
-        elif ":" in part:
-            ref_text = part
         else:
-            ref_text = verse
+            ref_text = verse if ":" not in part else part
 
         linked_parts.append(
             f'<a href="{html.escape(url)}" class="bible-ref" title="{html.escape(verse_text)}">{html.escape(ref_text)}</a>'
