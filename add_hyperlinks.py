@@ -112,7 +112,10 @@ ref_pattern = re.compile(rf"\b(?:{branch1}|{branch2})")
 def parse_references(text):
     """Parse scripture references in text and return a list of reference objects.
 
-    Each object has keys: abbr, book, chapter, verse, single_chapter, matched_text
+    Each object has keys:
+      - abbr, book, chapter, verse, single_chapter, matched_text
+      - part: the original part string (e.g., '18:14' or '14')
+      - has_colon: whether the original part contained ':'
     """
     results = []
 
@@ -125,7 +128,8 @@ def parse_references(text):
         parts = [p.strip() for p in refs_part.split(",")]
         current_chapter = None
         for part in parts:
-            if ":" in part:
+            has_colon = ":" in part
+            if has_colon:
                 chapter, verse = part.split(":", 1)
                 current_chapter = chapter
             else:
@@ -143,10 +147,13 @@ def parse_references(text):
                     "verse": verse,
                     "single_chapter": single_chapter,
                     "matched_text": match.group(0),
+                    "part": part,
+                    "has_colon": has_colon,
                 }
             )
 
     return results
+
 
 try:
     with open(KJV_JSON_PATH, "r", encoding="utf-8") as f:
@@ -168,29 +175,24 @@ def get_verse_text(book, chapter, verse):
 
 
 def replace_reference(match):
-    # Handle either branch of the regex: named groups abbr1/refs1 (chapter:verse) or abbr2/refs2 (verse-only for single-chapter books)
-    abbr = match.group("abbr1") or match.group("abbr2")
-    refs_part = match.group("refs1") or match.group("refs2")
-    full_book = BOOK_ABBR_TO_FULL.get(abbr, abbr)
+    """Build replacement HTML for a regex match using parse_references."""
+    matched_text = match.group(0)
+    refs = parse_references(matched_text)
+    # If parse_references for some reason returns nothing, fall back to leaving text unchanged
+    if not refs:
+        return matched_text
 
-    single_chapter = full_book in SINGLE_CHAPTER_BOOKS
+    full_book = refs[0]["book"]
+    single_chapter = refs[0]["single_chapter"]
+    abbr = refs[0]["abbr"]
 
-    # Split by commas only
-    parts = [p.strip() for p in refs_part.split(",")]
     linked_parts = []
-    current_chapter = None
 
-    for i, part in enumerate(parts):
-        if ":" in part:
-            chapter, verse = part.split(":", 1)
-            current_chapter = chapter
-        else:
-            # For single-chapter books, treat bare verse as chapter 1
-            if single_chapter:
-                chapter = "1"
-            else:
-                chapter = current_chapter
-            verse = part
+    for i, ref in enumerate(refs):
+        chapter = ref["chapter"]
+        verse = ref["verse"]
+        part = ref["part"]
+        has_colon = ref["has_colon"]
 
         first_verse = verse.split("-")[0]
 
@@ -210,15 +212,14 @@ def replace_reference(match):
             if i == 0:
                 base_ref = f"{abbr} {verse}"
             else:
-                base_ref = verse if ":" not in part else part.split(":", 1)[1]
+                base_ref = verse if not has_colon else part.split(":", 1)[1]
         else:
             if i == 0:
                 base_ref = f"{abbr} {chapter}:{verse}"
             else:
-                base_ref = verse if ":" not in part else part
+                base_ref = part if has_colon else verse
 
-        # Use base_ref as visible text, but mark it if ref not found so that its easy to search for
-        # using the web browser word search.
+        # Mark missing refs
         if not verse_exists:
             ref_text = f"{base_ref} [REF NOT FOUND]"
         else:
