@@ -23,7 +23,7 @@ jobs:
       - name: Install dependencies
         run: |
           pip install -r requirements.txt
-          pip install black isort pylint pytest
+          pip install -r dev-requirements.txt
 
       - name: Black check ✅
         run: black --check .
