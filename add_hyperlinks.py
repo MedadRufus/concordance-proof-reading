@@ -74,7 +74,6 @@ BOOK_ABBR_TO_FULL = {
     "2 Tim.": "2 Timothy",
     "Tit.": "Titus",
     "Philem.": "Philemon",
-    "Phm.": "Philemon",
     "Heb.": "Hebrews",
     "Jas.": "James",
     "1 Pet.": "1 Peter",
