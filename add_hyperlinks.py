@@ -91,7 +91,8 @@ SINGLE_CHAPTER_BOOKS = {
     BOOK_ABBR_TO_FULL[a] for a in SINGLE_CHAPTER_ABBR if a in BOOK_ABBR_TO_FULL
 }
 
-# Build regex patterns
+# Build regex patterns. I Medad barely understand the regex. The only thing that I read are the unittests
+# which have concrete test cases.
 sorted_abbrs = sorted(BOOK_ABBR_TO_FULL, key=lambda x: -len(x))
 # For chapter:verse matching we should NOT match single-chapter book abbreviations
 non_single = [a for a in sorted_abbrs if a not in SINGLE_CHAPTER_ABBR]
