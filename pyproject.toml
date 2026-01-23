@@ -37,7 +37,7 @@ load-plugins = [
 
 [tool.pylint.design]
 # McCabe complexity cyclomatic threshold
-max-complexity = 11
+max-complexity = 5
 
 [tool.pylint.format]
 # Maximum number of characters on a single line.
