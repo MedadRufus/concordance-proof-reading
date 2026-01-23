@@ -7,8 +7,7 @@ Quick deploy (cPanel Passenger WSGI) — secure & production notes
 5. After starting the app, visit the app URL. The root page provides the upload UI.
 
 Production & Security recommendations:
-- HTTPS: Always enable TLS (let’s encrypt or your certificate). HSTS header is set by the app when HTTPS enforcement is enabled; make sure your site is only served over HTTPS.
-- If TLS is terminated by cPanel / a proxy, ensure the app receives `X-Forwarded-Proto: https` so the app can detect secure requests and set HSTS properly. You can set `FORCE_HTTPS=1` (default) to enforce HTTPS redirects; set `FORCE_HTTPS=0` to disable during testing.
+- HTTPS: Always enable TLS (let’s encrypt or your certificate). HSTS header is set by the app; make sure your site is only served over HTTPS.
 - Max upload size: Default is 5 MB. You can tune this by setting the `MAX_CONTENT_LENGTH` environment variable in cPanel.
 - Data handling: Files are processed in memory and not persisted to disk by default. Uploaded content is ephemeral and removed after `UPLOAD_TTL` seconds (default 10 minutes).
 - Multi-process note: the in-memory store is per-process. For scaled deployments or persistence across processes, use a shared store (Redis, S3) and adapt the app accordingly.

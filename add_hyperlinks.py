@@ -1,9 +1,9 @@
 import html
+import io
 import json
 import os
 import re
 import sys
-import io
 
 from odf import teletype
 from odf.opendocument import load

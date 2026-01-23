@@ -1,24 +1,15 @@
 import io
+import logging
 import os
+import threading
 import time
 import uuid
-import threading
 import zipfile
-import logging
 from datetime import datetime
 from functools import wraps
 
-from flask import (
-    Flask,
-    abort,
-    make_response,
-    redirect,
-    render_template,
-    request,
-    Response,
-    send_file,
-    url_for,
-)
+from flask import (Flask, Response, abort, make_response, redirect,
+                   render_template, request, send_file, url_for)
 from werkzeug.utils import secure_filename
 
 from add_hyperlinks import convert_odt_bytes_to_html
@@ -38,10 +29,6 @@ app.config["MAX_CONTENT_LENGTH"] = MAX_CONTENT_LENGTH
 app.config["SESSION_COOKIE_SECURE"] = True
 app.config["SESSION_COOKIE_HTTPONLY"] = True
 app.config["SESSION_COOKIE_SAMESITE"] = "Lax"
-
-# Enforce HTTPS (set FORCE_HTTPS=0 to disable for testing)
-FORCE_HTTPS = os.environ.get("FORCE_HTTPS", "1").lower() in ("1", "true", "yes")
-app.config["FORCE_HTTPS"] = FORCE_HTTPS
 
 # In-memory stores
 uploads = {}  # upload_id -> {html: str, ts: float, input_name: str}
@@ -117,37 +104,13 @@ def set_security_headers(response):
     response.headers["X-Frame-Options"] = "DENY"
     response.headers["Referrer-Policy"] = "no-referrer"
     response.headers["Permissions-Policy"] = "geolocation=()"
-    # HSTS: only set when HTTPS enforcement is enabled
-    if app.config.get("FORCE_HTTPS"):
-        response.headers["Strict-Transport-Security"] = (
-            "max-age=31536000; includeSubDomains; preload"
-        )
+    # HSTS: only useful when serving HTTPS
+    response.headers["Strict-Transport-Security"] = (
+        "max-age=31536000; includeSubDomains"
+    )
     # Prevent caching of user content
     response.headers["Cache-Control"] = "no-store, no-cache, must-revalidate, private"
     return response
-
-
-@app.before_request
-def enforce_https():
-    """Redirect to HTTPS when FORCE_HTTPS is enabled.
-
-    Respect `X-Forwarded-Proto` (useful when TLS is terminated by a proxy/load balancer).
-    Only redirects for safe methods (GET, HEAD); other methods return 426 Upgrade Required.
-    """
-    if not app.config.get("FORCE_HTTPS"):
-        return
-
-    # If request appears secure, do nothing
-    if request.is_secure:
-        return
-    if request.headers.get("X-Forwarded-Proto", "").lower() == "https":
-        return
-
-    # Redirect GET/HEAD to https; reject other methods
-    if request.method in ("GET", "HEAD"):
-        url = request.url.replace("http://", "https://", 1)
-        return redirect(url, code=301)
-    return Response("Please use HTTPS when connecting to this server.", status=426)
 
 
 @app.route("/", methods=["GET"])
