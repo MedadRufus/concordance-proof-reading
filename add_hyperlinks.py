@@ -205,8 +205,9 @@ def main():
             z-index: 1000;
             opacity: 0;
             pointer-events: none;
-            white-space: nowrap;
+            white-space: normal;
             min-width: 300px;
+            word-wrap: break-word;
         }
         .bible-ref:hover::after {
             opacity: 1;
