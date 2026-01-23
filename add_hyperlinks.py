@@ -91,15 +91,21 @@ ABBR_PATTERN = "|".join(re.escape(abbr) for abbr in sorted_abbrs)
 
 # Books with a single chapter where references are commonly written as "Philem. 9" rather than "Philem. 1:9"
 SINGLE_CHAPTER_ABBR = {"Obad.", "Philem.", "2 Jn.", "3 Jn.", "Jude"}
-SINGLE_CHAPTER_BOOKS = {BOOK_ABBR_TO_FULL[a] for a in SINGLE_CHAPTER_ABBR if a in BOOK_ABBR_TO_FULL}
+SINGLE_CHAPTER_BOOKS = {
+    BOOK_ABBR_TO_FULL[a] for a in SINGLE_CHAPTER_ABBR if a in BOOK_ABBR_TO_FULL
+}
 single_abbrs_sorted = sorted(SINGLE_CHAPTER_ABBR, key=lambda x: -len(x))
 SINGLE_ABBR_PATTERN = "|".join(re.escape(abbr) for abbr in single_abbrs_sorted)
 
+# For chapter:verse matching we should NOT match single-chapter book abbreviations
+non_single_abbrs = [abbr for abbr in sorted_abbrs if abbr not in SINGLE_CHAPTER_ABBR]
+NON_SINGLE_ABBR_PATTERN = "|".join(re.escape(abbr) for abbr in non_single_abbrs)
+
 # Pattern supports two branches:
-#  - regular (book + chapter:verse[, ...]) for all books
-#  - verse-only (book + verse[, ...]) for single-chapter books
-branch1 = rf"(?P<abbr1>{ABBR_PATTERN})\s+(?P<refs1>\d+:\d+(?:,\s*(?:\d+:\d+|\d+))*)"
-branch2 = rf"(?P<abbr2>{SINGLE_ABBR_PATTERN})\s+(?P<refs2>\d+(?:,\s*\d+)*)"
+#  - regular (book + chapter:verse[, ...]) for non-single-chapter books
+#  - verse-only (book + verse[, ...]) for single-chapter books (e.g., 'Philem. 9')
+branch1 = rf"(?P<abbr1>{NON_SINGLE_ABBR_PATTERN})\s+(?P<refs1>\d+:\d+(?:,\s*(?:\d+:\d+|\d+))*)"
+branch2 = rf"(?P<abbr2>{SINGLE_ABBR_PATTERN})\s+(?P<refs2>\d+(?:,\s*\d+)*)(?!:)"
 ref_pattern = re.compile(rf"\b(?:{branch1}|{branch2})")
 
 try:
