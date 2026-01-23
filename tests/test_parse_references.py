@@ -1,8 +1,5 @@
 import os
-import re
 import sys
-
-import pytest
 
 # Ensure project root is on sys.path so tests can import top-level modules
 sys.path.insert(0, os.path.dirname(os.path.dirname(__file__)))
@@ -129,11 +126,12 @@ def test_same_chapter_multiple_verses():
 
 
 def test_angel_of_the_lord_case():
-    # This is one hard test case. There are multiple chapter:verse pairs for a single book, also multiple
-    # verses for single chapter in a row.
+    # This is one hard test case. There are multiple chapter:verse pairs for a single book, also
+    # multiple verses for single chapter in a row.
     s = (
-        "ANGEL OF THE LORD Gen. 16:7, 22:11,15; Num. 22:23, 25:27; Judg. 5:23, 6:11,21, 13:3,20,21; "
-        "2 Sam. 24:16; 2 Ki. 19:35; 1 Chr. 21:12,15,30; Ps. 34:7, 35:5,6; Is. 37:36; Zech. 1:12, 3:5,6, 12:8|"
+        "ANGEL OF THE LORD Gen. 16:7, 22:11,15; Num. 22:23, 25:27; Judg. 5:23, 6:11,21, "
+        "13:3,20,21; 2 Sam. 24:16; 2 Ki. 19:35; 1 Chr. 21:12,15,30; Ps. 34:7, 35:5,6; Is. 37:36; "
+        "Zech. 1:12, 3:5,6, 12:8|"
     )
     parsed = parse_references(s, {})
     # Total number of individual references expected for this case

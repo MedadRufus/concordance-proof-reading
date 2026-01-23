@@ -85,14 +85,13 @@ BOOK_ABBR_TO_FULL = {
     "Rev.": "Revelation",
 }
 
-# Books with a single chapter where references are commonly written as "Philem. 9" rather than "Philem. 1:9"
+# Books with a single chapter where references are commonly written as "Philem. 9" rather than 
+# "Philem. 1:9"
 SINGLE_CHAPTER_ABBR = {"Obad.", "Philem.", "2 Jn.", "3 Jn.", "Jude"}
-SINGLE_CHAPTER_BOOKS = {
-    BOOK_ABBR_TO_FULL[a] for a in SINGLE_CHAPTER_ABBR if a in BOOK_ABBR_TO_FULL
-}
+SINGLE_CHAPTER_BOOKS = {BOOK_ABBR_TO_FULL[a] for a in SINGLE_CHAPTER_ABBR if a in BOOK_ABBR_TO_FULL}
 
-# Build regex patterns. I Medad barely understand the regex. The only thing that I read are the unittests
-# which have concrete test cases.
+# Build regex patterns. I Medad barely understand the regex. The only thing that I read are the 
+# unittests which have concrete test cases.
 sorted_abbrs = sorted(BOOK_ABBR_TO_FULL, key=lambda x: -len(x))
 # For chapter:verse matching we should NOT match single-chapter book abbreviations
 non_single = [a for a in sorted_abbrs if a not in SINGLE_CHAPTER_ABBR]
@@ -104,9 +103,7 @@ SINGLE_PATTERN = "|".join(re.escape(a) for a in single)
 # Pattern supports two branches:
 #  - regular (book + chapter:verse[, ...]) for non-single-chapter books
 #  - verse-only (book + verse[, ...]) for single-chapter books (e.g., 'Philem. 9')
-branch1 = (
-    rf"(?P<abbr1>{NON_SINGLE_PATTERN})\s+(?P<refs1>\d+:\d+(?:,\s*(?:\d+:\d+|\d+))*)"
-)
+branch1 = rf"(?P<abbr1>{NON_SINGLE_PATTERN})\s+(?P<refs1>\d+:\d+(?:,\s*(?:\d+:\d+|\d+))*)"
 branch2 = rf"(?P<abbr2>{SINGLE_PATTERN})\s+(?P<refs2>\d+(?:,\s*\d+)*)(?!:)"
 ref_pattern = re.compile(rf"\b(?:{branch1}|{branch2})")
 
@@ -260,9 +257,7 @@ def main():
         txt = teletype.extractText(elem)
         if txt.strip():
             txt = re.sub(r"\s+", " ", txt)
-            txt_linked = ref_pattern.sub(
-                lambda m: replace_reference(m, kjv_verses), txt
-            )
+            txt_linked = ref_pattern.sub(lambda m: replace_reference(m, kjv_verses), txt)
             paragraphs.append(txt_linked)
 
     style = """
