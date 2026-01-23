@@ -219,7 +219,7 @@ def replace_reference(match):
             else:
                 base_ref = part if has_colon else verse
 
-        # Mark missing refs
+        # Mark missing refs so that they can be found with a word search on the browser
         if not verse_exists:
             ref_text = f"{base_ref} [REF NOT FOUND]"
         else:
