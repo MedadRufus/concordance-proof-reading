@@ -108,6 +108,46 @@ branch1 = rf"(?P<abbr1>{NON_SINGLE_ABBR_PATTERN})\s+(?P<refs1>\d+:\d+(?:,\s*(?:\
 branch2 = rf"(?P<abbr2>{SINGLE_ABBR_PATTERN})\s+(?P<refs2>\d+(?:,\s*\d+)*)(?!:)"
 ref_pattern = re.compile(rf"\b(?:{branch1}|{branch2})")
 
+
+def parse_references(text):
+    """Parse scripture references in text and return a list of reference objects.
+
+    Each object has keys: abbr, book, chapter, verse, single_chapter, matched_text
+    """
+    results = []
+
+    for match in ref_pattern.finditer(text):
+        abbr = match.group("abbr1") or match.group("abbr2")
+        refs_part = match.group("refs1") or match.group("refs2")
+        full_book = BOOK_ABBR_TO_FULL.get(abbr, abbr)
+        single_chapter = full_book in SINGLE_CHAPTER_BOOKS
+
+        parts = [p.strip() for p in refs_part.split(",")]
+        current_chapter = None
+        for part in parts:
+            if ":" in part:
+                chapter, verse = part.split(":", 1)
+                current_chapter = chapter
+            else:
+                if single_chapter:
+                    chapter = "1"
+                else:
+                    chapter = current_chapter
+                verse = part
+
+            results.append(
+                {
+                    "abbr": abbr,
+                    "book": full_book,
+                    "chapter": chapter,
+                    "verse": verse,
+                    "single_chapter": single_chapter,
+                    "matched_text": match.group(0),
+                }
+            )
+
+    return results
+
 try:
     with open(KJV_JSON_PATH, "r", encoding="utf-8") as f:
         kjv_verses = json.load(f)
