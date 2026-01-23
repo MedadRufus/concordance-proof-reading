@@ -1,2 +1,16 @@
-# concordance-reading
- 
+# Concordance Proof Reading Application
+
+This application is used to convert a manaully proofread and edited concordance, that was originally OCR'ed from a
+printed concordance, into a html page which is easy to double check. The input is in the ODT file format.
+
+The key features are:
+1. All bible verse references are hyperlinks to Bible Gateway verses
+2. Also, on hover over the reference, the full verse appears at the tool tip
+3. References to non-existant verses appear as as "[REF NOT FOUND]" to make it easy to identify
+
+The hover verses are taken from https://github.com/farskipper/kjv which has the whole KJV bible in a JSON format.
+
+## HTML View
+
+This is how the html output looks like:
+![](docs/demo.png)
