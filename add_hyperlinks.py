@@ -1,3 +1,9 @@
+"""Utilities to convert ODT text references to HTML anchors linking to the KJV.
+
+This module provides helpers to parse Bible references and produce
+HTML anchors that link to BibleGateway with KJV verse tooltips.
+"""
+
 import html
 import json
 import os
@@ -85,12 +91,12 @@ BOOK_ABBR_TO_FULL = {
     "Rev.": "Revelation",
 }
 
-# Books with a single chapter where references are commonly written as "Philem. 9" rather than 
-# "Philem. 1:9"
+# Books with a single chapter where references are commonly written as "Philem. 9"
+# rather than "Philem. 1:9"
 SINGLE_CHAPTER_ABBR = {"Obad.", "Philem.", "2 Jn.", "3 Jn.", "Jude"}
 SINGLE_CHAPTER_BOOKS = {BOOK_ABBR_TO_FULL[a] for a in SINGLE_CHAPTER_ABBR if a in BOOK_ABBR_TO_FULL}
 
-# Build regex patterns. I Medad barely understand the regex. The only thing that I read are the 
+# Build regex patterns. I Medad barely understand the regex. The only thing that I read are the
 # unittests which have concrete test cases.
 sorted_abbrs = sorted(BOOK_ABBR_TO_FULL, key=lambda x: -len(x))
 # For chapter:verse matching we should NOT match single-chapter book abbreviations
@@ -109,18 +115,20 @@ ref_pattern = re.compile(rf"\b(?:{branch1}|{branch2})")
 
 
 def load_kjv(path):
+    """Load KJV verse JSON from `path` and return the parsed mapping."""
     try:
         with open(path, "r", encoding="utf-8") as f:
             return json.load(f)
     except FileNotFoundError as e:
         raise FileNotFoundError(
-            f"KJV Bible data file not found at '{path}'. "
-            "Please ensure the KJV JSON file is present in the expected directory."
+            f"KJV Bible data file not found at '{path}'. Ensure the KJV JSON file exists."
         ) from e
 
 
-class Reference:
-    def __init__(
+class Reference:  # pylint: disable=too-many-instance-attributes
+    """Represent a parsed Bible reference and produce HTML anchor/link information."""
+
+    def __init__(  # pylint: disable=too-many-arguments
         self,
         abbr,
         book,
@@ -132,6 +140,7 @@ class Reference:
         has_colon,
         verses,
     ):
+        """Initialize a Reference."""
         self.abbr = abbr
         self.book = book
         self.chapter = chapter
@@ -143,28 +152,22 @@ class Reference:
         self.verses = verses
 
     def visible(self, index):
+        """Return the visible text for the reference at the given position."""
         if self.single_chapter:
             if index == 0:
                 return f"{self.abbr} {self.verse}"
             return self.verse if not self.has_colon else self.part.split(":", 1)[1]
-        else:
-            if index == 0:
-                return f"{self.abbr} {self.chapter}:{self.verse}"
-            return self.part if self.has_colon else self.verse
+        if index == 0:
+            return f"{self.abbr} {self.chapter}:{self.verse}"
+        return self.part if self.has_colon else self.verse
 
     def get_verse_text(self):
+        """Return a tuple (verse_text, exists) for the first verse of the reference."""
         first_verse = self.verse.split("-")[0]
         key = f"{self.book} {self.chapter}:{first_verse}"
-        verse_text = self.verses.get(key, "")
-        if verse_text:
-            return (
-                f"{self.book} {self.chapter}:{first_verse} (KJV) - {verse_text}",
-                True,
-            )
-        return (
-            f"{self.book} {self.chapter}:{first_verse} (KJV) - Reference not found",
-            False,
-        )
+        if verse_text := self.verses.get(key, ""):
+            return f"{self.book} {self.chapter}:{first_verse} (KJV) - {verse_text}", True
+        return f"{self.book} {self.chapter}:{first_verse} (KJV) - Reference not found", False
 
     def resolve(self):
         """Return (verse_text, verse_exists, url) for this reference."""
@@ -190,6 +193,7 @@ class Reference:
 
 
 def parse_references(text, verses):
+    """Parse all Bible references in `text` and return a list of `Reference` objects."""
     results = []
     for match in ref_pattern.finditer(text):
         abbr = match.group("abbr1") or match.group("abbr2")
@@ -201,8 +205,7 @@ def parse_references(text, verses):
         current_chapter = None
 
         for part in parts:
-            has_colon = ":" in part
-            if has_colon:
+            if has_colon := ":" in part:
                 chapter, verse = part.split(":", 1)
                 current_chapter = chapter
             else:
@@ -229,11 +232,9 @@ def parse_references(text, verses):
 
 
 def replace_reference(match, verses):
-    refs = parse_references(match.group(0), verses)
-    # If parse_references for some reason returns nothing, fall back to leaving text unchanged
-    if not refs:
+    """Replace a matched reference span with HTML anchors for each parsed reference."""
+    if not (refs := parse_references(match.group(0), verses)):
         return match.group(0)
-
     return ", ".join(r.to_anchor(i) for i, r in enumerate(refs))
 
 
@@ -252,52 +253,105 @@ def main():
     doc = load(odt_path)
     kjv_verses = load_kjv(KJV_JSON_PATH)
 
-    paragraphs = []
-    for elem in doc.getElementsByType(P):
-        txt = teletype.extractText(elem)
-        if txt.strip():
-            txt = re.sub(r"\s+", " ", txt)
-            txt_linked = ref_pattern.sub(lambda m: replace_reference(m, kjv_verses), txt)
-            paragraphs.append(txt_linked)
+    paragraphs = extract_paragraphs(doc, kjv_verses)
 
     style = """
         body { font-family: Arial, sans-serif; line-height: 1.6; margin: 40px; }
         p { margin: 0 0 1em 0; }
-        .bible-ref { 
-            color: #0066cc; cursor: help; border-bottom: 1px dotted #0066cc;
-            text-decoration: none; position: relative;
+
+        .bible-ref {
+            color: #0066cc;
+            cursor: help;
+            border-bottom: 1px dotted #0066cc;
+            text-decoration: none;
+            position: relative;
         }
-        .bible-ref:hover { background-color: #f0f8ff; text-decoration: underline; }
+
+        .bible-ref:hover {
+            background-color: #f0f8ff;
+            text-decoration: underline;
+        }
+
         .bible-ref::after {
-            content: attr(data-verse); position: absolute; bottom: 100%; left: 0;
-            background: #333; color: white; padding: 8px 12px; border-radius: 4px;
-            font-size: 12px; z-index: 1000; opacity: 0; pointer-events: none;
-            min-width: 300px; white-space: normal; word-wrap: break-word;
+            content: attr(data-verse);
+            position: absolute;
+            bottom: 100%;
+            left: 0;
+            background: #333;
+            color: white;
+            padding: 8px 12px;
+            border-radius: 4px;
+            font-size: 12px;
+            z-index: 1000;
+            opacity: 0;
+            pointer-events: none;
+            min-width: 300px;
+            white-space: normal;
+            word-wrap: break-word;
         }
+
         .bible-ref:hover::after { opacity: 1; }
-        .bible-ref-missing { 
-            color: #cc0000; cursor: help; border-bottom: 2px solid #cc0000;
-            text-decoration: none; position: relative; background-color: #ffe6e6;
+
+        .bible-ref-missing {
+            color: #cc0000;
+            cursor: help;
+            border-bottom: 2px solid #cc0000;
+            text-decoration: none;
+            position: relative;
+            background-color: #ffe6e6;
         }
+
         .bible-ref-missing:hover { background-color: #ffcccc; text-decoration: underline; }
+
         .bible-ref-missing::after {
-            content: attr(data-verse); position: absolute; bottom: 100%; left: 0;
-            background: #cc0000; color: white; padding: 8px 12px; border-radius: 4px;
-            font-size: 12px; z-index: 1000; opacity: 0; pointer-events: none;
-            max-width: 400px; white-space: normal; word-wrap: break-word;
+            content: attr(data-verse);
+            position: absolute;
+            bottom: 100%;
+            left: 0;
+            background: #cc0000;
+            color: white;
+            padding: 8px 12px;
+            border-radius: 4px;
+            font-size: 12px;
+            z-index: 1000;
+            opacity: 0;
+            pointer-events: none;
+            max-width: 400px;
+            white-space: normal;
+            word-wrap: break-word;
         }
+
         .bible-ref-missing:hover::after { opacity: 1; }
     """
 
-    html_content = f"""<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Bible Concordance</title>
-    <style>{style}</style>
-</head>
-<body>
-"""
+    write_html(paragraphs, html_path, style)
+
+
+def extract_paragraphs(doc, verses):
+    """Extract visible paragraphs from ODT `doc` and replace references using `verses`."""
+    paragraphs = []
+    for elem in doc.getElementsByType(P):
+        txt = teletype.extractText(elem)
+        if not txt.strip():
+            continue
+        txt = re.sub(r"\s+", " ", txt)
+        txt_linked = ref_pattern.sub(lambda m: replace_reference(m, verses), txt)
+        paragraphs.append(txt_linked)
+    return paragraphs
+
+
+def write_html(paragraphs, html_path, style):
+    """Write `paragraphs` to `html_path` wrapped in a simple HTML document using `style`."""
+    html_content = (
+        "<!DOCTYPE html>\n"
+        '<html lang="en">\n'
+        "<head>\n"
+        '    <meta charset="UTF-8">\n'
+        "    <title>Bible Concordance</title>\n"
+        f"    <style>{style}</style>\n"
+        "</head>\n"
+        "<body>\n"
+    )
     for p in paragraphs:
         html_content += f"<p>{p}</p>\n"
     html_content += "</body>\n</html>"
