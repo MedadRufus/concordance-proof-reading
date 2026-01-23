@@ -1,9 +1,9 @@
 # Reference: https://github.com/canonical/apport/blob/d3a721ec9607bf018e0dacba8e51e8cf312e6d1e/pyproject.toml
 [tool.black]
-line-length = 88
+line-length = 100
 
 [tool.isort]
-line_length = 88
+line_length = 100
 profile = "black"
 
 [tool.pylint.main]
@@ -41,4 +41,4 @@ max-complexity = 5
 
 [tool.pylint.format]
 # Maximum number of characters on a single line.
-max-line-length = 88
+max-line-length = 100
