@@ -32,8 +32,7 @@ jobs:
         run: isort --check-only .
 
       - name: Pylint ✅
-        run: |
-          git ls-files '*.py' | xargs -r pylint
+        run: pylint $(git ls-files '*.py')
 
       - name: Run tests ✅
         run: pytest -q
