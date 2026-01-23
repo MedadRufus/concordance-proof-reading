@@ -373,4 +373,6 @@ def write_html(paragraphs, html_path, style):
 
 
 if __name__ == "__main__":
+    # Example usage:
+    # python3 add_hyperlinks.py input/concordance.odt output/concordance.html
     main()
