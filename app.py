@@ -8,8 +8,17 @@ import zipfile
 from datetime import datetime
 from functools import wraps
 
-from flask import (Flask, Response, abort, make_response, redirect,
-                   render_template, request, send_file, url_for)
+from flask import (
+    Flask,
+    Response,
+    abort,
+    make_response,
+    redirect,
+    render_template,
+    request,
+    send_file,
+    url_for,
+)
 from werkzeug.utils import secure_filename
 
 from add_hyperlinks import convert_odt_bytes_to_html
