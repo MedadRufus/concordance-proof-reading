@@ -22,9 +22,9 @@ def test_space_after_period_matches():
     parsed = parse_references(s)
     assert len(parsed) == 1
     ref = parsed[0]
-    assert ref["book"] == "Luke"
-    assert ref["chapter"] == "18"
-    assert ref["verse"] == "3"
+    assert ref.book == "Luke"
+    assert ref.chapter == "18"
+    assert ref.verse == "3"
 
 
 def test_semicolon_between_refs():
@@ -32,8 +32,8 @@ def test_semicolon_between_refs():
     parsed = parse_references(s)
     # semicolon prevents the second ref from being parsed in the same match
     assert len(parsed) == 1
-    assert parsed[0]["chapter"] == "14"
-    assert parsed[0]["verse"] == "11"
+    assert parsed[0].chapter == "14"
+    assert parsed[0].verse == "11"
 
     # Replacement should produce one anchor and leave the second ref plaintext
     replaced = ref_pattern.sub(replace_reference, s)
@@ -49,9 +49,9 @@ def test_in_christ_space_after_comma():
     parsed = parse_references(s_good)
     assert len(parsed) == 1
     ref = parsed[0]
-    assert ref["book"] == "1 Corinthians"
-    assert ref["chapter"] == "15"
-    assert ref["verse"] == "8"
+    assert ref.book == "1 Corinthians"
+    assert ref.chapter == "15"
+    assert ref.verse == "8"
 
 
 def test_deu_period_vs_colon():
@@ -61,9 +61,9 @@ def test_deu_period_vs_colon():
     good = "Deu. 16:19"
     parsed = parse_references(good)
     assert len(parsed) == 1
-    assert parsed[0]["book"] == "Deuteronomy"
-    assert parsed[0]["chapter"] == "16"
-    assert parsed[0]["verse"] == "19"
+    assert parsed[0].book == "Deuteronomy"
+    assert parsed[0].chapter == "16"
+    assert parsed[0].verse == "19"
 
 
 def test_deu_missing_period():
@@ -75,9 +75,10 @@ def test_phm_single_chapter_and_explicit():
     s_shorthand = "Philem. 9"
     parsed = parse_references(s_shorthand)
     assert len(parsed) == 1
-    assert parsed[0]["book"] == "Philemon" or parsed[0]["book"] == "Philem."
-    assert parsed[0]["chapter"] == "1"
-    assert parsed[0]["verse"] == "9"
+    ref = parsed[0]
+    assert ref.book == "Philemon"
+    assert ref.chapter == "1"
+    assert ref.verse == "9"
 
     s_explicit = "Philem. 1:9"
     parsed2 = parse_references(s_explicit)

@@ -3,6 +3,8 @@ import json
 import os
 import re
 import sys
+from dataclasses import dataclass
+from typing import Optional, List
 
 from odf import teletype
 from odf.opendocument import load
@@ -109,15 +111,24 @@ branch2 = rf"(?P<abbr2>{SINGLE_ABBR_PATTERN})\s+(?P<refs2>\d+(?:,\s*\d+)*)(?!:)"
 ref_pattern = re.compile(rf"\b(?:{branch1}|{branch2})")
 
 
-def parse_references(text):
-    """Parse scripture references in text and return a list of reference objects.
+@dataclass
+class Reference:
+    abbr: str
+    book: str
+    chapter: Optional[str]
+    verse: str
+    single_chapter: bool
+    matched_text: str
+    part: str
+    has_colon: bool
 
-    Each object has keys:
-      - abbr, book, chapter, verse, single_chapter, matched_text
-      - part: the original part string (e.g., '18:14' or '14')
-      - has_colon: whether the original part contained ':'
+
+def parse_references(text) -> List[Reference]:
+    """Parse scripture references in text and return a list of Reference objects.
+
+    Each Reference includes: abbr, book, chapter, verse, single_chapter, matched_text, part, has_colon
     """
-    results = []
+    results: List[Reference] = []
 
     for match in ref_pattern.finditer(text):
         abbr = match.group("abbr1") or match.group("abbr2")
@@ -140,16 +151,16 @@ def parse_references(text):
                 verse = part
 
             results.append(
-                {
-                    "abbr": abbr,
-                    "book": full_book,
-                    "chapter": chapter,
-                    "verse": verse,
-                    "single_chapter": single_chapter,
-                    "matched_text": match.group(0),
-                    "part": part,
-                    "has_colon": has_colon,
-                }
+                Reference(
+                    abbr=abbr,
+                    book=full_book,
+                    chapter=chapter,
+                    verse=verse,
+                    single_chapter=single_chapter,
+                    matched_text=match.group(0),
+                    part=part,
+                    has_colon=has_colon,
+                )
             )
 
     return results
@@ -182,17 +193,17 @@ def replace_reference(match):
     if not refs:
         return matched_text
 
-    full_book = refs[0]["book"]
-    single_chapter = refs[0]["single_chapter"]
-    abbr = refs[0]["abbr"]
+    full_book = refs[0].book
+    single_chapter = refs[0].single_chapter
+    abbr = refs[0].abbr
 
     linked_parts = []
 
     for i, ref in enumerate(refs):
-        chapter = ref["chapter"]
-        verse = ref["verse"]
-        part = ref["part"]
-        has_colon = ref["has_colon"]
+        chapter = ref.chapter
+        verse = ref.verse
+        part = ref.part
+        has_colon = ref.has_colon
 
         first_verse = verse.split("-")[0]
 
