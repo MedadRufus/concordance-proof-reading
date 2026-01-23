@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Conversion Result</title>
+  <style>
+    body { font-family: Arial, sans-serif; max-width: 720px; margin: 3rem auto; padding: 0 1rem; }
+    .card { border: 1px solid #ddd; padding: 1.5rem; border-radius: 6px; }
+    .buttons a { margin-right: 0.8rem; }
+  </style>
+</head>
+<body>
+  <h1>Conversion Complete ✅</h1>
+  <div class="card">
+    <p>File: <strong>{{ input_name }}</strong></p>
+    <div class="buttons">
+      <a href="/preview/{{ upload_id }}" target="_blank">Open Preview (new tab)</a>
+      <a href="/download/{{ upload_id }}">Download HTML</a>
+    </div>
+    <p class="hint">Temporary files are stored in the server's temp directory.</p>
+  </div>
+</body>
+</html>

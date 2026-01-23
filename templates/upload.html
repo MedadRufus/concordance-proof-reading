@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>ODT → HTML Converter</title>
+  <style>
+    body { font-family: Arial, sans-serif; max-width: 720px; margin: 3rem auto; padding: 0 1rem; }
+    .card { border: 1px solid #ddd; padding: 1.5rem; border-radius: 6px; }
+    .actions { margin-top: 1rem; }
+    .hint { color: #666; font-size: 0.9rem; }
+  </style>
+</head>
+<body>
+  <h1>ODT → HTML Converter</h1>
+  <div class="card">
+    <form action="/upload" method="post" enctype="multipart/form-data">
+      <label for="file">Choose .odt file</label><br>
+      <input type="file" name="file" id="file" accept=".odt"><br>
+      <div class="actions">
+        <button type="submit">Upload & Convert</button>
+      </div>
+      <p class="hint">After conversion you'll get a link to preview in a new tab and download the HTML.</p>
+    </form>
+  </div>
+</body>
+</html>

@@ -161,17 +161,14 @@ def replace_reference(match):
     return ", ".join(linked_parts)
 
 
-def main():
-    if len(sys.argv) != 3:
-        print("Usage: python odt_bible_links.py <input.odt> <output.html>")
-        sys.exit(1)
+def convert_odt_to_html(odt_path, html_path):
+    """Convert an ODT file to HTML and save to html_path.
 
-    odt_path = sys.argv[1]
-    html_path = sys.argv[2]
-
+    Raises FileNotFoundError if input not found, or re-raises exceptions from conversion.
+    Returns the path to the saved HTML file on success.
+    """
     if not os.path.exists(odt_path):
-        print(f"Error: File '{odt_path}' not found.")
-        sys.exit(1)
+        raise FileNotFoundError(f"File '{odt_path}' not found.")
 
     doc = load(odt_path)
     paragraphs = []
@@ -264,7 +261,23 @@ def main():
     with open(html_path, "w", encoding="utf-8") as f:
         f.write(html_content)
 
-    print(f"Success: HTML saved to {html_path}")
+    return html_path
+
+
+def main():
+    if len(sys.argv) != 3:
+        print("Usage: python odt_bible_links.py <input.odt> <output.html>")
+        sys.exit(1)
+
+    odt_path = sys.argv[1]
+    html_path = sys.argv[2]
+
+    try:
+        out = convert_odt_to_html(odt_path, html_path)
+        print(f"Success: HTML saved to {out}")
+    except Exception as e:
+        print(f"Error: {e}")
+        sys.exit(1)
 
 
 if __name__ == "__main__":
