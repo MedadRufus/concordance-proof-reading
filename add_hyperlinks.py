@@ -4,7 +4,7 @@ import os
 import re
 import sys
 from dataclasses import dataclass
-from typing import Optional, List
+from typing import List, Optional, Tuple
 
 from odf import teletype
 from odf.opendocument import load
@@ -122,6 +122,56 @@ class Reference:
     part: str
     has_colon: bool
 
+    def visible(self, index: int) -> str:
+        """Return the visible short form for this reference (what the user sees)."""
+        if self.single_chapter:
+            if index == 0:
+                return f"{self.abbr} {self.verse}"
+            return self.verse if not self.has_colon else self.part.split(":", 1)[1]
+
+        if index == 0:
+            return f"{self.abbr} {self.chapter}:{self.verse}"
+
+        return self.part if self.has_colon else self.verse
+
+    def get_verse_text(self) -> Tuple[str, bool]:
+        """Return the verse text and whether it exists in the local KJV data."""
+        first_verse = self.verse.split("-")[0]
+        # If chapter is None this helper will not be used to build URLs; resolve handles that case.
+        key = f"{self.book} {self.chapter}:{first_verse}"
+        verse_text = kjv_verses.get(key, "")
+        if verse_text:
+            return (
+                f"{self.book} {self.chapter}:{first_verse} (KJV) - {verse_text}",
+                True,
+            )
+        return (
+            f"{self.book} {self.chapter}:{first_verse} (KJV) - Reference not found",
+            False,
+        )
+
+    def resolve(self):
+        """Return (verse_text, verse_exists, url) for this reference."""
+        first_verse = self.verse.split("-")[0]
+        if self.chapter is None:
+            url = f"https://www.biblegateway.com/passage/?search={self.book}+{first_verse}&version=KJV"
+            return "", False, url
+
+        verse_text, verse_exists = self.get_verse_text()
+        url = f"https://www.biblegateway.com/passage/?search={self.book}+{self.chapter}%3A{first_verse}&version=KJV"
+        return verse_text, verse_exists, url
+
+    def to_anchor(self, index: int) -> str:
+        """Construct the anchor HTML for this reference."""
+        verse_text, verse_exists, url = self.resolve()
+        visible = self.visible(index)
+        css_class = "bible-ref" if verse_exists else "bible-ref-missing"
+        ref_text = f"{visible} [REF NOT FOUND]" if not verse_exists else visible
+        return (
+            f'<a href="{html.escape(url)}" class="{css_class}" '
+            f'data-verse="{html.escape(verse_text)}">{html.escape(ref_text)}</a>'
+        )
+
 
 def parse_references(text) -> List[Reference]:
     """Parse scripture references in text and return a list of Reference objects.
@@ -176,72 +226,14 @@ except FileNotFoundError as e:
     ) from e
 
 
-def get_verse_text(book, chapter, verse):
-    """Get verse text from local KJV data"""
-    key = f"{book} {chapter}:{verse}"
-    verse_text = kjv_verses.get(key, "")
-    if verse_text:
-        return f"{book} {chapter}:{verse} (KJV) - {verse_text}", True
-    return f"{book} {chapter}:{verse} (KJV) - Reference not found", False
-
-
 def replace_reference(match):
     """Build replacement HTML for a regex match using parse_references."""
-    matched_text = match.group(0)
-    refs = parse_references(matched_text)
+    refs = parse_references(match.group(0))
     # If parse_references for some reason returns nothing, fall back to leaving text unchanged
     if not refs:
-        return matched_text
+        return match.group(0)
 
-    full_book = refs[0].book
-    single_chapter = refs[0].single_chapter
-    abbr = refs[0].abbr
-
-    linked_parts = []
-
-    for i, ref in enumerate(refs):
-        chapter = ref.chapter
-        verse = ref.verse
-        part = ref.part
-        has_colon = ref.has_colon
-
-        first_verse = verse.split("-")[0]
-
-        # If chapter is still None (e.g., malformed reference like "Gen. 3"), mark as not found
-        if chapter is None:
-            verse_text, verse_exists = "", False
-            search_query = f"{full_book}+{first_verse}"
-            url = f"https://www.biblegateway.com/passage/?search={search_query}&version=KJV"
-        else:
-            verse_text, verse_exists = get_verse_text(full_book, chapter, first_verse)
-            search_query = f"{full_book}+{chapter}%3A{first_verse}"
-            url = f"https://www.biblegateway.com/passage/?search={search_query}&version=KJV"
-
-        # Build visible reference text
-        if single_chapter:
-            # For single chapter books, prefer 'Philem. 9' (omit the '1:' chapter)
-            if i == 0:
-                base_ref = f"{abbr} {verse}"
-            else:
-                base_ref = verse if not has_colon else part.split(":", 1)[1]
-        else:
-            if i == 0:
-                base_ref = f"{abbr} {chapter}:{verse}"
-            else:
-                base_ref = part if has_colon else verse
-
-        # Mark missing refs so that they can be found with a word search on the browser
-        if not verse_exists:
-            ref_text = f"{base_ref} [REF NOT FOUND]"
-        else:
-            ref_text = base_ref
-
-        css_class = "bible-ref" if verse_exists else "bible-ref-missing"
-        linked_parts.append(
-            f'<a href="{html.escape(url)}" class="{css_class}" data-verse="{html.escape(verse_text)}">{html.escape(ref_text)}</a>'
-        )
-
-    return ", ".join(linked_parts)
+    return ", ".join(r.to_anchor(i) for i, r in enumerate(refs))
 
 
 def main():
