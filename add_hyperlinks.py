@@ -3,6 +3,7 @@ import json
 import os
 import re
 import sys
+import io
 
 from odf import teletype
 from odf.opendocument import load
@@ -161,16 +162,10 @@ def replace_reference(match):
     return ", ".join(linked_parts)
 
 
-def convert_odt_to_html(odt_path, html_path):
-    """Convert an ODT file to HTML and save to html_path.
-
-    Raises FileNotFoundError if input not found, or re-raises exceptions from conversion.
-    Returns the path to the saved HTML file on success.
-    """
-    if not os.path.exists(odt_path):
-        raise FileNotFoundError(f"File '{odt_path}' not found.")
-
-    doc = load(odt_path)
+def convert_odt_bytes_to_html(odt_bytes):
+    """Convert ODT bytes to an HTML string (keeps everything in memory)."""
+    bio = io.BytesIO(odt_bytes)
+    doc = load(bio)
     paragraphs = []
     for elem in doc.getElementsByType(P):
         txt = teletype.extractText(elem)
@@ -257,6 +252,19 @@ def convert_odt_to_html(odt_path, html_path):
     for p in paragraphs:
         html_content += f"<p>{p}</p>\n"
     html_content += "</body>\n</html>"
+
+    return html_content
+
+
+def convert_odt_to_html(odt_path, html_path):
+    """Compatibility wrapper: read file and save to disk."""
+    if not os.path.exists(odt_path):
+        raise FileNotFoundError(f"File '{odt_path}' not found.")
+
+    with open(odt_path, "rb") as f:
+        odt_bytes = f.read()
+
+    html_content = convert_odt_bytes_to_html(odt_bytes)
 
     with open(html_path, "w", encoding="utf-8") as f:
         f.write(html_content)
