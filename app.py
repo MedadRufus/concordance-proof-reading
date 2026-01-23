@@ -92,7 +92,11 @@ def rate_limit_ok(ip):
 def cleanup_worker():
     while True:
         now = time.time()
-        stale = [uid for uid, info in list(uploads.items()) if now - info.get("ts", now) > UPLOAD_TTL]
+        stale = [
+            uid
+            for uid, info in list(uploads.items())
+            if now - info.get("ts", now) > UPLOAD_TTL
+        ]
         for uid in stale:
             uploads.pop(uid, None)
             logger.info(f"Cleaned stale upload {uid}")
@@ -115,7 +119,9 @@ def set_security_headers(response):
     response.headers["Permissions-Policy"] = "geolocation=()"
     # HSTS: only set when HTTPS enforcement is enabled
     if app.config.get("FORCE_HTTPS"):
-        response.headers["Strict-Transport-Security"] = "max-age=31536000; includeSubDomains; preload"
+        response.headers["Strict-Transport-Security"] = (
+            "max-age=31536000; includeSubDomains; preload"
+        )
     # Prevent caching of user content
     response.headers["Cache-Control"] = "no-store, no-cache, must-revalidate, private"
     return response
@@ -183,7 +189,11 @@ def upload():
         return f"Conversion error: {e}", 500
 
     upload_id = uuid.uuid4().hex
-    uploads[upload_id] = {"html": html_output, "ts": time.time(), "input_name": filename}
+    uploads[upload_id] = {
+        "html": html_output,
+        "ts": time.time(),
+        "input_name": filename,
+    }
 
     return redirect(url_for("result", upload_id=upload_id))
 
@@ -193,7 +203,9 @@ def result(upload_id):
     info = uploads.get(upload_id)
     if not info:
         abort(404)
-    return render_template("result.html", upload_id=upload_id, input_name=info.get("input_name"))
+    return render_template(
+        "result.html", upload_id=upload_id, input_name=info.get("input_name")
+    )
 
 
 @app.route("/preview/<upload_id>", methods=["GET"])
@@ -223,7 +235,9 @@ def download(upload_id):
         bio,
         mimetype="text/html",
         as_attachment=True,
-        download_name=safe_name if safe_name.lower().endswith(".html") else safe_name + ".html",
+        download_name=(
+            safe_name if safe_name.lower().endswith(".html") else safe_name + ".html"
+        ),
     )
 
 
