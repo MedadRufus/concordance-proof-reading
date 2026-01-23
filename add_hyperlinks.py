@@ -173,11 +173,17 @@ class Reference:  # pylint: disable=too-many-instance-attributes
         """Return (verse_text, verse_exists, url) for this reference."""
         first_verse = self.verse.split("-")[0]
         if self.chapter is None:
-            url = f"https://www.biblegateway.com/passage/?search={self.book}+{first_verse}&version=KJV"
+            url = (
+                "https://www.biblegateway.com/passage/?search="
+                f"{self.book}+{first_verse}&version=KJV"
+            )
             return "", False, url
 
         verse_text, verse_exists = self.get_verse_text()
-        url = f"https://www.biblegateway.com/passage/?search={self.book}+{self.chapter}%3A{first_verse}&version=KJV"
+        url = (
+            "https://www.biblegateway.com/passage/?search="
+            f"{self.book}+{self.chapter}%3A{first_verse}&version=KJV"
+        )
         return verse_text, verse_exists, url
 
     def to_anchor(self, index: int) -> str:
