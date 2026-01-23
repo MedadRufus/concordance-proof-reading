@@ -126,3 +126,53 @@ def test_same_chapter_multiple_verses():
     replacer = lambda m: replace_reference(m, {})
     replaced = ref_pattern.sub(replacer, s)
     assert replaced.count("<a ") == 2
+
+
+def test_angel_of_the_lord_case():
+    # This is one hard test case. There are multiple chapter:verse pairs for a single book, also multiple
+    # verses for single chapter in a row.
+    s = (
+        "ANGEL OF THE LORD Gen. 16:7, 22:11,15; Num. 22:23, 25:27; Judg. 5:23, 6:11,21, 13:3,20,21; "
+        "2 Sam. 24:16; 2 Ki. 19:35; 1 Chr. 21:12,15,30; Ps. 34:7, 35:5,6; Is. 37:36; Zech. 1:12, 3:5,6, 12:8|"
+    )
+    parsed = parse_references(s, {})
+    # Total number of individual references expected for this case
+    assert len(parsed) == 24
+
+    expected = [
+        ("Genesis", "16", "7"),
+        ("Genesis", "22", "11"),
+        ("Genesis", "22", "15"),
+        ("Numbers", "22", "23"),
+        ("Numbers", "25", "27"),
+        ("Judges", "5", "23"),
+        ("Judges", "6", "11"),
+        ("Judges", "6", "21"),
+        ("Judges", "13", "3"),
+        ("Judges", "13", "20"),
+        ("Judges", "13", "21"),
+        ("2 Samuel", "24", "16"),
+        ("2 Kings", "19", "35"),
+        ("1 Chronicles", "21", "12"),
+        ("1 Chronicles", "21", "15"),
+        ("1 Chronicles", "21", "30"),
+        ("Psalms", "34", "7"),
+        ("Psalms", "35", "5"),
+        ("Psalms", "35", "6"),
+        ("Isaiah", "37", "36"),
+        ("Zechariah", "1", "12"),
+        ("Zechariah", "3", "5"),
+        ("Zechariah", "3", "6"),
+        ("Zechariah", "12", "8"),
+    ]
+
+    for idx, (exp_book, exp_ch, exp_v) in enumerate(expected):
+        r = parsed[idx]
+        assert (
+            r.book == exp_book and r.chapter == exp_ch and r.verse == exp_v
+        ), f"Mismatch at index {idx}: got ({r.book}, {r.chapter}, {r.verse}), expected ({exp_book}, {exp_ch}, {exp_v})"
+
+    # Replacement should produce one anchor per reference (24)
+    replacer = lambda m: replace_reference(m, {})
+    replaced = ref_pattern.sub(replacer, s)
+    assert replaced.count("<a ") == 24
