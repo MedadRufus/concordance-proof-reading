@@ -140,9 +140,16 @@ def replace_reference(match):
         url = f"https://www.biblegateway.com/passage/?search={search_query}&version=KJV"
 
         if i == 0:
-            ref_text = f"{abbr} {chapter}:{verse}"
+            base_ref = f"{abbr} {chapter}:{verse}"
         else:
-            ref_text = verse if ":" not in part else part
+            base_ref = verse if ":" not in part else part
+
+        # Use base_ref as visible text, but mark it if ref not found so that its easy to search for
+        # using the web browser word search.
+        if not verse_exists:
+            ref_text = f"{base_ref} [REF NOT FOUND]"
+        else:
+            ref_text = base_ref
 
         css_class = "bible-ref" if verse_exists else "bible-ref-missing"
         linked_parts.append(
