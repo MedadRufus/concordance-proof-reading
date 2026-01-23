@@ -259,5 +259,5 @@ def main():
 
 if __name__ == "__main__":
     # Example usage:
-    # python add_hyperlinks.py concordance.odt output.html
+    # python3 add_hyperlinks.py input/concordance.odt output/concordance.html
     main()
