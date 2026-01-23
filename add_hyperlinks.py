@@ -245,6 +245,10 @@ def replace_reference(match, verses):
 
 
 def main():
+    """CLI entry point: convert an ODT to HTML with Bible links.
+
+    Expects two arguments: input ODT path and output HTML path.
+    """
     if len(sys.argv) != 3:
         print("Usage: python odt_bible_links.py <input.odt> <output.html>")
         sys.exit(1)

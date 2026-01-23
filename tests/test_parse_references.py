@@ -120,6 +120,7 @@ def test_commas_between_refs_same_book():
 
 
 def test_semicolon_separates_books_and_multiple_parts():
+    """Semicolon boundaries split references between different books."""
     s = "Lev. 7:21, 11:43, 18:30, 19:7, 20:25; Deu. 14:3"
     parsed = parse_references(s, {})
     assert len(parsed) == 6
@@ -134,6 +135,7 @@ def test_semicolon_separates_books_and_multiple_parts():
 
 
 def test_same_chapter_multiple_verses():
+    """Multiple verses in the same chapter should be split into separate references."""
     s = "Job 30:16,21"
     parsed = parse_references(s, {})
     assert len(parsed) == 2
@@ -142,14 +144,20 @@ def test_same_chapter_multiple_verses():
     assert parsed[0].verse == "16"
     assert parsed[1].chapter == "30"
     assert parsed[1].verse == "21"
-    replacer = lambda m: replace_reference(m, {})
+
+    def replacer(m):
+        return replace_reference(m, {})
+
     replaced = ref_pattern.sub(replacer, s)
     assert replaced.count("<a ") == 2
 
 
 def test_angel_of_the_lord_case():
-    # This is one hard test case. There are multiple chapter:verse pairs for a single book, also
-    # multiple verses for single chapter in a row.
+    """
+    Complex multi-book, multi-verse parsing example from the concordance. This is one hard test
+    case. There are multiple chapter:verse pairs for a single book, also multiple verses for single
+    chapter in a row.
+    """
     s = (
         "ANGEL OF THE LORD Gen. 16:7, 22:11,15; "
         "Num. 22:23, 25:27; Judg. 5:23, 6:11,21, 13:3,20,21; "
@@ -193,9 +201,7 @@ def test_angel_of_the_lord_case():
             f"Mismatch at index {idx}: got ({r.book}, {r.chapter}, {r.verse}), "
             f"expected ({exp_book}, {exp_ch}, {exp_v})"
         )
-        assert (
-            r.book == exp_book and r.chapter == exp_ch and r.verse == exp_v
-        ), msg
+        assert r.book == exp_book and r.chapter == exp_ch and r.verse == exp_v, msg
 
     # Replacement should produce one anchor per reference (24)
     def replacer(m):
