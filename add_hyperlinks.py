@@ -110,8 +110,8 @@ def get_verse_text(book, chapter, verse):
     key = f"{book} {chapter}:{verse}"
     verse_text = kjv_verses.get(key, "")
     if verse_text:
-        return f"{book} {chapter}:{verse} (KJV) - {verse_text}"
-    return f"{book} {chapter}:{verse} (KJV)"
+        return f"{book} {chapter}:{verse} (KJV) - {verse_text}", True
+    return f"{book} {chapter}:{verse} (KJV) - Reference not found", False
 
 
 def replace_reference(match):
@@ -135,7 +135,7 @@ def replace_reference(match):
 
         first_verse = verse.split("-")[0]
 
-        verse_text = get_verse_text(full_book, chapter, first_verse)
+        verse_text, verse_exists = get_verse_text(full_book, chapter, first_verse)
         search_query = f"{full_book}+{chapter}%3A{first_verse}"
         url = f"https://www.biblegateway.com/passage/?search={search_query}&version=KJV"
 
@@ -144,8 +144,9 @@ def replace_reference(match):
         else:
             ref_text = verse if ":" not in part else part
 
+        css_class = "bible-ref" if verse_exists else "bible-ref-missing"
         linked_parts.append(
-            f'<a href="{html.escape(url)}" class="bible-ref" data-verse="{html.escape(verse_text)}">{html.escape(ref_text)}</a>'
+            f'<a href="{html.escape(url)}" class="{css_class}" data-verse="{html.escape(verse_text)}">{html.escape(ref_text)}</a>'
         )
 
     return ", ".join(linked_parts)
@@ -208,6 +209,38 @@ def main():
             min-width: 300px;
         }
         .bible-ref:hover::after {
+            opacity: 1;
+        }
+        .bible-ref-missing { 
+            color: #cc0000; 
+            cursor: help; 
+            border-bottom: 2px solid #cc0000;
+            text-decoration: none;
+            position: relative;
+            background-color: #ffe6e6;
+        }
+        .bible-ref-missing:hover { 
+            background-color: #ffcccc;
+            text-decoration: underline;
+        }
+        .bible-ref-missing::after {
+            content: attr(data-verse);
+            position: absolute;
+            bottom: 100%;
+            left: 0;
+            background: #cc0000;
+            color: white;
+            padding: 8px 12px;
+            border-radius: 4px;
+            font-size: 12px;
+            z-index: 1000;
+            opacity: 0;
+            pointer-events: none;
+            max-width: 400px;
+            white-space: normal;
+            word-wrap: break-word;
+        }
+        .bible-ref-missing:hover::after {
             opacity: 1;
         }
     </style>
