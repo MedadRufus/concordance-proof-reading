@@ -8,6 +8,8 @@ from odf import teletype
 from odf.opendocument import load
 from odf.text import P
 
+KJV_JSON_PATH = "kjv/json/verses-1769.json"
+
 # Bible book abbreviation mapping
 BOOK_ABBR_TO_FULL = {
     # Old Testament
@@ -95,14 +97,14 @@ sorted_abbrs = sorted(BOOK_ABBR_TO_FULL.keys(), key=lambda x: -len(x))
 ABBR_PATTERN = "|".join(re.escape(abbr) for abbr in sorted_abbrs)
 ref_pattern = re.compile(rf"\b({ABBR_PATTERN})\s+(\d+:\d+(?:,\s*(?:\d+:\d+|\d+))*)")
 
-
-# Load KJV Bible data
-kjv_verses = {}
 try:
-    with open("kjv/json/verses-1769.json", "r", encoding="utf-8") as f:
+    with open(KJV_JSON_PATH, "r", encoding="utf-8") as f:
         kjv_verses = json.load(f)
-except FileNotFoundError:
-    print("Warning: KJV Bible data not found. Verse tooltips will show reference only.")
+except FileNotFoundError as e:
+    raise FileNotFoundError(
+        f"KJV Bible data file not found at '{KJV_JSON_PATH}'. "
+        "Please ensure the KJV JSON file is present in the expected directory."
+    ) from e
 
 
 def get_verse_text(book, chapter, verse):
