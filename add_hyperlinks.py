@@ -3,8 +3,6 @@ import json
 import os
 import re
 import sys
-from dataclasses import dataclass
-from typing import List, Optional, Tuple
 
 from odf import teletype
 from odf.opendocument import load
@@ -87,58 +85,77 @@ BOOK_ABBR_TO_FULL = {
     "Rev.": "Revelation",
 }
 
-# Prepare regex pattern
-sorted_abbrs = sorted(BOOK_ABBR_TO_FULL.keys(), key=lambda x: -len(x))
-ABBR_PATTERN = "|".join(re.escape(abbr) for abbr in sorted_abbrs)
-
 # Books with a single chapter where references are commonly written as "Philem. 9" rather than "Philem. 1:9"
 SINGLE_CHAPTER_ABBR = {"Obad.", "Philem.", "2 Jn.", "3 Jn.", "Jude"}
 SINGLE_CHAPTER_BOOKS = {
     BOOK_ABBR_TO_FULL[a] for a in SINGLE_CHAPTER_ABBR if a in BOOK_ABBR_TO_FULL
 }
-single_abbrs_sorted = sorted(SINGLE_CHAPTER_ABBR, key=lambda x: -len(x))
-SINGLE_ABBR_PATTERN = "|".join(re.escape(abbr) for abbr in single_abbrs_sorted)
 
+# Build regex patterns
+sorted_abbrs = sorted(BOOK_ABBR_TO_FULL, key=lambda x: -len(x))
 # For chapter:verse matching we should NOT match single-chapter book abbreviations
-non_single_abbrs = [abbr for abbr in sorted_abbrs if abbr not in SINGLE_CHAPTER_ABBR]
-NON_SINGLE_ABBR_PATTERN = "|".join(re.escape(abbr) for abbr in non_single_abbrs)
+non_single = [a for a in sorted_abbrs if a not in SINGLE_CHAPTER_ABBR]
+single = [a for a in sorted_abbrs if a in SINGLE_CHAPTER_ABBR]
+
+NON_SINGLE_PATTERN = "|".join(re.escape(a) for a in non_single)
+SINGLE_PATTERN = "|".join(re.escape(a) for a in single)
 
 # Pattern supports two branches:
 #  - regular (book + chapter:verse[, ...]) for non-single-chapter books
 #  - verse-only (book + verse[, ...]) for single-chapter books (e.g., 'Philem. 9')
-branch1 = rf"(?P<abbr1>{NON_SINGLE_ABBR_PATTERN})\s+(?P<refs1>\d+:\d+(?:,\s*(?:\d+:\d+|\d+))*)"
-branch2 = rf"(?P<abbr2>{SINGLE_ABBR_PATTERN})\s+(?P<refs2>\d+(?:,\s*\d+)*)(?!:)"
+branch1 = (
+    rf"(?P<abbr1>{NON_SINGLE_PATTERN})\s+(?P<refs1>\d+:\d+(?:,\s*(?:\d+:\d+|\d+))*)"
+)
+branch2 = rf"(?P<abbr2>{SINGLE_PATTERN})\s+(?P<refs2>\d+(?:,\s*\d+)*)(?!:)"
 ref_pattern = re.compile(rf"\b(?:{branch1}|{branch2})")
 
 
-@dataclass
-class Reference:
-    abbr: str
-    book: str
-    chapter: Optional[str]
-    verse: str
-    single_chapter: bool
-    matched_text: str
-    part: str
-    has_colon: bool
-    verses: dict
+def load_kjv(path):
+    try:
+        with open(path, "r", encoding="utf-8") as f:
+            return json.load(f)
+    except FileNotFoundError as e:
+        raise FileNotFoundError(
+            f"KJV Bible data file not found at '{path}'. "
+            "Please ensure the KJV JSON file is present in the expected directory."
+        ) from e
 
-    def visible(self, index: int) -> str:
-        """Return the visible short form for this reference (what the user sees)."""
+
+class Reference:
+    def __init__(
+        self,
+        abbr,
+        book,
+        chapter,
+        verse,
+        single_chapter,
+        matched_text,
+        part,
+        has_colon,
+        verses,
+    ):
+        self.abbr = abbr
+        self.book = book
+        self.chapter = chapter
+        self.verse = verse
+        self.single_chapter = single_chapter
+        self.matched_text = matched_text
+        self.part = part
+        self.has_colon = has_colon
+        self.verses = verses
+
+    def visible(self, index):
         if self.single_chapter:
             if index == 0:
                 return f"{self.abbr} {self.verse}"
             return self.verse if not self.has_colon else self.part.split(":", 1)[1]
+        else:
+            if index == 0:
+                return f"{self.abbr} {self.chapter}:{self.verse}"
+            return self.part if self.has_colon else self.verse
 
-        if index == 0:
-            return f"{self.abbr} {self.chapter}:{self.verse}"
-
-        return self.part if self.has_colon else self.verse
-
-    def get_verse_text(self) -> Tuple[str, bool]:
-        """Return the verse text and whether it exists in the provided KJV data."""
+    def get_verse_text(self):
         first_verse = self.verse.split("-")[0]
-        # If chapter is None this helper will not be used to build URLs; resolve handles that case.
         key = f"{self.book} {self.chapter}:{first_verse}"
         verse_text = self.verses.get(key, "")
         if verse_text:
@@ -174,13 +191,8 @@ class Reference:
         )
 
 
-def parse_references(text, verses: dict) -> List[Reference]:
-    """Parse scripture references in text and return a list of Reference objects.
-
-    Each Reference includes: abbr, book, chapter, verse, single_chapter, matched_text, part, has_colon, verses
-    """
-    results: List[Reference] = []
-
+def parse_references(text, verses):
+    results = []
     for match in ref_pattern.finditer(text):
         abbr = match.group("abbr1") or match.group("abbr2")
         refs_part = match.group("refs1") or match.group("refs2")
@@ -189,17 +201,18 @@ def parse_references(text, verses: dict) -> List[Reference]:
 
         parts = [p.strip() for p in refs_part.split(",")]
         current_chapter = None
+
         for part in parts:
             has_colon = ":" in part
             if has_colon:
                 chapter, verse = part.split(":", 1)
                 current_chapter = chapter
             else:
-                if single_chapter:
-                    chapter = "1"
-                else:
-                    chapter = current_chapter
+                chapter = "1" if single_chapter else current_chapter
                 verse = part
+
+            if chapter is None:
+                continue  # skip malformed
 
             results.append(
                 Reference(
@@ -214,27 +227,10 @@ def parse_references(text, verses: dict) -> List[Reference]:
                     verses=verses,
                 )
             )
-
     return results
 
 
-def load_kjv(path: str) -> dict:
-    """Load the KJV JSON file from the given path and return its dict mapping.
-
-    Raises FileNotFoundError with a helpful message if missing.
-    """
-    try:
-        with open(path, "r", encoding="utf-8") as f:
-            return json.load(f)
-    except FileNotFoundError as e:
-        raise FileNotFoundError(
-            f"KJV Bible data file not found at '{path}'. "
-            "Please ensure the KJV JSON file is present in the expected directory."
-        ) from e
-
-
-def replace_reference(match, verses: dict):
-    """Replacement function used with re.sub when provided a `verses` mapping."""
+def replace_reference(match, verses):
     refs = parse_references(match.group(0), verses)
     # If parse_references for some reason returns nothing, fall back to leaving text unchanged
     if not refs:
@@ -256,90 +252,53 @@ def main():
         sys.exit(1)
 
     doc = load(odt_path)
-    # Load KJV JSON and create a replacement function bound to that data
     kjv_verses = load_kjv(KJV_JSON_PATH)
-    replace_fn = lambda m: replace_reference(m, kjv_verses)
 
     paragraphs = []
     for elem in doc.getElementsByType(P):
         txt = teletype.extractText(elem)
         if txt.strip():
             txt = re.sub(r"\s+", " ", txt)
-            txt_linked = ref_pattern.sub(replace_fn, txt)
+            txt_linked = ref_pattern.sub(
+                lambda m: replace_reference(m, kjv_verses), txt
+            )
             paragraphs.append(txt_linked)
 
-    html_content = """<!DOCTYPE html>
+    style = """
+        body { font-family: Arial, sans-serif; line-height: 1.6; margin: 40px; }
+        p { margin: 0 0 1em 0; }
+        .bible-ref { 
+            color: #0066cc; cursor: help; border-bottom: 1px dotted #0066cc;
+            text-decoration: none; position: relative;
+        }
+        .bible-ref:hover { background-color: #f0f8ff; text-decoration: underline; }
+        .bible-ref::after {
+            content: attr(data-verse); position: absolute; bottom: 100%; left: 0;
+            background: #333; color: white; padding: 8px 12px; border-radius: 4px;
+            font-size: 12px; z-index: 1000; opacity: 0; pointer-events: none;
+            min-width: 300px; white-space: normal; word-wrap: break-word;
+        }
+        .bible-ref:hover::after { opacity: 1; }
+        .bible-ref-missing { 
+            color: #cc0000; cursor: help; border-bottom: 2px solid #cc0000;
+            text-decoration: none; position: relative; background-color: #ffe6e6;
+        }
+        .bible-ref-missing:hover { background-color: #ffcccc; text-decoration: underline; }
+        .bible-ref-missing::after {
+            content: attr(data-verse); position: absolute; bottom: 100%; left: 0;
+            background: #cc0000; color: white; padding: 8px 12px; border-radius: 4px;
+            font-size: 12px; z-index: 1000; opacity: 0; pointer-events: none;
+            max-width: 400px; white-space: normal; word-wrap: break-word;
+        }
+        .bible-ref-missing:hover::after { opacity: 1; }
+    """
+
+    html_content = f"""<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <title>Bible Concordance</title>
-    <style>
-        body { font-family: Arial, sans-serif; line-height: 1.6; margin: 40px; }
-        p { margin: 0 0 1em 0; }
-        .bible-ref { 
-            color: #0066cc; 
-            cursor: help; 
-            border-bottom: 1px dotted #0066cc;
-            text-decoration: none;
-            position: relative;
-        }
-        .bible-ref:hover { 
-            background-color: #f0f8ff;
-            text-decoration: underline;
-        }
-        .bible-ref::after {
-            content: attr(data-verse);
-            position: absolute;
-            bottom: 100%;
-            left: 0;
-            background: #333;
-            color: white;
-            padding: 8px 12px;
-            border-radius: 4px;
-            font-size: 12px;
-            z-index: 1000;
-            opacity: 0;
-            pointer-events: none;
-            white-space: normal;
-            min-width: 300px;
-            word-wrap: break-word;
-        }
-        .bible-ref:hover::after {
-            opacity: 1;
-        }
-        .bible-ref-missing { 
-            color: #cc0000; 
-            cursor: help; 
-            border-bottom: 2px solid #cc0000;
-            text-decoration: none;
-            position: relative;
-            background-color: #ffe6e6;
-        }
-        .bible-ref-missing:hover { 
-            background-color: #ffcccc;
-            text-decoration: underline;
-        }
-        .bible-ref-missing::after {
-            content: attr(data-verse);
-            position: absolute;
-            bottom: 100%;
-            left: 0;
-            background: #cc0000;
-            color: white;
-            padding: 8px 12px;
-            border-radius: 4px;
-            font-size: 12px;
-            z-index: 1000;
-            opacity: 0;
-            pointer-events: none;
-            max-width: 400px;
-            white-space: normal;
-            word-wrap: break-word;
-        }
-        .bible-ref-missing:hover::after {
-            opacity: 1;
-        }
-    </style>
+    <style>{style}</style>
 </head>
 <body>
 """
@@ -354,6 +313,4 @@ def main():
 
 
 if __name__ == "__main__":
-    # Example usage:
-    # python3 add_hyperlinks.py input/concordance.odt output/concordance.html
     main()
