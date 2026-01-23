@@ -88,7 +88,19 @@ BOOK_ABBR_TO_FULL = {
 # Prepare regex pattern
 sorted_abbrs = sorted(BOOK_ABBR_TO_FULL.keys(), key=lambda x: -len(x))
 ABBR_PATTERN = "|".join(re.escape(abbr) for abbr in sorted_abbrs)
-ref_pattern = re.compile(rf"\b({ABBR_PATTERN})\s+(\d+:\d+(?:,\s*(?:\d+:\d+|\d+))*)")
+
+# Books with a single chapter where references are commonly written as "Philem. 9" rather than "Philem. 1:9"
+SINGLE_CHAPTER_ABBR = {"Obad.", "Philem.", "2 Jn.", "3 Jn.", "Jude"}
+SINGLE_CHAPTER_BOOKS = {BOOK_ABBR_TO_FULL[a] for a in SINGLE_CHAPTER_ABBR if a in BOOK_ABBR_TO_FULL}
+single_abbrs_sorted = sorted(SINGLE_CHAPTER_ABBR, key=lambda x: -len(x))
+SINGLE_ABBR_PATTERN = "|".join(re.escape(abbr) for abbr in single_abbrs_sorted)
+
+# Pattern supports two branches:
+#  - regular (book + chapter:verse[, ...]) for all books
+#  - verse-only (book + verse[, ...]) for single-chapter books
+branch1 = rf"(?P<abbr1>{ABBR_PATTERN})\s+(?P<refs1>\d+:\d+(?:,\s*(?:\d+:\d+|\d+))*)"
+branch2 = rf"(?P<abbr2>{SINGLE_ABBR_PATTERN})\s+(?P<refs2>\d+(?:,\s*\d+)*)"
+ref_pattern = re.compile(rf"\b(?:{branch1}|{branch2})")
 
 try:
     with open(KJV_JSON_PATH, "r", encoding="utf-8") as f:
@@ -110,9 +122,12 @@ def get_verse_text(book, chapter, verse):
 
 
 def replace_reference(match):
-    abbr = match.group(1)
-    refs_part = match.group(2)
+    # Handle either branch of the regex: named groups abbr1/refs1 (chapter:verse) or abbr2/refs2 (verse-only for single-chapter books)
+    abbr = match.group("abbr1") or match.group("abbr2")
+    refs_part = match.group("refs1") or match.group("refs2")
     full_book = BOOK_ABBR_TO_FULL.get(abbr, abbr)
+
+    single_chapter = full_book in SINGLE_CHAPTER_BOOKS
 
     # Split by commas only
     parts = [p.strip() for p in refs_part.split(",")]
@@ -124,20 +139,37 @@ def replace_reference(match):
             chapter, verse = part.split(":", 1)
             current_chapter = chapter
         else:
-            # Just a verse number, use current chapter
-            chapter = current_chapter
+            # For single-chapter books, treat bare verse as chapter 1
+            if single_chapter:
+                chapter = "1"
+            else:
+                chapter = current_chapter
             verse = part
 
         first_verse = verse.split("-")[0]
 
-        verse_text, verse_exists = get_verse_text(full_book, chapter, first_verse)
-        search_query = f"{full_book}+{chapter}%3A{first_verse}"
-        url = f"https://www.biblegateway.com/passage/?search={search_query}&version=KJV"
-
-        if i == 0:
-            base_ref = f"{abbr} {chapter}:{verse}"
+        # If chapter is still None (e.g., malformed reference like "Gen. 3"), mark as not found
+        if chapter is None:
+            verse_text, verse_exists = "", False
+            search_query = f"{full_book}+{first_verse}"
+            url = f"https://www.biblegateway.com/passage/?search={search_query}&version=KJV"
         else:
-            base_ref = verse if ":" not in part else part
+            verse_text, verse_exists = get_verse_text(full_book, chapter, first_verse)
+            search_query = f"{full_book}+{chapter}%3A{first_verse}"
+            url = f"https://www.biblegateway.com/passage/?search={search_query}&version=KJV"
+
+        # Build visible reference text
+        if single_chapter:
+            # For single chapter books, prefer 'Philem. 9' (omit the '1:' chapter)
+            if i == 0:
+                base_ref = f"{abbr} {verse}"
+            else:
+                base_ref = verse if ":" not in part else part.split(":", 1)[1]
+        else:
+            if i == 0:
+                base_ref = f"{abbr} {chapter}:{verse}"
+            else:
+                base_ref = verse if ":" not in part else part
 
         # Use base_ref as visible text, but mark it if ref not found so that its easy to search for
         # using the web browser word search.
