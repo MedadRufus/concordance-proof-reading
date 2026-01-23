@@ -1,8 +1,8 @@
 import html
+import json
 import os
 import re
 import sys
-import json
 
 from odf import teletype
 from odf.opendocument import load
