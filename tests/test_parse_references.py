@@ -189,11 +189,17 @@ def test_angel_of_the_lord_case():
 
     for idx, (exp_book, exp_ch, exp_v) in enumerate(expected):
         r = parsed[idx]
+        msg = (
+            f"Mismatch at index {idx}: got ({r.book}, {r.chapter}, {r.verse}), "
+            f"expected ({exp_book}, {exp_ch}, {exp_v})"
+        )
         assert (
             r.book == exp_book and r.chapter == exp_ch and r.verse == exp_v
-        ), f"Mismatch at index {idx}: got ({r.book}, {r.chapter}, {r.verse}), expected ({exp_book}, {exp_ch}, {exp_v})"
+        ), msg
 
     # Replacement should produce one anchor per reference (24)
-    replacer = lambda m: replace_reference(m, {})
+    def replacer(m):
+        return replace_reference(m, {})
+
     replaced = ref_pattern.sub(replacer, s)
     assert replaced.count("<a ") == 24
