@@ -268,20 +268,17 @@ def main():
     style = """
         body { font-family: Arial, sans-serif; line-height: 1.6; margin: 40px; }
         p { margin: 0 0 1em 0; }
-
-        .bible-ref {
-            color: #0066cc;
-            cursor: help;
+        .bible-ref { 
+            color: #0066cc; 
+            cursor: help; 
             border-bottom: 1px dotted #0066cc;
             text-decoration: none;
             position: relative;
         }
-
-        .bible-ref:hover {
+        .bible-ref:hover { 
             background-color: #f0f8ff;
             text-decoration: underline;
         }
-
         .bible-ref::after {
             content: attr(data-verse);
             position: absolute;
@@ -295,24 +292,25 @@ def main():
             z-index: 1000;
             opacity: 0;
             pointer-events: none;
-            min-width: 300px;
             white-space: normal;
+            min-width: 300px;
             word-wrap: break-word;
         }
-
-        .bible-ref:hover::after { opacity: 1; }
-
-        .bible-ref-missing {
-            color: #cc0000;
-            cursor: help;
+        .bible-ref:hover::after {
+            opacity: 1;
+        }
+        .bible-ref-missing { 
+            color: #cc0000; 
+            cursor: help; 
             border-bottom: 2px solid #cc0000;
             text-decoration: none;
             position: relative;
             background-color: #ffe6e6;
         }
-
-        .bible-ref-missing:hover { background-color: #ffcccc; text-decoration: underline; }
-
+        .bible-ref-missing:hover { 
+            background-color: #ffcccc;
+            text-decoration: underline;
+        }
         .bible-ref-missing::after {
             content: attr(data-verse);
             position: absolute;
