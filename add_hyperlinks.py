@@ -121,6 +121,7 @@ class Reference:
     matched_text: str
     part: str
     has_colon: bool
+    verses: dict
 
     def visible(self, index: int) -> str:
         """Return the visible short form for this reference (what the user sees)."""
@@ -135,11 +136,11 @@ class Reference:
         return self.part if self.has_colon else self.verse
 
     def get_verse_text(self) -> Tuple[str, bool]:
-        """Return the verse text and whether it exists in the local KJV data."""
+        """Return the verse text and whether it exists in the provided KJV data."""
         first_verse = self.verse.split("-")[0]
         # If chapter is None this helper will not be used to build URLs; resolve handles that case.
         key = f"{self.book} {self.chapter}:{first_verse}"
-        verse_text = kjv_verses.get(key, "")
+        verse_text = self.verses.get(key, "")
         if verse_text:
             return (
                 f"{self.book} {self.chapter}:{first_verse} (KJV) - {verse_text}",
@@ -173,10 +174,10 @@ class Reference:
         )
 
 
-def parse_references(text) -> List[Reference]:
+def parse_references(text, verses: dict) -> List[Reference]:
     """Parse scripture references in text and return a list of Reference objects.
 
-    Each Reference includes: abbr, book, chapter, verse, single_chapter, matched_text, part, has_colon
+    Each Reference includes: abbr, book, chapter, verse, single_chapter, matched_text, part, has_colon, verses
     """
     results: List[Reference] = []
 
@@ -210,25 +211,31 @@ def parse_references(text) -> List[Reference]:
                     matched_text=match.group(0),
                     part=part,
                     has_colon=has_colon,
+                    verses=verses,
                 )
             )
 
     return results
 
 
-try:
-    with open(KJV_JSON_PATH, "r", encoding="utf-8") as f:
-        kjv_verses = json.load(f)
-except FileNotFoundError as e:
-    raise FileNotFoundError(
-        f"KJV Bible data file not found at '{KJV_JSON_PATH}'. "
-        "Please ensure the KJV JSON file is present in the expected directory."
-    ) from e
+def load_kjv(path: str) -> dict:
+    """Load the KJV JSON file from the given path and return its dict mapping.
+
+    Raises FileNotFoundError with a helpful message if missing.
+    """
+    try:
+        with open(path, "r", encoding="utf-8") as f:
+            return json.load(f)
+    except FileNotFoundError as e:
+        raise FileNotFoundError(
+            f"KJV Bible data file not found at '{path}'. "
+            "Please ensure the KJV JSON file is present in the expected directory."
+        ) from e
 
 
-def replace_reference(match):
-    """Build replacement HTML for a regex match using parse_references."""
-    refs = parse_references(match.group(0))
+def replace_reference(match, verses: dict):
+    """Replacement function used with re.sub when provided a `verses` mapping."""
+    refs = parse_references(match.group(0), verses)
     # If parse_references for some reason returns nothing, fall back to leaving text unchanged
     if not refs:
         return match.group(0)
@@ -249,12 +256,16 @@ def main():
         sys.exit(1)
 
     doc = load(odt_path)
+    # Load KJV JSON and create a replacement function bound to that data
+    kjv_verses = load_kjv(KJV_JSON_PATH)
+    replace_fn = lambda m: replace_reference(m, kjv_verses)
+
     paragraphs = []
     for elem in doc.getElementsByType(P):
         txt = teletype.extractText(elem)
         if txt.strip():
             txt = re.sub(r"\s+", " ", txt)
-            txt_linked = ref_pattern.sub(replace_reference, txt)
+            txt_linked = ref_pattern.sub(replace_fn, txt)
             paragraphs.append(txt_linked)
 
     html_content = """<!DOCTYPE html>
