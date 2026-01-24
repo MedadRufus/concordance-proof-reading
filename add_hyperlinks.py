@@ -286,7 +286,8 @@ def main():
             content: attr(data-verse);
             position: absolute;
             bottom: 100%;
-            left: 0;
+            left: 50%;
+            transform: translateX(-50%);
             background: #333;
             color: white;
             padding: 8px 12px;
@@ -296,7 +297,8 @@ def main():
             opacity: 0;
             pointer-events: none;
             white-space: normal;
-            min-width: 300px;
+            width: max-content;
+            max-width: 400px;
             word-wrap: break-word;
         }
         .bible-ref:hover::after {
@@ -318,7 +320,8 @@ def main():
             content: attr(data-verse);
             position: absolute;
             bottom: 100%;
-            left: 0;
+            left: 50%;
+            transform: translateX(-50%);
             background: #cc0000;
             color: white;
             padding: 8px 12px;
@@ -327,6 +330,7 @@ def main():
             z-index: 1000;
             opacity: 0;
             pointer-events: none;
+            width: max-content;
             max-width: 400px;
             white-space: normal;
             word-wrap: break-word;
