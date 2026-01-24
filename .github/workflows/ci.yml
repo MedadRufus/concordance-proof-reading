@@ -32,4 +32,4 @@ jobs:
         run: pylint $(git ls-files '*.py')
 
       - name: Run tests
-        run: pytest -q
+        run: pytest --cov=.
