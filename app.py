@@ -195,18 +195,14 @@ def download(upload_id):
         abort(404)
 
     html_bytes = info["html"].encode("utf-8")
-    bio = io.BytesIO(html_bytes)
-    bio.seek(0)
     safe_name = secure_filename(info.get("input_name") or "converted.html")
-    # return file as attachment
-    return send_file(
-        bio,
-        mimetype="text/html",
-        as_attachment=True,
-        download_name=(
-            safe_name if safe_name.lower().endswith(".html") else safe_name + ".html"
-        ),
+    download_name = (
+        safe_name if safe_name.lower().endswith(".html") else safe_name + ".html"
     )
+    response = make_response(html_bytes)
+    response.headers["Content-Type"] = "text/html"
+    response.headers["Content-Disposition"] = f'attachment; filename="{download_name}"'
+    return response
 
 
 if __name__ == "__main__":
