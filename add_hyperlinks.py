@@ -333,6 +333,11 @@ def main():
         }
 
         .bible-ref-missing:hover::after { opacity: 1; }
+
+        .bible-ref.right-aligned::after, .bible-ref-missing.right-aligned::after {
+            left: auto;
+            right: 0;
+        }
     """
 
     write_html(paragraphs, html_path, style)
