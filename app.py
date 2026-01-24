@@ -107,7 +107,7 @@ t.start()
 @app.after_request
 def set_security_headers(response):
     # Prevent script execution, restrict frames, enforce secure headers
-    csp = "default-src 'none'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:;"
+    csp = "default-src 'none'; style-src 'self' 'unsafe-inline'; img-src 'self' data:;"
     response.headers["Content-Security-Policy"] = csp
     response.headers["X-Content-Type-Options"] = "nosniff"
     response.headers["X-Frame-Options"] = "DENY"

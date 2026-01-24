@@ -269,23 +269,25 @@ def convert_odt_bytes_to_html(odt_bytes):
             background-color: #f0f8ff;
             text-decoration: underline;
         }
-        .bible-ref-tooltip {
+        .bible-ref::after {
+            content: attr(data-verse);
             position: absolute;
+            bottom: 100%;
+            left: 0;
             background: #333;
             color: white;
             padding: 8px 12px;
             border-radius: 4px;
             font-size: 12px;
             z-index: 1000;
-            display: none;
+            opacity: 0;
             pointer-events: none;
             white-space: normal;
-            width: max-content;
-            max-width: 400px;
+            min-width: 300px;
             word-wrap: break-word;
         }
-        .bible-ref-tooltip.missing {
-            background: #cc0000;
+        .bible-ref:hover::after {
+            opacity: 1;
         }
         .bible-ref-missing { 
             color: #cc0000; 
@@ -299,6 +301,30 @@ def convert_odt_bytes_to_html(odt_bytes):
             background-color: #ffcccc;
             text-decoration: underline;
         }
+        .bible-ref-missing::after {
+            content: attr(data-verse);
+            position: absolute;
+            bottom: 100%;
+            left: 0;
+            background: #cc0000;
+            color: white;
+            padding: 8px 12px;
+            border-radius: 4px;
+            font-size: 12px;
+            z-index: 1000;
+            opacity: 0;
+            pointer-events: none;
+            max-width: 400px;
+            white-space: normal;
+            word-wrap: break-word;
+        }
+
+        .bible-ref-missing:hover::after { opacity: 1; }
+
+        .bible-ref.right-aligned::after, .bible-ref-missing.right-aligned::after {
+            left: auto;
+            right: 0;
+        }
     """
     return write_html(paragraphs, None, style)
 
@@ -311,7 +337,6 @@ def extract_paragraphs(doc, verses):
         if not txt.strip():
             continue
         txt = re.sub(r"\s+", " ", txt)
-        txt = html.escape(txt)
         txt_linked = ref_pattern.sub(lambda m: replace_reference(m, verses), txt)
         paragraphs.append(txt_linked)
     return paragraphs
@@ -331,7 +356,6 @@ def write_html(paragraphs, html_path, style):
     )
     for p in paragraphs:
         html_content += f"<p>{p}</p>\n"
-    html_content += '<script src="/static/tooltip.js"></script>\n'
     html_content += "</body>\n</html>"
 
     return html_content
