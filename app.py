@@ -117,8 +117,6 @@ def set_security_headers(response):
     response.headers["Strict-Transport-Security"] = (
         "max-age=31536000; includeSubDomains"
     )
-    # Prevent caching of user content
-    response.headers["Cache-Control"] = "no-store, no-cache, must-revalidate, private"
     return response
 
 
@@ -187,8 +185,6 @@ def preview(upload_id):
         abort(404)
     resp = make_response(info["html"])
     resp.headers["Content-Type"] = "text/html; charset=utf-8"
-    # Ensure browsers do not cache sensitive content
-    resp.headers["Cache-Control"] = "no-store"
     return resp
 
 
