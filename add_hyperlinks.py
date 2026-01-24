@@ -4,12 +4,12 @@ This module provides helpers to parse Bible references and produce
 HTML anchors that link to BibleGateway with KJV verse tooltips.
 """
 
+import argparse
 import html
 import io
 import json
 import os
 import re
-import sys
 
 from odf import teletype
 from odf.opendocument import load
