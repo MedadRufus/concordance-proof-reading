@@ -153,10 +153,10 @@ def test_same_chapter_multiple_verses():
 
 
 def test_angel_of_the_lord_case():
-    """
-    Complex multi-book, multi-verse parsing example from the concordance. This is one hard test
-    case. There are multiple chapter:verse pairs for a single book, also multiple verses for single
-    chapter in a row.
+    """Complex multi-book, multi-verse parsing example from the concordance.
+
+    This is one hard test case. There are multiple chapter:verse pairs for a single book,
+    also multiple verses for single chapter in a row.
     """
     s = (
         "ANGEL OF THE LORD Gen. 16:7, 22:11,15; "
