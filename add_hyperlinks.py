@@ -269,7 +269,7 @@ def main():
     paragraphs = extract_paragraphs(doc, kjv_verses)
 
     style = """
-        body { font-family: Arial, sans-serif; line-height: 1.6; margin: 40px auto; max-width: 800px; padding: 0 20px; }
+        body { font-family: Arial, sans-serif; line-height: 1.6; margin: 40px; }
         p { margin: 0 0 1em 0; }
         .bible-ref { 
             color: #0066cc; 
