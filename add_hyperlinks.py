@@ -4,11 +4,12 @@ This module provides helpers to parse Bible references and produce
 HTML anchors that link to BibleGateway with KJV verse tooltips.
 """
 
+import argparse
 import html
+import io
 import json
 import os
 import re
-import sys
 
 from odf import teletype
 from odf.opendocument import load
@@ -247,25 +248,11 @@ def replace_reference(match, verses):
     return ", ".join(r.to_anchor(i) for i, r in enumerate(refs))
 
 
-def main():
-    """CLI entry point: convert an ODT to HTML with Bible links.
-
-    Expects two arguments: input ODT path and output HTML path.
-    """
-    if len(sys.argv) != 3:
-        print("Usage: python odt_bible_links.py <input.odt> <output.html>")
-        sys.exit(1)
-
-    odt_path = sys.argv[1]
-    html_path = sys.argv[2]
-
-    if not os.path.exists(odt_path):
-        print(f"Error: File '{odt_path}' not found.")
-        sys.exit(1)
-
-    doc = load(odt_path)
+def convert_odt_bytes_to_html(odt_bytes):
+    """Convert ODT bytes to an HTML string (keeps everything in memory)."""
     kjv_verses = load_kjv(KJV_JSON_PATH)
-
+    bio = io.BytesIO(odt_bytes)
+    doc = load(bio)
     paragraphs = extract_paragraphs(doc, kjv_verses)
 
     style = """
@@ -339,8 +326,7 @@ def main():
             right: 0;
         }
     """
-
-    write_html(paragraphs, html_path, style)
+    return write_html(paragraphs, style)
 
 
 def extract_paragraphs(doc, verses):
@@ -356,8 +342,8 @@ def extract_paragraphs(doc, verses):
     return paragraphs
 
 
-def write_html(paragraphs, html_path, style):
-    """Write `paragraphs` to `html_path` wrapped in a simple HTML document using `style`."""
+def write_html(paragraphs, style):
+    """Write `paragraphs` to an HTML string wrapped in a simple HTML document using `style`."""
     html_content = (
         "<!DOCTYPE html>\n"
         '<html lang="en">\n'
@@ -372,10 +358,36 @@ def write_html(paragraphs, html_path, style):
         html_content += f"<p>{p}</p>\n"
     html_content += "</body>\n</html>"
 
+    return html_content
+
+
+def convert_odt_to_html(odt_path, html_path):
+    """Compatibility wrapper: read file and save to disk."""
+    if not os.path.exists(odt_path):
+        raise FileNotFoundError(f"File '{odt_path}' not found.")
+
+    with open(odt_path, "rb") as f:
+        odt_bytes = f.read()
+
+    html_content = convert_odt_bytes_to_html(odt_bytes)
+
     with open(html_path, "w", encoding="utf-8") as f:
         f.write(html_content)
 
-    print(f"Success: HTML saved to {html_path}")
+    return html_path
+
+
+def main():
+    """Convert an ODT file with Bible references to an HTML file with hyperlinks."""
+    parser = argparse.ArgumentParser(
+        description="Convert an ODT file with Bible references to an HTML file with hyperlinks."
+    )
+    parser.add_argument("input_odt", help="The path to the input ODT file.")
+    parser.add_argument("output_html", help="The path to the output HTML file.")
+    args = parser.parse_args()
+
+    out = convert_odt_to_html(args.input_odt, args.output_html)
+    print(f"Success: HTML saved to {out}")
 
 
 if __name__ == "__main__":
