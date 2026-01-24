@@ -89,9 +89,7 @@ def cleanup_worker():
     while True:
         now = time.time()
         stale = [
-            uid
-            for uid, info in list(uploads.items())
-            if now - info.get("ts", now) > UPLOAD_TTL
+            uid for uid, info in list(uploads.items()) if now - info.get("ts", now) > UPLOAD_TTL
         ]
         for uid in stale:
             uploads.pop(uid, None)
@@ -114,9 +112,7 @@ def set_security_headers(response):
     response.headers["Referrer-Policy"] = "no-referrer"
     response.headers["Permissions-Policy"] = "geolocation=()"
     # HSTS: only useful when serving HTTPS
-    response.headers["Strict-Transport-Security"] = (
-        "max-age=31536000; includeSubDomains"
-    )
+    response.headers["Strict-Transport-Security"] = "max-age=31536000; includeSubDomains"
     return response
 
 
@@ -173,9 +169,7 @@ def result(upload_id):
     info = uploads.get(upload_id)
     if not info:
         abort(404)
-    return render_template(
-        "result.html", upload_id=upload_id, input_name=info.get("input_name")
-    )
+    return render_template("result.html", upload_id=upload_id, input_name=info.get("input_name"))
 
 
 @app.route("/preview/<upload_id>", methods=["GET"])
@@ -196,9 +190,7 @@ def download(upload_id):
 
     html_bytes = info["html"].encode("utf-8")
     safe_name = secure_filename(info.get("input_name") or "converted.html")
-    download_name = (
-        safe_name if safe_name.lower().endswith(".html") else safe_name + ".html"
-    )
+    download_name = safe_name if safe_name.lower().endswith(".html") else safe_name + ".html"
     response = make_response(html_bytes)
     response.headers["Content-Type"] = "text/html"
     response.headers["Content-Disposition"] = f'attachment; filename="{download_name}"'
