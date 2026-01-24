@@ -1,13 +1,6 @@
 """Unit tests for reference parsing and replacement from `add_hyperlinks`."""
 
-import os
-import sys
-
-# Ensure project root is on sys.path so tests can import top-level modules
-sys.path.insert(0, os.path.dirname(os.path.dirname(__file__)))
-
-# Import after adjusting sys.path
-from add_hyperlinks import (  # pylint: disable=wrong-import-position
+from add_hyperlinks import (
     parse_references,
     ref_pattern,
     replace_reference,
