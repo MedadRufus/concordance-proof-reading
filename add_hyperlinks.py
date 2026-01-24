@@ -269,7 +269,7 @@ def main():
     paragraphs = extract_paragraphs(doc, kjv_verses)
 
     style = """
-        body { font-family: Arial, sans-serif; line-height: 1.6; margin: 40px; }
+        body { font-family: Arial, sans-serif; line-height: 1.6; margin: 40px auto; max-width: 800px; padding: 0 20px; }
         p { margin: 0 0 1em 0; }
         .bible-ref { 
             color: #0066cc; 
@@ -282,27 +282,23 @@ def main():
             background-color: #f0f8ff;
             text-decoration: underline;
         }
-        .bible-ref::after {
-            content: attr(data-verse);
+        .bible-ref-tooltip {
             position: absolute;
-            bottom: 100%;
-            left: 50%;
-            transform: translateX(-50%);
             background: #333;
             color: white;
             padding: 8px 12px;
             border-radius: 4px;
             font-size: 12px;
             z-index: 1000;
-            opacity: 0;
+            display: none;
             pointer-events: none;
             white-space: normal;
             width: max-content;
             max-width: 400px;
             word-wrap: break-word;
         }
-        .bible-ref:hover::after {
-            opacity: 1;
+        .bible-ref-tooltip.missing {
+            background: #cc0000;
         }
         .bible-ref-missing { 
             color: #cc0000; 
@@ -316,27 +312,6 @@ def main():
             background-color: #ffcccc;
             text-decoration: underline;
         }
-        .bible-ref-missing::after {
-            content: attr(data-verse);
-            position: absolute;
-            bottom: 100%;
-            left: 50%;
-            transform: translateX(-50%);
-            background: #cc0000;
-            color: white;
-            padding: 8px 12px;
-            border-radius: 4px;
-            font-size: 12px;
-            z-index: 1000;
-            opacity: 0;
-            pointer-events: none;
-            width: max-content;
-            max-width: 400px;
-            white-space: normal;
-            word-wrap: break-word;
-        }
-
-        .bible-ref-missing:hover::after { opacity: 1; }
     """
 
     write_html(paragraphs, html_path, style)
@@ -369,6 +344,51 @@ def write_html(paragraphs, html_path, style):
     )
     for p in paragraphs:
         html_content += f"<p>{p}</p>\n"
+    html_content += """
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const tooltip = document.createElement('div');
+            tooltip.className = 'bible-ref-tooltip';
+            document.body.appendChild(tooltip);
+
+            const refs = document.querySelectorAll('.bible-ref, .bible-ref-missing');
+            refs.forEach(ref => {
+                ref.addEventListener('mouseenter', () => {
+                    const text = ref.getAttribute('data-verse');
+                    if (!text) return;
+                    tooltip.textContent = text;
+                    if (ref.classList.contains('bible-ref-missing')) {
+                        tooltip.classList.add('missing');
+                    } else {
+                        tooltip.classList.remove('missing');
+                    }
+                    tooltip.style.display = 'block';
+                    
+                    const refRect = ref.getBoundingClientRect();
+                    const tooltipRect = tooltip.getBoundingClientRect();
+                    const scrollY = window.scrollY;
+                    
+                    let left = refRect.left + (refRect.width / 2) - (tooltipRect.width / 2);
+                    let top = refRect.top + scrollY - tooltipRect.height - 10;
+
+                    if (left < 10) left = 10;
+                    if (left + tooltipRect.width > window.innerWidth - 10) {
+                        left = window.innerWidth - tooltipRect.width - 10;
+                    }
+                    if (top < scrollY) {
+                        top = refRect.bottom + scrollY + 10;
+                    }
+
+                    tooltip.style.left = left + 'px';
+                    tooltip.style.top = top + 'px';
+                });
+                ref.addEventListener('mouseleave', () => {
+                    tooltip.style.display = 'none';
+                });
+            });
+        });
+    </script>
+    """
     html_content += "</body>\n</html>"
 
     with open(html_path, "w", encoding="utf-8") as f:
