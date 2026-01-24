@@ -132,7 +132,7 @@ class Reference:  # pylint: disable=too-many-instance-attributes
     """Represent a parsed Bible reference and produce HTML anchor/link information."""
 
     # 10 args are justified here - it’s a data carrier.
-    def __init__(  # pylint: disable=too-many-arguments,too-many-positional-arguments
+    def __init__(  # pylint: disable=too-many-arguments
         self,
         abbr,
         book,
@@ -326,7 +326,7 @@ def convert_odt_bytes_to_html(odt_bytes):
             right: 0;
         }
     """
-    return write_html(paragraphs, None, style)
+    return write_html(paragraphs, style)
 
 
 def extract_paragraphs(doc, verses):
@@ -342,8 +342,8 @@ def extract_paragraphs(doc, verses):
     return paragraphs
 
 
-def write_html(paragraphs, html_path, style):
-    """Write `paragraphs` to `html_path` wrapped in a simple HTML document using `style`."""
+def write_html(paragraphs, style):
+    """Write `paragraphs` to an HTML string wrapped in a simple HTML document using `style`."""
     html_content = (
         "<!DOCTYPE html>\n"
         '<html lang="en">\n'
@@ -378,6 +378,7 @@ def convert_odt_to_html(odt_path, html_path):
 
 
 def main():
+    """Convert an ODT file with Bible references to an HTML file with hyperlinks."""
     if len(sys.argv) != 3:
         print("Usage: python odt_bible_links.py <input.odt> <output.html>")
         sys.exit(1)

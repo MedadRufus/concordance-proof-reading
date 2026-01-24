@@ -1,3 +1,10 @@
+"""This module implements a simple web application for converting ODT files.
+
+It provides a Flask-based web interface to upload an ODT file,
+converts it to HTML with Bible references hyperlinked, and allows
+the user to preview or download the result.
+"""
+
 import io
 import logging
 import os
@@ -5,20 +12,8 @@ import threading
 import time
 import uuid
 import zipfile
-from datetime import datetime
-from functools import wraps
 
-from flask import (
-    Flask,
-    Response,
-    abort,
-    make_response,
-    redirect,
-    render_template,
-    request,
-    send_file,
-    url_for,
-)
+from flask import Flask, abort, make_response, redirect, render_template, request, url_for
 from werkzeug.utils import secure_filename
 
 from add_hyperlinks import convert_odt_bytes_to_html
@@ -48,18 +43,20 @@ logging.basicConfig(level=logging.INFO)
 
 
 def allowed_file(filename):
+    """Check if the given filename has an allowed extension."""
     return "." in filename and filename.rsplit(".", 1)[1].lower() in ALLOWED_EXTENSIONS
 
 
 def get_client_ip():
+    """Get the client's IP address, handling proxies."""
     # Respect X-Forwarded-For if behind a proxy (cPanel/passenger usually provides REMOTE_ADDR)
-    forwarded = request.headers.get("X-Forwarded-For", "")
-    if forwarded:
+    if forwarded := request.headers.get("X-Forwarded-For", ""):
         return forwarded.split(",")[0].strip()
     return request.remote_addr or "unknown"
 
 
 def is_valid_odt_bytes(bts):
+    """Validate if the given bytes represent a valid ODT file."""
     try:
         bio = io.BytesIO(bts)
         if not zipfile.is_zipfile(bio):
@@ -67,11 +64,12 @@ def is_valid_odt_bytes(bts):
         with zipfile.ZipFile(bio) as z:
             # A minimal check: ODT should contain content.xml
             return "content.xml" in z.namelist()
-    except Exception:
+    except zipfile.BadZipFile:
         return False
 
 
 def rate_limit_ok(ip):
+    """Check if the given IP is within the upload rate limits."""
     now = time.time()
     window_start = now - RATE_LIMIT_WINDOW
     stamps = uploads_by_ip.get(ip, [])
@@ -86,6 +84,7 @@ def rate_limit_ok(ip):
 
 
 def cleanup_worker():
+    """Periodically clean up stale uploads from memory."""
     while True:
         now = time.time()
         stale = [
@@ -93,7 +92,7 @@ def cleanup_worker():
         ]
         for uid in stale:
             uploads.pop(uid, None)
-            logger.info(f"Cleaned stale upload {uid}")
+            logger.info("Cleaned stale upload %s", uid)
         time.sleep(CLEANUP_INTERVAL)
 
 
@@ -104,6 +103,7 @@ t.start()
 
 @app.after_request
 def set_security_headers(response):
+    """Set security headers for all responses."""
     # Prevent script execution, restrict frames, enforce secure headers
     csp = "default-src 'none'; style-src 'self' 'unsafe-inline'; img-src 'self' data:;"
     response.headers["Content-Security-Policy"] = csp
@@ -118,14 +118,15 @@ def set_security_headers(response):
 
 @app.route("/", methods=["GET"])
 def index():
+    """Render the main upload page."""
     return render_template("upload.html")
 
 
-@app.route("/upload", methods=["POST"])
-def upload():
-    if "file" not in request.files:
+def validate_request(file_request):
+    """Validate the incoming file upload request."""
+    if "file" not in file_request.files:
         return "No file part", 400
-    file = request.files["file"]
+    file = file_request.files["file"]
     if file.filename == "":
         return "No selected file", 400
     if not allowed_file(file.filename):
@@ -135,11 +136,21 @@ def upload():
     if not rate_limit_ok(client_ip):
         return "Rate limit exceeded", 429
 
+    return None, None
+
+
+@app.route("/upload", methods=["POST"])
+def upload():  # pylint: disable=too-complex
+    """Handle file upload, conversion, and redirection."""
+    error_message, error_code = validate_request(request)
+    if error_message:
+        return error_message, error_code
+
+    file = request.files["file"]
     filename = secure_filename(file.filename)[:200]
 
     # Read in-memory and validate
-    file_bytes = file.read()
-    if not file_bytes:
+    if not (file_bytes := file.read()):
         return "Empty file", 400
 
     if len(file_bytes) > app.config["MAX_CONTENT_LENGTH"]:
@@ -150,7 +161,7 @@ def upload():
 
     try:
         html_output = convert_odt_bytes_to_html(file_bytes)
-    except Exception as e:
+    except Exception as e:  # pylint: disable=broad-except
         logger.exception("Conversion failed")
         return f"Conversion error: {e}", 500
 
@@ -166,16 +177,16 @@ def upload():
 
 @app.route("/result/<upload_id>", methods=["GET"])
 def result(upload_id):
-    info = uploads.get(upload_id)
-    if not info:
+    """Display the result page for a given upload."""
+    if not (info := uploads.get(upload_id)):
         abort(404)
     return render_template("result.html", upload_id=upload_id, input_name=info.get("input_name"))
 
 
 @app.route("/preview/<upload_id>", methods=["GET"])
 def preview(upload_id):
-    info = uploads.get(upload_id)
-    if not info:
+    """Show the HTML preview of a converted file."""
+    if not (info := uploads.get(upload_id)):
         abort(404)
     resp = make_response(info["html"])
     resp.headers["Content-Type"] = "text/html; charset=utf-8"
@@ -184,8 +195,8 @@ def preview(upload_id):
 
 @app.route("/download/<upload_id>", methods=["GET"])
 def download(upload_id):
-    info = uploads.get(upload_id)
-    if not info:
+    """Provide the converted HTML file for download."""
+    if not (info := uploads.get(upload_id)):
         abort(404)
 
     html_bytes = info["html"].encode("utf-8")
