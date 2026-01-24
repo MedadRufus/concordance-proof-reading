@@ -256,7 +256,7 @@ def convert_odt_bytes_to_html(odt_bytes):
     paragraphs = extract_paragraphs(doc, kjv_verses)
 
     style = """
-        body { font-family: Arial, sans-serif; line-height: 1.6; margin: 40px; }
+        body { font-family: Arial, sans-serif; line-height: 1.6; margin: 10em; }
         p { margin: 0 0 1em 0; }
         .bible-ref { 
             color: #0066cc; 
