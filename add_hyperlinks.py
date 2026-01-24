@@ -386,12 +386,8 @@ def main():
     odt_path = sys.argv[1]
     html_path = sys.argv[2]
 
-    try:
-        out = convert_odt_to_html(odt_path, html_path)
-        print(f"Success: HTML saved to {out}")
-    except Exception as e:
-        print(f"Error: {e}")
-        sys.exit(1)
+    out = convert_odt_to_html(odt_path, html_path)
+    print(f"Success: HTML saved to {out}")
 
 
 if __name__ == "__main__":
