@@ -15,6 +15,10 @@ The hover verses are taken from https://github.com/farskipper/kjv which has the 
 This is how the html output looks like:
 ![](docs/demo.png)
 
+## Deployment
+This application is meant to be deployed via cPanel Python App feature. See [DEPLOY.md](DEPLOY.md)
+for details.
+
 ## Dev
 
 All code must pass the CI checks.

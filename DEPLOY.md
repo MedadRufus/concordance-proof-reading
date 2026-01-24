@@ -1,8 +1,9 @@
 Quick deploy (cPanel Passenger WSGI) — secure & production notes
 
-1. Create a Python app in cPanel and point its app root to this repo folder.
-2. Run the pip installer via the cPanel Python app UI
-5. After restarting the app, visit the app URL. The root page provides the upload UI.
+1. Clone this repo to your server
+2. Create a Python app in cPanel and point its app root to this repo folder.
+3. Run the pip installer via the cPanel Python app UI
+4. After restarting the app, visit the app URL. The root page provides the upload UI.
 
 Production & Security recommendations:
 - HTTPS: Always enable TLS (let’s encrypt or your certificate). HSTS header is set by the app; make sure your site is only served over HTTPS.
