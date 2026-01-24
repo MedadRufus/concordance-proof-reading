@@ -1,2 +1,2 @@
-odfpy
-Flask
+odfpy==1.4.1
+Flask==3.1.2

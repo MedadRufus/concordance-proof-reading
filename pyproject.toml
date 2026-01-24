@@ -1,0 +1,50 @@
+# Reference: https://github.com/canonical/apport/blob/d3a721ec9607bf018e0dacba8e51e8cf312e6d1e/pyproject.toml
+[tool.black]
+line-length = 100
+
+[tool.isort]
+line_length = 100
+profile = "black"
+
+[tool.pylint.main]
+# List of plugins (as comma separated values of python module names) to load,
+# usually to register additional checkers. Following plugins are not wanted:
+#  * pylint.extensions.broad_try_clause
+#  * pylint.extensions.consider_ternary_expression
+#  * pylint.extensions.empty_comment
+#  * pylint.extensions.for_any_all
+#  * pylint.extensions.magic_value
+#  * pylint.extensions.while_used
+load-plugins = [
+    "pylint.extensions.check_elif",
+    "pylint.extensions.code_style",
+    "pylint.extensions.comparison_placement",
+    "pylint.extensions.consider_refactoring_into_while_condition",
+    "pylint.extensions.dict_init_mutate",
+    "pylint.extensions.docparams",
+    "pylint.extensions.docstyle",
+    "pylint.extensions.dunder",
+    "pylint.extensions.eq_without_hash",
+    "pylint.extensions.mccabe",
+    "pylint.extensions.no_self_use",
+    "pylint.extensions.overlapping_exceptions",
+    "pylint.extensions.private_import",
+    "pylint.extensions.redefined_variable_type",
+    "pylint.extensions.set_membership",
+    "pylint.extensions.typing",
+]
+
+
+[tool.pylint.design]
+# McCabe complexity cyclomatic threshold
+max-complexity = 5
+
+[tool.pylint.format]
+# Maximum number of characters on a single line.
+max-line-length = 100
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+
+[tool.coverage.run]
+omit = ["tests/*"]
