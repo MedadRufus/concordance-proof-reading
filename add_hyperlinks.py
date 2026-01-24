@@ -109,9 +109,11 @@ SINGLE_PATTERN = "|".join(re.escape(a) for a in single)
 # Pattern supports two branches:
 #  - regular (book + chapter:verse[, ...]) for non-single-chapter books
 #  - verse-only (book + verse[, ...]) for single-chapter books (e.g., 'Philem. 9')
-branch1 = rf"(?P<abbr1>{NON_SINGLE_PATTERN})\s+(?P<refs1>\d+:\d+(?:,\s*(?:\d+:\d+|\d+))*)"
-branch2 = rf"(?P<abbr2>{SINGLE_PATTERN})\s+(?P<refs2>\d+(?:,\s*\d+)*)(?!:)"
-ref_pattern = re.compile(rf"\b(?:{branch1}|{branch2})")
+BRANCH_MULTI_CHP_BOOKS = (
+    rf"(?P<abbr1>{NON_SINGLE_PATTERN})\s+(?P<refs1>\d+:\d+(?:,\s*(?:\d+:\d+|\d+))*)"
+)
+BRANCH_SINGLE_CHP_BOOKS = rf"(?P<abbr2>{SINGLE_PATTERN})\s+(?P<refs2>\d+(?:,\s*\d+)*)(?!:)"
+ref_pattern = re.compile(rf"\b(?:{BRANCH_MULTI_CHP_BOOKS}|{BRANCH_SINGLE_CHP_BOOKS})")
 
 
 def load_kjv(path):
