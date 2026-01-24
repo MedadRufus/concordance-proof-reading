@@ -273,7 +273,8 @@ def convert_odt_bytes_to_html(odt_bytes):
             content: attr(data-verse);
             position: absolute;
             bottom: 100%;
-            left: 0;
+            left: 50%;
+            transform: translateX(-50%);
             background: #333;
             color: white;
             padding: 8px 12px;
@@ -283,7 +284,7 @@ def convert_odt_bytes_to_html(odt_bytes):
             opacity: 0;
             pointer-events: none;
             white-space: normal;
-            min-width: 300px;
+            min-width: 200px;
             word-wrap: break-word;
         }
         .bible-ref:hover::after {
@@ -305,7 +306,8 @@ def convert_odt_bytes_to_html(odt_bytes):
             content: attr(data-verse);
             position: absolute;
             bottom: 100%;
-            left: 0;
+            left: 50%;
+            transform: translateX(-50%);
             background: #cc0000;
             color: white;
             padding: 8px 12px;
@@ -321,10 +323,6 @@ def convert_odt_bytes_to_html(odt_bytes):
 
         .bible-ref-missing:hover::after { opacity: 1; }
 
-        .bible-ref.right-aligned::after, .bible-ref-missing.right-aligned::after {
-            left: auto;
-            right: 0;
-        }
     """
     return write_html(paragraphs, style)
 
