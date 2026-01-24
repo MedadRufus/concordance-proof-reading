@@ -132,7 +132,7 @@ class Reference:  # pylint: disable=too-many-instance-attributes
     """Represent a parsed Bible reference and produce HTML anchor/link information."""
 
     # 10 args are justified here - it’s a data carrier.
-    def __init__(  # pylint: disable=too-many-arguments
+    def __init__(  # pylint: disable=too-many-arguments,too-many-positional-arguments
         self,
         abbr,
         book,
