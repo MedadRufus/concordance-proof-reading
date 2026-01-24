@@ -104,10 +104,16 @@ t = threading.Thread(target=cleanup_worker, daemon=True)
 t.start()
 
 
+@app.route("/static/tooltip.js")
+def serve_tooltip_js():
+    # Explicitly serve the JS file to ensure correct MIME type and avoid 404s
+    return send_file(os.path.join(app.root_path, "static", "tooltip.js"), mimetype="text/javascript")
+
+
 @app.after_request
 def set_security_headers(response):
     # Prevent script execution, restrict frames, enforce secure headers
-    csp = "default-src 'none'; style-src 'self' 'unsafe-inline'; img-src 'self' data:;"
+    csp = "default-src 'none'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:;"
     response.headers["Content-Security-Policy"] = csp
     response.headers["X-Content-Type-Options"] = "nosniff"
     response.headers["X-Frame-Options"] = "DENY"
