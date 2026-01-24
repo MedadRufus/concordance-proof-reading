@@ -1,10 +1,6 @@
 """Unit tests for reference parsing and replacement from `add_hyperlinks`."""
 
-from add_hyperlinks import (
-    parse_references,
-    ref_pattern,
-    replace_reference,
-)
+from add_hyperlinks import parse_references, ref_pattern, replace_reference
 
 
 def test_missing_space_after_period_no_match():
