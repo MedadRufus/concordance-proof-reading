@@ -14,3 +14,26 @@ The hover verses are taken from https://github.com/farskipper/kjv which has the 
 
 This is how the html output looks like:
 ![](docs/demo.png)
+
+## Dev
+
+All code must pass the CI checks.
+
+You must autoformat your code with:
+
+```sh
+black .
+isort .
+```
+
+Then verify that all Pylint passes with no warnings/errors:
+
+```sh
+pylint $(git ls-files '*.py')
+```
+
+Run all unittests with:
+
+```sh
+pytest --cov=.
+```

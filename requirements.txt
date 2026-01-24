@@ -1,1 +1,1 @@
-odfpy
+odfpy==1.4.1

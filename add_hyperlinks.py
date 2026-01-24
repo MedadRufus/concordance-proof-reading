@@ -1,3 +1,9 @@
+"""Utilities to convert ODT text references to HTML anchors linking to the KJV.
+
+This module provides helpers to parse Bible references and produce
+HTML anchors that link to BibleGateway with KJV verse tooltips.
+"""
+
 import html
 import json
 import os
@@ -18,15 +24,12 @@ BOOK_ABBR_TO_FULL = {
     "Lev.": "Leviticus",
     "Num.": "Numbers",
     "Deu.": "Deuteronomy",
-    "Deut.": "Deuteronomy",
     "Josh.": "Joshua",
     "Judg.": "Judges",
     "Ruth": "Ruth",
     "1 Sam.": "1 Samuel",
     "2 Sam.": "2 Samuel",
-    "1 Kings": "1 Kings",
     "1 Ki.": "1 Kings",
-    "2 Kings": "2 Kings",
     "2 Ki.": "2 Kings",
     "1 Chr.": "1 Chronicles",
     "2 Chr.": "2 Chronicles",
@@ -41,8 +44,6 @@ BOOK_ABBR_TO_FULL = {
     # its called Solomon's Song, while most other
     # bibles call it Song of Solomon
     "Song": "Solomon's Song",
-    "SS.": "Solomon's Song",
-    "Isa.": "Isaiah",
     "Is.": "Isaiah",
     "Jer.": "Jeremiah",
     "Lam.": "Lamentations",
@@ -53,7 +54,7 @@ BOOK_ABBR_TO_FULL = {
     "Amos": "Amos",
     "Obad.": "Obadiah",
     "Jonah": "Jonah",
-    "Mic.": "Micah",
+    "Micah": "Micah",
     "Nah.": "Nahum",
     "Hab.": "Habakkuk",
     "Zeph.": "Zephaniah",
@@ -77,10 +78,8 @@ BOOK_ABBR_TO_FULL = {
     "2 Thess.": "2 Thessalonians",
     "1 Tim.": "1 Timothy",
     "2 Tim.": "2 Timothy",
-    "Titus": "Titus",
     "Tit.": "Titus",
     "Philem.": "Philemon",
-    "Phm.": "Philemon",
     "Heb.": "Hebrews",
     "Jas.": "James",
     "1 Pet.": "1 Peter",
@@ -92,76 +91,167 @@ BOOK_ABBR_TO_FULL = {
     "Rev.": "Revelation",
 }
 
-# Prepare regex pattern
-sorted_abbrs = sorted(BOOK_ABBR_TO_FULL.keys(), key=lambda x: -len(x))
-ABBR_PATTERN = "|".join(re.escape(abbr) for abbr in sorted_abbrs)
-ref_pattern = re.compile(rf"\b({ABBR_PATTERN})\s+(\d+:\d+(?:,\s*(?:\d+:\d+|\d+))*)")
+# Books with a single chapter where references are commonly written as "Philem. 9"
+# rather than "Philem. 1:9"
+SINGLE_CHAPTER_ABBR = {"Obad.", "Philem.", "2 Jn.", "3 Jn.", "Jude"}
+SINGLE_CHAPTER_BOOKS = {BOOK_ABBR_TO_FULL[a] for a in SINGLE_CHAPTER_ABBR if a in BOOK_ABBR_TO_FULL}
 
-try:
-    with open(KJV_JSON_PATH, "r", encoding="utf-8") as f:
-        kjv_verses = json.load(f)
-except FileNotFoundError as e:
-    raise FileNotFoundError(
-        f"KJV Bible data file not found at '{KJV_JSON_PATH}'. "
-        "Please ensure the KJV JSON file is present in the expected directory."
-    ) from e
+# Build regex patterns. I Medad barely understand the regex. The only thing that I read are the
+# unittests which have concrete test cases.
+sorted_abbrs = sorted(BOOK_ABBR_TO_FULL, key=lambda x: -len(x))
+# For chapter:verse matching we should NOT match single-chapter book abbreviations
+non_single = [a for a in sorted_abbrs if a not in SINGLE_CHAPTER_ABBR]
+single = [a for a in sorted_abbrs if a in SINGLE_CHAPTER_ABBR]
+
+NON_SINGLE_PATTERN = "|".join(re.escape(a) for a in non_single)
+SINGLE_PATTERN = "|".join(re.escape(a) for a in single)
+
+# Pattern supports two branches:
+#  - regular (book + chapter:verse[, ...]) for non-single-chapter books
+#  - verse-only (book + verse[, ...]) for single-chapter books (e.g., 'Philem. 9')
+BRANCH_MULTI_CHP_BOOKS = (
+    rf"(?P<abbr1>{NON_SINGLE_PATTERN})\s+(?P<refs1>\d+:\d+(?:,\s*(?:\d+:\d+|\d+))*)"
+)
+BRANCH_SINGLE_CHP_BOOKS = rf"(?P<abbr2>{SINGLE_PATTERN})\s+(?P<refs2>\d+(?:,\s*\d+)*)(?!:)"
+ref_pattern = re.compile(rf"\b(?:{BRANCH_MULTI_CHP_BOOKS}|{BRANCH_SINGLE_CHP_BOOKS})")
 
 
-def get_verse_text(book, chapter, verse):
-    """Get verse text from local KJV data"""
-    key = f"{book} {chapter}:{verse}"
-    verse_text = kjv_verses.get(key, "")
-    if verse_text:
-        return f"{book} {chapter}:{verse} (KJV) - {verse_text}", True
-    return f"{book} {chapter}:{verse} (KJV) - Reference not found", False
+def load_kjv(path):
+    """Load KJV verse JSON from `path` and return the parsed mapping."""
+    try:
+        with open(path, "r", encoding="utf-8") as f:
+            return json.load(f)
+    except FileNotFoundError as e:
+        raise FileNotFoundError(
+            f"KJV Bible data file not found at '{path}'. Ensure the KJV JSON file exists."
+        ) from e
 
 
-def replace_reference(match):
-    abbr = match.group(1)
-    refs_part = match.group(2)
-    full_book = BOOK_ABBR_TO_FULL.get(abbr, abbr)
+class Reference:  # pylint: disable=too-many-instance-attributes
+    """Represent a parsed Bible reference and produce HTML anchor/link information."""
 
-    # Split by commas only
-    parts = [p.strip() for p in refs_part.split(",")]
-    linked_parts = []
-    current_chapter = None
+    # 10 args are justified here - it’s a data carrier.
+    def __init__(  # pylint: disable=too-many-arguments,too-many-positional-arguments
+        self,
+        abbr,
+        book,
+        chapter,
+        verse,
+        single_chapter,
+        matched_text,
+        part,
+        has_colon,
+        verses,
+    ):
+        """Initialize a Reference."""
+        self.abbr = abbr
+        self.book = book
+        self.chapter = chapter
+        self.verse = verse
+        self.single_chapter = single_chapter
+        self.matched_text = matched_text
+        self.part = part
+        self.has_colon = has_colon
+        self.verses = verses
 
-    for i, part in enumerate(parts):
-        if ":" in part:
-            chapter, verse = part.split(":", 1)
-            current_chapter = chapter
-        else:
-            # Just a verse number, use current chapter
-            chapter = current_chapter
-            verse = part
+    def visible(self, index):
+        """Return the visible text for the reference at the given position."""
+        if self.single_chapter:
+            if index == 0:
+                return f"{self.abbr} {self.verse}"
+            return self.verse if not self.has_colon else self.part.split(":", 1)[1]
+        if index == 0:
+            return f"{self.abbr} {self.chapter}:{self.verse}"
+        return self.part if self.has_colon else self.verse
 
-        first_verse = verse.split("-")[0]
+    def get_verse_text(self):
+        """Return a tuple (verse_text, exists) for the first verse of the reference."""
+        first_verse = self.verse.split("-")[0]
+        key = f"{self.book} {self.chapter}:{first_verse}"
+        if verse_text := self.verses.get(key, ""):
+            return f"{self.book} {self.chapter}:{first_verse} (KJV) - {verse_text}", True
+        return f"{self.book} {self.chapter}:{first_verse} (KJV) - Reference not found", False
 
-        verse_text, verse_exists = get_verse_text(full_book, chapter, first_verse)
-        search_query = f"{full_book}+{chapter}%3A{first_verse}"
-        url = f"https://www.biblegateway.com/passage/?search={search_query}&version=KJV"
+    def resolve(self):
+        """Return (verse_text, verse_exists, url) for this reference."""
+        first_verse = self.verse.split("-")[0]
+        if self.chapter is None:
+            url = (
+                "https://www.biblegateway.com/passage/?search="
+                f"{self.book}+{first_verse}&version=KJV"
+            )
+            return "", False, url
 
-        if i == 0:
-            base_ref = f"{abbr} {chapter}:{verse}"
-        else:
-            base_ref = verse if ":" not in part else part
+        verse_text, verse_exists = self.get_verse_text()
+        url = (
+            "https://www.biblegateway.com/passage/?search="
+            f"{self.book}+{self.chapter}%3A{first_verse}&version=KJV"
+        )
+        return verse_text, verse_exists, url
 
-        # Use base_ref as visible text, but mark it if ref not found so that its easy to search for
-        # using the web browser word search.
-        if not verse_exists:
-            ref_text = f"{base_ref} [REF NOT FOUND]"
-        else:
-            ref_text = base_ref
-
+    def to_anchor(self, index: int) -> str:
+        """Construct the anchor HTML for this reference."""
+        verse_text, verse_exists, url = self.resolve()
+        visible = self.visible(index)
         css_class = "bible-ref" if verse_exists else "bible-ref-missing"
-        linked_parts.append(
-            f'<a href="{html.escape(url)}" class="{css_class}" data-verse="{html.escape(verse_text)}">{html.escape(ref_text)}</a>'
+        ref_text = f"{visible} [REF NOT FOUND]" if not verse_exists else visible
+        return (
+            f'<a href="{html.escape(url)}" class="{css_class}" '
+            f'data-verse="{html.escape(verse_text)}">{html.escape(ref_text)}</a>'
         )
 
-    return ", ".join(linked_parts)
+
+def parse_references(text, verses):
+    """Parse all Bible references in `text` and return a list of `Reference` objects."""
+    results = []
+    for match in ref_pattern.finditer(text):
+        abbr = match.group("abbr1") or match.group("abbr2")
+        refs_part = match.group("refs1") or match.group("refs2")
+        full_book = BOOK_ABBR_TO_FULL.get(abbr, abbr)
+        single_chapter = full_book in SINGLE_CHAPTER_BOOKS
+
+        parts = [p.strip() for p in refs_part.split(",")]
+        current_chapter = None
+
+        for part in parts:
+            if has_colon := ":" in part:
+                chapter, verse = part.split(":", 1)
+                current_chapter = chapter
+            else:
+                chapter = "1" if single_chapter else current_chapter
+                verse = part
+
+            if chapter is None:
+                continue  # skip malformed
+
+            results.append(
+                Reference(
+                    abbr=abbr,
+                    book=full_book,
+                    chapter=chapter,
+                    verse=verse,
+                    single_chapter=single_chapter,
+                    matched_text=match.group(0),
+                    part=part,
+                    has_colon=has_colon,
+                    verses=verses,
+                )
+            )
+    return results
+
+
+def replace_reference(match, verses):
+    """Replace a matched reference span with HTML anchors for each parsed reference."""
+    if not (refs := parse_references(match.group(0), verses)):
+        return match.group(0)
+    return ", ".join(r.to_anchor(i) for i, r in enumerate(refs))
 
 
 def main():
+    """CLI entry point: convert an ODT to HTML with Bible links.
+
+    Expects two arguments: input ODT path and output HTML path.
+    """
     if len(sys.argv) != 3:
         print("Usage: python odt_bible_links.py <input.odt> <output.html>")
         sys.exit(1)
@@ -174,20 +264,11 @@ def main():
         sys.exit(1)
 
     doc = load(odt_path)
-    paragraphs = []
-    for elem in doc.getElementsByType(P):
-        txt = teletype.extractText(elem)
-        if txt.strip():
-            txt = re.sub(r"\s+", " ", txt)
-            txt_linked = ref_pattern.sub(replace_reference, txt)
-            paragraphs.append(txt_linked)
+    kjv_verses = load_kjv(KJV_JSON_PATH)
 
-    html_content = """<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Bible Concordance</title>
-    <style>
+    paragraphs = extract_paragraphs(doc, kjv_verses)
+
+    style = """
         body { font-family: Arial, sans-serif; line-height: 1.6; margin: 40px; }
         p { margin: 0 0 1em 0; }
         .bible-ref { 
@@ -250,13 +331,38 @@ def main():
             white-space: normal;
             word-wrap: break-word;
         }
-        .bible-ref-missing:hover::after {
-            opacity: 1;
-        }
-    </style>
-</head>
-<body>
-"""
+
+        .bible-ref-missing:hover::after { opacity: 1; }
+    """
+
+    write_html(paragraphs, html_path, style)
+
+
+def extract_paragraphs(doc, verses):
+    """Extract visible paragraphs from ODT `doc` and replace references using `verses`."""
+    paragraphs = []
+    for elem in doc.getElementsByType(P):
+        txt = teletype.extractText(elem)
+        if not txt.strip():
+            continue
+        txt = re.sub(r"\s+", " ", txt)
+        txt_linked = ref_pattern.sub(lambda m: replace_reference(m, verses), txt)
+        paragraphs.append(txt_linked)
+    return paragraphs
+
+
+def write_html(paragraphs, html_path, style):
+    """Write `paragraphs` to `html_path` wrapped in a simple HTML document using `style`."""
+    html_content = (
+        "<!DOCTYPE html>\n"
+        '<html lang="en">\n'
+        "<head>\n"
+        '    <meta charset="UTF-8">\n'
+        "    <title>Bible Concordance</title>\n"
+        f"    <style>{style}</style>\n"
+        "</head>\n"
+        "<body>\n"
+    )
     for p in paragraphs:
         html_content += f"<p>{p}</p>\n"
     html_content += "</body>\n</html>"
