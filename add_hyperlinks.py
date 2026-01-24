@@ -379,14 +379,14 @@ def convert_odt_to_html(odt_path, html_path):
 
 def main():
     """Convert an ODT file with Bible references to an HTML file with hyperlinks."""
-    if len(sys.argv) != 3:
-        print("Usage: python odt_bible_links.py <input.odt> <output.html>")
-        sys.exit(1)
+    parser = argparse.ArgumentParser(
+        description="Convert an ODT file with Bible references to an HTML file with hyperlinks."
+    )
+    parser.add_argument("input_odt", help="The path to the input ODT file.")
+    parser.add_argument("output_html", help="The path to the output HTML file.")
+    args = parser.parse_args()
 
-    odt_path = sys.argv[1]
-    html_path = sys.argv[2]
-
-    out = convert_odt_to_html(odt_path, html_path)
+    out = convert_odt_to_html(args.input_odt, args.output_html)
     print(f"Success: HTML saved to {out}")
 
 
