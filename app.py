@@ -140,7 +140,7 @@ def validate_request(file_request):
 
 
 @app.route("/upload", methods=["POST"])
-def upload():  # pylint: disable=too-complex
+def upload():
     """Handle file upload, conversion, and redirection."""
     error_message, error_code = validate_request(request)
     if error_message:
