@@ -127,8 +127,11 @@ def index():
     return render_template("upload.html")
 
 
-@app.route("/upload", methods=["POST"])
+@app.route("/upload", methods=["GET", "POST"])
 def upload():
+    if request.method == "GET":
+        return redirect(url_for("index"))
+
     if "file" not in request.files:
         return "No file part", 400
     file = request.files["file"]
