@@ -9,16 +9,13 @@ on:
 jobs:
   lint-and-test:
     runs-on: ubuntu-24.04
-    strategy:
-      matrix:
-        python-version: [3.11]
 
     steps:
       - uses: actions/checkout@v4
       - name: Setup Python
         uses: actions/setup-python@v4
         with:
-          python-version: ${{ matrix.python-version }}
+          python-version: 3.11
 
       - name: Install dependencies
         run: |
