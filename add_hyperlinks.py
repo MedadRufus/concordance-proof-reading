@@ -216,69 +216,56 @@ class Reference:  # pylint: disable=too-many-instance-attributes
             if root_lower == "alway":
                 normalized_root = "always"
 
-            # Generate candidate lemmas and forms
-            candidate_lemmas = {normalized_root}
-
-            # Add spaCy lemma of root
+            # Get root lemma via spaCy
+            root_lemma = root_lower
             try:
                 root_doc = _nlp(root_lower)
                 if root_doc and root_doc[0].lemma_:
-                    candidate_lemmas.add(root_doc[0].lemma_.lower())
+                    root_lemma = root_doc[0].lemma_.lower()
             except:
                 pass
-
-            # Custom KJV verb endings
-            if root_lower.endswith(("e", "y", "t", "d")) or len(root_lower) >= 4:
-                candidate_lemmas.update(
-                    [
-                        root_lower + "eth",
-                        root_lower + "est",
-                        root_lower + "ed",
-                        root_lower + "ing",
-                        root_lower + "s",
-                    ]
-                )
-
-            # Custom adverb forms (handle ATTENTIVE → attentively)
-            if root_lower.endswith("e"):
-                candidate_lemmas.add(root_lower[:-1] + "ly")
-            elif root_lower.endswith("y"):
-                candidate_lemmas.add(root_lower[:-1] + "ily")
-            elif root_lower.endswith("ic"):
-                candidate_lemmas.add(root_lower + "ally")
-            else:
-                candidate_lemmas.add(root_lower + "ly")
 
             # Process verse with spaCy
             doc = _nlp(clean_verse)
             matched_any = False
-            bolded_tokens = []
+            bolded_parts = []
 
             for token in doc:
                 if token.is_alpha:
-                    word_lower = token.text.lower()
+                    word = token.text
+                    word_lower = word.lower()
                     lemma = token.lemma_.lower() if token.lemma_ else word_lower
 
-                    # Direct match strategies
+                    # Match if:
+                    # - lemma matches root lemma, OR
+                    # - word matches common KJV forms of root
                     match = (
-                        lemma in candidate_lemmas
-                        or word_lower in candidate_lemmas
-                        or any(word_lower.startswith(r) for r in [root_lower, normalized_root])
-                        and any(
-                            suffix in word_lower
-                            for suffix in ["eth", "est", "ed", "ing", "ly", "s"]
+                        lemma == root_lemma
+                        or word_lower == root_lower
+                        or word_lower == normalized_root
+                        or any(
+                            word_lower == root_lower + suf
+                            for suf in ["eth", "est", "ed", "ing", "s", "ly"]
                         )
+                        or (root_lower.endswith("e") and word_lower == root_lower[:-1] + "ly")
+                        or (root_lower.endswith("y") and word_lower == root_lower[:-1] + "ily")
+                        or (root_lower.endswith("ic") and word_lower == root_lower + "ally")
                     )
 
                     if match:
-                        bolded_tokens.append(f"<strong>{html.escape(token.text)}</strong>")
+                        # Bold the word, then append its trailing whitespace separately
+                        bolded_parts.append(
+                            f"<strong>{html.escape(word)}</strong>{html.escape(token.whitespace_)}"
+                        )
                         matched_any = True
                     else:
-                        bolded_tokens.append(html.escape(token.text))
+                        # Append word + its whitespace as-is
+                        bolded_parts.append(html.escape(token.text_with_ws))
                 else:
-                    bolded_tokens.append(html.escape(token.text))
+                    # Non-alpha tokens (punctuation, etc.)
+                    bolded_parts.append(html.escape(token.text_with_ws))
 
-            bolded_verse = "".join(bolded_tokens)
+            bolded_verse = "".join(bolded_parts)
 
             if matched_any:
                 css_class = "bible-ref"
