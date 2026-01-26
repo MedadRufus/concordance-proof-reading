@@ -18,7 +18,7 @@ from odf import teletype
 from odf.opendocument import load
 from odf.text import P
 
-KJV_JSON_PATH = "kjv/json/verses-1769.json"
+KJV_JSON_PATH = "kjv"
 
 # Bible book abbreviation mapping
 BOOK_ABBR_TO_FULL = {
@@ -44,10 +44,7 @@ BOOK_ABBR_TO_FULL = {
     "Ps.": "Psalms",
     "Prov.": "Proverbs",
     "Eccl.": "Ecclesiastes",
-    # In the https://github.com/farskipper/kjv json,
-    # its called Solomon's Song, while most other
-    # bibles call it Song of Solomon
-    "Song": "Solomon's Song",
+    "Song": "Song of Solomon",
     "Is.": "Isaiah",
     "Jer.": "Jeremiah",
     "Lam.": "Lamentations",
@@ -125,12 +122,25 @@ _inflect = inflect.engine()
 
 def load_kjv(path):
     """Load KJV verse JSON from `path` and return the parsed mapping."""
+    kjv_verses = {}
     try:
-        with open(path, "r", encoding="utf-8") as f:
-            return json.load(f)
+        for filename in os.listdir(path):
+            if filename.endswith(".json") and filename != "Books.json":
+                filepath = os.path.join(path, filename)
+                with open(filepath, "r", encoding="utf-8") as f:
+                    data = json.load(f)
+                    book = data["book"]
+                    for chapter_data in data["chapters"]:
+                        chapter = chapter_data["chapter"]
+                        for verse_data in chapter_data["verses"]:
+                            verse = verse_data["verse"]
+                            text = verse_data["text"]
+                            key = f"{book} {chapter}:{verse}"
+                            kjv_verses[key] = text
+        return kjv_verses
     except FileNotFoundError as e:
         raise FileNotFoundError(
-            f"KJV Bible data file not found at '{path}'. Ensure the KJV JSON file exists."
+            f"KJV Bible data directory not found at '{path}'. Ensure the KJV JSON files exist."
         ) from e
 
 
