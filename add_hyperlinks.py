@@ -2,7 +2,8 @@
 
 This module provides helpers to parse Bible references and produce
 HTML anchors that link to BibleGateway with KJV verse tooltips,
-including validation that the root word (e.g., ABHOR) appears in the verse.
+including validation that the root word (e.g., ABHOR) appears in the verse
+in any common inflected or derived form (e.g., abhorred, acceptably).
 """
 
 import argparse
@@ -11,6 +12,7 @@ import io
 import json
 import os
 import re
+import inflect
 
 from odf import teletype
 from odf.opendocument import load
@@ -117,6 +119,9 @@ BRANCH_MULTI_CHP_BOOKS = (
 BRANCH_SINGLE_CHP_BOOKS = rf"(?P<abbr2>{SINGLE_PATTERN})\s+(?P<refs2>\d+(?:,\s*\d+)*)"
 ref_pattern = re.compile(rf"\b(?:{BRANCH_MULTI_CHP_BOOKS}|{BRANCH_SINGLE_CHP_BOOKS})")
 
+# Initialize inflect engine
+_inflect = inflect.engine()
+
 
 def load_kjv(path):
     """Load KJV verse JSON from `path` and return the parsed mapping."""
@@ -127,6 +132,45 @@ def load_kjv(path):
         raise FileNotFoundError(
             f"KJV Bible data file not found at '{path}'. Ensure the KJV JSON file exists."
         ) from e
+
+
+def generate_forms(root):
+    """
+    Generate inflected forms using inflect + custom adverb rule.
+    Handles:
+      - Verbs: admonish → admonished, admonishing, etc.
+      - Adjectives: acceptable → acceptably
+    """
+    if not root or not root.isalpha():
+        return {root.lower()} if root else set()
+
+    r = root.lower()
+    forms = {r}
+
+    # --- Verb inflections (using inflect)
+    try:
+        # Past tense
+        past = _inflect.conjugate(r, tense="past", person=3, number="singular")
+        if past and past != r:
+            forms.add(past)
+        # Present participle
+        pres_part = _inflect.present_participle(r)
+        if pres_part and pres_part != r:
+            forms.add(pres_part)
+    except Exception:
+        # Fallback to manual suffixes if inflect fails
+        forms.update([r + suf for suf in ["ed", "ing"]])
+
+    # --- Archaic verb endings (KJV-specific)
+    forms.update([r + suf for suf in ["eth", "est", "s"]])
+
+    # --- Adjective → Adverb
+    if r.endswith("e"):
+        forms.add(r[:-1] + "ly")  # acceptable → acceptably
+    else:
+        forms.add(r + "ly")
+
+    return forms
 
 
 class Reference:  # pylint: disable=too-many-instance-attributes
@@ -197,26 +241,32 @@ class Reference:  # pylint: disable=too-many-instance-attributes
             clean_verse = self.clean_kjv_text(raw_verse)
             # Bold all whole-word occurrences of root_word (case-insensitive, preserve case)
             root = self.root_word
-            escaped_root = re.escape(root)
 
-            def bold_match(m):
-                return f"<strong>{html.escape(m.group(0))}</strong>"
+            candidate_forms = generate_forms(root)
+            escaped_verse = html.escape(clean_verse)
+            matched_any = False
 
-            bolded_verse = re.sub(
-                rf"\b{escaped_root}\b", bold_match, clean_verse, flags=re.IGNORECASE
-            )
-            root_found = bool(re.search(rf"\b{escaped_root}\b", clean_verse, re.IGNORECASE))
+            # Sort by length (longest first) to avoid partial matches
+            for form in sorted(candidate_forms, key=len, reverse=True):
+                pattern = r"\b" + re.escape(form) + r"\b"
+                if re.search(pattern, clean_verse, re.IGNORECASE):
 
-            if not root_found:
-                css_class = "bible-ref-no-root"
-                ref_text = f"{visible} [ROOT WORD MISSING]"
-                tooltip_content = f"{full_key} (KJV) - {clean_verse}"
-            else:
+                    def replacer(m):
+                        return f"<strong>{html.escape(m.group(0))}</strong>"
+
+                    escaped_verse = re.sub(pattern, replacer, escaped_verse, flags=re.IGNORECASE)
+                    matched_any = True
+
+            if matched_any:
                 css_class = "bible-ref"
                 ref_text = visible
                 tooltip_content = (
-                    f"<strong>{html.escape(root)}</strong>: {full_key} (KJV) - {bolded_verse}"
+                    f"<strong>{html.escape(root)}</strong>: {full_key} (KJV) - {escaped_verse}"
                 )
+            else:
+                css_class = "bible-ref-no-root"
+                ref_text = f"{visible} [ROOT WORD MISSING]"
+                tooltip_content = f"{full_key} (KJV) - {html.escape(clean_verse)}"
 
         escaped_ref_text = html.escape(ref_text)
         return (
@@ -294,8 +344,7 @@ def extract_paragraphs(doc, verses):
                     j += 1
                 if j < len(words):
                     next_token = re.sub(r"[.,;:!?\)]*$", "", words[j])
-                    # If next token starts with lowercase OR is a small word (I, a, the, his, etc.), this is likely the end of root
-                    if (next_token[0].islower() if next_token else False) or next_token in {
+                    if (next_token and next_token[0].islower()) or next_token in {
                         "I",
                         "a",
                         "the",
