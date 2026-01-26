@@ -209,22 +209,68 @@ class Reference:  # pylint: disable=too-many-instance-attributes
         else:
             clean_verse = self.clean_kjv_text(raw_verse)
             root = self.root_word
-
-            # Normalize root: lower + singularize if needed
             root_lower = root.lower()
-            root_doc = _nlp(root_lower)
-            root_lemma = root_doc[0].lemma_.lower() if root_doc else root_lower
 
-            # Process verse words
+            # Normalize root to base form (handle ALWAY → always)
+            normalized_root = root_lower
+            if root_lower == "alway":
+                normalized_root = "always"
+
+            # Generate candidate lemmas and forms
+            candidate_lemmas = {normalized_root}
+
+            # Add spaCy lemma of root
+            try:
+                root_doc = _nlp(root_lower)
+                if root_doc and root_doc[0].lemma_:
+                    candidate_lemmas.add(root_doc[0].lemma_.lower())
+            except:
+                pass
+
+            # Custom KJV verb endings
+            if root_lower.endswith(("e", "y", "t", "d")) or len(root_lower) >= 4:
+                candidate_lemmas.update(
+                    [
+                        root_lower + "eth",
+                        root_lower + "est",
+                        root_lower + "ed",
+                        root_lower + "ing",
+                        root_lower + "s",
+                    ]
+                )
+
+            # Custom adverb forms (handle ATTENTIVE → attentively)
+            if root_lower.endswith("e"):
+                candidate_lemmas.add(root_lower[:-1] + "ly")
+            elif root_lower.endswith("y"):
+                candidate_lemmas.add(root_lower[:-1] + "ily")
+            elif root_lower.endswith("ic"):
+                candidate_lemmas.add(root_lower + "ally")
+            else:
+                candidate_lemmas.add(root_lower + "ly")
+
+            # Process verse with spaCy
             doc = _nlp(clean_verse)
             matched_any = False
             bolded_tokens = []
 
             for token in doc:
                 if token.is_alpha:
-                    lemma = token.lemma_.lower()
-                    # Match if lemma equals root lemma OR root word
-                    if lemma == root_lemma or lemma == root_lower:
+                    word_lower = token.text.lower()
+                    lemma = token.lemma_.lower() if token.lemma_ else word_lower
+
+                    # Direct match strategies
+                    match = (
+                        lemma in candidate_lemmas
+                        or word_lower in candidate_lemmas
+                        or any(word_lower.startswith(r) for r in [root_lower, normalized_root])
+                        and any(
+                            suffix in word_lower
+                            for suffix in ["eth", "est", "ed", "ing", "ly", "s"]
+                        )
+                    )
+
+                    if match:
                         bolded_tokens.append(f"<strong>{html.escape(token.text)}</strong>")
                         matched_any = True
                     else:
