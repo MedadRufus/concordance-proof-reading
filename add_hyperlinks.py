@@ -1,7 +1,8 @@
 """Utilities to convert ODT text references to HTML anchors linking to the KJV.
 
 This module provides helpers to parse Bible references and produce
-HTML anchors that link to BibleGateway with KJV verse tooltips.
+HTML anchors that link to BibleGateway with KJV verse tooltips,
+including validation that the root word (e.g., ABHOR) appears in the verse.
 """
 
 import argparse
@@ -113,7 +114,7 @@ SINGLE_PATTERN = "|".join(re.escape(a) for a in single)
 BRANCH_MULTI_CHP_BOOKS = (
     rf"(?P<abbr1>{NON_SINGLE_PATTERN})\s+(?P<refs1>\d+:\d+(?:,\s*(?:\d+:\d+|\d+))*)"
 )
-BRANCH_SINGLE_CHP_BOOKS = rf"(?P<abbr2>{SINGLE_PATTERN})\s+(?P<refs2>\d+(?:,\s*\d+)*)(?!:)"
+BRANCH_SINGLE_CHP_BOOKS = rf"(?P<abbr2>{SINGLE_PATTERN})\s+(?P<refs2>\d+(?:,\s*\d+)*)"
 ref_pattern = re.compile(rf"\b(?:{BRANCH_MULTI_CHP_BOOKS}|{BRANCH_SINGLE_CHP_BOOKS})")
 
 
@@ -143,6 +144,7 @@ class Reference:  # pylint: disable=too-many-instance-attributes
         part,
         has_colon,
         verses,
+        root_word,
     ):
         """Initialize a Reference."""
         self.abbr = abbr
@@ -154,6 +156,7 @@ class Reference:  # pylint: disable=too-many-instance-attributes
         self.part = part
         self.has_colon = has_colon
         self.verses = verses
+        self.root_word = root_word
 
     def visible(self, index):
         """Return the visible text for the reference at the given position."""
@@ -165,45 +168,75 @@ class Reference:  # pylint: disable=too-many-instance-attributes
             return f"{self.abbr} {self.chapter}:{self.verse}"
         return self.part if self.has_colon else self.verse
 
+    def clean_kjv_text(self, text):
+        """Remove KJV markup: # and [...]"""
+        text = re.sub(r"\[.*?\]", "", text)
+        text = text.replace("#", " ")
+        return re.sub(r"\s+", " ", text).strip()
+
     def get_verse_text(self):
-        """Return a tuple (verse_text, exists) for the first verse of the reference."""
+        """Return (tooltip_html, ref_exists, root_found)."""
         first_verse = self.verse.split("-")[0]
         key = f"{self.book} {self.chapter}:{first_verse}"
-        if verse_text := self.verses.get(key, ""):
-            return f"{self.book} {self.chapter}:{first_verse} (KJV) - {verse_text}", True
-        return f"{self.book} {self.chapter}:{first_verse} (KJV) - Reference not found", False
+        raw_verse = self.verses.get(key, "")
+        if not raw_verse:
+            return (
+                f"{self.book} {self.chapter}:{first_verse} (KJV) - Reference not found",
+                False,
+                False,
+            )
+
+        clean_text = self.clean_kjv_text(raw_verse)
+        root_lower = self.root_word.lower()
+        verse_lower = clean_text.lower()
+        root_found = root_lower in verse_lower
+
+        tooltip = (
+            f"<strong>{html.escape(self.root_word)}</strong>: "
+            f"{self.book} {self.chapter}:{first_verse} (KJV) - {raw_verse}"
+        )
+        return tooltip, True, root_found
 
     def resolve(self):
-        """Return (verse_text, verse_exists, url) for this reference."""
+        """Return (verse_text, ref_exists, root_found, url)."""
         first_verse = self.verse.split("-")[0]
         if self.chapter is None:
             url = (
                 "https://www.biblegateway.com/passage/?search="
                 f"{self.book}+{first_verse}&version=KJV"
             )
-            return "", False, url
+            return "", False, False, url
 
-        verse_text, verse_exists = self.get_verse_text()
+        verse_text, ref_exists, root_found = self.get_verse_text()
         url = (
             "https://www.biblegateway.com/passage/?search="
             f"{self.book}+{self.chapter}%3A{first_verse}&version=KJV"
         )
-        return verse_text, verse_exists, url
+        return verse_text, ref_exists, root_found, url
 
     def to_anchor(self, index: int) -> str:
         """Construct the anchor HTML for this reference."""
-        verse_text, verse_exists, url = self.resolve()
+        verse_text, ref_exists, root_found, url = self.resolve()
         visible = self.visible(index)
-        css_class = "bible-ref" if verse_exists else "bible-ref-missing"
-        ref_text = f"{visible} [REF NOT FOUND]" if not verse_exists else visible
+
+        if not ref_exists:
+            css_class = "bible-ref-missing"
+            ref_text = f"{visible} [REF NOT FOUND]"
+        elif not root_found:
+            css_class = "bible-ref-no-root"
+            ref_text = f"{visible} [ROOT WORD MISSING]"
+        else:
+            css_class = "bible-ref"
+            ref_text = visible
+
         return (
             f'<a href="{html.escape(url)}" class="{css_class}" '
             f'data-verse="{html.escape(verse_text)}">{html.escape(ref_text)}</a>'
         )
 
 
-def parse_references(text, verses):
-    """Parse all Bible references in `text` and return a list of `Reference` objects."""
+def parse_references_with_root(text, verses, root_word):
+    """Parse references in `text` and attach `root_word` to each."""
     results = []
     for match in ref_pattern.finditer(text):
         abbr = match.group("abbr1") or match.group("abbr2")
@@ -236,16 +269,117 @@ def parse_references(text, verses):
                     part=part,
                     has_colon=has_colon,
                     verses=verses,
+                    root_word=root_word,
                 )
             )
     return results
 
 
-def replace_reference(match, verses):
-    """Replace a matched reference span with HTML anchors for each parsed reference."""
-    if not (refs := parse_references(match.group(0), verses)):
-        return match.group(0)
-    return ", ".join(r.to_anchor(i) for i, r in enumerate(refs))
+def extract_paragraphs(doc, verses):
+    paragraphs = []
+    for elem in doc.getElementsByType(P):
+        raw_txt = teletype.extractText(elem)
+        if not raw_txt.strip():
+            continue
+        txt = re.sub(r"\s+", " ", raw_txt).strip()
+
+        # Try to extract root word more carefully
+        root_word = None
+        words = re.split(r"(\s+)", txt)  # keep whitespace for position tracking
+        i = 0
+        while i < len(words):
+            w = words[i].strip()
+            if not w:
+                i += 1
+                continue
+
+            # Candidate: all caps, length ≥ 2, no punctuation inside (ignore trailing .,;)
+            clean_w = re.sub(r"[.,;:!?\)]*$", "", w)
+            if clean_w.isalpha() and clean_w.isupper() and len(clean_w) >= 2:
+                # Look ahead: next non-whitespace token should NOT be all-caps (unless multi-word root — rare)
+                j = i + 1
+                while j < len(words) and words[j].isspace():
+                    j += 1
+                if j < len(words):
+                    next_token = re.sub(r"[.,;:!?\)]*$", "", words[j])
+                    # If next token starts with lowercase OR is a small word (I, a, the, his, etc.), this is likely the end of root
+                    if (next_token[0].islower() if next_token else False) or next_token in {
+                        "I",
+                        "a",
+                        "the",
+                        "his",
+                        "her",
+                        "their",
+                        "my",
+                        "thy",
+                        "ye",
+                        "you",
+                        "we",
+                        "it",
+                    }:
+                        root_word = clean_w
+                        break
+                # Also accept if next token is punctuation (e.g., comma)
+                elif j < len(words) and re.match(r"^[,\.\-\)]", words[j]):
+                    root_word = clean_w
+                    break
+            i += 1
+
+        if root_word is None:
+            # Fallback: use first all-caps word ≥2 chars, even if imperfect
+            fallback_match = re.search(r"\b([A-Z]{2,})\b", txt)
+            if fallback_match:
+                root_word = fallback_match.group(1)
+            else:
+                # No root word found → treat as plain text
+                paragraphs.append(html.escape(txt))
+                continue
+
+        # Now split by |, but only after root word
+        # Remove root word from txt for segment parsing
+        # Find where root_word appears (first occurrence)
+        root_pos = txt.find(root_word)
+        if root_pos == -1:
+            paragraphs.append(html.escape(txt))
+            continue
+
+        remainder = txt[root_pos + len(root_word) :].lstrip()
+        segments = [s.strip() for s in remainder.split("|") if s.strip()]
+
+        rendered_segments = []
+        for seg in segments:
+            new_seg = ref_pattern.sub(
+                lambda m: ", ".join(
+                    r.to_anchor(i)
+                    for i, r in enumerate(parse_references_with_root(m.group(0), verses, root_word))
+                )
+                or html.escape(m.group(0)),
+                seg,
+            )
+            rendered_segments.append(new_seg)
+
+        final_line = f"<strong>{html.escape(root_word)}</strong> " + " | ".join(rendered_segments)
+        paragraphs.append(final_line)
+
+    return paragraphs
+
+
+def write_html(paragraphs, style):
+    """Write `paragraphs` to an HTML string wrapped in a simple HTML document using `style`."""
+    html_content = (
+        "<!DOCTYPE html>\n"
+        '<html lang="en">\n'
+        "<head>\n"
+        '    <meta charset="UTF-8">\n'
+        "    <title>Bible Concordance</title>\n"
+        f"    <style>{style}</style>\n"
+        "</head>\n"
+        "<body>\n"
+    )
+    for p in paragraphs:
+        html_content += f"<p>{p}</p>\n"
+    html_content += "</body>\n</html>"
+    return html_content
 
 
 def convert_odt_bytes_to_html(odt_bytes):
@@ -323,40 +457,41 @@ def convert_odt_bytes_to_html(odt_bytes):
 
         .bible-ref-missing:hover::after { opacity: 1; }
 
+        .bible-ref-no-root { 
+            color: #cc6600; 
+            cursor: help; 
+            border-bottom: 2px dashed #cc6600;
+            text-decoration: none;
+            position: relative;
+            background-color: #fff9e6;
+        }
+        .bible-ref-no-root:hover { 
+            background-color: #ffebcc;
+            text-decoration: underline;
+        }
+        .bible-ref-no-root::after {
+            content: attr(data-verse);
+            position: absolute;
+            bottom: 100%;
+            left: 50%;
+            transform: translateX(-50%);
+            background: #cc6600;
+            color: white;
+            padding: 8px 12px;
+            border-radius: 4px;
+            font-size: 12px;
+            z-index: 1000;
+            opacity: 0;
+            pointer-events: none;
+            max-width: 400px;
+            white-space: normal;
+            word-wrap: break-word;
+        }
+        .bible-ref-no-root:hover::after {
+            opacity: 1;
+        }
     """
     return write_html(paragraphs, style)
-
-
-def extract_paragraphs(doc, verses):
-    """Extract visible paragraphs from ODT `doc` and replace references using `verses`."""
-    paragraphs = []
-    for elem in doc.getElementsByType(P):
-        txt = teletype.extractText(elem)
-        if not txt.strip():
-            continue
-        txt = re.sub(r"\s+", " ", txt)
-        txt_linked = ref_pattern.sub(lambda m: replace_reference(m, verses), txt)
-        paragraphs.append(txt_linked)
-    return paragraphs
-
-
-def write_html(paragraphs, style):
-    """Write `paragraphs` to an HTML string wrapped in a simple HTML document using `style`."""
-    html_content = (
-        "<!DOCTYPE html>\n"
-        '<html lang="en">\n'
-        "<head>\n"
-        '    <meta charset="UTF-8">\n'
-        "    <title>Bible Concordance</title>\n"
-        f"    <style>{style}</style>\n"
-        "</head>\n"
-        "<body>\n"
-    )
-    for p in paragraphs:
-        html_content += f"<p>{p}</p>\n"
-    html_content += "</body>\n</html>"
-
-    return html_content
 
 
 def convert_odt_to_html(odt_path, html_path):
