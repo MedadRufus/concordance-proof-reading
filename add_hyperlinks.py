@@ -174,64 +174,56 @@ class Reference:  # pylint: disable=too-many-instance-attributes
         text = text.replace("#", " ")
         return re.sub(r"\s+", " ", text).strip()
 
-    def get_verse_text(self):
-        """Return (tooltip_html, ref_exists, root_found)."""
-        first_verse = self.verse.split("-")[0]
-        key = f"{self.book} {self.chapter}:{first_verse}"
-        raw_verse = self.verses.get(key, "")
-        if not raw_verse:
-            return (
-                f"{self.book} {self.chapter}:{first_verse} (KJV) - Reference not found",
-                False,
-                False,
-            )
-
-        clean_text = self.clean_kjv_text(raw_verse)
-        root_lower = self.root_word.lower()
-        verse_lower = clean_text.lower()
-        root_found = root_lower in verse_lower
-
-        tooltip = (
-            f"<strong>{html.escape(self.root_word)}</strong>: "
-            f"{self.book} {self.chapter}:{first_verse} (KJV) - {raw_verse}"
-        )
-        return tooltip, True, root_found
-
-    def resolve(self):
-        """Return (verse_text, ref_exists, root_found, url)."""
-        first_verse = self.verse.split("-")[0]
-        if self.chapter is None:
-            url = (
-                "https://www.biblegateway.com/passage/?search="
-                f"{self.book}+{first_verse}&version=KJV"
-            )
-            return "", False, False, url
-
-        verse_text, ref_exists, root_found = self.get_verse_text()
-        url = (
-            "https://www.biblegateway.com/passage/?search="
-            f"{self.book}+{self.chapter}%3A{first_verse}&version=KJV"
-        )
-        return verse_text, ref_exists, root_found, url
+    def get_full_verse_key(self):
+        """Return full verse key like 'Proverbs 24:24'."""
+        return f"{self.book} {self.chapter}:{self.verse}"
 
     def to_anchor(self, index: int) -> str:
-        """Construct the anchor HTML for this reference."""
-        verse_text, ref_exists, root_found, url = self.resolve()
+        """Construct the anchor HTML for this reference with a real tooltip span."""
+        full_key = self.get_full_verse_key()
+        raw_verse = self.verses.get(full_key, "")
         visible = self.visible(index)
 
-        if not ref_exists:
+        url = (
+            "https://www.biblegateway.com/passage/?search="
+            f"{self.book}+{self.chapter}%3A{self.verse}&version=KJV"
+        )
+
+        if not raw_verse:
             css_class = "bible-ref-missing"
             ref_text = f"{visible} [REF NOT FOUND]"
-        elif not root_found:
-            css_class = "bible-ref-no-root"
-            ref_text = f"{visible} [ROOT WORD MISSING]"
+            tooltip_content = f"{full_key} (KJV) - Reference not found"
         else:
-            css_class = "bible-ref"
-            ref_text = visible
+            clean_verse = self.clean_kjv_text(raw_verse)
+            # Bold all whole-word occurrences of root_word (case-insensitive, preserve case)
+            root = self.root_word
+            escaped_root = re.escape(root)
 
+            def bold_match(m):
+                return f"<strong>{html.escape(m.group(0))}</strong>"
+
+            bolded_verse = re.sub(
+                rf"\b{escaped_root}\b", bold_match, clean_verse, flags=re.IGNORECASE
+            )
+            root_found = bool(re.search(rf"\b{escaped_root}\b", clean_verse, re.IGNORECASE))
+
+            if not root_found:
+                css_class = "bible-ref-no-root"
+                ref_text = f"{visible} [ROOT WORD MISSING]"
+                tooltip_content = f"{full_key} (KJV) - {clean_verse}"
+            else:
+                css_class = "bible-ref"
+                ref_text = visible
+                tooltip_content = (
+                    f"<strong>{html.escape(root)}</strong>: {full_key} (KJV) - {bolded_verse}"
+                )
+
+        escaped_ref_text = html.escape(ref_text)
         return (
-            f'<a href="{html.escape(url)}" class="{css_class}" '
-            f'data-verse="{html.escape(verse_text)}">{html.escape(ref_text)}</a>'
+            f'<span class="ref-pair">'
+            f'<a href="{html.escape(url)}" class="{css_class}">{escaped_ref_text}</a>'
+            f'<span class="tooltip">{tooltip_content}</span>'
+            f"</span>"
         )
 
 
@@ -390,21 +382,24 @@ def convert_odt_bytes_to_html(odt_bytes):
     paragraphs = extract_paragraphs(doc, kjv_verses)
 
     style = """
-        body { font-family: Arial, sans-serif; line-height: 1.6; margin: 10em; }
-        p { margin: 0 0 1em 0; }
-        .bible-ref { 
-            color: #0066cc; 
-            cursor: help; 
-            border-bottom: 1px dotted #0066cc;
-            text-decoration: none;
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 10em;
+        }
+        p {
+            margin: 0 0 1em 0;
+        }
+
+        /* Reference pair container */
+        .ref-pair {
             position: relative;
+            display: inline-block;
+            margin-right: 0.2em;
         }
-        .bible-ref:hover { 
-            background-color: #f0f8ff;
-            text-decoration: underline;
-        }
-        .bible-ref::after {
-            content: attr(data-verse);
+
+        /* Tooltip styling */
+        .tooltip {
             position: absolute;
             bottom: 100%;
             left: 50%;
@@ -416,79 +411,55 @@ def convert_odt_bytes_to_html(odt_bytes):
             font-size: 12px;
             z-index: 1000;
             opacity: 0;
+            visibility: hidden;
             pointer-events: none;
             white-space: normal;
             min-width: 200px;
             word-wrap: break-word;
+            margin-bottom: 6px;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+            transition: opacity 0.2s ease;
         }
-        .bible-ref:hover::after {
+
+        .ref-pair:hover .tooltip {
             opacity: 1;
+            visibility: visible;
         }
-        .bible-ref-missing { 
-            color: #cc0000; 
-            cursor: help; 
+
+        /* Link styles */
+        .bible-ref {
+            color: #0066cc;
+            cursor: help;
+            border-bottom: 1px dotted #0066cc;
+            text-decoration: none;
+        }
+        .bible-ref:hover {
+            background-color: #f0f8ff;
+            text-decoration: underline;
+        }
+
+        .bible-ref-missing {
+            color: #cc0000;
+            cursor: help;
             border-bottom: 2px solid #cc0000;
             text-decoration: none;
-            position: relative;
             background-color: #ffe6e6;
         }
-        .bible-ref-missing:hover { 
+        .bible-ref-missing:hover {
             background-color: #ffcccc;
             text-decoration: underline;
         }
-        .bible-ref-missing::after {
-            content: attr(data-verse);
-            position: absolute;
-            bottom: 100%;
-            left: 50%;
-            transform: translateX(-50%);
-            background: #cc0000;
-            color: white;
-            padding: 8px 12px;
-            border-radius: 4px;
-            font-size: 12px;
-            z-index: 1000;
-            opacity: 0;
-            pointer-events: none;
-            max-width: 400px;
-            white-space: normal;
-            word-wrap: break-word;
-        }
 
-        .bible-ref-missing:hover::after { opacity: 1; }
-
-        .bible-ref-no-root { 
-            color: #cc6600; 
-            cursor: help; 
+        .bible-ref-no-root {
+            color: #cc6600;
+            cursor: help;
             border-bottom: 2px dashed #cc6600;
             text-decoration: none;
-            position: relative;
             background-color: #fff9e6;
         }
-        .bible-ref-no-root:hover { 
+        .bible-ref-no-root:hover {
             background-color: #ffebcc;
             text-decoration: underline;
-        }
-        .bible-ref-no-root::after {
-            content: attr(data-verse);
-            position: absolute;
-            bottom: 100%;
-            left: 50%;
-            transform: translateX(-50%);
-            background: #cc6600;
-            color: white;
-            padding: 8px 12px;
-            border-radius: 4px;
-            font-size: 12px;
-            z-index: 1000;
-            opacity: 0;
-            pointer-events: none;
-            max-width: 400px;
-            white-space: normal;
-            word-wrap: break-word;
-        }
-        .bible-ref-no-root:hover::after {
-            opacity: 1;
         }
     """
     return write_html(paragraphs, style)
