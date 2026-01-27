@@ -21,6 +21,14 @@ for details.
 
 ## Dev
 
+Run the web application locally with:
+
+```
+python3 app.py
+```
+
+### CI
+
 All code must pass the CI checks.
 
 You must autoformat your code with:
