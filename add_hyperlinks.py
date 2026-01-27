@@ -18,6 +18,10 @@ from odf.text import P
 
 KJV_JSON_PATH = "kjv"
 
+# Global caches to avoid repeated processing
+_ROOT_WORD_LEMMA_CACHE = {}
+_VERSE_PROCESSING_CACHE = {}
+
 # Load spaCy English model
 _nlp = spacy.load("en_core_web_sm")
 
@@ -205,61 +209,9 @@ class Reference:  # pylint: disable=too-many-instance-attributes
         else:
             clean_verse = self.clean_kjv_text(raw_verse)
             root = self.root_word
-            root_lower = root.lower()
-
-            # Normalize root to base form (handle ALWAY → always)
-            normalized_root = root_lower
-            if root_lower == "alway":
-                normalized_root = "always"
-
-            # Get root lemma via spaCy
-            root_lemma = root_lower
-
-            root_doc = _nlp(root_lower)
-            if root_doc and root_doc[0].lemma_:
-                root_lemma = root_doc[0].lemma_.lower()
-
-            # Process verse with spaCy
-            doc = _nlp(clean_verse)
-            matched_any = False
-            bolded_parts = []
-
-            for token in doc:
-                if token.is_alpha:
-                    word = token.text
-                    word_lower = word.lower()
-                    lemma = token.lemma_.lower() if token.lemma_ else word_lower
-
-                    # Match if:
-                    # - lemma matches root lemma, OR
-                    # - word matches common KJV forms of root
-                    match = (
-                        lemma == root_lemma
-                        or word_lower == root_lower
-                        or word_lower == normalized_root
-                        or any(
-                            word_lower == root_lower + suf
-                            for suf in ["eth", "est", "ed", "ing", "s", "ly"]
-                        )
-                        or (root_lower.endswith("e") and word_lower == root_lower[:-1] + "ly")
-                        or (root_lower.endswith("y") and word_lower == root_lower[:-1] + "ily")
-                        or (root_lower.endswith("ic") and word_lower == root_lower + "ally")
-                    )
-
-                    if match:
-                        # Bold the word, then append its trailing whitespace separately
-                        bolded_parts.append(
-                            f"<strong>{html.escape(word)}</strong>{html.escape(token.whitespace_)}"
-                        )
-                        matched_any = True
-                    else:
-                        # Append word + its whitespace as-is
-                        bolded_parts.append(html.escape(token.text_with_ws))
-                else:
-                    # Non-alpha tokens (punctuation, etc.)
-                    bolded_parts.append(html.escape(token.text_with_ws))
-
-            bolded_verse = "".join(bolded_parts)
+            
+            # Use the optimized processing with caching
+            matched_any, bolded_verse = process_verse_with_spacy(clean_verse, root)
 
             if matched_any:
                 css_class = "bible-ref"
@@ -279,6 +231,82 @@ class Reference:  # pylint: disable=too-many-instance-attributes
             f'<span class="tooltip">{tooltip_content}</span>'
             f"</span>"
         )
+
+
+def get_root_word_lemma(root_word):
+    """Get the lemma for a root word, using cache to avoid repeated spaCy processing."""
+    if root_word in _ROOT_WORD_LEMMA_CACHE:
+        return _ROOT_WORD_LEMMA_CACHE[root_word]
+    
+    root_lower = root_word.lower()
+    # Normalize root to base form (handle ALWAY → always)
+    normalized_root = root_lower
+    if root_lower == "alway":
+        normalized_root = "always"
+    
+    # Get root lemma via spaCy
+    root_lemma = normalized_root
+    root_doc = _nlp(normalized_root)
+    if root_doc and root_doc[0].lemma_:
+        root_lemma = root_doc[0].lemma_.lower()
+    
+    _ROOT_WORD_LEMMA_CACHE[root_word] = root_lemma
+    return root_lemma
+
+
+def process_verse_with_spacy(verse_text, root_word):
+    """Process a verse with spaCy to highlight matching words, using cache for performance."""
+    cache_key = (verse_text, root_word)
+    if cache_key in _VERSE_PROCESSING_CACHE:
+        return _VERSE_PROCESSING_CACHE[cache_key]
+    
+    root_lower = root_word.lower()
+    root_lemma = get_root_word_lemma(root_word)
+    
+    # Process verse with spaCy
+    doc = _nlp(verse_text)
+    matched_any = False
+    bolded_parts = []
+
+    for token in doc:
+        if token.is_alpha:
+            word = token.text
+            word_lower = word.lower()
+            lemma = token.lemma_.lower() if token.lemma_ else word_lower
+
+            # Match if:
+            # - lemma matches root lemma, OR
+            # - word matches common KJV forms of root
+            match = (
+                lemma == root_lemma
+                or word_lower == root_lower
+                or word_lower == root_lemma  # Use the cached lemma
+                or any(
+                    word_lower == root_lower + suf
+                    for suf in ["eth", "est", "ed", "ing", "s", "ly"]
+                )
+                or (root_lower.endswith("e") and word_lower == root_lower[:-1] + "ly")
+                or (root_lower.endswith("y") and word_lower == root_lower[:-1] + "ily")
+                or (root_lower.endswith("ic") and word_lower == root_lower + "ally")
+            )
+
+            if match:
+                # Bold the word, then append its trailing whitespace separately
+                bolded_parts.append(
+                    f"<strong>{html.escape(word)}</strong>{html.escape(token.whitespace_)}"
+                )
+                matched_any = True
+            else:
+                # Append word + its whitespace as-is
+                bolded_parts.append(html.escape(token.text_with_ws))
+        else:
+            # Non-alpha tokens (punctuation, etc.)
+            bolded_parts.append(html.escape(token.text_with_ws))
+
+    bolded_verse = "".join(bolded_parts)
+    result = (matched_any, bolded_verse)
+    _VERSE_PROCESSING_CACHE[cache_key] = result
+    return result
 
 
 def parse_references_with_root(text, verses, root_word):
@@ -440,8 +468,18 @@ def write_html(paragraphs, style):
     return html_content
 
 
+def clear_caches():
+    """Clear internal caches to free memory."""
+    global _ROOT_WORD_LEMMA_CACHE, _VERSE_PROCESSING_CACHE
+    _ROOT_WORD_LEMMA_CACHE.clear()
+    _VERSE_PROCESSING_CACHE.clear()
+
+
 def convert_odt_bytes_to_html(odt_bytes, progress_callback=None):
     """Convert ODT bytes to an HTML string (keeps everything in memory)."""
+    # Clear caches at the start to ensure fresh processing
+    clear_caches()
+    
     if progress_callback:
         progress_callback(10, "Loading Bible data...")
 
@@ -459,7 +497,7 @@ def convert_odt_bytes_to_html(odt_bytes, progress_callback=None):
     paragraphs = extract_paragraphs(doc, kjv_verses, progress_callback)
 
     if progress_callback:
-        progress_callback(80, "Generating HTML output...")
+        progress_callback(85, "Generating HTML output...")
 
     style = """
         body {
@@ -546,6 +584,9 @@ def convert_odt_bytes_to_html(odt_bytes, progress_callback=None):
     if progress_callback:
         progress_callback(95, "Finalizing...")
 
+    # Clear caches at the end to free memory
+    clear_caches()
+    
     return write_html(paragraphs, style)
 
 
