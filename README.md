@@ -17,8 +17,10 @@ This is how the html output looks like:
 
 ## Deployment
 
-Once downloaded to the server, run pip install, then:
+Once downloaded to the server, run:
 ```
+git submodule update --init --recursive
+pip install -r requirements.txt
 python3 -m spacy download en_core_web_sm
 ```
 
