@@ -10,8 +10,8 @@ import io
 import json
 import os
 import re
-import spacy
 
+import spacy
 from odf import teletype
 from odf.opendocument import load
 from odf.text import P
@@ -136,7 +136,6 @@ def load_kjv(path):
                         key = f"{book} {chapter}:{verse}"
                         kjv_verses[key] = text
     return kjv_verses
-
 
 
 class Reference:  # pylint: disable=too-many-instance-attributes
@@ -428,12 +427,26 @@ def write_html(paragraphs, style):
     return html_content
 
 
-def convert_odt_bytes_to_html(odt_bytes):
+def convert_odt_bytes_to_html(odt_bytes, progress_callback=None):
     """Convert ODT bytes to an HTML string (keeps everything in memory)."""
+    if progress_callback:
+        progress_callback(10, "Loading Bible data...")
+
     kjv_verses = load_kjv(KJV_JSON_PATH)
+
+    if progress_callback:
+        progress_callback(25, "Loading document...")
+
     bio = io.BytesIO(odt_bytes)
     doc = load(bio)
+
+    if progress_callback:
+        progress_callback(40, "Processing document content...")
+
     paragraphs = extract_paragraphs(doc, kjv_verses)
+
+    if progress_callback:
+        progress_callback(80, "Generating HTML output...")
 
     style = """
         body {
@@ -516,6 +529,10 @@ def convert_odt_bytes_to_html(odt_bytes):
             text-decoration: underline;
         }
     """
+
+    if progress_callback:
+        progress_callback(95, "Finalizing...")
+
     return write_html(paragraphs, style)
 
 
@@ -527,7 +544,9 @@ def convert_odt_to_html(odt_path, html_path):
     with open(odt_path, "rb") as f:
         odt_bytes = f.read()
 
-    html_content = convert_odt_bytes_to_html(odt_bytes)
+    html_content = convert_odt_bytes_to_html(
+        odt_bytes, None
+    )  # Pass None for progress_callback for backward compatibility
 
     with open(html_path, "w", encoding="utf-8") as f:
         f.write(html_content)
