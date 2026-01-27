@@ -18,9 +18,6 @@ from odf.text import P
 
 KJV_JSON_PATH = "kjv"
 
-# Global cache for processed verses to avoid repeated spaCy processing
-_PROCESSED_VERSES_CACHE = {}
-
 # Load spaCy English model
 _nlp = spacy.load("en_core_web_sm")
 
@@ -210,85 +207,72 @@ class Reference:  # pylint: disable=too-many-instance-attributes
             root = self.root_word
             root_lower = root.lower()
 
-            # Create a cache key for this specific verse and root combination
-            cache_key = (full_key, root)
-            if cache_key in _PROCESSED_VERSES_CACHE:
-                # Return cached result
-                css_class, ref_text, tooltip_content = _PROCESSED_VERSES_CACHE[cache_key]
-            else:
-                # Quick check: if the root word doesn't appear in the verse at all, skip spaCy processing
-                verse_lower = clean_verse.lower()
-                if not (
-                    root_lower in verse_lower
-                    or root_lower + "s" in verse_lower
-                    or root_lower + "ed" in verse_lower
-                    or root_lower + "ing" in verse_lower
-                    or root_lower + "ly" in verse_lower
-                    or root_lower + "eth" in verse_lower
-                    or root_lower + "est" in verse_lower
-                ):
+            # Quick check: if the root word doesn't appear in the verse at all, skip spaCy processing
+            verse_lower = clean_verse.lower()
+            if not (
+                root_lower in verse_lower
+                or root_lower + "s" in verse_lower
+                or root_lower + "ed" in verse_lower
+                or root_lower + "ing" in verse_lower
+                or root_lower + "ly" in verse_lower
+                or root_lower + "eth" in verse_lower
+                or root_lower + "est" in verse_lower
+            ):
 
-                    # No basic match found, return without spaCy processing
+                # No basic match found, return without spaCy processing
+                css_class = "bible-ref-no-root"
+                ref_text = f"{visible} [ROOT WORD MISSING]"
+                tooltip_content = f"{full_key} (KJV) - {html.escape(clean_verse)}"
+            else:
+                # For performance on limited compute, use a simpler approach without spaCy
+                # but still preserve the basic functionality
+                import re
+
+                # Split the verse into words while preserving punctuation
+                words = re.findall(r"\b\w+\b|\W+", clean_verse)
+                matched_any = False
+                bolded_parts = []
+
+                for word in words:
+                    if word.isalnum():  # Only process alphanumeric words
+                        word_lower = word.lower()
+
+                        # Match if word contains the root or common variations
+                        match = (
+                            root_lower in word_lower
+                            or word_lower == root_lower
+                            or word_lower == root_lower + "s"
+                            or word_lower == root_lower + "ed"
+                            or word_lower == root_lower + "ing"
+                            or word_lower == root_lower + "ly"
+                            or word_lower == root_lower + "eth"
+                            or word_lower == root_lower + "est"
+                            or (root_lower.endswith("e") and word_lower == root_lower[:-1] + "ly")
+                            or (root_lower.endswith("y") and word_lower == root_lower[:-1] + "ily")
+                            or (root_lower.endswith("ic") and word_lower == root_lower + "ally")
+                        )
+
+                        if match:
+                            bolded_parts.append(f"<strong>{html.escape(word)}</strong>")
+                            matched_any = True
+                        else:
+                            bolded_parts.append(html.escape(word))
+                    else:
+                        # Non-alphanumeric (spaces, punctuation) - just escape and add
+                        bolded_parts.append(html.escape(word))
+
+                bolded_verse = "".join(bolded_parts)
+
+                if matched_any:
+                    css_class = "bible-ref"
+                    ref_text = visible
+                    tooltip_content = (
+                        f"<strong>{html.escape(root)}</strong>: {full_key} (KJV) - {bolded_verse}"
+                    )
+                else:
                     css_class = "bible-ref-no-root"
                     ref_text = f"{visible} [ROOT WORD MISSING]"
                     tooltip_content = f"{full_key} (KJV) - {html.escape(clean_verse)}"
-                else:
-                    # For performance on limited compute, use a simpler approach without spaCy
-                    # but still preserve the basic functionality
-                    import re
-
-                    # Split the verse into words while preserving punctuation
-                    words = re.findall(r"\b\w+\b|\W+", clean_verse)
-                    matched_any = False
-                    bolded_parts = []
-
-                    for word in words:
-                        if word.isalnum():  # Only process alphanumeric words
-                            word_lower = word.lower()
-
-                            # Match if word contains the root or common variations
-                            match = (
-                                root_lower in word_lower
-                                or word_lower == root_lower
-                                or word_lower == root_lower + "s"
-                                or word_lower == root_lower + "ed"
-                                or word_lower == root_lower + "ing"
-                                or word_lower == root_lower + "ly"
-                                or word_lower == root_lower + "eth"
-                                or word_lower == root_lower + "est"
-                                or (
-                                    root_lower.endswith("e")
-                                    and word_lower == root_lower[:-1] + "ly"
-                                )
-                                or (
-                                    root_lower.endswith("y")
-                                    and word_lower == root_lower[:-1] + "ily"
-                                )
-                                or (root_lower.endswith("ic") and word_lower == root_lower + "ally")
-                            )
-
-                            if match:
-                                bolded_parts.append(f"<strong>{html.escape(word)}</strong>")
-                                matched_any = True
-                            else:
-                                bolded_parts.append(html.escape(word))
-                        else:
-                            # Non-alphanumeric (spaces, punctuation) - just escape and add
-                            bolded_parts.append(html.escape(word))
-
-                    bolded_verse = "".join(bolded_parts)
-
-                    if matched_any:
-                        css_class = "bible-ref"
-                        ref_text = visible
-                        tooltip_content = f"<strong>{html.escape(root)}</strong>: {full_key} (KJV) - {bolded_verse}"
-                    else:
-                        css_class = "bible-ref-no-root"
-                        ref_text = f"{visible} [ROOT WORD MISSING]"
-                        tooltip_content = f"{full_key} (KJV) - {html.escape(clean_verse)}"
-
-                # Cache the result for future use
-                _PROCESSED_VERSES_CACHE[cache_key] = (css_class, ref_text, tooltip_content)
 
         escaped_ref_text = html.escape(ref_text)
         return (
@@ -463,16 +447,8 @@ def write_html(paragraphs, style):
     return html_content
 
 
-def clear_global_cache():
-    """Clear the global cache to free memory."""
-    global _PROCESSED_VERSES_CACHE
-    _PROCESSED_VERSES_CACHE.clear()
-
-
 def convert_odt_bytes_to_html(odt_bytes, progress_callback=None):
     """Convert ODT bytes to an HTML string (keeps everything in memory)."""
-    # Clear cache at the start to ensure fresh processing
-    clear_global_cache()
 
     if progress_callback:
         progress_callback(10, "Loading Bible data...")
@@ -586,9 +562,6 @@ def convert_odt_bytes_to_html(odt_bytes, progress_callback=None):
 
     if progress_callback:
         progress_callback(95, "Finalizing...")
-
-    # Clear cache at the end to free memory
-    clear_global_cache()
 
     return write_html(paragraphs, style)
 
