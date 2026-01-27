@@ -121,25 +121,22 @@ ref_pattern = re.compile(rf"\b(?:{BRANCH_MULTI_CHP_BOOKS}|{BRANCH_SINGLE_CHP_BOO
 def load_kjv(path):
     """Load KJV verse JSON from `path` and return the parsed mapping."""
     kjv_verses = {}
-    try:
-        for filename in os.listdir(path):
-            if filename.endswith(".json") and filename != "Books.json":
-                filepath = os.path.join(path, filename)
-                with open(filepath, "r", encoding="utf-8") as f:
-                    data = json.load(f)
-                    book = data["book"]
-                    for chapter_data in data["chapters"]:
-                        chapter = chapter_data["chapter"]
-                        for verse_data in chapter_data["verses"]:
-                            verse = verse_data["verse"]
-                            text = verse_data["text"]
-                            key = f"{book} {chapter}:{verse}"
-                            kjv_verses[key] = text
-        return kjv_verses
-    except FileNotFoundError as e:
-        raise FileNotFoundError(
-            f"KJV Bible data directory not found at '{path}'. Ensure the KJV JSON files exist."
-        ) from e
+
+    for filename in os.listdir(path):
+        if filename.endswith(".json") and filename != "Books.json":
+            filepath = os.path.join(path, filename)
+            with open(filepath, "r", encoding="utf-8") as f:
+                data = json.load(f)
+                book = data["book"]
+                for chapter_data in data["chapters"]:
+                    chapter = chapter_data["chapter"]
+                    for verse_data in chapter_data["verses"]:
+                        verse = verse_data["verse"]
+                        text = verse_data["text"]
+                        key = f"{book} {chapter}:{verse}"
+                        kjv_verses[key] = text
+    return kjv_verses
+
 
 
 class Reference:  # pylint: disable=too-many-instance-attributes
