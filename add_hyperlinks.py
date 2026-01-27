@@ -22,9 +22,6 @@ KJV_JSON_PATH = "kjv"
 _ROOT_WORD_LEMMA_CACHE = {}
 _VERSE_PROCESSING_CACHE = {}
 
-# Maximum cache sizes to prevent memory issues
-MAX_CACHE_SIZE = 10000
-
 # Load spaCy English model
 _nlp = spacy.load("en_core_web_sm")
 
@@ -212,7 +209,7 @@ class Reference:  # pylint: disable=too-many-instance-attributes
         else:
             clean_verse = self.clean_kjv_text(raw_verse)
             root = self.root_word
-
+            
             # Use the optimized processing with caching
             matched_any, bolded_verse = process_verse_with_spacy(clean_verse, root)
 
@@ -240,26 +237,19 @@ def get_root_word_lemma(root_word):
     """Get the lemma for a root word, using cache to avoid repeated spaCy processing."""
     if root_word in _ROOT_WORD_LEMMA_CACHE:
         return _ROOT_WORD_LEMMA_CACHE[root_word]
-
-    # Check cache size and trim if necessary
-    if len(_ROOT_WORD_LEMMA_CACHE) >= MAX_CACHE_SIZE:
-        # Remove oldest entries (simple approach: clear half the cache)
-        keys_to_remove = list(_ROOT_WORD_LEMMA_CACHE.keys())[: MAX_CACHE_SIZE // 2]
-        for key in keys_to_remove:
-            del _ROOT_WORD_LEMMA_CACHE[key]
-
+    
     root_lower = root_word.lower()
     # Normalize root to base form (handle ALWAY → always)
     normalized_root = root_lower
     if root_lower == "alway":
         normalized_root = "always"
-
+    
     # Get root lemma via spaCy
     root_lemma = normalized_root
     root_doc = _nlp(normalized_root)
     if root_doc and root_doc[0].lemma_:
         root_lemma = root_doc[0].lemma_.lower()
-
+    
     _ROOT_WORD_LEMMA_CACHE[root_word] = root_lemma
     return root_lemma
 
@@ -269,37 +259,11 @@ def process_verse_with_spacy(verse_text, root_word):
     cache_key = (verse_text, root_word)
     if cache_key in _VERSE_PROCESSING_CACHE:
         return _VERSE_PROCESSING_CACHE[cache_key]
-
-    # Check cache size and trim if necessary
-    if len(_VERSE_PROCESSING_CACHE) >= MAX_CACHE_SIZE:
-        # Remove oldest entries (simple approach: clear half the cache)
-        keys_to_remove = list(_VERSE_PROCESSING_CACHE.keys())[: MAX_CACHE_SIZE // 2]
-        for key in keys_to_remove:
-            del _VERSE_PROCESSING_CACHE[key]
-
-    # Quick check: if the root word (or common variations) don't appear in the verse at all,
-    # skip expensive spaCy processing
-    verse_lower = verse_text.lower()
+    
     root_lower = root_word.lower()
-
-    # Check for basic presence before doing expensive processing
-    basic_matches = (
-        root_lower in verse_lower
-        or root_lower + "s" in verse_lower
-        or root_lower + "ed" in verse_lower
-        or root_lower + "ing" in verse_lower
-        or root_lower + "ly" in verse_lower
-    )
-
-    if not basic_matches:
-        # No basic match found, return without spaCy processing
-        result = (False, html.escape(verse_text))
-        _VERSE_PROCESSING_CACHE[cache_key] = result
-        return result
-
     root_lemma = get_root_word_lemma(root_word)
-
-    # Process verse with spaCy only when there's a potential match
+    
+    # Process verse with spaCy
     doc = _nlp(verse_text)
     matched_any = False
     bolded_parts = []
@@ -318,7 +282,8 @@ def process_verse_with_spacy(verse_text, root_word):
                 or word_lower == root_lower
                 or word_lower == root_lemma  # Use the cached lemma
                 or any(
-                    word_lower == root_lower + suf for suf in ["eth", "est", "ed", "ing", "s", "ly"]
+                    word_lower == root_lower + suf
+                    for suf in ["eth", "est", "ed", "ing", "s", "ly"]
                 )
                 or (root_lower.endswith("e") and word_lower == root_lower[:-1] + "ly")
                 or (root_lower.endswith("y") and word_lower == root_lower[:-1] + "ily")
@@ -514,7 +479,7 @@ def convert_odt_bytes_to_html(odt_bytes, progress_callback=None):
     """Convert ODT bytes to an HTML string (keeps everything in memory)."""
     # Clear caches at the start to ensure fresh processing
     clear_caches()
-
+    
     if progress_callback:
         progress_callback(10, "Loading Bible data...")
 
@@ -621,7 +586,7 @@ def convert_odt_bytes_to_html(odt_bytes, progress_callback=None):
 
     # Clear caches at the end to free memory
     clear_caches()
-
+    
     return write_html(paragraphs, style)
 
 
