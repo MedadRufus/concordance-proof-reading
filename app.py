@@ -8,13 +8,12 @@ the user to preview or download the result.
 import io
 import logging
 import os
-import queue
 import threading
 import time
 import uuid
 import zipfile
 
-from flask import Flask, abort, jsonify, make_response, redirect, render_template, request, url_for
+from flask import Flask, abort, make_response, redirect, render_template, request, url_for
 from werkzeug.utils import secure_filename
 
 from add_hyperlinks import convert_odt_bytes_to_html
@@ -38,7 +37,6 @@ app.config["SESSION_COOKIE_SAMESITE"] = "Lax"
 # In-memory stores
 uploads = {}  # upload_id -> {html: str, ts: float, input_name: str}
 uploads_by_ip = {}  # ip -> [timestamp1, timestamp2, ...]
-conversion_progress = {}  # upload_id -> {progress: int, status: str, error: str}
 
 logger = logging.getLogger(__name__)
 logging.basicConfig(level=logging.INFO)
@@ -107,8 +105,7 @@ t.start()
 def set_security_headers(response):
     """Set security headers for all responses."""
     # Prevent script execution, restrict frames, enforce secure headers
-    # Allow inline scripts and connections for progress page functionality
-    csp = "default-src 'none'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; connect-src 'self';"
+    csp = "default-src 'none'; style-src 'self' 'unsafe-inline'; img-src 'self' data:;"
     response.headers["Content-Security-Policy"] = csp
     response.headers["X-Content-Type-Options"] = "nosniff"
     response.headers["X-Frame-Options"] = "DENY"
@@ -144,64 +141,45 @@ def validate_request(file_request):
 
 @app.route("/upload", methods=["POST"])
 def upload():
-    """Handle file upload, start conversion in background, and redirect to progress page."""
-    logger.info("Upload route called")
+    """Handle file upload, conversion, and redirection."""
     error_message, error_code = validate_request(request)
     if error_message:
-        logger.warning(f"Upload validation failed: {error_message}")
         return error_message, error_code
 
     file = request.files["file"]
     filename = secure_filename(file.filename)[:200]
-    logger.info(f"Processing file: {filename}")
 
     # Read in-memory and validate
     if not (file_bytes := file.read()):
-        logger.warning("Received empty file")
         return "Empty file", 400
 
     if len(file_bytes) > app.config["MAX_CONTENT_LENGTH"]:
-        logger.warning(f"File too large: {len(file_bytes)} bytes")
         return "File too large", 413
 
     if not is_valid_odt_bytes(file_bytes):
-        logger.warning("Invalid ODT file received")
         return "Uploaded file does not look like a valid ODT", 400
 
+    try:
+        html_output = convert_odt_bytes_to_html(file_bytes)
+    except Exception as e:  # pylint: disable=broad-except
+        logger.exception("Conversion failed")
+        return f"Conversion error: {e}", 500
+
     upload_id = uuid.uuid4().hex
-    logger.info(f"Created upload_id: {upload_id}")
-
-    # Initialize progress tracking
-    conversion_progress[upload_id] = {"progress": 0, "status": "Queued", "error": None}
-    logger.info(f"Initialized progress tracking for upload_id: {upload_id}")
-
-    # Store initial upload info
     uploads[upload_id] = {
+        "html": html_output,
+        "ts": time.time(),
         "input_name": filename,
     }
 
-    # Start conversion in background thread
-    conversion_thread = threading.Thread(
-        target=enhanced_convert_odt_with_progress, args=(upload_id, file_bytes)
-    )
-    conversion_thread.daemon = True
-    conversion_thread.start()
-    logger.info(f"Started conversion thread for upload_id: {upload_id}")
-
-    # Redirect to progress page
-    return redirect(url_for("progress_page", upload_id=upload_id))
+    return redirect(url_for("result", upload_id=upload_id))
 
 
 @app.route("/result/<upload_id>", methods=["GET"])
 def result(upload_id):
     """Display the result page for a given upload."""
-    logger.info(f"Result page accessed for upload_id: {upload_id}")
     if not (info := uploads.get(upload_id)):
-        logger.warning(f"Result page requested for non-existent upload_id: {upload_id}")
         abort(404)
-    logger.info(
-        f"Rendering result page for upload_id: {upload_id}, input_name: {info.get('input_name')}"
-    )
     return render_template("result.html", upload_id=upload_id, input_name=info.get("input_name"))
 
 
@@ -229,125 +207,6 @@ def download(upload_id):
     response.headers["Content-Disposition"] = f'attachment; filename="{download_name}"'
     return response
 
-
-@app.route("/api/progress/<upload_id>", methods=["GET"])
-def get_progress(upload_id):
-    """Return the current progress of a conversion."""
-    progress_info = conversion_progress.get(
-        upload_id, {"progress": 0, "status": "Not found", "error": "Upload ID not found"}
-    )
-    logger.info(f"Progress API called for upload_id: {upload_id}, returning: {progress_info}")
-    return jsonify(progress_info)
-
-
-@app.route("/progress/<upload_id>", methods=["GET"])
-def progress_page(upload_id):
-    """Display the progress page for a given upload."""
-    if upload_id not in conversion_progress:
-        abort(404)
-    upload_info = uploads.get(upload_id, {})
-    input_name = upload_info.get("input_name", "Processing...")
-    return render_template("progress.html", upload_id=upload_id, input_name=input_name)
-
-
-def convert_odt_with_progress(upload_id, file_bytes):
-    """Run the conversion in a background thread with progress updates."""
-    try:
-        # Update progress to indicate conversion is starting
-        conversion_progress[upload_id] = {
-            "progress": 5,
-            "status": "Starting conversion...",
-            "error": None,
-        }
-
-        # Simulate progress during conversion
-        # Since the actual conversion doesn't have built-in progress, we'll simulate it
-        # by updating progress periodically during the conversion
-
-        # Update progress to loading KJV data
-        conversion_progress[upload_id] = {
-            "progress": 10,
-            "status": "Loading Bible data...",
-            "error": None,
-        }
-
-        # Import here to avoid circular imports
-        from add_hyperlinks import convert_odt_bytes_to_html
-
-        # Update progress to processing
-        conversion_progress[upload_id] = {
-            "progress": 25,
-            "status": "Processing document...",
-            "error": None,
-        }
-
-        # Perform the actual conversion
-        html_output = convert_odt_bytes_to_html(file_bytes)
-
-        # Update progress to completion
-        conversion_progress[upload_id] = {"progress": 95, "status": "Finalizing...", "error": None}
-
-        # Store the result
-        uploads[upload_id] = {
-            "html": html_output,
-            "ts": time.time(),
-            "input_name": uploads[upload_id]["input_name"] if upload_id in uploads else "Unknown",
-        }
-
-        # Mark as complete
-        conversion_progress[upload_id] = {"progress": 100, "status": "Complete", "error": None}
-
-    except Exception as e:
-        conversion_progress[upload_id] = {"progress": 0, "status": "Error", "error": str(e)}
-        logger.exception("Conversion failed for upload %s: %s", upload_id, e)
-
-
-def enhanced_convert_odt_with_progress(upload_id, file_bytes):
-    """Enhanced conversion with better progress tracking by modifying the conversion process."""
-    try:
-        logger.info(f"Starting conversion for upload_id: {upload_id}")
-
-        # Update progress to indicate conversion is starting
-        conversion_progress[upload_id] = {
-            "progress": 0,
-            "status": "Starting conversion...",
-            "error": None,
-        }
-        logger.info(f"Progress updated to 0% for upload_id: {upload_id}")
-
-        # Define progress callback function
-        def progress_callback(progress, status):
-            conversion_progress[upload_id] = {"progress": progress, "status": status, "error": None}
-            logger.info(
-                f"Progress updated to {progress}% - Status: {status} for upload_id: {upload_id}"
-            )
-
-        # Import here to avoid circular imports
-        from add_hyperlinks import convert_odt_bytes_to_html
-
-        logger.info(f"Calling conversion function for upload_id: {upload_id}")
-
-        # Call the conversion function with progress callback
-        html_output = convert_odt_bytes_to_html(file_bytes, progress_callback)
-
-        logger.info(
-            f"Conversion completed for upload_id: {upload_id}, output length: {len(html_output)}"
-        )
-
-        # Store the result
-        uploads[upload_id] = {
-            "html": html_output,
-            "ts": time.time(),
-            "input_name": uploads[upload_id]["input_name"] if upload_id in uploads else "Unknown",
-        }
-
-        # Mark as complete
-        conversion_progress[upload_id] = {"progress": 100, "status": "Complete", "error": None}
-        logger.info(f"Conversion marked as complete for upload_id: {upload_id}")
-
-    except Exception as e:
-        logger.exception(f"Conversion failed for upload_id: {upload_id}, error: {str(e)}")
-        conversion_progress[upload_id] = {"progress": 0, "status": "Error", "error": str(e)}
 
 if __name__ == "__main__":
     # Do not run with debug=True in production
