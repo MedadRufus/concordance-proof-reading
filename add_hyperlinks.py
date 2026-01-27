@@ -218,12 +218,10 @@ class Reference:  # pylint: disable=too-many-instance-attributes
 
             # Get root lemma via spaCy
             root_lemma = root_lower
-            try:
-                root_doc = _nlp(root_lower)
-                if root_doc and root_doc[0].lemma_:
-                    root_lemma = root_doc[0].lemma_.lower()
-            except (ValueError, TypeError, IndexError, AttributeError):
-                pass
+
+            root_doc = _nlp(root_lower)
+            if root_doc and root_doc[0].lemma_:
+                root_lemma = root_doc[0].lemma_.lower()
 
             # Process verse with spaCy
             doc = _nlp(clean_verse)
