@@ -222,7 +222,7 @@ class Reference:  # pylint: disable=too-many-instance-attributes
                 root_doc = _nlp(root_lower)
                 if root_doc and root_doc[0].lemma_:
                     root_lemma = root_doc[0].lemma_.lower()
-            except:
+            except (ValueError, TypeError, IndexError, AttributeError):
                 pass
 
             # Process verse with spaCy
