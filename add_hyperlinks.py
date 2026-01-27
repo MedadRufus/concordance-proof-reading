@@ -11,15 +11,11 @@ import json
 import os
 import re
 
-import spacy
 from odf import teletype
 from odf.opendocument import load
 from odf.text import P
 
 KJV_JSON_PATH = "kjv"
-
-# Load spaCy English model
-_nlp = spacy.load("en_core_web_sm")
 
 # Bible book abbreviation mapping
 BOOK_ABBR_TO_FULL = {
