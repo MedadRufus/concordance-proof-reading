@@ -16,6 +16,12 @@ This is how the html output looks like:
 ![](docs/demo.png)
 
 ## Deployment
+
+Once downloaded to the server, run pip install, then:
+```
+python3 -m spacy download en_core_web_sm
+```
+
 This application is meant to be deployed via cPanel Python App feature. See [DEPLOY.md](DEPLOY.md)
 for details.
 
