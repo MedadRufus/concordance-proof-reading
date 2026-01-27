@@ -573,6 +573,15 @@ def convert_odt_bytes_to_html(odt_bytes, progress_callback=None):
             background-color: #ffebcc;
             text-decoration: underline;
         }
+        
+        /* Enhanced highlighting for matched words in tooltips */
+        .tooltip strong {
+            background-color: #ffff00; /* Yellow background */
+            color: #000; /* Black text */
+            padding: 1px 2px;
+            border-radius: 2px;
+            font-weight: bold;
+        }
     """
 
     if progress_callback:
