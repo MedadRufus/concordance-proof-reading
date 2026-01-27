@@ -348,3 +348,7 @@ def enhanced_convert_odt_with_progress(upload_id, file_bytes):
     except Exception as e:
         logger.exception(f"Conversion failed for upload_id: {upload_id}, error: {str(e)}")
         conversion_progress[upload_id] = {"progress": 0, "status": "Error", "error": str(e)}
+
+if __name__ == "__main__":
+    # Do not run with debug=True in production
+    app.run()
