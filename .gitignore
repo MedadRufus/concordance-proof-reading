@@ -4,3 +4,5 @@ input/concordance.odt
 
 .venv/
 venv
+input
+__pycache__
