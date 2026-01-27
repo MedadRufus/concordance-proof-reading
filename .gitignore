@@ -1,3 +1,6 @@
 # Output and input files used for testing
 output/concordance.html
 input/concordance.odt
+
+.venv/
+venv
