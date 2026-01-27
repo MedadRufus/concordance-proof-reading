@@ -321,9 +321,14 @@ def parse_references_with_root(text, verses, root_word):
     return results
 
 
-def extract_paragraphs(doc, verses):
+def extract_paragraphs(doc, verses, progress_callback=None):
     paragraphs = []
-    for elem in doc.getElementsByType(P):
+
+    # Get total elements for progress calculation
+    all_elements = doc.getElementsByType(P)
+    total_elements = len(all_elements)
+
+    for idx, elem in enumerate(all_elements):
         raw_txt = teletype.extractText(elem)
         if not raw_txt.strip():
             continue
@@ -406,6 +411,14 @@ def extract_paragraphs(doc, verses):
         final_line = f"<strong>{html.escape(root_word)}</strong> " + " | ".join(rendered_segments)
         paragraphs.append(final_line)
 
+        # Update progress based on how far we are through the document
+        if progress_callback and total_elements > 0:
+            # Map progress from 40% (start of processing) to 80% (end of processing)
+            current_progress = 40 + int((idx / total_elements) * 40)
+            progress_callback(
+                current_progress, f"Processing document... ({idx + 1}/{total_elements})"
+            )
+
     return paragraphs
 
 
@@ -443,7 +456,7 @@ def convert_odt_bytes_to_html(odt_bytes, progress_callback=None):
     if progress_callback:
         progress_callback(40, "Processing document content...")
 
-    paragraphs = extract_paragraphs(doc, kjv_verses)
+    paragraphs = extract_paragraphs(doc, kjv_verses, progress_callback)
 
     if progress_callback:
         progress_callback(80, "Generating HTML output...")
@@ -536,7 +549,7 @@ def convert_odt_bytes_to_html(odt_bytes, progress_callback=None):
     return write_html(paragraphs, style)
 
 
-def convert_odt_to_html(odt_path, html_path):
+def convert_odt_to_html(odt_path, html_path, progress_callback=None):
     """Compatibility wrapper: read file and save to disk."""
     if not os.path.exists(odt_path):
         raise FileNotFoundError(f"File '{odt_path}' not found.")
@@ -544,9 +557,7 @@ def convert_odt_to_html(odt_path, html_path):
     with open(odt_path, "rb") as f:
         odt_bytes = f.read()
 
-    html_content = convert_odt_bytes_to_html(
-        odt_bytes, None
-    )  # Pass None for progress_callback for backward compatibility
+    html_content = convert_odt_bytes_to_html(odt_bytes, progress_callback)
 
     with open(html_path, "w", encoding="utf-8") as f:
         f.write(html_content)
