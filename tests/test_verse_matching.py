@@ -1,6 +1,7 @@
 """Unit tests for verse matching logic from `add_hyperlinks`."""
 
 import unittest
+
 from add_hyperlinks import Reference
 
 
