@@ -183,52 +183,6 @@ class Reference:  # pylint: disable=too-many-instance-attributes
         """Return full verse key like 'Proverbs 24:24'."""
         return f"{self.book} {self.chapter}:{self.verse}"
 
-    def _process_verse_for_root_word(self, clean_verse):
-        """Process a verse to find and highlight the root word."""
-        root = self.root_word
-        root_lower = root.lower()
-
-        # Define suffixes for checking root word variations
-        ROOT_SUFFIXES = ["", "s", "ed", "ing", "ly", "eth", "est"]
-
-        # Quick check: if the root word doesn't appear in the verse at all, skip processing
-        verse_lower = clean_verse.lower()
-        has_root_word = any(
-            root_lower in verse_lower or root_lower + suffix in verse_lower
-            for suffix in ROOT_SUFFIXES
-        )
-
-        if not has_root_word:
-            # No basic match found, return without advanced processing
-            return False
-        else:
-            # For performance on limited compute, use a simpler approach without spaCy
-            # but still preserve the basic functionality
-
-            # Split the verse into words while preserving punctuation
-            words = re.findall(r"\b\w+\b|\W+", clean_verse)
-            matched_any = False
-
-            for word in words:
-                if word.isalnum():  # Only process alphanumeric words
-                    word_lower = word.lower()
-
-                    # Match if word contains the root or common variations
-                    match = (
-                        root_lower in word_lower
-                        or word_lower == root_lower
-                        or any(word_lower == root_lower + suffix for suffix in ROOT_SUFFIXES)
-                        or (root_lower.endswith("e") and word_lower == root_lower[:-1] + "ly")
-                        or (root_lower.endswith("y") and word_lower == root_lower[:-1] + "ily")
-                        or (root_lower.endswith("ic") and word_lower == root_lower + "ally")
-                    )
-
-                    if match:
-                        matched_any = True
-                        break
-
-            return matched_any
-
     def to_anchor(self, index: int) -> str:
         """Construct the anchor HTML for this reference with a real tooltip span."""
         full_key = self.get_full_verse_key()
@@ -245,18 +199,69 @@ class Reference:  # pylint: disable=too-many-instance-attributes
             ref_text = f"{visible} [REF NOT FOUND]"
             tooltip_content = f"{full_key} (KJV) - Reference not found"
         else:
-            # Process the verse to find and highlight the root word
             clean_verse = self.clean_kjv_text(raw_verse)
-            matched = self._process_verse_for_root_word(clean_verse)
+            root = self.root_word
+            root_lower = root.lower()
 
-            if matched:
-                css_class = "bible-ref"
-                ref_text = visible
-                tooltip_content = f"{full_key} (KJV) - {html.escape(clean_verse)}"
-            else:
+            # Define suffixes for checking root word variations
+            ROOT_SUFFIXES = ["", "s", "ed", "ing", "ly", "eth", "est"]
+
+            # Quick check: if the root word doesn't appear in the verse at all, skip processing
+            verse_lower = clean_verse.lower()
+            has_root_word = any(
+                root_lower in verse_lower or root_lower + suffix in verse_lower
+                for suffix in ROOT_SUFFIXES
+            )
+
+            if not has_root_word:
+                # No basic match found, return without advanced processing
                 css_class = "bible-ref-no-root"
                 ref_text = f"{visible} [ROOT WORD MISSING]"
                 tooltip_content = f"{full_key} (KJV) - {html.escape(clean_verse)}"
+            else:
+                # For performance on limited compute, use a simpler approach without spaCy
+                # but still preserve the basic functionality
+
+                # Split the verse into words while preserving punctuation
+                words = re.findall(r"\b\w+\b|\W+", clean_verse)
+                matched_any = False
+                bolded_parts = []
+
+                for word in words:
+                    if word.isalnum():  # Only process alphanumeric words
+                        word_lower = word.lower()
+
+                        # Match if word contains the root or common variations
+                        match = (
+                            root_lower in word_lower
+                            or word_lower == root_lower
+                            or any(word_lower == root_lower + suffix for suffix in ROOT_SUFFIXES)
+                            or (root_lower.endswith("e") and word_lower == root_lower[:-1] + "ly")
+                            or (root_lower.endswith("y") and word_lower == root_lower[:-1] + "ily")
+                            or (root_lower.endswith("ic") and word_lower == root_lower + "ally")
+                        )
+
+                        if match:
+                            bolded_parts.append(f"<strong>{html.escape(word)}</strong>")
+                            matched_any = True
+                        else:
+                            bolded_parts.append(html.escape(word))
+                    else:
+                        # Non-alphanumeric (spaces, punctuation) - just escape and add
+                        bolded_parts.append(html.escape(word))
+
+                bolded_verse = "".join(bolded_parts)
+
+                if matched_any:
+                    css_class = "bible-ref"
+                    ref_text = visible
+                    tooltip_content = (
+                        f"<strong>{html.escape(root)}</strong>: {full_key} (KJV) - {bolded_verse}"
+                    )
+                else:
+                    css_class = "bible-ref-no-root"
+                    ref_text = f"{visible} [ROOT WORD MISSING]"
+                    tooltip_content = f"{full_key} (KJV) - {html.escape(clean_verse)}"
 
         escaped_ref_text = html.escape(ref_text)
         return (
