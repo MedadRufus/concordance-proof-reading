@@ -203,19 +203,15 @@ class Reference:  # pylint: disable=too-many-instance-attributes
             root = self.root_word
             root_lower = root.lower()
 
-            # Quick check: if the root word doesn't appear in the verse at all, skip spaCy processing
+            # Quick check: if the root word doesn't appear in the verse at all, skip processing
             verse_lower = clean_verse.lower()
-            if not (
-                root_lower in verse_lower
-                or root_lower + "s" in verse_lower
-                or root_lower + "ed" in verse_lower
-                or root_lower + "ing" in verse_lower
-                or root_lower + "ly" in verse_lower
-                or root_lower + "eth" in verse_lower
-                or root_lower + "est" in verse_lower
-            ):
+            has_root_word = any(
+                root_lower in verse_lower or root_lower + suffix in verse_lower
+                for suffix in ["", "s", "ed", "ing", "ly", "eth", "est"]
+            )
 
-                # No basic match found, return without spaCy processing
+            if not has_root_word:
+                # No basic match found, return without advanced processing
                 css_class = "bible-ref-no-root"
                 ref_text = f"{visible} [ROOT WORD MISSING]"
                 tooltip_content = f"{full_key} (KJV) - {html.escape(clean_verse)}"
