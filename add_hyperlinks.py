@@ -218,7 +218,6 @@ class Reference:  # pylint: disable=too-many-instance-attributes
             else:
                 # For performance on limited compute, use a simpler approach without spaCy
                 # but still preserve the basic functionality
-                import re
 
                 # Split the verse into words while preserving punctuation
                 words = re.findall(r"\b\w+\b|\W+", clean_verse)
