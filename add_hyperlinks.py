@@ -316,12 +316,10 @@ def parse_references_with_root(text, verses, root_word):
     return results
 
 
-def extract_paragraphs(doc, verses, progress_callback=None):
+def extract_paragraphs(doc, verses):
     paragraphs = []
 
-    # Get total elements for progress calculation
     all_elements = doc.getElementsByType(P)
-    total_elements = len(all_elements)
 
     for idx, elem in enumerate(all_elements):
         raw_txt = teletype.extractText(elem)
@@ -411,14 +409,6 @@ def extract_paragraphs(doc, verses, progress_callback=None):
         final_line = f"<strong>{html.escape(root_word)}</strong> " + " | ".join(rendered_segments)
         paragraphs.append(final_line)
 
-        # Update progress based on how far we are through the document
-        if progress_callback and total_elements > 0:
-            # Map progress from 40% (start of processing) to 80% (end of processing)
-            current_progress = 40 + int((idx / total_elements) * 40)
-            progress_callback(
-                current_progress, f"Processing document... ({idx + 1}/{total_elements})"
-            )
-
     return paragraphs
 
 
@@ -440,27 +430,15 @@ def write_html(paragraphs, style):
     return html_content
 
 
-def convert_odt_bytes_to_html(odt_bytes, progress_callback=None):
+def convert_odt_bytes_to_html(odt_bytes):
     """Convert ODT bytes to an HTML string (keeps everything in memory)."""
 
-    if progress_callback:
-        progress_callback(10, "Loading Bible data...")
-
     kjv_verses = load_kjv(KJV_JSON_PATH)
-
-    if progress_callback:
-        progress_callback(25, "Loading document...")
 
     bio = io.BytesIO(odt_bytes)
     doc = load(bio)
 
-    if progress_callback:
-        progress_callback(40, "Processing document content...")
-
-    paragraphs = extract_paragraphs(doc, kjv_verses, progress_callback)
-
-    if progress_callback:
-        progress_callback(85, "Generating HTML output...")
+    paragraphs = extract_paragraphs(doc, kjv_verses)
 
     style = """
         body {
@@ -553,13 +531,10 @@ def convert_odt_bytes_to_html(odt_bytes, progress_callback=None):
         }
     """
 
-    if progress_callback:
-        progress_callback(95, "Finalizing...")
-
     return write_html(paragraphs, style)
 
 
-def convert_odt_to_html(odt_path, html_path, progress_callback=None):
+def convert_odt_to_html(odt_path, html_path):
     """Compatibility wrapper: read file and save to disk."""
     if not os.path.exists(odt_path):
         raise FileNotFoundError(f"File '{odt_path}' not found.")
@@ -567,7 +542,7 @@ def convert_odt_to_html(odt_path, html_path, progress_callback=None):
     with open(odt_path, "rb") as f:
         odt_bytes = f.read()
 
-    html_content = convert_odt_bytes_to_html(odt_bytes, progress_callback)
+    html_content = convert_odt_bytes_to_html(odt_bytes)
 
     with open(html_path, "w", encoding="utf-8") as f:
         f.write(html_content)
