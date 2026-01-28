@@ -309,6 +309,110 @@ def parse_references_with_root(text, verses, root_word):
     return results
 
 
+def convert_odt_bytes_to_html(odt_bytes):
+    """Convert ODT bytes to an HTML string (keeps everything in memory)."""
+
+    kjv_verses = load_kjv(KJV_JSON_PATH)
+
+    bio = io.BytesIO(odt_bytes)
+    doc = load(bio)
+
+    paragraphs = extract_paragraphs(doc, kjv_verses)
+
+    style = """
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 10em;
+        }
+        p {
+            margin: 0 0 1em 0;
+        }
+
+        /* Reference pair container */
+        .ref-pair {
+            position: relative;
+            display: inline-block;
+            margin-right: 0.2em;
+        }
+
+        /* Tooltip styling */
+        .tooltip {
+            position: absolute;
+            bottom: 100%;
+            left: 50%;
+            transform: translateX(-50%);
+            background: #333;
+            color: white;
+            padding: 8px 12px;
+            border-radius: 4px;
+            font-size: 12px;
+            z-index: 1000;
+            opacity: 0;
+            visibility: hidden;
+            pointer-events: none;
+            white-space: normal;
+            min-width: 200px;
+            word-wrap: break-word;
+            margin-bottom: 6px;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+            transition: opacity 0.2s ease;
+        }
+
+        .ref-pair:hover .tooltip {
+            opacity: 1;
+            visibility: visible;
+        }
+
+        /* Link styles */
+        .bible-ref {
+            color: #0066cc;
+            cursor: help;
+            border-bottom: 1px dotted #0066cc;
+            text-decoration: none;
+        }
+        .bible-ref:hover {
+            background-color: #f0f8ff;
+            text-decoration: underline;
+        }
+
+        .bible-ref-missing {
+            color: #cc0000;
+            cursor: help;
+            border-bottom: 2px solid #cc0000;
+            text-decoration: none;
+            background-color: #ffe6e6;
+        }
+        .bible-ref-missing:hover {
+            background-color: #ffcccc;
+            text-decoration: underline;
+        }
+
+        .bible-ref-no-root {
+            color: #cc6600;
+            cursor: help;
+            border-bottom: 2px dashed #cc6600;
+            text-decoration: none;
+            background-color: #fff9e6;
+        }
+        .bible-ref-no-root:hover {
+            background-color: #ffebcc;
+            text-decoration: underline;
+        }
+        
+        /* Enhanced highlighting for matched words in tooltips */
+        .tooltip strong {
+            background-color: #ffff00; /* Yellow background */
+            color: #000; /* Black text */
+            padding: 1px 2px;
+            border-radius: 2px;
+            font-weight: bold;
+        }
+    """
+
+    return write_html(paragraphs, style)
+
+
 def extract_paragraphs(doc, verses):
     paragraphs = []
 
@@ -421,110 +525,6 @@ def write_html(paragraphs, style):
         html_content += f"<p>{p}</p>\n"
     html_content += "</body>\n</html>"
     return html_content
-
-
-def convert_odt_bytes_to_html(odt_bytes):
-    """Convert ODT bytes to an HTML string (keeps everything in memory)."""
-
-    kjv_verses = load_kjv(KJV_JSON_PATH)
-
-    bio = io.BytesIO(odt_bytes)
-    doc = load(bio)
-
-    paragraphs = extract_paragraphs(doc, kjv_verses)
-
-    style = """
-        body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            margin: 10em;
-        }
-        p {
-            margin: 0 0 1em 0;
-        }
-
-        /* Reference pair container */
-        .ref-pair {
-            position: relative;
-            display: inline-block;
-            margin-right: 0.2em;
-        }
-
-        /* Tooltip styling */
-        .tooltip {
-            position: absolute;
-            bottom: 100%;
-            left: 50%;
-            transform: translateX(-50%);
-            background: #333;
-            color: white;
-            padding: 8px 12px;
-            border-radius: 4px;
-            font-size: 12px;
-            z-index: 1000;
-            opacity: 0;
-            visibility: hidden;
-            pointer-events: none;
-            white-space: normal;
-            min-width: 200px;
-            word-wrap: break-word;
-            margin-bottom: 6px;
-            box-shadow: 0 2px 6px rgba(0,0,0,0.3);
-            transition: opacity 0.2s ease;
-        }
-
-        .ref-pair:hover .tooltip {
-            opacity: 1;
-            visibility: visible;
-        }
-
-        /* Link styles */
-        .bible-ref {
-            color: #0066cc;
-            cursor: help;
-            border-bottom: 1px dotted #0066cc;
-            text-decoration: none;
-        }
-        .bible-ref:hover {
-            background-color: #f0f8ff;
-            text-decoration: underline;
-        }
-
-        .bible-ref-missing {
-            color: #cc0000;
-            cursor: help;
-            border-bottom: 2px solid #cc0000;
-            text-decoration: none;
-            background-color: #ffe6e6;
-        }
-        .bible-ref-missing:hover {
-            background-color: #ffcccc;
-            text-decoration: underline;
-        }
-
-        .bible-ref-no-root {
-            color: #cc6600;
-            cursor: help;
-            border-bottom: 2px dashed #cc6600;
-            text-decoration: none;
-            background-color: #fff9e6;
-        }
-        .bible-ref-no-root:hover {
-            background-color: #ffebcc;
-            text-decoration: underline;
-        }
-        
-        /* Enhanced highlighting for matched words in tooltips */
-        .tooltip strong {
-            background-color: #ffff00; /* Yellow background */
-            color: #000; /* Black text */
-            padding: 1px 2px;
-            border-radius: 2px;
-            font-weight: bold;
-        }
-    """
-
-    return write_html(paragraphs, style)
 
 
 def convert_odt_to_html(odt_path, html_path):
