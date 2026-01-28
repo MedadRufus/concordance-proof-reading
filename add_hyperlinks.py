@@ -179,6 +179,55 @@ class Reference:  # pylint: disable=too-many-instance-attributes
         text = text.replace("#", " ")
         return re.sub(r"\s+", " ", text).strip()
 
+    def find_root_word_matches(self, clean_verse, root_word):
+        """Find matches of root word in the verse and return bolded version with matches highlighted."""
+        root_lower = root_word.lower()
+
+        # Define suffixes for checking root word variations
+        ROOT_SUFFIXES = ["", "s", "ed", "ing", "ly", "eth", "est"]
+
+        # Quick check: if the root word doesn't appear in the verse at all, skip processing
+        verse_lower = clean_verse.lower()
+        has_root_word = any(
+            root_lower in verse_lower or root_lower + suffix in verse_lower
+            for suffix in ROOT_SUFFIXES
+        )
+
+        if not has_root_word:
+            # No basic match found, return without advanced processing
+            return None, False
+
+        # Split the verse into words while preserving punctuation
+        words = re.findall(r"\b\w+\b|\W+", clean_verse)
+        matched_any = False
+        bolded_parts = []
+
+        for word in words:
+            if word.isalnum():  # Only process alphanumeric words
+                word_lower = word.lower()
+
+                # Match if word contains the root or common variations
+                match = (
+                    root_lower in word_lower
+                    or word_lower == root_lower
+                    or any(word_lower == root_lower + suffix for suffix in ROOT_SUFFIXES)
+                    or (root_lower.endswith("e") and word_lower == root_lower[:-1] + "ly")
+                    or (root_lower.endswith("y") and word_lower == root_lower[:-1] + "ily")
+                    or (root_lower.endswith("ic") and word_lower == root_lower + "ally")
+                )
+
+                if match:
+                    bolded_parts.append(f"<strong>{html.escape(word)}</strong>")
+                    matched_any = True
+                else:
+                    bolded_parts.append(html.escape(word))
+            else:
+                # Non-alphanumeric (spaces, punctuation) - just escape and add
+                bolded_parts.append(html.escape(word))
+
+        bolded_verse = "".join(bolded_parts)
+        return bolded_verse, matched_any
+
     def get_full_verse_key(self):
         """Return full verse key like 'Proverbs 24:24'."""
         return f"{self.book} {self.chapter}:{self.verse}"
@@ -201,67 +250,22 @@ class Reference:  # pylint: disable=too-many-instance-attributes
         else:
             clean_verse = self.clean_kjv_text(raw_verse)
             root = self.root_word
-            root_lower = root.lower()
 
-            # Define suffixes for checking root word variations
-            ROOT_SUFFIXES = ["", "s", "ed", "ing", "ly", "eth", "est"]
+            # For performance on limited compute, use a simpler approach without spaCy
+            # but still preserve the basic functionality
 
-            # Quick check: if the root word doesn't appear in the verse at all, skip processing
-            verse_lower = clean_verse.lower()
-            has_root_word = any(
-                root_lower in verse_lower or root_lower + suffix in verse_lower
-                for suffix in ROOT_SUFFIXES
-            )
+            bolded_verse, matched_any = self.find_root_word_matches(clean_verse, root)
 
-            if not has_root_word:
-                # No basic match found, return without advanced processing
+            if matched_any:
+                css_class = "bible-ref"
+                ref_text = visible
+                tooltip_content = (
+                    f"<strong>{html.escape(root)}</strong>: {full_key} (KJV) - {bolded_verse}"
+                )
+            else:
                 css_class = "bible-ref-no-root"
                 ref_text = f"{visible} [ROOT WORD MISSING]"
                 tooltip_content = f"{full_key} (KJV) - {html.escape(clean_verse)}"
-            else:
-                # For performance on limited compute, use a simpler approach without spaCy
-                # but still preserve the basic functionality
-
-                # Split the verse into words while preserving punctuation
-                words = re.findall(r"\b\w+\b|\W+", clean_verse)
-                matched_any = False
-                bolded_parts = []
-
-                for word in words:
-                    if word.isalnum():  # Only process alphanumeric words
-                        word_lower = word.lower()
-
-                        # Match if word contains the root or common variations
-                        match = (
-                            root_lower in word_lower
-                            or word_lower == root_lower
-                            or any(word_lower == root_lower + suffix for suffix in ROOT_SUFFIXES)
-                            or (root_lower.endswith("e") and word_lower == root_lower[:-1] + "ly")
-                            or (root_lower.endswith("y") and word_lower == root_lower[:-1] + "ily")
-                            or (root_lower.endswith("ic") and word_lower == root_lower + "ally")
-                        )
-
-                        if match:
-                            bolded_parts.append(f"<strong>{html.escape(word)}</strong>")
-                            matched_any = True
-                        else:
-                            bolded_parts.append(html.escape(word))
-                    else:
-                        # Non-alphanumeric (spaces, punctuation) - just escape and add
-                        bolded_parts.append(html.escape(word))
-
-                bolded_verse = "".join(bolded_parts)
-
-                if matched_any:
-                    css_class = "bible-ref"
-                    ref_text = visible
-                    tooltip_content = (
-                        f"<strong>{html.escape(root)}</strong>: {full_key} (KJV) - {bolded_verse}"
-                    )
-                else:
-                    css_class = "bible-ref-no-root"
-                    ref_text = f"{visible} [ROOT WORD MISSING]"
-                    tooltip_content = f"{full_key} (KJV) - {html.escape(clean_verse)}"
 
         escaped_ref_text = html.escape(ref_text)
         return (
