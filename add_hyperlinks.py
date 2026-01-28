@@ -203,11 +203,14 @@ class Reference:  # pylint: disable=too-many-instance-attributes
             root = self.root_word
             root_lower = root.lower()
 
+            # Define suffixes for checking root word variations
+            ROOT_SUFFIXES = ["", "s", "ed", "ing", "ly", "eth", "est"]
+
             # Quick check: if the root word doesn't appear in the verse at all, skip processing
             verse_lower = clean_verse.lower()
             has_root_word = any(
                 root_lower in verse_lower or root_lower + suffix in verse_lower
-                for suffix in ["", "s", "ed", "ing", "ly", "eth", "est"]
+                for suffix in ROOT_SUFFIXES
             )
 
             if not has_root_word:
@@ -232,12 +235,7 @@ class Reference:  # pylint: disable=too-many-instance-attributes
                         match = (
                             root_lower in word_lower
                             or word_lower == root_lower
-                            or word_lower == root_lower + "s"
-                            or word_lower == root_lower + "ed"
-                            or word_lower == root_lower + "ing"
-                            or word_lower == root_lower + "ly"
-                            or word_lower == root_lower + "eth"
-                            or word_lower == root_lower + "est"
+                            or any(word_lower == root_lower + suffix for suffix in ROOT_SUFFIXES)
                             or (root_lower.endswith("e") and word_lower == root_lower[:-1] + "ly")
                             or (root_lower.endswith("y") and word_lower == root_lower[:-1] + "ily")
                             or (root_lower.endswith("ic") and word_lower == root_lower + "ally")
