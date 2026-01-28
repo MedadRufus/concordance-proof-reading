@@ -173,12 +173,6 @@ class Reference:  # pylint: disable=too-many-instance-attributes
             return f"{self.abbr} {self.chapter}:{self.verse}"
         return self.part if self.has_colon else self.verse
 
-    def clean_kjv_text(self, text):
-        """Remove KJV markup: # and [...]"""
-        text = re.sub(r"\[.*?\]", "", text)
-        text = text.replace("#", " ")
-        return re.sub(r"\s+", " ", text).strip()
-
     def find_root_word_matches(self, clean_verse, root_word):
         """Find matches of root word in the verse and return bolded version with matches highlighted."""
         root_lower = root_word.lower()
@@ -235,7 +229,7 @@ class Reference:  # pylint: disable=too-many-instance-attributes
     def to_anchor(self, index: int) -> str:
         """Construct the anchor HTML for this reference with a real tooltip span."""
         full_key = self.get_full_verse_key()
-        raw_verse = self.verses.get(full_key, "")
+        verse = self.verses.get(full_key, "")
         visible = self.visible(index)
 
         url = (
@@ -243,18 +237,17 @@ class Reference:  # pylint: disable=too-many-instance-attributes
             f"{self.book}+{self.chapter}%3A{self.verse}&version=KJV"
         )
 
-        if not raw_verse:
+        if not verse:
             css_class = "bible-ref-missing"
             ref_text = f"{visible} [REF NOT FOUND]"
             tooltip_content = f"{full_key} (KJV) - Reference not found"
         else:
-            clean_verse = self.clean_kjv_text(raw_verse)
             root = self.root_word
 
             # For performance on limited compute, use a simpler approach without spaCy
             # but still preserve the basic functionality
 
-            bolded_verse, matched_any = self.find_root_word_matches(clean_verse, root)
+            bolded_verse, matched_any = self.find_root_word_matches(verse, root)
 
             if matched_any:
                 css_class = "bible-ref"
@@ -265,7 +258,7 @@ class Reference:  # pylint: disable=too-many-instance-attributes
             else:
                 css_class = "bible-ref-no-root"
                 ref_text = f"{visible} [ROOT WORD MISSING]"
-                tooltip_content = f"{full_key} (KJV) - {html.escape(clean_verse)}"
+                tooltip_content = f"{full_key} (KJV) - {html.escape(verse)}"
 
         escaped_ref_text = html.escape(ref_text)
         return (
