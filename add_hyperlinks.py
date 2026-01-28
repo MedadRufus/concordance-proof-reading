@@ -413,6 +413,57 @@ def convert_odt_bytes_to_html(odt_bytes):
     return write_html(paragraphs, style)
 
 
+def extract_root_word(txt):
+    """Extract the root word from the given text."""
+    root_word = None
+    words = re.split(r"(\s+)", txt)  # keep whitespace for position tracking
+    i = 0
+    while i < len(words):
+        w = words[i].strip()
+        if not w:
+            i += 1
+            continue
+
+        # Candidate: all caps, length ≥ 2, no punctuation inside (ignore trailing .,;)
+        clean_w = re.sub(r"[.,;:!?\)]*$", "", w)
+        if clean_w.isalpha() and clean_w.isupper() and len(clean_w) >= 2:
+            # Look ahead: next non-whitespace token should NOT be all-caps (unless multi-word root — rare)
+            j = i + 1
+            while j < len(words) and words[j].isspace():
+                j += 1
+            if j < len(words):
+                next_token = re.sub(r"[.,;:!?\)]*$", "", words[j])
+                if (next_token and next_token[0].islower()) or next_token in {
+                    "I",
+                    "a",
+                    "the",
+                    "his",
+                    "her",
+                    "their",
+                    "my",
+                    "thy",
+                    "ye",
+                    "you",
+                    "we",
+                    "it",
+                }:
+                    root_word = clean_w
+                    break
+            # Also accept if next token is punctuation (e.g., comma)
+            elif j < len(words) and re.match(r"^[,\.\-\)]", words[j]):
+                root_word = clean_w
+                break
+        i += 1
+
+    if root_word is None:
+        # Fallback: use first all-caps word ≥2 chars, even if imperfect
+        fallback_match = re.search(r"\b([A-Z]{2,})\b", txt)
+        if fallback_match:
+            root_word = fallback_match.group(1)
+
+    return root_word
+
+
 def extract_paragraphs(doc, verses):
     paragraphs = []
 
@@ -424,56 +475,13 @@ def extract_paragraphs(doc, verses):
             continue
         txt = re.sub(r"\s+", " ", raw_txt).strip()
 
-        # Try to extract root word more carefully
-        root_word = None
-        words = re.split(r"(\s+)", txt)  # keep whitespace for position tracking
-        i = 0
-        while i < len(words):
-            w = words[i].strip()
-            if not w:
-                i += 1
-                continue
-
-            # Candidate: all caps, length ≥ 2, no punctuation inside (ignore trailing .,;)
-            clean_w = re.sub(r"[.,;:!?\)]*$", "", w)
-            if clean_w.isalpha() and clean_w.isupper() and len(clean_w) >= 2:
-                # Look ahead: next non-whitespace token should NOT be all-caps (unless multi-word root — rare)
-                j = i + 1
-                while j < len(words) and words[j].isspace():
-                    j += 1
-                if j < len(words):
-                    next_token = re.sub(r"[.,;:!?\)]*$", "", words[j])
-                    if (next_token and next_token[0].islower()) or next_token in {
-                        "I",
-                        "a",
-                        "the",
-                        "his",
-                        "her",
-                        "their",
-                        "my",
-                        "thy",
-                        "ye",
-                        "you",
-                        "we",
-                        "it",
-                    }:
-                        root_word = clean_w
-                        break
-                # Also accept if next token is punctuation (e.g., comma)
-                elif j < len(words) and re.match(r"^[,\.\-\)]", words[j]):
-                    root_word = clean_w
-                    break
-            i += 1
+        # Extract root word using the new function
+        root_word = extract_root_word(txt)
 
         if root_word is None:
-            # Fallback: use first all-caps word ≥2 chars, even if imperfect
-            fallback_match = re.search(r"\b([A-Z]{2,})\b", txt)
-            if fallback_match:
-                root_word = fallback_match.group(1)
-            else:
-                # No root word found → treat as plain text
-                paragraphs.append(html.escape(txt))
-                continue
+            # No root word found → treat as plain text
+            paragraphs.append(html.escape(txt))
+            continue
 
         # Now split by |, but only after root word
         # Remove root word from txt for segment parsing
