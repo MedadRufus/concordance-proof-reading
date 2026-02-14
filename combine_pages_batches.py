@@ -5,6 +5,7 @@ from pathlib import Path
 import zipfile
 import tempfile
 import shutil
+import numpy as np
 
 def extract_zip_to_temp(zip_path):
     """Extract zip file to temporary directory and return the path."""
@@ -13,6 +14,32 @@ def extract_zip_to_temp(zip_path):
     with zipfile.ZipFile(zip_path, 'r') as zip_ref:
         zip_ref.extractall(temp_dir)
     return temp_dir
+
+def crop_margins(img, threshold=240):
+    """
+    Detect and remove white/light margins from image.
+    Returns cropped image.
+    """
+    # Convert to grayscale for margin detection
+    gray = img.convert('L')
+    # Convert to numpy array
+    img_array = np.array(gray)
+    
+    # Find rows and columns that are not mostly white
+    rows = np.where(np.min(img_array, axis=1) < threshold)[0]
+    cols = np.where(np.min(img_array, axis=0) < threshold)[0]
+    
+    if len(rows) == 0 or len(cols) == 0:
+        return img  # No content detected, return original
+    
+    # Get bounding box of content
+    top = rows[0]
+    bottom = rows[-1] + 1
+    left = cols[0]
+    right = cols[-1] + 1
+    
+    # Crop the image
+    return img.crop((left, top, right, bottom))
 
 def combine_page_batch(page_numbers, temp_dir, output_name="combined_pages.jpg", dpi=150):
     """
@@ -48,24 +75,39 @@ def combine_page_batch(page_numbers, temp_dir, output_name="combined_pages.jpg",
         print(f"No PDFs found for pages {page_numbers}!")
         return None
     
-    print(f"Stacking {len(images)} image(s) vertically...\n")
+    print(f"Processing {len(images)} image(s): cropping margins and normalizing width...")
     
-    # Get dimensions
-    widths = [img.width for img in images]
-    heights = [img.height for img in images]
+    # Crop margins from all images
+    cropped_images = []
+    for i, img in enumerate(images):
+        cropped = crop_margins(img)
+        cropped_images.append(cropped)
     
-    # Use the maximum width
-    max_width = max(widths)
-    total_height = sum(heights)
+    # Find the maximum width after cropping
+    max_width = max(img.width for img in cropped_images)
+    
+    print(f"Normalized width: {max_width} pixels")
+    print(f"Stacking {len(cropped_images)} image(s) vertically...\n")
+    
+    # Scale all images to the same width while maintaining aspect ratio
+    normalized_images = []
+    total_height = 0
+    for img in cropped_images:
+        if img.width != max_width:
+            # Scale to match max width
+            scale_factor = max_width / img.width
+            new_height = int(img.height * scale_factor)
+            img = img.resize((max_width, new_height), Image.Resampling.LANCZOS)
+        normalized_images.append(img)
+        total_height += img.height
     
     # Create a new image with the combined dimensions
     combined_image = Image.new('RGB', (max_width, total_height), color='white')
     
-    # Paste each image vertically, centered horizontally
+    # Paste each image vertically
     y_offset = 0
-    for img in images:
-        x_offset = (max_width - img.width) // 2
-        combined_image.paste(img, (x_offset, y_offset))
+    for img in normalized_images:
+        combined_image.paste(img, (0, y_offset))
         y_offset += img.height
     
     # Save as JPEG with balanced quality for OCR and file size
