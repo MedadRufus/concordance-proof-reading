@@ -173,4 +173,4 @@ def combine_all_batches(zip_path, batch_size=4, dpi=150, output_dir="output"):
 
 if __name__ == "__main__":
     zip_path = "/media/medad/Data/concordance_digitise/Filemail.com - the files we spoke about, each page split into 3 sectopms.zip"
-    combine_all_batches(zip_path, batch_size=4, dpi=300, output_dir="output")
+    combine_all_batches(zip_path, batch_size=4, dpi=250, output_dir="output")
