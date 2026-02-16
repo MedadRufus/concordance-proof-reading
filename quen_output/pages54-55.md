@@ -277,8 +277,7 @@ if son of p. there your p. rest, Lu. 10. 6.
 thin that belong to thy p., Lu. 19. 42.  
 p. I leave you, p. I give, John 14. 27.  
 that in me ye might have p., Jn. 16. 33.  
-p. from God the Father, Rom. 1. 7; 1 Cor.  
-1. 3; 2 Cor. 1. 2; Gal. 1. 3; Eph. 1. 2.  
+p. from God the Father, Rom. 1. 7; 1 Cor. 1. 3; 2 Cor. 1. 2; Gal. 1. 3; Eph. 1. 2.  
 live in p., 2 Cor. 13. 11.  
 justified, have p. with God, Rom. 5. 1.  
 kingdom of God is p., Rom. 14. 17.  
