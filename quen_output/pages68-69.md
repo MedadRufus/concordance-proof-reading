@@ -1,5 +1,5 @@
 that which s. rock, Isa. 55. 2.  
-1. sh. s. thy soul in drought, Isa. 58. 11.  
+L. sh. s. thy soul in drought, Isa. 58. 11.  
 **SATISFIED.**—s. with likeness, Ps. 17. 15.  
 with goodness of thy house, Ps. 65. 4.  
 that tilleth shall be s., Prov. 12. 11.  
