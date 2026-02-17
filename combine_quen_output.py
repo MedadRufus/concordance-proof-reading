@@ -103,6 +103,8 @@ def md_to_latex(md_file, tex_file):
 \usepackage[margin=0.5in]{geometry}
 \usepackage{multicol}
 \usepackage{microtype}
+\usepackage{helvet}
+\renewcommand{\familydefault}{\sfdefault}
 \setlength{\columnsep}{20pt}
 \setlength{\parindent}{0pt}
 \setlength{\parskip}{6pt}
