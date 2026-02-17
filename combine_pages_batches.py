@@ -56,8 +56,11 @@ def combine_page_batch(page_numbers, temp_dir, output_name="combined_pages.jpg",
     # Collect all PDFs for the specified pages
     for page_num in page_numbers:
         # Find all PDFs matching the page number pattern (e.g., 1.1, 1.2, 1.3, etc.)
+        # Also match files without extensions (some PDFs may lack .pdf extension)
         medad_dir = Path(temp_dir) / "Medad"
-        page_files = sorted(medad_dir.glob(f"{page_num}.*.pdf")) + sorted(medad_dir.glob(f"{page_num}.pdf"))
+        page_files = sorted(medad_dir.glob(f"{page_num}.*")) + sorted(medad_dir.glob(f"{page_num}"))
+        # Filter to only files (not directories)
+        page_files = [f for f in page_files if f.is_file()]
         
         if not page_files:
             print(f"  Warning: No PDFs found for page {page_num}")
@@ -110,15 +113,19 @@ def combine_page_batch(page_numbers, temp_dir, output_name="combined_pages.jpg",
         combined_image.paste(img, (0, y_offset))
         y_offset += img.height
     
-    # Save as JPEG with balanced quality for OCR and file size
-    if not output_name.endswith('.jpg'):
-        output_name = output_name.replace('.png', '.jpg')
-    combined_image.save(output_name, 'JPEG', quality=95, optimize=True)
-    print(f"✓ Saved to {output_name}")
-    print(f"  Dimensions: {combined_image.width} x {combined_image.height} pixels\n")
-    return output_name
+    # Save as both JPEG and PNG with balanced quality for OCR and file size
+    base_output_name = output_name
+    if base_output_name.endswith(('.jpg', '.png')):
+        base_output_name = base_output_name.rsplit('.', 1)[0]
+    
+    # Save as JPEG
+    jpg_output = f"{base_output_name}.jpg"
+    combined_image.save(jpg_output, 'JPEG', quality=95, optimize=True)
+    print(f"✓ Saved to {jpg_output}")
+    
+    return jpg_output
 
-def combine_all_batches(zip_path, batch_size=4, dpi=150, output_dir="output"):
+def combine_all_batches(zip_path, batch_size=4, dpi=150, output_dir="output", start_page=1):
     """
     Extract zip and combine pages in batches.
     
@@ -127,6 +134,7 @@ def combine_all_batches(zip_path, batch_size=4, dpi=150, output_dir="output"):
         batch_size: Number of pages per batch (default 8)
         dpi: Resolution in dots per inch
         output_dir: Directory to save combined images
+        start_page: Page number to start from (default 1)
     """
     # Create output directory
     Path(output_dir).mkdir(exist_ok=True)
@@ -155,9 +163,10 @@ def combine_all_batches(zip_path, batch_size=4, dpi=150, output_dir="output"):
         print(f"Found pages 1 to {max_page}\n")
         
         # Process batches
+        page_num = start_page
         while page_num <= max_page:
             batch_pages = list(range(page_num, min(page_num + batch_size, max_page + 1)))
-            output_name = f"{output_dir}/pages_{batch_pages[0]}-{batch_pages[-1]}_combined.jpg"
+            output_name = f"{output_dir}/pages_{batch_pages[0]}-{batch_pages[-1]}_combined"
             
             print(f"Processing batch {batch_num}: pages {batch_pages[0]}-{batch_pages[-1]}")
             combine_page_batch(batch_pages, temp_dir, output_name, dpi)
@@ -173,4 +182,4 @@ def combine_all_batches(zip_path, batch_size=4, dpi=150, output_dir="output"):
 
 if __name__ == "__main__":
     zip_path = "/media/medad/Data/concordance_digitise/Filemail.com - the files we spoke about, each page split into 3 sectopms.zip"
-    combine_all_batches(zip_path, batch_size=4, dpi=250, output_dir="output")
+    combine_all_batches(zip_path, batch_size=2, dpi=300, output_dir="output", start_page=1)
