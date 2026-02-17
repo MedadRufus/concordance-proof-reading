@@ -1,6 +1,6 @@
 **A.**—a. of your plowmen, Isa. 61. 5.  
 a. fight the armies of a., Heb. 11. 34.  
-**ALIENATED.**—a. from life of God,
+**ALIENATED.**—a. from life of God,  
 were sometime a., Col. 1. 21. [Eph. 4. 18.  
 **ALIKE.**—All things come a., Eccl. 9. 2.  
 esteemed every day a., Rom. 14. 5.  
@@ -32,9 +32,9 @@ that God may be a. in a., 1 Cor. 15. 28.
 that filleth a. in a., Eph. 1. 23.  
 Christ is a. and in a., Col. 3. 11.  
 I have a. and abound, Phil. 4. 18.  
-**ALLEGORY.**—Which things are an a.,
+**ALLEGORY.**—Which things are an a.,  
 Gal. 4. 24. [Rev. 19. 1, 3, 4, 6.  
-**ALLELUIAH.**—Great voice saying a.,
+**ALLELUIAH.**—Great voice saying a.,  
 Rev. 19. 1, 3, 4, 6.  
 **ALLURE.**—I will a. her, Hos. 2. 14.  
 they a. through lusts, 2 Pet. 2. 18.  
@@ -62,7 +62,7 @@ God a. and lamb, Rev. 21. 22.
 **ALMOND.**—a. tree shall flourish, Eccl.  
 12. 5. [Jer. 1. 11, 12.  
 **ALOES.**—Ps. 45. 8; Prov. 7. 17; Cant. 4. 14.  
-**ALONE.**—Not good man should be a.,
+**ALONE.**—Not good man should be a.,  
 not able to bear all this people a., Num.  
 11. 14; Deut. 1. 9, 12.  
 the people shall dwell a., Num. 23. 9.  
@@ -100,9 +100,9 @@ made a. to sin, a. shall be, Hos. 8. 11.
 a. as heaps in the furrows, Hos. 12. 11.  
 will visit the a. of Beth-el, Amos 3. 14.  
 have digged down thine a., Rom. 11. 3.  
-**ALTERED.**—Fashion of countenance,
+**ALTERED.**—Fashion of countenance,  
 Job 14. 20; Ps. 34. 1. [Isa. 10. 50. 21.  
-**ALTOGETHER.**—a. such as once are thy-
+**ALTOGETHER.**—a. such as once are thy-  
 **ALWAY.**—I would not live a., Job 7. 16.  
 have poor a. with you, Matt. 26. 11.  
 I am with you a., Matt. 28. 20.  
@@ -117,7 +117,7 @@ before Abraham was, I a., John 8. 58.
 altogether such as I a., Acts 26. 29.  
 by grace I a. what I a., 1 Cor. 15. 10.  
 be as I a., Gal. 4. 12. [Ezek. 32. 10.  
-**AMAZED.**—Many people a. at thee,
+**AMAZED.**—Many people a. at thee,  
 began to be sore a., Mark 14. 33. [13. 17.  
 **AMBASSADOR.**—A faithful a. is, Prov.  
 that sendeth a. by the sea, Isa. 18. 2.  
@@ -132,7 +132,7 @@ and the glory for ever, a., Matt. 6. 13.
 write these things, saith the a., Rev.  
 a. even so come, Rev. 22. 20. [3. 14.  
 **AMEND.**—a. ways, Jer. 7. 3, 5, 26. 13, 35. 15.  
-**AMISS.**—2 Chron. 6. 37; Dan. 3. 29;
+**AMISS.**—2 Chron. 6. 37; Dan. 3. 29;  
 Luke 23. 41; Jas. 4. 3. [16. 22.  
 **ANATHEMA.**—Be a. maranatha, 1 Cor.  
 **ANCHOR.**—Hope as an a. of, Heb. 6. 19.  
@@ -147,11 +147,11 @@ take of a. of people, Jer. 19. 1.
 shall perish from the a., Ezek. 7. 26.  
 hast seen what the a. do? Ezek. 8. 12.  
 the a. of Gebal, Ezek. 27. 9. [Ezek. 47. 3.  
-**ANGLES.**—The waters were to the a.,
+**ANGLES.**—The waters were to the a.,  
 **ANGEL.**—Sent his a., Gen. 24. 7, 40; Ex.  
 23. 20, 23, 32, 34. 23; Num. 22. 22, 35.  
 the a. hid wondrously, Judg. 13. 19.  
-the a. stretched out his hand, the a., 2
+the a. stretched out his hand, the a., 2  
 Sam. 24. 16; 1 Chron. 21. 15.  
 the a. of his presence, Isa. 63. 9.  
 he had power over the a., Hos. 12. 4.  
@@ -172,21 +172,21 @@ a. of the waters, Rev. 16. 5.
 a mighty a., Rev. 18. 21.  
 an a. standing in the sun, Rev. 19. 17.  
 I Jesus have sent mine a., Rev. 22. 16.  
-**ANGER.**—a. of God, a. of God removed,
+**ANGER.**—a. of God, a. of God removed,  
 Ecc. 14. 9; 2 Sam. 27. 23.  
 as an a. of God: 1 Sam. 29. 9; 2 Sam.  
 14. 17, 19, 27; Gal. 4. 14.  
-**ANGEL OF THE LORD.**—Gen. 16. 7, 22. 11,
-15; Num. 22. 23, 25, 27; Judg. 5. 23,
-6. 11, 21, 13. 3, 20, 21; 2 Sam. 24. 16;
-2 Kings 19. 35; 1 Chron. 21. 12, 15, 30;
+**ANGEL OF THE LORD.**—Gen. 16. 7, 22. 11,  
+15; Num. 22. 23, 25, 27; Judg. 5. 23,  
+6. 11, 21, 13. 3, 20, 21; 2 Sam. 24. 16;  
+2 Kings 19. 35; 1 Chron. 21. 12, 15, 30;  
 Ps. 34. 7, 35. 5, 6; Isa. 37. 36; Zech.  
 1. 12, 3. 5, 6, 12. 8. [20, 2. 13. 19.  
 a. of Lord appeared in dream, Matt. 1.  
 a. of Lord descended, Matt. 28. 2.  
 to Zacharias an a. of the Lord, Luke 1.  
 [5. 19.  
-a. of the Lord opened prison-door, Acts
+a. of the Lord opened prison-door, Acts  
 a. of the Lord smote Herod, Acts 12. 23.  
 **ANGELS.**—a. of God ascending, Gen.  
 28. 12; John 1. 51.  
@@ -194,15 +194,15 @@ a. of God met him, Gen. 32. 1.
 his a. he charged with folly, Job 4. 18.  
 a little lower than the a., Ps. 8. 5.  
 man did eat a. food, Ps. 78. 25. [4. 10.  
-his a. charge, Ps. 91. 11; Matt. 4. 6; Luke
+his a. charge, Ps. 91. 11; Matt. 4. 6; Luke  
 ye his a. that excel, Ps. 103. 20.  
 praise ye him all his a., Ps. 148. 2.  
 a. ministered, Matt. 4. 11; Mark 1. 13.  
 a. shall sever the wicked, Matt. 13. 49.  
-their a. behold the face of my Father,
+their a. behold the face of my Father,  
 Matt. 18. 10. [12. 25.  
-a. of God in heaven, Matt. 22. 30; Mark
-not the a. of heaven, Matt. 24. 36;
+a. of God in heaven, Matt. 22. 30; Mark  
+not the a. of heaven, Matt. 24. 36;  
 Mark 13. 32.  
 all, the holy a., Matt. 25. 31; Luke 9. 26.  
 twelve legions of a., Matt. 26. 53.  
@@ -236,12 +236,12 @@ from the fierceness of his a., Deut. 13.
 17; Ps. 85. 3.  
 what kindleth this great a? Deut. 29. 24.  
 people provoke a. with sins, 1 Kings 16.  
-2; 2 Kings 17. 11; Jer. 11. 17, 32. 29,
+2; 2 Kings 17. 11; Jer. 11. 17, 32. 29,  
 32; Ezek. 16. 26.  
 slow to a., Neh. 9. 17; Ps. 103. 8, 145.  
-8; Prov. 15. 18, 16. 32; Joel 2. 13;
+8; Prov. 15. 18, 16. 32; Joel 2. 13;  
 Jonah 4. 2; Nah. 1. 3.  
-his a. endureth but a moment, Ps. 30. 5
+his a. endureth but a moment, Ps. 30. 5  
 cease from a., Ps. 37. 8.  
 let thy wrathful a. take hold, Ps. 69. 24.  
 why doth thy a. smoke, Ps. 74. 1.  
@@ -256,7 +256,7 @@ provoketh to a. sinneth, Prov. 20. 2.
 a. resteth in bosom of fools, Eccl. 7. 9.  
 provoke Holy One of Isr. to a., Isa. 1. 4.  
 his a. not turned, Isa. 5. 25; Jer. 4. 8.  
-a. of Lord kindled against his people,
+a. of Lord kindled against his people,  
 thine a. is turned, Isa. 12. 1. [Isa. 5. 25.  
 I will not cause mine a. to fall, Jer. 3. 12.  
 great is the a. the L. hath prot., Jer. 36. 7.  
@@ -301,7 +301,7 @@ she is come to a. my body, Mark 14. 8.
 spices that they might a. him, Mk. 16. 1.  
 my head thou didst not a., Luke 7. 46.  
 a. thine eyes with eye-salve, Rev. 3. 18.  
-**ANNOINTED.**—The bowels a. before him,
+**ANNOINTED.**—The bowels a. before him,  
 1 Sam. 16. 6, 24. 6, 10, 26. 9, 16; 2 Sam.  
 1. 14, 19, 21; Lam. 4. 20.  
 mercy to his a., 2 Sam. 22. 51; Ps. 18. 50.  
@@ -346,9 +346,9 @@ know how to a. every man, Col. 4. 6.
 at my first a. no man, 2 Tim. 4. 16.  
 be ready to give an a., 1 Pet. 3. 15.  
 the a. of a good conscience, 1 Pet. 3. 21.  
-**ANSWERED.**—He a. her not a word,
+**ANSWERED.**—He a. her not a word,  
 Matt. 15. 23. [fore, Prov. 18. 13.  
-**ANSWERETH.**—That a. a matter be-
+**ANSWERETH.**—That a. a matter be-  
 but the rich a. roughly, Prov. 18. 23.  
 as face a. to face so, Prov. 27. 19.  
 and a. to Jerusalem, Gal. 4. 25.  
@@ -356,7 +356,7 @@ and a. to Jerusalem, Gal. 4. 25.
 **ANT.**—Go to the a., sluggard, Prov. 6. 6.  
 a. a people not strong, Prov. 30. 25.  
 **ANVIL.**—Him that smote a., Isa. 41. 7.  
-**APOSTLE.**—Paul called to be an a.,
+**APOSTLE.**—Paul called to be an a.,  
 Rom. 1. 1; 1 Cor. 1. 1.  
 as I am the a. of the Gentiles, Rom. 11. 13.  
 am I not an a.? 1 Cor. 9. 1, 2.  
@@ -364,7 +364,7 @@ not meet to be called an a., 1 Cor. 15. 9.
 the signs of an a. wrought, 2 Cor. 12. 12.  
 ordained an a., 1 Tim. 2. 7; 2 Tim. 1. 11.  
 consider a. and high-priest, Heb. 3. 1.  
-**APOSTLES.**—The names of the twelve
+**APOSTLES.**—The names of the twelve  
 a., Matt. 10. 2; Luke 6. 13; Rev. 21. 14.  
 God hath set forth us a., 1 Cor. 4. 9.  
 for I am the least of the a., 1 Cor. 15. 9.  
@@ -375,20 +375,20 @@ other of the a. saw I none, Gal. 1. 19.
 he gave some a., Eph. 4. 11.  
 which say they are a., Rev. 2. 2.  
 rejoice over her, ye holy a., Rev. 18. 20.  
-**APOSTLESHIP.**—Part of this a., Acts
+**APOSTLESHIP.**—Part of this a., Acts  
 received grace and a., Rom. 1. 5. [1. 25.  
 the seal of mine a. are ye, 1 Cor. 9. 2.  
 to attain to circumcision, Gal. 2. 8.  
 **APOTHECARY.**—After art of a., Ex.  
 30. 25, 35, 37, 29. 7. [a., Isa. 23. 1.  
-**APPAREL.**—Who is this glorious in-
+**APPAREL.**—Who is this glorious in-  
 clothed in strange a., Zeph. 1. 8.  
 two men stood in white a., Acts 1. 10.  
 if a man come in goodly a., Jas. 2. 2.  
 or putting on of a., 1 Pet. 3. 3.  
 **APPEAL.**—I a. unto Cæsar, Acts 25.  
 11, 21, 26, 32. [Ps. 42. 2.  
-**APPEAR.**—When shall I come and a.,
+**APPEAR.**—When shall I come and a.,  
 thy work a. to thy servants, Ps. 90. 16.  
 he shall a. in his glory, Ps. 102. 16.  
 may a. to men fast., Matt. 6. 18.  
@@ -401,7 +401,7 @@ a. in presence of God, Heb. 9. 24.
 a. the second time to salva., Heb. 9. 28.  
 a. now in presence of God, 1 Pet. 3. 21.  
 it doth not yet a. what, 1 John 3. 2. [3.  
-**APPEARANCE.**—Man looketh on out-
+**APPEARANCE.**—Man looketh on out-  
 ward a., 1 Sam. 16. 7.  
 judge not accord. to the a., John 7. 24.  
 which glory in a., 2 Cor. 5. 12.  
@@ -411,16 +411,16 @@ abstain from all a. of evil, 1 Thess. 5. 22.
 grace of God hath a. to all, Titus 2. 11.  
 after the love of God a., Titus 3. 4.  
 hath once a. to put away sin, Heb. 9. 26.  
-**APPEARETH.**—Who shall a. and when
+**APPEARETH.**—Who shall a. and when  
 he a., Mal. 3. 2. [1 Tim. 6. 14.  
-**APPEARING.**—Till the a. of the Lord,
+**APPEARING.**—Till the a. of the Lord,  
 made manifest by the a., 2 Tim. 1. 10.  
 judge quick and dead at a., 2 Tim. 4. 1.  
 to them also that love his a., 2 Tim. 4. 8.  
 looking for glorious a., Titus 2. 13.  
-to praise at the a. of Jesus Christ, 1
+to praise at the a. of Jesus Christ, 1  
 Pet. 1. 7. [Prov. 25. 2.  
-**APPETITE.**—If thou be given to a.,
+**APPETITE.**—If thou be given to a.,  
 yet the a. not filled, Eccl. 6. 7.  
 awaken and his soul hath a., Isa. 29. 8.  
 a. shall eat the bones, Ezek. 39. 19; Ps.  
@@ -433,7 +433,7 @@ a. shall eat the bones, Ezek. 39. 19; Ps.
 **APPOINT.**—Wouldst a. me, Job 14. 13.  
 salvation wilt God a. for walls, Isa. 26. 1.  
 to a. them that mourn in Zion, Isa. 61. 3.  
-**APPOINTED.**—Is there not an a. time
+**APPOINTED.**—Is there not an a. time  
 to man? Job 7. 1.  
 the days of his hirelinds, Job 14. 5.  
 all the days of my a. time, Job 14. 14.  
@@ -446,16 +446,16 @@ under tutors, until time a., Gal. 4. 2.
 God hath not a. us to wrath, 1 Thess.  
 a. to men once to die, Heb. 9. 27. [5. 9.  
 whereunto they were a., 1 Pet. 2. 8.  
-**APPREHEND.**—I may a. that for
+**APPREHEND.**—I may a. that for  
 which a., Phil. 3. 13. [a., Ps. 65. 4.  
-**APPROACH.**—Whom thou causest to
+**APPROACH.**—Whom thou causest to  
 **APPROACHING.**—Take delight in a.  
 to God, Isa. 58. 2.  
 a. more as ye see the day a., Heb. 10. 25.  
 **APPROVE.**—a. their sayings, Ps. 49. 13.  
 a. things more excellent, Rom. 2. 18.  
 may a. things, Phil. 1. 10. [Acts 2. 22.  
-**APPROVED.**—Jesus, a. a man a. of God,
+**APPROVED.**—Jesus, a. a man a. of God,  
 accept. to God, a. of men, Rom. 14. 18.  
 shew myself a. unto God, 2 Tim. 2. 15.  
 **ARCHANGEL.**—Voice of a., 1 Thess.  
@@ -464,7 +464,7 @@ shew myself a. unto God, 2 Tim. 2. 15.
 22. 3; Jer. 51. 3.  
 **ARE.**—Things which a. not, 1 Cor. 1. 28.  
 write the things which a., Rev. 1. 19.  
-**ARGUMENTS.**—I would fill my mouth
+**ARGUMENTS.**—I would fill my mouth  
 with a., Job 23. 4. [44. 26, 102. 3.  
 **ARISE.**—a. O Lord, save me, Ps. 3. 7.  
 now will I a., saith the Lord, Ps. 12. 5.  
@@ -480,7 +480,7 @@ a. of the cover., Num. 10. 33; Deut. 31.
 26; Josh. 4. 7; Jud. 20. 27; 1 Sam. 4. 3.  
 a. of thy strength, 2 Ch. 6. 41; Ps. 132. 8.  
 seen in his temple the a., Rev. 11. 19.  
-**ARM.**—A stretcher out a., Isa. 45. 6;
+**ARM.**—A stretcher out a., Isa. 45. 6;  
 Jer. 27. 5; 32. 2 Chron. 20. 33; Ps. 136.  
 12; Jer. 27. 5; Ezek. 20. 33.  
 with him is a. of flesh, 2 Chron. 32. 8.  
@@ -495,19 +495,19 @@ be their a. every morning, Isa. 33. 2.
 his a. shall rule for him, Isa. 40. 10.  
 on mine a. shall they trust, Isa. 51. 5.  
 put on strength, O a. of Lord, Isa. 51. 9.  
-to whom is the a. of the Lord revealed!
+to whom is the a. of the Lord revealed!  
 Isa. 53. 1; John 12. 38.  
 his a. brought salvation, Isa. 59. 16, 63. 5.  
 that maketh flesh his a., Jer. 17. 5.  
 a. with length of days, Prov. 3. 16. [1.  
 a. yourselves with same mind, 1 Pet. 4.  
-**ARMS.**—a. of his hands made strong,
+**ARMS.**—a. of his hands made strong,  
 Gen. 49. 24. [32. 27.  
 underneath the everlasting a., Deut.  
 a. of the fatherless broken, Job 22. 9.  
 a. of wicked broken, Ps. 37. 17. 7.  
 took them up in his a., Mark 10. 16.  
-**ARMED.**—He goeth to meet a. men,
+**ARMED.**—He goeth to meet a. men,  
 a strong man a., Lu. 11. 21. [Job 39. 21.  
 **ARMY.**—Exceeding great a., Ez. 37. 10.  
 number of a. of horsemen, Rev. 9. 16.  
@@ -516,7 +516,7 @@ a. of God number, 2 Sam. 24. 9; Job 25. 3.
 not go with a., Ps. 60. 10.  
 as the company of two a., Cant. 6. 13.  
 he sent forth his a., Matt. 22. 7. [21. 20.  
-see Jerusalem compassed with a., Luke
+see Jerusalem compassed with a., Luke  
 a. in heaven followed him, Rev. 19. 14.  
 kings and their a. gathered, Rev. 19. 19.  
 **ARMOUR.**—1 Sam. 17. 54; 1 Kings 22. 38.  
@@ -535,7 +535,7 @@ not with costly a., 1 Tim. 2. 9. [12.
 **ARRAYED.**—Matt. 6. 29; Luke 12. 27.  
 what are these a. in white, Rev. 7. 13.  
 the woman was a. in purple, Rev. 17. 4.  
-**ARROGANCY.**—Let not a. come out of
+**ARROGANCY.**—Let not a. come out of  
 mouth, 1 Sam. 2. 3.  
 pride and a. do I hate, Prov. 8. 13.  
 came a. of the proud to nought, Ps. 13. 11.  
@@ -549,7 +549,7 @@ tongue as an a. shot out, Jer. 9. 8.
 set me as a mark for the a., Lam. 3. 12.  
 his a. go forth as lightning, Zech. 9. 14.  
 **ARROWS.**—Mine a., Deut. 32. 42.  
-he sent out a. and scattered them, 2
+he sent out a. and scattered them, 2  
 Sam. 22. 15; Ps. 18. 14.  
 a. of Almighty are within me, Job 6. 4.  
 thine a. stick fast in me, Ps. 38. 2.  
@@ -565,7 +565,7 @@ I will cause thy a. to fall, Ezek. 39. 3.
 **ARTIFICER.**—Gen. 4. 22; 1 Chron. 29.  
 5; 2 Chron. 34. 11; Isa. 3. 3.  
 **ARVALERY.**—1 Sam. 20. 40.  
-**ASCEND.**—I will a. to altar a. into the hill of
+**ASCEND.**—I will a. to altar a. into the hill of  
 the Lord, Ps. 24. 3.  
 a. up into heaven, Ps. 139. 8; Rom. 10. 6.  
 said, I will a. to heaven, Isa. 14. 13, 14.  
@@ -577,7 +577,7 @@ no man hath a. to heaven, John 3. 13.
 when he a. up on high, Eph. 4. 8.  
 now that he a., Eph. 4. 9, 10.  
 a. up to heaven, Rev. 11. 12. [Deut. 32. 3.  
-**ASCRIBE.**—a. ye greatness to our God,
+**ASCRIBE.**—a. ye greatness to our God,  
 I will a. right. to my maker, Job 36. 3.  
 a. strength unto God, Ps. 68. 34.  
 **ASHAMED.**—And were not a., Gen. 2.  
