@@ -4,8 +4,8 @@ a. fight the armies of a., Heb. 11. 34.
 were sometime a., Col. 1. 21. [Eph. 4. 18.  
 **ALIKE.**—All things come a., Eccl. 9. 2.  
 esteemed every day a., Rom. 14. 5.  
-**ALL.**—a. men have sinned, Rom. 3. 23.  
-every one this day, Deut. 4. 4. [16. 23.  
+**ALIVE.**—Went down a. into pit, Num.  
+a. every one this day, Deut. 4. 4. [16. 23.  
 and I make a., Deut. 32. 39; 1 Sam. 2. 6.  
 God to kill and make a.? 2 Kings 5. 7.  
 the souls a., Ezek. 13. 18, 18, 27.  
