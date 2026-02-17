@@ -115,7 +115,7 @@ in Lamb’s b. of life, Rev. 21. 27;
 b. of God, Rev. 20. 12;  
 if any open or take from b., Rev. 22. 18;  
 his next out of b., Luke 21. 13;  
-BOOKS.**—Of making many b., Eccl. 12. 12;  
+**BOOKS.**—Of making many b., Eccl. 12. 12;  
 b. were opened, Dan. 7. 10; Rev. 20. 12;  
 could not contain the b., John 21. 25;  
 b. and burned them, Acts 19. 19; [14. 5];  
