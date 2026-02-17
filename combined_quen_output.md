@@ -17368,7 +17368,7 @@ is not easily p., 1 Cor. 13:5. [78:17.
 2. one another, Gal. 5:26. [2:12.  
 
 **PRUDENCE.**—Endued with p., 2 Chr.  
-1. wisdom dwell with p., Prov. 8:12.  
+I wisdom dwell with p., Prov. 8:12.  
 abounded in wisdom and p., Eph. 1:8.  
 
 **PRUDENT.**—A p. man covereth, Pr. 12:16.  
