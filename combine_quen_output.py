@@ -5,6 +5,27 @@ Script to combine all markdown files in quen_output directory with dividers betw
 
 import os
 import glob
+import re
+
+def replace_bible_references(file_path):
+    """
+    Replace all instances of "X.Y" with "X:Y" in the specified file.
+    
+    Args:
+        file_path (str): Path to the file to modify
+    """
+    # Read the file
+    with open(file_path, 'r', encoding='utf-8') as file:
+        content = file.read()
+    
+    # Replace all instances of "X.Y" or "X. Y" with "X:Y"
+    new_content = re.sub(r'(\d+)\.\s*(\d+)', r'\1:\2', content)
+    
+    # Write the modified content back to the file
+    with open(file_path, 'w', encoding='utf-8') as file:
+        file.write(new_content)
+    
+    print(f"Successfully updated {file_path}")
 
 def combine_markdown_files(output_dir, output_file):
     """
@@ -42,6 +63,8 @@ def combine_markdown_files(output_dir, output_file):
                 outfile.write("\n\n")  # Add extra spacing between files
     
     print(f"Successfully combined {len(markdown_files)} markdown files into {output_file}")
+    # Apply bible reference replacement
+    replace_bible_references(output_file)
 
 if __name__ == "__main__":
     output_directory = "quen_output"
