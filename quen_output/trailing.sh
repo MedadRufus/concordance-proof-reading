@@ -1,0 +1,1 @@
+for file in pages58-59.md pages62-63.md pages66-67.md; do sed -i 's/\.  $/. /g' "$file" && sed -i 's/\.$/\.  /g' "$file"; done
