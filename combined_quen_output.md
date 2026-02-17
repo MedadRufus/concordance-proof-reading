@@ -1,7 +1,7 @@
 # Content from: pages01-02.md
 
 **ABASE.**—a. him that is high, Ez. 21:26.  
-that a. in pride, is able to a., Dan. 4:37.  
+walk in pride, is able to a., Dan. 4:37.  
 
 **ABASED.**—Exalt himself shall be a., Matt. 23:12 ; Luke 14:11, 18:14.  
 now how to be a., Phil. 4:12.  
@@ -2231,7 +2231,7 @@ in Lamb’s b. of life, Rev. 21:27;
 b. of God, Rev. 20:12;  
 if any open or take from b., Rev. 22:18;  
 his next out of b., Luke 21:13;  
-BOOKS.**—Of making many b., Eccl. 12:12;  
+**BOOKS.**—Of making many b., Eccl. 12:12;  
 b. were opened, Dan. 7:10; Rev. 20:12;  
 could not contain the b., John 21:25;  
 b. and burned them, Acts 19:19; [14:5];  
