@@ -130,10 +130,14 @@ def md_to_latex(md_file, tex_file):
 
 if __name__ == "__main__":
     output_directory = "quen_output"
-    combined_output = "combined_quen_output.md"
+    combined_output_dir = "combined_output"
+    combined_output = os.path.join(combined_output_dir, "combined_quen_output.md")
+    
+    # Create output directory if it doesn't exist
+    os.makedirs(combined_output_dir, exist_ok=True)
 
     combine_markdown_files(output_directory, combined_output)
     tex_file = combined_output.replace(".md", ".tex")
     md_to_latex(combined_output, tex_file)
-    subprocess.run(["pdflatex", "-interaction=nonstopmode", tex_file])
+    subprocess.run(["pdflatex", "-interaction=nonstopmode", "-output-directory", combined_output_dir, tex_file])
     print(f"Generated PDF: {tex_file.replace('.tex', '.pdf')}")
