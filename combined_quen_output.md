@@ -23713,602 +23713,602 @@ have need that one t. you, Heb. 5. 12.
 
 # Content from: pages80-81.md
 
-need not that any t. you, 1 John 2. 27.
-who sufferest Jezebel to t., Rev. 2. 20.
+need not that any t. you, 1 John 2. 27.  
+who sufferest Jezebel to t., Rev. 2. 20.  
 
-**TEACHER.**—A t. of lies, Hab. 2. 18.
-thou art a t. come from God, John 3. 2.
-confident thou art a t., Rom. 2. 20.
-of Gentiles, 1 Tim. 2. 7; 2 Tim. 1. 11.
+**TEACHER.**—A t. of lies, Hab. 2. 18.  
+thou art a t. come from God, John 3. 2.  
+confident thou art a t., Rom. 2. 20.  
+of Gentiles, 1 Tim. 2. 7; 2 Tim. 1. 11.  
 
-**TEACHERS.**—More understanding than my t., Ps. 119. 99.
-the apostles and prophets, the t., Eph. 4. 11.
-desiring to be t. of law, 1 Tim. 1. 7.
-heap to themselves t., 2 Tim. 4. 3.
-women be t. of good things, Titus 2. 3.
-for time ye ought to be t., Heb. 5. 12.
-shall be false t. among you, 2 Pet. 2. 1.
+**TEACHERS.**—More understanding than my t., Ps. 119. 99.  
+the apostles and prophets, the t., Eph. 4. 11.  
+desiring to be t. of law, 1 Tim. 1. 7.  
+heap to themselves t., 2 Tim. 4. 3.  
+women be t. of good things, Titus 2. 3.  
+for time ye ought to be t., Heb. 5. 12.  
+shall be false t. among you, 2 Pet. 2. 1.  
 
-**TEACHETH.**—Blessed is he whom thou t., Ps. 94. 12.
-t. the way of God in truth, Matt. 22. 16.
-t. another, t. not thyself? Rom. 2. 21.
+**TEACHETH.**—Blessed is he whom thou t., Ps. 94. 12.  
+t. the way of God in truth, Matt. 22. 16.  
+t. another, t. not thyself? Rom. 2. 21.  
 
-**TEACHING.**—God who t. like him? Exod. 15. 11.
-that I can knowledge, Ps. 94. 10.
-which t. my hands to war, Ps. 144. 1.
+**TEACHING.**—God who t. like him? Exod. 15. 11.  
+that I can knowledge, Ps. 94. 10.  
+which t. my hands to war, Ps. 144. 1.  
 
-**TEACHING.**—I t. them to observe all things, Matt. 28. 20.
-he that teacheth on t., Rom. 12. 7.
-warning and t. every man, Col. 1. 28.
-t. and admonish one another, Col. 3. 16.
-t. things they ought not, Titus 1. 11.
+**TEACHING.**—I t. them to observe all things, Matt. 28. 20.  
+he that teacheth on t., Rom. 12. 7.  
+warning and t. every man, Col. 1. 28.  
+t. and admonish one another, Col. 3. 16.  
+t. things they ought not, Titus 1. 11.  
 
-**TEAR.**—He t. me in his wrath, Job 16. 9.
-he t. himself in his anger, Job 18. 4.
-lest he t. my soul like lion, Ps. 7. 2.
-consider this lest he t. you, Ps. 50. 22.
-they shall devour themselves, Jer. 16. 7.
-I will t. and go away, Hos. 5. 14.
-as young lion t. in pieces, Micah 5. 8.
+**TEAR.**—He t. me in his wrath, Job 16. 9.  
+he t. himself in his anger, Job 18. 4.  
+lest he t. my soul like lion, Ps. 7. 2.  
+consider this lest he t. you, Ps. 50. 22.  
+they shall devour themselves, Jer. 16. 7.  
+I will t. and go away, Hos. 5. 14.  
+as young lion t. in pieces, Micah 5. 8.  
 
-**TEARS.**—I have seen thy t., 2 Kings 20. 5; Isa. 38. 5.
-mine eye poureth out t., Job 16. 20.
-I water my couch with t., Ps. 6. 6.
-my t. have been my meat, Ps. 42. 3.
-put thou my t. in thy bottle, Ps. 56. 8.
-bread of t. giveth t. to drink, Ps. 80. 5.
-hast delivered my eyes from t., Ps. 116. 8.
-sow in t. reap in joy, Ps. 126. 5.
-the Lord will wipe away t., Isa. 25. 8.
-run down with t., Jer. 9. 18, 13. 17, 14. 17.
-eyes do fail with t., my, Lam. 2. 11.
-neither shall thy t. run, Ezek. 24. 16.
-wash feet with t., Luke 7. 38.
-serving the Lord with t., Acts 20. 19.
-ceased not to warn with t., Acts 20. 31.
-I wrote to you with t., 2 Cor. 2. 4.
-mindful of thy t., 2 Tim. 1. 4.
-offered supplications with t., Heb. 5. 7.
-sought it carefully with t., Heb. 12. 17.
-saw him weeping with t., Heb. 12. 17.
+**TEARS.**—I have seen thy t., 2 Kings 20. 5; Isa. 38. 5.  
+mine eye poureth out t., Job 16. 20.  
+I water my couch with t., Ps. 6. 6.  
+my t. have been my meat, Ps. 42. 3.  
+put thou my t. in thy bottle, Ps. 56. 8.  
+bread of t. giveth t. to drink, Ps. 80. 5.  
+hast delivered my eyes from t., Ps. 116. 8.  
+sow in t. reap in joy, Ps. 126. 5.  
+the Lord will wipe away t., Isa. 25. 8.  
+run down with t., Jer. 9. 18, 13. 17, 14. 17.  
+eyes do fail with t., my, Lam. 2. 11.  
+neither shall thy t. run, Ezek. 24. 16.  
+wash feet with t., Luke 7. 38.  
+serving the Lord with t., Acts 20. 19.  
+ceased not to warn with t., Acts 20. 31.  
+I wrote to you with t., 2 Cor. 2. 4.  
+mindful of thy t., 2 Tim. 1. 4.  
+offered supplications with t., Heb. 5. 7.  
+sought it carefully with t., Heb. 12. 17.  
+saw him weeping with t., Heb. 12. 17.  
 
-**TEETH.**—As white as milk, Gen. 49. 12.
-I escaped with skin of my t., Job 19. 20.
-hast broken t. of ungodly, Ps. 3. 7.
-t. are spears and arrows, Ps. 57. 4.
-as vinegar to t., so sluggard, Pr. 10. 26.
-whose t. are swords, Prov. 30. 14.
-thy t. are like a flock, Cant. 4. 2, 6. 6.
-cleanness of t., Amos 4. 6.
-their t. as the t. of lions, Rev. 9. 8.
+**TEETH.**—As white as milk, Gen. 49. 12.  
+I escaped with skin of my t., Job 19. 20.  
+hast broken t. of ungodly, Ps. 3. 7.  
+t. are spears and arrows, Ps. 57. 4.  
+as vinegar to t., so sluggard, Pr. 10. 26.  
+whose t. are swords, Prov. 30. 14.  
+thy t. are like a flock, Cant. 4. 2, 6. 6.  
+cleanness of t., Amos 4. 6.  
+their t. as the t. of lions, Rev. 9. 8.  
 
-**TELL.**—If it not in Gath, 2 Sam. 1. 20.
-may t. the general t., Ps. 48. 13.
-none can t. what shall be, Eccl. 6. 12.
-who can t. if God will turn, Jonah 3. 9.
-t. & him his fault alone, Matt. 18. 15.
-neglect to hear t. church, Matt. 18. 17.
-t. us when sh. these things, Matt. 23. 3.
-but canst not t. whence, John 3. 8.
-when he is come, he will t., John 4. 25.
-ye cannot t. whence I come, John 8. 14.
+**TELL.**—If it not in Gath, 2 Sam. 1. 20.  
+may t. the general t., Ps. 48. 13.  
+none can t. what shall be, Eccl. 6. 12.  
+who can t. if God will turn, Jonah 3. 9.  
+t. & him his fault alone, Matt. 18. 15.  
+neglect to hear t. church, Matt. 18. 17.  
+t. us when sh. these things, Matt. 23. 3.  
+but canst not t. whence, John 3. 8.  
+when he is come, he will t., John 4. 25.  
+ye cannot t. whence I come, John 8. 14.  
 
-**TEMPERANCE.**—Reasoning of t., Acts 24. 25.
-t. against such is no law, Gal. 5. 23.
-add to knowledge t. unto t., 2 Pet. 1. 6.
+**TEMPERANCE.**—Reasoning of t., Acts 24. 25.  
+t. against such is no law, Gal. 5. 23.  
+add to knowledge t. unto t., 2 Pet. 1. 6.  
 
-**TEMPERED.**—1 Cor. 9. 25; Tit. 1. 8. 2. 2.
+**TEMPERED.**—1 Cor. 9. 25; Tit. 1. 8. 2. 2.  
 
-**TEMPEST.**—On wicked rain t., Ps. 11. 6.
-hasten from storm and t., Ps. 55. 8.
-as a t. of hail, Isa. 28. 2.
-be visited with storm and t., Isa. 29. 6.
-tossed with t., Isa. 54. 11.
+**TEMPEST.**—On wicked rain t., Ps. 11. 6.  
+hasten from storm and t., Ps. 55. 8.  
+as a t. of hail, Isa. 28. 2.  
+be visited with storm and t., Isa. 29. 6.  
+tossed with t., Isa. 54. 11.  
 
-**TEMPESTUOUS.**—Very t., Ps. 50. 3.
+**TEMPESTUOUS.**—Very t., Ps. 50. 3.  
 
-**TEMPLE.**—I inquire in his t., Ps. 27. 4.
-in t. every one speak of glory, Ps. 29. 9.
-thy t. at Jerusalem, Ps. 65. 4.
-Lord is in his holy t., Ps. 11. 4.
-Lord come suddenly to his t., Mal. 3. 1.
-one greater than t., Matt. 12. 6.
-slew between t. and altar, Matt. 23. 35.
-destroy this t., John 2. 19.
-he spake of t. of his body, John 2. 21.
-neither against t. nor Cesar, Acts 25. 8.
-ye are the t. of God, 1 Cor. 3. 16, 17.
-body is t. of Holy Ghost, 1 Cor. 6. 19.
-t. of G. was opened in heav., Rev. 11. 19.
-no t. Almighty and Lamb t., Rev. 21. 22.
+**TEMPLE.**—I inquire in his t., Ps. 27. 4.  
+in t. every one speak of glory, Ps. 29. 9.  
+thy t. at Jerusalem, Ps. 65. 4.  
+Lord is in his holy t., Ps. 11. 4.  
+Lord come suddenly to his t., Mal. 3. 1.  
+one greater than t., Matt. 12. 6.  
+slew between t. and altar, Matt. 23. 35.  
+destroy this t., John 2. 19.  
+he spake of t. of his body, John 2. 21.  
+neither against t. nor Cesar, Acts 25. 8.  
+ye are the t. of God, 1 Cor. 3. 16, 17.  
+body is t. of Holy Ghost, 1 Cor. 6. 19.  
+t. of G. was opened in heav., Rev. 11. 19.  
+no t. Almighty and Lamb t., Rev. 21. 22.  
 
-**TEMPLES.**—Most High dwelleth not in t. made with hands, Acts 7. 48, 17. 24.
+**TEMPLES.**—Most High dwelleth not in t. made with hands, Acts 7. 48, 17. 24.  
 
-**TEMPORAL.**—Things seen are [22. 1.
-Cor. 4. 18.
+**TEMPORAL.**—Things seen are [22. 1.  
+Cor. 4. 18.  
 
-**TEMPT.**—God did t. Abraham, Gen. 22. 1.
-wherefore do ye t. Lord? Ex. 17. 2.
-ye shall not t. the Lord, Deut. 6. 16.
-not ask, nor will I t. Lord, Isa. 7. 12.
-that t. God are delivered, Mal. 3. 15.
-shalt not t. Lord, Matt. 4. 7; Luke 4. 12.
-why t. ye me? Matt. 22. 18; Mark 12. 15.
-ye have agreed to t. Spirit, Acts 5. 9.
-therefore why t. ye God? Acts 15. 10.
-Satan t. you not for your, 1 Cor. 7. 5.
-neither let us t. Christ, 1 Cor. 10. 9.
-was in all points t. like as we, Heb. 4. 15.
-say when he is t. I am t. of God, for God cannot be t., Jas. 1. 13.
-every man is t. when drawn of lust, Jas. 1. 14.
+**TEMPT.**—God did t. Abraham, Gen. 22. 1.  
+wherefore do ye t. Lord? Ex. 17. 2.  
+ye shall not t. the Lord, Deut. 6. 16.  
+not ask, nor will I t. Lord, Isa. 7. 12.  
+that t. God are delivered, Mal. 3. 15.  
+shalt not t. Lord, Matt. 4. 7; Luke 4. 12.  
+why t. ye me? Matt. 22. 18; Mark 12. 15.  
+ye have agreed to t. Spirit, Acts 5. 9.  
+therefore why t. ye God? Acts 15. 10.  
+Satan t. you not for your, 1 Cor. 7. 5.  
+neither let us t. Christ, 1 Cor. 10. 9.  
+was in all points t. like as we, Heb. 4. 15.  
+say when he is t. I am t. of God, for God cannot be t., Jas. 1. 13.  
+every man is t. when drawn of lust, Jas. 1. 14.  
 
-**TEMPTER.**—Matt. 4. 3; 1 Thess. 3. 5.
+**TEMPTER.**—Matt. 4. 3; 1 Thess. 3. 5.  
 
-**TEMPTING.**—t. Christ, Matt. 16. 1, 19. 3, 22, 35; John 8. 6. [19.
+**TEMPTING.**—t. Christ, Matt. 16. 1, 19. 3, 22, 35; John 8. 6. [19.  
 
-**TENDER.**—Because heart t., 2 Kin. 22. 19.
-t. branch will not cease, Job 14. 7.
-t. and beloved in sight of, Prov. 4. 3.
-t. woman called t., Isa. 47. 1.
-through t. mercy of our God, Luke 1. 78.
-be kind and t.-hearted, Eph. 4. 32.
+**TENDER.**—Because heart t., 2 Kin. 22. 19.  
+t. branch will not cease, Job 14. 7.  
+t. and beloved in sight of, Prov. 4. 3.  
+t. woman called t., Isa. 47. 1.  
+through t. mercy of our God, Luke 1. 78.  
+be kind and t.-hearted, Eph. 4. 32.  
 
-**TENT.**—As shepherd's t., Isa. 38. 12.
-t. spreadeth them out as a t., Isa. 40. 22.
-enlarge the place of thy t., Isa. 54. 2.
-none to stretch forth t., Jer. 10. 20.
-by occupation t.-makers, Acts 18. 3.
+**TENT.**—As shepherd's t., Isa. 38. 12.  
+t. spreadeth them out as a t., Isa. 40. 22.  
+enlarge the place of thy t., Isa. 54. 2.  
+none to stretch forth t., Jer. 10. 20.  
+by occupation t.-makers, Acts 18. 3.  
 
-**TENTS.**—Father of such as dwell in t., Gen. 4. 20.
-shall dwell in t. of Shem, Gen. 9. 27.
-goodly are thy t., O Jacob, Num. 24. 5.
-you, 2 Sam. 20. 1; 1 Kings 12. 16.
-dwell in t. of wickedness, Ps. 84. 10.
-I dwell in the t. of Kedar, Ps. 120. 5.
-comely as t. of Kedar, Cant. 1. 5.
-I shall save the t. of Judah, Zech. 12. 7.
+**TENTS.**—Father of such as dwell in t., Gen. 4. 20.  
+shall dwell in t. of Shem, Gen. 9. 27.  
+goodly are thy t., O Jacob, Num. 24. 5.  
+you, 2 Sam. 20. 1; 1 Kings 12. 16.  
+dwell in t. of wickedness, Ps. 84. 10.  
+I dwell in the t. of Kedar, Ps. 120. 5.  
+comely as t. of Kedar, Cant. 1. 5.  
+I shall save the t. of Judah, Zech. 12. 7.  
 
-**TERRESTRIAL.**—Bodies t., 1 Cor. 15. 40.
+**TERRESTRIAL.**—Bodies t., 1 Cor. 15. 40.  
 
-**TERRIBLE.**—A t. thing that I will do, Ex. 34. 10.
-that t. wilderness, Deut. 1. 19.
-Lord is a mighty God and t., Deut. 7. 21, 10. 17; Neh. 1. 5, 4. 14, 9. 32.
-t. things, Deut. 10. 21; 2 Sam. 7. 23.
-an angel of God very t., Judg. 13. 6.
-wonderful shalt t. things, Ps. 45. 4.
-by t. things in righteousness, Ps. 65. 5.
-how t. art thou in thy works! Ps. 66. 3.
-t. in his doing towards men, Ps. 66. 5.
-art t. out of thy holy place, Ps. 68. 35.
-he is t. to the kings of, Ps. 76. 12.
-thy great and t. name, Ps. 99. 3.
-done t. things by Red Sea, Ps. 106. 22.
-men shall speak of thy t. acts, Ps. 145. 6.
-lay low haughtiness of t., Isa. 13. 11.
-people t. from the beginning, Isa. 18. 2.
-when thou didst t. things, Isa. 64. 3.
-Israel is as a mighty t. one, Jer. 50. 11.
-Lord is great and very t., Joel 2. 11.
-great and t. day of Lord, Joel 2. 31.
-so t. was the sight that, Heb. 12. 21.
+**TERRIBLE.**—A t. thing that I will do, Ex. 34. 10.  
+that t. wilderness, Deut. 1. 19.  
+Lord is a mighty God and t., Deut. 7. 21, 10. 17; Neh. 1. 5, 4. 14, 9. 32.  
+t. things, Deut. 10. 21; 2 Sam. 7. 23.  
+an angel of God very t., Judg. 13. 6.  
+wonderful shalt t. things, Ps. 45. 4.  
+by t. things in righteousness, Ps. 65. 5.  
+how t. art thou in thy works! Ps. 66. 3.  
+t. in his doing towards men, Ps. 66. 5.  
+art t. out of thy holy place, Ps. 68. 35.  
+he is t. to the kings of, Ps. 76. 12.  
+thy great and t. name, Ps. 99. 3.  
+done t. things by Red Sea, Ps. 106. 22.  
+men shall speak of thy t. acts, Ps. 145. 6.  
+lay low haughtiness of t., Isa. 13. 11.  
+people t. from the beginning, Isa. 18. 2.  
+when thou didst t. things, Isa. 64. 3.  
+Israel is as a mighty t. one, Jer. 50. 11.  
+Lord is great and very t., Joel 2. 11.  
+great and t. day of Lord, Joel 2. 31.  
+so t. was the sight that, Heb. 12. 21.  
 
-**TERRIBLENESS.**—1 Chron. 17. 21; Jer. 49. 16.
+**TERRIBLENESS.**—1 Chron. 17. 21; Jer. 49. 16.  
 
-**TERRIBLY.**—Shake t., Isa. 2. 19, 21; Nah. 2. 3.
+**TERRIBLY.**—Shake t., Isa. 2. 19, 21; Nah. 2. 3.  
 
-**TERRIFY.**—Thou t. me through visions, Job 7. 14.
-let not his fear t. me, Job 9. 34.
-they were t. and affrighted, Luke 24. 37.
-seem as if I would t. you, 2 Cor. 10. 9.
-by amazing t. by adversaries, Phil. 1. 28.
+**TERRIFY.**—Thou t. me through visions, Job 7. 14.  
+let not his fear t. me, Job 9. 34.  
+they were t. and affrighted, Luke 24. 37.  
+seem as if I would t. you, 2 Cor. 10. 9.  
+by amazing t. by adversaries, Phil. 1. 28.  
 
-**TERROR.**—Be a t. to me, Jude 35. 9.
-sword without, t. within, Deut. 32. 25.
-your t. is fallen upon us, Josh. 2. 9.
-destruction from G. was a t., Job 31. 23.
-I shall not make thee afraid, Job 33. 7.
-thou shalt be far from t., Isa. 54. 14.
-a t. to thyself, Jer. 20. 4.
-brought forth Israel with t., Jer. 32. 21.
-I make thee a t., Ezek. 26. 21, 27. 36.
-knowing the t. of the Lord, 2 Cor. 5. 11.
+**TERROR.**—Be a t. to me, Jude 35. 9.  
+sword without, t. within, Deut. 32. 25.  
+your t. is fallen upon us, Josh. 2. 9.  
+destruction from G. was a t., Job 31. 23.  
+I shall not make thee afraid, Job 33. 7.  
+thou shalt be far from t., Isa. 54. 14.  
+a t. to thyself, Jer. 20. 4.  
+brought forth Israel with t., Jer. 32. 21.  
+I make thee a t., Ezek. 26. 21, 27. 36.  
+knowing the t. of the Lord, 2 Cor. 5. 11.  
 
-**TERRORS.**—t. of God do set themselves against me, Job 6. 4.
-I shall make him afraid on, Job 18. 11.
-shall bring him to king of t., Job 18. 14.
-they are in the t. of death, Job 24. 17.
-t. take hold on him, Job 27. 20.
-t. of death are fallen on, Ps. 55. 4.
-utterly consumed with t., Ps. 73. 19.
-thy t. have cut me off, Ps. 88. 16.
+**TERRORS.**—t. of God do set themselves against me, Job 6. 4.  
+I shall make him afraid on, Job 18. 11.  
+shall bring him to king of t., Job 18. 14.  
+they are in the t. of death, Job 24. 17.  
+t. take hold on him, Job 27. 20.  
+t. of death are fallen on, Ps. 55. 4.  
+utterly consumed with t., Ps. 73. 19.  
+thy t. have cut me off, Ps. 88. 16.  
 
-**TESTAMENT.**—Matt. 26. 28; Mark 14. 24; Luke 22. 20.
-surety of a better t., Heb. 7. 22.
-how t. of force after death, Heb. 9. 16.
-t. is of force after men dead, Heb. 9. 17.
-ark of t., Rev. 11. 19.
+**TESTAMENT.**—Matt. 26. 28; Mark 14. 24; Luke 22. 20.  
+surety of a better t., Heb. 7. 22.  
+how t. of force after death, Heb. 9. 16.  
+t. is of force after men dead, Heb. 9. 17.  
+ark of t., Rev. 11. 19.  
 
-**TESTATOR.**—Death of t., Heb. 9. 16.
-no strength while t. liveth, Heb. 9. 17.
+**TESTATOR.**—Death of t., Heb. 9. 16.  
+no strength while t. liveth, Heb. 9. 17.  
 
-**TESTIFY.**—One witness not t., Num. 35. 30.
-thine lips t. against thee, Job 15. 6.
-sins t. against us, Isa. 59. 12; Jer. 14. 7.
-what have I done? t. ag. me, Mic. 6. 3.
-that any should t. of man, John 2. 25.
-t. that we have seen, John 3. 11, 32.
-that he hath seen, he t., John 3. 32.
-t. of me, John 5. 39, 15. 26.
-to t. gospel of grace of God, Acts 20. 24.
-we have seen and do t., 1 John 4. 14.
-I Jesu sent angel to t., Rev. 22. 16.
+**TESTIFY.**—One witness not t., Num. 35. 30.  
+thine lips t. against thee, Job 15. 6.  
+sins t. against us, Isa. 59. 12; Jer. 14. 7.  
+what have I done? t. ag. me, Mic. 6. 3.  
+that any should t. of man, John 2. 25.  
+t. that we have seen, John 3. 11, 32.  
+that he hath seen, he t., John 3. 32.  
+t. of me, John 5. 39, 15. 26.  
+to t. gospel of grace of God, Acts 20. 24.  
+we have seen and do t., 1 John 4. 14.  
+I Jesu sent angel to t., Rev. 22. 16.  
 
-**TESTIFIED.**—Lord t. against Israel, 2 Kings 17. 13.
-prophets t. against them, 2 Chr. 24. 19.
-thou hast t. of me at Jer., Acts 23. 11.
-who gave himself to be t., 1 Tim. 2. 6.
-t. beforehand suffering of Christ, 1 Pet. 1. 11.
-faithful God t. of his things, 1 John 5. 9. [4.
+**TESTIFIED.**—Lord t. against Israel, 2 Kings 17. 13.  
+prophets t. against them, 2 Chr. 24. 19.  
+thou hast t. of me at Jer., Acts 23. 11.  
+who gave himself to be t., 1 Tim. 2. 6.  
+t. beforehand suffering of Christ, 1 Pet. 1. 11.  
+faithful God t. of his things, 1 John 5. 9. [4.  
 
-**TESTIFYING.**—t. of his gifts, Heb. 11. 2.
-t. this is grace of God, 1 Pet. 5. 12.
+**TESTIFYING.**—t. of his gifts, Heb. 11. 2.  
+t. this is grace of God, 1 Pet. 5. 12.  
 
-**TESTIMONY.**—Two tables of t., Ex. 31.
-gave the king the t., 2 Kings 11. 12. [18.
-he established a t. in Jacob, Ps. 78. 5.
-this he ordained for t., Ps. 81. 5.
-keep t. of thy mouth, Ps. 119. 88.
-bind up the t., Isa. 8. 16.
-shake dust for t., Mark 6. 11; Lu. 9. 5.
-it shall turn to you for a t., Luke 21. 13.
-t. which receiveth his t., John 3. 33.
-t. of two men is true, John 8. 17.
-we know that his t. is true, John 21. 24.
-gave t. to word of his grace, Acts 14. 3.
-declaring unto you t. of God, 1 Cor. 2. 1.
-t. of our conscience, 2 Cor. 1. 12. [10.
-because our t. was believed, 2 Thess. 1.
-Enoch had t. he pleased God, Heb. 11. 5.
-t. of Jesus Christ, Rev. 1. 2.
-when they have finished t., Rev. 11. 7.
-for t. of Jesus is spirit of prophecy, Rev. 19. 10.
+**TESTIMONY.**—Two tables of t., Ex. 31.  
+gave the king the t., 2 Kings 11. 12. [18.  
+he established a t. in Jacob, Ps. 78. 5.  
+this he ordained for t., Ps. 81. 5.  
+keep t. of thy mouth, Ps. 119. 88.  
+bind up the t., Isa. 8. 16.  
+shake dust for t., Mark 6. 11; Lu. 9. 5.  
+it shall turn to you for a t., Luke 21. 13.  
+t. which receiveth his t., John 3. 33.  
+t. of two men is true, John 8. 17.  
+we know that his t. is true, John 21. 24.  
+gave t. to word of his grace, Acts 14. 3.  
+declaring unto you t. of God, 1 Cor. 2. 1.  
+t. of our conscience, 2 Cor. 1. 12. [10.  
+because our t. was believed, 2 Thess. 1.  
+Enoch had t. he pleased God, Heb. 11. 5.  
+t. of Jesus Christ, Rev. 1. 2.  
+when they have finished t., Rev. 11. 7.  
+for t. of Jesus is spirit of prophecy, Rev. 19. 10.  
 
-**TESTIMONIES.**—Blessed are they that keep t., Ps. 119. 2.
-I have kept thy t., Ps. 119. 22, 167, 168.
-thy t. are my delight, Ps. 119. 24.
-for thy t. are my meditation, Ps. 119. 99.
-I love thy t., Ps. 119. 119.
-thy t. are wonderful, Ps. 119. 129.
-thy t. are righteous and faithful, Ps. 119. 138.
+**TESTIMONIES.**—Blessed are they that keep t., Ps. 119. 2.  
+I have kept thy t., Ps. 119. 22, 167, 168.  
+thy t. are my delight, Ps. 119. 24.  
+for thy t. are my meditation, Ps. 119. 99.  
+I love thy t., Ps. 119. 119.  
+thy t. are wonderful, Ps. 119. 129.  
+thy t. are righteous and faithful, Ps. 119. 138.  
 
-**THANK.**—What t. have ye? Lu. 6. 32.
-**THANK.**—We t. thee, and praise name, Dan. 2. 23.
-I t. thee, and praise thee, Dan 2. 23.
-I t. thee, O Father, Matt. 11. 25.
-doth he t. that servant? Luke 17. 9.
-I t. thee, I am not as other, Lu. 18. 11.
-Father, I t. thee, that, John 11. 41.
-t. God and took courage, Acts 28. 15.
-I t. my God through Jesus Christ, Rom. 1. 8, 7. 25.
-God be t. ye were servants, Rom. 6. 17.
-I t. my God on your behalf, 1 Cor. 1. 4.
-we are bound to t. God, 2 Thess. 1. 3.
-I t. Christ Jesus who enabled, 1 Tim. 1. 12.
-this is t.-worthy, 1 Pet. 2. 19. [12.
-**THANKS.**—Acts 28. 15; Rom. 100. 4; Col. 3.
-were there 9, Rom. 1. 21. [15.
+**THANK.**—What t. have ye? Lu. 6. 32.  
+**THANK.**—We t. thee, and praise name, Dan. 2. 23.  
+I t. thee, and praise thee, Dan 2. 23.  
+I t. thee, O Father, Matt. 11. 25.  
+doth he t. that servant? Luke 17. 9.  
+I t. thee, I am not as other, Lu. 18. 11.  
+Father, I t. thee, that, John 11. 41.  
+t. God and took courage, Acts 28. 15.  
+I t. my God through Jesus Christ, Rom. 1. 8, 7. 25.  
+God be t. ye were servants, Rom. 6. 17.  
+I t. my God on your behalf, 1 Cor. 1. 4.  
+we are bound to t. God, 2 Thess. 1. 3.  
+I t. Christ Jesus who enabled, 1 Tim. 1. 12.  
+this is t.-worthy, 1 Pet. 2. 19. [12.  
+**THANKS.**—Acts 28. 15; Rom. 100. 4; Col. 3.  
+were there 9, Rom. 1. 21. [15.  
 
-**THANKFULNESS.**—All t., Acts 24. 3.
+**THANKFULNESS.**—All t., Acts 24. 3.  
 
-**THANKS.**—And gave t., Matt. 26. 27.
-when he had given t., John 6. 11.
-for he giveth God t., Rom. 14. 6.
-t. to G. for unspeakable gift, 2 Cor. 9. 15.
-giving t. always for all, Eph. 5. 20.
-what t. can we render, 1 Thess. 3. 9.
+**THANKS.**—And gave t., Matt. 26. 27.  
+when he had given t., John 6. 11.  
+for he giveth God t., Rom. 14. 6.  
+t. to G. for unspeakable gift, 2 Cor. 9. 15.  
+giving t. always for all, Eph. 5. 20.  
+what t. can we render, 1 Thess. 3. 9.  
 
-**THANKSGIVING.**—With voice of t., Isa. 26. 7.
-offer unto God t., Ps. 50. 14.
-come before his face with t., Ps. 95. 2.
-enter into his gates with t., Ps. 100. 4.
-sacrifices of t., Ps. 107. 22, 116. 17; Am. 4. 5.
-t. and melody found therein, Isa. 51. 3.
-with t. let your requests, Phil. 4. 6.
-watch in the same with t., Col. 4. 2.
-received with t., 1 Tim. 4. 3, 4.
-t. and honour be to our God, Rev. 7. 12.
+**THANKSGIVING.**—With voice of t., Isa. 26. 7.  
+offer unto God t., Ps. 50. 14.  
+come before his face with t., Ps. 95. 2.  
+enter into his gates with t., Ps. 100. 4.  
+sacrifices of t., Ps. 107. 22, 116. 17; Am. 4. 5.  
+t. and melody found therein, Isa. 51. 3.  
+with t. let your requests, Phil. 4. 6.  
+watch in the same with t., Col. 4. 2.  
+received with t., 1 Tim. 4. 3, 4.  
+t. and honour be to our God, Rev. 7. 12.  
 
-**THEATRES.**—Acts 19. 29, 31.
+**THEATRES.**—Acts 19. 29, 31.  
 
-**THEE.**—When he saw t., Gen. 12. 25, 14. 3.
+**THEE.**—When he saw t., Gen. 12. 25, 14. 3.  
 
-**THICKET.**—Gen. 22. 13; Isa. 9. 18.
+**THICKET.**—Gen. 22. 13; Isa. 9. 18.  
 
-**THIEF.**—When thou sawst a t., Ps. 50. 18.
-not despise t. if he steal, Prov. 6. 30.
-who is partner with t., Prov. 29. 24.
-companions of t., Isa. 1. 23.
-as a t. is ashamed when, Jer. 2. 26.
-enter at windows like a t., Joel 2. 9.
-where t. break through, Matt. 6. 19.
-t. would come, Matt. 24. 43; Lu. 12. 39.
-wherefore t. approacheth, Luke 12. 39.
-the same hour came a t., John 10. 1.
-that came before me are t., John 10. 8.
-t. cometh not but to steal, John 10. 10.
-because he was a t. and had, Jn. 12. 6.
-nor t. inherit kingdom of God, 1 Cor. 6. 10. [2 Pet. 3. 10.
+**THIEF.**—When thou sawst a t., Ps. 50. 18.  
+not despise t. if he steal, Prov. 6. 30.  
+who is partner with t., Prov. 29. 24.  
+companions of t., Isa. 1. 23.  
+as a t. is ashamed when, Jer. 2. 26.  
+enter at windows like a t., Joel 2. 9.  
+where t. break through, Matt. 6. 19.  
+t. would come, Matt. 24. 43; Lu. 12. 39.  
+wherefore t. approacheth, Luke 12. 39.  
+the same hour came a t., John 10. 1.  
+that came before me are t., John 10. 8.  
+t. cometh not but to steal, John 10. 10.  
+because he was a t. and had, Jn. 12. 6.  
+nor t. inherit kingdom of God, 1 Cor. 6. 10. [2 Pet. 3. 10.  
 day of Lord cometh as a t., 1 Thess. 5. 2;
-let none suffer as a t., 1 Pet. 4. 15.
-I will come as a t., Rev. 3. 3, 16. 15. [25.
+let none suffer as a t., 1 Pet. 4. 15.  
+I will come as a t., Rev. 3. 3, 16. 15. [25.  
 
-**THIGH.**—Hollow of Jacob's t., Gen. 32. 25.
-**SHIHOR.**—Sworn by his t., Amos 6. 8.
-he hath on his t. a name, Rev. 19. 16.
+**THIGH.**—Hollow of Jacob's t., Gen. 32. 25.  
+**SHIHOR.**—Sworn by his t., Amos 6. 8.  
+he hath on his t. a name, Rev. 19. 16.  
 
-**THINE.**—O king, I am t., 1 Kings 20. 4.
-I am t., save me, Ps. 119. 94.
-we are t., Isa. 63. 19.
-take that t. is, Matt. 20. 14.
-t. they are, John 17. 6.
-they are t., John 17. 9.
-all mine are t. and t. mine, John 17. 10.
+**THINE.**—O king, I am t., 1 Kings 20. 4.  
+I am t., save me, Ps. 119. 94.  
+we are t., Isa. 63. 19.  
+take that t. is, Matt. 20. 14.  
+t. they are, John 17. 6.  
+they are t., John 17. 9.  
+all mine are t. and t. mine, John 17. 10.  
 
-**THINK.**—t. on me when well, Gen. 40. 14.
-thanks, for good, Neh. 5. 19. [14.
-though t. evil of him, Eccl. 8. 17.
-nor doth his heart t. so, Isa. 10. 7.
-thoughts I t. toward you, Jer. 29. 11.
-if so be God will t. upon us, Jonah 1. 6.
-t. not to say within yourselves, Matt. 3. 9. [Matt. 6. 7.
-t. shall be heard for much speaking, why t. ye evil in your hearts? Matt. 9. 4.
-what t. ye of Christ? Matt. 22. 42, 26. 66.
-as ye t. not, Matt. 24. 44; Luke 12. 40.
-t. not that I came to destroy, Matt. 5. 17.
-not to t. of himself more highly than he ought to t., Rom. 12. 3. [8. 2.
-if any man t. he knoweth any, 1 Cor. 3.
-t. anything as of ourselves, 2 Cor. 3.
-t. himself to be something, Gal. 6. 3. [5.
-above all that we ask or t., Eph. 3. 20.
-t. on these things, Phil. 4. 8.
-let not man t. he shall receive, Jas. 1. 7.
-is just strange concerning, 1 Pet. 4. 12.
+**THINK.**—t. on me when well, Gen. 40. 14.  
+thanks, for good, Neh. 5. 19. [14.  
+though t. evil of him, Eccl. 8. 17.  
+nor doth his heart t. so, Isa. 10. 7.  
+thoughts I t. toward you, Jer. 29. 11.  
+if so be God will t. upon us, Jonah 1. 6.  
+t. not to say within yourselves, Matt. 3. 9. [Matt. 6. 7.  
+t. shall be heard for much speaking, why t. ye evil in your hearts? Matt. 9. 4.  
+what t. ye of Christ? Matt. 22. 42, 26. 66.  
+as ye t. not, Matt. 24. 44; Luke 12. 40.  
+t. not that I came to destroy, Matt. 5. 17.  
+not to t. of himself more highly than he ought to t., Rom. 12. 3. [8. 2.  
+if any man t. he knoweth any, 1 Cor. 3.  
+t. anything as of ourselves, 2 Cor. 3.  
+t. himself to be something, Gal. 6. 3. [5.  
+above all that we ask or t., Eph. 3. 20.  
+t. on these things, Phil. 4. 8.  
+let not man t. he shall receive, Jas. 1. 7.  
+is just strange concerning, 1 Pet. 4. 12.  
 
-**THINKETH.**—Let t. that he standeth, 1 Cor. 10. 12.
-for as he t. in his heart, Prov. 23. 7.
-let him that t. he standeth, 1 Cor. 10. 12.
-charity t. no evil, 1 Cor. 13. 5. [12.
+**THINKETH.**—Let t. that he standeth, 1 Cor. 10. 12.  
+for as he t. in his heart, Prov. 23. 7.  
+let him that t. he standeth, 1 Cor. 10. 12.  
+charity t. no evil, 1 Cor. 13. 5. [12.  
 
-**THIRST.**—Kill us with t., Ex. 17. 3.
-wine-presses and suffer t., Job 24. 11.
-when tongue faileth for t., Isa. 41. 17.
-not t. for water, but of hearing, Amos in hunger and t., 2 Cor. 11. 27. [8. 11.
+**THIRST.**—Kill us with t., Ex. 17. 3.  
+wine-presses and suffer t., Job 24. 11.  
+when tongue faileth for t., Isa. 41. 17.  
+not t. for water, but of hearing, Amos in hunger and t., 2 Cor. 11. 27. [8. 11.  
 
-**THIRST.**—t. after righteous, Matt. 5. 6.
-shall never t., John 4. 14, 6. 35.
-if any man thirst, let him come to, John 7. 37.
-Jesus saith, I t., John 19. 28.
-if enemy t., give drink, Rom. 12. 20.
-to present hour we t., 1 Cor. 4. 11.
-they shall not t. any more, Rev. 7. 16.
+**THIRST.**—t. after righteous, Matt. 5. 6.  
+shall never t., John 4. 14, 6. 35.  
+if any man thirst, let him come to, John 7. 37.  
+Jesus saith, I t., John 19. 28.  
+if enemy t., give drink, Rom. 12. 20.  
+to present hour we t., 1 Cor. 4. 11.  
+they shall not t. any more, Rev. 7. 16.  
 
-**THIRSTETH.**—My soul t. for God, Ps. 42. 2, 63. 1, 143. 6. [55. 1.
-every one that t. come to waters, Isa. 55. 1.
+**THIRSTETH.**—My soul t. for God, Ps. 42. 2, 63. 1, 143. 6. [55. 1.  
+every one that t. come to waters, Isa. 55. 1.  
 
-**THIRSTY.**—Hungry and t., Ps. 107. 5.
-as many be t., Prov. 25. 21.
-as pastures to a t. soul, Prov. 25. 25.
-water to him that is t., Isa. 21. 14.
-be as when t. man dreameth, Isa. 29. 8.
-cause drink of the t. to fail, Isa. 32. 6.
-t. land become springs of water, Isa. 35. 7.
-pour water on him that is t., Isa. 44. 3.
-servants drink, but ye be t., Isa. 65. 13.
-I was t. ye gave drink, Matt. 25. 35.
+**THIRSTY.**—Hungry and t., Ps. 107. 5.  
+as many be t., Prov. 25. 21.  
+as pastures to a t. soul, Prov. 25. 25.  
+water to him that is t., Isa. 21. 14.  
+be as when t. man dreameth, Isa. 29. 8.  
+cause drink of the t. to fail, Isa. 32. 6.  
+t. land become springs of water, Isa. 35. 7.  
+pour water on him that is t., Isa. 44. 3.  
+servants drink, but ye be t., Isa. 65. 13.  
+I was t. ye gave drink, Matt. 25. 35.  
 
-**THISTLE.**—Let t. grow instead wheat, Job 31. 40.
-thorn and t. on altars, Hos. 10. 8.
+**THISTLE.**—Let t. grow instead wheat, Job 31. 40.  
+thorn and t. on altars, Hos. 10. 8.  
 
-**HITHER.**—t. cannot come, John 7. 34. [50. 5.
+**HITHER.**—t. cannot come, John 7. 34. [50. 5.  
 
-**THITHERWARD.**—With faces t., Jer. 42. 17.
+**THITHERWARD.**—With faces t., Jer. 42. 17.  
 
-**THORN.**—As t. go into hand, Prov. 26. 9.
-instead of t. the fir-tree, Isa. 55. 13.
-given to me a t. in flesh, 2 Cor. 12. 7.
+**THORN.**—As t. go into hand, Prov. 26. 9.  
+instead of t. the fir-tree, Isa. 55. 13.  
+given to me a t. in flesh, 2 Cor. 12. 7.  
 
-**THORNS.**—t. and thistles, Gen. 3. 18.
-t. in your sides, Num. 33. 55; Judg. 2. 3.
-they shall be t. in eyes, Josh. 23. 13.
-t. are in way of the froward, Pr. 22. 5.
-grown over with t., Prov. 24. 31.
-as crackling of t. under a, Eccl. 7. 6.
-and sowing not among t., Jer. 4. 3.
-sown wheat, shall reap t., Jer. 12. 13.
-drawn gathers grapes of t.? Matt. 7. 16.
-fell among t., Matt 13. 7, 22.
+**THORNS.**—t. and thistles, Gen. 3. 18.  
+t. in your sides, Num. 33. 55; Judg. 2. 3.  
+they shall be t. in eyes, Josh. 23. 13.  
+t. are in way of the froward, Pr. 22. 5.  
+grown over with t., Prov. 24. 31.  
+as crackling of t. under a, Eccl. 7. 6.  
+and sowing not among t., Jer. 4. 3.  
+sown wheat, shall reap t., Jer. 12. 13.  
+drawn gathers grapes of t.? Matt. 7. 16.  
+fell among t., Matt 13. 7, 22.  
 
-**THOUGHT.**—Ye t. evil against me, Gen. 50. 20.
-they t. to do me mischief, Neh. 6. 2.
-we t. of thy loving-kindness, Ps. 48. 9.
-thou t. I was as thyself, Ps. 50. 21.
-when I t. to know this, it, Ps. 73. 16.
-I t. on my ways, and turned, Ps. 119. 59.
-as I t. so shall it come to pass, Isa. 14.
-when he t. he wept, Mark 14. 72. [24.
-he t. within himself, what, Luke 12. 17.
-t. in their hearts, Luke 13. 11.
+**THOUGHT.**—Ye t. evil against me, Gen. 50. 20.  
+they t. to do me mischief, Neh. 6. 2.  
+we t. of thy loving-kindness, Ps. 48. 9.  
+thou t. I was as thyself, Ps. 50. 21.  
+when I t. to know this, it, Ps. 73. 16.  
+I t. on my ways, and turned, Ps. 119. 59.  
+as I t. so shall it come to pass, Isa. 14.  
+when he t. he wept, Mark 14. 72. [24.  
+he t. within himself, what, Luke 12. 17.  
+t. in their hearts, Luke 13. 11.  
 
-**THOUGHTS.**—Not t. can be withholden from thee, Job 42. 2.
-their t. is, that their houses, Ps. 49. 11.
-the inward t. of every one, Ps. 64. 6.
-thou understandest my t., Ps. 139. 2.
-declareth to man his t., Amos 4. 13.
-take no t., Matt. 6. 25, 31, 34, 10. 19; Mark 13. 11; Luke 12. 11, 22.
-which of you by taking t., Matt. 6. 27.
-if the t. of thy heart may, Acts 8. 22.
+**THOUGHTS.**—Not t. can be withholden from thee, Job 42. 2.  
+their t. is, that their houses, Ps. 49. 11.  
+the inward t. of every one, Ps. 64. 6.  
+thou understandest my t., Ps. 139. 2.  
+declareth to man his t., Amos 4. 13.  
+take no t., Matt. 6. 25, 31, 34, 10. 19; Mark 13. 11; Luke 12. 11, 22.  
+which of you by taking t., Matt. 6. 27.  
+if the t. of thy heart may, Acts 8. 22.  
 
-**THOUGHTS.**—Lord understandeth the t., 1 Chron. 28. 9.
-G. is not as man, Job 10. 4.
-the t. of his heart in all, Ps. 33. 11.
-thy t. cannot be reckoned up, Ps. 40. 5.
-thy t. are very deep, Ps. 92. 5.
-Lord knoweth the t. of man, Ps. 91. 11.
-in multitude of t. within me, Ps. 94. 19.
-I hate vain t., but thy law, Ps. 119. 113.
-how precious are thy t. to, Ps. 139. 17.
-try me, and know my t., Ps. 139. 23.
-in that very day his t. perish, Ps. 146. 4.
-thy t. shall be established, Prov. 16. 3.
-let unrighteous forsake t., Isa. 55. 7.
-my t. are not your t., Isa. 55. 8.
-man t. higher than yours, Jer. 55. 9.
-their t. are t. of iniquity, Isa. 59. 7.
-how long shall vain t. lodge? Jer. 4. 14.
-t. towards you t. of peace, Jer. 29. 11.
-they know not t. of the Lord, Mic. 4. 12.
-Jesus, knowing their t., Matt. 9. 4; Luke 5. 22, 6. 8, 9. 47. [Mark 7. 21.
+**THOUGHTS.**—Lord understandeth the t., 1 Chron. 28. 9.  
+G. is not as man, Job 10. 4.  
+the t. of his heart in all, Ps. 33. 11.  
+thy t. cannot be reckoned up, Ps. 40. 5.  
+thy t. are very deep, Ps. 92. 5.  
+Lord knoweth the t. of man, Ps. 91. 11.  
+in multitude of t. within me, Ps. 94. 19.  
+I hate vain t., but thy law, Ps. 119. 113.  
+how precious are thy t. to, Ps. 139. 17.  
+try me, and know my t., Ps. 139. 23.  
+in that very day his t. perish, Ps. 146. 4.  
+thy t. shall be established, Prov. 16. 3.  
+let unrighteous forsake t., Isa. 55. 7.  
+my t. are not your t., Isa. 55. 8.  
+man t. higher than yours, Jer. 55. 9.  
+their t. are t. of iniquity, Isa. 59. 7.  
+how long shall vain t. lodge? Jer. 4. 14.  
+t. towards you t. of peace, Jer. 29. 11.  
+they know not t. of the Lord, Mic. 4. 12.  
+Jesus, knowing their t., Matt. 9. 4; Luke 5. 22, 6. 8, 9. 47. [Mark 7. 21.  
 out of heart proceed evil t., Matt. 15. 19;
-the t. of many hearts, Luke 2. 35.
-why do t. arise in hearts? Luke 24. 38.
-the Lord knoweth the t., 1 Cor. 3. 20.
+the t. of many hearts, Luke 2. 35.  
+why do t. arise in hearts? Luke 24. 38.  
+the Lord knoweth the t., 1 Cor. 3. 20.  
 
-**THREAD.**—Not taken from t., Gen. 14. 23.
-t. is woven in with wisdom, Jer. 2. 18.
-lips like t. of scarlet, Cant. 4. 3.
+**THREAD.**—Not taken from t., Gen. 14. 23.  
+t. is woven in with wisdom, Jer. 2. 18.  
+lips like t. of scarlet, Cant. 4. 3.  
 
-**THREATEN.**—Lord behold their t. and, Acts 4. 29.
-Saul yet breathing out t. and, Acts 9. 1.
-forbearing t., Eph. 6. 9.
-when he suffered he t. not, 1 Pet. 2. 23.
+**THREATEN.**—Lord behold their t. and, Acts 4. 29.  
+Saul yet breathing out t. and, Acts 9. 1.  
+forbearing t., Eph. 6. 9.  
+when he suffered he t. not, 1 Pet. 2. 23.  
 
-**THREE.**—Now abideth these t., 1 Cor. 13. 13. [15.
+**THREE.**—Now abideth these t., 1 Cor. 13. 13. [15.  
 
-**THRESH.**—Shalt t. mountains, Isa. 41. 15.
-floor, it is time to t. her, Jer. 51. 33.
-and t., O daughters of Zion, Micah 4. 3.
-didst t. heathen in anger, Hab. 3. 12.
-threshing.—Worker, 1 John 9. 10.
+**THRESH.**—Shalt t. mountains, Isa. 41. 15.  
+floor, it is time to t. her, Jer. 51. 33.  
+and t., O daughters of Zion, Micah 4. 3.  
+didst t. heathen in anger, Hab. 3. 12.  
+threshing.—Worker, 1 John 9. 10.  
 
-**THRESHING.**—Your t. reach to vintage, Lev. 26. 5.
-like dust by t., 2 Kings 13. 7.
-O my t., Isa. 21. 10.
-he will not ever be t., Isa. 28. 28. [34.
+**THRESHING.**—Your t. reach to vintage, Lev. 26. 5.  
+like dust by t., 2 Kings 13. 7.  
+O my t., Isa. 21. 10.  
+he will not ever be t., Isa. 28. 28. [34.  
 
-**THRICE.**—Shalt deny me t., Matt. 26. 34.
+**THRICE.**—Shalt deny me t., Matt. 26. 34.  
 
-**THROAT.**—t. open sepulchre, Ps. 5. 9.
-neither speak through their t., Ps 115. 7.
-put a knife to t. if given, Prov. 23. 2.
-withhold thy t. from thirst, Jer. 2. 25.
+**THROAT.**—t. open sepulchre, Ps. 5. 9.  
+neither speak through their t., Ps 115. 7.  
+put a knife to t. if given, Prov. 23. 2.  
+withhold thy t. from thirst, Jer. 2. 25.  
 
-**THRONE.**—I saw t. sitting on his t., 1 Kings 22. 19; 2 Chron. 18. 18.
-prepared his t. for judgment, Ps. 9. 7.
-Lord's t. is in heaven, Ps. 11. 4.
-thy t., O God, is for ever, Ps. 45. 6; Heb. his t. shall endure, Ps. 89. 29, 36. [1. 8.
-t. of iniquity have fellowship? Ps. 94. 20.
-judgment the habitation of his t., Ps. 97. 2.
-L. remember his t. in heaven, Ps. 103. 19.
-his t. is upholden by mercy, Pr. 20. 28.
-I saw Lord sitting upon a t., Isa. 6. 1.
-the heaven is my t., Isa. 66. 1; Acts 7. 49.
-call Jerusalem the t. of Lord, Jer. 3. 17.
-do not disgrace t. of glory, Jer. 14. 21.
-a glorious high t. from begin., Jer. 17.
-his t. like the fiery flame, Dan 7. 9. [12.
-he shall rule upon his t., Zech. 6. 13.
-heaven, it is God's t., Matt. 5. 34, 23. 22.
-Lord shall give him t. of David, Lu. 1. 32.
-come boldly to t. of grace, Heb. 4. 16.
-on right hand of t. of G., Heb. 8. 1, 12. 2.
-or will I grant t. to sit with, Rev. 3. 21.
-a t. was set in heaven, Rev. 4. 2.
-I saw a great white t. and, Rev. 20. 11.
-the t. of G. and of the Lamb, Rev. 22. 3.
+**THRONE.**—I saw t. sitting on his t., 1 Kings 22. 19; 2 Chron. 18. 18.  
+prepared his t. for judgment, Ps. 9. 7.  
+Lord's t. is in heaven, Ps. 11. 4.  
+thy t., O God, is for ever, Ps. 45. 6; Heb. his t. shall endure, Ps. 89. 29, 36. [1. 8.  
+t. of iniquity have fellowship? Ps. 94. 20.  
+judgment the habitation of his t., Ps. 97. 2.  
+L. remember his t. in heaven, Ps. 103. 19.  
+his t. is upholden by mercy, Pr. 20. 28.  
+I saw Lord sitting upon a t., Isa. 6. 1.  
+the heaven is my t., Isa. 66. 1; Acts 7. 49.  
+call Jerusalem the t. of Lord, Jer. 3. 17.  
+do not disgrace t. of glory, Jer. 14. 21.  
+a glorious high t. from begin., Jer. 17.  
+his t. like the fiery flame, Dan 7. 9. [12.  
+he shall rule upon his t., Zech. 6. 13.  
+heaven, it is God's t., Matt. 5. 34, 23. 22.  
+Lord shall give him t. of David, Lu. 1. 32.  
+come boldly to t. of grace, Heb. 4. 16.  
+on right hand of t. of G., Heb. 8. 1, 12. 2.  
+or will I grant t. to sit with, Rev. 3. 21.  
+a t. was set in heaven, Rev. 4. 2.  
+I saw a great white t. and, Rev. 20. 11.  
+the t. of G. and of the Lamb, Rev. 22. 3.  
 
-**THRONES.**—t. of judgment, Ps. 122. 5.
-sit on twelve t., Matt. 19. 28; Lu. 22. 30.
-him, whether they be t., Col. 1. 16.
-I saw t. and they sat, Rev. 20. 4.
+**THRONES.**—t. of judgment, Ps. 122. 5.  
+sit on twelve t., Matt. 19. 28; Lu. 22. 30.  
+him, whether they be t., Col. 1. 16.  
+I saw t. and they sat, Rev. 20. 4.  
 
-**THROW.**—I will t. down, Micah 5. 11.
+**THROW.**—I will t. down, Micah 5. 11.  
 
-**THRUST.**—God t. him down, not man, Job 32. 13.
-thou hast t. at me, Ps. 118. 13.
-neither shall one t. another, Joel 2. 8.
-they rose and t. him out, Luke 4. 29.
-shall be t. without t., Luke 13. 15.
-drive ye yourselves t. out, Luke 14. 23.
-t. my hand into his, John 20. 25, 27.
-stoned or t. through, Heb. 12. 20.
+**THRUST.**—God t. him down, not man, Job 32. 13.  
+thou hast t. at me, Ps. 118. 13.  
+neither shall one t. another, Joel 2. 8.  
+they rose and t. him out, Luke 4. 29.  
+shall be t. without t., Luke 13. 15.  
+drive ye yourselves t. out, Luke 14. 23.  
+t. my hand into his, John 20. 25, 27.  
+stoned or t. through, Heb. 12. 20.  
 
-**THUNDER.**—t. of power who understood, Job 26. 14.
-clothed neck with t.? Job 39. 19.
-he smelleth t. of captains, Job 39. 25.
-voice of thy t. in heaven, Ps. 77. 18.
-I answered thee in place of t., Ps. 81. 7.
-at voice of thy t. they hasted, Ps. 104. 7.
-Boanerges, sons of t., Mark 3. 17.
-the voice of a great t., Rev. 14. 2.
+**THUNDER.**—t. of power who understood, Job 26. 14.  
+clothed neck with t.? Job 39. 19.  
+he smelleth t. of captains, Job 39. 25.  
+voice of thy t. in heaven, Ps. 77. 18.  
+I answered thee in place of t., Ps. 81. 7.  
+at voice of thy t. they hasted, Ps. 104. 7.  
+Boanerges, sons of t., Mark 3. 17.  
+the voice of a great t., Rev. 14. 2.  
 
-**THUNDER.**—The Lord t., 2 Sam. 22. 14; Ps. 18. 13.
-God t. marvellously, Job 37. 5.
-canst t. like him? Job 40. 9.
-God of glory t., Ps. 29. 3.
+**THUNDER.**—The Lord t., 2 Sam. 22. 14; Ps. 18. 13.  
+God t. marvellously, Job 37. 5.  
+canst t. like him? Job 40. 9.  
+God of glory t., Ps. 29. 3.  
 
-**THUNDERINGS.**—Ex. 20. 18; Rev. 4. 5, 8. 5. 11, 19. 19, 6. 6.
+**THUNDERINGS.**—Ex. 20. 18; Rev. 4. 5, 8. 5. 11, 19. 19, 6. 6.  
 
-**TIDINGS.**—Evil t., Ex. 33. 4.
-not be afraid of evil t., Ps. 112. 7.
-cursed that brought t., Jer. 20. 15.
-t. out of east trouble, Dan. 11. 44.
-glad t., Luke 1. 19, 2. 10, 8. 1; Acts 13.
-glad t. of good things, Rom. 10. 15. [32.
+**TIDINGS.**—Evil t., Ex. 33. 4.  
+not be afraid of evil t., Ps. 112. 7.  
+cursed that brought t., Jer. 20. 15.  
+t. out of east trouble, Dan. 11. 44.  
+glad t., Luke 1. 19, 2. 10, 8. 1; Acts 13.  
+glad t. of good things, Rom. 10. 15. [32.  
 
-**TILL.**—Not a man to t., Gen. 2. 5, 3. 23.
-that t. shall be satisfied, Prov. 12. 11.
-that t. land shall have pity, Pr. 28. 19.
-t. thou dost visit him, Job 14. 13.
+**TILL.**—Not a man to t., Gen. 2. 5, 3. 23.  
+that t. shall be satisfied, Prov. 12. 11.  
+that t. land shall have pity, Pr. 28. 19.  
+t. thou dost visit him, Job 14. 13.  
 
-**TIMBREL.**—Ex. 15. 20; Job 21. 12; Ps. 68. 25, 81. 2, 149. 3, 150. 4.
+**TIMBREL.**—Ex. 15. 20; Job 21. 12; Ps. 68. 25, 81. 2, 149. 3, 150. 4.  
 
-**TIME.**—t. when may be found, Ps. 32. 6.
-in the evil t., Ps. 37. 19. [6.
-in t. of trouble, Ps. 41. 1.
-what t. I am afraid, I trust, Ps. 56. 3.
-remember how short my t., Ps. 89. 47.
-t. to every purpose, Eccl. 3. 1, 17. [11.
-t. and chance happeneth to all, Eccl. 9. 3.
-thy t. waiteth t. of love, Ezek. 16. 8.
-until t. and dividing of t., Dan. 7. 25, 12.
-it is t. to seek the Lord, Hos. 10. 12. [7.
-my t. is at hand, Matt. 26. 18.
-knew season of visitation, Luke 19. 44.
-it is t. not come, your t., John 7. 6.
-it is high t. to awake, Rom. 13. 11.
-the t. is short, 1 Cor. 7. 29.
-pass t. of sojourning in fear, 1 Pet. 1. 17.
-for t. is at hand, Rev. 1. 3, 22. 10.
-there should be t. not longer, Rev. 10. 6.
+**TIME.**—t. when may be found, Ps. 32. 6.  
+in the evil t., Ps. 37. 19. [6.  
+in t. of trouble, Ps. 41. 1.  
+what t. I am afraid, I trust, Ps. 56. 3.  
+remember how short my t., Ps. 89. 47.  
+t. to every purpose, Eccl. 3. 1, 17. [11.  
+t. and chance happeneth to all, Eccl. 9. 3.  
+thy t. waiteth t. of love, Ezek. 16. 8.  
+until t. and dividing of t., Dan. 7. 25, 12.  
+it is t. to seek the Lord, Hos. 10. 12. [7.  
+my t. is at hand, Matt. 26. 18.  
+knew season of visitation, Luke 19. 44.  
+it is t. not come, your t., John 7. 6.  
+it is high t. to awake, Rom. 13. 11.  
+the t. is short, 1 Cor. 7. 29.  
+pass t. of sojourning in fear, 1 Pet. 1. 17.  
+for t. is at hand, Rev. 1. 3, 22. 10.  
+there should be t. not longer, Rev. 10. 6.  
 
-**TIMES.**—Sh. not observe t., Lev. 19. 26.
-had understanding of t., 1 Chron. 12. 32.
-t. are not hidden from Almighty, Job my t. are in thy hand, Ps. 31. 15. [24. 1.
-not discern signs of t.? Matt. 16. 3.
-not for you to know the t., Acts 1. 7.
-hath determined the t. before, Acts 17.
-in latter t. some shall t., 1 Tim. 4. 1. [26.
-in last days t. shall be perilous, 2 Tim. 3. 1.
-God who sundry t. spake, Heb. 1. 1.
+**TIMES.**—Sh. not observe t., Lev. 19. 26.  
+had understanding of t., 1 Chron. 12. 32.  
+t. are not hidden from Almighty, Job my t. are in thy hand, Ps. 31. 15. [24. 1.  
+not discern signs of t.? Matt. 16. 3.  
+not for you to know the t., Acts 1. 7.  
+hath determined the t. before, Acts 17.  
+in latter t. some shall t., 1 Tim. 4. 1. [26.  
+in last days t. shall be perilous, 2 Tim. 3. 1.  
+God who sundry t. spake, Heb. 1. 1.  
 
-**TIN.**—Num. 31. 22; Ezek. 22. 18, 20.
-I will take away all thy t., Isa. 1. 25.
+**TIN.**—Num. 31. 22; Ezek. 22. 18, 20.  
+I will take away all thy t., Isa. 1. 25.  
 
-**TITHE.**—All this the t. is Lord's, Lev. 27. 30.
-ye pay t. of mint, Matt. 23. 23.
+**TITHE.**—All this the t. is Lord's, Lev. 27. 30.  
+ye pay t. of mint, Matt. 23. 23.  
 
-**TITHES.**—Abram gave Melchizedek t., Gen. 14. 20.
-bring your t., Amos 4. 4; Mal. 3. 10.
+**TITHES.**—Abram gave Melchizedek t., Gen. 14. 20.  
+bring your t., Amos 4. 4; Mal. 3. 10.  
 
 
 ---
@@ -25541,1846 +25541,1846 @@ neither fruit be in the v., Hab. 3. 17.
 
 # Content from: pages86-87.md
 
-**VINEGAR.**—Gave me v., Ps. 69. 21; Matt. 27. 34.
-v. on the teeth, so is, Prov. 10. 26.
-v. upon nitre, so is he, Prov. 25. 20.
+**VINEGAR.**—Gave me v., Ps. 69. 21; Matt. 27. 34.  
+v. on the teeth, so is, Prov. 10. 26.  
+v. upon nitre, so is he, Prov. 25. 20.  
 
-**VINEYARD.**—Give me thy v., 1 Kings 21. 6.
-my hand planted, Ps. 80. 15. [21. 2.
-I went by v. of no man, Prov. 24. 30.
-owner thereof not keep it, Cant. 1. 6.
-a v. in red wine, Isa. 27. 2.
-hire labourers into his v., Matt. 20. 1.
-certain householder planted v., Matt. 21. 33.
-who planteth v. eateth not? 1 Cor. 9. 7.
+**VINEYARD.**—Give me thy v., 1 Kings 21. 6.  
+my hand planted, Ps. 80. 15. [21. 2.  
+I went by v. of no man, Prov. 24. 30.  
+owner thereof not keep it, Cant. 1. 6.  
+a v. in red wine, Isa. 27. 2.  
+hire labourers into his v., Matt. 20. 1.  
+certain householder planted v., Matt. 21. 33.  
+who planteth v. eateth not? 1 Cor. 9. 7.  
 
-**VIOL.**—Isa. 5. 12; 14. 11; Amos 6. 23, 6. 5. [6. 11.
+**VIOL.**—Isa. 5. 12; 14. 11; Amos 6. 23, 6. 5. [6. 11.  
 
-**VIOLENCE.**—Earth filled with v., Gen. 6. 13.
-thou savest me from v., 2 Sam. 22. 3.
-that loveth v. he hateth, Ps. 11. 5. [14.
-shall redeem their soul from v., Ps. 72.
-v. and spoil in their city, Ps. 73. 6.
-v. covereth the mouth, Prov. 10. 6, 11.
-he had done no v. nor was, Isa. 53. 9.
-v. shall no more be heard, Isa. 60. 18.
-in the land, ruler against ruler, Jer. 9. 3.
-who store v. in palaces, Amos 3. 10.
-turn every one from v., Jonah 3. 8.
-the rich men are full of v., Micah 6. 12.
-v. is before me, Hab. 1. 3.
-covereth v. with garment, Mal. 2. 16.
-killed by heart's suffer v., Matt. 11. 12.
-do v. to no man, nor, Luke 3. 14. [12.
+**VIOLENCE.**—Earth filled with v., Gen. 6. 13.  
+thou savest me from v., 2 Sam. 22. 3.  
+that loveth v. he hateth, Ps. 11. 5. [14.  
+shall redeem their soul from v., Ps. 72.  
+v. and spoil in their city, Ps. 73. 6.  
+v. covereth the mouth, Prov. 10. 6, 11.  
+he had done no v. nor was, Isa. 53. 9.  
+v. shall no more be heard, Isa. 60. 18.  
+in the land, ruler against ruler, Jer. 9. 3.  
+who store v. in palaces, Amos 3. 10.  
+turn every one from v., Jonah 3. 8.  
+the rich men are full of v., Micah 6. 12.  
+v. is before me, Hab. 1. 3.  
+covereth v. with garment, Mal. 2. 16.  
+killed by heart's suffer v., Matt. 11. 12.  
+do v. to no man, nor, Luke 3. 14. [12.  
 
-**VIOLENT.**—Delivered me from v. man, Ps. 18. 48.
-preserve me from v. man, Ps. 140. 1, 4.
-evil shall hunt the v. man, Ps. 140. 11.
-if thou seest the v. perverting, Eccl. 5. 8.
-the v. take it by force, Matt. 11. 12.
+**VIOLENT.**—Delivered me from v. man, Ps. 18. 48.  
+preserve me from v. man, Ps. 140. 1, 4.  
+evil shall hunt the v. man, Ps. 140. 11.  
+if thou seest the v. perverting, Eccl. 5. 8.  
+the v. take it by force, Matt. 11. 12.  
 
-**VIPERS.**—Matt. 3. 7; 12. 34; 23. 33; Luke 3. 7. [Matt. 1. 23.
+**VIPERS.**—Matt. 3. 7; 12. 34; 23. 33; Luke 3. 7. [Matt. 1. 23.  
 
 **VIRGIN.**—v. shall conceive, Isa. 7. 14;
-thou oppressor v., Isa. 23. 12.
-O thou daughter of Babylon, Isa. 47. 1.
-the v. daughter is broken, Jer. 14. 17.
-comfort thee, O v. of Zion, Lam. 2. 13.
-the v. of Israel is fallen, Amos 5. 2.
-present you as chaste v., 2 Cor. 11. 2.
+thou oppressor v., Isa. 23. 12.  
+O thou daughter of Babylon, Isa. 47. 1.  
+the v. daughter is broken, Jer. 14. 17.  
+comfort thee, O v. of Zion, Lam. 2. 13.  
+the v. of Israel is fallen, Amos 5. 2.  
+present you as chaste v., 2 Cor. 11. 2.  
 
-**VIRGINS.**—v. her companions, Ps. 45. 14.
-therefore do v. love thee, Cant. 1. 3.
-ten v., Matt. 25. 1.
-not defiled, they are v., Rev. 14. 4.
+**VIRGINS.**—v. her companions, Ps. 45. 14.  
+therefore do v. love thee, Cant. 1. 3.  
+ten v., Matt. 25. 1.  
+not defiled, they are v., Rev. 14. 4.  
 
-**VIRTUE.**—v. had gone out of him, Mark 5. 30; Luke 6. 19, & 46.
-if there be any v., Phil. 4. 8.
-called us to glory and v., 2 Pet. 1. 3.
-add to your faith v., 2 Pet. 1. 5. [29.
+**VIRTUE.**—v. had gone out of him, Mark 5. 30; Luke 6. 19, & 46.  
+if there be any v., Phil. 4. 8.  
+called us to glory and v., 2 Pet. 1. 3.  
+add to your faith v., 2 Pet. 1. 5. [29.  
 
-**VIRTUOUSLY.**—Have done v., Pr. 31.
+**VIRTUOUSLY.**—Have done v., Pr. 31.  
 
-**VISAGE.**—His v. marred more, Isa. 52.
-v. is blacker than a coal, Lam. 4. 8. [14.
-form of v. was changed, Dan. 3. 19.
+**VISAGE.**—His v. marred more, Isa. 52.  
+v. is blacker than a coal, Lam. 4. 8. [14.  
+form of v. was changed, Dan. 3. 19.  
 
-**VISIBLE.**—Things v. and, Col. 1. 16.
+**VISIBLE.**—Things v. and, Col. 1. 16.  
 
-**VISION.**—Was no open v., 1 Sam. 3. 1.
-as a v. of the night, Job 20. 8.
-spakest in v. to Holy One, Ps. 89. 19.
-where no v., people perish, Prov. 29. 18.
-burden of the valley of v., Isa. 22. 1, 5.
-they saw no v., Isa. 29. 10.
-had dream of a night v., Isa. 29. 7.
-v. is become as a book sealed, Isa. 29. 11.
-prophets find no v. from Lord, Lam. 2. 9.
-v. shall not have a v., Micah 3. 6.
-the v. is for an appointed time, Hab. 2.
-tell the v. to no man, Matt. 17. 9. [3.
-had seen a v. of angels, Luke 24. 23.
-I saw a v. a vessel descend, Acts 11. 5.
-true, but thought he saw a v., Acts 12. 9.
-a v. appeared to Paul, Acts 16. 9, 18. 9.
-v. was made known to v., Acts 26. 19.
+**VISION.**—Was no open v., 1 Sam. 3. 1.  
+as a v. of the night, Job 20. 8.  
+spakest in v. to Holy One, Ps. 89. 19.  
+where no v., people perish, Prov. 29. 18.  
+burden of the valley of v., Isa. 22. 1, 5.  
+they saw no v., Isa. 29. 10.  
+had dream of a night v., Isa. 29. 7.  
+v. is become as a book sealed, Isa. 29. 11.  
+prophets find no v. from Lord, Lam. 2. 9.  
+v. shall not have a v., Micah 3. 6.  
+the v. is for an appointed time, Hab. 2.  
+tell the v. to no man, Matt. 17. 9. [3.  
+had seen a v. of angels, Luke 24. 23.  
+I saw a v. a vessel descend, Acts 11. 5.  
+true, but thought he saw a v., Acts 12. 9.  
+a v. appeared to Paul, Acts 16. 9, 18. 9.  
+v. was made known to v., Acts 26. 19.  
 
-**VISIONS.**—God spake to Israel in v., Gen. 46. 2.
-thoughts from v. of night, Job 4. 13.
-thou terrifiest me through v., Job 7. 14.
-which see v. of peace, Ezek. 13. 16. [17.
-young men sh. see v., Joel 2. 28; Acts 2.
-come to v. and revelations, 2 Cor. 12. 1.
+**VISIONS.**—God spake to Israel in v., Gen. 46. 2.  
+thoughts from v. of night, Job 4. 13.  
+thou terrifiest me through v., Job 7. 14.  
+which see v. of peace, Ezek. 13. 16. [17.  
+young men sh. see v., Joel 2. 28; Acts 2.  
+come to v. and revelations, 2 Cor. 12. 1.  
 
-**VISIT.**—God will v., Gen. 50. 24, 25; Ex. 13. 19.
-when I v. I will v. sin, Ex. 32. 34.
-shalt v. thy habitation and, Job 5. 24.
-that thou shouldest v. him, Job 7. 18.
-look down and v. this vine, Ps. 80. 14.
-to visit the fatherless, James 1. 27.
-shall I not v. you? Jer. 5. 9, 9. 9.
-I will v. on you evil of doings, Jer. 23. 2.
-he will v. thine iniquity, Lam. 4. 22.
-how God did v. Gentiles, Acts 15. 14.
+**VISIT.**—God will v., Gen. 50. 24, 25; Ex. 13. 19.  
+when I v. I will v. sin, Ex. 32. 34.  
+shalt v. thy habitation and, Job 5. 24.  
+that thou shouldest v. him, Job 7. 18.  
+look down and v. this vine, Ps. 80. 14.  
+to visit the fatherless, James 1. 27.  
+shall I not v. you? Jer. 5. 9, 9. 9.  
+I will v. on you evil of doings, Jer. 23. 2.  
+he will v. thine iniquity, Lam. 4. 22.  
+how God did v. Gentiles, Acts 15. 14.  
 
-**VISITATION.**—v. preserved my spirit, Job 10. 12.
-in day of v.? Isa. 10. 3; 1 Pet. 2. 12.
-in time of v., Jer. 8. 12; 10. 15, 51. 18.
-in year of v., Jer. 11. 23, 23. 12, 46. 44.
-the days of v. are come, Hos. 9. 7.
-knewest not time of v., Luke 19. 44.
+**VISITATION.**—v. preserved my spirit, Job 10. 12.  
+in day of v.? Isa. 10. 3; 1 Pet. 2. 12.  
+in time of v., Jer. 8. 12; 10. 15, 51. 18.  
+in year of v., Jer. 11. 23, 23. 12, 46. 44.  
+the days of v. are come, Hos. 9. 7.  
+knewest not time of v., Luke 19. 44.  
 
-**VISITED.**—I have surely v. you, Ex. 3. 16.
-O requite to our fathers, Ex. 20. 5. 34. 7; Num. 14. 18; Ps. 79. 8.
-he hath v. in his anger, Job 35. 15.
-that thou v. him, Ps. 8. 4; Heb. 2. 6.
-thou hast v. me in night, Ps. 17. 3.
-thou v. earth, and waterest it, Ps. 65. 9.
-shall not be v. with evil, Prov. 19. 23.
-v. and redeemed people, Luke 1. 68.
-God hath v. his people, Luke 7. 16. [1.
+**VISITED.**—I have surely v. you, Ex. 3. 16.  
+O requite to our fathers, Ex. 20. 5. 34. 7; Num. 14. 18; Ps. 79. 8.  
+he hath v. in his anger, Job 35. 15.  
+that thou v. him, Ps. 8. 4; Heb. 2. 6.  
+thou hast v. me in night, Ps. 17. 3.  
+thou v. earth, and waterest it, Ps. 65. 9.  
+shall not be v. with evil, Prov. 19. 23.  
+v. and redeemed people, Luke 1. 68.  
+God hath v. his people, Luke 7. 16. [1.  
 
-**VOCATION.**—Worthy of the v., Eph. 4.
+**VOCATION.**—Worthy of the v., Eph. 4.  
 
-**VOICE.**—v. is v. of Jacob, Gen. 27. 22.
-who Lord that I obey v.? Ex. 5. 2.
-Lord v. maketh waters, Ps. 29. 3.
-after fire a still small v., 1 Kings 19. 12.
-against whom exalt v.? 2 Kings 19. 22; Isa. 37. 23.
-into v. of them that weep, Job 30. 31.
-thunder with a v. like him? Job 40. 9.
-the Highest gave his v., Ps. 18. 13.
-to house of God with v. of joy, Ps. 42. 4.
-he uttered his v., earth melted, Ps. 46. 6.
-sendeth out v. that a mighty v., Ps. 68. 33.
-floods have lifted up their v., Ps. 93. 3.
-to-day if ye will hear his v., Ps. 95. 7; Heb. 3. 7; 15. 4, 7.
-hearkening to v. of word, Ps. 103. 20.
-v. of rejoicing in tabernacles, Ps. 118. 15.
-she uttereth v. in streets, Prov. 1. 20.
-my v. is to sons of men, Prov. 8. 4.
-a fool's v. is known by, Eccl. 5. 3. [4.
-he shall rise at v. of the bird, Eccl. 12.
-v. of turtle is heard in land, Cant. 2. 12.
-let me hear thy v., sweet v., Cant. 2. 14.
-v. that crieth in wilderness, Isa. 40. 3; Matt. 3. 3; Mark 1. 3; Luke 3. 4; John 1. 23.
-v. said, cry, Isa. 40. 6.
-with v. together shall they sing, Isa. 52.
-the v. of weeping, Isa. 65. 19. [8.
-a v. of noise, a v. from temple, Isa. 66. 6.
-v. of mirth, v. of gladness, Jer. 7. 34.
-a v. was heard in Ramah, Jer. 31. 15, 16.
-one that hath a pleasant v., Ezek. 33. 32.
-v. like noise of waters, Ezek. 43. 2; Rev.
-v. from heaven, Matt. 3. 17. [1. 15.
-neither any hear his v., Matt. 12. 19.
-a v. out of the cloud is, Matt. 17. 5.
-they know his v., John 10. 4. [5.
-I bear record that I saw, John 1. 32.
-then came a v. saying, 1 John 12. 28.
-this v. came not because of me, John 12. 30. [37.
-that is of truth heareth my v., John 18.
-hearing v., seeing no man, Acts 9. 7.
-I desire to change my v., Gal. 4. 20.
-whose v. shook the earth, Heb. 12. 26.
-v. from excellent glory, 2 Pet. 1. 17.
-ass speaking with man's v., 2 Pet. 2. 16.
-if any man hear my v., Rev. 3. 20.
+**VOICE.**—v. is v. of Jacob, Gen. 27. 22.  
+who Lord that I obey v.? Ex. 5. 2.  
+Lord v. maketh waters, Ps. 29. 3.  
+after fire a still small v., 1 Kings 19. 12.  
+against whom exalt v.? 2 Kings 19. 22; Isa. 37. 23.  
+into v. of them that weep, Job 30. 31.  
+thunder with a v. like him? Job 40. 9.  
+the Highest gave his v., Ps. 18. 13.  
+to house of God with v. of joy, Ps. 42. 4.  
+he uttered his v., earth melted, Ps. 46. 6.  
+sendeth out v. that a mighty v., Ps. 68. 33.  
+floods have lifted up their v., Ps. 93. 3.  
+to-day if ye will hear his v., Ps. 95. 7; Heb. 3. 7; 15. 4, 7.  
+hearkening to v. of word, Ps. 103. 20.  
+v. of rejoicing in tabernacles, Ps. 118. 15.  
+she uttereth v. in streets, Prov. 1. 20.  
+my v. is to sons of men, Prov. 8. 4.  
+a fool's v. is known by, Eccl. 5. 3. [4.  
+he shall rise at v. of the bird, Eccl. 12.  
+v. of turtle is heard in land, Cant. 2. 12.  
+let me hear thy v., sweet v., Cant. 2. 14.  
+v. that crieth in wilderness, Isa. 40. 3; Matt. 3. 3; Mark 1. 3; Luke 3. 4; John 1. 23.  
+v. said, cry, Isa. 40. 6.  
+with v. together shall they sing, Isa. 52.  
+the v. of weeping, Isa. 65. 19. [8.  
+a v. of noise, a v. from temple, Isa. 66. 6.  
+v. of mirth, v. of gladness, Jer. 7. 34.  
+a v. was heard in Ramah, Jer. 31. 15, 16.  
+one that hath a pleasant v., Ezek. 33. 32.  
+v. like noise of waters, Ezek. 43. 2; Rev.  
+v. from heaven, Matt. 3. 17. [1. 15.  
+neither any hear his v., Matt. 12. 19.  
+a v. out of the cloud is, Matt. 17. 5.  
+they know his v., John 10. 4. [5.  
+I bear record that I saw, John 1. 32.  
+then came a v. saying, 1 John 12. 28.  
+this v. came not because of me, John 12. 30. [37.  
+that is of truth heareth my v., John 18.  
+hearing v., seeing no man, Acts 9. 7.  
+I desire to change my v., Gal. 4. 20.  
+whose v. shook the earth, Heb. 12. 26.  
+v. from excellent glory, 2 Pet. 1. 17.  
+ass speaking with man's v., 2 Pet. 2. 16.  
+if any man hear my v., Rev. 3. 20.  
 
-**VOICES.**—So many v. in world, 1 Cor. 14. 10.
-from throne proceeded v., Rev. 4. 5.
-there were v. in heaven, Rev. 11. 15, 19.
+**VOICES.**—So many v. in world, 1 Cor. 14. 10.  
+from throne proceeded v., Rev. 4. 5.  
+there were v. in heaven, Rev. 11. 15, 19.  
 
-**VOID.**—v. of counsel, Deut. 32. 28.
-made v. the covenant, Ps. 89. 39.
-they have made v. thy law, Ps. 119. 126.
-v. of wisdom, Prov. 11. 12.
-word not return to me v., Isa. 55. 11.
-do we then make v. law? Rom. 3. 31.
-be heirs, faith is made v., Rom. 4. 14.
-make my glorying v., 1 Cor. 9. 15.
-of none effect, Ps. 40. 7; Heb. 10. 7. [28. 8.
+**VOID.**—v. of counsel, Deut. 32. 28.  
+made v. the covenant, Ps. 89. 39.  
+they have made v. thy law, Ps. 119. 126.  
+v. of wisdom, Prov. 11. 12.  
+word not return to me v., Isa. 55. 11.  
+do we then make v. law? Rom. 3. 31.  
+be heirs, faith is made v., Rom. 4. 14.  
+make my glorying v., 1 Cor. 9. 15.  
+of none effect, Ps. 40. 7; Heb. 10. 7. [28. 8.  
 
-**VOMIT.**—Prov. 23. 8; 25. 16; Isa. 19. 14.
+**VOMIT.**—Prov. 23. 8; 25. 16; Isa. 19. 14.  
 
-**VOW.**—Jacob vowed a v., Gen. 28. 20.
-Israel vowed a v. to the Lord, Num. 21.
-Jephthah vowed a v., Judg. 11. 30. [2.
-did according to his v., Judg. 11. 39.
-to thee v. be performed, Ps. 65. 1.
-they shall vow a v. to Lord, Isa. 19. 21.
-for he had a v., Acts 18. 18.
-which have a v. on them, Acts 21. 23.
+**VOW.**—Jacob vowed a v., Gen. 28. 20.  
+Israel vowed a v. to the Lord, Num. 21.  
+Jephthah vowed a v., Judg. 11. 30. [2.  
+did according to his v., Judg. 11. 39.  
+to thee v. be performed, Ps. 65. 1.  
+they shall vow a v. to Lord, Isa. 19. 21.  
+for he had a v., Acts 18. 18.  
+which have a v. on them, Acts 21. 23.  
 
-**VOW.**—v. and pay to Lord, Ps. 76. 11.
-when thou v. a vow defer, Eccl. 5. 4.
-better than shouldest not v., Eccl. 5. 5.
+**VOW.**—v. and pay to Lord, Ps. 76. 11.  
+when thou v. a vow defer, Eccl. 5. 4.  
+better than shouldest not v., Eccl. 5. 5.  
 
-**VOWS.**—Thou shalt pay thy v., Job 22.
-I will v. unto thee, Ps. 22. 25; 66. 13. [27.
-pay thy v. to Lord, Ps. 50. 14.
-thy v. are on me, Ps. 56. 12.
-this day I paid my v., Prov. 7. 14. [25.
-snare after v. to make inquiry, Prov. 20.
-what the son of v.? Prov. 31. 2.
-men feared Lord, made v., Jonah 1. 16.
+**VOWS.**—Thou shalt pay thy v., Job 22.  
+I will v. unto thee, Ps. 22. 25; 66. 13. [27.  
+pay thy v. to Lord, Ps. 50. 14.  
+thy v. are on me, Ps. 56. 12.  
+this day I paid my v., Prov. 7. 14. [25.  
+snare after v. to make inquiry, Prov. 20.  
+what the son of v.? Prov. 31. 2.  
+men feared Lord, made v., Jonah 1. 16.  
 
-**WAG.**—Pass shall w. head, Jer. 18. 16; Lam. 2. 15; Zeph. 12. 5. [31. 7.
+**WAG.**—Pass shall w. head, Jer. 18. 16; Lam. 2. 15; Zeph. 12. 5. [31. 7.  
 
-**WAGES.**—Changed w. ten times, Gen. nurse, I will give thee w., Ex. 2. 9.
-w. of hired shall not abide, Lev. 19. 13.
-earneth w. to put into bag, Hag. 1. 6.
-w. that oppress hireling in w., Mal. 3. 5.
-be content with your w., Luke 3. 14.
-long-suffering of God is w., 2 Pet. 3. 15.
+**WAGES.**—Changed w. ten times, Gen. nurse, I will give thee w., Ex. 2. 9.  
+w. of hired shall not abide, Lev. 19. 13.  
+earneth w. to put into bag, Hag. 1. 6.  
+w. that oppress hireling in w., Mal. 3. 5.  
+be content with your w., Luke 3. 14.  
+long-suffering of God is w., 2 Pet. 3. 15.  
 
-**WAGGING.**—w. heads, Matt. 27. 39.
+**WAGGING.**—w. heads, Matt. 27. 39.  
 
-**WAIL.**—w. for multitude of Egypt, Ezek. 32. 18. [1. 8.
-I will w. and howl, go stripped, Micah kindreds of earth shall w., Rev. 1. 7.
+**WAIL.**—w. for multitude of Egypt, Ezek. 32. 18. [1. 8.  
+I will w. and howl, go stripped, Micah kindreds of earth shall w., Rev. 1. 7.  
 
-**WAILING.**—There was w., Esther 4. 3.
-a voice of w. is heard out of Zion, Jer. 9. 19.
-they shall weep with w., Ezek. 27. 31.
-it shall be in all, Amos 5. 16. [7.
-w. and gnashing of teeth, Matt. 13. 42, 50.
+**WAILING.**—There was w., Esther 4. 3.  
+a voice of w. is heard out of Zion, Jer. 9. 19.  
+they shall weep with w., Ezek. 27. 31.  
+it shall be in all, Amos 5. 16. [7.  
+w. and gnashing of teeth, Matt. 13. 42, 50.  
 
-**WAIT.**—w. till my change, Job 14. 14.
-if I w., the grave is my ho., Job 17. 13.
-w. on thee do I w. all the day, Ps. 25. 5.
-w. on Lord, Ps. 27. 14, 37. 34; Pr. 20. 22.
-w. only on God, Ps. 62. 5.
-mine eyes fail while I w. for, Ps. 69. 3.
-these all w. upon thee, Ps. 104. 27.
-I w. for Lord, my soul doth w., Ps. 130.
-I w. for God, the Lord, Ps. 130. 5. [5.
-Lord w. on how glorious, blessed are they that w. for him, Isa. 30. 18.
-that w. on Lord shall renew, Isa. 40. 31.
-the isles shall w., Isa. 42. 4, 60. 9.
-not ashamed that w. for me, Isa. 49. 23.
-w. for light, but behold, Isa. 59. 9.
-L. is good to them that w., Lam. 3. 25.
-that a man hope and quietly w., Lam. 3. 26. [Micah 7. 7.
-I will w. for God of my salvation, though I tarry, wait for it, Hab. 2. 3.
-like servants that w. for Lord, Luke 12. 36.
-w. for promise of Father, Acts 1. 4.
-then we with patience w., Rom. 8. 25.
-w. for hope of righteousness, Gal. 5. 5.
-w. for his Son from heaven, 1 Thess. 1. 10. [Gen. 49. 18.
+**WAIT.**—w. till my change, Job 14. 14.  
+if I w., the grave is my ho., Job 17. 13.  
+w. on thee do I w. all the day, Ps. 25. 5.  
+w. on Lord, Ps. 27. 14, 37. 34; Pr. 20. 22.  
+w. only on God, Ps. 62. 5.  
+mine eyes fail while I w. for, Ps. 69. 3.  
+these all w. upon thee, Ps. 104. 27.  
+I w. for Lord, my soul doth w., Ps. 130.  
+I w. for God, the Lord, Ps. 130. 5. [5.  
+Lord w. on how glorious, blessed are they that w. for him, Isa. 30. 18.  
+that w. on Lord shall renew, Isa. 40. 31.  
+the isles shall w., Isa. 42. 4, 60. 9.  
+not ashamed that w. for me, Isa. 49. 23.  
+w. for light, but behold, Isa. 59. 9.  
+L. is good to them that w., Lam. 3. 25.  
+that a man hope and quietly w., Lam. 3. 26. [Micah 7. 7.  
+I will w. for God of my salvation, though I tarry, wait for it, Hab. 2. 3.  
+like servants that w. for Lord, Luke 12. 36.  
+w. for promise of Father, Acts 1. 4.  
+then we with patience w., Rom. 8. 25.  
+w. for hope of righteousness, Gal. 5. 5.  
+w. for his Son from heaven, 1 Thess. 1. 10. [Gen. 49. 18.  
 
-**WAITED.**—Have w. for thy salvation, I w. for light, darkness came, Job 30. 26.
-I w. patiently for the Lord, Ps. 40. 1.
-they w. not for counsel, Ps. 106. 13.
-I have w. for thy salvation, Ps. 119. 166.
-in need of judgment have w., Isa. 26.
-poor of the flock that w., Zech. 11. 11.
-long-suffering of God w., 1 Pet. 3. 20.
+**WAITED.**—Have w. for thy salvation, I w. for light, darkness came, Job 30. 26.  
+I w. patiently for the Lord, Ps. 40. 1.  
+they w. not for counsel, Ps. 106. 13.  
+I have w. for thy salvation, Ps. 119. 166.  
+in need of judgment have w., Isa. 26.  
+poor of the flock that w., Zech. 11. 11.  
+long-suffering of God w., 1 Pet. 3. 20.  
 
-**WAITEFE.**—Eye of the adulterer w., Job 24. 14.
-our soul w. for Lord, Ps. 33. 20.
-my soul w. upon God, Ps. 62. 1, 130. 6.
-prepared for him that w., Isa. 64. 4.
+**WAITEFE.**—Eye of the adulterer w., Job 24. 14.  
+our soul w. for Lord, Ps. 33. 20.  
+my soul w. upon God, Ps. 62. 1, 130. 6.  
+prepared for him that w., Isa. 64. 4.  
 
-**WAITING.**—w. at gates, Prov. 8. 34.
-w. for coming of the Lord, 1 Cor. 1. 7.
-into heaven for Christ, 1 Thess. 1. 10.
+**WAITING.**—w. at gates, Prov. 8. 34.  
+w. for coming of the Lord, 1 Cor. 1. 7.  
+into heaven for Christ, 1 Thess. 1. 10.  
 
-**WAKE.**—Thou holdest mine eyes w., Ps. 77. 4.
-I sleep but my heart w., Cant. 5. 2.
-whether we w. or sleep, 1 Thess. 5. 10.
+**WAKE.**—Thou holdest mine eyes w., Ps. 77. 4.  
+I sleep but my heart w., Cant. 5. 2.  
+whether we w. or sleep, 1 Thess. 5. 10.  
 
-**WALK.**—w. before me, and be perfect, Gen. 17. 1.
-Lord before whom I w., Gen. 24. 40.
-way wherein they must w., Ex. 18. 20.
-I will w. among you, be your God, Lev. 26. 12. [23.
-if I w. contrary to me, Lev. 26. 21, 23.
-then I w. contrary to you, Lev. 26. 24, 28.
-shall w. in ways of the Lord, Deut. 5. 33.
-though I w. through the valley, Ps. 23. 4.
-I will w. in mine integrity, Ps. 26. 11.
-w. about Zion, Ps. 48. 12. [Ps. 84. 11.
-no good from them that w. uprightly, will w. in house with perfect, Ps. 101. 2.
-I will w. before the Lord, Ps. 116. 9.
-though I w. in midst of trouble, Ps. 138.
-w. in ways of thy heart, Deut. 8. 6. [2.
-w. in his presence, Prov. 8. 30.
-let us w. in light of the Lord, Isa. 2. 5.
-this is the way, w. in it, Isa. 30. 21.
-shall w. and not faint, Isa. 40. 31. [24.
-they would not w. in his ways, Isa. 42.
-w. in the light of your fire, Isa. 50. 11.
-w. in lies, Jer. 23. 14.
-that w. in pride, Dan. 4. 37.
-the just shall w. in them, Hos. 14. 9.
-w. to humbly with thy God, Micah 6. 8.
-make me to w. on high places, Hab. 3. 19.
-w. in thy ways to-day and to-mor., Isa. 13. 33.
-not w. in darkness but light, John 8. 12.
-if any w. in day stumbleth not, Jn. 11. 9.
-if a man w. in night, stumbleth, Jn. 11. 10.
-w. while ye have light, Jn. 12. 35. [10.
-nations to w. in their ways, Acts 14. 16.
-who w. in steps of faith, Rom. 4. 12.
-who w. not after the flesh, Rom. 8. 1, 4.
-let us w. honestly as in, Rom. 13. 13.
-we w. by faith, not sight, 2 Cor. 5. 7.
-w. in the Spirit, and, Gal. 5. 16, 25.
-stand fast in the Lord, Phil. 4. 1.
-that we should w. in them, Eph. 2. 10.
-ye w. worthy of the vocation, Eph. 4. 1.
-w. in love, Eph. 5. 2.
-see ye w. circumspectly, Eph. 5. 15.
-let us w. by same rule, Phil. 3. 16.
-mark them which w. so, Phil. 3. 17.
-many w. of whom I told you, Phil. 3. 18.
-that ye w. worthy of Lord, Col. 1. 10; 1 Thess. 2. 12.
-receive Christ so w. in him, Col. 2. 6.
-live as ought to w., 1 Thess. 4. 1.
-ought to w. as he walked, 1 John 2. 6.
-w. after his commandments, 2 John 6.
-they shall w. with me, Rev. 3. 4. [9.
+**WALK.**—w. before me, and be perfect, Gen. 17. 1.  
+Lord before whom I w., Gen. 24. 40.  
+way wherein they must w., Ex. 18. 20.  
+I will w. among you, be your God, Lev. 26. 12. [23.  
+if I w. contrary to me, Lev. 26. 21, 23.  
+then I w. contrary to you, Lev. 26. 24, 28.  
+shall w. in ways of the Lord, Deut. 5. 33.  
+though I w. through the valley, Ps. 23. 4.  
+I will w. in mine integrity, Ps. 26. 11.  
+w. about Zion, Ps. 48. 12. [Ps. 84. 11.  
+no good from them that w. uprightly, will w. in house with perfect, Ps. 101. 2.  
+I will w. before the Lord, Ps. 116. 9.  
+though I w. in midst of trouble, Ps. 138.  
+w. in ways of thy heart, Deut. 8. 6. [2.  
+w. in his presence, Prov. 8. 30.  
+let us w. in light of the Lord, Isa. 2. 5.  
+this is the way, w. in it, Isa. 30. 21.  
+shall w. and not faint, Isa. 40. 31. [24.  
+they would not w. in his ways, Isa. 42.  
+w. in the light of your fire, Isa. 50. 11.  
+w. in lies, Jer. 23. 14.  
+that w. in pride, Dan. 4. 37.  
+the just shall w. in them, Hos. 14. 9.  
+w. to humbly with thy God, Micah 6. 8.  
+make me to w. on high places, Hab. 3. 19.  
+w. in thy ways to-day and to-mor., Isa. 13. 33.  
+not w. in darkness but light, John 8. 12.  
+if any w. in day stumbleth not, Jn. 11. 9.  
+if a man w. in night, stumbleth, Jn. 11. 10.  
+w. while ye have light, Jn. 12. 35. [10.  
+nations to w. in their ways, Acts 14. 16.  
+who w. in steps of faith, Rom. 4. 12.  
+who w. not after the flesh, Rom. 8. 1, 4.  
+let us w. honestly as in, Rom. 13. 13.  
+we w. by faith, not sight, 2 Cor. 5. 7.  
+w. in the Spirit, and, Gal. 5. 16, 25.  
+stand fast in the Lord, Phil. 4. 1.  
+that we should w. in them, Eph. 2. 10.  
+ye w. worthy of the vocation, Eph. 4. 1.  
+w. in love, Eph. 5. 2.  
+see ye w. circumspectly, Eph. 5. 15.  
+let us w. by same rule, Phil. 3. 16.  
+mark them which w. so, Phil. 3. 17.  
+many w. of whom I told you, Phil. 3. 18.  
+that ye w. worthy of Lord, Col. 1. 10; 1 Thess. 2. 12.  
+receive Christ so w. in him, Col. 2. 6.  
+live as ought to w., 1 Thess. 4. 1.  
+ought to w. as he walked, 1 John 2. 6.  
+w. after his commandments, 2 John 6.  
+they shall w. with me, Rev. 3. 4. [9.  
 
-**WALKED.**—w. with God, Gen. 5. 24, 6. 9.
-by light I w. through dark., Job 29. 3.
-I have w. in thy truth, Ps. 26. 3; Isa. 38. 3.
-w. to house of God, Ps. 55. 14. [3.
-they w. in their own counsels, Ps. 81. 12.
-O that Isr. had w. in my ways! Ps. 81. 13.
-people that w. in darkness, Isa. 9. 2. [9.
-their way is peace, and w., Matt. 2. 2.
-Jesus w. no more openly, John 11. 54.
-w. whether thou wouldest, John 21. 18.
-we w. according to flesh, 2 Cor. 10. 2.
-w. not in same spirit? w. we not in the same steps? 2 Cor. 12. 18.
-w. not uprightly, Gal. 2. 14.
-in time past ye w., Eph. 2. 2; Col. 3. 7.
+**WALKED.**—w. with God, Gen. 5. 24, 6. 9.  
+by light I w. through dark., Job 29. 3.  
+I have w. in thy truth, Ps. 26. 3; Isa. 38. 3.  
+w. to house of God, Ps. 55. 14. [3.  
+they w. in their own counsels, Ps. 81. 12.  
+O that Isr. had w. in my ways! Ps. 81. 13.  
+people that w. in darkness, Isa. 9. 2. [9.  
+their way is peace, and w., Matt. 2. 2.  
+Jesus w. no more openly, John 11. 54.  
+w. whether thou wouldest, John 21. 18.  
+we w. according to flesh, 2 Cor. 10. 2.  
+w. not in same spirit? w. we not in the same steps? 2 Cor. 12. 18.  
+w. not uprightly, Gal. 2. 14.  
+in time past ye w., Eph. 2. 2; Col. 3. 7.  
 
-**WALKEST.**—When w. by the way, Deut. 6. 7; 11. 19.
-when thou passest through fire, Isa. 43. 2.
-now w. thou not charitably, Rom. 14. 15.
-even as thou w. in truth, 3 John 3.
+**WALKEST.**—When w. by the way, Deut. 6. 7; 11. 19.  
+when thou passest through fire, Isa. 43. 2.  
+now w. thou not charitably, Rom. 14. 15.  
+even as thou w. in truth, 3 John 3.  
 
-**WALKETH.**—g. w. in camp, Deut. 23.
-he that w. uprightly, Ps. 15. 2. [14.
-every man w. in a vain shew, Ps. 39. 6.
-who w. upon wings of wind, Ps. 104. 3.
-w. uprightly, w. surely, Pr. 10. 9, 28. 18.
-that w. with wise be wise, Prov. 13. 20.
-poor w. in integrity, Prov. 19. 1, 28. 6.
-whoso w. wisely, Prov. 28. 26.
-w. in the way that is not good, Isa. 50. 10.
-which w. in way not good, Isa. 65. 2.
-is not in man that w., Jer. 10. 23.
-good to him that w. uprightly, Mic. 2. 7.
-he w. through dry places, Matt. 12. 43.
-he that w. in darkness, John 12. 35.
-devil w. about seeking, 1 Pet. 5. 8. [11.
-hateth brother w. in darkness, 1 John 2.
+**WALKETH.**—g. w. in camp, Deut. 23.  
+he that w. uprightly, Ps. 15. 2. [14.  
+every man w. in a vain shew, Ps. 39. 6.  
+who w. upon wings of wind, Ps. 104. 3.  
+w. uprightly, w. surely, Pr. 10. 9, 28. 18.  
+that w. with wise be wise, Prov. 13. 20.  
+poor w. in integrity, Prov. 19. 1, 28. 6.  
+whoso w. wisely, Prov. 28. 26.  
+w. in the way that is not good, Isa. 50. 10.  
+which w. in way not good, Isa. 65. 2.  
+is not in man that w., Jer. 10. 23.  
+good to him that w. uprightly, Mic. 2. 7.  
+he w. through dry places, Matt. 12. 43.  
+he that w. in darkness, John 12. 35.  
+devil w. about seeking, 1 Pet. 5. 8. [11.  
+hateth brother w. in darkness, 1 John 2.  
 
-**WALKING.**—w. in the garden, Gen. 3. 8.
-from w. up and down, Job 1. 7; 2. 2. [3.
-each w. in his uprightness, Isa. 57. 2.
-w. in the fire, Isa. 43. 25.
-w. in all commandments, Luke 1. 6.
-w. in the fear of the Lord, Acts 9. 31.
-not w. in craftiness, nor, 2 Cor. 4. 2.
-w. after lusts, 2 Pet. 3. 3; Jude 16.
-w. in truth, 2 John 4. [Isa. 38. 2.
+**WALKING.**—w. in the garden, Gen. 3. 8.  
+from w. up and down, Job 1. 7; 2. 2. [3.  
+each w. in his uprightness, Isa. 57. 2.  
+w. in the fire, Isa. 43. 25.  
+w. in all commandments, Luke 1. 6.  
+w. in the fear of the Lord, Acts 9. 31.  
+not w. in craftiness, nor, 2 Cor. 4. 2.  
+w. after lusts, 2 Pet. 3. 3; Jude 16.  
+w. in truth, 2 John 4. [Isa. 38. 2.  
 
-**WALL.**—Turned face to w., 2 Kin. 20. 2; so built we w., Neh. 4. 6.
-a bowing w. shall ye be, Ps. 62. 3.
-as high w. in his conceit, Prov. 18. 11.
-a wall standeth round about w., Cant. 2. 9.
-if she be a w., Cant. 8. 9. [10.
-we grope for the w. like blind, Isa. 59.
-will make thee a fenced w., Jer. 15. 20.
-leaned his hand on the w., Amos 5. 19.
-thou whited w., Acts 23. 3.
-broken down middle w., Eph. 2. 14.
-w. of city had twelve foundations, Rev. 21. 14.
+**WALL.**—Turned face to w., 2 Kin. 20. 2; so built we w., Neh. 4. 6.  
+a bowing w. shall ye be, Ps. 62. 3.  
+as high w. in his conceit, Prov. 18. 11.  
+a wall standeth round about w., Cant. 2. 9.  
+if she be a w., Cant. 8. 9. [10.  
+we grope for the w. like blind, Isa. 59.  
+will make thee a fenced w., Jer. 15. 20.  
+leaned his hand on the w., Amos 5. 19.  
+thou whited w., Acts 23. 3.  
+broken down middle w., Eph. 2. 14.  
+w. of city had twelve foundations, Rev. 21. 14.  
 
-**WALLS.**—City without w., Prov. 25. 28.
-salvation will God appoint for w., Isa. 26. 1. [Isa. 60.
+**WALLS.**—City without w., Prov. 25. 28.  
+salvation will God appoint for w., Isa. 26. 1. [Isa. 60.  
 thy w. are continually before me,
-thou shalt call thy w. salvation, Isa. 60.
-w. of Jericho fell down, Heb. 11. 30. [18.
+thou shalt call thy w. salvation, Isa. 60.  
+w. of Jericho fell down, Heb. 11. 30. [18.  
 
-**WANDER.**—Your children shall w., Num. 14. 33; Ps. 107. 40.
-he causeth them to w. in, Job 12. 24.
-he w. abroad for bread, Job 15. 23.
-ravens w. for lack of meat, Job 38. 41.
-then would I w. far off, Ps. 55. 7. [10.
-let me not w. from command., Ps. 119.
-go astray, w. as sheep, Ps. 119. 176.
-as a bird that w. from nest, Prov. 27. 8.
-they shall w. every one, Isa. 47. 15.
-thus they loved to w., Jer. 14. 10.
+**WANDER.**—Your children shall w., Num. 14. 33; Ps. 107. 40.  
+he causeth them to w. in, Job 12. 24.  
+he w. abroad for bread, Job 15. 23.  
+ravens w. for lack of meat, Job 38. 41.  
+then would I w. far off, Ps. 55. 7. [10.  
+let me not w. from command., Ps. 119.  
+go astray, w. as sheep, Ps. 119. 176.  
+as a bird that w. from nest, Prov. 27. 8.  
+they shall w. every one, Isa. 47. 15.  
+thus they loved to w., Jer. 14. 10.  
 
-**WANDERERS.**—w. among nations, Hos. 9. 17. [107. 4; Isa. 16. 8.
+**WANDERERS.**—w. among nations, Hos. 9. 17. [107. 4; Isa. 16. 8.  
 
-**WANDERED.**—w. in wilderness, Ps. they have w. as blind men, Lam. 4. 14.
-my sheep w. through all, Ezek. 34. 6.
-w. about in, Heb. 11. 37, 38. [56. 8.
+**WANDERED.**—w. in wilderness, Ps. they have w. as blind men, Lam. 4. 14.  
+my sheep w. through all, Ezek. 34. 6.  
+w. about in, Heb. 11. 37, 38. [56. 8.  
 
-**WANDERING.**—Thou tellest my w., Ps. better sight of eyes than w., Eccl. 6. 9.
-w. from house to house, 1 Tim. 5. 13.
-w. stars, to whom is reserved, Jude 13.
+**WANDERING.**—Thou tellest my w., Ps. better sight of eyes than w., Eccl. 6. 9.  
+w. from house to house, 1 Tim. 5. 13.  
+w. stars, to whom is reserved, Jude 13.  
 
-**WANT.**—Come enemies in w., Deut. 28.
-seen any perish for w., Job 31. 19. [48.
-no w. to them that f-w., Ps. 34. 9.
-w. as armed man, Prov. 6. 11, 24. 34.
-giveth to rich shall come to w., Pr. 22.
-he began to be in w., Luke 15. 14. [16.
-ministered to my w., Phil. 2. 25.
-not that I speak of w., Phil. 4. 11.
+**WANT.**—Come enemies in w., Deut. 28.  
+seen any perish for w., Job 31. 19. [48.  
+no w. to them that f-w., Ps. 34. 9.  
+w. as armed man, Prov. 6. 11, 24. 34.  
+giveth to rich shall come to w., Pr. 22.  
+he began to be in w., Luke 15. 14. [16.  
+ministered to my w., Phil. 2. 25.  
+not that I speak of w., Phil. 4. 11.  
 
-**WANT.**—I shall not w., Ps. 23. 1.
-seek Lord shall not w., Ps. 34. 10.
-he w. nothing for his soul, Eccl. 6. 2.
-that they may w. bread, Ezek. 4. 17.
+**WANT.**—I shall not w., Ps. 23. 1.  
+seek Lord shall not w., Ps. 34. 10.  
+he w. nothing for his soul, Eccl. 6. 2.  
+that they may w. bread, Ezek. 4. 17.  
 
-**WANTING.**—Pound taken away, Ez. 4. 27.
-set in order the things that w., Titus 1. 5.
-and entire, w. nothing, Jas. 1. 4.
+**WANTING.**—Pound taken away, Ez. 4. 27.  
+set in order the things that w., Titus 1. 5.  
+and entire, w. nothing, Jas. 1. 4.  
 
-**WANTON.**—w. eyes, Isa. 3. 16.
-to wax w. against Christ, 1 Tim. 5. 11.
-ye have lived and been w., Jas. 5. 5. [18.
+**WANTON.**—w. eyes, Isa. 3. 16.  
+to wax w. against Christ, 1 Tim. 5. 11.  
+ye have lived and been w., Jas. 5. 5. [18.  
 
-**WANTONNESS.**—Rom. 13. 13; 2 Pet. 2.
+**WANTONNESS.**—Rom. 13. 13; 2 Pet. 2.  
 
-**WAR.**—Noise of w. in camp, Ex. 32. 17.
-go before the L. to w., Num. 32. 20, 27.
-then was w. in the gates, Judg. 5. 8.
-the w. was of God, 1 Chron. 5. 22. [17.
-changes and w. are against me, Job 10.
-reserved against day of w., Job 38. 23.
-thought in his heart, Ecc. 9. 18; Jer. 27. 3.
-w. was in his heart, Ps. 55. 21.
-when I speak they are for w., Ps. 120. 7.
-with good advice make w., Prov. 20. 18.
-by counsel thou shalt make w., Pr. 24. 6.
-wisdom better than weapons of w., Eccl. 9. 19. [4. 3.
-nor learn w. any more, Isa. 2. 4; Micah the grievousness of w., Isa. 21. 15.
-where we shall see no w., Jer. 42. 14.
-made w. with saints, Dan. 7. 21.
-as men adverse from w., Micah 2. 8.
-w. going against Jerusalem, 2 Ki. 14. 31.
-there was w. in heaven, Rev. 12. 7.
-in righteousness make w., Rev. 19. 11.
+**WAR.**—Noise of w. in camp, Ex. 32. 17.  
+go before the L. to w., Num. 32. 20, 27.  
+then was w. in the gates, Judg. 5. 8.  
+the w. was of God, 1 Chron. 5. 22. [17.  
+changes and w. are against me, Job 10.  
+reserved against day of w., Job 38. 23.  
+thought in his heart, Ecc. 9. 18; Jer. 27. 3.  
+w. was in his heart, Ps. 55. 21.  
+when I speak they are for w., Ps. 120. 7.  
+with good advice make w., Prov. 20. 18.  
+by counsel thou shalt make w., Pr. 24. 6.  
+wisdom better than weapons of w., Eccl. 9. 19. [4. 3.  
+nor learn w. any more, Isa. 2. 4; Micah the grievousness of w., Isa. 21. 15.  
+where we shall see no w., Jer. 42. 14.  
+made w. with saints, Dan. 7. 21.  
+as men adverse from w., Micah 2. 8.  
+w. going against Jerusalem, 2 Ki. 14. 31.  
+there was w. in heaven, Rev. 12. 7.  
+in righteousness make w., Rev. 19. 11.  
 
-**WAR.**—Teacheth my hands to w., 2 Sam. 22. 35; Ps. 18. 34, 144. 1. [12.
-that w. against thee as nothing, Isa. 41.
-do not w. after flesh, 2 Cor. 10. 3.
-that w. entangleth himself, 2 Tim. 2. 4.
-lusts that w. in members, Jas. 4. 1.
-ye fight and w. yet ye have not, Jas. 4. 2.
-lusts which w. against soul, 1 Pet. 2. 11.
+**WAR.**—Teacheth my hands to w., 2 Sam. 22. 35; Ps. 18. 34, 144. 1. [12.  
+that w. against thee as nothing, Isa. 41.  
+do not w. after flesh, 2 Cor. 10. 3.  
+that w. entangleth himself, 2 Tim. 2. 4.  
+lusts that w. in members, Jas. 4. 1.  
+ye fight and w. yet ye have not, Jas. 4. 2.  
+lusts which w. against soul, 1 Pet. 2. 11.  
 
-**WARNING.**—w. against law of mind, Rom. 7. 23. [21. 14.
+**WARNING.**—w. against law of mind, Rom. 7. 23. [21. 14.  
 
-**WARS.**—The book of w. of Lord, Num. he maketh w. to cease, Ps. 46. 9.
-ye shall hear of w. and rumours of w., Matt. 24. 6; Mark 13. 7; Luke 21. 9.
-from whence come w.? Jas. 4. 1. [40. 2.
+**WARS.**—The book of w. of Lord, Num. he maketh w. to cease, Ps. 46. 9.  
+ye shall hear of w. and rumours of w., Matt. 24. 6; Mark 13. 7; Luke 21. 9.  
+from whence come w.? Jas. 4. 1. [40. 2.  
 
-**WARFARE.**—w. is accomplished, Isa. 40. 2.
-goeth w. any time at his, 1 Cor. 9. 7.
-weapons of w. not carnal, 2 Cor. 10. 4.
-mightiest war a good w., 1 Tim. 1. 18.
+**WARFARE.**—w. is accomplished, Isa. 40. 2.  
+goeth w. any time at his, 1 Cor. 9. 7.  
+weapons of w. not carnal, 2 Cor. 10. 4.  
+mightiest war a good w., 1 Tim. 1. 18.  
 
-**WARM.**—That w. eggs in dust, Job 39.
-how can one be w. alone? Eccl. 4. 11. [14.
-he w. himself, and saith, Isa. 44. 16.
-but neither w. themselves, Hag. 1. 6. [25.
-Peter w. himself, Mark 14. 54; John 18.
-by ye w., be ye clothed, Jas. 2. 16. [33. 8.
+**WARM.**—That w. eggs in dust, Job 39.  
+how can one be w. alone? Eccl. 4. 11. [14.  
+he w. himself, and saith, Isa. 44. 16.  
+but neither w. themselves, Hag. 1. 6. [25.  
+Peter w. himself, Mark 14. 54; John 18.  
+by ye w., be ye clothed, Jas. 2. 16. [33. 8.  
 
-**WARN.**—To w. the wicked, Ezek. 3. 18.
-yet if thou w. wicked, Ezek. 3. 19, 33. 9.
-w. the people, Ezek. 33. 3.
-I ceased not to w. every, Acts 20. 31.
-beloved sons, I w. you, 1 Cor. 4. 14.
-w. them that are unruly, 1 Thess. 5. 14.
+**WARN.**—To w. the wicked, Ezek. 3. 18.  
+yet if thou w. wicked, Ezek. 3. 19, 33. 9.  
+w. the people, Ezek. 33. 3.  
+I ceased not to w. every, Acts 20. 31.  
+beloved sons, I w. you, 1 Cor. 4. 14.  
+w. them that are unruly, 1 Thess. 5. 14.  
 
-**WARNED.**—By them is servant w., Ps. being w. of God, Matt. 2. 12. [19. 11.
-who hath w. you? Matt. 3. 7.
-w. and prepared ark, Heb. 11. 7.
+**WARNED.**—By them is servant w., Ps. being w. of God, Matt. 2. 12. [19. 11.  
+who hath w. you? Matt. 3. 7.  
+w. and prepared ark, Heb. 11. 7.  
 
-**WARNING.**—w. every man, teaching, Col. 1. 28.
+**WARNING.**—w. every man, teaching, Col. 1. 28.  
 
-**WASH.**—Go w. in Jordan, 2 Kings 5. 10.
-I w. myself with snow water, Job 9. 30.
-w. my hands in innocency, Ps. 26. 6.
-w. me from mine iniquity, Ps. 51. 2. [7.
-w. me and I shall be whiter than, Ps. 51.
-w. his feet in blood of wicked, Ps. 58. 10.
-w. ye, make you clean, Isa. 1. 16.
-though thou w. with nitre, Jer. 2. 22.
-w. thy heart from wicked., Jer. 4. 14.
-when thou fastest to, face, Matt. 6. 17.
-w. thyself therefore, Matt. 27. 24.
-except they w. they eat not, Mark 7. 3, 4.
-began to w. his feet, Luke 7. 38.
-w. in pool of Siloam, John 9. 7, 11.
-began to w. disciples' feet, John 13. 5.
-if I w. thee not, John 13. 8. [14.
-ought to w. one another's feet, John 13.
-and w. away thy sins, Acts 22. 16.
+**WASH.**—Go w. in Jordan, 2 Kings 5. 10.  
+I w. myself with snow water, Job 9. 30.  
+w. my hands in innocency, Ps. 26. 6.  
+w. me from mine iniquity, Ps. 51. 2. [7.  
+w. me and I shall be whiter than, Ps. 51.  
+w. his feet in blood of wicked, Ps. 58. 10.  
+w. ye, make you clean, Isa. 1. 16.  
+though thou w. with nitre, Jer. 2. 22.  
+w. thy heart from wicked., Jer. 4. 14.  
+when thou fastest to, face, Matt. 6. 17.  
+w. thyself therefore, Matt. 27. 24.  
+except they w. they eat not, Mark 7. 3, 4.  
+began to w. his feet, Luke 7. 38.  
+w. in pool of Siloam, John 9. 7, 11.  
+began to w. disciples' feet, John 13. 5.  
+if I w. thee not, John 13. 8. [14.  
+ought to w. one another's feet, John 13.  
+and w. away thy sins, Acts 22. 16.  
 
-**WASHED.**—I w. hands in innocency, Ps. 73. 13.
-not w. from filthiness, Prov. 30. 12.
-his eyes are w. with milk, Cant. 5. 12.
-w. away filth of daughters, Isa. 4. 4.
-nor wast w. in water, Ezek. 16.
-w. also his hands, Matt. 27. 24.
-she hath w. my feet, Luke 7. 44.
-is w. needed not save to, John 13. 10.
-w. stripes, Acts 16. 33.
-but ye are w., 1 Cor. 6. 11.
-if she w. saints' feet, 1 Tim. 5. 10.
-that w. us from our sins, Rev. 1. 5.
-have w. their robes white, Rev. 7. 14.
+**WASHED.**—I w. hands in innocency, Ps. 73. 13.  
+not w. from filthiness, Prov. 30. 12.  
+his eyes are w. with milk, Cant. 5. 12.  
+w. away filth of daughters, Isa. 4. 4.  
+nor wast w. in water, Ezek. 16.  
+w. also his hands, Matt. 27. 24.  
+she hath w. my feet, Luke 7. 44.  
+is w. needed not save to, John 13. 10.  
+w. stripes, Acts 16. 33.  
+but ye are w., 1 Cor. 6. 11.  
+if she w. saints' feet, 1 Tim. 5. 10.  
+that w. us from our sins, Rev. 1. 5.  
+have w. their robes white, Rev. 7. 14.  
 
-**WASHING.**—w. of cups and, Mk. 7. 4, 8.
-cleanse with w. of water, Eph. 5. 26.
-saved us by w. of regeneration, Tit. 3. 5.
-which stood in meats and w., Heb. 9. 10.
+**WASHING.**—w. of cups and, Mk. 7. 4, 8.  
+cleanse with w. of water, Eph. 5. 26.  
+saved us by w. of regeneration, Tit. 3. 5.  
+which stood in meats and w., Heb. 9. 10.  
 
-**WAST.**—Devoured, Ps. 80. 13; Isa. 24. 1.
-I will make mountains, Isa. 42. 15.
-to what purpose this w.? Matt. 26. 8.
+**WAST.**—Devoured, Ps. 80. 13; Isa. 24. 1.  
+I will make mountains, Isa. 42. 15.  
+to what purpose this w.? Matt. 26. 8.  
 
-**WASTED.**—That w. us, Ps. 137. 3.
-till the cities be w., Isa. 6. 11.
-nations shall be utterly w., Isa. 60. 12.
-field is w. corn is w., Joel 1. 10.
-prodigal w. substance, Luke 15. 13.
-accused that he w. his goods, Lu. 16. 1.
-persecuted church and w. it, Gal. 1. 13.
+**WASTED.**—That w. us, Ps. 137. 3.  
+till the cities be w., Isa. 6. 11.  
+nations shall be utterly w., Isa. 60. 12.  
+field is w. corn is w., Joel 1. 10.  
+prodigal w. substance, Luke 15. 13.  
+accused that he w. his goods, Lu. 16. 1.  
+persecuted church and w. it, Gal. 1. 13.  
 
-**WASTER.**—Prov. 18. 9; Isa. 54. 16.
+**WASTER.**—Prov. 18. 9; Isa. 54. 16.  
 
-**WATCH.**—Shall build the old w., Isa. 58. 12.
+**WATCH.**—Shall build the old w., Isa. 58. 12.  
 
-**WASTETH.**—Man w. away, Job 14. 10.
-he that w. father and, Prov. 19. 26.
+**WASTETH.**—Man w. away, Job 14. 10.  
+he that w. father and, Prov. 19. 26.  
 
-**WASTING.**—Isa. 59. 7, 60. 18.
+**WASTING.**—Isa. 59. 7, 60. 18.  
 
-**WATCH.**—Prayed and set a w., Neh. 4.
-as a w. in the night, Ps. 90. 4. [9.
-set a w. before my mouth, Ps. 141. 3.
-make the w. strong, Jer. 51. 12.
-I will stand upon my w., Hab. 2. 1.
-ye have a w., Matt. 27. 65, 66.
-if he come in second w., Luke 12. 38.
-Watch ye, must not w. over my sin? Job 14. 16.
+**WATCH.**—Prayed and set a w., Neh. 4.  
+as a w. in the night, Ps. 90. 4. [9.  
+set a w. before my mouth, Ps. 141. 3.  
+make the w. strong, Jer. 51. 12.  
+I will stand upon my w., Hab. 2. 1.  
+ye have a w., Matt. 27. 65, 66.  
+if he come in second w., Luke 12. 38.  
+Watch ye, must not w. over my sin? Job 14. 16.  
 
-**I W.** and am as a sparrow, Ps. 102. 7.
-more than they that w., Ps. 130. 6.
-all that w. for iniquity are, Isa. 29. 20.
-I will w. over them for evil, Jer. 44. 27.
-therefore w., Matt. 24. 42, 25. 13; Mk. 13. 33; Luke 21. 36; Acts 20. 31. [37.
-could ye not w., Matt. 26. 40; Mk. 14. 34.
-w. and pray, Matt. 26. 41; Mark 13. 33.
-w. 13. 33; Col. 4. 2. [37.
-what I say to all I say to all w., Mk. 13.
-I w. as Steward of faith, 1 Cor. 4. 16. 13.
-let us w., 1 Thess. 5. 6; 1 Pet. 4. 7.
-w. thou in all things, 2 Tim. 4. 5.
-they w. for your souls, Heb. 13. 17.
+**I W.** and am as a sparrow, Ps. 102. 7.  
+more than they that w., Ps. 130. 6.  
+all that w. for iniquity are, Isa. 29. 20.  
+I will w. over them for evil, Jer. 44. 27.  
+therefore w., Matt. 24. 42, 25. 13; Mk. 13. 33; Luke 21. 36; Acts 20. 31. [37.  
+could ye not w., Matt. 26. 40; Mk. 14. 34.  
+w. and pray, Matt. 26. 41; Mark 13. 33.  
+w. 13. 33; Col. 4. 2. [37.  
+what I say to all I say to all w., Mk. 13.  
+I w. as Steward of faith, 1 Cor. 4. 16. 13.  
+let us w., 1 Thess. 5. 6; 1 Pet. 4. 7.  
+w. thou in all things, 2 Tim. 4. 5.  
+they w. for your souls, Heb. 13. 17.  
 
-**WATCHED.**—Families w. for halting, Jer. 20. 10.
+**WATCHED.**—Families w. for halting, Jer. 20. 10.  
 
-**WATCHER.**—w. and an holy one, Dan. 4. 13, 17, 23.
+**WATCHER.**—w. and an holy one, Dan. 4. 13, 17, 23.  
 
-**WATCHETH.**—Wicked w. righteous, Ps. 37. 32.
-it w. for thee, it is come, Ezek. 7. 6.
-seed is he that w., Rev. 16. 15.
+**WATCHETH.**—Wicked w. righteous, Ps. 37. 32.  
+it w. for thee, it is come, Ezek. 7. 6.  
+seed is he that w., Rev. 16. 15.  
 
-**WATCHFUL.**—Be w., 1 Pet. 5. 8.
+**WATCHFUL.**—Be w., 1 Pet. 5. 8.  
 
-**WATCHING.**—w. daily at gates, Prov. Lord shall find w., Luke 12. 37. [8. 34.
-in w. often, in hunger, 2 Cor. 11. 27.
-w. with perseverance, Eph. 6. 18.
+**WATCHING.**—w. daily at gates, Prov. Lord shall find w., Luke 12. 37. [8. 34.  
+in w. often, in hunger, 2 Cor. 11. 27.  
+w. with perseverance, Eph. 6. 18.  
 
-**WATCHMAN.**—w. waketh in vain, Ps. w.] what of the night? Isa. 21. 11. [127. 1.
-set up three w. prepare, Jer. 51. 12.
-have made thee a w., Ezek. 3. 17, 33. 7.
-w. of Ephraim was with God, Hos. 9. 8.
+**WATCHMAN.**—w. waketh in vain, Ps. w.] what of the night? Isa. 21. 11. [127. 1.  
+set up three w. prepare, Jer. 51. 12.  
+have made thee a w., Ezek. 3. 17, 33. 7.  
+w. of Ephraim was with God, Hos. 9. 8.  
 
-**WATCHMEN.**—w. go about the city, Cant. 3. 2.
-they w. shall lift the voice, Isa. 52. 8.
-his w. are blind, Isa. 56. 10.
-I have set w. on thy walls, Isa. 62. 6.
-I set w. over you, saying, Jer. 6. 17. [6.
-w. on mount Ephraim shall cry, Jer. 31.
-the day of thy w. cometh, Micah 7. 4.
+**WATCHMEN.**—w. go about the city, Cant. 3. 2.  
+they w. shall lift the voice, Isa. 52. 8.  
+his w. are blind, Isa. 56. 10.  
+I have set w. on thy walls, Isa. 62. 6.  
+I set w. over you, saying, Jer. 6. 17. [6.  
+w. on mount Ephraim shall cry, Jer. 31.  
+the day of thy w. cometh, Micah 7. 4.  
 
-**WATCH-TOWER.**—Isa. 21. 5, 8.
+**WATCH-TOWER.**—Isa. 21. 5, 8.  
 
-**WATER.**—Unstable as w., Gen. 49. 4.
-Lord bless their bread and thy w., Ex. 23. 25.
-heart melted and became w., Josh. 7. 5.
-was split on ground, Ps. 141. 14.
-feed me with w. of affliction, 1 Kings 22. 27.
-vet through the scent of w., Job 14. 9.
-who drinketh iniquity like w., Job 15. 16.
-hast not drawn w. to weary, Job 22. 7.
-I am poured out like w., Ps. 22. 14.
-where no w. is, Ps. 63. 1.
+**WATER.**—Unstable as w., Gen. 49. 4.  
+Lord bless their bread and thy w., Ex. 23. 25.  
+heart melted and became w., Josh. 7. 5.  
+was split on ground, Ps. 141. 14.  
+feed me with w. of affliction, 1 Kings 22. 27.  
+vet through the scent of w., Job 14. 9.  
+who drinketh iniquity like w., Job 15. 16.  
+hast not drawn w. to weary, Job 22. 7.  
+I am poured out like w., Ps. 22. 14.  
+where no w. is, Ps. 63. 1.  
 
 
 ---
 
 # Content from: pages88-89.md
 
-**WATER.**—It was well w., Gen. 13. 10.
-I w. couch with my tears, Ps. 6. 6.
-visit earth and w. it, Ps. 65. 9.
-he w. hills from his chambers, Ps. 104. 13.
-that w. shall be watered, Prov. 11. 25.
-I will w. every moment, Isa. 27. 3.
-I will w. them with blood, Ezek. 32. 6.
-I planted, Apollos w., 1 Cor. 3. 6.
+**WATER.**—It was well w., Gen. 13. 10.  
+I w. couch with my tears, Ps. 6. 6.  
+visit earth and w. it, Ps. 65. 9.  
+he w. hills from his chambers, Ps. 104. 13.  
+that w. shall be watered, Prov. 11. 25.  
+I will w. every moment, Isa. 27. 3.  
+I will w. them with blood, Ezek. 32. 6.  
+I planted, Apollos w., 1 Cor. 3. 6.  
 
-**WATER-SPOUTS.**—Ps. 42. 7.
+**WATER-SPOUTS.**—Ps. 42. 7.  
 
-**WATER-SPRINGS.**—Ps. 107. 33, 35.
+**WATER-SPRINGS.**—Ps. 107. 33, 35.  
 
-**WATERS.**—Out of many w., 2 Sam. 22. 17; Ps. 18. 16.
-he withholdeth w. they dry, Job 12. 15.
-as the w. fall from the sea, Job 14. 11.
-w. wear the stones, Job 14. 19. [18.
-shall break up in thick clouds, Job 36.
-w. are held as in a store, Job 38. 30.
-leadeth me beside still w., Ps. 23. 2.
-though the w. thereof roar, Ps. 46. 3.
-w. are come in unto my soul, Ps. 69. 1.
-w. of a full cup are wrung, Ps. 73. 10.
-w. saw thee, O God, w. saw, Ps. 77. 16.
-mightier than noise of many w., Ps. 93.
-rivers of w. run down, Ps. 119. 136. [4.
-w. had overwhelmed us, Ps. 124. 4.
-drink w. out of own cistern, Prov. 5. 15.
-thy fountains are scattered abroad, Prov. 5. 16.
-who wound w. in a garment, Prov. 30. 4.
-a well of w. and streams, Cant. 4. 15.
-many w. cannot quench love, Cant. 8. 7.
-as w. cover seas, Isa. 11. 9; Hab. 2. 14.
-w. shall fail from the sea, Isa. 19. 5.
-in wilderness w. break forth, Isa. 35. 6.
-I give w. in the wilderness, Isa. 43. 20.
-as w. of Noah to me, Isa. 54. 9.
-come ye to the w., Isa. 55. 1.
-whose waters fail not, Isa. 58. 11.
-w. containeth but little w., Jer. 2. 13.
-God hath given w. of gall, Jer. 8. 14.
-forsaken Lord, fountain of w., Jer. 17.
-w. flowed over head, Lam. 3. 54. [13.
-like noise of many w., Ezek. 43. 2; Rev.
-1. 15, 14. 2, 19. 6.
-w. compassed me about, Jonah 2. 5.
-living w. shall go from Jer., Zech. 14. 8.
-in perils of w., 2 Cor. 11. 26.
-lead them to fountains of w., Rev. 7. 17.
-I thirst no more, Rev. 21. 6.
+**WATERS.**—Out of many w., 2 Sam. 22. 17; Ps. 18. 16.  
+he withholdeth w. they dry, Job 12. 15.  
+as the w. fall from the sea, Job 14. 11.  
+w. wear the stones, Job 14. 19. [18.  
+shall break up in thick clouds, Job 36.  
+w. are held as in a store, Job 38. 30.  
+leadeth me beside still w., Ps. 23. 2.  
+though the w. thereof roar, Ps. 46. 3.  
+w. are come in unto my soul, Ps. 69. 1.  
+w. of a full cup are wrung, Ps. 73. 10.  
+w. saw thee, O God, w. saw, Ps. 77. 16.  
+mightier than noise of many w., Ps. 93.  
+rivers of w. run down, Ps. 119. 136. [4.  
+w. had overwhelmed us, Ps. 124. 4.  
+drink w. out of own cistern, Prov. 5. 15.  
+thy fountains are scattered abroad, Prov. 5. 16.  
+who wound w. in a garment, Prov. 30. 4.  
+a well of w. and streams, Cant. 4. 15.  
+many w. cannot quench love, Cant. 8. 7.  
+as w. cover seas, Isa. 11. 9; Hab. 2. 14.  
+w. shall fail from the sea, Isa. 19. 5.  
+in wilderness w. break forth, Isa. 35. 6.  
+I give w. in the wilderness, Isa. 43. 20.  
+as w. of Noah to me, Isa. 54. 9.  
+come ye to the w., Isa. 55. 1.  
+whose waters fail not, Isa. 58. 11.  
+w. containeth but little w., Jer. 2. 13.  
+God hath given w. of gall, Jer. 8. 14.  
+forsaken Lord, fountain of w., Jer. 17.  
+w. flowed over head, Lam. 3. 54. [13.  
+like noise of many w., Ezek. 43. 2; Rev.  
+1. 15, 14. 2, 19. 6.  
+w. compassed me about, Jonah 2. 5.  
+living w. shall go from Jer., Zech. 14. 8.  
+in perils of w., 2 Cor. 11. 26.  
+lead them to fountains of w., Rev. 7. 17.  
+I thirst no more, Rev. 21. 6.  
 
-**WAVERETH.**—He that w. is, Jas. 1. 6.
+**WAVERETH.**—He that w. is, Jas. 1. 6.  
 
-**WAVERING.**—Without w., Heb. 10. 23.
-nothing w., Jas. 1. 6. [2. 3.
+**WAVERING.**—Without w., Heb. 10. 23.  
+nothing w., Jas. 1. 6. [2. 3.  
 
 **WAVES.**—All thy w., Ps. 42. 7; Jonah
-stilleth the w., Ps. 65. 7, 89. 9, 107. 29.
-floods lift up their w., Ps. 93. 3.
-which lifteth up w., Ps. 107. 25.
-though w. toss, Jer. 5. 22.
-Babylon is covered with w., Jer. 51. 42.
-dashed with w., Matt. 8. 24.
-tossed to and fro, Matt. 14. 24; Mk. 4. 37.
-raging w. of sea, Jude 13.
+stilleth the w., Ps. 65. 7, 89. 9, 107. 29.  
+floods lift up their w., Ps. 93. 3.  
+which lifteth up w., Ps. 107. 25.  
+though w. toss, Jer. 5. 22.  
+Babylon is covered with w., Jer. 51. 42.  
+dashed with w., Matt. 8. 24.  
+tossed to and fro, Matt. 14. 24; Mk. 4. 37.  
+raging w. of sea, Jude 13.  
 
-**WAX.**—My heart is like w., Ps. 22. 14.
-as w. melteth, wicked perish, Ps. 68. 2.
+**WAX.**—My heart is like w., Ps. 22. 14.  
+as w. melteth, wicked perish, Ps. 68. 2.  
 
-**WAX.**—Wrath w. hot, Ex. 32. 10, 11. 22.
-w. old as a garment, Ps. 102. 26; Isa. 50.
-9, 51. 6; Heb. 1. 11.
+**WAX.**—Wrath w. hot, Ex. 32. 10, 11. 22.  
+w. old as a garment, Ps. 102. 26; Isa. 50.  
+9, 51. 6; Heb. 1. 11.  
 
 **WAY.**—Lord was with me in the w.,
-Gen. 35. 3. [19; Ps. 107. 4.
-shew them the w., Ex. 18. 20; Neh. 9.
+Gen. 35. 3. [19; Ps. 107. 4.  
+shew them the w., Ex. 18. 20; Neh. 9.  
 give w. to all earth, Josh. 23. 14; 1
-Kgs. 2. 2. [23.
-I will teach you the good w., 1 Sam. 12.
-as for God, his w. is perfect, 2 Sam. 22.
-31; Ps. 18. 30.
-seek of him a right w., Ezra 8. 21.
-whose w. is hid, Job 3. 23. [40.
-where there is no w., Job 12. 24; Ps. 107.
-go w. whence not return, Job 16. 22.
-he knoweth w. that I take, Job 23. 10.
-where is w. light dwelleth? Job 38. 19.
-Lord knoweth w. of righteous, Ps. 1. 6.
-lest ye perish from w., Ps. 2. 12. [11.
-teach me thy w., O Lord, Ps. 27. 11, 86.
-setteth himself in w. not good, Ps. 36. 4.
-this their w. is their folly, Ps. 49. 13.
-that w. may be known upon, Ps.
-the w. of God is in sanctuary, Ps. 77.
-thy w. is in sea, thy path in, Ps. 77. 19.
-behave wisely in perfect w., Ps. 101. 6.
-I have chosen the w. of truth, Ps. 119. 30.
-I hate every false w., Ps. 119. 104, 128.
-lead me in the w. everlasting, Ps. 139. 24.
-he preserveth w. of saints, Prov. 2. 8.
-w. of wicked is as darkness, Prov. 4. 19.
-w. of life, Prov. 6. 23, 15. 24; Jer. 21. 8.
-w. of transgressors is hard, Prov. 13. 15.
+Kgs. 2. 2. [23.  
+I will teach you the good w., 1 Sam. 12.  
+as for God, his w. is perfect, 2 Sam. 22.  
+31; Ps. 18. 30.  
+seek of him a right w., Ezra 8. 21.  
+whose w. is hid, Job 3. 23. [40.  
+where there is no w., Job 12. 24; Ps. 107.  
+go w. whence not return, Job 16. 22.  
+he knoweth w. that I take, Job 23. 10.  
+where is w. light dwelleth? Job 38. 19.  
+Lord knoweth w. of righteous, Ps. 1. 6.  
+lest ye perish from w., Ps. 2. 12. [11.  
+teach me thy w., O Lord, Ps. 27. 11, 86.  
+setteth himself in w. not good, Ps. 36. 4.  
+this their w. is their folly, Ps. 49. 13.  
+that w. may be known upon, Ps.  
+the w. of God is in sanctuary, Ps. 77.  
+thy w. is in sea, thy path in, Ps. 77. 19.  
+behave wisely in perfect w., Ps. 101. 6.  
+I have chosen the w. of truth, Ps. 119. 30.  
+I hate every false w., Ps. 119. 104, 128.  
+lead me in the w. everlasting, Ps. 139. 24.  
+he preserveth w. of saints, Prov. 2. 8.  
+w. of wicked is as darkness, Prov. 4. 19.  
+w. of life, Prov. 6. 23, 15. 24; Jer. 21. 8.  
+w. of transgressors is hard, Prov. 13. 15.  
 w. which seemeth right, Prov. 14. 12,
-16. 25.
-knowest not w. of Spirit, Eccl. 11. 5.
-fear shall be in the w., Eccl. 12. 5.
-w. of the just is uprightness, Isa. 26. 7.
-this is the w. walk ye in it, Isa. 30. 21.
-w. of man is not in himself, Jer. 10. 23.
-why sayest my w. is hid? Isa. 40. 27.
+16. 25.  
+knowest not w. of Spirit, Eccl. 11. 5.  
+fear shall be in the w., Eccl. 12. 5.  
+w. of the just is uprightness, Isa. 26. 7.  
+this is the w. walk ye in it, Isa. 30. 21.  
+w. of man is not in himself, Jer. 10. 23.  
+why sayest my w. is hid? Isa. 40. 27.  
 Lord maketh a w. in sea, Isa. 43. 16,
-51. 10.
-I will make w. in wilderness, Isa. 43. 19.
-turned every one to own w., Isa. 53. 6.
-let the wicked forsake his w., Isa. 55. 7.
-where is the good w., Jer. 6. 16. [23.
-the w. of man is not in himself, Jer. 10.
-give them one heart, one w., Jer. 32. 39.
-is not my w. equal? Ezek. 18. 25.
-as for them their w. is not equal, Ezek.
-33. 17.
-turn aside w. of meek, Amos 2. 7.
-Lords path his w. in whirlwind, Nah. 1. 3.
-shall prepare w. before me, Mal. 3. 1.
-broad is w. to destruction, Matt. 7. 13.
-narrow is w. leadeth unto life, Matt. 7. 14.
+51. 10.  
+I will make w. in wilderness, Isa. 43. 19.  
+turned every one to own w., Isa. 53. 6.  
+let the wicked forsake his w., Isa. 55. 7.  
+where is the good w., Jer. 6. 16. [23.  
+the w. of man is not in himself, Jer. 10.  
+give them one heart, one w., Jer. 32. 39.  
+is not my w. equal? Ezek. 18. 25.  
+as for them their w. is not equal, Ezek.  
+33. 17.  
+turn aside w. of meek, Amos 2. 7.  
+Lords path his w. in whirlwind, Nah. 1. 3.  
+shall prepare w. before me, Mal. 3. 1.  
+broad is w. to destruction, Matt. 7. 13.  
+narrow is w. leadeth unto life, Matt. 7. 14.  
 prepare thy w. before thee, Matt. 11. 10;
-Mk. 1. 2; Luke 7. 27.
+Mk. 1. 2; Luke 7. 27.  
 teachest w. of God in truth, Matt. 22. 16;
-Mark 12. 14; Luke 20. 21.
-when he was a great w. off, Luke 15. 20.
-I go my w., ye shall seek, John 8. 21.
-w. ye know, John 14. 4.
-I am the w., John 14. 6.
-shew us w. of salvation, Acts 16. 17.
-expounded to him w. of God, Acts 18. 26.
-are all gone out of the w., Rom. 3. 12.
-make a w. to escape, 1 Cor. 10. 13.
-a more excellent w., 1 Cor. 12. 31.
-w. into holiest of all, Heb. 9. 8.
-by a living w., Heb. 10. 20.
-w. of truth evil spoken of, 2 Pet. 2. 2.
-forsaken the right w., 2 Pet. 2. 15.
-not known w. of righteousness, 2 Pet.
-gone in the w. of Cain, Jude 11. [21.
-that w. of kings be prepared, Rev. 16. 12.
+Mark 12. 14; Luke 20. 21.  
+when he was a great w. off, Luke 15. 20.  
+I go my w., ye shall seek, John 8. 21.  
+w. ye know, John 14. 4.  
+I am the w., John 14. 6.  
+shew us w. of salvation, Acts 16. 17.  
+expounded to him w. of God, Acts 18. 26.  
+are all gone out of the w., Rom. 3. 12.  
+make a w. to escape, 1 Cor. 10. 13.  
+a more excellent w., 1 Cor. 12. 31.  
+w. into holiest of all, Heb. 9. 8.  
+by a living w., Heb. 10. 20.  
+w. of truth evil spoken of, 2 Pet. 2. 2.  
+forsaken the right w., 2 Pet. 2. 15.  
+not known w. of righteousness, 2 Pet.  
+gone in the w. of Cain, Jude 11. [21.  
+that w. of kings be prepared, Rev. 16. 12.  
 
-**WAYS.**—His w. are judgment, Deut. 32.
-4; Dan. 4. 37.
+**WAYS.**—His w. are judgment, Deut. 32.  
+4; Dan. 4. 37.  
 every man according to his w., 1 Kings
-8. 39; 2 Chron. 6. 30.
-they know not w. of light, Job 24. 13.
-the are parts of his w., Job 26. 14.
-is chief of w. of God, Job 40. 19.
-shew me thy w., O Lord, Ps. 25. 4.
-O teach heed to my w., Ps. 39. 1.
-teach transgressors thy w., Ps. 51. 13.
-O that Israel walked in my w., Ps. 81.
-in heart are w. of them, Ps. 84. 5. [13.
-not known my w., Ps. 95. 10; Heb. 3. 10.
-made known his w. to Moses, Ps. 103. 7.
-O that my w. were directed, Ps. 119. 5.
-I thought on my w. and turned, Ps. 119.
-my w. are before thee, Ps. 119. 168. [59.
-blessed that walketh in his w., Ps. 128. 1.
-Lord is righteous in all his w., Ps. 145. 17.
+8. 39; 2 Chron. 6. 30.  
+they know not w. of light, Job 24. 13.  
+the are parts of his w., Job 26. 14.  
+is chief of w. of God, Job 40. 19.  
+shew me thy w., O Lord, Ps. 25. 4.  
+O teach heed to my w., Ps. 39. 1.  
+teach transgressors thy w., Ps. 51. 13.  
+O that Israel walked in my w., Ps. 81.  
+in heart are w. of them, Ps. 84. 5. [13.  
+not known my w., Ps. 95. 10; Heb. 3. 10.  
+made known his w. to Moses, Ps. 103. 7.  
+O that my w. were directed, Ps. 119. 5.  
+I thought on my w. and turned, Ps. 119.  
+my w. are before thee, Ps. 119. 168. [59.  
+blessed that walketh in his w., Ps. 128. 1.  
+Lord is righteous in all his w., Ps. 145. 17.  
 w. of man are before eyes of Lord,
-Prov. 5. 21.
-when a man's w. please Lord, Pr. 16. 7.
-let thine eyes observe my w., Pr. 23. 26.
-teach us of his w., Isa. 2. 3; Micah 4. 2.
-will not walk in his w., Isa. 42. 24.
-and turn to his w., Isa. 55. 7.
-and delight to know my w., Isa. 58. 2.
-not doing thine own w., Isa. 58. 13.
-they have chosen their own w., Isa. 66. 3.
-stand in w. and see, Jer. 6. 16.
-amend your w., Jer. 7. 3, 5, 26. 13.
-make w. and doings good, Jer. 18. 11.
-let us search and try our w., Lam. 3. 40.
-are not my w. equal? Ezek. 18. 29.
-in whose hand are thy w., Dan. 5. 23.
-his w. are everlasting, Hab. 3. 6.
-consider your w., Hag. 1. 5, 7.
-misery are in their w., Rom. 3. 16.
-his w. are past finding, Rom. 11. 33.
-is unstable in all his w., Jas. 1. 8.
-follow their pernicious w., 2 Pet. 2. 2.
-just are w. are thy w., Rev. 15. 3.
+Prov. 5. 21.  
+when a man's w. please Lord, Pr. 16. 7.  
+let thine eyes observe my w., Pr. 23. 26.  
+teach us of his w., Isa. 2. 3; Micah 4. 2.  
+will not walk in his w., Isa. 42. 24.  
+and turn to his w., Isa. 55. 7.  
+and delight to know my w., Isa. 58. 2.  
+not doing thine own w., Isa. 58. 13.  
+they have chosen their own w., Isa. 66. 3.  
+stand in w. and see, Jer. 6. 16.  
+amend your w., Jer. 7. 3, 5, 26. 13.  
+make w. and doings good, Jer. 18. 11.  
+let us search and try our w., Lam. 3. 40.  
+are not my w. equal? Ezek. 18. 29.  
+in whose hand are thy w., Dan. 5. 23.  
+his w. are everlasting, Hab. 3. 6.  
+consider your w., Hag. 1. 5, 7.  
+misery are in their w., Rom. 3. 16.  
+his w. are past finding, Rom. 11. 33.  
+is unstable in all his w., Jas. 1. 8.  
+follow their pernicious w., 2 Pet. 2. 2.  
+just are w. are thy w., Rev. 15. 3.  
 
 **WEARING.**—The w. man ceaseth,
-Isa. 33. 8.
-w. men shall not err therein, Isa. 35. 8.
-why shouldest be as w. man? Jer. 14. 8.
+Isa. 33. 8.  
+w. men shall not err therein, Isa. 35. 8.  
+why shouldest be as w. man? Jer. 14. 8.  
 
-**WAY-MARKS.**—Set up w., Jer. 31. 21.
+**WAY-MARKS.**—Set up w., Jer. 31. 21.  
 
 **WEAK.**—w. as other men, Judg. 16. 7,
-11, 17.
-I am w. though anointed, 2 Sam. 3. 39.
-let not your hands be w., 2 Chron. 15. 7.
-I am w., Ps. 6. 2.
-art become w. as we? Isa. 40. 10.
-w. as water, Ezek. 7. 17, 21, 7.
+11, 17.  
+I am w. though anointed, 2 Sam. 3. 39.  
+let not your hands be w., 2 Chron. 15. 7.  
+I am w., Ps. 6. 2.  
+art become w. as we? Isa. 40. 10.  
+w. as water, Ezek. 7. 17, 21, 7.  
 w. that is thy heart, saith the Lord,
-Ezek. 16. 30.
-let w. say, I am strong, Joel 3. 10.
-flesh is w., Matt. 26. 41; Mark 14. 28.
-being not w. in faith, Rom. 4. 19.
-law was w. through the flesh, Rom. 8. 3.
-that is w. in faith receive ye, Rom. 14. 1.
-w. things to confound, 1 Cor. 1. 27.
-we are w., but ye strong, 1 Cor. 4. 10.
-to the w. became I as w., 1 Cor. 9. 22.
-for this cause many are w., 1 Cor. 11. 30.
-who is w. and I am not w.? 2 Cor. 11. 29.
-w. then strong, 2 Cor. 12. 10, 13. 9.
-that is you-ward is not w., 2 Cor. 13. 3.
+Ezek. 16. 30.  
+let w. say, I am strong, Joel 3. 10.  
+flesh is w., Matt. 26. 41; Mark 14. 28.  
+being not w. in faith, Rom. 4. 19.  
+law was w. through the flesh, Rom. 8. 3.  
+that is w. in faith receive ye, Rom. 14. 1.  
+w. things to confound, 1 Cor. 1. 27.  
+we are w., but ye strong, 1 Cor. 4. 10.  
+to the w. became I as w., 1 Cor. 9. 22.  
+for this cause many are w., 1 Cor. 11. 30.  
+who is w. and I am not w.? 2 Cor. 11. 29.  
+w. then strong, 2 Cor. 12. 10, 13. 9.  
+that is you-ward is not w., 2 Cor. 13. 3.  
 
 **WEAKEN.**—w. strength of mighty, Job
-12. 21.
-he w. my strength in way, Ps. 102. 23.
-which didst w. nations? Isa. 14. 12.
-w. hands of men of war, Jer. 38. 4.
+12. 21.  
+he w. my strength in way, Ps. 102. 23.  
+which didst w. nations? Isa. 14. 12.  
+w. hands of men of war, Jer. 38. 4.  
 
-**WEAKER.**—2 Sam. 3. 1; 1 Pet. 3. 7.
+**WEAKER.**—2 Sam. 3. 1; 1 Pet. 3. 7.  
 
-**WEAKNESS.**—w. of God is, 1 Cor. 1. 25.
-I was with you in w. and fear, 1 Cor. 2. 3.
-sown in w., raised in power, 1 Cor. 15. 43.
-out of w. were made strong, Heb. 11. 34.
+**WEAKNESS.**—w. of God is, 1 Cor. 1. 25.  
+I was with you in w. and fear, 1 Cor. 2. 3.  
+sown in w., raised in power, 1 Cor. 15. 43.  
+out of w. were made strong, Heb. 11. 34.  
 
-**WEALTH.**—My hand got this w., Deut.
-8. 17. [8. 18.
-Lord giveth thee power to get w., Deut.
-thou hast w. and power, 2. 1.
-thou hast not asked w., 2 Chron. 1. 11.
-seeking w. of people, Esther 10. 3.
-spend their days in w., Job 21. 13.
-that trust in their w., Ps. 49. 6.
-and leave their w. to others, Ps. 49. 10.
-rich man's w. is his strong city, Prov.
-10. 15, 18. 11.
-w. gotten by vanity shall be Pr. 13. 11.
-w. of sinners is laid up, Prov. 13. 22.
-w. maketh many friends, Prov. 19. 4.
-by this craft we have w., Acts 19. 25.
-seek every man another's w., 1 Cor. 10. 24.
+**WEALTH.**—My hand got this w., Deut.  
+8. 17. [8. 18.  
+Lord giveth thee power to get w., Deut.  
+thou hast w. and power, 2. 1.  
+thou hast not asked w., 2 Chron. 1. 11.  
+seeking w. of people, Esther 10. 3.  
+spend their days in w., Job 21. 13.  
+that trust in their w., Ps. 49. 6.  
+and leave their w. to others, Ps. 49. 10.  
+rich man's w. is his strong city, Prov.  
+10. 15, 18. 11.  
+w. gotten by vanity shall be Pr. 13. 11.  
+w. of sinners is laid up, Prov. 13. 22.  
+w. maketh many friends, Prov. 19. 4.  
+by this craft we have w., Acts 19. 25.  
+seek every man another's w., 1 Cor. 10. 24.  
 
-**WEARY.**—Unto the w., Isa. 66. 12.
+**WEARY.**—Unto the w., Isa. 66. 12.  
 
-**WEANED.**—w. child shall die, Hos. 11. 8.
-them that are w. from milk, Isa. 28. 9.
+**WEANED.**—w. child shall die, Hos. 11. 8.  
+them that are w. from milk, Isa. 28. 9.  
 
-**WEAPON.**—Other hand held w., Neh.
-4. 17.
-no w. formed shall prosper, Isa. 54. 17.
-with his destroying w., Ezek. 9. 1, 2.
+**WEAPON.**—Other hand held w., Neh.  
+4. 17.  
+no w. formed shall prosper, Isa. 54. 17.  
+with his destroying w., Ezek. 9. 1, 2.  
 
 **WEAPONS.**—Better than w. of war,
-Eccl. 9. 18.
-and w. of his indignation, Isa. 13. 5.
-w. of our warfare, 2 Cor. 10. 4.
+Eccl. 9. 18.  
+and w. of his indignation, Isa. 13. 5.  
+w. of our warfare, 2 Cor. 10. 4.  
 
 **WEAR.**—That w. soft clothing are,
-Matt. 11. 8.
+Matt. 11. 8.  
 
-**WEARY.**—w. of my life, Gen. 27. 46.
-the w. are at rest, Job 17. 1.
-my soul is w. of my life, Job 10. 1.
-be not w. of Lord's correction, Pr. 3. 11.
-lest he be w. of thee, Prov. 25. 17.
-none shall be w. nor stumble, Isa. 5. 27.
-is it a small thing to w. men, Isa. 7. 13.
-wherewith cause w. to rest, Isa. 28. 12.
-neither is w., Isa. 40. 28.
-that wait on Lord shall not be w., Isa.
-40. 31. [43. 22.
-thou hast been w. of me, O Israel, Isa.
-speak a word to him that is w., Isa. 50.
-I am w. with holding in, Jer. 6. 11. [4.
-w. thems. to commit iniquity, Jer. 9. 5.
-w. selves with fornicating, Jer. 20. 9.
-w. themselves for vanity, Hab. 2. 13.
-lest she w. me, Luke 18. 5.
+**WEARY.**—w. of my life, Gen. 27. 46.  
+the w. are at rest, Job 17. 1.  
+my soul is w. of my life, Job 10. 1.  
+be not w. of Lord's correction, Pr. 3. 11.  
+lest he be w. of thee, Prov. 25. 17.  
+none shall be w. nor stumble, Isa. 5. 27.  
+is it a small thing to w. men, Isa. 7. 13.  
+wherewith cause w. to rest, Isa. 28. 12.  
+neither is w., Isa. 40. 28.  
+that wait on Lord shall not be w., Isa.  
+40. 31. [43. 22.  
+thou hast been w. of me, O Israel, Isa.  
+speak a word to him that is w., Isa. 50.  
+I am w. with holding in, Jer. 6. 11. [4.  
+w. thems. to commit iniquity, Jer. 9. 5.  
+w. selves with fornicating, Jer. 20. 9.  
+w. themselves for vanity, Hab. 2. 13.  
+lest she w. me, Luke 18. 5.  
 not be w. in well-doing, Gal. 6. 9; 2
-Thess. 3. 13. [143. 23.
+Thess. 3. 13. [143. 23.  
 
-**WEARIED.**—Nor have I w. thee, Isa.
-hast w. me with thine iniquities, Isa.
-43. 24.
-art w. in greatness of way, Isa. 57. 10.
-they w. thee, Jer. 12. 5.
-wherein have I w. thee? Micah 6. 3.
-wherein have we w. him? Mal. 2. 17.
-Jesus being w. sat on well, John 4. 6.
-lest ye be w. and faint, Heb. 12. 3. [13.
+**WEARIED.**—Nor have I w. thee, Isa.  
+hast w. me with thine iniquities, Isa.  
+43. 24.  
+art w. in greatness of way, Isa. 57. 10.  
+they w. thee, Jer. 12. 5.  
+wherein have I w. thee? Micah 6. 3.  
+wherein have we w. him? Mal. 2. 17.  
+Jesus being w. sat on well, John 4. 6.  
+lest ye be w. and faint, Heb. 12. 3. [13.  
 
-**WEARINESS.**—What a w. is it! Mal. 1.
-a voice of w. and faintness, 1 Chr. 1. 27.
+**WEARINESS.**—What a w. is it! Mal. 1.  
+a voice of w. and faintness, 1 Chr. 1. 27.  
 
-**WEARSOME.**—To nights, Job 7. 4.
+**WEARSOME.**—To nights, Job 7. 4.  
 
 **WEATHER.**—Fair w. cometh out, Job
-37. 22.
-taketh a garment in cold w., Pr. 25. 20.
-fair w., foul w., Matt. 16. 2, 3.
+37. 22.  
+taketh a garment in cold w., Pr. 25. 20.  
+fair w., foul w., Matt. 16. 2, 3.  
 
-**WEDDING.**—Matt. 22. 3, 8, 10; Lu. 14. 8.
+**WEDDING.**—Matt. 22. 3, 8, 10; Lu. 14. 8.  
 
-**WEDGE.**—Josh. 7. 21; Isa. 13. 12.
+**WEDGE.**—Josh. 7. 21; Isa. 13. 12.  
 
-**WEEK.**—w. in midst of w., Dan. 9. 27.
+**WEEK.**—w. in midst of w., Dan. 9. 27.  
 first day of the w., Matt. 28. 1; Mark
 16. 2, 9; Luke 24. 1; John 20. 1, 19;
-Acts 20. 7; 1 Cor. 16. 2.
+Acts 20. 7; 1 Cor. 16. 2.  
 
 **WEEKS.**—Seventy w. are determined,
-Dan. 9. 24. [11. 34.
+Dan. 9. 24. [11. 34.  
 
-**WEEP.**—No more power to w., 1 Sam.
-did I not w. for him in trouble? Job 30. 25.
-a time to w., Eccl. 3. 4.
-I will w. bitterly, Isa. 22. 4.
-thou shalt w. no more, Isa. 30. 19.
-that I might w. day and, Jer. 9. 1.
-my soul, mine eyes shall w., Jer. 13. 17.
-w. not for the dead, Jer. 22. 10.
-let priests w. between porch, Joel 2. 17.
-winy make this ado and w.? Mark 5. 39.
-weshall cry what w.? Luke 23. 28.
-w. not that laugh now, Luke 6. 25.
-w. not, Luke 7. 13, 8. 52; Rev. 5. 5.
-w. not for me, w. for yours, Lu. 23. 28.
-goeth unto grave to w., John 11. 31.
-ye shall w., world sh. rejoice, Jn. 16. 20.
-what mean you to w., Acts 21. 13.
-w. with them that w., Rom. 12. 15.
-that w. as though they, 1 Cor. 7. 30.
+**WEEP.**—No more power to w., 1 Sam.  
+did I not w. for him in trouble? Job 30. 25.  
+a time to w., Eccl. 3. 4.  
+I will w. bitterly, Isa. 22. 4.  
+thou shalt w. no more, Isa. 30. 19.  
+that I might w. day and, Jer. 9. 1.  
+my soul, mine eyes shall w., Jer. 13. 17.  
+w. not for the dead, Jer. 22. 10.  
+let priests w. between porch, Joel 2. 17.  
+winy make this ado and w.? Mark 5. 39.  
+weshall cry what w.? Luke 23. 28.  
+w. not that laugh now, Luke 6. 25.  
+w. not, Luke 7. 13, 8. 52; Rev. 5. 5.  
+w. not for me, w. for yours, Lu. 23. 28.  
+goeth unto grave to w., John 11. 31.  
+ye shall w., world sh. rejoice, Jn. 16. 20.  
+what mean you to w., Acts 21. 13.  
+w. with them that w., Rom. 12. 15.  
+that w. as though they, 1 Cor. 7. 30.  
 
 **WEEPEST.**—Why w. thou? 1 Sam. 1. 8;
-John 20. 13.
+John 20. 13.  
 
-**WEEPING.**—Goeth and w., Ps. 126. 6.
-shall w. sore in the night, Lam. 1. 2.
+**WEEPING.**—Goeth and w., Ps. 126. 6.  
+shall w. sore in the night, Lam. 1. 2.  
 
-**WEEPING.**—w. before door, Num. 25. 6.
-w. as they went up, 2 Sam. 15. 30.
-not discern joy from w., Ezra 3. 13.
-in every province was w., Esther 4. 3.
-my face is foul with w., Job 16. 16.
-Lord heard voice of my w., Ps. 6. 8.
-w. may endure for a night, Ps. 30. 5.
-I mingled my drink with w., Ps. 102. 9.
-did Lord of hosts call to w., Isa. 22. 12.
-voice of w. be no more heard, Isa. 65. 19.
-voice of w. be no more with w., Jer. 31. 16.
-Judah going w. to seek the Lord, Jer. 50. 4.
-women w. for Tammuz, Ezek. 8. 14.
-turn with fasting and w., Joel 2. 12.
-covering altar with w., Mal. 2. 13.
-there shall be w., Matt. 8. 12, 22, 13. 24.
-51, 25. 30; Luke 13. 28.
-Mary stood without w., John 20. 11.
-now tell you even w., Phil. 3. 18.
+**WEEPING.**—w. before door, Num. 25. 6.  
+w. as they went up, 2 Sam. 15. 30.  
+not discern joy from w., Ezra 3. 13.  
+in every province was w., Esther 4. 3.  
+my face is foul with w., Job 16. 16.  
+Lord heard voice of my w., Ps. 6. 8.  
+w. may endure for a night, Ps. 30. 5.  
+I mingled my drink with w., Ps. 102. 9.  
+did Lord of hosts call to w., Isa. 22. 12.  
+voice of w. be no more heard, Isa. 65. 19.  
+voice of w. be no more with w., Jer. 31. 16.  
+Judah going w. to seek the Lord, Jer. 50. 4.  
+women w. for Tammuz, Ezek. 8. 14.  
+turn with fasting and w., Joel 2. 12.  
+covering altar with w., Mal. 2. 13.  
+there shall be w., Matt. 8. 12, 22, 13. 24.  
+51, 25. 30; Luke 13. 28.  
+Mary stood without w., John 20. 11.  
+now tell you even w., Phil. 3. 18.  
 
-**WEIGH.**—You w. violence, Ps. 58. 2.
-thou dost w. path of just, Isa. 26. 7.
+**WEIGH.**—You w. violence, Ps. 58. 2.  
+thou dost w. path of just, Isa. 26. 7.  
 
-**WEIGHED.**—Nor silver w., Job 28. 15.
-w. against me, cantains, Job 31. 6.
-thou art w. in balances, Dan. 5. 27.
-they w. thirty pieces, Zech. 11. 12.
+**WEIGHED.**—Nor silver w., Job 28. 15.  
+w. against me, cantains, Job 31. 6.  
+thou art w. in balances, Dan. 5. 27.  
+they w. thirty pieces, Zech. 11. 12.  
 
-**WEIGHTH.**—He w. waters, Job 28. 25.
-but the Lord w. spirits, Prov. 16. 2.
+**WEIGHTH.**—He w. waters, Job 28. 25.  
+but the Lord w. spirits, Prov. 16. 2.  
 
-**WEIGHT.**—Just w., Deut. 25. 15.
-make w. for the winds, Job 28. 25.
-a just w. is his delight, Prov. 11. 1.
-a just w. and balance are L.'s, Pr. 16. 11.
-a far more exceeding w., 2 Cor. 4. 17.
-let us lay aside every w., Heb. 12. 1.
+**WEIGHT.**—Just w., Deut. 25. 15.  
+make w. for the winds, Job 28. 25.  
+a just w. is his delight, Prov. 11. 1.  
+a just w. and balance are L.'s, Pr. 16. 11.  
+a far more exceeding w., 2 Cor. 4. 17.  
+let us lay aside every w., Heb. 12. 1.  
 
-**WEIGHS.**—Divers w., Deut. 25. 13.
-divers w. are abominat., Pr. 20. 10, 23.
+**WEIGHS.**—Divers w., Deut. 25. 13.  
+divers w. are abominat., Pr. 20. 10, 23.  
 
 **WEIGHTIER.**—w. matters of law,
-Matt. 23. 23.
+Matt. 23. 23.  
 
 **WELFARE.**—My w. passeth away, Job
-30. 15.
-should have been for w., Ps. 69. 22.
-seeketh not w. of people, Jer. 38. 4.
+30. 15.  
+should have been for w., Ps. 69. 22.  
+seeketh not w. of people, Jer. 38. 4.  
 
-**WELL.**—Spring up, O w., Num. 21. 17.
-w. of Bethlehem, 2 Sam. 23. 15.
-passing Baca make it w., Ps. 84. 6.
-now Jacob's w. was there, John 4. 6.
-shew me in me a w. of water, Jn. 4. 14.
+**WELL.**—Spring up, O w., Num. 21. 17.  
+w. of Bethlehem, 2 Sam. 23. 15.  
+passing Baca make it w., Ps. 84. 6.  
+now Jacob's w. was there, John 4. 6.  
+shew me in me a w. of water, Jn. 4. 14.  
 
-**WELL'S.**—One w. of water, Jer. 12. 3.
-are w. without water, 2 Pet. 2. 17.
+**WELL'S.**—One w. of water, Jer. 12. 3.  
+are w. without water, 2 Pet. 2. 17.  
 
-**WELL-SPRING.**—Prov. 16. 22, 18. 4.
+**WELL-SPRING.**—Prov. 16. 22, 18. 4.  
 
-**WELL.**—If thou does not w., Gen. 4. 7.
-that it may go w. with thee, Deut. 4. 40.
-thou doest w. to thyself, Ps. 49. 18.
-w. with them that fear God, Eccl. 8. 12.
-it shall be w. with him, Isa. 3. 10.
-w. done, Matt. 25. 21, 23; Luke 19. 17.
+**WELL.**—If thou does not w., Gen. 4. 7.  
+that it may go w. with thee, Deut. 4. 40.  
+thou doest w. to thyself, Ps. 49. 18.  
+w. with them that fear God, Eccl. 8. 12.  
+it shall be w. with him, Isa. 3. 10.  
+w. done, Matt. 25. 21, 23; Luke 19. 17.  
 
-**WELL-BELOVED.**—Cant. 1. 13; Isa. 5.
-1; Mark 12. 6.
+**WELL-BELOVED.**—Cant. 1. 13; Isa. 5.  
+1; Mark 12. 6.  
 
 **WENT.**—Before afflicted I w. astray,
-Ps. 119. 67.
-I go, sir, but w. not, Matt. 21. 30.
-made disciples w. back, John 6. 66.
-w. about doing good, Acts 10. 38.
-they w. out from us, 1 John 2. 19.
+Ps. 119. 67.  
+I go, sir, but w. not, Matt. 21. 30.  
+made disciples w. back, John 6. 66.  
+w. about doing good, Acts 10. 38.  
+they w. out from us, 1 John 2. 19.  
 
-**WEPT.**—The man of God w., 2 Kin. 8. 11.
-people w. very sore, Ezra 10. 1; Neh. 8. 9.
-when I heard words I w., Neh. 1. 4.
-when I w. and chastened, Ps. 69. 10.
-by rivers of Babylon we w., Ps. 137. 1.
-Peter w., Matt. 26. 75; Luke 8. 52.
-w. have not w., Luke 7. 32.
-w. beheld and w. over it, Lu. 19. 41.
-Jesus w., John 11. 35.
-I w., because no man was, Rev. 5. 4.
+**WEPT.**—The man of God w., 2 Kin. 8. 11.  
+people w. very sore, Ezra 10. 1; Neh. 8. 9.  
+when I heard words I w., Neh. 1. 4.  
+when I w. and chastened, Ps. 69. 10.  
+by rivers of Babylon we w., Ps. 137. 1.  
+Peter w., Matt. 26. 75; Luke 8. 52.  
+w. have not w., Luke 7. 32.  
+w. beheld and w. over it, Lu. 19. 41.  
+Jesus w., John 11. 35.  
+I w., because no man was, Rev. 5. 4.  
 
-**WET.**—w. with showers, Job 24. 8.
-w. with dew of heaven, Dan. 4. 15.
+**WET.**—w. with showers, Job 24. 8.  
+w. with dew of heaven, Dan. 4. 15.  
 
-**WHALE.**—Gen. 1. 21; Job 7. 12; Matt.
-12. 40. [14.
+**WHALE.**—Gen. 1. 21; Job 7. 12; Matt.  
+12. 40. [14.  
 
-**WHEAT.**—Finest of w., Ps. 81. 16, 147.
-they have sown w., Jer. 12. 13.
-that we may set forth w., Amos 8. 5.
-sell refuse of w., Amos 8. 6.
-great price to buy w., Rev. 6. 6.
-except a corn of w., John 12. 24.
-it may chance of w., 1 Cor. 15. 37.
-measure of w. for a penny, Rev. 6. 6.
+**WHEAT.**—Finest of w., Ps. 81. 16, 147.  
+they have sown w., Jer. 12. 13.  
+that we may set forth w., Amos 8. 5.  
+sell refuse of w., Amos 8. 6.  
+great price to buy w., Rev. 6. 6.  
+except a corn of w., John 12. 24.  
+it may chance of w., 1 Cor. 15. 37.  
+measure of w. for a penny, Rev. 6. 6.  
 
-**WHEEL.**—Make them like w., Ps. 83. 13.
-king bringeth w. over, Prov. 20. 26.
-w. broken at cistern, Eccl. 12. 6.
-nor break with w. of cart, Isa. 28. 28.
-w. in the midst of a w., Ezek. 1. 16, 10. 10.
-cried to the wheels, O w., Ezek. 10. 13.
+**WHEEL.**—Make them like w., Ps. 83. 13.  
+king bringeth w. over, Prov. 20. 26.  
+w. broken at cistern, Eccl. 12. 6.  
+nor break with w. of cart, Isa. 28. 28.  
+w. in the midst of a w., Ezek. 1. 16, 10. 10.  
+cried to the wheels, O w., Ezek. 10. 13.  
 
-**WHEELS.**—Off chariot w., Ex. 14. 25.
-four w. of cherubim, Ezek. 10. 6, 28.
-their w. like a whirlwind, Isa. 5. 28.
-and at the rumbling of his w., Jer. 47. 3.
-the appearance of the w., Ezek. 1. 16.
-w. were beside them, Ez. 10. 19, 11. 22.
-noise of rattling of the w., Nah. 3. 2.
+**WHEELS.**—Off chariot w., Ex. 14. 25.  
+four w. of cherubim, Ezek. 10. 6, 28.  
+their w. like a whirlwind, Isa. 5. 28.  
+and at the rumbling of his w., Jer. 47. 3.  
+the appearance of the w., Ezek. 1. 16.  
+w. were beside them, Ez. 10. 19, 11. 22.  
+noise of rattling of the w., Nah. 3. 2.  
 
-**WHET.**—If I w. my sword, Deut. 32. 41.
-he will w. his sword, Ps. 7. 12.
-who w. tongue like a sword, Ps. 61. 3.
-and he w. not the edge, Eccl. 10. 10.
+**WHET.**—If I w. my sword, Deut. 32. 41.  
+he will w. his sword, Ps. 7. 12.  
+who w. tongue like a sword, Ps. 61. 3.  
+and he w. not the edge, Eccl. 10. 10.  
 
-**WHIP.**—Chastised with w., 1 Kin. 12. 11.
-w. horse, w. ass, w. camel, Prov. 26. 3.
-noise of a w. the noise of, Nah. 3. 2.
+**WHIP.**—Chastised with w., 1 Kin. 12. 11.  
+w. horse, w. ass, w. camel, Prov. 26. 3.  
+noise of a w. the noise of, Nah. 3. 2.  
 
 **WHIRLWIND.**—Lord answered out of
-w., Job 38. 1, 40. 6.
+w., Job 38. 1, 40. 6.  
 take them away as in a w., Ps. 58. 9;
-Prov. 10. 25; Hos. 13. 3.
-w. shall take them away, Isa. 40. 24.
-the w. shall scatter them, Isa. 41. 16.
-a w. of Lord is gone forth, Jer. 23. 19.
-a w., great w. shall be raised, Jer. 25. 32.
-Lord hath his way in w., Nah. 1. 3.
-w. of fire round about, Ezek. 1. 4.
-WHISPERER.—Pr. 16. 28; Rom. 1. 29.
+Prov. 10. 25; Hos. 13. 3.  
+w. shall take them away, Isa. 40. 24.  
+the w. shall scatter them, Isa. 41. 16.  
+a w. of Lord is gone forth, Jer. 23. 19.  
+a w., great w. shall be raised, Jer. 25. 32.  
+Lord hath his way in w., Nah. 1. 3.  
+w. of fire round about, Ezek. 1. 4.  
+WHISPERER.—Pr. 16. 28; Rom. 1. 29.  
 
 **WHISPERINGS.**—Lest there be w., 2
-Cor. 12. 20.
+Cor. 12. 20.  
 
-**WHIT.**—Man every w. whole, Jn. 7. 23.
-not a w. behind apostles, 2 Cor. 11. 5.
+**WHIT.**—Man every w. whole, Jn. 7. 23.  
+not a w. behind apostles, 2 Cor. 11. 5.  
 
-**WHITE.**—My beloved is w., Cant. 5. 10.
-some fall to make them w., Dan. 11. 35.
-many purified and made w., Dan. 12. 10.
-w. to harvest, John 4. 35.
-made them, in blood, Rev. 7. 14. [8.
+**WHITE.**—My beloved is w., Cant. 5. 10.  
+some fall to make them w., Dan. 11. 35.  
+many purified and made w., Dan. 12. 10.  
+w. to harvest, John 4. 35.  
+made them, in blood, Rev. 7. 14. [8.  
 
-**WHITHER.**—Ye know w., John 14. 4.
+**WHITHER.**—Ye know w., John 14. 4.  
 
-**WHOLE.**—My life is yet w., 2 Sam. 1. 9.
-and his hands make w., Job 5. 18.
+**WHOLE.**—My life is yet w., 2 Sam. 1. 9.  
+and his hands make w., Job 5. 18.  
 they that be w. need not a physician,
-Matt. 9. 12; Mark 2. 17; Luke 5. 31.
-faith hath made thee w., Mark 5. 34.
-if w. body were an eye, 1 Cor. 12. 17.
+Matt. 9. 12; Mark 2. 17; Luke 5. 31.  
+faith hath made thee w., Mark 5. 34.  
+if w. body were an eye, 1 Cor. 12. 17.  
 
-**WHOLLY.**—w. followed Lord, De. 1. 36.
-leave thee w. unpunished, Jer. 46. 28.
-God sanctify you w., 1 Thess. 5. 23.
-give thyself w. to them, 1 Tim. 4. 15.
-of God is able to make you w., 1 Th. 5. 4.
-consent not to w. women, 1 Tim. 5. 3.
+**WHOLLY.**—w. followed Lord, De. 1. 36.  
+leave thee w. unpunished, Jer. 46. 28.  
+God sanctify you w., 1 Thess. 5. 23.  
+give thyself w. to them, 1 Tim. 4. 15.  
+of God is able to make you w., 1 Th. 5. 4.  
+consent not to w. women, 1 Tim. 5. 3.  
 
-**WHORE.**—A w. is a deep ditch, Pr. 23.
-thou hast played w., Ezek. 16. 28. [27.
-judgment of great w., Rev. 17. 1, 19. 2.
+**WHORE.**—A w. is a deep ditch, Pr. 23.  
+thou hast played w., Ezek. 16. 28. [27.  
+judgment of great w., Rev. 17. 1, 19. 2.  
 
 **WHOREDOM.**—Hast polluted land
-through lightness of her w., Jer. 3. 9.
-seen the lewdness of thy w., Jer. 13. 27.
-is w. a small matter? Ezek. 16. 20.
-put their w. from me, Ezek. 43. 9.
-let her put away her w., Hos. 2. 2.
-for they are children of w., Hos. 2. 4.
-w. and wine take away heart, Hos. 4. 11.
-w. caused them to err, Hos. 4. 12, 5. 4.
-O Ephr., thou committest w., Hos. 5. 3.
+through lightness of her w., Jer. 3. 9.  
+seen the lewdness of thy w., Jer. 13. 27.  
+is w. a small matter? Ezek. 16. 20.  
+put their w. from me, Ezek. 43. 9.  
+let her put away her w., Hos. 2. 2.  
+for they are children of w., Hos. 2. 4.  
+w. and wine take away heart, Hos. 4. 11.  
+w. caused them to err, Hos. 4. 12, 5. 4.  
+O Ephr., thou committest w., Hos. 5. 3.  
 
 **WHOREMONGER.**—No w. hath inheri-
-tance, Eph. 5. 5.
-law made for w. liars, 1 Tim. 1. 10.
-w. and adulterers God, Heb. 13. 4.
-w. have their part in lake, Rev. 21. 8.
-without are w., Rev. 22. 15.
+tance, Eph. 5. 5.  
+law made for w. liars, 1 Tim. 1. 10.  
+w. and adulterers God, Heb. 13. 4.  
+w. have their part in lake, Rev. 21. 8.  
+without are w., Rev. 22. 15.  
 
 **WICKED.**—w. be silent in darkness, 1
-Saml. 2. 9.
-w. cease from troubling, Job 3. 17.
-wherefore do w. live? Job 21. 7.
-w. reserved to day of destr., Job 21. 30.
-fit say to king, thou art w., Job 34. 18.
-God is angry with w., Ps. 7. 11.
-w. is snared in work of hands, Ps. 9. 16.
-w. shall be turned into hell, Ps. 9. 17.
-w. not seek God, Ps. 10. 4. [13.
-wherefore doth w. contemn God? Ps. 10.
-w. bend their bow, Ps. 11. 2.
-upon w. he shall rain snares, Ps. 11. 6.
-evil shall slay w., Ps. 34. 21.
-w. shall not w., Ps. 37. 10; Prov. 10. 25.
-candle of w. shall be put out, Ps. 37. 32.
-I have seen w. in power, Ps. 37. 35.
-w. are estranged from womb, Ps. 58. 3.
-let w. perish at presence of, Ps. 68. 2.
-how long shall w. triumph? Ps. 94. 3.
-let the w. be no more, Ps. 104. 35.
-salvation far from the w., Ps. 119. 155.
-if there be any w. way in me, Ps. 139. 24.
-the w. shall be cut off, Prov. 2. 22.
-w. shall fall by his wickedness, Pr. 11. 5.
-w. shall not be unpunished, Pr. 11. 21.
-look w. upon the righteous, Pr. 21. 32.
-the Lord is far from the w., Pr. 15. 29.
-w. flee when no man pursueth, Pr. 28. 1.
-be not overmuch w., neither, Eccl. 7. 17.
-it shall not be well with w., Eccl. 8. 13.
-let the w. forsake his way, Isa. 55. 7.
-the w. are like troubled sea, Isa. 57. 20.
-heart is desperately w., Jer. 17. 9.
-w. shall do wickedly, Dan. 12. 10.
-the Lord shall not acquit w., Nah. 1. 3.
-w. turneth to be renewed, Jer. 12. 9.
+Saml. 2. 9.  
+w. cease from troubling, Job 3. 17.  
+wherefore do w. live? Job 21. 7.  
+w. reserved to day of destr., Job 21. 30.  
+fit say to king, thou art w., Job 34. 18.  
+God is angry with w., Ps. 7. 11.  
+w. is snared in work of hands, Ps. 9. 16.  
+w. shall be turned into hell, Ps. 9. 17.  
+w. not seek God, Ps. 10. 4. [13.  
+wherefore doth w. contemn God? Ps. 10.  
+w. bend their bow, Ps. 11. 2.  
+upon w. he shall rain snares, Ps. 11. 6.  
+evil shall slay w., Ps. 34. 21.  
+w. shall not w., Ps. 37. 10; Prov. 10. 25.  
+candle of w. shall be put out, Ps. 37. 32.  
+I have seen w. in power, Ps. 37. 35.  
+w. are estranged from womb, Ps. 58. 3.  
+let w. perish at presence of, Ps. 68. 2.  
+how long shall w. triumph? Ps. 94. 3.  
+let the w. be no more, Ps. 104. 35.  
+salvation far from the w., Ps. 119. 155.  
+if there be any w. way in me, Ps. 139. 24.  
+the w. shall be cut off, Prov. 2. 22.  
+w. shall fall by his wickedness, Pr. 11. 5.  
+w. shall not be unpunished, Pr. 11. 21.  
+look w. upon the righteous, Pr. 21. 32.  
+the Lord is far from the w., Pr. 15. 29.  
+w. flee when no man pursueth, Pr. 28. 1.  
+be not overmuch w., neither, Eccl. 7. 17.  
+it shall not be well with w., Eccl. 8. 13.  
+let the w. forsake his way, Isa. 55. 7.  
+the w. are like troubled sea, Isa. 57. 20.  
+heart is desperately w., Jer. 17. 9.  
+w. shall do wickedly, Dan. 12. 10.  
+the Lord shall not acquit w., Nah. 1. 3.  
+w. turneth to be renewed, Jer. 12. 9.  
 
-**WICKEDLY.**—Speaketh for G.? Job 13.
-surely God will not do w., Job 34. 12. [7.
-such as do w. against, Dan. 11. 32.
-that do w. be as stubble, Mal. 4. 1.
+**WICKEDLY.**—Speaketh for G.? Job 13.  
+surely God will not do w., Job 34. 12. [7.  
+such as do w. against, Dan. 11. 32.  
+that do w. be as stubble, Mal. 4. 1.  
 
 **WICKEDNESS.**—God saw w. was great,
-Gen. 6. 5.
-how can I do this great w.? Gen. 39. 9.
-w. proceedeth from wicked, 1 Sa. 24. 13.
-children of w., 2 Sam. 7. 10; P.S. 89. 22.
-is not thy w. great? Job 22. 5.
-their inward part is very w., Ps. 5. 9.
-for their w. cast them out, Ps. 7. 9.
-he strengthened himself in w., Ps. 52. 7.
-w. is in their dwellings, Ps. 55. 15.
-than to dwell in tents of w., Ps. 84. 10.
-eat bread of w., Prov. 4. 17.
-w. is abomination to my lips, Pr. 8. 7.
-w. overfloweth the sinner, Prov. 13. 6.
-nor w. deliver those given to, Eccl. 8. 8.
-w. burneth as a fire, Isa. 9. 18.
-hast trusted in thy w., Isa. 47. 10.
-w. man, shall corrupt thee, Jer. 2. 19.
-cause of w. is not removed, Jer. 23. 12.
-no man repented of his w., Jer. 8. 6.
-if he turn not from w. die, Ezek. 3. 19.
-plowed w. reaped iniquity, Hos. 10. 13.
-treasures of w. in house, Micah 6. 10.
-they that work w. are set up, Mal. 3. 15.
-out heart proceedeth w., Mark 7. 22.
-inward part is full of w., Luke 11. 39.
-being filled with all w., Rom. 1. 29.
-against w. in high places, Eph. 6. 12.
-w. would not hold w., 2 Thess. 2. 9.
+Gen. 6. 5.  
+how can I do this great w.? Gen. 39. 9.  
+w. proceedeth from wicked, 1 Sa. 24. 13.  
+children of w., 2 Sam. 7. 10; P.S. 89. 22.  
+is not thy w. great? Job 22. 5.  
+their inward part is very w., Ps. 5. 9.  
+for their w. cast them out, Ps. 7. 9.  
+he strengthened himself in w., Ps. 52. 7.  
+w. is in their dwellings, Ps. 55. 15.  
+than to dwell in tents of w., Ps. 84. 10.  
+eat bread of w., Prov. 4. 17.  
+w. is abomination to my lips, Pr. 8. 7.  
+w. overfloweth the sinner, Prov. 13. 6.  
+nor w. deliver those given to, Eccl. 8. 8.  
+w. burneth as a fire, Isa. 9. 18.  
+hast trusted in thy w., Isa. 47. 10.  
+w. man, shall corrupt thee, Jer. 2. 19.  
+cause of w. is not removed, Jer. 23. 12.  
+no man repented of his w., Jer. 8. 6.  
+if he turn not from w. die, Ezek. 3. 19.  
+plowed w. reaped iniquity, Hos. 10. 13.  
+treasures of w. in house, Micah 6. 10.  
+they that work w. are set up, Mal. 3. 15.  
+out heart proceedeth w., Mark 7. 22.  
+inward part is full of w., Luke 11. 39.  
+being filled with all w., Rom. 1. 29.  
+against w. in high places, Eph. 6. 12.  
+w. would not hold w., 2 Thess. 2. 9.  
 
-**WIDE.**—One hand w., Deut. 15. 8.
-opened mouth w., Job 29. 23; Ps. 35. 21.
-open thy mouth w. I fill it, Ps. 81. 10.
-that openeth w. his lips, Prov. 13. 3.
-I will build a w. house, Jer. 22. 14.
-w. gate to destruction, Mat. 7. 13.
+**WIDE.**—One hand w., Deut. 15. 8.  
+opened mouth w., Job 29. 23; Ps. 35. 21.  
+open thy mouth w. I fill it, Ps. 81. 10.  
+that openeth w. his lips, Prov. 13. 3.  
+I will build a w. house, Jer. 22. 14.  
+w. gate to destruction, Mat. 7. 13.  
 
-**WIDOW.**—w.'s ox, Job 24. 3.
-and doeth not good to the w., Job 24. 21.
-I caused w. heart to sing, Job 29. 13.
-they slay w. and, Ps. 94. 6.
-wife a w., Ps. 109. 9.
-waxen poor, Ps. 146. 9.
-plead for w., Isa. 1. 17.
-how is she become as a w., Lam. 1. 1.
-w. threw in two mites, Mark 12. 42.
-there was a w. in that city, Luke 18. 3.
-if any w. have children, 1 Tim. 5. 4.
-I am no w., Rev. 18. 7.
+**WIDOW.**—w.'s ox, Job 24. 3.  
+and doeth not good to the w., Job 24. 21.  
+I caused w. heart to sing, Job 29. 13.  
+they slay w. and, Ps. 94. 6.  
+wife a w., Ps. 109. 9.  
+waxen poor, Ps. 146. 9.  
+plead for w., Isa. 1. 17.  
+how is she become as a w., Lam. 1. 1.  
+w. threw in two mites, Mark 12. 42.  
+there was a w. in that city, Luke 18. 3.  
+if any w. have children, 1 Tim. 5. 4.  
+I am no w., Rev. 18. 7.  
 
 **WIDOWS.**—Hast sent w. away empty,
-Job 22. 9.
-judge of w., Ps. 68. 5.
-let w. trust in me, Jer. 49. 11.
-w. were neglected, Acts 6. 1.
-honour w. that are w., 1 Tim. 5. 3.
+Job 22. 9.  
+judge of w., Ps. 68. 5.  
+let w. trust in me, Jer. 49. 11.  
+w. were neglected, Acts 6. 1.  
+honour w. that are w., 1 Tim. 5. 3.  
 
 **WIDOWHOOD.**—Reproach of thy w.,
-Isa. 54. 4.
+Isa. 54. 4.  
 
-**WIFE.**—Find, a w. find, a good, Pr. 18.
-prudent w. is from the Lord, Pr. 19. 14.
-joyfully with w. of youth, Eccl. 9. 9.
+**WIFE.**—Find, a w. find, a good, Pr. 18.  
+prudent w. is from the Lord, Pr. 19. 14.  
+joyfully with w. of youth, Eccl. 9. 9.  
 
 
 ---
 
 # Content from: pages90-91.md
 
-**WILDERNESS.**—A waste howling *w.* Deut. 32. 10.
-*w.* yieldeth food for them, Job 24. 5.
-turneth *w.* into standing water, Ps. 107. 35.
-cometh out of the *w.*? Cant. 3. 6.
-that made world as *w.*? Isa. 14. 17.
-*w.* shall be glad for them, Isa. 35. 1.
-I will make the *w.* a pool, Isa. 41. 18.
-*w.* and cities lift their voice, Isa. 42. 11.
-hisses to his vine from *w.*, Isa. 64. 10.
-what bring ye to *w.* to Israel? Jer. 2. 31.
-
-**WILES.**—Stand against *w.*, Eph. 6. 11.
-
-**WILL.**—God *w.* of him, Deut. 33. 16.
-thy *w.*, be done, Matt. 6. 10; Luke 11. 2.
-doeth *w.* of Father, Matt. 7. 21, 12. 50.
-it is not *w.* of your Father, Matt. 18. 14.
-whether did *w.* of father? Matt. 21. 31.
-thy *w.* be done, Matt. 26. 42.
-good *w.* toward men, Luke 2. 14.
-not my *w.* but thine, Luke 22. 42.
-not of the *w.* of the flesh, John 1. 13.
-I came not to do mine own *w.*, John 5. 30.
-I seek not *w.* of my Father, John 5. 30.
-not to do mine own *w.*, John 6. 38.
-this is the Father's *w.*, John 6. 39, 40.
-any do his *w.* shall know, John 7. 17.
-shall fulfil all my *w.*, Acts 13. 22.
-*w.* of the Lord be done, Acts 21. 14.
-what the *w.* of God is, Eph. 5. 17.
-with good *w.* doing service, Eph. 6. 7.
-with knowledge of his *w.*, Col. 1. 9.
-according to his own *w.*, Heb. 2. 4.
-I come to do thy *w.*, Heb. 10. 7, 9.
-perfect to do his *w.*, Heb. 13. 21.
-the earth to fulfil his *w.*, Rev. 17. 17.
-
-**WILL OF GOD.**—Whoso shall do *w.* of God, Mark 3. 35.
-not of *w.* of man, but of G., John 1. 13.
-acceptable and perfect *w.* of G., Rom. 12. 2.
-doing the *w.* of G., Eph. 6. 6. [12. 2.
-this is the *w.* of G., 1 Thess. 4. 3, 5. 18.
-after have done *w.* of G., Heb. 10. 36.
-so is the *w.* of G., 1 Pet. 2. 15.
-he that doeth *w.* of G., 1 John 2. 17.
-
-**WILL.**—I *w.*, be thou clean, Matt. 8. 3.
-do what I *w.* with my own? Matt. 20. 15.
-not as I *w.* but as thou *w.*, Mark 14. 36.
-ye *w.*? if it be so kindled, Luke 12. 49.
-ye *w.* not come to me, John 5. 40.
-ask what ye *w.*, it is done, John 15. 7.
-I *w.*, that they be with me, John 17. 24.
-to *w.* is present with me, Rom. 7. 18.
-both to *w.* and to do, Phil. 2. 13.
-if Lord *w.*, he shall do this, Jas. 4. 15.
-
-**WILLETH.**—Not of him that *w.* Rom. 9. 16.
-
-**WILFULLY.**—If we sin *w.*, Heb. 10. 26.
-
-**WILLING.**—Is of a *w.* heart, Ex. 35. 5.
-thy people shall be *w.*, Ps. 110. 4.
-spirit is *w.* but flesh is weak, Matt. 26. 41.
-spirit is *w.* but flesh is weak, Matt. 26. 41.
-if thou be *w.* remove cup, Luke 22. 42.
-ye were *w.* to rejoice, John 5. 35.
-*w.* rather to be absent, 2 Cor. 5. 8.
-if there be first a *w.* mind, 2 Cor. 8. 12.
-not *w.* any should perish, 2 Pet. 3. 9.
-
-**WILLINGLY.**—People *w.* offer, Judg. 5. 2.
-subject to vanity not *w.*, Rom. 8. 20. [2.
-not of necessity, but *w.*, 1 Pet. 5. 2.
-they are *w.* ignorant of, 2 Pet. 3. 5.
-
-**WILLOWS.**—Hanging up as *w.*, Isa. 44. 4.
-
-**WILT THIRST.**—Ps. 42. 2.
-
-**WIN.**—That *w.* souls is *w.*, Pr. 11. 30.
-that I may *w.* Christ, Phil. 3. 8.
-
-**WIND.**—Strong *w.* rent mountains, 1 Kings 19. 11.
-speeches which are as *w.*, Job 6. 26.
-remember my life is *w.*, Job 7. 7.
-but *w.* passeth, Job 37. 21; Ps. 103. 16.
-which *w.* drives away, Ps. 1. 4.
-he causeth his *w.* to blow, Ps. 147. 18.
-he shall inherit *w.*, Prov. 11. 29.
-whoso hideth her, hideth *w.*, Pr. 27. 16.
-who gathered *w.* in his fists, Prov. 30. 4.
-he that observeth *w.* not sow, Eccl. 11. 4.
-awake, O north *w.*, come, Cant. 4. 16.
-as if were brought forth *w.*, Isa. 26. 18.
-he stayeth his rough *w.* in, Isa. 27. 8.
-*w.* carry them away, Isa. 41. 16, 57. 13.
-prophets shall become *w.*, Jer. 5. 13.
-*w.* out of his treasures, Jer. 51. 16.
-Ephraim feedeth on *w.*, Hos. 12. 1.
-he that createth the *w.*, Amos 4. 13.
-is not aware when it cometh, John 3. 8.
-sound as of a mighty *w.*, Acts 2. 2.
-carried about with every *w.*, Eph. 4. 14.
-
-**WINDS.**—Come from four *w.*, Ezek. 37.
-*w.* blow, beat house, Matt. 7. 25, 27. [9.
-rebuked the *w.*, Matt. 8. 26; Luke 8. 24.
-even *w.* and sea obey him? Matt. 8. 27.
-
-**WINDY.**—From *w.* storm, Ps. 55. 8. [2.
-
-**WINDOWS.**—*w.* of heaven, Gen. 7. 11, 8.
-that look out of *w.* darken'd, Eccl. 12. 3.
-beloved looked forth at *w.*, Cant. 2. 9.
-death is come into our *w.*, Jer. 9. 21.
-is *w.* being open, Dan. 6. 10.
-if *w.* all open *w.*, Mal. 3. 10.
-
-**WINE.**—*w.* which cheereth, Judg. 9. 13.
-*w.* is red, full of mixture, Ps. 75. 8.
-*w.* that maketh glad heart, Ps. 104. 15.
-*w.* is a mocker, Prov. 20. 1. [31.
-look not on *w.* when it is red, Prov. 23. 31.
-give *w.* to those of heavy heart, Prov. 31. 6.
-love better than *w.*, Cant. 1. 2, 4. 10.
-thy *w.* mixed with water, Isa. 1. 22.
-till *w.* inflame them, Isa. 5. 11.
-buy *w.* and milk, Isa. 55. 1.
-and love flagons of *w.*, Hos. 3. 1.
-shall be obedient, Isa. 1. 23, 5. 22.
-be not drunk with *w.*, Eph. 5. 18.
-and not given to *w.*, 1 Tim. 3. 3.
-use *w.* for thy stomach's sake, 1 Tim. 5.
-walked in excess of *w.*, 1 Pet. 4. 3. [23.
-give cup of *w.* of wrath, Rev. 16. 19.
-
-**WINE-BIBBER.**—Prov. 23. 20; Matt. 11. 19; Luke 7. 34.
-
-**WINE-FAT.**—Isa. 63. 2; Mark 12. 1.
-
-**WINE-PRESS.**—Trodden *w.-p.* alone, Isa. 63. 3.
-cast it into a great *w.-p.*, Rev. 14. 19.
-trodden without city, Rev. 14. 20.
-tread the *w.-p.* of wrath, Rev. 19. 15.
-
-**WINGS.**—Fly on *w.* of wind, Ps. 18. 10, 104. 3.
-under shadow of thy *w.*, Ps. 36. 7, 57. 1, 61. 4, 91. 4.
-if I take *w.* of the morning, Ps. 139. 9.
-each one had six *w.*, Isa. 6. 2.
-bound her up in her *w.*, Hos. 4. 19.
-with healing in his *w.*, Mal. 4. 2.
-
-**WINK.**—What eyes *w.* at? Job 15. 12.
-neither let them *w.*, Ps. 35. 19.
-
-**WINTER.**—Hast made *w.*, Ps. 74. 17.
-of *w.*, the *w.* is past, Cant. 2. 11.
-in the *w.*, nor on sabbath, Zech. 14. 8.
-your flight be not in *w.*, Matt. 24. 20.
-
-**WIPE.**—*w.* Jerusalem as a dish, 2 Kings 21. 13.
-*w.* out blood deeds, Neh. 13. 14.
-Lord will *w.* away tears from all faces, Isa. 25. 8; Rev. 7. 17, 21. 4.
-did *w.* them with hairs, Luke 7. 38.
-began to *w.* them with, John 13. 5.
-
-**WISDOM.**—This is your *w.*, Deut. 4. 6.
-people, *w.* shall die with you, Job 12. 2.
-dost thou restrain *w.* to thy? Job 15. 8.
-where shall *w.* be found? Job 28. 12.
-God hath put *w.*, Job 36. 5.
-shalt make me to know *w.*, Ps. 51. 6.
-in *w.* hast thou made works, Ps. 104. 24.
-happy man that findeth *w.*, Prov. 3. 13.
-get *w.*, Prov. 4. 5.
-*w.* is the principal thing, Prov. 4. 7.
-*w.* resteth in heart of him, Prov. 14. 33.
-better to get *w.* than gold, Prov. 16. 16.
-that getteth *w.* loveth soul, Prov. 19. 8.
-there is no *w.* against Lord, Prov. 21. 30.
-cease from thy own *w.*, Prov. 23. 4.
-*w.* is too high for a fool, Prov. 24. 7.
-in much *w.* is much grief, Eccl. 1. 18.
-*w.* maketh face to shine, Eccl. 8. 1.
-there is no *w.* in the grave, Eccl. 9. 10.
-*w.* is better than strength, Eccl. 9. 16.
-*w.* is justified of her children, Matt. 11. 19; Luke 7. 35.
-depth of the *w.* of God! Rom. 11. 33.
-not with *w.* of words, 1 Cor. 1. 17.
-and Greeks seek after *w.*, 1 Cor. 1. 22.
-Christ *w.* of God, 1 Cor. 1. 24.
-made to us *w.* and, 1 Cor. 1. 30.
-for the *w.* of this world is, 1 Cor. 3. 19.
-not with fleshly *w.*, 2 Cor. 1. 12.
-the manifold *w.* of God, Eph. 3. 10.
-might be filled with all *w.*, Col. 1. 9.
-are hid all the treasures of *w.*, Col. 2. 3.
-walk in *w.* toward them that, Col. 4. 5.
-if any lack *w.*, let him ask, Jas. 1. 5.
-*w.* from above is pure, Jas. 3. 17.
-worship Lamb to receive *w.*, Rev. 5. 12.
-glory, and *w.* be to our God, Rev. 7. 12.
-here is *w.*, Rev. 13. 18.
-
-**WISE.**—Shalt in any *w.* rebuke neighbour, Lev. 19. 17.
-*a w.* people, Deut. 4. 6.
-that they were *w.* that they, Deut. 32. 29.
-taketh *w.* in own craftiness, Job 5. 13.
-*w.* is *w.* in heart and strength, Job 9. 4.
-vain man would be *w.* though, Job 11. 12.
-great men are not always *w.*, Job 32. 9.
-be *w.* now, O ye kings, Ps. 2. 10.
-making thee *w.* simple, Ps. 19. 7.
-*a fool*, then will he be *w.*, Ps. 94. 8.
-whoso is *w.* and will observe, Ps. 107. 43.
-be not *w.* in thine own eyes, Prov. 3. 7.
-the *w.* shall inherit glory, Prov. 3. 35.
-be *w.*, Prov. 6. 6, 8. 33, 23. 19, 27. 11.
-be *w.*, thou shalt be *w.* for self, Prov. 9. 12. [30.
-he that winneth souls is *w.* Prov. 11. 30.
-law of *w.* is a fountain of life, Prov. 13. 14. [21.
-the *w.* in heart called prudent, Prov. 16. 21.
-answer a fool lest he be *w.* in his own eyes, Prov. 26. 5. [12.
-a man *w.* in his own conceit, Prov. 26.
-be four things that are *w.*, Prov. 30. 24.
-words of *w.* are as goads, Eccl. 12. 11.
-they are *w.* to do evil, Jer. 4. 22.
-they that be *w.* shall shine, Dan. 12. 3.
-be ye *w.* as serpents, Matt. 10. 16.
-hid from *w.*, Matt. 11. 25; Luke 10. 21.
-I am debtor to the *w.*, Rom. 1. 14.
-be not *w.* in your conceits, Rom. 12. 16.
-to God only *w.* be glory, Rom. 16. 27.
-where is the *w.*? 1 Cor. 1. 20.
-Lord knoweth thoughts of the *w.*, 1 Cor. 3. 20.
-but ye are *w.* in Christ, 1 Cor. 4. 10.
-walk not as fools, but *w.*, Eph. 5. 15.
-to make *w.* unto salvation, 2 Tim. 3. 15.
-
-**WISELY.**—Will behave myself *w.*, Ps. 101. 2.
-handleth a matter *w.*, Prov. 16. 20.
-thou dost not inquire *w.*, Eccl. 7. 10.
-because he had done *w.*, Luke 16. 8.
-
-**WISER.**—*w.* than all men, 1 Kin. 4. 31.
-maketh us *w.* than fowls, Job 35. 11.
-*w.* than enemies, Ps. 119. 98.
-in their generation *w.*, Luke 16. 8.
-
-**WISH.**—That *w.* evil, Ps. 40. 14.
-more than heart could *w.*, Ps. 73. 7.
-and *w.* himself to die, Jonah 4. 8.
-I *w.* thou mayest prosper, 3 John 2.
-
-**WITCH.**—Ex. 22. 18; Deut. 18. 10.
-
-**WITCHCRAFT.**—As sin of *w.*, 1 Sam. 15. 23.
-works of flesh are *w.*, Gal. 5. 20. [9. 13.
-
-**WITHDRAW.**—Not he his anger, Job 9. 13.
-*w.* thine hand far from me, Job 13. 21.
-*w.* not from the signs, Job 36. 7.
-*w.* from brother that walketh disorderly, 2 Thess. 3. 6.
-from corrupt minds *w.*, 1 Tim. 6. 5.
-
-**WITHER.**—Shall *w.* as green herb, Ps. 37. 2.
-in evening cut down and *w.* Ps. 90. 6.
-my heart is *w.*, Ps. 102. 4. [19. 7.
-thing sown by the brook shall *w.*, Isa. 40. 7, 8; 1 Pet. 1. 24.
-trees of the field are *w.*, Joel 1. 12.
-the fig-tree *w.*, Matt. 21. 19, 20; Mark 11. 21.
-the sun *w.* the grass, Jas. 1. 11.
-trees *w.* without fruit, Jude 12.
-
-**WITHHELD.**—I *w.* thee from sin, Gen. 20. 6.
-seeing thou hast not *w.* son, Gen. 22. 12.
-
-**WITHHOLD.**—*w.* not thy mercies, Ps. 40. 11.
-no good thing will he *w.* from, Ps. 84. 11.
-*w.* not good to whom due, Prov. 3. 27.
-that *w.* more than meet, Prov. 11. 24.
-in *w.*ing *w.* not thy hand, Eccl. 11. 6.
-
-**WITHHOLDEN.**—No thought *w.* thee, Job 42. 2.
-sins have *w.* good things, Jer. 5. 25.
-
-**WITHIN.**—Written *w.* and without, Ezek. 2. 10.
-cleanse first *w.* that, Matt. 23. 26.
-*w.* fears, 2 Cor. 7. 5.
-
-**WITHOUT.**—*w.* God, Eph. 2. 12.
-that are *w.*, Col. 4. 5.
-
-**WITHSTAND.**—Two shall *w.*, Eccl. 4. 12.
-that I could *w.* God? Acts 11. 17.
-able to *w.* in the evil day, Eph. 6. 13.
-
-**WITHSTOOD.**—I *w.* Peter to the face, Gal. 2. 11.
-Jannes and Jambres *w.* Moses, 2 Tim. 3. 8. [15.
-he hath greatly *w.* our words, 2 Tim. 4. 14.
-
-**WITNESS.**—God is *w.*, Gen. 31. 50; 1 Thess. 2. 5.
-one *w.* shall not testify, Num. 35. 30.
-Lord *w.* between us, Judg. 11. 10; Jer. 29. 23.
-my *w.* is in heaven, Job 16. 19. [42. 5.
-come near, saith the Lord, Isa. 43. 10.
-a faithful *w.* will not lie, Prov. 14. 5.
-a true *w.* delivereth souls, Prov. 14. 25.
-ungodly *w.* scorneth judgment, Prov. 19. 28. [24. 28.
-e not *w.* against thy neighbour, Prov. 24. 28.
-for *w.* to the people, Isa. 55. 4.
-Lord be faithful *w.* between us, Jer. 42. 5.
-swift *w.* against the sorcerers, Mal. 3. 5.
-for *w.* against nation, Matt. 24. 14.
-came for *w.* to bear *w.*, John 1. 7.
-ye receive not our *w.*, John 3. 11.
-if I bear *w.* of myself, John 5. 31. [32.
-he that witnesseth of me is true, John 5. 32.
-I have greater *w.* than John, John 5. 36, 37. [17.
-he left not himself without *w.*, Acts 14. 17.
-thou shalt be his *w.* to all, Acts 22. 15.
-that *w.* was faithful to us, Heb. 10. 15.
-if we receive *w.* of men, 1 John 5. 9.
-he that believeth hath *w.* in himself, 1 John 5. 10.
-Jesus Christ the faithful *w.*, Rev. 1. 5.
-
-**WITNESSES.**—At the mouth of two or three *w.*, Deut. 17. 6; 2 Matt. 18. 16; 2 Cor. 13. 1.
-I took faithful *w.* to record, Isa. 8. 2.
-*I took faithful w.*, saith the Lord, Isa. 43. 10, 12, 44. 8.
-ye are *w.* of these things, Luke 24. 48.
-ye are *w.* and God also, 1 Thess. 2. 10.
-before many *w.*, 1 Tim. 6. 12.
-I will give power to my *w.*, Rev. 11. 3.
-
-**WITNESS.**—Holy Ghost *w.* in every city, Acts 20. 23. [21.
-being *w.* by law and prophets, Rom. 3. 21.
-being Pilate *w.* good conf., 1 Tim. 6. 13.
-
-**WITS.**—At their *w.* end, Ps. 107. 27.
-
-**WIVES.**—Have *w.* be as had none, 1 Cor. 7. 29.
-love your *w.*, Eph. 5. 25; Col. 3. 19.
-love their *w.* as their bodies, Eph. 5. 28.
-so must their *w.* be grave, 1 Tim. 3. 11.
-
-**WIZARDS.**—Lev. 19. 31, 20. 27.
-to *w.* that peep and mutter, Isa. 8. 19.
-
-**WOE.**—Inhabitants of earth, Rev. 8. 13, 12. 12.
-one *w.* past, Rev. 9. 12.
-two *w.* more hereafter, Rev. 9. 12.
-
-**WOEFUL.**—The *w.* day, Jer. 17. 16.
-
-**WOLF.**—*w.* shall dwell with Lamb, Isa. 11. 6.
-*w.* and Lamb feed together, Isa. 65. 25.
-biting teeth *w.* coming, John 10. 12.
-
-**WOLES.**—Her judges evening *w.*, Zeph. 3. 3.
-inwardly they are *w.*, Matt. 7. 15.
-I send you forth among *w.*, Luke 10. 3.
-*w.* shall enter among you, Acts 20. 29.
-
-**WOMAN.**—Made he a *w.*, Gen. 2. 22.
-she shall be called *w.*, Gen. 2. 23.
-a foolish *w.* is clamorous, Prov. 9. 13.
-virtuous *w.* is a crown, Pr. 12. 4, 31. 10.
-a virtuous *w.* who can find, Pr. 31. 10.
-who can find a virtuous *w.*? Pr. 31. 10.
-*w.* that fears Lord shall be praised, Prov. 31. 30. [7. 28.
-*w.* among those I have not found, Eccl. 7. 28.
-can *w.* forget sucking child? Isa. 49. 15.
-Lord called thee as *w.* forsaken, Isa. 54. 6.
-*w.* compass a man, Jer. 31. 22. [6.
-*w.* should looketh on a *w.*, Matt. 5. 28.
-O *w.* great is thy faith, be it, Matt. 15. 28. [26. 13.
-that *w.* hath done shall be told, Matt. 26. 13.
-Simon, seest thou this *w.*? Luke 7. 44.
-*w.* what have I to do with thee? John 2. 4.
-a *w.* of Samaria, John 4. 9. [2. 4.
-brought *w.* taken in adultery, John 8. 3.
-*w.* behold thy son, John 19. 26. [3. 4.
-this *w.* was full of works, Acts 9. 36.
-man leaving use of *w.*, Rom. 1. 27.
-good *w.* such an one, 1 Cor. 7. 1. [9.
-*w.* is the glory of the man, 1 Cor. 11. 7, 8.
-as *w.* is of man, so man by *w.*, 1 Cor. 11. 12.
-sent his Son made of a *w.*, Gal. 4. 4.
-I suffer not *w.* to teach, 1 Tim. 2. 12.
-*w.* deceived, was in transgression, 1 Tim. 2. 14. [1.
-appeared *w.* clothed with sun, Rev. 12. 1.
-earth helped the *w.*, Rev. 12. 16.
-
-**WOMB.**—Two nations in thy *w.*, Gen. 25. 23.
-blessings of *w.*, Gen. 49. 25. [25. 23.
-Lord had shut up her *w.*, 1 Sam. 1. 5, 6.
-he who took me out of *w.*, Ps. 22. 9.
-from *w.* of morning, Ps. 110. 3.
-Lord formed thee from the *w.*, Isa. 44. 2.
-Lord called me from the *w.*, Isa. 49. 1.
-bring forth and shut the *w.*? Isa. 66. 9.
-before thou camest out of *w.*, Jer. 1. 5.
-why came I forth out of *w.*, Jer. 20. 18.
-give them a miscarrying *w.*, Hos. 9. 14.
-blessed is the *w.* that bare thee, Luke 11. 27.
-blessed *w.* never bare, Luke 23. 29.
-
-**WOMEN.**—Blessed above *w.*, Judg. 5. 24.
-among thy honourable *w.*, Ps. 45. 9.
-give not strength to *w.*, Prov. 31. 3.
-fairest among *w.*, Cant. 1. 8, 5. 9, 6. 1.
-daughters over them, Cant. 3. 12.
-seven *w.* take hold of one man, Isa. 4. 1.
-*w.* that are at ease, Isa. 32. 9.
-careless *w.*, Isa. 32. 10. [10.
-*w.* have sodden their children, Lam. 4. 10.
-that are born of *w.*, Matt. 11. 11; Luke 7. 28. [35.
-two *w.* grinding, Matt. 24. 41; Luke 17. 35.
-*w.* were beholding afar off, Matt. 27. 55.
-blessed among *w.*, Luke 1. 28, 42.
-of *w.* not a few believed, Acts 17. 4, 12.
-let *w.* keep silence in, 1 Cor. 14. 34.
-let *w.* learn in silence, 1 Tim. 2. 11.
-I will that younger *w.* marry, 1 Tim. 5. 14.
-aged *w.* behave as becometh, Titus 2. 3.
-teach younger *w.* to be sober, Titus 2. 4.
-*w.* received dead raised, Heb. 11. 35.
-that are not defiled with *w.*, Rev. 14. 4.
-
-**WONDER.**—Am as a *w.* to many, Ps. 71. 7.
-do marvellous work and *w.*, Isa. 29. 14.
-appear a *w.* in heaven, Rev. 12. 1, 3.
-
-**WONDERFUL.**—Thy love to me was *w.*, 2 Sam. 1. 26.
-things too *w.* for me, Job 42. 3.
-thy testimonies are *w.*, Ps. 119. 129.
-three things are too *w.*, Prov. 30. 18.
-his name shall be called *W.*, Isa. 9. 6.
-thou hast done *w.* things, Isa. 25. 1.
-Lord, who is *w.* in counsel, Isa. 28. 29.
-a *w.* thing is committed, Jer. 5. 30.
-when they saw *w.* things, Matt. 21. 15.
-
-**WONDERFULLY.**—*w.* made, Ps. 139. 14.
-how *w.* art thou done, Jam. 1. 9.
-
-**WONDERS.**—Ex. 3. 20, 7. 3, 11. 9.
-fearful in praises, doing *w.*, Ex. 15. 11.
-God doeth *w.* without number, Job 9. 10.
-thou art the God that doest *w.*, Ps. 77. 14.
-wilt thou shew *w.* to dead? Ps. 88. 10.
-shall thy *w.* be known in dark? Ps. 88. 12.
-declare his *w.* among people, Ps. 96. 3.
-who alone doeth great *w.*, Ps. 136. 4.
-how mighty his *w.*! Dan. 4. 3.
-he worketh *w.* in heaven, Dan. 6. 27.
-how long to end of these *w.*? Dan. 12. 6.
-he will shew *w.*, Joel 2. 30; Acts 2. 19.
-signs and *w.* were done, Acts 2. 43.
-
-**WONDERED.**—I *w.* there was none to uphold, Isa. 63. 5.
-for they are *w.* at, Zech. 3. 8.
-all they that heard it *w.*, Luke 2. 18.
-they all *w.* at gracious words, Lu. 4. 22.
-world *w.* after the beast, Rev. 13. 3.
-I *w.* with great admiration, Rev. 17. 6.
-
-**WONDROUS.**—*w.* works, 1 Chron. 16. 9; Job 37. 14; Ps. 26. 7, 105. 2, 119. 27, 145. 5; Jer. 21. 2.
-God doeth *w.* things, Ps. 72. 18, 86. 10.
-none of *w.* works declare, Ps. 75. 1.
-who had done *w.* works, Ps. 106. 22.
-behold *w.* things out of law, Ps. 119. 18.
-
-**WONDROUSLY.**—Judg. 13. 19; Joel 2. 26. [7.
-
-**WOOD.**—When one cleaveth *w.*, Ps. 141. 10.
-no *w.* fire goeth out, Prov. 26. 20.
-*w.* hay, 1 Cor. 3. 12.
-vessels of *w.*, 2 Tim. 2. 20.
-
-**WOOL.**—She seeketh *w.* and flax, Prov. 31. 13.
-sin like crimson, be as *w.*, Isa. 1. 18.
-hair like *w.*, Dan. 7. 9; Rev. 1. 14.
-my *w.*, Hos. 2. 5, 9.
-
-**WORD.**—Lord put *w.* in Balaam's mouth, Num. 23. 5. [4.
-by every *w.* of God, Deut. 8. 3; Matt. 4. 4.
-*w.* is nigh thee, Deut. 30. 14; Rom. 10. 8.
-failed not one *w.* of promise, 1 Kings 8. 56. [105. 8.
-*w.* he commanded, 1 Chron. 16. 15; Ps. 105. 8.
-Lord gave *w.*, Ps. 68. 11. [11.
-thy *w.* have I hid in mine heart, Ps. 119. 11.
-remember *w.* to thy servant, Ps. 119. 49.
-for thy *w.* quickened me, Ps. 119. 50.
-there is not a *w.* in tongue, Ps. 139. 4.
-his *w.* runneth very swiftly, Ps. 147. 15.
-he sheweth his *w.* unto Jacob, Ps. 147. 19.
-a good *w.* maketh glad, Prov. 12. 25.
-*w.* spoken in season, Prov. 15. 23.
-*w.* fitly spoken, Prov. 25. 11. [20.
-if speak not according to this *w.*, Isa. 8. 20.
-the Lord sent a *w.* to Jacob, Isa. 9. 8.
-shall hear *w.* behind thee, Isa. 30. 21.
-the *w.* is gone out of mouth, Isa. 45. 23.
-how to speak a *w.* in season, Isa. 50. 4.
-so shall my *w.* be that goeth, Isa. 55. 11.
-the *w.* is not in them, Jer. 5. 13.
-his *w.* was in my heart, Jer. 20. 9.
-every man's *w.* his burden, Jer. 23. 36.
-*w.* I have spoken shall be done, Ezek. 12. 25.
-speak the *w.* only, Matt. 8. 8. [36.
-every idle *w.* men shall speak, Matt. 12. 36.
-my *w.* shall not pass away, Matt. 24. 35.
-for his *w.* was with power, Luke 4. 32.
-what a *w.* is this? Luke 4. 36. [19.
-Jesus mighty in *w.* and deed, Luke 24. 19.
-in beginning was the *W.*, John 1. 1.
-the *W.* was made flesh, John 1. 14.
-my *w.* hath no place in you, John 8. 37.
-*w.* I have spoken shall judge him, John 12. 48.
-the *w.* ye hear is not mine, John 14. 24.
-thy *w.* is truth, John 17. 17. [26.
-hear the *w.* from him and turn, Acts 13. 26.
-not in *w.* but in power, 1 Cor. 4. 20.
-*w.* of wisdom, *w.* of know., 1 Cor. 12. 8.
-our *w.* to you was not yea, 2 Cor. 1. 18.
-cleansing it with water by *w.*, Eph. 5. 26.
-holding forth the *w.* of life, Phil. 2. 16.
-*w.* of Christ dwell in you richly, Col. 3. 16.
-gospel came not in *w.*, 1 Thess. 1. 5.
-receive it not as *w.* of men, 1 Thess. 2. 13.
-God establish you in every good *w.*, 2 Thess. 2. 17.
-having fasted his *w.*, Titus 1. 3.
-teaching as *w.* as taught, Titus 1. 9.
-all things by *w.* of power, Heb. 1. 3.
-*w.* preached did not profit them, Heb. 4. 2. [5. 13.
-unskilful in *w.* of righteousness, Heb. 5. 13.
-entreated *w.* shall not be spoken, Heb. 12. 19.
-receive the ingrafted *w.*, Jas. 1. 21.
-if any man offend not in *w.*, Jas. 3. 2.
-whoso keepeth his *w.*, 1 John 2. 5.
-not love in *w.* but in deed, 1 John 3. 18.
-Father, *W.*, and Holy Ghost one, 1 John 5. 7.
-
-**WORD OF GOD.**—Every *w.* of G. is pure, Prov. 30. 5.
-*w.* of G. shall stand for ever, Isa. 40. 8.
-making *w.* of G. of none effect, Mk. 7. 13.
-the seed is the *w.* of G., Luke 8. 11.
-*w.* of G. quick and powerful, Heb. 4. 12.
-born again by *w.* of G., 1 Pet. 1. 23.
-by *w.* of G. heavens were, 2 Pet. 3. 5.
-his name is called *W.* of G., Rev. 19. 12.
-
-**WORDS.**—Hear, O earth, *w.* of my mouth, Deut. 32. 1; Ps. 54. 2, 78. 1; Prov. 7. 24.
-O that my *w.* were written! Job 19. 23.
-I esteemed *w.* of his mouth, Job 23. 12.
-he lifted up *w.* without knowledge, Job 35. 16.
-give ear to my *w.*, O Lord, Ps. 5. 1.
-let *w.* of my mouth be, Ps. 19. 14.
-casteth my *w.* behind thee, Ps. 50. 17.
-thou lovest all devouring *w.*, Ps. 52. 4.
-*w.* of my mouth smoother, Ps. 55. 21.
-how sweet thy *w.* to my taste! Ps. 119. 103.
-hear *w.* of the wise, Prov. 22. 17. [103.
-let thy *w.* be few, Eccl. 5. 2.
-the *w.* of wise are gracious, Eccl. 10. 12.
-*w.* of wise are as goads, Eccl. 12. 11.
-my *w.* in thy mouth, Isa. 51. 16.
-take with you *w.* and turn, Hos. 14. 2.
-do not miss *w.* to God, Micah 7. 7.
-my *w.* not pass, Mark 13. 31: Lu. 21. 33.
-*w.* wondered at gracious *w.*, Luke 4. 22.
-*w.* I speak to you are life, John 6. 63.
-thou hast the *w.* of eternal life, Jn. 6. 68.
-given them *w.* thou gavest me, Jn. 17. 8.
-Moses was mighty in *w.*, Acts 7. 22.
+**WILDERNESS.**—A waste howling *w.* Deut. 32. 10.  
+*w.* yieldeth food for them, Job 24. 5.  
+turneth *w.* into standing water, Ps. 107. 35.  
+cometh out of the *w.*? Cant. 3. 6.  
+that made world as *w.*? Isa. 14. 17.  
+*w.* shall be glad for them, Isa. 35. 1.  
+I will make the *w.* a pool, Isa. 41. 18.  
+*w.* and cities lift their voice, Isa. 42. 11.  
+hisses to his vine from *w.*, Isa. 64. 10.  
+what bring ye to *w.* to Israel? Jer. 2. 31.  
+
+**WILES.**—Stand against *w.*, Eph. 6. 11.  
+
+**WILL.**—God *w.* of him, Deut. 33. 16.  
+thy *w.*, be done, Matt. 6. 10; Luke 11. 2.  
+doeth *w.* of Father, Matt. 7. 21, 12. 50.  
+it is not *w.* of your Father, Matt. 18. 14.  
+whether did *w.* of father? Matt. 21. 31.  
+thy *w.* be done, Matt. 26. 42.  
+good *w.* toward men, Luke 2. 14.  
+not my *w.* but thine, Luke 22. 42.  
+not of the *w.* of the flesh, John 1. 13.  
+I came not to do mine own *w.*, John 5. 30.  
+I seek not *w.* of my Father, John 5. 30.  
+not to do mine own *w.*, John 6. 38.  
+this is the Father's *w.*, John 6. 39, 40.  
+any do his *w.* shall know, John 7. 17.  
+shall fulfil all my *w.*, Acts 13. 22.  
+*w.* of the Lord be done, Acts 21. 14.  
+what the *w.* of God is, Eph. 5. 17.  
+with good *w.* doing service, Eph. 6. 7.  
+with knowledge of his *w.*, Col. 1. 9.  
+according to his own *w.*, Heb. 2. 4.  
+I come to do thy *w.*, Heb. 10. 7, 9.  
+perfect to do his *w.*, Heb. 13. 21.  
+the earth to fulfil his *w.*, Rev. 17. 17.  
+
+**WILL OF GOD.**—Whoso shall do *w.* of God, Mark 3. 35.  
+not of *w.* of man, but of G., John 1. 13.  
+acceptable and perfect *w.* of G., Rom. 12. 2.  
+doing the *w.* of G., Eph. 6. 6. [12. 2.  
+this is the *w.* of G., 1 Thess. 4. 3, 5. 18.  
+after have done *w.* of G., Heb. 10. 36.  
+so is the *w.* of G., 1 Pet. 2. 15.  
+he that doeth *w.* of G., 1 John 2. 17.  
+
+**WILL.**—I *w.*, be thou clean, Matt. 8. 3.  
+do what I *w.* with my own? Matt. 20. 15.  
+not as I *w.* but as thou *w.*, Mark 14. 36.  
+ye *w.*? if it be so kindled, Luke 12. 49.  
+ye *w.* not come to me, John 5. 40.  
+ask what ye *w.*, it is done, John 15. 7.  
+I *w.*, that they be with me, John 17. 24.  
+to *w.* is present with me, Rom. 7. 18.  
+both to *w.* and to do, Phil. 2. 13.  
+if Lord *w.*, he shall do this, Jas. 4. 15.  
+
+**WILLETH.**—Not of him that *w.* Rom. 9. 16.  
+
+**WILFULLY.**—If we sin *w.*, Heb. 10. 26.  
+
+**WILLING.**—Is of a *w.* heart, Ex. 35. 5.  
+thy people shall be *w.*, Ps. 110. 4.  
+spirit is *w.* but flesh is weak, Matt. 26. 41.  
+spirit is *w.* but flesh is weak, Matt. 26. 41.  
+if thou be *w.* remove cup, Luke 22. 42.  
+ye were *w.* to rejoice, John 5. 35.  
+*w.* rather to be absent, 2 Cor. 5. 8.  
+if there be first a *w.* mind, 2 Cor. 8. 12.  
+not *w.* any should perish, 2 Pet. 3. 9.  
+
+**WILLINGLY.**—People *w.* offer, Judg. 5. 2.  
+subject to vanity not *w.*, Rom. 8. 20. [2.  
+not of necessity, but *w.*, 1 Pet. 5. 2.  
+they are *w.* ignorant of, 2 Pet. 3. 5.  
+
+**WILLOWS.**—Hanging up as *w.*, Isa. 44. 4.  
+
+**WILT THIRST.**—Ps. 42. 2.  
+
+**WIN.**—That *w.* souls is *w.*, Pr. 11. 30.  
+that I may *w.* Christ, Phil. 3. 8.  
+
+**WIND.**—Strong *w.* rent mountains, 1 Kings 19. 11.  
+speeches which are as *w.*, Job 6. 26.  
+remember my life is *w.*, Job 7. 7.  
+but *w.* passeth, Job 37. 21; Ps. 103. 16.  
+which *w.* drives away, Ps. 1. 4.  
+he causeth his *w.* to blow, Ps. 147. 18.  
+he shall inherit *w.*, Prov. 11. 29.  
+whoso hideth her, hideth *w.*, Pr. 27. 16.  
+who gathered *w.* in his fists, Prov. 30. 4.  
+he that observeth *w.* not sow, Eccl. 11. 4.  
+awake, O north *w.*, come, Cant. 4. 16.  
+as if were brought forth *w.*, Isa. 26. 18.  
+he stayeth his rough *w.* in, Isa. 27. 8.  
+*w.* carry them away, Isa. 41. 16, 57. 13.  
+prophets shall become *w.*, Jer. 5. 13.  
+*w.* out of his treasures, Jer. 51. 16.  
+Ephraim feedeth on *w.*, Hos. 12. 1.  
+he that createth the *w.*, Amos 4. 13.  
+is not aware when it cometh, John 3. 8.  
+sound as of a mighty *w.*, Acts 2. 2.  
+carried about with every *w.*, Eph. 4. 14.  
+
+**WINDS.**—Come from four *w.*, Ezek. 37.  
+*w.* blow, beat house, Matt. 7. 25, 27. [9.  
+rebuked the *w.*, Matt. 8. 26; Luke 8. 24.  
+even *w.* and sea obey him? Matt. 8. 27.  
+
+**WINDY.**—From *w.* storm, Ps. 55. 8. [2.  
+
+**WINDOWS.**—*w.* of heaven, Gen. 7. 11, 8.  
+that look out of *w.* darken'd, Eccl. 12. 3.  
+beloved looked forth at *w.*, Cant. 2. 9.  
+death is come into our *w.*, Jer. 9. 21.  
+is *w.* being open, Dan. 6. 10.  
+if *w.* all open *w.*, Mal. 3. 10.  
+
+**WINE.**—*w.* which cheereth, Judg. 9. 13.  
+*w.* is red, full of mixture, Ps. 75. 8.  
+*w.* that maketh glad heart, Ps. 104. 15.  
+*w.* is a mocker, Prov. 20. 1. [31.  
+look not on *w.* when it is red, Prov. 23. 31.  
+give *w.* to those of heavy heart, Prov. 31. 6.  
+love better than *w.*, Cant. 1. 2, 4. 10.  
+thy *w.* mixed with water, Isa. 1. 22.  
+till *w.* inflame them, Isa. 5. 11.  
+buy *w.* and milk, Isa. 55. 1.  
+and love flagons of *w.*, Hos. 3. 1.  
+shall be obedient, Isa. 1. 23, 5. 22.  
+be not drunk with *w.*, Eph. 5. 18.  
+and not given to *w.*, 1 Tim. 3. 3.  
+use *w.* for thy stomach's sake, 1 Tim. 5.  
+walked in excess of *w.*, 1 Pet. 4. 3. [23.  
+give cup of *w.* of wrath, Rev. 16. 19.  
+
+**WINE-BIBBER.**—Prov. 23. 20; Matt. 11. 19; Luke 7. 34.  
+
+**WINE-FAT.**—Isa. 63. 2; Mark 12. 1.  
+
+**WINE-PRESS.**—Trodden *w.-p.* alone, Isa. 63. 3.  
+cast it into a great *w.-p.*, Rev. 14. 19.  
+trodden without city, Rev. 14. 20.  
+tread the *w.-p.* of wrath, Rev. 19. 15.  
+
+**WINGS.**—Fly on *w.* of wind, Ps. 18. 10, 104. 3.  
+under shadow of thy *w.*, Ps. 36. 7, 57. 1, 61. 4, 91. 4.  
+if I take *w.* of the morning, Ps. 139. 9.  
+each one had six *w.*, Isa. 6. 2.  
+bound her up in her *w.*, Hos. 4. 19.  
+with healing in his *w.*, Mal. 4. 2.  
+
+**WINK.**—What eyes *w.* at? Job 15. 12.  
+neither let them *w.*, Ps. 35. 19.  
+
+**WINTER.**—Hast made *w.*, Ps. 74. 17.  
+of *w.*, the *w.* is past, Cant. 2. 11.  
+in the *w.*, nor on sabbath, Zech. 14. 8.  
+your flight be not in *w.*, Matt. 24. 20.  
+
+**WIPE.**—*w.* Jerusalem as a dish, 2 Kings 21. 13.  
+*w.* out blood deeds, Neh. 13. 14.  
+Lord will *w.* away tears from all faces, Isa. 25. 8; Rev. 7. 17, 21. 4.  
+did *w.* them with hairs, Luke 7. 38.  
+began to *w.* them with, John 13. 5.  
+
+**WISDOM.**—This is your *w.*, Deut. 4. 6.  
+people, *w.* shall die with you, Job 12. 2.  
+dost thou restrain *w.* to thy? Job 15. 8.  
+where shall *w.* be found? Job 28. 12.  
+God hath put *w.*, Job 36. 5.  
+shalt make me to know *w.*, Ps. 51. 6.  
+in *w.* hast thou made works, Ps. 104. 24.  
+happy man that findeth *w.*, Prov. 3. 13.  
+get *w.*, Prov. 4. 5.  
+*w.* is the principal thing, Prov. 4. 7.  
+*w.* resteth in heart of him, Prov. 14. 33.  
+better to get *w.* than gold, Prov. 16. 16.  
+that getteth *w.* loveth soul, Prov. 19. 8.  
+there is no *w.* against Lord, Prov. 21. 30.  
+cease from thy own *w.*, Prov. 23. 4.  
+*w.* is too high for a fool, Prov. 24. 7.  
+in much *w.* is much grief, Eccl. 1. 18.  
+*w.* maketh face to shine, Eccl. 8. 1.  
+there is no *w.* in the grave, Eccl. 9. 10.  
+*w.* is better than strength, Eccl. 9. 16.  
+*w.* is justified of her children, Matt. 11. 19; Luke 7. 35.  
+depth of the *w.* of God! Rom. 11. 33.  
+not with *w.* of words, 1 Cor. 1. 17.  
+and Greeks seek after *w.*, 1 Cor. 1. 22.  
+Christ *w.* of God, 1 Cor. 1. 24.  
+made to us *w.* and, 1 Cor. 1. 30.  
+for the *w.* of this world is, 1 Cor. 3. 19.  
+not with fleshly *w.*, 2 Cor. 1. 12.  
+the manifold *w.* of God, Eph. 3. 10.  
+might be filled with all *w.*, Col. 1. 9.  
+are hid all the treasures of *w.*, Col. 2. 3.  
+walk in *w.* toward them that, Col. 4. 5.  
+if any lack *w.*, let him ask, Jas. 1. 5.  
+*w.* from above is pure, Jas. 3. 17.  
+worship Lamb to receive *w.*, Rev. 5. 12.  
+glory, and *w.* be to our God, Rev. 7. 12.  
+here is *w.*, Rev. 13. 18.  
+
+**WISE.**—Shalt in any *w.* rebuke neighbour, Lev. 19. 17.  
+*a w.* people, Deut. 4. 6.  
+that they were *w.* that they, Deut. 32. 29.  
+taketh *w.* in own craftiness, Job 5. 13.  
+*w.* is *w.* in heart and strength, Job 9. 4.  
+vain man would be *w.* though, Job 11. 12.  
+great men are not always *w.*, Job 32. 9.  
+be *w.* now, O ye kings, Ps. 2. 10.  
+making thee *w.* simple, Ps. 19. 7.  
+*a fool*, then will he be *w.*, Ps. 94. 8.  
+whoso is *w.* and will observe, Ps. 107. 43.  
+be not *w.* in thine own eyes, Prov. 3. 7.  
+the *w.* shall inherit glory, Prov. 3. 35.  
+be *w.*, Prov. 6. 6, 8. 33, 23. 19, 27. 11.  
+be *w.*, thou shalt be *w.* for self, Prov. 9. 12. [30.  
+he that winneth souls is *w.* Prov. 11. 30.  
+law of *w.* is a fountain of life, Prov. 13. 14. [21.  
+the *w.* in heart called prudent, Prov. 16. 21.  
+answer a fool lest he be *w.* in his own eyes, Prov. 26. 5. [12.  
+a man *w.* in his own conceit, Prov. 26.  
+be four things that are *w.*, Prov. 30. 24.  
+words of *w.* are as goads, Eccl. 12. 11.  
+they are *w.* to do evil, Jer. 4. 22.  
+they that be *w.* shall shine, Dan. 12. 3.  
+be ye *w.* as serpents, Matt. 10. 16.  
+hid from *w.*, Matt. 11. 25; Luke 10. 21.  
+I am debtor to the *w.*, Rom. 1. 14.  
+be not *w.* in your conceits, Rom. 12. 16.  
+to God only *w.* be glory, Rom. 16. 27.  
+where is the *w.*? 1 Cor. 1. 20.  
+Lord knoweth thoughts of the *w.*, 1 Cor. 3. 20.  
+but ye are *w.* in Christ, 1 Cor. 4. 10.  
+walk not as fools, but *w.*, Eph. 5. 15.  
+to make *w.* unto salvation, 2 Tim. 3. 15.  
+
+**WISELY.**—Will behave myself *w.*, Ps. 101. 2.  
+handleth a matter *w.*, Prov. 16. 20.  
+thou dost not inquire *w.*, Eccl. 7. 10.  
+because he had done *w.*, Luke 16. 8.  
+
+**WISER.**—*w.* than all men, 1 Kin. 4. 31.  
+maketh us *w.* than fowls, Job 35. 11.  
+*w.* than enemies, Ps. 119. 98.  
+in their generation *w.*, Luke 16. 8.  
+
+**WISH.**—That *w.* evil, Ps. 40. 14.  
+more than heart could *w.*, Ps. 73. 7.  
+and *w.* himself to die, Jonah 4. 8.  
+I *w.* thou mayest prosper, 3 John 2.  
+
+**WITCH.**—Ex. 22. 18; Deut. 18. 10.  
+
+**WITCHCRAFT.**—As sin of *w.*, 1 Sam. 15. 23.  
+works of flesh are *w.*, Gal. 5. 20. [9. 13.  
+
+**WITHDRAW.**—Not he his anger, Job 9. 13.  
+*w.* thine hand far from me, Job 13. 21.  
+*w.* not from the signs, Job 36. 7.  
+*w.* from brother that walketh disorderly, 2 Thess. 3. 6.  
+from corrupt minds *w.*, 1 Tim. 6. 5.  
+
+**WITHER.**—Shall *w.* as green herb, Ps. 37. 2.  
+in evening cut down and *w.* Ps. 90. 6.  
+my heart is *w.*, Ps. 102. 4. [19. 7.  
+thing sown by the brook shall *w.*, Isa. 40. 7, 8; 1 Pet. 1. 24.  
+trees of the field are *w.*, Joel 1. 12.  
+the fig-tree *w.*, Matt. 21. 19, 20; Mark 11. 21.  
+the sun *w.* the grass, Jas. 1. 11.  
+trees *w.* without fruit, Jude 12.  
+
+**WITHHELD.**—I *w.* thee from sin, Gen. 20. 6.  
+seeing thou hast not *w.* son, Gen. 22. 12.  
+
+**WITHHOLD.**—*w.* not thy mercies, Ps. 40. 11.  
+no good thing will he *w.* from, Ps. 84. 11.  
+*w.* not good to whom due, Prov. 3. 27.  
+that *w.* more than meet, Prov. 11. 24.  
+in *w.*ing *w.* not thy hand, Eccl. 11. 6.  
+
+**WITHHOLDEN.**—No thought *w.* thee, Job 42. 2.  
+sins have *w.* good things, Jer. 5. 25.  
+
+**WITHIN.**—Written *w.* and without, Ezek. 2. 10.  
+cleanse first *w.* that, Matt. 23. 26.  
+*w.* fears, 2 Cor. 7. 5.  
+
+**WITHOUT.**—*w.* God, Eph. 2. 12.  
+that are *w.*, Col. 4. 5.  
+
+**WITHSTAND.**—Two shall *w.*, Eccl. 4. 12.  
+that I could *w.* God? Acts 11. 17.  
+able to *w.* in the evil day, Eph. 6. 13.  
+
+**WITHSTOOD.**—I *w.* Peter to the face, Gal. 2. 11.  
+Jannes and Jambres *w.* Moses, 2 Tim. 3. 8. [15.  
+he hath greatly *w.* our words, 2 Tim. 4. 14.  
+
+**WITNESS.**—God is *w.*, Gen. 31. 50; 1 Thess. 2. 5.  
+one *w.* shall not testify, Num. 35. 30.  
+Lord *w.* between us, Judg. 11. 10; Jer. 29. 23.  
+my *w.* is in heaven, Job 16. 19. [42. 5.  
+come near, saith the Lord, Isa. 43. 10.  
+a faithful *w.* will not lie, Prov. 14. 5.  
+a true *w.* delivereth souls, Prov. 14. 25.  
+ungodly *w.* scorneth judgment, Prov. 19. 28. [24. 28.  
+e not *w.* against thy neighbour, Prov. 24. 28.  
+for *w.* to the people, Isa. 55. 4.  
+Lord be faithful *w.* between us, Jer. 42. 5.  
+swift *w.* against the sorcerers, Mal. 3. 5.  
+for *w.* against nation, Matt. 24. 14.  
+came for *w.* to bear *w.*, John 1. 7.  
+ye receive not our *w.*, John 3. 11.  
+if I bear *w.* of myself, John 5. 31. [32.  
+he that witnesseth of me is true, John 5. 32.  
+I have greater *w.* than John, John 5. 36, 37. [17.  
+he left not himself without *w.*, Acts 14. 17.  
+thou shalt be his *w.* to all, Acts 22. 15.  
+that *w.* was faithful to us, Heb. 10. 15.  
+if we receive *w.* of men, 1 John 5. 9.  
+he that believeth hath *w.* in himself, 1 John 5. 10.  
+Jesus Christ the faithful *w.*, Rev. 1. 5.  
+
+**WITNESSES.**—At the mouth of two or three *w.*, Deut. 17. 6; 2 Matt. 18. 16; 2 Cor. 13. 1.  
+I took faithful *w.* to record, Isa. 8. 2.  
+*I took faithful w.*, saith the Lord, Isa. 43. 10, 12, 44. 8.  
+ye are *w.* of these things, Luke 24. 48.  
+ye are *w.* and God also, 1 Thess. 2. 10.  
+before many *w.*, 1 Tim. 6. 12.  
+I will give power to my *w.*, Rev. 11. 3.  
+
+**WITNESS.**—Holy Ghost *w.* in every city, Acts 20. 23. [21.  
+being *w.* by law and prophets, Rom. 3. 21.  
+being Pilate *w.* good conf., 1 Tim. 6. 13.  
+
+**WITS.**—At their *w.* end, Ps. 107. 27.  
+
+**WIVES.**—Have *w.* be as had none, 1 Cor. 7. 29.  
+love your *w.*, Eph. 5. 25; Col. 3. 19.  
+love their *w.* as their bodies, Eph. 5. 28.  
+so must their *w.* be grave, 1 Tim. 3. 11.  
+
+**WIZARDS.**—Lev. 19. 31, 20. 27.  
+to *w.* that peep and mutter, Isa. 8. 19.  
+
+**WOE.**—Inhabitants of earth, Rev. 8. 13, 12. 12.  
+one *w.* past, Rev. 9. 12.  
+two *w.* more hereafter, Rev. 9. 12.  
+
+**WOEFUL.**—The *w.* day, Jer. 17. 16.  
+
+**WOLF.**—*w.* shall dwell with Lamb, Isa. 11. 6.  
+*w.* and Lamb feed together, Isa. 65. 25.  
+biting teeth *w.* coming, John 10. 12.  
+
+**WOLES.**—Her judges evening *w.*, Zeph. 3. 3.  
+inwardly they are *w.*, Matt. 7. 15.  
+I send you forth among *w.*, Luke 10. 3.  
+*w.* shall enter among you, Acts 20. 29.  
+
+**WOMAN.**—Made he a *w.*, Gen. 2. 22.  
+she shall be called *w.*, Gen. 2. 23.  
+a foolish *w.* is clamorous, Prov. 9. 13.  
+virtuous *w.* is a crown, Pr. 12. 4, 31. 10.  
+a virtuous *w.* who can find, Pr. 31. 10.  
+who can find a virtuous *w.*? Pr. 31. 10.  
+*w.* that fears Lord shall be praised, Prov. 31. 30. [7. 28.  
+*w.* among those I have not found, Eccl. 7. 28.  
+can *w.* forget sucking child? Isa. 49. 15.  
+Lord called thee as *w.* forsaken, Isa. 54. 6.  
+*w.* compass a man, Jer. 31. 22. [6.  
+*w.* should looketh on a *w.*, Matt. 5. 28.  
+O *w.* great is thy faith, be it, Matt. 15. 28. [26. 13.  
+that *w.* hath done shall be told, Matt. 26. 13.  
+Simon, seest thou this *w.*? Luke 7. 44.  
+*w.* what have I to do with thee? John 2. 4.  
+a *w.* of Samaria, John 4. 9. [2. 4.  
+brought *w.* taken in adultery, John 8. 3.  
+*w.* behold thy son, John 19. 26. [3. 4.  
+this *w.* was full of works, Acts 9. 36.  
+man leaving use of *w.*, Rom. 1. 27.  
+good *w.* such an one, 1 Cor. 7. 1. [9.  
+*w.* is the glory of the man, 1 Cor. 11. 7, 8.  
+as *w.* is of man, so man by *w.*, 1 Cor. 11. 12.  
+sent his Son made of a *w.*, Gal. 4. 4.  
+I suffer not *w.* to teach, 1 Tim. 2. 12.  
+*w.* deceived, was in transgression, 1 Tim. 2. 14. [1.  
+appeared *w.* clothed with sun, Rev. 12. 1.  
+earth helped the *w.*, Rev. 12. 16.  
+
+**WOMB.**—Two nations in thy *w.*, Gen. 25. 23.  
+blessings of *w.*, Gen. 49. 25. [25. 23.  
+Lord had shut up her *w.*, 1 Sam. 1. 5, 6.  
+he who took me out of *w.*, Ps. 22. 9.  
+from *w.* of morning, Ps. 110. 3.  
+Lord formed thee from the *w.*, Isa. 44. 2.  
+Lord called me from the *w.*, Isa. 49. 1.  
+bring forth and shut the *w.*? Isa. 66. 9.  
+before thou camest out of *w.*, Jer. 1. 5.  
+why came I forth out of *w.*, Jer. 20. 18.  
+give them a miscarrying *w.*, Hos. 9. 14.  
+blessed is the *w.* that bare thee, Luke 11. 27.  
+blessed *w.* never bare, Luke 23. 29.  
+
+**WOMEN.**—Blessed above *w.*, Judg. 5. 24.  
+among thy honourable *w.*, Ps. 45. 9.  
+give not strength to *w.*, Prov. 31. 3.  
+fairest among *w.*, Cant. 1. 8, 5. 9, 6. 1.  
+daughters over them, Cant. 3. 12.  
+seven *w.* take hold of one man, Isa. 4. 1.  
+*w.* that are at ease, Isa. 32. 9.  
+careless *w.*, Isa. 32. 10. [10.  
+*w.* have sodden their children, Lam. 4. 10.  
+that are born of *w.*, Matt. 11. 11; Luke 7. 28. [35.  
+two *w.* grinding, Matt. 24. 41; Luke 17. 35.  
+*w.* were beholding afar off, Matt. 27. 55.  
+blessed among *w.*, Luke 1. 28, 42.  
+of *w.* not a few believed, Acts 17. 4, 12.  
+let *w.* keep silence in, 1 Cor. 14. 34.  
+let *w.* learn in silence, 1 Tim. 2. 11.  
+I will that younger *w.* marry, 1 Tim. 5. 14.  
+aged *w.* behave as becometh, Titus 2. 3.  
+teach younger *w.* to be sober, Titus 2. 4.  
+*w.* received dead raised, Heb. 11. 35.  
+that are not defiled with *w.*, Rev. 14. 4.  
+
+**WONDER.**—Am as a *w.* to many, Ps. 71. 7.  
+do marvellous work and *w.*, Isa. 29. 14.  
+appear a *w.* in heaven, Rev. 12. 1, 3.  
+
+**WONDERFUL.**—Thy love to me was *w.*, 2 Sam. 1. 26.  
+things too *w.* for me, Job 42. 3.  
+thy testimonies are *w.*, Ps. 119. 129.  
+three things are too *w.*, Prov. 30. 18.  
+his name shall be called *W.*, Isa. 9. 6.  
+thou hast done *w.* things, Isa. 25. 1.  
+Lord, who is *w.* in counsel, Isa. 28. 29.  
+a *w.* thing is committed, Jer. 5. 30.  
+when they saw *w.* things, Matt. 21. 15.  
+
+**WONDERFULLY.**—*w.* made, Ps. 139. 14.  
+how *w.* art thou done, Jam. 1. 9.  
+
+**WONDERS.**—Ex. 3. 20, 7. 3, 11. 9.  
+fearful in praises, doing *w.*, Ex. 15. 11.  
+God doeth *w.* without number, Job 9. 10.  
+thou art the God that doest *w.*, Ps. 77. 14.  
+wilt thou shew *w.* to dead? Ps. 88. 10.  
+shall thy *w.* be known in dark? Ps. 88. 12.  
+declare his *w.* among people, Ps. 96. 3.  
+who alone doeth great *w.*, Ps. 136. 4.  
+how mighty his *w.*! Dan. 4. 3.  
+he worketh *w.* in heaven, Dan. 6. 27.  
+how long to end of these *w.*? Dan. 12. 6.  
+he will shew *w.*, Joel 2. 30; Acts 2. 19.  
+signs and *w.* were done, Acts 2. 43.  
+
+**WONDERED.**—I *w.* there was none to uphold, Isa. 63. 5.  
+for they are *w.* at, Zech. 3. 8.  
+all they that heard it *w.*, Luke 2. 18.  
+they all *w.* at gracious words, Lu. 4. 22.  
+world *w.* after the beast, Rev. 13. 3.  
+I *w.* with great admiration, Rev. 17. 6.  
+
+**WONDROUS.**—*w.* works, 1 Chron. 16. 9; Job 37. 14; Ps. 26. 7, 105. 2, 119. 27, 145. 5; Jer. 21. 2.  
+God doeth *w.* things, Ps. 72. 18, 86. 10.  
+none of *w.* works declare, Ps. 75. 1.  
+who had done *w.* works, Ps. 106. 22.  
+behold *w.* things out of law, Ps. 119. 18.  
+
+**WONDROUSLY.**—Judg. 13. 19; Joel 2. 26. [7.  
+
+**WOOD.**—When one cleaveth *w.*, Ps. 141. 10.  
+no *w.* fire goeth out, Prov. 26. 20.  
+*w.* hay, 1 Cor. 3. 12.  
+vessels of *w.*, 2 Tim. 2. 20.  
+
+**WOOL.**—She seeketh *w.* and flax, Prov. 31. 13.  
+sin like crimson, be as *w.*, Isa. 1. 18.  
+hair like *w.*, Dan. 7. 9; Rev. 1. 14.  
+my *w.*, Hos. 2. 5, 9.  
+
+**WORD.**—Lord put *w.* in Balaam's mouth, Num. 23. 5. [4.  
+by every *w.* of God, Deut. 8. 3; Matt. 4. 4.  
+*w.* is nigh thee, Deut. 30. 14; Rom. 10. 8.  
+failed not one *w.* of promise, 1 Kings 8. 56. [105. 8.  
+*w.* he commanded, 1 Chron. 16. 15; Ps. 105. 8.  
+Lord gave *w.*, Ps. 68. 11. [11.  
+thy *w.* have I hid in mine heart, Ps. 119. 11.  
+remember *w.* to thy servant, Ps. 119. 49.  
+for thy *w.* quickened me, Ps. 119. 50.  
+there is not a *w.* in tongue, Ps. 139. 4.  
+his *w.* runneth very swiftly, Ps. 147. 15.  
+he sheweth his *w.* unto Jacob, Ps. 147. 19.  
+a good *w.* maketh glad, Prov. 12. 25.  
+*w.* spoken in season, Prov. 15. 23.  
+*w.* fitly spoken, Prov. 25. 11. [20.  
+if speak not according to this *w.*, Isa. 8. 20.  
+the Lord sent a *w.* to Jacob, Isa. 9. 8.  
+shall hear *w.* behind thee, Isa. 30. 21.  
+the *w.* is gone out of mouth, Isa. 45. 23.  
+how to speak a *w.* in season, Isa. 50. 4.  
+so shall my *w.* be that goeth, Isa. 55. 11.  
+the *w.* is not in them, Jer. 5. 13.  
+his *w.* was in my heart, Jer. 20. 9.  
+every man's *w.* his burden, Jer. 23. 36.  
+*w.* I have spoken shall be done, Ezek. 12. 25.  
+speak the *w.* only, Matt. 8. 8. [36.  
+every idle *w.* men shall speak, Matt. 12. 36.  
+my *w.* shall not pass away, Matt. 24. 35.  
+for his *w.* was with power, Luke 4. 32.  
+what a *w.* is this? Luke 4. 36. [19.  
+Jesus mighty in *w.* and deed, Luke 24. 19.  
+in beginning was the *W.*, John 1. 1.  
+the *W.* was made flesh, John 1. 14.  
+my *w.* hath no place in you, John 8. 37.  
+*w.* I have spoken shall judge him, John 12. 48.  
+the *w.* ye hear is not mine, John 14. 24.  
+thy *w.* is truth, John 17. 17. [26.  
+hear the *w.* from him and turn, Acts 13. 26.  
+not in *w.* but in power, 1 Cor. 4. 20.  
+*w.* of wisdom, *w.* of know., 1 Cor. 12. 8.  
+our *w.* to you was not yea, 2 Cor. 1. 18.  
+cleansing it with water by *w.*, Eph. 5. 26.  
+holding forth the *w.* of life, Phil. 2. 16.  
+*w.* of Christ dwell in you richly, Col. 3. 16.  
+gospel came not in *w.*, 1 Thess. 1. 5.  
+receive it not as *w.* of men, 1 Thess. 2. 13.  
+God establish you in every good *w.*, 2 Thess. 2. 17.  
+having fasted his *w.*, Titus 1. 3.  
+teaching as *w.* as taught, Titus 1. 9.  
+all things by *w.* of power, Heb. 1. 3.  
+*w.* preached did not profit them, Heb. 4. 2. [5. 13.  
+unskilful in *w.* of righteousness, Heb. 5. 13.  
+entreated *w.* shall not be spoken, Heb. 12. 19.  
+receive the ingrafted *w.*, Jas. 1. 21.  
+if any man offend not in *w.*, Jas. 3. 2.  
+whoso keepeth his *w.*, 1 John 2. 5.  
+not love in *w.* but in deed, 1 John 3. 18.  
+Father, *W.*, and Holy Ghost one, 1 John 5. 7.  
+
+**WORD OF GOD.**—Every *w.* of G. is pure, Prov. 30. 5.  
+*w.* of G. shall stand for ever, Isa. 40. 8.  
+making *w.* of G. of none effect, Mk. 7. 13.  
+the seed is the *w.* of G., Luke 8. 11.  
+*w.* of G. quick and powerful, Heb. 4. 12.  
+born again by *w.* of G., 1 Pet. 1. 23.  
+by *w.* of G. heavens were, 2 Pet. 3. 5.  
+his name is called *W.* of G., Rev. 19. 12.  
+
+**WORDS.**—Hear, O earth, *w.* of my mouth, Deut. 32. 1; Ps. 54. 2, 78. 1; Prov. 7. 24.  
+O that my *w.* were written! Job 19. 23.  
+I esteemed *w.* of his mouth, Job 23. 12.  
+he lifted up *w.* without knowledge, Job 35. 16.  
+give ear to my *w.*, O Lord, Ps. 5. 1.  
+let *w.* of my mouth be, Ps. 19. 14.  
+casteth my *w.* behind thee, Ps. 50. 17.  
+thou lovest all devouring *w.*, Ps. 52. 4.  
+*w.* of my mouth smoother, Ps. 55. 21.  
+how sweet thy *w.* to my taste! Ps. 119. 103.  
+hear *w.* of the wise, Prov. 22. 17. [103.  
+let thy *w.* be few, Eccl. 5. 2.  
+the *w.* of wise are gracious, Eccl. 10. 12.  
+*w.* of wise are as goads, Eccl. 12. 11.  
+my *w.* in thy mouth, Isa. 51. 16.  
+take with you *w.* and turn, Hos. 14. 2.  
+do not miss *w.* to God, Micah 7. 7.  
+my *w.* not pass, Mark 13. 31: Lu. 21. 33.  
+*w.* wondered at gracious *w.*, Luke 4. 22.  
+*w.* I speak to you are life, John 6. 63.  
+thou hast the *w.* of eternal life, Jn. 6. 68.  
+given them *w.* thou gavest me, Jn. 17. 8.  
+Moses was mighty in *w.*, Acts 7. 22.  
 
 
 
@@ -27388,624 +27388,624 @@ Moses was mighty in *w.*, Acts 7. 22.
 
 # Content from: pages92-93.md
 
-to remember w. of L Jesus, Acts 20. 35.
-wisdom of w., 1 Cor. 17, 17, 2, 4, 13.
-w. easy to be understood, 1 Cor. 14. 9.
-hear w. of prophecy, Rev. 1. 3, 22. 18.
-their w. are true and, Rev. 21. 5.
+to remember w. of L Jesus, Acts 20. 35.  
+wisdom of w., 1 Cor. 17, 17, 2, 4, 13.  
+w. easy to be understood, 1 Cor. 14. 9.  
+hear w. of prophecy, Rev. 1. 3, 22. 18.  
+their w. are true and, Rev. 21. 5.  
 
-**WORK.**—Six days do all thy w., Ex.
+**WORK.**—Six days do all thy w., Ex.  
 20. 9. [115. 4, 135. 15.]
-his w. of men's hands, Deut. 4. 28; Ps.
-115. 4; perfect, Deut. 32. 4.
-accept w. of his hands, Deut. 33. 11.
-the w. is great, 1 Chr. 29. 1; Neh. 4. 19.
-every w. he began he did, 2 Chr. 31. 21.
+his w. of men's hands, Deut. 4. 28; Ps.  
+115. 4; perfect, Deut. 32. 4.  
+accept w. of his hands, Deut. 33. 11.  
+the w. is great, 1 Chr. 29. 1; Neh. 4. 19.  
+every w. he began he did, 2 Chr. 31. 21.  
 they perceived this w. was of God,
-Neh. 6. 16.
-hast blessed w. of his hands, Job 1. 10.
-despise the w. of thine hands, Job 10. 3.
-have desire to w. of thy hands, Job 14. 15.
+Neh. 6. 16.  
+hast blessed w. of his hands, Job 1. 10.  
+despise the w. of thine hands, Job 10. 3.  
+have desire to w. of thy hands, Job 14. 15.  
 the w. of a man shall he render him,
-Job 34. 11; 1 Pet. 1. 17.
-they are all the w. of his hands, Job 34.
-20. their fingers, Ps. 8. 3. [19.
-I frame not for myself w., Ps. 10. 1.
-we heard what w. thou didst, Ps. 41. 1.
-I hate the w. of them that, Ps. 101. 3.
-heavens are w. of thy hands, Ps. 102. 25.
-man goeth to his w. and labour, Ps. 104.
-his w. is honourable, Ps. 111. 3. [23.
-there is no w. in grave, Eccl. 9. 10.
-God will bring w. into judg., Eccl. 12. 14.
-his w., his strange w., Isa. 28. 21. [16.
-shall w. say him that made it, Isa. 29.
-his w. is before him, Isa. 40. 10, 62. 11.
-surely my w. is with my God, Isa. 49. 4.
-declare my w. to my Lord's, Jer. 21. 8.
-that giveth not for him w., Jer. 22. 13.
-mighty in w., Jer. 32. 19. [13. 41.
+Job 34. 11; 1 Pet. 1. 17.  
+they are all the w. of his hands, Job 34.  
+20. their fingers, Ps. 8. 3. [19.  
+I frame not for myself w., Ps. 10. 1.  
+we heard what w. thou didst, Ps. 41. 1.  
+I hate the w. of them that, Ps. 101. 3.  
+heavens are w. of thy hands, Ps. 102. 25.  
+man goeth to his w. and labour, Ps. 104.  
+his w. is honourable, Ps. 111. 3. [23.  
+there is no w. in grave, Eccl. 9. 10.  
+God will bring w. into judg., Eccl. 12. 14.  
+his w., his strange w., Isa. 28. 21. [16.  
+shall w. say him that made it, Isa. 29.  
+his w. is before him, Isa. 40. 10, 62. 11.  
+surely my w. is with my God, Isa. 49. 4.  
+declare my w. to my Lord's, Jer. 21. 8.  
+that giveth not for him w., Jer. 22. 13.  
+mighty in w., Jer. 32. 19. [13. 41.  
 w. a w. in your days, Hab. 1. 5; Acts
-there do no mighty w., Mark 6. 5.
-done one w. and ye marvel, John 7. 21.
-finished the w. thou gavest, John 17. 4.
-if this w. be of men, Acts 5. 38. [15.
-which shew w. of law written, Rom. 2.
+there do no mighty w., Mark 6. 5.  
+done one w. and ye marvel, John 7. 21.  
+finished the w. thou gavest, John 17. 4.  
+if this w. be of men, Acts 5. 38. [15.  
+which shew w. of law written, Rom. 2.  
 a short w. Lord made upon earth,
-Rom. 9. 28.
-otherwise w. is no more w., Rom. 11. 6.
-my w.-fellow salute you, Rom. 16. 21.
-every man's w. be manifest, 1 Cor. 3. 13.
-knowing the w. of the Lord's, 1 Cor. 9. 1.
-your w. of faith, 1 Thess. 1. 3; Heb. 6. 10.
-w. of faith with power, 2 Thess. 1. 11.
-stablish you in every good w., 2 Thess.
-2. 17. [G., Ps. 64. 9.
+Rom. 9. 28.  
+otherwise w. is no more w., Rom. 11. 6.  
+my w.-fellow salute you, Rom. 16. 21.  
+every man's w. be manifest, 1 Cor. 3. 13.  
+knowing the w. of the Lord's, 1 Cor. 9. 1.  
+your w. of faith, 1 Thess. 1. 3; Heb. 6. 10.  
+w. of faith with power, 2 Thess. 1. 11.  
+stablish you in every good w., 2 Thess.  
+2. 17. [G., Ps. 64. 9.  
 
 **WORK OF GOD.**—All declare the w. of
-come and see the w. of G., Ps. 66. 5.
-I beheld all the w. of G., Eccl. 8. 17.
-this is the w. of G. that ye, John 6. 29.
-for meat destroy not w. of G., Ro. 14. 20.
+come and see the w. of G., Ps. 66. 5.  
+I beheld all the w. of G., Eccl. 8. 17.  
+this is the w. of G. that ye, John 6. 29.  
+for meat destroy not w. of G., Ro. 14. 20.  
 
-**WORK.**—I, will w. for us, 1 Sam. 14. 6.
-people had a mind to w., Neh. 4. 6.
-it is time for thee to w., Ps. 119. 126.
-I w. at even who shall let it, Isa. 43. 13.
-w. for I am with you, Hag. 2. 4.
-go w. in my vineyard, Matt. 21. 28.
-which men ought to w., Luke 13. 14.
-might w. the works of God, John 6. 28.
-I must w. the works of him, John 9. 4.
-all things w. together for good, Rom. 8.
-28. out your salvation, Phil. 2. 12. [28.
-study to w. with hands, 1 Thess. 4. 11.
-not w. neither should he eat, 2 Thess.
-3. 10. [6. 1.
+**WORK.**—I, will w. for us, 1 Sam. 14. 6.  
+people had a mind to w., Neh. 4. 6.  
+it is time for thee to w., Ps. 119. 126.  
+I w. at even who shall let it, Isa. 43. 13.  
+w. for I am with you, Hag. 2. 4.  
+go w. in my vineyard, Matt. 21. 28.  
+which men ought to w., Luke 13. 14.  
+might w. the works of God, John 6. 28.  
+I must w. the works of him, John 9. 4.  
+all things w. together for good, Rom. 8.  
+28. out your salvation, Phil. 2. 12. [28.  
+study to w. with hands, 1 Thess. 4. 11.  
+not w. neither should he eat, 2 Thess.  
+3. 10. [6. 1.  
 
-**WORKERS.**—As w. with him, 2 Cor.
-become evil w., 2 Cor. 11. 13.
-workers of evil w., Phil. 3. 2. [33. 4.
+**WORKERS.**—As w. with him, 2 Cor.  
+become evil w., 2 Cor. 11. 13.  
+workers of evil w., Phil. 3. 2. [33. 4.  
 
-**WORKS.**—His w. are done in truth, Ps.
-wonderful w., Ps. 40. 5, 107. 8.
-nor any w. like unto thy w., Ps. 86. 8.
-triumph in w. of thy hands, Ps. 92. 4.
-O Lord, how great are thy w., Ps. 92. 5.
-bless the Lord, all his w., Ps. 103. 22.
-how manifold are thy w., Ps. 104. 24.
-w. of the Lord are great, Ps. 111. 2.
-w. of hands, verity and, Ps. 111. 7.
-thy w. shall praise thee, Ps. 145. 10.
-let her w. praise her, Prov. 31. 31.
-their w. are in dark, Isa. 29. 15.
-are wrought our w. in us, Isa. 26. 12.
-I know their w. and thoughts, Isa. 66.
-whose w. are truth, Dan. 4. 37. [18.
-done wonderful w., Matt. 7. 22.
-do not ye after their w., Matt. 23. 3.
-shew him greater w. than, John 5. 20.
-w. I do in Father's name, John 10. 25.
+**WORKS.**—His w. are done in truth, Ps.  
+wonderful w., Ps. 40. 5, 107. 8.  
+nor any w. like unto thy w., Ps. 86. 8.  
+triumph in w. of thy hands, Ps. 92. 4.  
+O Lord, how great are thy w., Ps. 92. 5.  
+bless the Lord, all his w., Ps. 103. 22.  
+how manifold are thy w., Ps. 104. 24.  
+w. of the Lord are great, Ps. 111. 2.  
+w. of hands, verity and, Ps. 111. 7.  
+thy w. shall praise thee, Ps. 145. 10.  
+let her w. praise her, Prov. 31. 31.  
+their w. are in dark, Isa. 29. 15.  
+are wrought our w. in us, Isa. 26. 12.  
+I know their w. and thoughts, Isa. 66.  
+whose w. are truth, Dan. 4. 37. [18.  
+done wonderful w., Matt. 7. 22.  
+do not ye after their w., Matt. 23. 3.  
+shew him greater w. than, John 5. 20.  
+w. I do in Father's name, John 10. 25.  
 for which of these w. do ye stone me,
-John 10. 32. [14. 12.
+John 10. 32. [14. 12.  
 w. that I do, shall he do, greater, John
-known to God are his w., Acts 15. 18.
-not of w. but of him that, Rom. 9. 11.
-let us cast off w. of darkness, Ro. 13. 12.
-man is not justified by w., Gal. 2. 16.
-w. of the flesh are manifest, Gal. 5. 19.
-not of w., Eph. 2. 9. [11.
-with unfruitful w. of darkness, Eph. 5.
-but in w. they deny God, Titus 1. 16.
-from dead w., Heb. 6. 1, 9. 14.
-have not w. can faith save? Jas. 2. 14.
-was not Rahab justified by w.? Jas. 2. 25.
-the w. wherein burnt up, 2 Pet. 3. 10.
-might destroy w. of devil, 1 John 3. 8.
-I know thy w., Rev. 2. 2, 9, 13, 19. [3. 2.
-I have not found thy w. perfect, Rev.
-their w. do follow them, Rev. 14. 13.
-judged according to their w., Rev. 20.
-according to their w., Rev. 22. 12. [18.
+known to God are his w., Acts 15. 18.  
+not of w. but of him that, Rom. 9. 11.  
+let us cast off w. of darkness, Ro. 13. 12.  
+man is not justified by w., Gal. 2. 16.  
+w. of the flesh are manifest, Gal. 5. 19.  
+not of w., Eph. 2. 9. [11.  
+with unfruitful w. of darkness, Eph. 5.  
+but in w. they deny God, Titus 1. 16.  
+from dead w., Heb. 6. 1, 9. 14.  
+have not w. can faith save? Jas. 2. 14.  
+was not Rahab justified by w.? Jas. 2. 25.  
+the w. wherein burnt up, 2 Pet. 3. 10.  
+might destroy w. of devil, 1 John 3. 8.  
+I know thy w., Rev. 2. 2, 9, 13, 19. [3. 2.  
+I have not found thy w. perfect, Rev.  
+their w. do follow them, Rev. 14. 13.  
+judged according to their w., Rev. 20.  
+according to their w., Rev. 22. 12. [18.  
 
-**WORTHY.**—Wicked w. deceit, Prov.
-she w. with her hands, Prov. 31. 13.
+**WORTHY.**—Wicked w. deceit, Prov.  
+she w. with her hands, Prov. 31. 13.  
 meetest him that w. righteousness,
-Isa. 64. 5.
-my Father w. hitherto, John 5. 17.
-he that w. righteousness, Acts 10. 35.
-to him that w. is the reward, Rom. 4. 4.
-love w. no ill to neighbour, Rom. 13. 10.
-same God that w., 1 Cor. 12. 6.
-who w. all things after, Eph. 1. 11.
-for it is God w. in you, Phil. 2. 13.
-effectually w. in you, 1 Thess. 2. 13.
-Lord w. with them, Mark 16. 20. [29.
-w. with our hands, 1 Cor. 4. 12.
-power to forbear w.? 1 Cor. 9. 6.
-according to w. of power, Eph. 1. 19.
-w. thing that is good, Eph. 4. 28.
-according to w. whereby, Phil. 3. 21.
-after the hear and not, 2 Thess. 2. 9.
-w. not at all, 2 Thess. 3. 11.
-w. that which is pleasing, Heb. 13. 21.
+Isa. 64. 5.  
+my Father w. hitherto, John 5. 17.  
+he that w. righteousness, Acts 10. 35.  
+to him that w. is the reward, Rom. 4. 4.  
+love w. no ill to neighbour, Rom. 13. 10.  
+same God that w., 1 Cor. 12. 6.  
+who w. all things after, Eph. 1. 11.  
+for it is God w. in you, Phil. 2. 13.  
+effectually w. in you, 1 Thess. 2. 13.  
+Lord w. with them, Mark 16. 20. [29.  
+w. with our hands, 1 Cor. 4. 12.  
+power to forbear w.? 1 Cor. 9. 6.  
+according to w. of power, Eph. 1. 19.  
+w. thing that is good, Eph. 4. 28.  
+according to w. whereby, Phil. 3. 21.  
+after the hear and not, 2 Thess. 2. 9.  
+w. not at all, 2 Thess. 3. 11.  
+w. that which is pleasing, Heb. 13. 21.  
 
 **WORKMAN.**—w. is worthy of meat,
-Matt. 10. 10.
-a w. not to be ashamed, 2 Tim. 2. 15.
+Matt. 10. 10.  
+a w. not to be ashamed, 2 Tim. 2. 15.  
 
 **WORKMANSHIP.**—We are his w.,
-Eph. 2. 10. [8.
+Eph. 2. 10. [8.  
 
-**WORLD.**—Set w. upon them, 1 Sam. 2.
-w. shall not be moved, 1 Chron. 16. 30.
-who hath disposed of the w., Job 34. 13.
-deliver from men of the w., Ps. 17. 14.
-w. is the L.'s, Ps. 24. 1, 98. 7; Nah. 1. 5.
-w. is mine and the fulness, Ps. 50. 12.
-formed the earth and the w., Ps. 90. 2.
-the w. also is established, Ps. 93. 1.
-also set w. in their heart, Eccl. 3. 11.
-the w. shall vanish away, Isa. 24. 4.
-after the beauty of the w. that, Isa. 34. 1.
-field is w., Matt. 13. 38.
-in the w. to come, Mark 10. 30.
-children of this w., Luke 16. 8, 20. 34.
-worthy to obtain that w., Luke 20. 35.
+**WORLD.**—Set w. upon them, 1 Sam. 2.  
+w. shall not be moved, 1 Chron. 16. 30.  
+who hath disposed of the w., Job 34. 13.  
+deliver from men of the w., Ps. 17. 14.  
+w. is the L.'s, Ps. 24. 1, 98. 7; Nah. 1. 5.  
+w. is mine and the fulness, Ps. 50. 12.  
+formed the earth and the w., Ps. 90. 2.  
+the w. also is established, Ps. 93. 1.  
+also set w. in their heart, Eccl. 3. 11.  
+the w. shall vanish away, Isa. 24. 4.  
+after the beauty of the w. that, Isa. 34. 1.  
+field is w., Matt. 13. 38.  
+in the w. to come, Mark 10. 30.  
+children of this w., Luke 16. 8, 20. 34.  
+worthy to obtain that w., Luke 20. 35.  
 he was in the w., the w. was made by
-him, John 1. 10; Acts 17. 24.
-God so loved the w., John 3. 16.
+him, John 1. 10; Acts 17. 24.  
+God so loved the w., John 3. 16.  
 w. through him might be saved, John
-3. 17. [John 4. 14.
+3. 17. [John 4. 14.  
 Christ Saviour of w., John 4. 42; 1
-w. cannot hate you, John 7. 7.
-ye are of this w., John 8. 23.
-the w. is gone after him, John 12. 19.
-whom w. cannot receive, John 14. 17.
-the w. seeth me no more, John 14. 19.
-if w. hate you, John 15. 18; 1 Jn. 3. 13.
-were first, that w. love his own, Jn. 15. 19.
-I have sent go to Father, Jn. 16. 28.
-I have overcome the w., Jn. 16. 33. [9.
-I pray not for w., but for them, Jn. 17.
+w. cannot hate you, John 7. 7.  
+ye are of this w., John 8. 23.  
+the w. is gone after him, John 12. 19.  
+whom w. cannot receive, John 14. 17.  
+the w. seeth me no more, John 14. 19.  
+if w. hate you, John 15. 18; 1 Jn. 3. 13.  
+were first, that w. love his own, Jn. 15. 19.  
+I have sent go to Father, Jn. 16. 28.  
+I have overcome the w., Jn. 16. 33. [9.  
+I pray not for w., but for them, Jn. 17.  
 not of w. even as I am not of w.,
-John 17. 16.
-the w. hath not known me, John 17. 25.
+John 17. 16.  
+the w. hath not known me, John 17. 25.  
 w. may become guilty before God,
-Rom. 3. 19. [21.
-w. by wisdom knew not God, 1 Cor. 1.
-w. or life, or death, all yours, 1 Cor.
-3. 22. [7. 31.
-that use this w. as not abusing it, 1 Cor.
-without God in the w., Eph. 2. 12.
-by whom w. is crucified, Gal. 6. 14. [7.
-brought nothing into this w., 1 Tim. 6.
-Demas loved this present w., 2 Tim. 4.
-w. to come, Heb. 2. 5, 6. 5. [10.
-friendship of w. enmity with God, Jas.
-4. 4; forb. w., 1 Jn. 2. 15; Rev. 8. 11. [4. 4.
-all that are of the w., 1 John 2. 16.
-the w. passeth away, 1 John 2. 17.
-the w. knoweth us not, 1 John 3. 1.
-they are of the w., 1 John 4. 5.
-as he is, so are we in this w., 1 Jn. 4. 17.
-whole w. lieth in wickedness, 1 Jn. 5. 19.
-w. wondered after the beast, Rev. 13. 3.
+Rom. 3. 19. [21.  
+w. by wisdom knew not God, 1 Cor. 1.  
+w. or life, or death, all yours, 1 Cor.  
+3. 22. [7. 31.  
+that use this w. as not abusing it, 1 Cor.  
+without God in the w., Eph. 2. 12.  
+by whom w. is crucified, Gal. 6. 14. [7.  
+brought nothing into this w., 1 Tim. 6.  
+Demas loved this present w., 2 Tim. 4.  
+w. to come, Heb. 2. 5, 6. 5. [10.  
+friendship of w. enmity with God, Jas.  
+4. 4; forb. w., 1 Jn. 2. 15; Rev. 8. 11. [4. 4.  
+all that are of the w., 1 John 2. 16.  
+the w. passeth away, 1 John 2. 17.  
+the w. knoweth us not, 1 John 3. 1.  
+they are of the w., 1 John 4. 5.  
+as he is, so are we in this w., 1 Jn. 4. 17.  
+whole w. lieth in wickedness, 1 Jn. 5. 19.  
+w. wondered after the beast, Rev. 13. 3.  
 
-**WORLDS.**—By whom he made w., Heb.
-1. 2. [11. 3.
-w. were framed by word of God, Heb.
-11. 3.
+**WORLDS.**—By whom he made w., Heb.  
+1. 2. [11. 3.  
+w. were framed by word of God, Heb.  
+11. 3.  
 
 **WORM.**—w. shall feed sweetly on him,
-man that is a w., Job 25. 6.
-I am a w. and no man, Ps. 22. 6.
-w. is spread under thee, Isa. 14. 11.
-fear not thou w. Jacob, and, Isa. 41. 14.
-their w. shall not die, Isa. 66. 24.
+man that is a w., Job 25. 6.  
+I am a w. and no man, Ps. 22. 6.  
+w. is spread under thee, Isa. 14. 11.  
+fear not thou w. Jacob, and, Isa. 41. 14.  
+their w. shall not die, Isa. 66. 24.  
 
-**WORMS.**—Clothed with w., Job 7. 5.
-and w. shall cover them, Job 21. 26.
-eaten of w., Acts 12. 23.
+**WORMS.**—Clothed with w., Job 7. 5.  
+and w. shall cover them, Job 21. 26.  
+eaten of w., Acts 12. 23.  
 
-**WORMWOOD.**—Bitter as w., Prov. 5. 4.
-will feed them with w., Jer. 9. 15, 23. 15.
-the w. and gall, Lam. 3. 19.
-who turn judgment to w., Amos 5. 7.
-wormwood star fell, Rev. 8. 11.
+**WORMWOOD.**—Bitter as w., Prov. 5. 4.  
+will feed them with w., Jer. 9. 15, 23. 15.  
+the w. and gall, Lam. 3. 19.  
+who turn judgment to w., Amos 5. 7.  
+wormwood star fell, Rev. 8. 11.  
 
-**WORSE.**—w. than thy father, Jer. 7.
-lest a w. thing come, John 5. 14. [26.
-nor if we eat not are we w., 1 Cor. 8. 8.
-not for better but for w., 1 Cor. 11. 17.
+**WORSE.**—w. than thy father, Jer. 7.  
+lest a w. thing come, John 5. 14. [26.  
+nor if we eat not are we w., 1 Cor. 8. 8.  
+not for better but for w., 1 Cor. 11. 17.  
 
 **WORSHIP.**—Thy Lord, w. thou him,
-Ps. 45. 11.
-let us w. and bow down, Ps. 95. 6.
-w. him all ye gods, Ps. 97. 7.
-w. at his footstool, Ps. 99. 5, 132. 7.
+Ps. 45. 11.  
+let us w. and bow down, Ps. 95. 6.  
+w. him all ye gods, Ps. 97. 7.  
+w. at his footstool, Ps. 99. 5, 132. 7.  
 w. Lord in holy mount at Jerusalem,
-Isa. 27. 13.
-that w. host of heaven, Zeph. 1. 5.
-if thou wilt w. me, Matt. 4. 9; Lu. 4. 7.
-but in vain they do w. me, Matt. 15. 9.
-ye w. ye know not what, John 4. 22.
-shall w. the Father in spirit, John 4.
-23, 24. [23.
-whom ye ignorantly w. him, Acts 17.
-so w. I the God of my fathers, Acts 24.
-which w. God in spirit, Phil. 3. 3. [14.
-w. angels, Col. 2. 18; Heb. 1. 6.
-come and w. before thy feet, Rev. 3. 9.
-w. him that liveth for ever, Rev. 4. 10.
-w. him that made heaven, Rev. 14. 7.
+Isa. 27. 13.  
+that w. host of heaven, Zeph. 1. 5.  
+if thou wilt w. me, Matt. 4. 9; Lu. 4. 7.  
+but in vain they do w. me, Matt. 15. 9.  
+ye w. ye know not what, John 4. 22.  
+shall w. the Father in spirit, John 4.  
+23, 24. [23.  
+whom ye ignorantly w. him, Acts 17.  
+so w. I the God of my fathers, Acts 24.  
+which w. God in spirit, Phil. 3. 3. [14.  
+w. angels, Col. 2. 18; Heb. 1. 6.  
+come and w. before thy feet, Rev. 3. 9.  
+w. him that liveth for ever, Rev. 4. 10.  
+w. him that made heaven, Rev. 14. 7.  
 
 **WORSHIPPED.**—Our fathers w. in this
-mountain, John 4. 20.
-w. creature more than, Rom. 1. 25.
-elders w., Rev. 5. 14, 24, 11, 16, 19. 4.
+mountain, John 4. 20.  
+w. creature more than, Rom. 1. 25.  
+elders w., Rev. 5. 14, 24, 11, 16, 19. 4.  
 
 **WORSHIPPER.**—w. worship in spirit,
-John 4. 23. [25.
-if any man be a w. of God, John 9. 31.
-because the w. once purged, Heb. 10. 2.
+John 4. 23. [25.  
+if any man be a w. of God, John 9. 31.  
+because the w. once purged, Heb. 10. 2.  
 
 **WORSHIPPING.**—In w. of angels,
-Col. 2. 18. [25.
+Col. 2. 18. [25.  
 
-**WORTH.**—Speech nothing w., Job 24.
-heart of wicked little w., Pr. 10. 20. [10.
+**WORTH.**—Speech nothing w., Job 24.  
+heart of wicked little w., Pr. 10. 20. [10.  
 
-**WORTHY.**—Not w. of mercies, Gen. 32.
-w. to be praised, 2 Sam. 22. 4; Ps. 18. 3.
-I am not w. to bear, Matt. 3. 11.
-I am not w., Matt. 8. 8; Luke 7. 6.
-inquire who in it is w., Matt. 10. 11, 13.
-I am not w. hidden my heart, Matt. 22. 8.
-I think not w. to unloose, Mark 1. 7.
-w. for whom he should do this, Lu. 7. 4.
-am no more w. to be son, Lu. 15. 19, 21.
-not w. to be compared, Rom. 8. 18.
-walk w. of vocation, Eph. 4. 1.
-ye might walk w. of Lord, Col. 1. 10.
-that ye would walk w., 1 Thess. 2. 12.
-of whom world was not w., 1 Tim. 11. 38.
-blaspheme that w. name? Jas. 2. 7.
-walk in white, they are w., Rev. 3. 4.
-art w. to receive glory, Rev. 4. 11, 5. 12.
-w. to open the book, Rev. 5. 2.
+**WORTHY.**—Not w. of mercies, Gen. 32.  
+w. to be praised, 2 Sam. 22. 4; Ps. 18. 3.  
+I am not w. to bear, Matt. 3. 11.  
+I am not w., Matt. 8. 8; Luke 7. 6.  
+inquire who in it is w., Matt. 10. 11, 13.  
+I am not w. hidden my heart, Matt. 22. 8.  
+I think not w. to unloose, Mark 1. 7.  
+w. for whom he should do this, Lu. 7. 4.  
+am no more w. to be son, Lu. 15. 19, 21.  
+not w. to be compared, Rom. 8. 18.  
+walk w. of vocation, Eph. 4. 1.  
+ye might walk w. of Lord, Col. 1. 10.  
+that ye would walk w., 1 Thess. 2. 12.  
+of whom world was not w., 1 Tim. 11. 38.  
+blaspheme that w. name? Jas. 2. 7.  
+walk in white, they are w., Rev. 3. 4.  
+art w. to receive glory, Rev. 4. 11, 5. 12.  
+w. to open the book, Rev. 5. 2.  
 
 **WOULD.**—And Israel w. none of me,
-Ps. 81. 11.
-the good I w. I do not, Rom. 7. 19.
+Ps. 81. 11.  
+the good I w. I do not, Rom. 7. 19.  
 
-**WOUND.**—w. for w., Ex. 21. 25.
-my w. is incurable, Job 34. 6.
-a w. and dishonour, Prov. 6. 33.
-my w. is grievous, Jer. 10. 19.
-why is my w. incurable? Jer. 15. 18.
-thy w. is incurable, Jer. 30. 12; Nah. 3.
-thou w. is incurable, Micah 1. 9. [19.
-his w. was healed, Rev. 13. 3, 12, 14.
+**WOUND.**—w. for w., Ex. 21. 25.  
+my w. is incurable, Job 34. 6.  
+a w. and dishonour, Prov. 6. 33.  
+my w. is grievous, Jer. 10. 19.  
+why is my w. incurable? Jer. 15. 18.  
+thy w. is incurable, Jer. 30. 12; Nah. 3.  
+thou w. is incurable, Micah 1. 9. [19.  
+his w. was healed, Rev. 13. 3, 12, 14.  
 
 **WOUNDS.**—And bindeth up their w.,
-Ps. 147. 3.
-faithful are the w. of a friend, Prov. 27.
-w. and bruises, Isa. 1. 6. [6.
-I will heal thee of thy w., Jer. 30. 17.
-are these w. in thy hands? Zech. 13. 6.
-bound up w., Luke 10. 34. [23.
+Ps. 147. 3.  
+faithful are the w. of a friend, Prov. 27.  
+w. and bruises, Isa. 1. 6. [6.  
+I will heal thee of thy w., Jer. 30. 17.  
+are these w. in thy hands? Zech. 13. 6.  
+bound up w., Luke 10. 34. [23.  
 
-**WOUND.**—Slain a man to my w., Gen. 4.
-I w. and I heal, Deut. 32. 39. [18.
-he w. and his hands make whole, Job 5.
-God shall w. his enemies, Ps. 68. 21.
-w. heads over many countries, Ps. 110. 6.
-thou w. head of wicked, Hab. 3. 13. [12.
-ye w. their weak conscience, 1 Cor. 8.
+**WOUND.**—Slain a man to my w., Gen. 4.  
+I w. and I heal, Deut. 32. 39. [18.  
+he w. and his hands make whole, Job 5.  
+God shall w. his enemies, Ps. 68. 21.  
+w. heads over many countries, Ps. 110. 6.  
+thou w. head of wicked, Hab. 3. 13. [12.  
+ye w. their weak conscience, 1 Cor. 8.  
 
-**WOUNDED.**—Suddenly be w., Ps. 64. 7.
-my heart is w. within me, Ps. 109. 22.
-a w. spirit who can bear? Prov. 18. 14.
-art thou not it that w. dragon? Isa. 51. 9.
-he was w. for our transgress., Isa. 53. 5.
-there remained but w. men, Jer. 3. 10.
-w. in house of my friends, Zech. 13. 6.
+**WOUNDED.**—Suddenly be w., Ps. 64. 7.  
+my heart is w. within me, Ps. 109. 22.  
+a w. spirit who can bear? Prov. 18. 14.  
+art thou not it that w. dragon? Isa. 51. 9.  
+he was w. for our transgress., Isa. 53. 5.  
+there remained but w. men, Jer. 3. 10.  
+w. in house of my friends, Zech. 13. 6.  
 
-**WRAP.**—w. himself in, Isa. 28. 20.
+**WRAP.**—w. himself in, Isa. 28. 20.  
 
-**WRATH.**—Cursed be their w., Gen. 49.
-w. gone out from Lord, Num. 16. 46. [7.
-provokedst Lord to w., Deut. 9. 7, 22.
+**WRATH.**—Cursed be their w., Gen. 49.  
+w. gone out from Lord, Num. 16. 46. [7.  
+provokedst Lord to w., Deut. 9. 7, 22.  
 were it not I feared w. of enemy,
-Deut. 32. 27.
-w. killeth foolish man, Job 5. 2.
-drink of w. of the Almighty, Job 21. 20.
-because there is w. beware, Job 36. 18.
-speak to grim fury his w., Ps. 2. 5.
-take them away in his w., Ps. 58. 9.
-end of man shall praise thee, Ps. 76. 10.
-thy w. lieth hard on me, Ps. 88. 7.
-thy fierce w. goeth over me, Ps. 88. 16.
-how long thy w. burn like fire? Ps. 89. 46.
-by thy w. are we troubled, Ps. 90. 7.
-to whom I sware in my w., Ps. 95. 11.
-day of w., Ps. 110. 5; Prov. 11. 4; Zeph.
-1. 15; Rev. 6. 17.
-fool's w. presently known, Prov. 12. 16.
-w. of king as messengers of, Pr. 16. 14.
-king's w. as roaring of lion, Prov. 19. 12.
-man of w. suffer punishment, Pr. 19. 19.
-fool's w. heavier than both, Prov. 27. 3.
-w. is cruel, anger is outrageous, Pr. 27. 4.
-against people of my w., Isa. 10. 6.
-day of Lord cometh with w., Isa. 13. 9.
-in a little w. I hid my face, Isa. 54. 8.
-for in my w. I smote thee, Isa. 60. 10.
-at his w. earth shall tremble, Jer. 10. 10.
-I will pour my w. on them, Hos. 5. 10.
-I will remember mercy, Hab. 3. 2.
-flee from w. to come, Matt. 3. 7.
-w. of God abideth on him, John 3. 36.
-w. of God is revealed from, Rom. 1. 18.
-treasurest up w. against, Rom. 2. 5.
-the law worketh w., Rom. 4. 15. [9. 22.
-vessels of w. fitted to destruction, Rom.
-God willing to shew his w., Rom. 9. 22.
-rather give place to w., Rom. 12. 19.
-ye be subject, not only for w., Rom. 13.
-works of the flesh are w., Gal. 5. 20. [5.
-by nature children of w., Eph. 2. 3.
-let not sun go down upon w., Eph. 4. 26.
-let all w., anger, and clamour, Eph. 4. 31.
-w. of God cometh, Eph. 5. 6; Col. 3. 6.
-put off these, w., malice, Col. 3. 8.
-delivered us from w., 1 Thess. 1. 10.
-for w. is come on them, 1 Thess. 2. 16.
-lifting hands without w., 1 Tim. 2. 8.
-not fearing w. of king, Heb. 11. 27.
-I sware in my w., Heb. 3. 11.
-w. of man worketh not right, Jas. 1. 20.
-hide us from w. of Lamb, Rev. 6. 16.
-thy w. is come, Rev. 11. 18.
-having great w., Rev. 12. 12. [3.
-made nations drink of w., Rev. 14. 8, 18.
-wine-press of w. of God, Rev. 14. 19, 15.
-for them is filled up w. of God, Rev. 15. 1.
-cup of wine of his w., Rev. 16. 19.
+Deut. 32. 27.  
+w. killeth foolish man, Job 5. 2.  
+drink of w. of the Almighty, Job 21. 20.  
+because there is w. beware, Job 36. 18.  
+speak to grim fury his w., Ps. 2. 5.  
+take them away in his w., Ps. 58. 9.  
+end of man shall praise thee, Ps. 76. 10.  
+thy w. lieth hard on me, Ps. 88. 7.  
+thy fierce w. goeth over me, Ps. 88. 16.  
+how long thy w. burn like fire? Ps. 89. 46.  
+by thy w. are we troubled, Ps. 90. 7.  
+to whom I sware in my w., Ps. 95. 11.  
+day of w., Ps. 110. 5; Prov. 11. 4; Zeph.  
+1. 15; Rev. 6. 17.  
+fool's w. presently known, Prov. 12. 16.  
+w. of king as messengers of, Pr. 16. 14.  
+king's w. as roaring of lion, Prov. 19. 12.  
+man of w. suffer punishment, Pr. 19. 19.  
+fool's w. heavier than both, Prov. 27. 3.  
+w. is cruel, anger is outrageous, Pr. 27. 4.  
+against people of my w., Isa. 10. 6.  
+day of Lord cometh with w., Isa. 13. 9.  
+in a little w. I hid my face, Isa. 54. 8.  
+for in my w. I smote thee, Isa. 60. 10.  
+at his w. earth shall tremble, Jer. 10. 10.  
+I will pour my w. on them, Hos. 5. 10.  
+I will remember mercy, Hab. 3. 2.  
+flee from w. to come, Matt. 3. 7.  
+w. of God abideth on him, John 3. 36.  
+w. of God is revealed from, Rom. 1. 18.  
+treasurest up w. against, Rom. 2. 5.  
+the law worketh w., Rom. 4. 15. [9. 22.  
+vessels of w. fitted to destruction, Rom.  
+God willing to shew his w., Rom. 9. 22.  
+rather give place to w., Rom. 12. 19.  
+ye be subject, not only for w., Rom. 13.  
+works of the flesh are w., Gal. 5. 20. [5.  
+by nature children of w., Eph. 2. 3.  
+let not sun go down upon w., Eph. 4. 26.  
+let all w., anger, and clamour, Eph. 4. 31.  
+w. of God cometh, Eph. 5. 6; Col. 3. 6.  
+put off these, w., malice, Col. 3. 8.  
+delivered us from w., 1 Thess. 1. 10.  
+for w. is come on them, 1 Thess. 2. 16.  
+lifting hands without w., 1 Tim. 2. 8.  
+not fearing w. of king, Heb. 11. 27.  
+I sware in my w., Heb. 3. 11.  
+w. of man worketh not right, Jas. 1. 20.  
+hide us from w. of Lamb, Rev. 6. 16.  
+thy w. is come, Rev. 11. 18.  
+having great w., Rev. 12. 12. [3.  
+made nations drink of w., Rev. 14. 8, 18.  
+wine-press of w. of God, Rev. 14. 19, 15.  
+for them is filled up w. of God, Rev. 15. 1.  
+cup of wine of his w., Rev. 16. 19.  
 
-**WRATHFUL.**—A w. man, Prov. 15. 18.
+**WRATHFUL.**—A w. man, Prov. 15. 18.  
 
-**WRATHS.**—w., strifes, 2 Cor. 12. 20.
+**WRATHS.**—w., strifes, 2 Cor. 12. 20.  
 
-**WREST.**—Shalt not w. judgment, Deut.
-16. 19.
-every day they w. my words, Ps. 56. 5.
-that are unstable w., 2 Pet. 3. 16.
+**WREST.**—Shalt not w. judgment, Deut.  
+16. 19.  
+every day they w. my words, Ps. 56. 5.  
+that are unstable w., 2 Pet. 3. 16.  
 
 **WRESTLE.**—We w. not against flesh,
-Eph. 6. 12.
+Eph. 6. 12.  
 
-**WRESTLED.**—Gen. 30. 8, 32. 24, 25.
+**WRESTLED.**—Gen. 30. 8, 32. 24, 25.  
 
 **WRETCHED.**—O w. man that I am,
-Rom. 7. 24.
-knowest not thou art w., Rev. 3. 17.
+Rom. 7. 24.  
+knowest not thou art w., Rev. 3. 17.  
 
 **WRETCHEDNESS.**—Not see my w.,
-Job 11. 15.
+Job 11. 15.  
 
-**WRING.**—Judg. 6. 38; Ps. 75. 8.
+**WRING.**—Judg. 6. 38; Ps. 75. 8.  
 
-**WRINGING.**—w. of nose, Prov. 30. 33.
+**WRINGING.**—w. of nose, Prov. 30. 33.  
 
-**WRINKLE.**—Job 16. 8; Eph. 5. 27.
+**WRINKLE.**—Job 16. 8; Eph. 5. 27.  
 
 **WRITE.**—Lord said to Moses, w. these
-words, Ex. 34. 27.
-w. them on posts of, Deut. 6. 9.
-w. on table of heart, Prov. 3. 3, 7. 3.
-w. thee this man childless, Jer. 22. 33.
-w. the words I have spoken, Jer. 30. 2.
-w. in their hearts, Jer. 31. 33; Heb. 8. 10.
-w. minds will I w. them, Heb. 10. 16.
-not with ink and pen w., 3 John 13.
+words, Ex. 34. 27.  
+w. them on posts of, Deut. 6. 9.  
+w. on table of heart, Prov. 3. 3, 7. 3.  
+w. thee this man childless, Jer. 22. 33.  
+w. the words I have spoken, Jer. 30. 2.  
+w. in their hearts, Jer. 31. 33; Heb. 8. 10.  
+w. minds will I w. them, Heb. 10. 16.  
+not with ink and pen w., 3 John 13.  
 
 **WRITETH.**—Thou w. bitter things
-against me, Job 13. 26. [16.
+against me, Job 13. 26. [16.  
 
-**WRITING.**—w. was w. of God, Ex. 32.
-blotting hand-w. of ordinances, Col. 2. 14.
+**WRITING.**—w. was w. of God, Ex. 32.  
+blotting hand-w. of ordinances, Col. 2. 14.  
 
 **WRITINGS.**—If ye believe not his w.,
-John 5. 47.
+John 5. 47.  
 
 **WRITTEN.**—w. with the finger of God,
-Ex. 31. 18; Deut. 9. 19.
-w. for generation to come, Ps. 102. 18.
-have not I w. to thee, Prov. 22. 20.
-roll w. within and without, Ezek. 2. 10.
-your names are w. in heaven, Luke 10.
-w. in, Heb. 10. 23. [20.
-what I have w. I have w., John 19. 22.
+Ex. 31. 18; Deut. 9. 19.  
+w. for generation to come, Ps. 102. 18.  
+have not I w. to thee, Prov. 22. 20.  
+roll w. within and without, Ezek. 2. 10.  
+your names are w. in heaven, Luke 10.  
+w. in, Heb. 10. 23. [20.  
+what I have w. I have w., John 19. 22.  
 w. not with ink, but Spirit of God, 2
-Cor. 3. 3.
-a new name w., Rev. 2. 17.
+Cor. 3. 3.  
+a new name w., Rev. 2. 17.  
 
 **WRONG.**—He suffered no man to do
-them w., 1 Chron. 16. 21; Ps. 105. 14.
-cry out of w. I am not heard, Job 19. 7.
-do no w., do, Jer. 22. 3. [10.
-friend, I do thee no w., Matt. 20. 13.
-seeing one suffer w., Acts 7. 24. [10.
-Paul said, have I done no w., Acts 25.
-why do ye not take w.? 1 Cor. 6. 7.
-forgive me this w., 2 Cor. 12. 13.
-doeth w., shall receive for w., Col. 3. 25.
+them w., 1 Chron. 16. 21; Ps. 105. 14.  
+cry out of w. I am not heard, Job 19. 7.  
+do no w., do, Jer. 22. 3. [10.  
+friend, I do thee no w., Matt. 20. 13.  
+seeing one suffer w., Acts 7. 24. [10.  
+Paul said, have I done no w., Acts 25.  
+why do ye not take w.? 1 Cor. 6. 7.  
+forgive me this w., 2 Cor. 12. 13.  
+doeth w., shall receive for w., Col. 3. 25.  
 
-**WRONG.**—w. his own soul, Prov. 8. 36.
-we have w. no man, 2 Cor. 7. 2.
-if he hath w. thee, Philem. 18. [19.
+**WRONG.**—w. his own soul, Prov. 8. 36.  
+we have w. no man, 2 Cor. 7. 2.  
+if he hath w. thee, Philem. 18. [19.  
 
-**WRONGFULLY.**—John 21. 1; 1 Pet. 2.
+**WRONGFULLY.**—John 21. 1; 1 Pet. 2.  
 
-**WROTE.**—w. on the wall, Dan. 5. 5.
-Moses w. of me, John 5. 46.
-w. with his finger on ground, Jn. 8. 6, 8.
+**WROTE.**—w. on the wall, Dan. 5. 5.  
+Moses w. of me, John 5. 46.  
+w. with his finger on ground, Jn. 8. 6, 8.  
 
-**WROTH.**—Been w. with thine anointed, Ps. 89. 38.
-I was w. with my people, Isa. 47. 6.
-I would not be w. with thee, Isa. 54. 9.
-nor will I be always w., Isa. 57. 16. [17.
-for thy covetousness was I w., Isa. 57.
-be not w. very sore, O Lord, Isa. 64. 9.
-thou art very w. against us, Lam. 5. 22.
-his Lord was w. and, Matt. 18. 34.
+**WROTH.**—Been w. with thine anointed, Ps. 89. 38.  
+I was w. with my people, Isa. 47. 6.  
+I would not be w. with thee, Isa. 54. 9.  
+nor will I be always w., Isa. 57. 16. [17.  
+for thy covetousness was I w., Isa. 57.  
+be not w. very sore, O Lord, Isa. 64. 9.  
+thou art very w. against us, Lam. 5. 22.  
+his Lord was w. and, Matt. 18. 34.  
 
 **WROUGHT.**—What hath God w.?
-Num. 23. 23.
-Lord had w. wonderfully, 1 Sam. 6. 6.
-hath w. salvation in Israel, 1 Sam. 11.
-13, 19. 5. [45.
-Jonathan hath w. with God, 1 Sam. 14.
-every one with hands w., Neh. 4. 17.
-this work was w. of God, Neh. 6. 16.
-hand of Lord hath w. this, Job 12. 9.
+Num. 23. 23.  
+Lord had w. wonderfully, 1 Sam. 6. 6.  
+hath w. salvation in Israel, 1 Sam. 11.  
+13, 19. 5. [45.  
+Jonathan hath w. with God, 1 Sam. 14.  
+every one with hands w., Neh. 4. 17.  
+this work was w. of God, Neh. 6. 16.  
+hand of Lord hath w. this, Job 12. 9.  
 Job 36. 23.; thou hast w. iniquity? Job
-36. 23.
-strengthen that thou hast w.? Ps. 68. 28.
-curiously w., Ps. 139. 15.
-works my hands had w., Eccl. 2. 11.
-thou hast w. works in us, Isa. 26. 12.
-and I w. for my name's sake, Ezek. 20.
-9, 14, 22, 44.
-hath w. a good work on me, Matt. 26.
-10; Mark 14. 6.
-that are w. in God, John 3. 21.
-wonders God w., Acts 15. 12, 21. 19.
-Christ hath not w. by me, Rom. 15. 18.
-w. us for same thing, 2 Cor. 5. 5.
-which he w. in Christ, Eph. 1. 20.
-to have w. will of Gentiles, 1 Pet. 4. 3.
+36. 23.  
+strengthen that thou hast w.? Ps. 68. 28.  
+curiously w., Ps. 139. 15.  
+works my hands had w., Eccl. 2. 11.  
+thou hast w. works in us, Isa. 26. 12.  
+and I w. for my name's sake, Ezek. 20.  
+9, 14, 22, 44.  
+hath w. a good work on me, Matt. 26.  
+10; Mark 14. 6.  
+that are w. in God, John 3. 21.  
+wonders God w., Acts 15. 12, 21. 19.  
+Christ hath not w. by me, Rom. 15. 18.  
+w. us for same thing, 2 Cor. 5. 5.  
+which he w. in Christ, Eph. 1. 20.  
+to have w. will of Gentiles, 1 Pet. 4. 3.  
 
-**YEA.**—Communication be y., y., Matt.
-5. 37; Jas. 5. 12.
-should be y. and nay, 2 Cor. 1. 17.
+**YEA.**—Communication be y., y., Matt.  
+5. 37; Jas. 5. 12.  
+should be y. and nay, 2 Cor. 1. 17.  
 or word toward you was not y., 2
-Cor. 1. 18.
-in him was y, 2 Cor. 1. 19.
-in him y. and amen, 2 Cor. 1. 20.
+Cor. 1. 18.  
+in him was y, 2 Cor. 1. 19.  
+in him y. and amen, 2 Cor. 1. 20.  
 
-**YEAR.**—A y. of rest, Lev. 25. 5.
-acceptable y. of, Isa. 61. 2; Luke 4. 19.
-y. of my redeemed is come, Isa. 63. 4.
-y. of visitation, Jer. 11. 23, 23, 12. 48, 44.
-y. of liberty, Ezek. 46. 17.
+**YEAR.**—A y. of rest, Lev. 25. 5.  
+acceptable y. of, Isa. 61. 2; Luke 4. 19.  
+y. of my redeemed is come, Isa. 63. 4.  
+y. of visitation, Jer. 11. 23, 23, 12. 48, 44.  
+y. of liberty, Ezek. 46. 17.  
 
-**YEARS.**—For days and y., Gen. 1. 14.
-y. of many generations, Deut. 32. 7.
-are thy y. as man's days, Job 10. 5.
+**YEARS.**—For days and y., Gen. 1. 14.  
+y. of many generations, Deut. 32. 7.  
+are thy y. as man's days, Job 10. 5.  
 number of y. hidden to oppressor, Job
-15. 20.
-multitude of y. teach wisdom, Job 32. 7.
-can his y. be searched out, Job 36. 26.
-the y. of the right hand, Ps. 77. 10.
-a thousand y. in thy sight are as yes terday, Ps. 90. 4; 2 Pet. 3. 8.
-threescore y. and ten, Ps. 90. 10.
-y. wherein we have seen evil, Ps. 90. 15.
-thy y. throughout all generations, Ps. 102.
-thy y. shall not fail, Heb. 1. 12.
-bound a thousand y., Rev. 20. 2.
+15. 20.  
+multitude of y. teach wisdom, Job 32. 7.  
+can his y. be searched out, Job 36. 26.  
+the y. of the right hand, Ps. 77. 10.  
+a thousand y. in thy sight are as yes terday, Ps. 90. 4; 2 Pet. 3. 8.  
+threescore y. and ten, Ps. 90. 10.  
+y. wherein we have seen evil, Ps. 90. 15.  
+thy y. throughout all generations, Ps. 102.  
+thy y. shall not fail, Heb. 1. 12.  
+bound a thousand y., Rev. 20. 2.  
 
 **YESTERDAY.**—But of y. and know,
-the same y. and for ever, Heb. 13. 8.
+the same y. and for ever, Heb. 13. 8.  
 
 **YIELD.**—y. yourselves to the Lord, 2
-Chron. 30. 8.
-y. fruits of increase, Ps. 107. 37.
-y. pacifieth great offences, Eccl. 10. 4.
-ye have y. your members, Rom. 6. 19.
+Chron. 30. 8.  
+y. fruits of increase, Ps. 107. 37.  
+y. pacifieth great offences, Eccl. 10. 4.  
+ye have y. your members, Rom. 6. 19.  
 
 **YOKE.**—Break this y., Gen. 27. 40;
-Jer. 30. 8.
-shall put a y. of iron on neck, Deut. 28.
-48; Jer. 28. 14.
-made your y. grievous, 1 Kings 12. 4.
-broken y. of thy burden, Isa. 9. 4.
-yoke break every y., Isa. 58. 6.
-old time broken thy y., Jer. 2. 20.
-good for a man to bear y., Lam. 3. 27.
-take my y. upon you, Matt. 11. 29.
-for my y. is easy, Matt. 11. 30.
-I bought five y. of oxen, Luke 14. 19.
-put y. on disciples' neck, Acts 15. 10.
-as many as are under y., 1 Tim. 6. 1.
+Jer. 30. 8.  
+shall put a y. of iron on neck, Deut. 28.  
+48; Jer. 28. 14.  
+made your y. grievous, 1 Kings 12. 4.  
+broken y. of thy burden, Isa. 9. 4.  
+yoke break every y., Isa. 58. 6.  
+old time broken thy y., Jer. 2. 20.  
+good for a man to bear y., Lam. 3. 27.  
+take my y. upon you, Matt. 11. 29.  
+for my y. is easy, Matt. 11. 30.  
+I bought five y. of oxen, Luke 14. 19.  
+put y. on disciples' neck, Acts 15. 10.  
+as many as are under y., 1 Tim. 6. 1.  
 
-**YOKES.**—Bonds and y., Jer. 27. 2. [14.
+**YOKES.**—Bonds and y., Jer. 27. 2. [14.  
 
-**YOKED.**—Be not unequally y., 2 Cor. 6.
+**YOKED.**—Be not unequally y., 2 Cor. 6.  
 
-**YOKE-FELLOW.**—True y.-f., Phil. 4. 3.
+**YOKE-FELLOW.**—True y.-f., Phil. 4. 3.  
 
-**YOURS.**—Not y. but God's, 2 Chron.
-20. 15.
-y. is the kingdom of God, Luke 6. 20.
-all are y., 1 Cor. 3. 22.
-not y. but you, 2 Cor. 12. 14.
+**YOURS.**—Not y. but God's, 2 Chron.  
+20. 15.  
+y. is the kingdom of God, Luke 6. 20.  
+all are y., 1 Cor. 3. 22.  
+not y. but you, 2 Cor. 12. 14.  
 
 **YOUNG.**—When his y. ones cry to God,
-Job 38. 41.
-their y. ones are in good liking, Job 39.
-13.
-Like eagles, y., Ps. 37. 25. [4.
-eyes great with y., Ps. 78. 71.
-where she may lay her y., Ps. 84. 3.
-y. ones lie down together, Isa. 11. 7.
-those that are with y., Isa. 40. 11.
-when wast y. thou girdest, John 21. 18.
+Job 38. 41.  
+their y. ones are in good liking, Job 39.  
+13.  
+Like eagles, y., Ps. 37. 25. [4.  
+eyes great with y., Ps. 78. 71.  
+where she may lay her y., Ps. 84. 3.  
+y. ones lie down together, Isa. 11. 7.  
+those that are with y., Isa. 40. 11.  
+when wast y. thou girdest, John 21. 18.  
 
-**YOUNGER.**—That are y. than I, Job 30.
-greatest, let him be as y., Lu. 22. 26. [1.
-in treat y. as brethren, 1 Tim. 5. 1.
-ye y. submit to the elder, 1 Pet. 5. 5.
+**YOUNGER.**—That are y. than I, Job 30.  
+greatest, let him be as y., Lu. 22. 26. [1.  
+in treat y. as brethren, 1 Tim. 5. 1.  
+ye y. submit to the elder, 1 Pet. 5. 5.  
 
-**YOUNGEST.**—In y. set up gates, Josh.
-6. 26; 1 Kings 16. 34.
+**YOUNGEST.**—In y. set up gates, Josh.  
+6. 26; 1 Kings 16. 34.  
 
 **YOUTH.**—A y. of fair countenance, 1
-Sam. 17. 42.
-I fear Lord from y., 1 Kings 18. 12.
-full of sins of his y., Job 20. 11.
-remember not sins of y., Ps. 25. 7.
-thy y. renewed like eagle's, Ps. 103. 5.
-forsaken guide of thy y., Prov. 2. 17.
-rejoice O man, in thy y., Eccl. 11. 9.
-childhood and y. are vanity, Ec. 11. 10.
-shalt forget shame of thy y., Isa. 54. 4.
-I remember kindness of y., Jer. 2. 2.
+Sam. 17. 42.  
+I fear Lord from y., 1 Kings 18. 12.  
+full of sins of his y., Job 20. 11.  
+remember not sins of y., Ps. 25. 7.  
+thy y. renewed like eagle's, Ps. 103. 5.  
+forsaken guide of thy y., Prov. 2. 17.  
+rejoice O man, in thy y., Eccl. 11. 9.  
+childhood and y. are vanity, Ec. 11. 10.  
+shalt forget shame of thy y., Isa. 54. 4.  
+I remember kindness of y., Jer. 2. 2.  
 
-**YOUTHS.**—Prov. 7. 7; Isa. 40. 30.
+**YOUTHS.**—Prov. 7. 7; Isa. 40. 30.  
 
 **ZEAL.**—See my z. for the Lord, 2 Kings
-10. 16.
-z. of the Lord shall do this, 2 Kings 19.
-31; Isa. 37. 32.
+10. 16.  
+z. of the Lord shall do this, 2 Kings 19.  
+31; Isa. 37. 32.  
 the z. of thy house hath eaten me up,
-Ps. 69. 9; John 2. 17.
-my z. hath consumed me, Ps. 119. 139.
-z. of Lord will perform this, Isa. 9. 7.
-where is thy z. and strength? Isa. 63. 15.
-they have a z. of God, Rom. 10. 2.
-what z. 2 Cor. 7. 11.
+Ps. 69. 9; John 2. 17.  
+my z. hath consumed me, Ps. 119. 139.  
+z. of Lord will perform this, Isa. 9. 7.  
+where is thy z. and strength? Isa. 63. 15.  
+they have a z. of God, Rom. 10. 2.  
+what z. 2 Cor. 7. 11.  
 
-**ZEALOUS.**—z. provoked many, 2 Cor. 9. 2.
-hath a great z. for you, Col. 4. 13.
+**ZEALOUS.**—z. provoked many, 2 Cor. 9. 2.  
+hath a great z. for you, Col. 4. 13.  
 
-**ZEALOUS.**—z. for his God, Num. 25. 13.
-that are all z. of the law, Acts 21. 20.
-and Paul was z. towards God, Acts 2.
-3; Gal. 1. 14.
-are z. of spiritual gifts, 1 Cor. 14. 12.
-z. of good works, Titus 2. 14.
-be z. therefore and repent, Rev. 3. 19.
+**ZEALOUS.**—z. for his God, Num. 25. 13.  
+that are all z. of the law, Acts 21. 20.  
+and Paul was z. towards God, Acts 2.  
+3; Gal. 1. 14.  
+are z. of spiritual gifts, 1 Cor. 14. 12.  
+z. of good works, Titus 2. 14.  
+be z. therefore and repent, Rev. 3. 19.  
 
