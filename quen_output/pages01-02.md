@@ -1,5 +1,5 @@
 **ABASE.**—a. him that is high, Ez. 21. 26.  
-that a. in pride, is able to a., Dan. 4. 37.  
+walk in pride, is able to a., Dan. 4. 37.  
 
 **ABASED.**—Exalt himself shall be a., Matt. 23. 12 ; Luke 14. 11, 18. 14.  
 now how to be a., Phil. 4. 12.  
