@@ -52,18 +52,11 @@ def combine_markdown_files(output_dir, output_file):
 
     with open(output_file, "w", encoding="utf-8") as outfile:
         for i, md_file in enumerate(markdown_files):
-            # Add a divider before each file (except the first one)
-            if i > 0:
-                outfile.write("\n---\n\n")
-
-            # Add a header indicating which file this content came from
-            filename = os.path.basename(md_file)
-            outfile.write(f"# Content from: {filename}\n\n")
 
             # Read and append the content of the markdown file
             with open(md_file, "r", encoding="utf-8") as infile:
                 outfile.write(infile.read())
-                outfile.write("\n\n")  # Add extra spacing between files
+                outfile.write("\n")  # Add extra spacing between files
 
     print(f"Successfully combined {len(markdown_files)} markdown files into {output_file}")
     # Apply bible reference replacement
