@@ -7,6 +7,8 @@ import tempfile
 import shutil
 import numpy as np
 
+ZIP_FILE_NAME = "straightened_single_columns"
+
 def extract_zip_to_temp(zip_path):
     """Extract zip file to temporary directory and return the path."""
     temp_dir = tempfile.mkdtemp()
@@ -57,7 +59,7 @@ def combine_page_batch(page_numbers, temp_dir, output_name="combined_pages.jpg",
     for page_num in page_numbers:
         # Find all PDFs matching the page number pattern (e.g., 1.1, 1.2, 1.3, etc.)
         # Also match files without extensions (some PDFs may lack .pdf extension)
-        medad_dir = Path(temp_dir) / "Medad"
+        medad_dir = Path(temp_dir) / ZIP_FILE_NAME
         page_files = sorted(medad_dir.glob(f"{page_num}.*")) + sorted(medad_dir.glob(f"{page_num}"))
         # Filter to only files (not directories)
         page_files = [f for f in page_files if f.is_file()]
@@ -148,7 +150,7 @@ def combine_all_batches(zip_path, batch_size=4, dpi=150, output_dir="output", st
         page_num = 1
         
         # Estimate total pages by scanning the directory
-        medad_dir = Path(temp_dir) / "Medad"
+        medad_dir = Path(temp_dir) / ZIP_FILE_NAME
         pdf_files = list(medad_dir.glob("*.pdf"))
         page_numbers = set()
         for f in pdf_files:
@@ -181,5 +183,5 @@ def combine_all_batches(zip_path, batch_size=4, dpi=150, output_dir="output", st
         print("Done!")
 
 if __name__ == "__main__":
-    zip_path = "/media/medad/Data/concordance_digitise/Filemail.com - the files we spoke about, each page split into 3 sectopms.zip"
+    zip_path = f"input/{ZIP_FILE_NAME}.zip"
     combine_all_batches(zip_path, batch_size=2, dpi=300, output_dir="output", start_page=1)
