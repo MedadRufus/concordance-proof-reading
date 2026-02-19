@@ -17,77 +17,153 @@ from odf.text import P
 
 KJV_JSON_PATH = "kjv"
 
+# # Bible book abbreviation mapping
+# BOOK_ABBR_TO_FULL = {
+#     # Old Testament
+#     "Gen.": "Genesis",
+#     "Ex.": "Exodus",
+#     "Lev.": "Leviticus",
+#     "Num.": "Numbers",
+#     "Deu.": "Deuteronomy",
+#     "Josh.": "Joshua",
+#     "Judg.": "Judges",
+#     "Ruth": "Ruth",
+#     "1 Sam.": "1 Samuel",
+#     "2 Sam.": "2 Samuel",
+#     "1 Ki.": "1 Kings",
+#     "2 Ki.": "2 Kings",
+#     "1 Chr.": "1 Chronicles",
+#     "2 Chr.": "2 Chronicles",
+#     "Ezra": "Ezra",
+#     "Neh.": "Nehemiah",
+#     "Esth.": "Esther",
+#     "Job": "Job",
+#     "Ps.": "Psalms",
+#     "Prov.": "Proverbs",
+#     "Eccl.": "Ecclesiastes",
+#     "Song": "Song of Solomon",
+#     "Is.": "Isaiah",
+#     "Isa.": "Isaiah",
+#     "Jer.": "Jeremiah",
+#     "Lam.": "Lamentations",
+#     "Eze.": "Ezekiel",
+#     "Dan.": "Daniel",
+#     "Hos.": "Hosea",
+#     "Joel": "Joel",
+#     "Amos": "Amos",
+#     "Obad.": "Obadiah",
+#     "Jonah": "Jonah",
+#     "Micah": "Micah",
+#     "Nah.": "Nahum",
+#     "Hab.": "Habakkuk",
+#     "Zeph.": "Zephaniah",
+#     "Hag.": "Haggai",
+#     "Zech.": "Zechariah",
+#     "Mal.": "Malachi",
+#     # New Testament
+#     "Mt.": "Matthew",
+#     "Mk.": "Mark",
+#     "Lk.": "Luke",
+#     "Lu.":"Luke",
+#     "Luke":"Luke",
+#     "Jn.": "John",
+#     "Acts": "Acts",
+#     "Rom.": "Romans",
+#     "1 Cor.": "1 Corinthians",
+#     "2 Cor.": "2 Corinthians",
+#     "Gal.": "Galatians",
+#     "Eph.": "Ephesians",
+#     "Phil.": "Philippians",
+#     "Col.": "Colossians",
+#     "1 Thess.": "1 Thessalonians",
+#     "2 Thess.": "2 Thessalonians",
+#     "1 Tim.": "1 Timothy",
+#     "2 Tim.": "2 Timothy",
+#     "Tit.": "Titus",
+#     "Philem.": "Philemon",
+#     "Heb.": "Hebrews",
+#     "Jas.": "James",
+#     "1 Pet.": "1 Peter",
+#     "2 Pet.": "2 Peter",
+#     "1 Jn.": "1 John",
+#     "2 Jn.": "2 John",
+#     "3 Jn.": "3 John",
+#     "Jude": "Jude",
+#     "Rev.": "Revelation",
+# }
+
 # Bible book abbreviation mapping
 BOOK_ABBR_TO_FULL = {
     # Old Testament
-    "Gen.": "Genesis",
-    "Ex.": "Exodus",
+    "Gen.": "Genesis", "Gen": "Genesis", "Ge.": "Genesis",
+    "Ex.": "Exodus", "Exod.": "Exodus",
     "Lev.": "Leviticus",
-    "Num.": "Numbers",
-    "Deu.": "Deuteronomy",
-    "Josh.": "Joshua",
-    "Judg.": "Judges",
-    "Ruth": "Ruth",
-    "1 Sam.": "1 Samuel",
-    "2 Sam.": "2 Samuel",
-    "1 Ki.": "1 Kings",
-    "2 Ki.": "2 Kings",
-    "1 Chr.": "1 Chronicles",
-    "2 Chr.": "2 Chronicles",
+    "Num.": "Numbers", "Nu.": "Numbers",
+    "Deu.": "Deuteronomy", "Deut.": "Deuteronomy", "De.": "Deuteronomy", "Dent.": "Deuteronomy",
+    "Josh.": "Joshua", "Josh": "Joshua", "Jos.": "Joshua",
+    "Judg.": "Judges", "Judges": "Judges", "Jud.": "Judges",
+    "Ruth": "Ruth", "Ru.": "Ruth",
+    "1 Sam.": "1 Samuel", "1 Sa.": "1 Samuel", "1 Saml.": "1 Samuel", "1 Samuel": "1 Samuel",
+    "2 Sam.": "2 Samuel", "2 Sa.": "2 Samuel", "2 Saml.": "2 Samuel", "2 Samuel": "2 Samuel",
+    "1 Ki.": "1 Kings", "1 K.": "1 Kings", "1 Kin.": "1 Kings", "1 Kings": "1 Kings", "1 Kgs.": "1 Kings",
+    "2 Ki.": "2 Kings", "2 K.": "2 Kings", "2 Kin.": "2 Kings", "2 Kings": "2 Kings", "2 Kgs.": "2 Kings",
+    "1 Chr.": "1 Chronicles", "1 Ch.": "1 Chronicles", "1 Chron.": "1 Chronicles",
+    "2 Chr.": "2 Chronicles", "2 Ch.": "2 Chronicles", "2 Chron.": "2 Chronicles",
     "Ezra": "Ezra",
     "Neh.": "Nehemiah",
-    "Esth.": "Esther",
-    "Job": "Job",
-    "Ps.": "Psalms",
-    "Prov.": "Proverbs",
-    "Eccl.": "Ecclesiastes",
-    "Song": "Song of Solomon",
-    "Is.": "Isaiah",
-    "Jer.": "Jeremiah",
+    "Esth.": "Esther", "Esther": "Esther", "Est.": "Esther",
+    "Job": "Job", "Job.": "Job",
+    "Ps.": "Psalms", "Ps": "Psalms", "Psa.": "Psalms", "Pss.": "Psalms",
+    "Prov.": "Proverbs", "Pro.": "Proverbs", "Pr.": "Proverbs",
+    "Eccl.": "Ecclesiastes", "Eccle.": "Ecclesiastes", "Eccles.": "Ecclesiastes", "Ecc.": "Ecclesiastes", "Ec.": "Ecclesiastes",
+    "Song": "Song of Solomon", "Cant.": "Song of Solomon", "Can.": "Song of Solomon", "S.": "Song of Solomon",
+    "Is.": "Isaiah", "Isa.": "Isaiah", "Isai.": "Isaiah",
+    "Jer.": "Jeremiah", "Je.": "Jeremiah",
     "Lam.": "Lamentations",
-    "Eze.": "Ezekiel",
-    "Dan.": "Daniel",
-    "Hos.": "Hosea",
+    "Eze.": "Ezekiel", "Ezek.": "Ezekiel", "Ezek": "Ezekiel", "Ezk.": "Ezekiel", "Ez.": "Ezekiel",
+    "Dan.": "Daniel", "Dan": "Daniel",
+    "Hos.": "Hosea", "Hosea": "Hosea", "Ho.": "Hosea",
     "Joel": "Joel",
-    "Amos": "Amos",
+    "Amos": "Amos", "Amos.": "Amos", "Am.": "Amos",
     "Obad.": "Obadiah",
-    "Jonah": "Jonah",
-    "Micah": "Micah",
-    "Nah.": "Nahum",
+    "Jonah": "Jonah", "Jon.": "Jonah",
+    "Micah": "Micah", "Mic.": "Micah",
+    "Nah.": "Nahum", "Nahum": "Nahum",
     "Hab.": "Habakkuk",
-    "Zeph.": "Zephaniah",
+    "Zeph.": "Zephaniah", "Zep.": "Zephaniah",
     "Hag.": "Haggai",
-    "Zech.": "Zechariah",
-    "Mal.": "Malachi",
+    "Zech.": "Zechariah", "Ze.": "Zechariah",
+    "Mal.": "Malachi", "Mai.": "Malachi", "Ma.": "Malachi",
     # New Testament
-    "Mt.": "Matthew",
-    "Mk.": "Mark",
-    "Lk.": "Luke",
-    "Jn.": "John",
-    "Acts": "Acts",
-    "Rom.": "Romans",
+    "Mt.": "Matthew", "Matt.": "Matthew", "Matt": "Matthew", "Mat.": "Matthew",
+    "Mk.": "Mark", "Mk": "Mark", "Mark": "Mark",
+    "Lk.": "Luke", "Lu.": "Luke", "Luke": "Luke", "Ln.": "Luke",
+    "Jn.": "John", "Jn": "John", "Jno.": "John", "Jhn.": "John", "Jhn": "John", "John": "John", "Jo.": "John",
+    "Acts": "Acts", "Acts.": "Acts", "Ac.": "Acts",
+    "Rom.": "Romans", "Ro.": "Romans",
     "1 Cor.": "1 Corinthians",
     "2 Cor.": "2 Corinthians",
-    "Gal.": "Galatians",
+    "Gal.": "Galatians", "Gal": "Galatians",
     "Eph.": "Ephesians",
     "Phil.": "Philippians",
-    "Col.": "Colossians",
-    "1 Thess.": "1 Thessalonians",
-    "2 Thess.": "2 Thessalonians",
+    "Col.": "Colossians", "Coloss.": "Colossians",
+    "1 Thess.": "1 Thessalonians", "1 Th.": "1 Thessalonians", "1 Thes.": "1 Thessalonians",
+    "2 Thess.": "2 Thessalonians", "2 Th.": "2 Thessalonians", "2 Thes.": "2 Thessalonians",
     "1 Tim.": "1 Timothy",
     "2 Tim.": "2 Timothy",
-    "Tit.": "Titus",
+    "Tit.": "Titus", "Titus": "Titus",
     "Philem.": "Philemon",
     "Heb.": "Hebrews",
-    "Jas.": "James",
-    "1 Pet.": "1 Peter",
-    "2 Pet.": "2 Peter",
+    "Jas.": "James", "Jas": "James", "Jam.": "James", "James": "James",
+    "1 Pet.": "1 Peter", "1 Pt.": "1 Peter", "1 Peter": "1 Peter",
+    "2 Pet.": "2 Peter", "2 Pt.": "2 Peter", "2 Peter": "2 Peter",
     "1 Jn.": "1 John",
     "2 Jn.": "2 John",
     "3 Jn.": "3 John",
-    "Jude": "Jude",
-    "Rev.": "Revelation",
+    "Jude": "Jude", "Ju.": "Jude",
+    "Rev.": "Revelation", "Rev": "Revelation",
 }
+
 
 # Books with a single chapter where references are commonly written as "Philem. 9"
 # rather than "Philem. 1:9"
@@ -533,6 +609,189 @@ def write_html(paragraphs, style):
         html_content += f"<p>{p}</p>\n"
     html_content += "</body>\n</html>"
     return html_content
+
+
+def convert_markdown_to_html(md_text):
+    """Convert markdown concordance text to HTML string."""
+    kjv_verses = load_kjv(KJV_JSON_PATH)
+    paragraphs = []
+    
+    lines = md_text.strip().split('\n')
+    current_root = None
+    current_lines = []
+    
+    for line in lines:
+        line = line.strip()
+        if not line:
+            continue
+        
+        # Check if line starts with bold markdown (root word)
+        if line.startswith('**') and '**' in line[2:]:
+            # Process previous root word group if exists
+            if current_root and current_lines:
+                paragraphs.append(process_root_group(current_root, current_lines, kjv_verses))
+            
+            # Extract new root word (remove trailing punctuation)
+            match = re.match(r'\*\*(.+?)\*\*(.*)$', line)
+            current_root = re.sub(r'[.,;:!?]+$', '', match.group(1).strip())
+            remainder = match.group(2).strip()
+            current_lines = [remainder] if remainder else []
+        else:
+            # Add to current root word group
+            if current_root:
+                current_lines.append(line)
+    
+    # Process last group
+    if current_root and current_lines:
+        paragraphs.append(process_root_group(current_root, current_lines, kjv_verses))
+    
+    style = """
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 10em;
+        }
+        p {
+            margin: 0 0 1em 0;
+        }
+
+        /* Reference pair container */
+        .ref-pair {
+            position: relative;
+            display: inline-block;
+            margin-right: 0.2em;
+        }
+
+        /* Tooltip styling */
+        .tooltip {
+            position: absolute;
+            bottom: 100%;
+            left: 50%;
+            transform: translateX(-50%);
+            background: #333;
+            color: white;
+            padding: 8px 12px;
+            border-radius: 4px;
+            font-size: 12px;
+            z-index: 1000;
+            opacity: 0;
+            visibility: hidden;
+            pointer-events: none;
+            white-space: normal;
+            min-width: 200px;
+            word-wrap: break-word;
+            margin-bottom: 6px;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+            transition: opacity 0.2s ease;
+        }
+
+        .ref-pair:hover .tooltip {
+            opacity: 1;
+            visibility: visible;
+        }
+
+        /* Link styles */
+        .bible-ref {
+            color: #0066cc;
+            cursor: help;
+            border-bottom: 1px dotted #0066cc;
+            text-decoration: none;
+        }
+        .bible-ref:hover {
+            background-color: #f0f8ff;
+            text-decoration: underline;
+        }
+
+        .bible-ref-missing {
+            color: #cc0000;
+            cursor: help;
+            border-bottom: 2px solid #cc0000;
+            text-decoration: none;
+            background-color: #ffe6e6;
+        }
+        .bible-ref-missing:hover {
+            background-color: #ffcccc;
+            text-decoration: underline;
+        }
+
+        .bible-ref-no-root {
+            color: #cc6600;
+            cursor: help;
+            border-bottom: 2px dashed #cc6600;
+            text-decoration: none;
+            background-color: #fff9e6;
+        }
+        .bible-ref-no-root:hover {
+            background-color: #ffebcc;
+            text-decoration: underline;
+        }
+        
+        /* Unmatched numbers - potential errors */
+        .unmatched-number {
+            background-color: #ff00ff;
+            color: white;
+            padding: 2px 4px;
+            border-radius: 3px;
+            font-weight: bold;
+        }
+        
+        /* Enhanced highlighting for matched words in tooltips */
+        .tooltip strong {
+            background-color: #ffff00; /* Yellow background */
+            color: #000; /* Black text */
+            padding: 1px 2px;
+            border-radius: 2px;
+            font-weight: bold;
+        }
+    """
+    
+    return write_html(paragraphs, style)
+
+
+def process_root_group(root_word, lines, verses):
+    """Process a group of lines belonging to a root word."""
+    combined = '<br>'.join(lines)
+    segments = [s.strip() for s in combined.split("|") if s.strip()]
+    
+    rendered_segments = []
+    for seg in segments:
+        # Mark positions of references before substitution
+        ref_positions = [(m.start(), m.end()) for m in ref_pattern.finditer(seg)]
+        
+        # Highlight unmatched numbers (those not in reference positions)
+        result = []
+        last_pos = 0
+        
+        for num_match in re.finditer(r'\b(\d+)\b', seg):
+            num_start, num_end = num_match.span()
+            # Check if this number is inside a reference
+            in_ref = any(start <= num_start < end for start, end in ref_positions)
+            
+            # Add text before this number
+            result.append(seg[last_pos:num_start])
+            
+            if in_ref:
+                # Keep the number as-is (will be part of reference)
+                result.append(seg[num_start:num_end])
+            else:
+                # Highlight as unmatched
+                result.append(f'<span class="unmatched-number">[{seg[num_start:num_end]}?]</span>')
+            
+            last_pos = num_end
+        
+        result.append(seg[last_pos:])
+        seg_with_marked_numbers = ''.join(result)
+        
+        # Now substitute references
+        def substitute_references(match):
+            refs = parse_references_with_root(match.group(0), verses, root_word)
+            anchor_texts = [ref.to_anchor(i) for i, ref in enumerate(refs)]
+            return ", ".join(anchor_texts) if anchor_texts else html.escape(match.group(0))
+        
+        new_seg = ref_pattern.sub(substitute_references, seg_with_marked_numbers)
+        rendered_segments.append(new_seg)
+    
+    return f"<strong>{html.escape(root_word)}</strong> " + " | ".join(rendered_segments)
 
 
 def convert_odt_to_html(odt_path, html_path):
