@@ -1,0 +1,3 @@
+Digitise this image. Do not use web references. Preserve the formatting faithfully. I need maximum accuracy.
+There are no greek letters like α in the image. Its more likely to be a. Only english alphabets. The root words, in uppercase, are to be bolded as is done in the image. The abbreviated letter should be in italics. If root word not found, which was defined in previous page, then just transcribe the lines.
+Show each topic on a line.
