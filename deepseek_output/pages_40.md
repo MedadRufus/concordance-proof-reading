@@ -25,6 +25,7 @@ to whom be _h._ and power, 1 Tim. 6. 16.
 some to _h._, some to dis., 2 Tim. 2. 20, 21.  
 no man taketh _h._ to himself, Heb. 5. 4.  
 from God the Father _h._, 2 Pet. 1. 17.  
+
 **HONOUR.**—**_H._** thy father and mother. Ex. 20. 12; De. 5. 16; Matt. 15. 4, 19. 19; Mk. 7. 10, 10. 19; Lu. 18. 20; Eph. 6. 2.  
 not _h._ person of mighty, Lev. 19. 15.  
 shalt _h._ the face of old man, Lev. 19. 32.  
@@ -39,6 +40,7 @@ _h._ Father, ye dishonour me, John 8. 49.
 if I _h._ myself, my _h._ is nothing, John 8. 54.  
 serve me, him will Father _h._, John 12. 26.  
 _h._ all men, _h._ the king, 1 Pet. 2. 17.  
+
 **HONOURABLE.**—An _h._ man, 1 Sam. 9. 6.  
 his work is _h._ and glorious, Ps. 111. 3.  
 Lord doth take away _h._ man, Isa. 3. 3.  
@@ -49,9 +51,11 @@ an _h._ counsellor, Mark 15. 43.
 _h._ women, Acts 13. 50, 17. 12.  
 ye are strong, ye are _h._, 1 Cor. 4. 10.  
 marriage _h._, Heb. 13. 4.  
+
 **HONOURETH.**—**_H._** them that fear Lord, Ps. 15. 4.  
 _h._ me with lips, Matt. 15. 8; Mark 7. 6.  
 _h._ not Son, _h._ not Father, John 5. 23.  
+
 **HONEY.**—Sweeter than _h._? Judg. 14. 18.  
 sweeter than _h._-comb, Ps. 19. 10.  
 _h._ out of rock satisfied thee, Ps. 81. 16.  
@@ -64,8 +68,10 @@ eaten _h._-comb with my _h._, Cant. 5. 1.
 in mouth as _h._, Ezek. 3. 3; Rev. 10. 9, 10.  
 locusts and wild _h._, Matt. 3. 4; Mk. 1. 6.  
 gave him piece of _h._-comb, Luke 24. 42.  
+
 **HOOF.**—Not an _h._ be left, Ex. 10. 26.  
 I will make thy _h._ brass, Mic. 4. 13.  
+
 **HOPE.**—Days are spent without _h._, Job 7. 6.  
 _h._ of tree if it be cut down, Job 14. 7.  
 thou destroyest the _h._ of man, Job 14. 19.  
@@ -113,6 +119,7 @@ a better _h._, Heb. 7. 19.
 begotten to a lively _h._, 1 Pet. 1. 3.  
 reason of _h._ that is in you, 1 Pet. 3. 15.  
 every man that hath this _h._, 1 Jn. 3. 3.  
+
 **HOPE.**—All that _h._ in the L., Ps. 31. 24.  
 that _h._ in his mercy, Ps. 33. 18, 147. 11.  
 _h._ thou in God, Ps. 42. 5, 11, 43. 5.  
@@ -122,18 +129,25 @@ good that man both _h._ and, Lam. 3. 26.
 seeth, why doth he _h._ for? Rom. 8. 24.  
 if we _h._ for that we see not, Rom. 8. 25.  
 be sober, and _h._ to end, 1 Pet. 1. 13.  
+
 **HOPED.**—**_H._** in thy judg., Ps. 119. 43.  
 have _h._ in thy word, Ps. 119. 74, 147.  
 have _h._ for thy salvation, Ps. 119. 166.  
+
 **HOPETH.**—Char. _h._ all things, 1 Cor. 13. 7.  
+
 **HORN.**—Defiled my _h._, Job 16. 15.  
 the _h._ of my salvation, Ps. 18. 2.  
 his _h._ shall be exalted, Ps. 112. 9.  
 make _h._ of David to bud, Ps. 132. 17.  
 raised up _h._ of salvation, Luke 1. 69.  
+
 **HORRIBLE.**—**_H._** thing, Jer. 5. 30, 18. 13, 23. 14; Hos. 6. 10.  
+
 **HORRIBLY.**—Be _h._ afraid, Jer. 2. 12; Ezek. 32. 10.  
+
 **HORROR.**—Gen. 15. 12; Ps. 55. 5, 119. 53.  
+
 **HORSE.**—**_H._** and rider, Ex. 15. 21; Job 39. 18.  
 given _h._ strength? Job 39. 19.  
 be not as the _h._ or mule, Ps. 32. 9.  
@@ -144,24 +158,33 @@ _h._ rusheth into the battle, Jer. 8. 6.
 behold white _h._, Rev. 6. 2, 19. 11.  
 red _h._, Rev. 6. 4; black _h._, Rev. 6. 5.  
 a pale _h._, Rev. 6. 8.  
+
 **HORSES.**—I have seen servants on _h._, Eccl. 10. 7.  
 _h._ are swifter than eagles, Jer. 4. 13.  
 canst thou contend with _h._? Jer. 12. 5.  
 shall _h._ run upon rock? Amos 6. 12.  
+
 **HORSELEECH.**—**_H._** hath two daughters, Prov. 30. 15.  
+
 **HORSEMEN.**—Chariots of Is., _h._ thereof, 2 Kin. 2. 12.  
+
 **HOSANNA.**—Matt. 21. 9, 15; Mk. 11. 9, 10.  
+
 **HOSPITALITY.**—Given to _h._, Rom. 12. 13; 1 Tim. 3. 2.  
 use _h._ one to another, 1 Pet. 4. 9.  
+
 **HOST.**—He said, this is God's _h._, Gen. 32. 2.  
 as captain of _h._ of the Lord, Josh. 5. 14.  
 no king saved by multitu. of _h._, Ps. 33. 16.  
 bringeth out _h._ by number, Isa. 40. 26.  
 heavenly _h._ praising God, Luke 2. 13.  
+
 **HOSTS.**—Bless L., all ye his _h._, Ps. 103. 21.  
 praise ye him, all his _h._, Ps. 148. 2.  
+
 **HOT.**—L. was _h._ against Isr., Judg. 2. 14.  
 my heart was _h._ within me, Ps. 39. 3.  
+
 **HOUR.**—Given you same _h._, Matt. 10. 19; Luke 12. 12.  
 these have wrought but one _h._, Matt. 20. 12.  
 _h._ knoweth no man, Matt. 24. 36, 42.  
@@ -178,7 +201,9 @@ save me from this _h._, John 12. 27.
 gave place, not for an _h._, Gal. 2. 5.  
 not know what _h._ I will, Rev. 3. 3.  
 keep thee from _h._ of temptation, Rev. 3. 10.  
+
 **HOURS.**—Not twelve _h._ in day? John 11. 9.  
+
 **HOUSE.**—His _h._ full of silver and gold, Num. 22. 18, 24. 13.  
 as for me and my _h._, Josh. 24. 15.  
 what is my _h._? 2 Sam. 7. 18.  
@@ -212,9 +237,11 @@ our _h._ from heaven, 2 Cor. 5. 2.
 built _h._ more honour than _h._, Heb. 3. 3.  
 every _h._ is built by some man, Heb. 3. 4.  
 whose _h._ are we, Heb. 3. 6.  
+
 **HOUSE OF GOD.**—None other but _h._ of G., Gen. 28. 17.  
 I went to _h._ of G., Ps. 42. 4, 55. 14, 122. 1.  
 let us go up to the _h._ of G., Isa. 2. 3; Mic. 4. 2.  
+
 **HOUSES.**—Who filled their _h._ with silver, Job 3. 15.  
 their _h._ are safe from fear, Job 21. 9.  
 he filled their _h._ with good, Job 22. 18.  
@@ -222,6 +249,7 @@ _h._ shall continue for ever, Ps. 49. 11.
 that hath forsaken _h._ or, Matt. 19. 29.  
 devour widows’ _h._, Matt. 23. 14.  
 have ye not _h._ to eat in? 1 Cor. 11. 22.  
+
 **HOUSEHOLD.**—Every man with his _h._, 1 Sam. 27. 3.  
 Lord blessed him and _h._, 2 Sam. 6. 11.  
 all her _h._ are clothed, Prov. 31. 21.  
@@ -230,13 +258,16 @@ man’s foes shall be of own _h._, Matt. 10. 36.
 was baptized and her _h._, Acts 16. 15.  
 who are of the _h._ of faith, Gal. 6. 10.  
 but of the _h._ of God, Eph. 2. 19.  
+
 **HOUSEHOLDER.**—Like a man an _h._, Matt. 13. 52.  
+
 **HOW LONG.**—But thou, O Lord, _h. l._? Ps. 6. 3.  
 any among us knoweth _h. l._? Ps. 74. 9.  
 then said I, Lord, _h. l._? Isa. 6. 11.  
 _h. l._ shall I be with you? Matt. 17. 17.  
 _h. l._ make us to doubt? John 10. 24.  
 _h. l._, O Lord, holy and true? Rev. 6. 10.  
+
 **HUMBLE.**—Forgetteth not cry of the _h._, Ps. 9. 12.  
 forget not the _h._, Ps. 10. 12.  
 L., thou hast heard desire of _h._, Ps. 10. 17.  
@@ -251,21 +282,28 @@ whoso _h._ himself, Matt. 18. 4, 23. 12.
 my God will _h._ me, 2 Cor. 12. 21.  
 _h._ yourselves in sight of L., Jas. 4. 10.  
 _h._ yourselves under God, 1 Pet. 5. 6.  
+
 **HUMBLED.**—Manasseh _h._ himself greatly, 2 Chron. 33. 12.  
 lofty looks of man shall be _h._, Isa. 2. 11.  
 he _h._ himself, Phil. 2. 8.  
+
 **HUMBLETH.**—**_H._** himself to behold, Ps. 113. 6.  
 _h._ himself be exalted, Luke 14. 11, 18. 14.  
+
 **HUMBLENESS.**—**_H._** of mind, Col. 3. 12.  
+
 **HUMILIATION.**—In his _h._, Acts 8. 33.  
+
 **HUMILITY.**—By _h._ are riches, Prov. 22. 4.  
 serving L. with _h._ of mind, Acts 20. 19.  
 in voluntary _h._, Col. 2. 18, 23.  
 and be clothed with _h._, 1 Pet. 5. 5.  
+
 **HUNGER.**—Lions suffer _h._, Ps. 34. 10.  
 idle soul shall suffer _h._, Prov. 19. 15.  
 like to die for _h._, Jer. 38. 9.  
 and I perish with _h._, Luke 15. 17.  
+
 **HUNGER.**—He suffered thee to _h._, Deut. 8. 3.  
 Strength shall be _h._-bitten, Job 18. 12.  
 they shall not _h._ nor thirst, Isa. 49. 10.  
@@ -275,5 +313,6 @@ cometh to me shall never _h._, John 6. 35.
 we both _h._ and thirst, 1 Cor. 4. 11.  
 if any man _h._, let him eat, 1 Cor. 11. 34.  
 they shall _h._ no more, Rev. 7. 16.  
+
 **HUNGERED.**—I _h._ and ye gave me, Matt. 25. 35, 42.  
 L. when saw we thee an _h._? Matt. 25. 37, 44.  

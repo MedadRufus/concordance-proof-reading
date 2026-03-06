@@ -2,6 +2,7 @@ L. hath sworn by _e._ of Jacob, Amos 8. 7.
 I came not with _e._ of speech, 1 Cor. 2. 1.  
 that _e._ of power may be, 2 Cor. 4. 7.  
 loss for _e._ of the knowledge, Phil. 3. 8.  
+
 **EXCELLENT.**— _e._ in power, Job 37. 23.  
 how _e._ thy name on earth! Ps. 8. 1, 9.  
 how _e._ is thy loving kindness, Ps. 36. 7.  
@@ -12,23 +13,33 @@ sing to Lord hath done _e._ things, Isa. 12. 5.
 Lord of hosts _e._ in working, Isa. 28. 29.  
 _e._ spirit found in Daniel, Dan. 5. 12, 6. 3.  
 things more _e._, Rom. 2. 18; Phil. 1. 10.  
+
 **EXCEPTED.**—He is _e._, 1 Cor. 15. 27.  
+
 **EXCESS.**—Matt. 23. 25; Eph. 5. 18; 1 Pet. 4. 3, 4.  
+
 **EXCHANGE.** — _._ not for jewels, Job 28. 17.  
 in _e._ for soul? Matt. 16. 26 ; Mark 8. 37.  
+
 **EXCHANGERS.**—Matt. 25. 27.  
+
 **EXCLUDE.**—Rom. 3. 27; Gal. 4. 17.  
+
 **EXCUSE.**—Luke 14. 18; Rom. 1. 20; 2 Cor. 12. 19.  
+
 **EXECRATION.**—Jer. 42. 18, 44. 12.  
+
 **EXECUTE.**— _e._ judg., Ex. 12. 12; Deut. 10. 18; Jer. 7. 5, 21. 12, 22. 3.  
 _e._ vengeance, Ps. 149. 7; Ezek. 25. 17; Mic. 5. 15.  
 given authority to _e._ judg., John 5. 27.  
 minister of God to _e._ wrath, Rom. 13. 4.  
 to _e._ judgment on all, Jude 15.  
+
 **EXECUTETH.**—Lord known by judg­ment he _ee._, Ps. 9. 16.  
 Lord _e._ right. and judg., Ps. 103. 6.  
 L. _e._ judgment for the oppres., Ps. 146. 7.  
 he is strong that _e._ his word, Joel 2. 11.  
+
 **EXERCISE.**—Neither _e._ myself in things too high, Ps. 131. 1.  
 Lord which _e._ loving kindness, Jer. 9. 24.  
 do I _e._ myself to have cons., Acts 24. 16.  
@@ -36,47 +47,63 @@ _e._ thyself to godliness, 1 Tim. 4. 7.
 bodily _e._ profiteth little, 1 Tim. 4. 8.  
 senses _e._ to discern, Heb. 5. 14.  
 fruit of right. to them _e._, Heb. 12. 11.  
+
 **EXHORT.**—We com. and _e._, 2 Thess. 3. 12.  
 these things teach and _e._, 1 Tim. 6. 2.  
 may be able to _e._ and convince, Tit. 1. 9.  
 _e._ and rebuke with authority, Tit. 2. 15.  
 _e._ one another daily, Heb. 3. 13.  
+
 **EXHORTATION.**—If ye have word of _e._, Acts 13. 15.  
 exhorteth, let wait on _e._, Rom. 12. 8.  
 give attendance to _e._, 1 Tim. 4. 13.  
 suffer the word of _ee._, Heb. 13. 22.  
+
 **EXILE.**—2 Sam. 15. 19; Isa. 51. 14.  
+
 **EXPECTATION.**— _e._ of poor shall not perish, Ps. 9. 18.  
 God, my _e._ is from him, Ps. 62. 5.  
 _e._ of wicked, Prov. 10. 28, 11. 7, 23.  
 _e._ shall not be cut off, Prov. 23. 18, 24. 14.  
 shall be ashamed of their _e._, Isa. 20. 5, 6.  
+
 **EXPEDIENT.** — _e._ that one die, John 11. 50.  
 it is _e._ for you I go away, John 16. 7.  
 all things not _e._, 1 Cor. 6. 12, 10. 23.  
 not _e._ for me to glory, 2 Cor. 12. 1.  
+
 **EXPERIENCE.**—Gen. 30. 27 ; Eccl. 1. 16.  
 patience worketh _e._ and _e._, Rom. 5. 4.  
+
 **EXPERT.**— _._ in all customs, Acts 26. 3.  
+
 **EXPOUND.**—Could not _e._ riddle, Judg. 14. 14.  
 alone he _e._ all things, Mk. 4. 34.  
 _e._ to them in all scriptures, Luke 24. 27.  
+
 **EXPRESS.**——Word came _e._, Ezek. 1. 3.  
 Spirit speaketh _e._ some, 1 Tim. 4. 1.  
 _e._ image of person, Heb. 1. 3.  
+
 **EXTEND.**—Be none to _e._ mercy, Ps. 109. 12.  
 I will _e._ peace like river, Isa. 66. 12.  
+
 **EXTINCT.**—Job 17. 1; Isa. 43. 17.  
+
 **EXTOL.**—I will _e._ thee, Ps. 30. 1, 145. 1.  
 _e._ him that rideth on heavens, Ps. 68. 4.  
 my servant shall be _e._, Isa. 52. 13.  
+
 **EXTORTION.**—Thou hast gained by _e._, Ezek. 22. 12.  
 within they are full of _e._, Matt. 23. 25.  
+
 **EXTORTIONER.**—Let _e._ catch all he hath, Ps. 109. 11.  
 the _e._ is at an end, Isa. 16. 4.  
 I am not as other men, _e._, Luke 18. 11.  
 _e._ inherit kingdom of God, 1 Cor. 6. 10.  
+
 **EXTREMITY.** —Knoweth it not in great _e._, Job 35. 15.  
+
 **EYE.**— _e._ for _e._, Ex. 21. 24; Matt. 5. 38.  
 when _e._ saw me it gave wit., Job 29. 11.  
 now mine _e._ seeth thee, Job 42. 5.  
@@ -98,9 +125,13 @@ _e._ offend thee, pluck it out, Matt. 18. 9.
 thine _e._ evil, bec. I am good? Matt. 20. 15.  
 of heart proceedeth evil _e._, Matt. 15. 19.  
 and every _e._ shall see him, Rev. 1. 7.  
+
 **EYELIDS.**—Ps. 11. 4; Prov. 4. 25.  
+
 **EYE-SERVICE.**—Eph. 6. 6; Col. 3. 22.  
+
 **EYE-WITNESSES.**—Lu. 1. 2; 2 Pet. 1. 16.  
+
 **EYES.**— _e._ of both were opened, Gen. 3. 7.  
 thou mayest be instead of _e._, Num. 10. 31.  
 man whose _e._ are open, Num. 24. 3, 15.  
@@ -162,6 +193,7 @@ anoint _e._ with eye salve, Rev. 3. 18.
 a lamb having seven _e._, Rev. 5. 6.  
 
 **FABLES.**—1 Tim. 1. 4, 4. 7; 2 Tim. 4. 4; Titus 1. 14; 2 Pet. 1. 16.  
+
 **FACE.**—I have seen God _f._ to _f._, Gen. 32. 30.  
 Lord spake to Moses _f._ to _f._, Ex. 33. 11.  
 skin of his _f._ shone, Ex. 34. 29, 30, 35.  
@@ -200,6 +232,7 @@ behold natural _f._ in glass, Jas. 1. 23.
 his _f._ as it were the sun, Rev. 10. 1.  
 from whose _f._ heaven fled, Rev. 20. 11.  
 they shall see his _f._, Rev. 22. 4.  
+
 **FACES.**—Their _f._ were not ashamed, Ps. 34. 5.  
 hid as it were our _f._ from him, Isa. 53. 3.  
 be not afraid of their _f._, Jer. 1. 8.  
@@ -207,6 +240,7 @@ their _f._ harder than a rock, Jer. 5. 3.
 all _f._ turned into paleness, Jer. 30. 6.  
 to Zion with _f._ thitherward, Jer. 50. 5.  
 unto us confusion of _f._, Dan. 9. 7.  
+
 **FADE.**—As an oak whose leaf _f._, Isa. 1. 30.  
 the earth, the world _f._, Isa. 24. 4.  
 and we all _f._ as a leaf, Isa. 64. 6.  
@@ -214,6 +248,7 @@ and the leaf shall _f._, Jer. 8. 13.
 whose leaf shall not _f._, Ezek. 47. 12.  
 so rich man shall _f._ away, Jas. 1. 11.  
 inheritance that _f._ not away, 1 Pet. 1. 4.  
+
 **FAIL.**—Eyes _f._ with longing, De. 28. 32.  
 he will not _f._ thee, Deut. 31. 6.  
 shall not _f._ man on throne, 1 Kings 2. 4.  
@@ -231,9 +266,11 @@ one tittle of the law to _f._, Luke 16. 17.
 thy years shall not _f._, Heb. 1. 12.  
 time would _f._ me to tell, Heb. 11. 32.  
 any man _f._ of grace of God, Heb. 12. 15.  
+
 **FAILED.**— _f._ not any good which L. pro­mised, Josh. 21. 45, 23. 14; 1 Kin. 8. 56.  
 my kindred have _f._, Job 19. 14.  
 refuge _f._, no man cared, Ps. 142. 4.  
+
 **FAILETH.**—Strength _f._ me, Ps. 31. 10, 38. 10.  
 my heart _f._ me, Ps. 40. 12, 73. 26.  
 my flesh _f._, Ps. 109. 24.  
@@ -242,8 +279,11 @@ their tongue _f._ for thirst, Isa. 41. 17.
 and every vision _f._, Ezek. 12. 22.  
 treasure in heav. that _f._ not, Lu. 12. 33.  
 charity never _f._, 1 Cor. 13. 8.  
+
 **FAILING.**—Hearts _f._ for fear, Lu. 21. 26.  
+
 **FAIN.**—Job 27. 22; Luke 15. 16.  
+
 **FAINT.**— _f._ yet pursuing, Judg. 8. 4.  
 the whole heart is _f._, Isa. 1. 5.  
 he giveth power to the _f._, Isa. 40. 29.  
@@ -256,11 +296,14 @@ received mercy we _f._ not, 2 Cor. 4. 1.
 we shall reap, if we _f._ not, Gal. 6. 9.  
 and _f._ in your minds, Heb. 12. 3.  
 _f._ when rebuked of him, Heb. 12. 5.  
+
 **FAINTED.**— _f._ unless I believed, Ps. 27. 13.  
 soul _f._ in them, Ps. 107. 5.  
+
 **FAINTETH.**—Soul _f._ for courts of Lord, Ps. 84. 2.  
 my soul _f._ for salvation, Ps. 119. 81.  
 Creator of earth _f._ not, Isa. 40. 28.  
+
 **FAIR.**—Daughters of men _f._, Gen. 6. 2.  
 _f._ than children of men, Ps. 45. 2.  
 with _f._ speech she caused, Prov. 7. 21.  

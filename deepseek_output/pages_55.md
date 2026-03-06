@@ -274,6 +274,7 @@ the Lord fulfil all thy _p.,_ Ps. 20. 5.
 according as we _p._ him, 1 John 5. 15.  
 
 **PEACE.** — One _p._ of bread, Lu. 11.5,  
+
 **PHARISEE.** — One _p._ ottered, Lu, 18.10,  
 The _p._ said, the son of _p.,_ Acts 28. 6.  
 after strictest sect I lived a _p.,_ Acts 26, 5.  

@@ -1,6 +1,7 @@
 I will turn their _m._ into joy, Jer. 31. 13.  
 _m._ in Jerusalem, Zech. 2. _12?_  
 great _m._, Matt. 2. 18.  
+
 **MOUTH.**—Who made man's _m._? Ex. 4. 11.  
 my own _m._ shall condemn me, Job 9. 20.  
 I lay my hand upon my _m._, Job 40. 4.  
@@ -22,21 +23,29 @@ out of thy own _m._ will I judge thee, Luke 19. 22.
 I will give you a _m._ and wisdom, Luke 21. 15.  
 that every _m._ may be stopped, Rom. 3. 19.  
 their _m._ speaketh great swelling words, Jude 16.  
+
 **MOUTHS.**—They have _m._ but speak not, Ps. 115. 5; 135. 16.  
 whose _m._ must be stopped, Tit. 1. 11.  
 stopped the _m._ of lions, Heb. 11. 33.  
+
 **MOWER.**—Ps. 129. 7.  
+
 **MOWN.**—The _m._ grass, Ps. 72. 6.  
+
 **MUCH.**—To whom _m._ is given, Luke 12. 48.  
+
 **MULTIPLY.**—I shall _m._ my days, Job 29. 18.  
 I will _m._ them, and they shall not be few, Jer. 30. 19.  
 I will _m._ the seed of David, Jer. 33. 22.  
+
 **MULTIPLIED.**—Their sorrows shall be _m._, Ps. 16. 4.  
 thou hast _m._ the nation, Isa. 9. 3.  
 the disciples _m._, Acts 6. 1, 7; 9. 31.  
 the people grew and _m._ in Egypt, Acts 7. 17.  
 the word of God grew and _m._, Acts 12. 24.  
+
 **MULTIPLYING.**—In _m._ I will multiply, Gen. 22. 17; Heb. 6. 14.  
+
 **MULTITUDE.**—Not be numbered for _m._, Gen. 16. 10; 32. 12; 1 Kings 3. 8.  
 thou shalt not follow a _m._ to do evil, Ex. 23. 2.  
 the stars for _m._, Deut. 1. 10; Heb. 11. 12.  
@@ -49,29 +58,41 @@ to what purpose is the _m._ of your sacrifices? Isa. 1. 11.
 there was with the angel a _m._ of the heavenly host, Luke 2. 13.  
 behold a _m._, Luke 22. 47.  
 shall hide a _m._ of sins, Jas. 5. 20; 1 Pet. 4. 8.  
+
 **MURDER.**—Out of the heart proceed _m._, Matt. 15. 19.  
 full of envy, _m._, debate, Rom. 1. 29.  
 the works of the flesh are _m._, Gal. 5. 21.  
+
 **MURDERER.**—A _m._ from the beginning, John 8. 44.  
 desired a _m._ to be granted unto you, Acts 3. 14.  
 let none suffer as a _m._, 1 Pet. 4. 15.  
 no _m._ hath eternal life, 1 John 3. 15.  
+
 **MURDERERS.**—But now _m._, Isa. 1. 21.  
 the law is made for _m._ of fathers and mothers, 1 Tim. 1. 9.  
 _m._ shall have their part in the lake, Rev. 21. 8.  
 without are _m._, Rev. 22. 15.  
+
 **MURMUR.**—Ye _m._ in your tents, Deut. 1. 27; Ps. 106. 25.  
 the congregation _m._ against the princes, Josh. 9. 18.  
 neither _m._ ye, as some of them also murmured, 1 Cor. 10. 10.  
+
 **MURMURERS.**—Jude 16.  
+
 **MURMURING.**—Your _m._ is not against us, Ex. 16. 8.  
 do all things without _m._, Phil. 2. 14.  
+
 **MUSE.**—Ps. 39. 3; 143. 5.  
+
 **MUSIC.**—Daughters of _m._, Eccl. 12. 4.  
 I am their _m._, Lam. 3. 63.  
+
 **MUTUAL.**—_m._ faith, Rom. 1. 12.  
+
 **MUZZLE.**—Thou shalt not _m._ the ox when he treadeth out the corn, Deut. 25. 4; 1 Cor. 9. 9; 1 Tim. 5. 18.  
+
 **MYRTLE.**—Isa. 41. 19; 55. 13.  
+
 **MYSTERY.**—Given to you to know the _m._, Matt. 13. 11; Mark 4. 11; Luke 8. 10.  
 I would not have you ignorant of this _m._, Rom. 11. 25.  
 we speak the wisdom of God in a _m._, 1 Cor. 2. 7.  
@@ -88,6 +109,7 @@ the _m._ of God should be finished, Rev. 10. 7.
 give us a _n._ in his holy place, Ezra 9. 8.  
 as a _n._ in a sure place, Isa. 22. 23, 25.  
 put my finger into the print of the _n._, John 20. 25.  
+
 **NAILING.**—_n._ it to his cross, Col. 2. 14.  
 
 **NAKED.**—_n._ and not ashamed, Gen. 2. 25.  
@@ -104,7 +126,9 @@ all things are _n._ and opened, Heb. 4. 13.
 if a brother or sister be _n._, Jas. 2. 15.  
 wretched, and miserable, and poor, and blind, and _n._, Rev. 3. 17.  
 lest he walk _n._, Rev. 16. 15.  
+
 **NAKEDNESS.**—Rom. 8. 35; Rev. 3. 18.  
+
 **NAME.**—This is my _n._ for ever, Ex. 3. 15.  
 my _n._ is in him, Ex. 23. 21.  
 glorious and fearful _n._, Deut. 28. 58.  
@@ -169,16 +193,20 @@ a new _n._ written, which no man knoweth, Rev. 2. 17.
 thou hast a _n._ that thou livest, and art dead, Rev. 3. 1.  
 his Father's _n._ written in their foreheads, Rev. 14. 1.  
 who shall not fear thee, O Lord, and glorify thy _n._? Rev. 15. 4.  
+
 **NAMED.**—Let my _n._ be named on them, Gen. 48. 16.  
 what hath been, is _n._ already, Eccl. 6. 10.  
+
 **NAMES.**—Lands after their own _n._, Ps. 49. 11.  
 the stars he calleth by their _n._, Ps. 147. 4.  
 take away the _n._ of Baalim, Hos. 2. 17.  
 your _n._ are written in heaven, Luke 10. 20.  
 whose _n._ are in the book of life, Phil. 4. 3.  
 thou hast a few _n._ even in Sardis, Rev. 3. 4.  
+
 **NARROW.**—The land of destruction is too _n._, Isa. 49. 19.  
 _n._ is the way which leadeth unto life, Matt. 7. 14.  
+
 **NATION.**—Wilt thou also slay a righteous _n._? Gen. 20. 4.  
 ye shall be unto me a holy _n._, Ex. 19. 6; 1 Pet. 2. 9.  
 I will make of thee a greater _n._, Num. 14. 12; Deut. 9. 14.  
@@ -200,6 +228,7 @@ _n._ shall rise against _n._, Matt. 24. 7; Mark 13. 8; Luke 21. 10.
 he loveth our _n._, and hath built us a synagogue, Luke 7. 5.  
 that the whole _n._ perish not, John 11. 50.  
 in the midst of a crooked and perverse _n._, Phil. 2. 15.  
+
 **NATIONS.**—Not reckoned among the _n._, Num. 23. 9.  
 the Lord shall scatter you among the _n._, Deut. 4. 27.  
 the Lord will set thee on high above all _n._, Deut. 28. 1.  
@@ -214,42 +243,54 @@ who would not fear thee, O King of _n._? Jer. 10. 7.
 many _n._ shall be joined to the Lord, Zech. 2. 11.  
 many _n._ and strong _n._ shall come to seek the Lord, Zech. 8. 22.  
 all _n._ shall call you blessed, Mal. 3. 12.  
+
 **NATURE.**—That which is against _n._, Rom. 1. 26.  
 by _n._ the things contained in the law, Rom. 2. 14.  
 doth not even _n._ itself teach you? 1 Cor. 11. 14.  
 we who are Jews by _n._, and not sinners of the Gentiles, Gal. 2. 15.  
 be partakers of the divine _n._, 2 Pet. 1. 4.  
+
 **NATURAL.**—the _n._ man, 1 Cor. 2. 14.  
 there is a _n._ body, 1 Cor. 15. 44.  
 that was not first which is spiritual, but that which is _n._, 1 Cor. 15. 46.  
+
 **NAUGHT.**—It is _n._, it is _n._, saith the buyer, Prov. 20. 14.  
 he shall be set at _n._, Mark 9. 12; Luke 23. 11.  
 if this work be of men, it will come to _n._, Acts 5. 38.  
 to bring to _n._ things that are, 1 Cor. 1. 28.  
+
 **NAUGHTY.**—A _n._ person, a wicked man, Prov. 6. 12.  
 taken in their own _n._, Prov. 11. 6.  
 superfluity of _n._, Jas. 1. 21.  
+
 **NEAR.**—Thou art _n._, O Lord, Ps. 119. 151.  
 call ye upon him while he is _n._, Isa. 55. 6.  
 peace to him that is far off, and to him that is _n._, Isa. 57. 19.  
 the day of the Lord is _n._, Obad. 15; Zech. 1. 14.  
 it is _n._, even at the doors, Matt. 24. 33.  
+
 **NEARER.**—our salvation is _n._ than when we believed, Rom. 13. 11.  
+
 **NECESSARY.**—words more than _n._, Job 23. 12.  
 _n._ things, Acts 15. 28; 28. 10.  
 maintain good works for _n._ uses, Tit. 3. 14.  
+
 **NECESSITY.**—For _n._ is laid upon me, 1 Cor. 9. 16.  
 not grudgingly, or of _n._, 2 Cor. 9. 7.  
 once and again to my _n._, Phil. 4. 16.  
+
 **NECESSITIES.**—Acts 20. 34; 2 Cor. 12. 10.  
+
 **NECK.**—They hardened their _n._, Neh. 9. 29.  
 so shall they be life and grace unto thy _n._, Prov. 3. 22.  
 thy _n._ is comely with chains of gold, Cant. 1. 10.  
 thy _n._ is like the tower of David, Cant. 4. 4.  
 thy _n._ is as a tower of ivory, Cant. 7. 4.  
 thy _n._ is an iron sinew, Isa. 48. 4.  
+
 **NECKS.**—with stretched-forth _n._, Isa. 3. 16.  
 who have for my life laid down their own _n._, Rom. 16. 4.  
+
 **NEED.**—they shall have no _n._ of spoil, Prov. 31. 11.  
 your Father knoweth what things ye have _n._ of, Matt. 6. 8.  
 the Lord hath _n._ of them, Matt. 21. 3.  
@@ -261,8 +302,11 @@ my God shall supply all your _n._, Phil. 4. 19.
 whoso hath this world's good, and seeth his brother have _n._, 1 John 3. 17.  
 thou sayest, I am rich, and increased with goods, and have _n._ of nothing, Rev. 3. 17.  
 they _n._ no candle, neither light of the sun, Rev. 22. 5.  
+
 **NEEDED.**—as though he _n._ any thing, Acts 17. 25.  
+
 **NEEDFUL.**—those things that are _n._ for the body, Jas. 2. 16.  
+
 **NEEDY.**—thou shalt open thine hand wide unto the _n._, Deut. 15. 11.  
 they turn the _n._ out of the way, Job 24. 4.  
 the _n._ shall not alway be forgotten, Ps. 9. 18.  
@@ -272,9 +316,11 @@ he lifteth the _n._ out of the dunghill, Ps. 113. 7.
 to turn aside the _n._ from judgment, Isa. 10. 2.  
 the _n._ shall lie down in safety, Isa. 14. 30.  
 thou hast been a strength to the _n._, Isa. 25. 4.  
+
 **NEGLECT.**—if he shall _n._ to hear them, Matt. 18. 17.  
 _n._ not the gift that is in thee, 1 Tim. 4. 14.  
 if we _n._ so great salvation? Heb. 2. 3.  
+
 **NEIGHBOUR.**—Thou shalt love thy _n._ as thyself, Lev. 19. 18; Matt. 5. 43; 19. 19; 22. 39; Mark 12. 31; Luke 10. 27; Rom. 13. 9; Gal. 5. 14; Jas. 2. 8.  
 say not unto thy _n._, Go, and come again, and to morrow I will give, Prov. 3. 28.  
 devise not evil against thy _n._, Prov. 3. 29.  

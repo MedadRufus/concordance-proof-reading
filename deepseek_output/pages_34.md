@@ -4,19 +4,26 @@ is he not God of _g._? yes, Rom. 3. 29.
 salvation come to the _g.,_ Rom, 11. ll.  
 not named among _g.,_ 1 Cor. 5. 1.  
 a teacher of _g.,_ 1 Tim, 2.7; 2Tim.1.11.  
+
 **GENTLE.**— _g._ among you, 1 Thess. 2. 7.  
 servant of Lord must be _g.,_ 2 Tim. 2. 24,  
 _g._ shewing all meekness, Titus 3. 2,  
 wisdom from above _g.,_ Jas. 3. 17.  
 subject not only to _g.,_ 1 Pet. 2. 18.  
+
 **GENTLENESS.**— Thy _g._ made me great, Ps.18. 35.  
 by _g._ of Christ, 2 Cor. 10. 1.  
 fruit of the Spirit is _g.,_ Gal. 5. 22.  
+
 **GETTETH.**— Happy that _g._ under., Pr. 3.13.  
+
 **GETTING.**— With all thy _g._ get understanding, Prov. 4. 7.  
 _g._ of treasures by lying tongue, Prov. 21. 6.  
+
 **GHOST.**— Giveth up the _g._? Job 14, 10.  
+
 **GIANT.**— Run on me like _g.,_ Job 16. 14.  
+
 **GIFT.**— Take no _g._ for the _g._ blindeth the wise, Ex. 23.8; Deut. 16, 19.  
 a _g._ is as precious stone, Prov. 17. 8.  
 a man's _g._ maketh room, Prov. 18. 16.  
@@ -36,6 +43,7 @@ neglect not _g._ in thee, 1 Tim. 4. 14.
 stir up the _g._ in thee, 2 Tim. 1. 6.  
 tasted of heavenly _g.,_ Heb. 6. 4.  
 every good and perfect _g.,_ Jas. 1. 17.  
+
 **GIFTS.**— Of all _g._ offer best, Num 18. 29.  
 with L. is no taking of _g.,_ 2 Chron, 19. 7.  
 sending _g._ to the poor, Esther 9, 22.  
@@ -52,11 +60,14 @@ _g._ differ. according to grace, Rom. 12. 6.
 there are diversities of _g.,_ 1 Cor. 12. 4,  
 and desire spiritual _g.,_ 1 Cor. 14. 1.  
 and gave _g._ to men, Eph. 4. 8.  
+
 **GIN.**— Isa. 8. 14; Amos 3. 5.  
+
 **GIRD.**— _g._ sword on thy thigh, Ps. 45, 3.  
 _g._ yourselves and lament, Joel 1, 13.  
 shall _g._ himself and make, Luke 12, 37,  
 another shall _g._ thee, John 21. 18.  
+
 **GIRDED.**— _g._ with strength, 2Sa.22. 40; Ps. 18. 39.  
 _g._ me with glad., Ps. 30. 11.  
 being _g._ with power, Ps. 65. 6.  
@@ -64,16 +75,21 @@ I _g._ thee, though thou, Isa. 45. 5,
 I _g._ thee with fine linen, Ezek. 16. 10.  
 lament like a virgin _g.,_ Joel 1. 8.  
 took towel and _g._ himself, Jn. 13.4, 5.  
+
 **GIRDETH.**— It is G. that _g._ me, Ps. 18. 32.  
+
 **GIRDING.**— _g._ of sackcl., Isa. 3. 24,22.12,  
+
 **GIRDLE.**— _g._ wherewith girded, Ps. 109. 19,  
 instead of a _g._ a rent, Isa. 3. 24,  
 nor shall _g._ of loins be loosed, Isa. 5. 27,  
 a leathern _g.,_ Matt. 3.4; Mark 1. 6.  
 took Paul’s _g.,_ Acts 21. 11.  
 girt about paps golden _g.,_ Rev. 1. 13.  
+
 **GIRDLES.**— Deliv. _g._ to mer., Pr. 31. 24,  
 having _g._ girded with golden _g.,_ Rev. 15. 6.  
+
 **GIVE.**— Every man _g._ as able, De. 16. 17,  
 I will _g._ him to the Lord, 1 Sam. 1, 11.  
 _g._ to Lord glory and strength, 1 Chron. 16. 28, 29; Ps, 29. 1, 96. 7, 8.  
@@ -96,6 +112,7 @@ let him _g._ not grudgingly, 2 Cor, 9. 7.
 have to _g._ to him needeth, Eph. 4. 28.  
 _g._ thyself wholly to them, 1 Tim, 4, 15,  
 _g._ every man accor. to work, Rev. 22. 12.  
+
 **GIVE THANKS.**— _g. t._ to the Lord, 1 Chr. 16. 8; Ps, 105, 1, 106. 1, 107. 1.  
 in grave who shall _g. t._? Ps. 6. 5.  
 good thing to _g. t._ to Lord, Ps, 92. 1.  
@@ -103,6 +120,7 @@ O _g. t._ to God of gods, Ps, 136. 2, 26.
 I cease not to _g. t._ for you, Eph. 1. 16,  
 in everything _g. t.,_ 1 Thess. 5. 18.  
 we are bound to _g. t.,_ 2 Thess. 2.13,  
+
 **GIVEN.**— Of thine own have _g.,_ 1 Chr. 29. 14.  
 hath _g._ to poor, Ps. 112, 9; 2 Cor. 9. 9.  
 _g._ you to know mysteries of kingdom, Matt. 13. 11; Mark 4. 11; Luke 8. 10.  
@@ -114,6 +132,7 @@ of all he hath _g._ me, John 6. 39.
 no man come except _g._ him, John 6, 65.  
 or who hath first _g._ to him? Rom, 11. 35.  
 things freely _g._ us of God, 1 Cor, 2. 12.  
+
 **GIVETH.**— _g._ to poor shall not lack, Prov. 28. 27.  
 God _g._ to good man, wisdom, to sinner _g._ travail, Eccl. 2, 26.  
 who _g._ life unto the world, John 6. 33.  
@@ -124,6 +143,7 @@ he _g._ to all life, breath, Acts 17. 25.
 that _g._ with simplicity, Rom. 12. 8.  
 who _g._ richly all things, 1 Tim. 6. 17.  
 God that _g._ to all liberally, Jas, 1. 5.  
+
 **GLAD.**— He will be _g._ in heart, Ex. 4. 14,  
 _g._ When they find the grave, Job 3. 22.  
 right. see and are _g.,_ Job 22, 19; Ps. 64. 10.  
@@ -140,6 +160,7 @@ things, whereof they are _g.,_ Ps. 126. 3.
 meet, we should be _g.,_ Luke 15. 32.  
 Abraham saw my day was _g.,_ Jn. 8. 56,  
 we are _g._ when we are weak, 2 Cor. 13. 9.  
+
 **GLADNESS.**— In day of your _g.,_ Nu. 10. 10.  
 there was very great _g.,_ Neh. 8.17.  
 day of feasting and _g.,_ Esth. 9.17, 18, 19,  
@@ -150,7 +171,9 @@ serve the Lord with _g.,_ Ps. 100. 2.
 shall obtain joy and _g.,_ Isa. 35. 10, 51. 11.  
 joy and _g._ found therein, Isa, 51. 3.  
 who receive it with _g.,_ Mark 4. 16.  
+
 **GLASS.**— Sea of _g.,_ Rev. 4. 6, 15.2.  
+
 **GLORIFY.**— All nations shall _g.,_ Ps. 86. 9.  
 I will _g._ house of my glory, Isa, 60. 7.  
 _g._ your Father in heaven, Matt. 5. 16.  
@@ -162,6 +185,7 @@ _g._ me with thine own self, John 17. 5.
 by what death he shall _g._ God, Jn. 21.19.  
 _g._ God in body and spirit, 1 Cor. 6. 20.  
 _g._ God in day of visitation, 1 Pet. 2, 12.  
+
 **GLORIFIED.**— Before all I will be _g.,_ Lev. 10. 3.  
 I will be _g.,_ Ezek. 28. 22.  
 they _g._ the God of Israel, Matt, 15. 31.  
@@ -178,6 +202,7 @@ come to be _g._ in his saints, 2 Thess. 1.10.
 that word of Lord may be _g.,_ 2 Thess, 3.1.  
 so Christ _g._ not himself, Heb. 5. 5.  
 God in all things may be _g.,_ 1 Pet. 4. 11.  
+
 **GLORIOUS.**— _g._ in holiness, Ex. 15. 11.  
 king's daughter _g._ within, Ps. 45.13.  
 blessed be his _g._ name for ever, Ps. 72. 19.  
@@ -186,6 +211,7 @@ _g._ things spoken of thee, Ps. 87. 3
 his work honourable and _g.,_ Ps, 111. 3.  
 speak of _g._ honour of majesty, Ps. 145. 5,  
 _g._ gospel, 2 Cor. 4. 4; 1 Tim. 1. 11.  
+
 **GLORY.**— Shew me thy _g.,_ Ex. 33. 18.  
 _g._ is departed from Isr., 1 Sam, 4, 21, 22,  
 thou art my _g.,_ Ps. 3. 3.  
@@ -245,6 +271,7 @@ spirit of _g._ resteth on you, 1 Pet. 4. 14.
 the _g._ that shall be revealed, 1 Pet. 5.1  
 before the presence of his _g.,_ Jude 24.  
 the _g._ of God did lighten it, Rev. 21. 23,  
+
 **GLORY.**— _g._ ye in his holy name, 1 Chr. 16. 10.  
 _g._ in the Holy One, Isa. 41. 16.  
 _g._ in this that he knoweth me, Jer. 9, 24.  
@@ -252,13 +279,18 @@ he hath whereof to _g.,_ Rom, 4, 2.
 I have whereof I may _g.,_ Rom. 15. 17.  
 he that glorieth, _g._ in Lord, 1 Cor. 1. 31.  
 let no man _g._ in men, 1 Cor. 3. 21.  
+
 **GLORYING.**— Your _g._ not good, 1 Cor. 5. 6.  
 my _g.,_ 1 Cor. 9. 15; 2 Cor. 7. 4.  
+
 **GLUTTON.**— Prov. 23. 21.  
+
 **GLUTTONOUS.**— A man _g.,_ Matt.11.19; Lu. 7. 34.  
+
 **GNASH.**— Job 16. 9, 35. 16; Ps. 37. 12, 112, 10.  
 shall be _g._ of teeth, Matt. 8. 12, 13. 42, 22. 13, 24. 51, 25. 30.  
 they _g._ on him with teeth, Acts 7. 54.  
+
 **GO.**— Let me _g.,_ Gen. 32. 26.  
 let my people _g.,_ Ex. 5. 1, 7. 16.  
 my presence shall _g._ with thee, Ex. 33. 14.  
@@ -275,12 +307,17 @@ I _g._ my way, John 8. 21.
 whither I _g._ ye know, John 14. 4.  
 because I _g._ to Father, Jn. 14. 12, 16. 10.  
 let these _g._ their way, Jn. 18. 8.  
+
 **GO ASTRAY.** — _g. a._ as soon as born, Ps. 58.3.  
+
 **GO AWAY.**— Ye also _g. a._? John 6. 67.  
+
 **GO BACK.**— I cannot _g. b.,_ Judg. 11. 35,  
 not _g. b._ from thee, Ps. 80. 18.  
+
 **GO DOWN.**— _g. d._ to sea in ships, Ps.107. 23.  
 any that _g. d._ into silence, Ps. 115. 17.  
+
 **GO FORTH.**— Wilt not _g. f._ with hosts? Ps, 108. 11.  
 out of Zion shall _g. f._ the law, Isa. 2. 3; Mic. 4. 2.  
 mayest say to prisoners, _g. f.,_ Isa. 49.9  
