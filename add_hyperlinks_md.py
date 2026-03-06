@@ -105,8 +105,11 @@ def convert_markdown_to_html(md_path, html_path):
         # Check for root word heading
         if match := re.match(r'\*\*([A-Z][A-Z\-]+)\.\*\*', line):
             current_root_word = match.group(1)
+            # Convert markdown formatting
             line = re.sub(r'\*\*([^*]+)\*\*', r'<strong>\1</strong>', line)
             line = re.sub(r'_([^_]+)_', r'<em>\1</em>', line)
+            # FIXED: Also process Bible references in heading lines!
+            line = process_line_references(line, verses, current_root_word)
             paragraphs.append(line)
         else:
             # Convert markdown formatting
