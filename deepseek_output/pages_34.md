@@ -284,4 +284,4 @@ any that _g. d._ into silence, Ps. 115. 17.
 **GO FORTH.**— Wilt not _g. f._ with hosts? Ps, 108. 11.  
 out of Zion shall _g. f._ the law, Isa. 2. 3; Mic. 4. 2.  
 mayest say to prisoners, _g. f.,_ Isa. 49.9  
-he is in desert, _g._ not _f.,_ Matt 24 26.
+he is in desert, _g._ not _f.,_ Matt 24 26.  

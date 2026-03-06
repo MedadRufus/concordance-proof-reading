@@ -1,7 +1,7 @@
-art to them as _l._ song, Ezek. 33, 32.
-whatsoever things are _l._, Phil. 4. 8.
+art to them as _l._ song, Ezek. 33, 32.  
+whatsoever things are _l._, Phil. 4. 8.  
 
-**LOVER.**—I. and friend hast put far, Ps. 88.18.   
+**LOVER.**—I. and friend hast put far, Ps. 88.18.  
 men be _L._ of own selves, 2 Tim. 3. 2.  
 _L._ of pleas. more than _L._ of G., 2 Tim. 3. 4.  
 _L._ of hospitality, _l._ of good men, Tit. 1. 8.  
@@ -349,4 +349,4 @@ what _m._ ye to weep and, Acts 21. 13.
 the _m._ man, Isa. 2. 9, 5. 15, 31. 8.  
 
 **MEANS.**—Shalt by no _m._ come out, Matt. 5. 26.  
-by all _m._ save some, 1 Cor. 9. 22.
+by all _m._ save some, 1 Cor. 9. 22.  

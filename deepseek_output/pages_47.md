@@ -34,7 +34,7 @@ the _l._ he shall praise thee, Isa. 38. 19.
 wherefore _l._ complain, Lam. 3. 39.  
 God is God of the _l._, Matt. 22. 32.  
 why seek ye _l._ among dead? Luke 24. 5.  
-as the _l._ Father hath sent me, Jn. 6. 57.
+as the _l._ Father hath sent me, Jn. 6. 57.  
 
 **LOATHE.** — I _l._ it, I would not live, Job 7. 16.  
 _l._ themselves for evils, Ezek. 6. 9.  
@@ -318,4 +318,4 @@ to him that _l._ us and washed, Rev. 1. 5.
 _l._ not their lives to death, Rev. 12. 11.  
 
 **LOVELY.** — _l._ in their lives, 2 Sam. 1. 23.  
-he is altogether _l._, Cant. 5. 16.
+he is altogether _l._, Cant. 5. 16.  

@@ -342,4 +342,4 @@ so paths of all that *f.* God, Job 8. 13.
 all nations that *f.* God, Ps. 9. 17.  
 *f.* thine own people, and, Ps. 45. 10.  
 consider this, ye that *f.* God, Ps. 50. 22.  
-might not *f.* works of God, Ps. 78. 7.
+might not *f.* works of God, Ps. 78. 7.  

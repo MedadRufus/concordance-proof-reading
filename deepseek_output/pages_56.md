@@ -339,4 +339,4 @@ as _p._ yet making rich, 2 Cor. 6. 10.
 for your sakes he became _p._, 2 Cor. 8. 9.  
 should remember the _p._, Gal. 2. 10.  
 there come in a _p._ man in, Jas. 2. 2.  
-hath not God chosen the _p._, Jas. 2. 5.
+hath not God chosen the _p._, Jas. 2. 5.  

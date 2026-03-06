@@ -344,4 +344,4 @@ the simple _i._ folly, Prov. 14. 18.
 _i._ the kingdom prepared, Matt. 25. 34.  
 that I may _i._ eternal life, Mark 10. 17.  
 that ye should _i._ blessing, 1 Pet. 3. 9.  
-he that overcometh _i._ all, Rev. 21. 7.
+he that overcometh _i._ all, Rev. 21. 7.  

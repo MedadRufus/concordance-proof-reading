@@ -296,4 +296,4 @@ _g._ and peace be multiplied, 1 Pet. 1. 2.
 the true _g._ of God, 1 Pet. 5. 12.  
 grow in _g._, 2 Pet. 3. 18.  
 turning _g._ of God to lasciviousness, Jude 4.  
-_g._ from him which is and was, Rev. 1. 4.
+_g._ from him which is and was, Rev. 1. 4.  

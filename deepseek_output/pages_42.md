@@ -340,4 +340,4 @@ no greater _j._ than to hear, 3 John 4.
 in day of prosperity be _j._, Eccl. 7. 14.  
 sing, heavens, be _j._ earth, Isa. 49. 13.  
 _j._ in house of prayer, Isa. 56. 7.  
-_j._ in my God, Isa. 61. 10.
+_j._ in my God, Isa. 61. 10.  

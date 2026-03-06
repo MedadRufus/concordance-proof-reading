@@ -346,4 +346,4 @@ our _f._ is as _f._ of brethren, Neh. 5. 5.
 in my _f._ shall I see God, Job 19. 26.  
 _f._ shall rest in hope, Ps. 16. 9; Acts 2. 26.  
 to thee shall all _f._ come, Ps. 65. 2.  
-can he provide _f._ ? Ps. 78. 20, 27.
+can he provide _f._ ? Ps. 78. 20, 27.  

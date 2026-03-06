@@ -289,4 +289,4 @@ unclean spirits like _f._, Rev. 16. 13.
 **FRONT.**— _f._ of battle against him, 2 Sam. 10. 9.  
 **FRONTLETS.**—Ex. 13.16; De. 6. 8,11.18.  
 **FROWARD.**—A very _f._ gene., De. 32. 20.  
-with _f._ wilt shew thyself _f._, 2 Sam. 22. 27; Ps. 18. 26.
+with _f._ wilt shew thyself _f._, 2 Sam. 22. 27; Ps. 18. 26.  

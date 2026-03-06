@@ -274,4 +274,4 @@ it will be _f._ weather, Matt. 16. 2.
 Moses was exceeding _f._, Acts 7. 20.  
 place called the _f._ havens, Acts 27. 8.  
 by _f._ speeches deceive, Rom. 16. 18.  
-to make _f._ show in flesh, Gal. 6. 12.
+to make _f._ show in flesh, Gal. 6. 12.  

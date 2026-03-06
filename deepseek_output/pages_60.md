@@ -1,7 +1,7 @@
 preacher set in order _p._, Eccl. 12. 9.  
 every one that useth _p._, Ezek. 16. 44.  
 speakest plainly and no _p._, John 16. 29.  
-according to true _p._, 2 Pet. 2. 22.
+according to true _p._, 2 Pet. 2. 22.  
 **PROVIDE.** —_G._ will _p._ a lamb, Gen. 22. 8.  
 who _p._ for the raven food, Job 38. 41.  
 can he _p._ flesh for people? Ps. 78. 20.  
@@ -282,4 +282,4 @@ run with patience the _r._, Heb. 12. 1.
 **RAGE.** —Have slain them in _r._, 2 Chr. 23. 9.  
 cast abroad _r._ of thy wrath, Job 40. 11.  
 whether he _r._ or laugh, Prov. 29. 9.  
-fall for _r._ of their tongue, Hos. 7. 16.
+fall for _r._ of their tongue, Hos. 7. 16.  

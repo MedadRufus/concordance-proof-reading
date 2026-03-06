@@ -284,4 +284,4 @@ he _r._ from God honour, 2 Pet. 1. 17.
 **RECEIVEDST.**— _r._ good things, Lu. 16. 25.  
 **RECEIVER.**—Where is the _r._ ? Is. 33. 18.  
 **RECEIVING.**—Concerning _r._, Phil. 4. 15.  
-we _r._ a kingdom, Heb. 12. 28.
+we _r._ a kingdom, Heb. 12. 28.  

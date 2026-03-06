@@ -332,4 +332,4 @@ we are in thine _h.,_ Josh. 9. 25.
 saying, mine own _h._ saved me, Judg. 7. 2.  
 _h._ of God heavy on them, 1 Sam. 5. 11.  
 is not his _h._ that smote us, 1 Sam. 6. 9.  
-did put his life in his _h.,_ 1 Sam. 19. 5.
+did put his life in his _h.,_ 1 Sam. 19. 5.  

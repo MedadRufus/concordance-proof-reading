@@ -306,4 +306,4 @@ having two eyes to be cast into _h._, Matt. 18. 9; Mark 9. 47.
 in _h._ he lifted up his eyes, Luke 16. 23.  
 
 **HELMET.**—Isa. 59. 17; Eph. 6. 17.  
-for _h._ hope of salvation, 1 Thess. 5. 8.
+for _h._ hope of salvation, 1 Thess. 5. 8.  

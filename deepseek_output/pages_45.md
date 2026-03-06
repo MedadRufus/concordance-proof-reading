@@ -13,7 +13,7 @@ _l._ to enter into that rest, Heb. 4. 11.
 
 **LABOURED.**—I _l._ more abundantly, 1 Cor. 15. 10.  
 
-**LABOURER.**—_l._ few, Matt. 9. 37, 38; Luke 10. 2.
+**LABOURER.**—_l._ few, Matt. 9. 37, 38; Luke 10. 2.  
 _l._ worthy of his hire, Lu. 10. 7; 1 Tim. 5. 18.  
 _l._ together with God, 1 Cor. 3. 9.  
 
@@ -345,4 +345,4 @@ he who now letteth will _l_., 2 Thess. 2. 7.
 not of _l._ but of the Spirit, 2 Cor 3. 6.  
 _l._ I have written, Gal. 6. 11.  
 
-**LETTERS.**—How know. this man _l_., Jn. 7. 15.
+**LETTERS.**—How know. this man _l_., Jn. 7. 15.  

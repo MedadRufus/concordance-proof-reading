@@ -313,4 +313,4 @@ not by _m._ nor by power, Zech. 4. 6.
 far above all _m.,_ Eph. 1. 21.  
 in power of his _m.,_ Eph. 6. 10.  
 angels are greater in _m.,_ 2 Pet. 2. 11.  
-glory and _m._ be unto God, Rev. 7. 12.
+glory and _m._ be unto God, Rev. 7. 12.  

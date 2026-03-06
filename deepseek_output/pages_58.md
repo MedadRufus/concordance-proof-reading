@@ -322,4 +322,4 @@ none of _p._ of this world knew, 1 Cor. 2. 8.
 
 **PRINCIPAL.** — Wisd. is _p._ thing, Pr. 4. 7.  
 
-**PRINCIPALITY.** — Far above all _p._ and power, Eph. 1. 21.
+**PRINCIPALITY.** — Far above all _p._ and power, Eph. 1. 21.  

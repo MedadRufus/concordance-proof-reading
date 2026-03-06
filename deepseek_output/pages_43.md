@@ -1,13 +1,13 @@
 
 _j._ in all our tribulation, 2 Cor. 7. 4.  
-took _j._ spoiling of goods, Heb. 10. 34.
+took _j._ spoiling of goods, Heb. 10. 34.  
 
 **JOYFULNESS.** —Servedst not _L._ with _j._, Deut. 28. 47.  
-to long-suffering with _j._, Col. 1. 11.
+to long-suffering with _j._, Col. 1. 11.  
 
-**JOYING.** —fol. 2. 5.
+**JOYING.** —fol. 2. 5.  
 
-**JOYOUS.** —_j._ city, Isa. 22. 2, 23. 7.
+**JOYOUS.** —_j._ city, Isa. 22. 2, 23. 7.  
 
 **JUDGE.** —Shall not _J._ of earth, Gen. 18. 25.  
 make thee _j._, Ex. 2. 14; Acts 7. 27, 35.  
@@ -23,7 +23,7 @@ God _j._ of quick and dead, Acts 10. 42.
 the Lord the righteous _J._, 2 Tim. 4. 8.  
 God the _J._ of all, Heb. 12. 23.  
 not a doer of law, but a _j._, Jas. 4. 11.  
-_J._ standeth before the door, Jas. 5. 9.
+_J._ standeth before the door, Jas. 5. 9.  
 
 **JUDGE.** —_J._ twixt me and thee, Gen. 16. 5.  
 the Lord shall _j._ his people, Deut. 32. 36; Ps. 50. 4, 135. 14; Heb. 10. 30.  
@@ -43,15 +43,15 @@ how shall God _j._ the world? Rom. 3. 6.
 let us not _j._ one another, Rom. 14. 13.  
 I _j._ not myself, 1 Cor. 4. 3.  
 _j._ quick and dead, 2 Tim. 4. 1; 1 Pet. 4. 5.  
-who art thou that _j._ another? Jas. 4. 12.
+who art thou that _j._ another? Jas. 4. 12.  
 
-**JUDGED.** —She _j._ him faithful, Heb. 11. 11.
+**JUDGED.** —She _j._ him faithful, Heb. 11. 11.  
 
 **JUDGES.** —L. raised up _j._, Judg. 2. 16, 18; Acts 13. 20.  
 by me _j._ rule, Prov. 8. 16.  
 maketh _j._ of earth as vanity, Isa. 40. 23.  
 her _j._ are evening wolves, Zeph. 3. 3.  
-are become _j._ of evil thoughts, Jas. 2. 4.
+are become _j._ of evil thoughts, Jas. 2. 4.  
 
 **JUDGETH.** —He is a God that _j._ in earth, Ps. 58. 11.  
 he _j._ among gods, Ps. 82. 1.  
@@ -59,7 +59,7 @@ the Father _j._ no man, John 5. 22.
 there is one that _j._, John 8. 50.  
 he that is spiritual _j._ all, 1 Cor. 2. 15.  
 he that _j._ me is the Lord, 1 Cor. 4. 4.  
-to him that _j._, 1 Pet. 2. 23.
+to him that _j._, 1 Pet. 2. 23.  
 
 **JUDGMENT.** —the _j._ is God's, Deut. 1. 17.  
 all his ways are _j._, Deut. 32. 4.  
@@ -107,9 +107,9 @@ after this the _j._, Heb. 9. 27.
 have _j._ without mercy, Jas. 2. 13.  
 _j._ begin at house of God, 1 Pet. 4. 17.  
 _j._ of the great day, Jude 6.  
-to execute _j._ upon all, Jude 15.
+to execute _j._ upon all, Jude 15.  
 
-**JUDGMENT-SEAT.** —Stand before _j.-s._ of Christ, Rom. 14. 10; 2 Cor. 5. 10.
+**JUDGMENT-SEAT.** —Stand before _j.-s._ of Christ, Rom. 14. 10; 2 Cor. 5. 10.  
 
 **JUDGMENTS.** —The _j._ of the Lord are true, Ps. 19. 9.  
 thy _j._ are a great deep, Ps. 36. 6.  
@@ -118,7 +118,7 @@ I know that thy _j._ are right, Ps. 119. 75.
 upright are thy _j._, Ps. 119. 137.  
 when thy _j._ are in the earth, Isa. 26. 9.  
 thy _j._ are as the light, Hos. 6. 5.  
-how unsearchable are his _j._, Rom. 11. 33.
+how unsearchable are his _j._, Rom. 11. 33.  
 
 **JUST.** —_j._ and right is he, Deut. 32. 4.  
 shall man be more _j._ than God? Job 4. 17.  
@@ -151,24 +151,24 @@ spirits of _j._ men made perfect, Heb. 12. 23.
 condemned and killed _j._, Jas. 5. 6.  
 the _j._ for the unjust, 1 Pet. 3. 18.  
 he is _j._ to forgive sins, 1 John 1. 9.  
-_j._ and true are thy ways, Rev. 15. 3.
+_j._ and true are thy ways, Rev. 15. 3.  
 
-**JUST ONE.** —Acts 3. 14, 7. 52, 22. 14.
+**JUST ONE.** —Acts 3. 14, 7. 52, 22. 14.  
 
 **JUSTICE.** —Almighty pervert not _j._, Job 8. 3.  
 do _j._ to afflicted and needy, Ps. 82. 3.  
 _j._ and judgment are the habitation, Ps. 89. 14.  
 none calleth for _j._, Isa. 59. 4.  
 _j._ standeth afar off, Isa. 59. 14.  
-Lord, habitation of _j._, Jer. 31. 23.
+Lord, habitation of _j._, Jer. 31. 23.  
 
-**JUSTIFICATION.** —Rom. 4. 25, 5. 16, 18.
+**JUSTIFICATION.** —Rom. 4. 25, 5. 16, 18.  
 
 **JUSTIFY.** —If I _j._ myself, Job 9. 20.  
 _j._ the wicked for reward, Isa. 5. 23.  
 my righteous servant _j._ many, Isa. 53. 11.  
 ye _j._ yourselves before men, Luke 16. 15.  
-foreseeing God _j._ heathen, Gal. 3. 8.
+foreseeing God _j._ heathen, Gal. 3. 8.  
 
 **JUSTIFIED.** —Man full of talk be _j._? Job 11. 2.  
 I know I shall be _j._, Job 13. 18.  
@@ -190,13 +190,13 @@ _j._ in name of the L. Jesus, 1 Cor. 6. 11.
 man is not _j._ by law, Gal. 2. 16, 3. 11.  
 whosoever is _j._ by law, Gal. 5. 4.  
 _j._ in the Spirit, 1 Tim. 3. 16.  
-how by works man is _j._, Jas. 2. 24.
+how by works man is _j._, Jas. 2. 24.  
 
-**JUSTIFIER.** —Rom. 3. 26.
+**JUSTIFIER.** —Rom. 3. 26.  
 
 **JUSTLY.** —To do _j._? Mic. 6. 8.  
 we indeed _j._, Luke 23. 41.  
-holily and _j._ behaved, 1 Thess. 2. 10.
+holily and _j._ behaved, 1 Thess. 2. 10.  
 
 **KEEP.** —_k._ way of the Lord, Gen. 18. 19.  
 I am with thee to _k._ thee, Gen. 28. 15, 20.  
@@ -229,25 +229,25 @@ _k._ yourselves in love of God, Jude 21.
 to him that is able to _k._ you, Jude 24.  
 blessed they that _k._ things, Rev. 1. 3.  
 _k._ thee from hour of tempta., Rev. 3. 10.  
-who _k._ sayings of this book, Rev. 22. 9.
+who _k._ sayings of this book, Rev. 22. 9.  
 
 **KEEPER.** —My brother's _k._, Gen. 4. 9.  
 the Lord is thy _k._, Ps. 121. 5.  
 when _k._ of house tremble, Eccl. 12. 3.  
 fear of him _k._ did shake, Matt. 28. 4.  
-_k._ at home, Tit. 2. 5.
+_k._ at home, Tit. 2. 5.  
 
 **KEEPEST.** —Who _k._ covenant, 1 Kings 8. 23; 2 Chron. 6. 14; Neh. 9. 32.  
-orderly and _k._ the law, Acts 21. 24.
+orderly and _k._ the law, Acts 21. 24.  
 
 **KEEPETH.** —Which _k._ covenant, Deut. 7. 9; Neh. 1. 5.  
 that _k._ thee not slumber, Ps. 121. 3, 4.  
 Lord which _k._ truth for ever, Ps. 146. 6.  
 _k._ his mouth, _k._ his life, Prov. 13. 3, 21. 23.  
 _k._ his way preserveth his soul, Prov. 16. 17, 19. 16.  
-whoso _k._ the law is a wise son, Prov. 28. 7.
+whoso _k._ the law is a wise son, Prov. 28. 7.  
 
-**KEEPING.** —God _k._ covenant, Dan. 9. 4.
+**KEEPING.** —God _k._ covenant, Dan. 9. 4.  
 
 **KEPT.** —I have _k._ ways of Lord, 2 Sam. 22. 22; Ps. 18. 21.  
 his ways have I _k._, Job 23. 11.  
@@ -260,18 +260,18 @@ we were _k._ under law, Gal. 3. 23.
 I _k._ the faith, 2 Tim. 4. 7.  
 are _k._ by power of God, 1 Pet. 1. 5.  
 _k._ in store, 2 Pet. 3. 7.  
-_k._ my word, Rev. 3. 8, 10.
+_k._ my word, Rev. 3. 8, 10.  
 
 **KEY.** —The _k._ of house of David, Isa. 22. 22.  
 _k._ of kingdom of heaven, Matt. 16. 19.  
 taken _k._ of knowledge, Luke 11. 52.  
 _k._ of hell and of death, Rev. 1. 18.  
 the _k._ of David, Rev. 3. 7.  
-_k._ of bottomless pit, Rev. 9. 1, 20. 1.
+_k._ of bottomless pit, Rev. 9. 1, 20. 1.  
 
-**KICK.** —_k._ against pricks, Acts 9. 5, 26. 14.
+**KICK.** —_k._ against pricks, Acts 9. 5, 26. 14.  
 
-**KID.** —Never gavest a _k._, Luke 15. 29.
+**KID.** —Never gavest a _k._, Luke 15. 29.  
 
 **KILL.** —Thou shalt not _k._, Ex. 20. 13; Deut. 5. 17; Matt. 5. 21; Rom. 13. 9.  
 to _k._ us in wilderness, Num. 16. 13.  
@@ -284,29 +284,29 @@ to save life, or to _k._? Mark 3. 4.
 why go ye about to _k._ me? John 7. 19.  
 will he _k._ himself? John 8. 22.  
 rise, Peter, _k._ and eat, Acts 10. 13.  
-ye _k._ and desire to have, Jas. 4. 2.
+ye _k._ and desire to have, Jas. 4. 2.  
 
 **KILLED.** —For thy sake are we _k._, Ps. 44. 22; Rom. 8. 36.  
 be _k._ and raised again, Matt. 16. 21.  
 after he hath _k._ hath power, Luke 12. 5.  
 and _k._ the Prince of life, Acts 3. 15.  
 L. they have _k._ thy prophets, Rom. 11. 3.  
-who _k._ the Lord Jesus, 1 Thess. 2. 15.
+who _k._ the Lord Jesus, 1 Thess. 2. 15.  
 
-**KILLEDST.** —That _k._ the prophets, Matt. 23. 37; Luke 13. 34.
+**KILLEDST.** —That _k._ the prophets, Matt. 23. 37; Luke 13. 34.  
 
 **KILLETH.** —L. _k._ and maketh alive, 1 Sam. 2. 6.  
-letter _k._ but Spirit giveth life, 2 Cor. 3. 6.
+letter _k._ but Spirit giveth life, 2 Cor. 3. 6.  
 
 **KIND.** —_k._ to unthankful, Luke 6. 35.  
 charity is _k._, 1 Cor. 13. 4.  
-be _k._ one to another, Eph. 4. 32.
+be _k._ one to another, Eph. 4. 32.  
 
 **KINDLED.** —_k._ wrath, Job 19. 11, 32. 2.  
 his wrath is _k._ but a little, Ps. 2. 12.  
 I the Lord have _k._ it, Ezek. 20. 48.  
 my repentings are _k._, Hos. 11. 8.  
-what will I, if it be _k._? Luke 12. 49.
+what will I, if it be _k._? Luke 12. 49.  
 
 **KINDNESS.** —Shew me the _k._ of Lord, 1 Sam. 20. 14.  
 will requite you this _k._, 2 Sam. 2. 6.  
@@ -314,4 +314,4 @@ this thy _k._ to thy friend? 2 Sam. 16. 17.
 God is of great _k._, Neh. 9. 17.  
 shewed me marvellous _k._, Ps. 31. 21.  
 his merciful _k._ is great, Ps. 117. 2.  
-merciful _k._ be my comfort, Ps. 119. 76.
+merciful _k._ be my comfort, Ps. 119. 76.  

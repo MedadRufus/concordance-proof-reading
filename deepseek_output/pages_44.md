@@ -24,7 +24,7 @@ _l.-k._ unto thousands, Jer. 32. 18.
 shout of a _k._ among them, Num. 23. 21.  
 no _k._ in Israel, Judg. 17. 6.  
 now make us a _k._, 1 Sam. 8. 5, 6.  
-God save the _k._, 1 Sam. 10.
+God save the _k._, 1 Sam. 10.  
 
 **KINDNESS, LOVING.** — shew thy _l.-k._, Ps. 17. 7, 52. 2.  
 remember mercies and _l.-k._, Ps. 25. 6.  
@@ -311,4 +311,4 @@ though _l._ of olive fail, Hab. 3. 17.
 your _l._ is not in vain, 1 Cor. 15. 58.  
 this is fruit of my _l._, Phil. 1. 22.  
 _l._ of love, 1 Thess. 1. 3; Heb. 6. 10.  
-I know thy _l._ and, Rev. 2. 2.
+I know thy _l._ and, Rev. 2. 2.  

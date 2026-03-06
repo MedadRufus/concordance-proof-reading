@@ -305,4 +305,4 @@ make the heart of this peo. _f._, Isa. 6. 10.
 the God of my _f._, Gen. 31. 5, 42, 32. 9.  
 a _f._ and a priest, Judg. 17. 10, 18. 19.  
 I said to corruption, my _f._, Job 17. 14.  
-I was a _f._ to the poor, Job 29. 16.
+I was a _f._ to the poor, Job 29. 16.  

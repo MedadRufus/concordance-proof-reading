@@ -278,4 +278,4 @@ if we _n._ so great salvation? Heb. 2. 3.
 **NEIGHBOUR.**—Thou shalt love thy _n._ as thyself, Lev. 19. 18; Matt. 5. 43; 19. 19; 22. 39; Mark 12. 31; Luke 10. 27; Rom. 13. 9; Gal. 5. 14; Jas. 2. 8.  
 say not unto thy _n._, Go, and come again, and to morrow I will give, Prov. 3. 28.  
 devise not evil against thy _n._, Prov. 3. 29.  
-the poor is hated even of his own _n._, Prov. 14. 20.
+the poor is hated even of his own _n._, Prov. 14. 20.  

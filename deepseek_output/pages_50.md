@@ -340,4 +340,4 @@ grievous _m._, Gen. 50. 11.
 I go _m._ all day long, Ps. 38. 6.  
 why go I _m._, Ps. 42. 9.  
 days of thy _m._ shall be ended, Isa. 60. 20.  
-_m._ as for only son, Jer. 6. 26; Amos 8. 10.
+_m._ as for only son, Jer. 6. 26; Amos 8. 10.  

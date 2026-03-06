@@ -312,4 +312,4 @@ where _p._ was wont to be made, Acts 16. 13.
 continuing instant in _p._, Rom. 12. 12.  
 may give yourselves to _p._, 1 Cor. 7. 5.  
 praying with all _p._ and, Eph. 6. 18.  
-in everything by _p._ let requests, Phil. 4. 6.
+in everything by _p._ let requests, Phil. 4. 6.  

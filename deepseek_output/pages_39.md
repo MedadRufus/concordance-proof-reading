@@ -330,4 +330,4 @@ riches and _h_., 1 Kings 3. 13; 1 Chr. 29. 12, 28; 2 Chr. 1. 11, 12; Prov. 3. 16
 enemy lay mine _h._ in dust, Ps. 7. 5.  
 place where thine _h._ dwelleth, Ps. 26. 8.  
 man being in _h._ abideth not, Ps. 49. 12.  
-in _h._ and understandeth not, Ps. 49. 20.
+in _h._ and understandeth not, Ps. 49. 20.  

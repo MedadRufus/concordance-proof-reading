@@ -45,7 +45,7 @@ without _f.,_ Heb. 7. 3.
 _F._ of lights, Jas. 1. 17.  
 _F._ who judgeth, 1 Pet. 1. 17.  
 three bear record, the _F.,_ 1 John 5. 7.  
-  
+
 **FATHERS.**—He is my _f._ God, 1 Ki. 15. 2.  
 no better than my _f.,_ 1 Kings 19. 4.  
 blessed be the God of our _f.,_ Ezra 7. 27.  
@@ -61,7 +61,7 @@ whose are the _f.,_ Rom. 9. 5.
 yet have ye not many _f.,_ 1 Cor. 4. 15.  
 our _f._ were under cloud, 1 Cor. 10. 1.  
 I write unto you _f.,_ 1 Jn. 2. 13, 14.  
-  
+
 **FATHERLESS.**—I delivered the _f.,_ Job 29. 12.  
 if I lifted up my hand against _f.,_ Job 31. 21.  
 thou art helper of _f.,_ Ps. 10. 14.  
@@ -72,25 +72,25 @@ they judge not _f.,_ Isa. 1. 23; Jer. 5. 28.
 that they may rob the _f.,_ Isa. 10. 2.  
 in thee the _f._ findeth mercy, Hos. 14. 3.  
 pure religion to visit _f.,_ Jas. 1. 27.  
-  
+
 **FATLING.**—Ps. 66. 15; Isa. 11. 6; Matt. 22. 4.  
-  
+
 **FATNESS.**—G. give thee of the _f.,_ Gen. 27. 28.  
 should I leave my _f.,_ Judg. 9. 9.  
 satisfied with _f.,_ Ps. 36. 8, 63. 5.  
 their eyes stand out with _f.,_ Ps. 73. 7.  
 let soul delight itself in _f.,_ Isa. 55. 2.  
 _f._ of olive, Rom. 11. 17.  
-  
+
 **FAULT.**—I remember _f._ this day, Gen. 41. 9.  
 could find no _f._ in him, Dan. 6. 4.  
 find no _f._ in this man, Luke 23. 4, 14; John 18. 38, 19. 4, 6.  
 why doth he yet find _f._? Rom. 9. 19.  
 if a man be overtaken in _f.,_ Gal. 6. 1.  
 without _f._ before throne, Rev. 14. 5.  
-  
+
 **FAULTLESS.**—Present you _f.,_ Jude 24.  
-  
+
 **FAVOUR.**—In _f._ with Lord, 1 Sam. 2. 26.  
 granted me life and _f.,_ Job 10. 12.  
 with _f._ compass him as, Ps. 5. 12.  
@@ -105,9 +105,9 @@ findeth a wife obtaineth _f.,_ Prov. 18. 22.
 _f._ is deceitful, beauty vain, Prov. 31. 30.  
 nor yet _f._ to men of skill, Eccl. 9. 11.  
 _f._ with all the people, Acts 2. 47, 5. 13.  
-  
+
 **FAVOURABLE.**—Job 33. 26; Ps. 77. 7, 85. 1.  
-  
+
 **FEAR.**—_f._ of you on ev. beast, Gen. 9. 2.  
 _f._ of thee on nations, Deut. 2. 25, 11. 25; 1 Chron. 14. 17.  
 this thy _f._ thy confidence, Job 4. 6.  
@@ -139,10 +139,10 @@ what _f._! what vehement, 2 Cor. 7. 11.
 not given us spirit of _f.,_ 2 Tim. 1. 7.  
 who through _f._ of death, Heb. 2. 15.  
 no _f._ in love, casteth out _f.,_ 1 Jn. 4. 18.  
-  
+
 **FEARS.**—Deliver me from my _f.,_ Ps. 34. 4.  
 when _f._ be in the way, Eccl. 12. 5.  
-  
+
 **FEAR.**—_f._ not, I am thy shield, Gen. 15. 1.  
 _f._ not, I am with thee, Gen. 26. 24.  
 this do, for _f._ God, Gen. 42. 18.  
@@ -189,7 +189,7 @@ Moses said, I exceedingly _f.,_ Heb. 12. 21.
 not _f._ what man do to me, Heb. 13. 6.  
 _f._ God, honour the king, 1 Pet. 2. 17.  
 _f._ none of those things, Rev. 2. 10.  
-  
+
 **FEARED.**—Midwives _f._ God, Ex. 1. 17.  
 to be _f._ above all gods, 1 Chron. 16. 25.  
 he _f._ God above many, Neh. 7. 2.  
@@ -198,26 +198,26 @@ thou art to be _f.,_ Ps. 76. 7.
 that _f._ Lord spake oft, Mal. 3. 16.  
 which _f._ not God, neither, Luke 18. 2.  
 was heard, in that he _f.,_ Heb. 5. 7.  
-  
+
 **FEARETH.**—What man is he _f._ Lord, Ps. 25. 12.  
 happy is the man _f._ always, Pr. 28. 14.  
 as he that _f._ an oath, Eccl. 9. 2.  
 he that _f._ him is accepted, Acts 10. 35.  
 that _f._ is not perfect in love, 1 Jn. 4. 18.  
-  
+
 **FEARING.**—Single. of heart _f._ G., Col. 3. 22.  
 not _f._ wrath of king, Heb. 11. 27.  
-  
+
 **FEARFUL.**—_f._ in praises, Ex. 15. 11.  
 _f._ and wonderfully made, Ps. 139. 14.  
 say to them of _f._ heart, Isa. 35. 4.  
 why are ye _f._? Matt. 8. 26; Mark 4. 40.  
 _f._ looking for of judgment, Heb. 10. 27.  
 _f._ have part in the lake, Rev. 21. 8.  
-  
+
 **FEARFULNESS.**—_f._ and tremb., Ps. 55. 5.  
 _f._ surprize the hypocrites, Isa. 33. 14.  
-  
+
 **FEAST.**—A _f._ is made for laughter, Eccl. 10. 19.  
 _f._ of fat things, Isa. 25. 6.  
 I despise your _f._ days, Amos 5. 21.  
@@ -226,26 +226,26 @@ that great day of the _f.,_ John 7. 37.
 I must keep this _f.,_ Acts 18. 21.  
 keep _f._ not with, 1 Cor. 5. 8.  
 any that believe not bid to _f.,_ 1 Cor. 10. 27.  
-  
+
 **FEASTING.**—Than go to h. of _f.,_ Ec. 7. 2.  
-  
+
 **FEASTS.**—Your _f._ into mour., Am. 8. 10.  
-  
+
 **FEATHERS.**—Job 39. 13; Ps. 68. 13, 91. 4.  
-  
+
 **FED.**—Who _f._ me all my life, Gen. 48. 15.  
 he _f._ thee with manna, Deut. 8. 3.  
 who _f._ thee in the wilderness, Deut. 8. 16.  
 verily thou shalt be _f.,_ Ps. 37. 3.  
 themselves, _f._ not my flock, Ezek. 34. 8.  
 I have _f._ you with milk, 1 Cor. 3. 2.  
-  
+
 **FEEBLE.**—Streng. the. knees, Job 4. 4.  
 one _f._ person among tribes, Ps. 105. 37.  
 all hands shall be _f.,_ Ezek. 7. 17, 21. 7.  
 comfort the _f.-_minded, 1 Thess. 5. 14.  
 lift up the _f._ knees, Heb. 12. 12.  
-  
+
 **FEED.**—Shalt _f._ my peo. Isr., 2 Sam. 5. 2.  
 I com. ravens to _f._ thee, 1 Kings 17. 4.  
 _f._ him bread of affliction, 1 Kings 22. 27.  
@@ -261,18 +261,18 @@ _f._ my lambs, my sheep, John 21. 15, 16.
 take heed to _f._ church, Acts 20. 28.  
 _f._ flock of God, 1 Pet. 5. 2.  
 Lamb shall _f._ and lead them, Rev. 7. 17.  
-  
+
 **FEEDETH.**—Eph. 7. on wind, Hos. 12. 1.  
 heavenly Father _f._ them, Matt. 6. 26.  
 God _f._ them, Luke 12. 24.  
 _f._ a flock, and eateth not, 1 Cor. 9. 7.  
-  
+
 **FEEDING.**—_f._ them, Jude 12.  
-  
+
 **FEEL.**—If haply might _f._ after, Acts 17. 27.  
 who being past _f.,_ Eph. 4. 19.  
 _f._ of our infirmities, Heb. 4. 15.  
-  
+
 **FEET.**—Keep _f._ of his saints, 1 Sam. 2. 9.  
 maketh my _f._ like hinds' _f.,_ 2 Sam. 22. 34; Ps. 18. 33; Hab. 3. 19.  
 _f._ did not slip, 2 Sam. 22. 37; Ps. 18. 36.  
@@ -307,10 +307,10 @@ _f._ of them that preach Gospel, Rom. 10. 15.
 _f._ shod with preparation, Eph. 6. 15.  
 I fell at his _f._ as dead, Rev. 1. 17.  
 I fell at his _f._ to worship, Rev. 19. 10.  
-  
+
 **FEIGNED.**—David _f._ himself mad, 1 Sa. 21. 13.  
 prayer not out of _f._ lips, Ps. 17. 1.  
 _f._ themselves just men, Luke 20. 20.  
 with _f._ words make mer., 2 Pet. 2. 3.  
-  
-**FEIGNEDLY.**—Turn to me _f.,_ Jer. 3. 10.
+
+**FEIGNEDLY.**—Turn to me _f.,_ Jer. 3. 10.  
