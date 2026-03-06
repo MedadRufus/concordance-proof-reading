@@ -8,6 +8,49 @@ import glob
 import re
 import subprocess
 
+# Allowed book abbreviations from add_hyperlinks.py
+BOOK_ABBR_TO_FULL = {
+    "Gen.": "Genesis", "Ex.": "Exodus", "Lev.": "Leviticus", "Num.": "Numbers",
+    "Deu.": "Deuteronomy", "Josh.": "Joshua", "Judg.": "Judges", "Ruth": "Ruth",
+    "1 Sam.": "1 Samuel", "2 Sam.": "2 Samuel", "1 Ki.": "1 Kings", "2 Ki.": "2 Kings",
+    "1 Chr.": "1 Chronicles", "2 Chr.": "2 Chronicles", "Ezra": "Ezra", "Neh.": "Nehemiah",
+    "Esth.": "Esther", "Job": "Job", "Ps.": "Psalms", "Prov.": "Proverbs",
+    "Eccl.": "Ecclesiastes", "Song": "Solomon's Song", "Is.": "Isaiah", "Jer.": "Jeremiah",
+    "Lam.": "Lamentations", "Eze.": "Ezekiel", "Dan.": "Daniel", "Hos.": "Hosea",
+    "Joel": "Joel", "Amos": "Amos", "Obad.": "Obadiah", "Jonah": "Jonah",
+    "Micah": "Micah", "Nah.": "Nahum", "Hab.": "Habakkuk", "Zeph.": "Zephaniah",
+    "Hag.": "Haggai", "Zech.": "Zechariah", "Mal.": "Malachi", "Mt.": "Matthew",
+    "Mk.": "Mark", "Lk.": "Luke", "Jn.": "John", "Acts": "Acts", "Rom.": "Romans",
+    "1 Cor.": "1 Corinthians", "2 Cor.": "2 Corinthians", "Gal.": "Galatians",
+    "Eph.": "Ephesians", "Phil.": "Philippians", "Col.": "Colossians",
+    "1 Thess.": "1 Thessalonians", "2 Thess.": "2 Thessalonians", "1 Tim.": "1 Timothy",
+    "2 Tim.": "2 Timothy", "Tit.": "Titus", "Philem.": "Philemon", "Heb.": "Hebrews",
+    "Jas.": "James", "1 Pet.": "1 Peter", "2 Pet.": "2 Peter", "1 Jn.": "1 John",
+    "2 Jn.": "2 John", "3 Jn.": "3 John", "Jude": "Jude", "Rev.": "Revelation",
+}
+
+# Common non-compliant abbreviations mapping to compliant ones
+ABBR_REPLACEMENTS = {
+    "Matt.": "Mt.", "Mark": "Mk.", "Luke": "Lk.", "John": "Jn.",
+    "Deut.": "Deu.", "De.": "Deu.",
+    "1 Kings": "1 Ki.", "2 Kings": "2 Ki.", "1 Kin.": "1 Ki.", "2 Kin.": "2 Ki.",
+    "1 Chron.": "1 Chr.", "2 Chron.": "2 Chr.",
+    "Isa.": "Is.", "Ezek.": "Eze.",
+    "Cant.": "Song", "Mic.": "Micah",
+    "Lu.": "Lk.",
+    "Pr.": "Prov.", "Ec.": "Eccl.",
+}
+
+
+def normalize_book_abbreviations(content):
+    """
+    Replace non-compliant book abbreviations with compliant ones.
+    """
+    for old_abbr, new_abbr in ABBR_REPLACEMENTS.items():
+        # Match abbreviation followed by space and number (to avoid false matches)
+        content = re.sub(rf'\b{re.escape(old_abbr)}\s+(?=\d)', f'{new_abbr} ', content)
+    return content
+
 
 def replace_bible_references(file_path):
     """
@@ -19,6 +62,9 @@ def replace_bible_references(file_path):
     # Read the file
     with open(file_path, "r", encoding="utf-8") as file:
         content = file.read()
+
+    # Normalize book abbreviations first
+    content = normalize_book_abbreviations(content)
 
     # Replace all instances of "X.Y" or "X. Y" with "X:Y"
     new_content = re.sub(r"(\d+)\.\s*(\d+)", r"\1:\2", content)
