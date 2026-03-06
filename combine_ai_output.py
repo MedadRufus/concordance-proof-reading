@@ -39,8 +39,9 @@ def combine_markdown_files(output_dir, output_file):
         output_dir (str): Path to the directory containing markdown files
         output_file (str): Path to the output combined file
     """
-    # Get all markdown files and sort them alphabetically
-    markdown_files = sorted(glob.glob(os.path.join(output_dir, "*.md")))
+    # Get all markdown files and sort them numerically by page number
+    markdown_files = glob.glob(os.path.join(output_dir, "*.md"))
+    markdown_files.sort(key=lambda x: int(re.search(r'\d+', os.path.basename(x)).group()))
 
     # Remove any files we don't want to include (like the output file itself)
     # We'll exclude files that might be temporary or metadata files
@@ -72,25 +73,24 @@ def md_to_latex(md_file, tex_file):
     content = re.sub(r"^# Content from:.*$", "", content, flags=re.MULTILINE)
     content = re.sub(r"^---$", "", content, flags=re.MULTILINE)
 
-    # Convert **text** to \textbf{text} BEFORE escaping braces
+    # Convert **text** to \textbf{text} and _text_ to \textit{text} BEFORE escaping
     content = re.sub(r"\*\*([^*]+)\*\*", r"BOLDSTART\1BOLDEND", content)
+    content = re.sub(r"_([^_]+)_", r"ITALICSTART\1ITALICEND", content)
 
-    # Escape LaTeX special characters (but NOT braces yet)
+    # Escape LaTeX special characters
     content = (
         content.replace("&", "\\&")
         .replace("%", "\\%")
         .replace("$", "\\$")
         .replace("#", "\\#")
-        .replace("_", "\\_")
     )
 
-    # Now add braces for bold
+    # Now add braces for bold and italic
     content = content.replace("BOLDSTART", "\\textbf{").replace("BOLDEND", "}")
+    content = content.replace("ITALICSTART", "\\textit{").replace("ITALICEND", "}")
 
-    # Convert double newlines to \par, but preserve single newlines with trailing spaces
-    # In markdown, two trailing spaces + newline = line break
-    content = re.sub(r"  \n", r"\\\\\n", content)  # Two spaces + newline -> \\ (line break)
-    content = content.replace("\n\n", "\n\\par\n")  # Double newline -> \par
+    # Convert double newlines to \par
+    content = content.replace("\n\n", "\n\\par\n")
 
     latex = r"""\documentclass[10pt,letterpaper]{article}
 \usepackage[margin=0.5in]{geometry}
@@ -122,9 +122,9 @@ def md_to_latex(md_file, tex_file):
 
 
 if __name__ == "__main__":
-    output_directory = "quen_output"
+    output_directory = "deepseek_output"
     combined_output_dir = "combined_output"
-    combined_output = os.path.join(combined_output_dir, "combined_quen_output.md")
+    combined_output = os.path.join(combined_output_dir, "combined_deepseek_output.md")
     
     # Create output directory if it doesn't exist
     os.makedirs(combined_output_dir, exist_ok=True)
