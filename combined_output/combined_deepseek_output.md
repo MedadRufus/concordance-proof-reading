@@ -9542,11 +9542,11 @@ fall himself into his own _p._, Prov. 28:10.
 go down to _p._ cannot hope, Is. 38:18.  
 sent prisoners out of _p._, Zech. 9:11.  
 
-**PITCHER**.—Empty _p._ and, Judg. 7:16.  
+**PITCHER.**—Empty _p._ and, Judg. 7:16.  
 or the _p._ be broken at, Eccl. 12:6.  
 esteemed as earthen _p._? Lam. 4:2.  
 
-**PITY**.—Eye shall have no _p._, Deu. 7:16.  
+**PITY.**—Eye shall have no _p._, Deu. 7:16.  
 because he had no _p._, 2 Sam. 12:6.  
 have _p._ on me, _p._ on me, O, Job 19:21.  
 looked for some to _p._, Ps. 69:20.  
@@ -9558,11 +9558,11 @@ then the Lord will _p._ his people, Joel 2:18.
 hast had _p._ on gourd, Jonah 4:10.  
 as I had _p._ on thee, Mt. 18:33.  
 
-**PITIFUL**.—_p._ women, Lam. 4:10.  
+**PITIFUL.**—_p._ women, Lam. 4:10.  
 that the Lord is very _p._, Jas. 5:11.  
 be _p._, 1 Pet. 3:8.  
 
-**PLACE**.—_p._ where thou standest is holy, Ex. 3:5; Josh. 5:16.  
+**PLACE.**—_p._ where thou standest is holy, Ex. 3:5; Josh. 5:16.  
 neither shall his _p._ know him, Job 7:10.  
 his _p._ any more behold him, Job 20:9.  
 thou hast been our dwelling _p._, Ps. 90:1.  
@@ -9582,49 +9582,49 @@ neither give _p._ to devil, Eph. 4:27.
 hath a _p._ prepared of God, Rev. 12:6.  
 for them was found no _p._, Rev. 20:11.  
 
-**PLACES**.—Their close _p._, Ps. 18:45.  
+**PLACES.**—Their close _p._, Ps. 18:45.  
 in slippery _p._, Ps. 73:18.  
 dark _p._ of the earth, Ps. 74:20.  
 and rough _p._ plain, Is. 40:4.  
 
-**PLAGUE**.—Know _p._ of heart, 1 Ki. 8:38.  
+**PLAGUE.**—Know _p._ of heart, 1 Ki. 8:38.  
 nor any _p._ come nigh, Ps. 91:10.  
 so the _p._ was stayed, Ps. 106:30.  
 
-**PLAGUED**.—Nor are _p._ like other, Ps. 73:5.  
+**PLAGUED.**—Nor are _p._ like other, Ps. 73:5.  
 
-**PLAGUES**.—I will be thy _p._, Hos. 13:14.  
+**PLAGUES.**—I will be thy _p._, Hos. 13:14.  
 God shall add to him the _p._, Rev. 22:18.  
 
-**PLAIN**.—Jacob was a _p._ man, Gen. 25:27.  
+**PLAIN.**—Jacob was a _p._ man, Gen. 25:27.  
 they are _p._ to him that, Prov. 8:9.  
 the way of righteous is _p._, Prov. 15:19.  
 vision, make it _p._, Hab. 2:2.  
 
-**PLAIN**.—Thou shalt become a _p._, Zech. 4:7.  
+**PLAIN.**—Thou shalt become a _p._, Zech. 4:7.  
 
-**PLAINLY**.—If thou be the Christ, tell us _p._, Jn. 10:24.  
+**PLAINLY.**—If thou be the Christ, tell us _p._, Jn. 10:24.  
 now speakest thou _p._ and, Jn. 16:29.  
 such things declare _p._, Heb. 11:14.  
 
-**PLAINNESS**.—_p._ of speech, 2 Cor. 3:12.  
+**PLAINNESS.**—_p._ of speech, 2 Cor. 3:12.  
 
-**PLAITING**.—_p._ of hair, 1 Pet. 3:3.  
+**PLAITING.**—_p._ of hair, 1 Pet. 3:3.  
 
-**PLANT**.—His pleasant _p._, Is. 5:7.  
+**PLANT.**—His pleasant _p._, Is. 5:7.  
 shall grow as a tender _p._, Is. 53:2.  
 the degenerate _p._, Jer. 2:21.  
 a _p._ of renown, Eze. 34:29.  
 every _p._ my Father, Mt. 15:13.  
 
-**PLANTS**.—Our sons may be as _p._, Ps. 144:12.  
+**PLANTS.**—Our sons may be as _p._, Ps. 144:12.  
 broken down principal _p._, Is. 16:8.  
 
-**PLANT**.—I will _p._ in wilder., Is. 41:19.  
+**PLANT.**—I will _p._ in wilder., Is. 41:19.  
 they shall _p._ and eat, Is. 65:21.  
 they shall not _p._ and another, Is. 65:22.  
 
-**PLANTED**.—Thy right hand _p._, Ps. 80:15.  
+**PLANTED.**—Thy right hand _p._, Ps. 80:15.  
 those that be _p._ in house, Ps. 92:13.  
 _p._ the ear, shall he not hear? Ps. 94:9.  
 yea, they shall not be _p._, Is. 40:24.  
@@ -9637,18 +9637,18 @@ I have _p._, Apollos, 1 Cor. 3:6.
 neither is he that _p._, 1 Cor. 3:7.  
 who _p._ a vineyard, 1 Cor. 9:7.  
 
-**PLANTING**.—_p._ of the Lord, Is. 61:3.  
+**PLANTING.**—_p._ of the Lord, Is. 61:3.  
 
-**PLATTER**.—Mt. 23:25; Lk. 11:39.  
+**PLATTER.**—Mt. 23:25; Lk. 11:39.  
 
-**PLAY**.—Rose to _p._, Ex. 32:6; 1 Cor. 10:7.  
+**PLAY.**—Rose to _p._, Ex. 32:6; 1 Cor. 10:7.  
 a man that can _p._ well, 1 Sam. 16:17.  
 _p._ skilfully with a loud, Ps. 33:3.  
 sucking child shall _p._ on, Is. 11:8.  
 
-**PLAYERS**.—_p._ on instruments, Ps. 68:25, 87:7.  
+**PLAYERS.**—_p._ on instruments, Ps. 68:25, 87:7.  
 
-**PLEAD**.—Will ye _p._ for Baal? Judg. 6:31.  
+**PLEAD.**—Will ye _p._ for Baal? Judg. 6:31.  
 who shall set me a time to _p._? Job 9:19.  
 who will _p._ with me? Job 13:19.  
 that one might _p._ for a man, Job 16:21.  
@@ -9661,7 +9661,7 @@ I will yet _p._ with you, Jer. 2:9, 35.
 Lord will _p._ with all flesh, Jer. 25:31.  
 _p._ with your mother, _p._, Hos. 2:2.  
 
-**PLEASANT**.—_p._ to the eyes, Gen. 3:6.  
+**PLEASANT.**—_p._ to the eyes, Gen. 3:6.  
 very _p._ hast been to me, 2 Sam. 1:26.  
 they despised the _p._ land, Ps. 106:24.  
 how _p._ for brethren to dwell, Ps. 133:1.  
@@ -9674,9 +9674,9 @@ _p._ places of the wilderness, Jer. 23:10.
 Ephraim, is he a _p._ child? Jer. 31:20.  
 I ate no _p._ bread, Dan. 10:3.  
 
-**PLEASANTNESS**.—Ways of _p._, Prov. 3:17.  
+**PLEASANTNESS.**—Ways of _p._, Prov. 3:17.  
 
-**PLEASE**.—When man's ways _p._ Lord, Prov. 16:7.  
+**PLEASE.**—When man's ways _p._ Lord, Prov. 16:7.  
 _p._ themselves in children of strangers, Is. 2:6.  
 I do things that _p._ him, Jn. 8:29.  
 they in flesh cannot _p._ God, Rom. 8:8.  
@@ -9690,7 +9690,7 @@ well-_p._ to God, Phil. 4:18.
 for this is well-_p._ to Lord, Col. 3:20.  
 working what is well-_p._, Heb. 13:21.  
 
-**PLEASED**.—Be _p._ with sacrifices, Ps. 51:19.  
+**PLEASED.**—Be _p._ with sacrifices, Ps. 51:19.  
 done whatsoever he _p._, Ps. 115:3, 135:6.  
 well _p._ for his righteousness' sake, Is. 42:21.  
 will Lord be _p._ with thousands, Micah 6:7.  
@@ -9702,7 +9702,7 @@ for if I yet _p._ men, I, Gal. 1:10.
 this testimony he _p._ God, Heb. 11:5.  
 such sacrifices God is well _p._, Heb. 13:16.  
 
-**PLEASURE**.—Shall I have _p._? Gen. 18:12.  
+**PLEASURE.**—Shall I have _p._? Gen. 18:12.  
 _p._ in uprightness, 1 Chr. 29:17.  
 what _p._ hath he in house, Job 21:21.  
 not _p._ in wickedness, Ps. 5:4.  
@@ -9736,34 +9736,34 @@ my soul shall have no _p._ in, Heb. 10:38.
 ye have lived in _p._ on, Jas. 5:5.  
 for thy _p._ they are and, Rev. 4:11.  
 
-**PLEASURES**.—At right hand _p._, Ps. 16:11.  
+**PLEASURES.**—At right hand _p._, Ps. 16:11.  
 drink of the river of thy _p._, Ps. 36:8.  
 are choked with _p._, Lk. 8:14.  
 lovers of _p._ more than, 2 Tim. 3:4.  
 enjoy the _p._ of sin for a, Heb. 11:25.  
 
-**PLEDGE**.—Ex. 22:26.  
+**PLEDGE.**—Ex. 22:26.  
 
-**PLEIADES**.—Job 9:9, 38:31.  
+**PLEIADES.**—Job 9:9, 38:31.  
 
-**PLENTEOUS**.—Lord make thee _p._, Deu. 28:11.  
+**PLENTEOUS.**—Lord make thee _p._, Deu. 28:11.  
 _p._ in mercy, Ps. 86:5, 15, 103:8.  
 
-**PLENTEOUSNESS**.—Tend to _p._, Prov. 21:5.  
+**PLENTEOUSNESS.**—Tend to _p._, Prov. 21:5.  
 
-**PLENTY**.—Have _p._ of silver, Job 22:25.  
+**PLENTY.**—Have _p._ of silver, Job 22:25.  
 and _p._ of justice, Job 37:23.  
 he that tilleth shall have _p._, Prov. 28:19.  
 
-**PLENTIFUL**.—A _p._ rain, Ps. 68:9.  
+**PLENTIFUL.**—A _p._ rain, Ps. 68:9.  
 brought you to a _p._ country, Jer. 2:7.  
 ground brought forth _p._, Lk. 12:16.  
 
-**PLOTTETH**.—Wicked _p._ against just, Ps. 37:12.  
+**PLOTTETH.**—Wicked _p._ against just, Ps. 37:12.  
 
-**PLOUGH**.—Put hand to _p._, Lk. 9:62.  
+**PLOUGH.**—Put hand to _p._, Lk. 9:62.  
 
-**PLOW**.—That _p._ iniquity, Job 4:8.  
+**PLOW.**—That _p._ iniquity, Job 4:8.  
 the plowers _p._ on back, Ps. 129:3.  
 sluggard will not _p._, Prov. 20:4.  
 doth plowman _p._ all day, Is. 28:24.  
@@ -9772,12 +9772,12 @@ ye have _p._ wickedness, Hos. 10:13.
 will one _p._ there with, Amos 6:12.  
 that _p._ should _p._ in hope, 1 Cor. 9:10.  
 
-**PLOWING**.—_p._ of wicked sin, Prov. 21:4.  
+**PLOWING.**—_p._ of wicked sin, Prov. 21:4.  
 
-**PLOWMAN**.—Sons of alien your _p._, Is. 61:5.  
+**PLOWMAN.**—Sons of alien your _p._, Is. 61:5.  
 Shall overtake reaper, Amos 9:13.  
 
-**PLUCK**.—Mayest _p._ the ears, Deu. 23:25.  
+**PLUCK.**—Mayest _p._ the ears, Deu. 23:25.  
 then will I _p._ them up, 2 Chr. 7:20.  
 _p._ fatherless from breast, Job 24:9.  
 _p._ my feet out of net, Ps. 25:15.  
@@ -9789,43 +9789,43 @@ yet would I _p._ thee thence, Jer. 22:24.
 began to _p._ corn, Mt. 12:1; Mk. 2:23.  
 nor shall any _p._ them, Jn. 10:28.  
 
-**PLUCKED**.—_p._ spoil out of his teeth, Job 29:17.  
+**PLUCKED.**—_p._ spoil out of his teeth, Job 29:17.  
 that _p._ off the hair, Is. 50:6.  
 be _p._ up by root, Lk. 17:6.  
 have _p._ out your own eyes, Gal. 4:15.  
 _p._ up by roots, Jude 12.  
 
-**PLUCKETH**.—Foolish _p._ it down, Prov. 14:1.  
+**PLUCKETH.**—Foolish _p._ it down, Prov. 14:1.  
 
-**PLUMB-LINE**.—Amos 7:7, 8.  
+**PLUMB-LINE.**—Amos 7:7, 8.  
 
-**PLUMMET**.—2 Ki. 21:13; Is. 28:17; Zech. 4:10.  
+**PLUMMET.**—2 Ki. 21:13; Is. 28:17; Zech. 4:10.  
 
-**POETS**.—Acts 17:28.  
+**POETS.**—Acts 17:28.  
 
-**POISON**.—_p._ like _p._ of serpent, Ps. 58:4.  
+**POISON.**—_p._ like _p._ of serpent, Ps. 58:4.  
 adders' _p._ is under their lips, Ps. 140:3.  
 _p._ of asps under their lips, Rom. 3:13.  
 tongue full of _p._, Jas. 3:8.  
 
-**POLE**.—Set on a _p._, Num. 21:8.  
+**POLE.**—Set on a _p._, Num. 21:8.  
 
-**POLLUTION**.—Having escaped _p._, 2 Pet. 2:20.  
+**POLLUTION.**—Having escaped _p._, 2 Pet. 2:20.  
 
-**POMP**.—_p._ shall descend to, Is. 5:14.  
+**POMP.**—_p._ shall descend to, Is. 5:14.  
 _p._ is brought to the grave, Is. 14:11.  
 make _p._ of strong cease, Eze. 7:24.  
 
-**PONDER**.—_p._ path of thy feet, Prov. 4:26.  
+**PONDER.**—_p._ path of thy feet, Prov. 4:26.  
 the Lord _p._ all his goings, Prov. 5:21.  
 Lord _p._ the heart, Prov. 21:2.  
 Mary _p._ them in her heart, Lk. 2:19.  
 
-**POOL**.—Rain also filleth _p._, Ps. 84:6.  
+**POOL.**—Rain also filleth _p._, Ps. 84:6.  
 I will make wilderness _p._, Is. 41:18.  
 there is at Jerusalem a _p._, Jn. 5:2.  
 
-**POOR**.—That _p._ of people eat, Ex. 23:11.  
+**POOR.**—That _p._ of people eat, Ex. 23:11.  
 the _p._ shall not give less, Ex. 30:15.  
 shalt leave them for the _p._, Lev. 19:10.  
 shalt not respect person of _p._, Lev. 19:15.  
