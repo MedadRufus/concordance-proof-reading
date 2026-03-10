@@ -285,10 +285,6 @@ no man _b._ her merchandise, Rev. 18. 11.
 made me a _b.-w._, Job 17. 6, 30. 9.  
 a _b.-w._ among heathen, Ps. 44. 14.  
 
----  
-
-**File: page_12_1_1.jpg**  
-
 **CAGE.**— Jer. 5. 27; Rev. 18. 2.  
 
 **CAKE.**— Judg. 7. 13; 2 Sam. 6. 19; 1 Kings 17. 12, 19. 6.  
@@ -2239,10 +2235,6 @@ after _c._ of his own will, Eph. 1. 11.
 immutability of his _c._, Heb. 6. 17.  
 I _c._ to buy of me gold, Rev. 3. 18.  
 
----  
-
-**File: page_17_3_1.jpg**  
-
 **COUNSELLOR.**— Be called C., Isa. 9. 6.  
 I beheld there was no _c._, Isa. 41. 28.  
 is thy _c._ perished? Micah 4. 9.  
@@ -2651,10 +2643,6 @@ were _c._ to the heart, Acts 5. 33, 7. 54.
 **CYMBAL.**— Upon high sound _c._, Ps. 150. 5.  
 I am become tinkling _c._, 1 Cor. 13. 1.  
 
----  
-
-**File: page_19_1_1.jpg**  
-
 **DAILY.**— And _d._ shall he be praised, Ps. 72. 15.  
 watching _d._ at my gates, Prov. 8. 34.  
 yet they seek me _d._, Isa. 58. 2.  
@@ -2833,10 +2821,6 @@ twice _d._ plucked by roots, Jude 12.
 rest of _d._ lived not again, Rev. 20. 5.  
 I saw the _d._ stand before God, Rev. 20. 12.  
 sea gave up _d._, Rev. 20. 13.  
-
----  
-
-**File: page_19_2_1.jpg**  
 
 **DEADLY.**— Drink _d._ things, Mk. 16. 18.  
 tongue full of _d._ poison, Jas. 3. 8.  
@@ -3134,11 +3118,7 @@ _d._ us from evil, Matt. 6. 13; Luke 11. 4.
 let him _d._ him now, if he, Matt. 27. 43.  
 to _d._ such an one to Satan, 1 Cor. 5. 5.  
 might _d._ from this evil world, Gal. 1. 4.  
-L. knoweth how to _d._ godly, 2 Pet. 2. 9.  
-
----  
-
-**File: page_20_2_1.jpg**  
+L. knoweth how to _d._ godly, 2 Pet. 2. 9.   
 
 **DELIVERANCE.**— Save by a great _d._, Gen. 45. 7; 1 Chr. 11. 14; Ps. 18. 50.  
 me to preach _d._ to captives, Luke 4. 18.  

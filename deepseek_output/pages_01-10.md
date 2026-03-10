@@ -2397,10 +2397,6 @@ _b._ that hath part in first resurrection, Rev. 20. 6.
 _b._ keep sayings of this prophecy, Rev. 22. 7.  
 _b._ who do his command, Rev. 22. 14.  
 
----  
-
-**File: page_8_2_1.jpg**  
-
 **BLESSEDNESS.**— Rom. 4. 6; Gal. 4. 15.  
 
 **BLESSING.**— Thou shalt be a _b._, Gen. 12. 2.  
@@ -2836,10 +2832,6 @@ if there be any _b._ and, Phil. 2. 1.
 put on _b._ of mercies, Col. 3. 12.  
 refresh my _b._ in the Lord, Philem. 20.  
 _b._ of compassion, 1 John 3. 17.  
-
----  
-
-**File: page_9_3_1.jpg**  
 
 **BOWL.**— Golden _b._ be broken, Eccl. 12. 6.  
 that drink wine in _b._, Amos 6. 6.  

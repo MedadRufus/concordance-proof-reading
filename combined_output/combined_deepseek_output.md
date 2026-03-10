@@ -2397,10 +2397,6 @@ _b._ that hath part in first resurrection, Rev. 20:6.
 _b._ keep sayings of this prophecy, Rev. 22:7.  
 _b._ who do his command, Rev. 22:14.  
 
----  
-
-**File: page_8_2_1.jpg**  
-
 **BLESSEDNESS.**— Rom. 4:6; Gal. 4:15.  
 
 **BLESSING.**— Thou shalt be a _b._, Gen. 12:2.  
@@ -2836,10 +2832,6 @@ if there be any _b._ and, Phil. 2:1.
 put on _b._ of mercies, Col. 3:12.  
 refresh my _b._ in the Lord, Philem. 20.  
 _b._ of compassion, 1 Jn. 3:17.  
-
----  
-
-**File: page_9_3_1.jpg**  
 
 **BOWL.**— Golden _b._ be broken, Eccl. 12:6.  
 that drink wine in _b._, Amos 6:6.  
@@ -3501,10 +3493,6 @@ no man _b._ her merchandise, Rev. 18:11.
 **BY-WORD.**— Deu. 28:37; 1 Ki. 9:7; 2 Chr. 7:20.  
 made me a _b.-w._, Job 17:6, 30:9.  
 a _b.-w._ among heathen, Ps. 44:14.  
-
----  
-
-**File: page_12_1_1.jpg**  
 
 **CAGE.**— Jer. 5:27; Rev. 18:2.  
 
@@ -5456,10 +5444,6 @@ after _c._ of his own will, Eph. 1:11.
 immutability of his _c._, Heb. 6:17.  
 I _c._ to buy of me gold, Rev. 3:18.  
 
----  
-
-**File: page_17_3_1.jpg**  
-
 **COUNSELLOR.**— Be called C., Is. 9:6.  
 I beheld there was no _c._, Is. 41:28.  
 is thy _c._ perished? Micah 4:9.  
@@ -5868,10 +5852,6 @@ were _c._ to the heart, Acts 5:33, 7:54.
 **CYMBAL.**— Upon high sound _c._, Ps. 150:5.  
 I am become tinkling _c._, 1 Cor. 13:1.  
 
----  
-
-**File: page_19_1_1.jpg**  
-
 **DAILY.**— And _d._ shall he be praised, Ps. 72:15.  
 watching _d._ at my gates, Prov. 8:34.  
 yet they seek me _d._, Is. 58:2.  
@@ -6050,10 +6030,6 @@ twice _d._ plucked by roots, Jude 12.
 rest of _d._ lived not again, Rev. 20:5.  
 I saw the _d._ stand before God, Rev. 20:12.  
 sea gave up _d._, Rev. 20:13.  
-
----  
-
-**File: page_19_2_1.jpg**  
 
 **DEADLY.**— Drink _d._ things, Mk. 16:18.  
 tongue full of _d._ poison, Jas. 3:8.  
@@ -6351,11 +6327,7 @@ _d._ us from evil, Mt. 6:13; Lk. 11:4.
 let him _d._ him now, if he, Mt. 27:43.  
 to _d._ such an one to Satan, 1 Cor. 5:5.  
 might _d._ from this evil world, Gal. 1:4.  
-L. knoweth how to _d._ godly, 2 Pet. 2:9.  
-
----  
-
-**File: page_20_2_1.jpg**  
+L. knoweth how to _d._ godly, 2 Pet. 2:9.   
 
 **DELIVERANCE.**— Save by a great _d._, Gen. 45:7; 1 Chr. 11:14; Ps. 18:50.  
 me to preach _d._ to captives, Lk. 4:18.  
@@ -6775,10 +6747,6 @@ as in Adam all _d._, so, 1 Cor. 15:22.
 I _d._ daily, 1 Cor. 15:31.  
 is not quickened except it _d._, 1 Cor. 15:36.  
 to _d._ is gain, Phil. 1:21.  
-
----  
-
-**File: page_21_2_1.jpg**  
 
 **DIED.**— Last of all woman _d._, Mt. 22:27.  
 beggar _d._, rich man _d._, Lk. 16:22.  
@@ -7938,10 +7906,6 @@ _e._ of all is at hand, 1 Pet. 4:7.
 _e._ of them that obey not, 1 Pet. 4:17.  
 latter _e._ worse than begin., 2 Pet. 2:20.  
 keepeth my works unto _e._, Rev. 2:26.  
-
----  
-
-**File: page_25_1_1.jpg**  
 
 **ENDLESS.**— 1 Tim. 1:4; Heb. 7:16.  
 

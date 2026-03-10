@@ -212,10 +212,6 @@ I _d._ daily, 1 Cor. 15. 31.
 is not quickened except it _d._, 1 Cor. 15. 36.  
 to _d._ is gain, Phil. 1. 21.  
 
----  
-
-**File: page_21_2_1.jpg**  
-
 **DIED.**— Last of all woman _d._, Matt. 22. 27.  
 beggar _d._, rich man _d._, Luke 16. 22.  
 in due time Christ _d._, Rom. 5. 6; 8. 34.  
@@ -1374,10 +1370,6 @@ _e._ of all is at hand, 1 Pet. 4. 7.
 _e._ of them that obey not, 1 Pet. 4. 17.  
 latter _e._ worse than begin., 2 Pet. 2. 20.  
 keepeth my works unto _e._, Rev. 2. 26.  
-
----  
-
-**File: page_25_1_1.jpg**  
 
 **ENDLESS.**— 1 Tim. 1. 4; Heb. 7. 16.  
 
