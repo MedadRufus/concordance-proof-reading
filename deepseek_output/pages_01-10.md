@@ -83,11 +83,7 @@ that God was _a._ to raise, Heb. 11. 19.
 **ABODE.**— Make our _a._, John 14. 23.  
 glory of the Lord _a._ on Sinai, Ex. 24. 16.  
 Spirit, and it _a._ on him, John 1. 32.  
-_a._ not in truth, John 8. 44.  
-
----  
-
-**File: page_1_2_1.jpg**  
+_a._ not in truth, John 8. 44.   
 
 **ABOLISHED.**— That which is _a._, 2 Cor. 3. 13.  
 having _a._ the enmity, Eph. 2. 15.  
@@ -259,10 +255,6 @@ give _a._ in day of judgment, Matt. 12. 36.
 give _a._ of himself to God, Rom. 14. 12.  
 as they that must give _a._, Heb. 13. 17.  
 give _a._ to him that judgeth, 1 Pet. 4. 5.  
-
----  
-
-**File: page_2_1_1.jpg**  
 
 **ACCOUNTED.**— _a._ for a gener., Ps. 22. 30.  
 wherein is he to be _a._ of? Isa. 2. 22.  
@@ -492,16 +484,6 @@ deliver you up to be _a._, Matt. 24. 9.
 whether we be _a._ it is, 2 Cor. 1. 6.  
 is any among you _a._? Jas. 5. 13.  
 
----  
-
-**File: page_2_2_1.jpg**  
-
-*This file contains the continuation of the "AFFLICTED" entry and the entries from "AFFLICTION" through "AFTERWARD", which have been integrated into the combined output for **File: page_2_1_1.jpg** above. Please refer to that combined output for the complete, ordered text.*  
-
----  
-
-**File: page_2_3_1.jpg**  
-
 **AFFLICTION.**— Fruitful in the land of _a._, Gen. 41. 52.  
 seen _a._ of my people, Ex. 3. 7; Acts 7. 34.  
 thou shalt eat bread of _a._, Deut. 16. 3.  
@@ -614,10 +596,6 @@ _a._ from commonwealth, Eph. 2. 12.
 sons of _a._ your plowmen, Isa. 61. 5.  
 to flight the armies of _a._, Heb. 11. 34.  
 
----  
-
-**File: page_3_1_1.jpg**  
-
 **ALIENATED.**— _a._ from life of God, Eph. 4. 18.  
 were sometime _a._, Col. 1. 21.  
 
@@ -728,10 +706,6 @@ made _a._ to sin, _a._ shall be, Hos. 8. 11.
 _a._ as heaps in the furrows, Hos. 12. 11.  
 will visit the _a._ of Beth-el, Amos 3. 14.  
 have digged down thine _a._, Rom. 11. 3.  
-
----  
-
-**File: page_3_2_1.jpg**  
 
 **ALTERED.**— Fashion of countenance _a._, Luke 9. 29.  
 
@@ -939,10 +913,6 @@ spices that they might _a._ him, Mk. 16. 1.
 my head thou didst not _a._, Luke 7. 46.  
 _a._ thine eyes with eye-salve, Rev. 3. 18.  
 
----  
-
-**File: page_4_1_1.jpg**  
-
 **ANOINTED.**— Lord's _a._ is before him, 1 Sam. 16. 6, 24. 6, 10, 26. 9, 16; 2 Sam. 1. 14, 19. 21; Lam. 4. 20.  
 mercy to his _a._, 2 Sam. 22. 51; Ps. 18. 50.  
 touch not mine _a._, 1 Ch. 16. 22; Ps. 105. 15.  
@@ -1052,10 +1022,6 @@ _a._ the second time to salva., Heb. 9. 28.
 not made of things which do _a._, Heb. 11. 3.  
 it doth not yet _a._ what, 1 John 3. 2.  
 
----  
-
-**File: page_4_2_1.jpg**  
-
 **APPEARANCE.**— Man looketh on outward _a._, 1 Sam. 16. 7.  
 judge not accord. to the _a._, John 7. 24.  
 which glory in _a._, 2 Cor. 5. 12.  
@@ -1080,7 +1046,7 @@ to praise at the _a._ of Jesus Christ, 1 Pet. 1. 7.
 yet the _a._ not filled, Eccl. 6. 7.  
 awaketh and his soul hath _a._, Isa. 29. 8.  
 
-**APPLE of the Eye.**— Deut. 32. 10; Ps. 17. 8; Prov. 7. 2; Lam. 2. 18; Zech. 2. 8.  
+**APPLE** of the Eye.— Deut. 32. 10; Ps. 17. 8; Prov. 7. 2; Lam. 2. 18; Zech. 2. 8.  
 
 **APPLE-TREE.**— Cant. 2. 3, 8. 5.  
 
@@ -1167,11 +1133,7 @@ to whom is the _a._ of the Lord revealed, Isa. 53. 1; John 12. 38.
 his _a._ brought salvation, Isa. 59. 16, 63. 5.  
 that maketh flesh his _a._, Jer. 17. 5.  
 with an high _a._ brought, Acts 13. 17.  
-_a._ yourselves with same mind, 1 Pet. 4. 1.  
-
----  
-
-**File: page_4_3_1.jpg**  
+_a._ yourselves with same mind, 1 Pet. 4. 1.   
 
 **ARMS.**— _a._ of his hands made strong, Gen. 49. 24.  
 underneath the everlasting _a._, Deut. 33. 27.  
@@ -1326,10 +1288,6 @@ receive not, because ye _a._ amiss, Jas. 4. 3.
 what we _a._ we receive, 1 John 3. 22.  
 if we _a._ according to his will, 1 Jn. 5. 14.  
 whatever we _a._, 1 John 5. 15.  
-
----  
-
-**File: page_5_1_1.jpg**  
 
 **ASKED.**— He _a._ life of thee, Ps. 21. 4.  
 have not _a._ at my mouth, Isa. 30. 2.  
@@ -1489,10 +1447,6 @@ _a._ is laid to root, Matt. 3. 10; Luke 3. 9.
 **AXES.**— Famous as he lifted up _a._, Ps. 74. 5.  
 carved work with _a._, Ps. 74. 6.  
 
----  
-
-**File: page_5_3_1.jpg**  
-
 **BABBLER.**— Eccl. 10. 11; Acts 17. 18.  
 
 **BABBLING.**— Prov. 23. 29; 1 Tim. 6. 20; 2 Tim. 2. 16.  
@@ -1630,10 +1584,6 @@ as many as _b._ into Christ, Gal. 3. 27.
 
 **BAPTIZING.**— Nations, _b._ them, Matt. 28. 19.  
 _b._ with water, John 1. 31.  
-
----  
-
-**File: page_6_1_1.jpg**  
 
 **BARS.**— Down to _b._ of the pit, Job 17. 16.  
 and set _b._ for the sea, Job 38. 10.  
@@ -1788,10 +1738,6 @@ set him on his own _b._, Luke 10. 34.
 if so much as a _b._ touch, Heb. 12. 20.  
 the _b._ hath made his nest, Rev. 17. 8, 11.  
 
----  
-
-**File: page_6_2_1.jpg**  
-
 **BEASTS.**— Ask _b._ they shall teach, Job 12. 7.  
 counted as _b._ and vile, Job 18. 3.  
 then the _b._ go into dens, Job 37. 8.  
@@ -1935,10 +1881,6 @@ end is worse than _b._, 2 Pet. 2. 20.
 I am the _b._, Rev. 1. 8, 21. 6, 22. 13.  
 the _b._ of creation of God, Rev. 3. 14.  
 
----  
-
-**File: page_6_3_1.jpg**  
-
 **BEGOTTEN.**— Who hath _b._ drops of dew, Job 38. 28.  
 this day have I _b._ thee, Ps. 2. 7; Acts 13. 33; Heb. 1. 5, 5. 5.  
 who hath _b._ me these? Isa. 40. 21.  
@@ -2066,10 +2008,6 @@ ordained to eternal life _b._, Acts 13. 48.
 who against hope _b._ in hope, Rom. 4. 18.  
 know whom I have _b._, 2 Tim. 1. 12.  
 
----  
-
-**File: page_7_1_1.jpg**  
-
 **BELIEVERS.**— Example of _b._, 1 Tim. 4. 12.  
 
 **BELIEVEST.**— Never die, _b._ thou, John 11. 26.  
@@ -2172,10 +2110,6 @@ whether we be _b._ ourselves, 2 Cor. 5. 13.
 **BESIEGE.**— _b._ thee in thy gates, Deut. 28. 52.  
 a great king and _b._ it, Eccl. 9. 14.  
 of Zion is left as a _b._ city, Isa. 1. 8.  
-
----  
-
-**File: page_7_3_1.jpg**  
 
 **BESOM.**— _b._ of destruction, Isa. 14. 23.  
 
@@ -2289,7 +2223,8 @@ as a _b._ hasteth to snare, Prov. 7. 23.
 _b._ shall tell the matter, Eccl. 10. 20.  
 ravenous _b._ from the east, Isa. 46. 11.  
 shall fly away like a _b._, Hos. 9. 11.  
-Where _b._ make nests, Ps. 104. 17.  
+
+**BIRDS.**— Where _b._ make nests, Ps. 104. 17.  
 as _b._ caught in the snare, Eccl. 9. 12.  
 time of singing of _b._, Cant. 2. 12.  
 _b._ of heaven were fled, Jer. 4. 25.  
@@ -2335,11 +2270,7 @@ a foolish son is _b._ to her, Prov. 17. 25.
 go softly in _b._ of soul, Isa. 38. 15.  
 in _b._ as in _b._ for first-born, Zech. 12. 10.  
 let all _b._ be put away, Eph. 4. 31.  
-lest any root of _b._, Heb. 12. 15.  
-
----  
-
-**File: page_8_1_1.jpg**  
+lest any root of _b._, Heb. 12. 15.   
 
 **BLACK.**— My skin is _b._ upon me, Job 30. 30.  
 I am _b._ but comely, Cant. 1. 5, 6.  
@@ -2625,10 +2556,6 @@ not of works, lest any _b._, Eph. 2. 9.
 **BOASTETH.**— Gone his way, then he _b._, Prov. 20. 14.  
 whoso _b._ of a false gift, Prov. 25. 14.  
 
----  
-
-**File: page_8_3_1.jpg**  
-
 **BOASTING.**— Where is _b._? Rom. 3. 27.  
 ye rejoice in your _b._, Jas. 4. 16.  
 
@@ -2751,10 +2678,6 @@ can these _b._ live? Ezek. 37. 3.
 these _b._ are house of Israel, Ezek. 37. 11.  
 full of dead men's _b._, Matt. 23. 27.  
 commandment concerning his _b._, Heb. 11. 22.  
-
----  
-
-**File: page_9_2_1.jpg**  
 
 **BOOK.**— Search be made in _b._, Ezra 4. 15.  
 they read in _b._ of law, Neh. 8. 8.  
@@ -3006,10 +2929,6 @@ thy _b._ is great like sea, Lam. 2. 13.
 ye shall go out at the _b._, Amos 4. 3.  
 smite the great house with _b._, Amos 6. 11.  
 
----  
-
-**File: page_10_1_1.jpg**  
-
 **BREAD.**— King of Salem brought _b._, Gen. 14. 18.  
 fetch a morsel of _b._, Gen. 18. 5.  
 buy us and our land for _b._, Gen. 47. 19.  
@@ -3078,10 +2997,15 @@ until day _b._, Cant. 2. 17, 4. 6.
 _b._ not thy covenant with us, Jer. 14. 21.  
 that I _b._ my covenant, Zech. 11. 10.  
 _b._ one of least command.—Matt. 5. 19.  
+
+
+==================================== Mistake here
 known in _b._ of bread, Luke 24. 35.  
 continued in _b._ of bread, Acts 2. 42.  
 _b._ bread from house to house, Acts 2. 46.  
 _b._ law dishonorest God, Rom. 2. 23.  
+
+==========================================
 
 **BREAST.**— Shalt suck _b._ of kings, Isa. 60. 16.  
 
@@ -3181,11 +3105,7 @@ must be held in with a _b._, Ps. 32. 9.
 keep my mouth with a _b._, Ps. 39. 1.  
 a _b._ for the ass, Prov. 26. 3.  
 able to _b._ whole body, Jas. 3. 2.  
-blood to the horse _b._, Rev. 14. 20.  
-
----  
-
-**File: page_10_3_1.jpg**  
+blood to the horse _b._, Rev. 14. 20.    
 
 **BRIER.**— Instead of the _b._ myrtle, Isa. 55. 13.  
 no more a pricking _b._, Ezek. 28. 24.  
