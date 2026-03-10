@@ -2997,15 +2997,18 @@ until day _b._, Cant. 2. 17, 4. 6.
 _b._ not thy covenant with us, Jer. 14. 21.  
 that I _b._ my covenant, Zech. 11. 10.  
 _b._ one of least command.—Matt. 5. 19.  
+came together to _b._ bread, Acts 20. 7.
+mean ye to _b._ my heart? Acts 21. 13.
 
+**BREAKETH.**— Flood _b._ out, Job 28. 4.
+my soul _b._ for longing, Ps. 119. 20.
+as one _b._ a potter's vessel, Jer. 19. 11.
 
-==================================== Mistake here
-known in _b._ of bread, Luke 24. 35.  
-continued in _b._ of bread, Acts 2. 42.  
-_b._ bread from house to house, Acts 2. 46.  
-_b._ law dishonorest God, Rom. 2. 23.  
-
-==========================================
+**BREAKING.**— Wrestled till _b._ of day, Gen. 32. 24.
+known in _b._ of bread, Luke 24. 35.
+continued in _b._ of bread, Acts 2. 42.
+_b._ bread from house to house, Acts 2. 46.
+_b._ law dishonourest God, Rom. 2. 23.
 
 **BREAST.**— Shalt suck _b._ of kings, Isa. 60. 16.  
 
