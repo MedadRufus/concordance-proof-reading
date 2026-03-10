@@ -46,7 +46,10 @@ pytest --cov=.
 # Steps for transcribing with Deep Seek
 0. Generate the jpeg files of each column by running `python3 combine_pages_batches.py`. Adjust the starting page number in the last line. Images will be output to [individual_pages](individual_pages)
 1. Add the text to the suitable file in [deepseek_output](deepseek_output)
-2. run `python3 fix_trailing_spaces.py`
-3. run `python3 normalize_deepseek_files.py`
-4. run `python3 combine_ai_output.py`. Output will be in [combined_output](combined_output)
-6. run `python3 add_hyperlinks_md.py`. Output will be [output/concordance.html](output/concordance.html).
+2. Run the automated transcription script: `python3 automate_transcription.py`
+
+This single command will perform all the following steps automatically:
+- Run `python3 fix_trailing_spaces.py`
+- Run `python3 normalize_deepseek_files.py`
+- Run `python3 combine_ai_output.py`. Output will be in [combined_output](combined_output)
+- Run `python3 add_hyperlinks_md.py`. Output will be [output/concordance.html](output/concordance.html).
