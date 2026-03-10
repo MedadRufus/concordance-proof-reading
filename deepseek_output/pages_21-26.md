@@ -336,10 +336,6 @@ are not thou one of his _d._? John 18. 25.
 
 **DISCONTENTED.**— 1 Sam. 22. 2.  
 
----  
-
-**File: page_22_1_1.jpg**  
-
 **DISCORD.**— He soweth _d._, Prov. 6. 14, 19.  
 
 **DISCOVERED.**— Foundations of the world were _d._, 2 Sam. 22. 16; Ps. 18. 15.  
@@ -464,10 +460,6 @@ both fall into _d._, Matt. 15. 14; Luke 6. 39.
 
 **DIVERSITIES.**— 1 Cor. 12. 4, 6.  
 
----  
-
-**File: page_22_2_1.jpg**  
-
 **DIVIDE.**— _d._ living child, 1 Kings 3. 25, 26.  
 didst _d._ sea, Neh. 9. 11; Ps. 74. 13.  
 and _d._ their tongues, Ps. 55. 9.  
@@ -581,13 +573,6 @@ scripture profitable for _d._, 2 Tim. 3. 16.
 will not endure sound _d._, 2 Tim. 4. 3.  
 speak things become sound _d._, Tit. 2. 1.  
 in _d._ shewing incorruptness, Titus 2. 7.  
-After _d._ of men, Col. 2. 22.  
-heed to _d._ of devils, 1 Tim. 4. 1.  
-not carried with strange _d._, Heb. 13. 9.  
-
----  
-
-**File: page_22_3_1.jpg**  
 
 **DOCTRINES.**— After _d._ of men, Col. 2. 22.  
 heed to _d._ of devils, 1 Tim. 4. 1.  
@@ -704,10 +689,6 @@ that sold _d._, Matt. 21. 12; Mark 11. 15; Jn. 2. 14.
 
 **DRAG.**— Hab. 1. 15, 16.  
 
----  
-
-**File: page_23_1_1.jpg**  
-
 **DRAGON.**— _d._ shalt thou trample, Ps. 91. 13.  
 cut Rahab and wounded _d._, Isa. 51. 9.  
 swallowed me up like _d._, Jer. 51. 34.  
@@ -821,10 +802,6 @@ all to _d._ into one Spirit, 1 Cor. 12. 13.
 _d._ no longer water, 1 Tim. 5. 23.  
 made all nations _d._ of wine, Rev. 14. 8.  
 _d._ of wine of wrath of God, Rev. 14. 10.  
-
----  
-
-**File: page_23_2_1.jpg**  
 
 **DRINKETH.**— _d._ iniquity like water, Job 15. 16.  
 he _d._ up a river, Job 40. 23.  
@@ -1050,6 +1027,7 @@ bow down thine _e._ to me, Ps. 31. 2.
 like adder that stoppeth _e._, Ps. 58. 4.  
 the _e._ of the wise seeketh, Prov. 18. 15.  
 turneth away _e._ from hearing, Pr. 28. 9.  
+he wakeneth my _e._ to hear, Isa. 50. 4.
 _e._ heavy that it cannot hear, Isa. 59. 1.  
 their _e._ is uncircumcised, Jer. 6. 10.  
 what ye hear in the _e._, Matt. 10. 27.  
@@ -1151,10 +1129,6 @@ I was at _e._, Job 16. 12, 21. 23.
 ye women at _e._, Isa. 32. 9, 11.  
 woe to them that _e._ in Zion, Amos 6. 1.  
 take thine _e._, eat, drink, Luke 12. 19.  
-
----  
-
-**File: page_24_1_1.jpg**  
 
 **EASED.**— What am I? Job 16. 6.  
 that other men be _e._, 2 Cor. 8. 13.  
@@ -1267,10 +1241,6 @@ ostrich leaveth _e._ earth, Job 39. 14.
 ask _e._, will offer scorpion? Lu. 11. 12.  
 
 **EIGHT.**— _e._ souls were saved, 1 Pet. 3. 20.  
-
----  
-
-**File: page_24_3_1.jpg**  
 
 **ELDER.**— _e._ serve younger, Gen. 25. 23; Rom. 9. 12.  
 men, much _e._ than father, Job 15. 10.  
@@ -1493,6 +1463,11 @@ made me wiser than mine _e._, Ps. 119. 98.
 I count them mine _e._, Ps. 139. 22.  
 maketh his _e._ be at peace, Prov. 16. 7.  
 man's _e._ are of own house, Micah 7. 6.  
+
+==============================
+missing 25.2 section
+==============================
+
 _e._ of Ephraim shall depart, Isa. 11. 13.  
 for _e._ they delivered him, Matt. 27. 18.  
 moved with _e._, Acts 7. 9, 17. 5.  
@@ -1607,14 +1582,12 @@ _e._ thy word to thy servant, Ps. 119. 38.
 till he _e._ and make Jerusalem, Isa. 62. 7.  
 _e._ an everlasting covenant, Ezek. 16. 60.  
 _e._ judgment in the gate, Amos 5. 15.  
+yea, we _e._ the law, Rom. 3. 31.
+going about to _e._ own right., Rom. 10. 3.
 _e._ you in every good word, 2 Thess. 2. 17.  
 Lord shall _e._ you, 2 Thess. 3. 3.  
 _e._ your hearts, Jas. 5. 8.  
 God of all grace _e._, 1 Pet. 5. 10.  
-
----  
-
-**File: page_26_1_1.jpg**  
 
 **ESTABLISHED.**— Be thy promise _e._, 2 Chr. 1. 9.  
 believe in God, so shall be _e._, 2 Chr. 20. 20.  
@@ -1721,9 +1694,10 @@ Lord will not cast off for _e._, Lam. 3. 31.
 shine as the stars for _e._ and _e._, Dan. 12. 3.  
 walk in name of God for _e._, Micah 4. 5.  
 
----  
 
-**File: page_26_2_1.jpg**  
+===================
+missing
+===================
 
 **EVERLASTING.**— from _e._ to _e._ thou art God, Ps. 90. 2.  
 mercy of the Lord is from _e._, Ps. 103. 17.  
