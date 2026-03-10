@@ -30027,7 +30027,7 @@ who turn judgment to _w._, Amos 5:7.
 name of star is called _w._, Rev. 8:11.  
 
 **WORSE.**— _w._ than thy father, Jer. 7:26.  
-lest a _w._ thing come, John. 5:14.  
+lest a _w._ thing come, Jn. 5:14.  
 nor if we eat not are we _w._, 1 Cor. 8:8.  
 not for better but for _w._, 1 Cor. 11:17.  
 
