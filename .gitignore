@@ -9,3 +9,4 @@ combined_output/combined_deepseek_output.log
 combined_output/combined_deepseek_output.aux
 combined_output/combined_deepseek_output.tex
 output/pages_*.jpg
+individual_pages/*.jpg
