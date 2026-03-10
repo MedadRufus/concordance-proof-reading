@@ -412,7 +412,7 @@ no _a._ though she be married, Rom. 7. 3.
 
 **ADULTEROUS.**— An _a._ generation, Matt. 12. 39, 16. 4; Mark 8. 38.  
 
-**ADULTRY.**— Thou shalt not commit _a._, Ex. 20. 14; Rom. 13. 9.  
+**ADULTERY.**— Thou shalt not commit _a._, Ex. 20. 14; Rom. 13. 9.  
 who commits _a._ lacketh, Prov. 6. 32.  
 Israel commits _a._, Jer. 3. 8, 9, 23. 14, 29. 23.  
 I have seen thine _a._, Jer. 13. 27.  
