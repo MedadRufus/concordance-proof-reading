@@ -97,7 +97,7 @@ cast out like an _a._ branch, Is. 14:19.
 carcasses of their _a._ things, Jer. 16:18.  
 do not this _a._ thing I hate, Jer. 44:4.  
 I saw and behold _a._ beasts, Eze. 8:10.  
-in works deny him, being _a._, Titus 1:16.  
+in works deny him, being _a._, Tit. 1:16.  
 unbelieving and the _a._, Rev. 21:8.  
 
 **ABOMINATION.**— Sacrifice the _a._ of Egyptians, Ex. 8:26.  
@@ -277,7 +277,7 @@ falsely _a._ your good conduct, 1 Pet. 3:16.
 
 **ACCUSED.**— _a._ answered nothing, Mt. 27:12.  
 
-**ACCUSERS.**— False _a._, 2 Tim. 3:3; Titus 2:3.  
+**ACCUSERS.**— False _a._, 2 Tim. 3:3; Tit. 2:3.  
 
 **ACCUSETH.**— One that _a._ you, Jn. 5:45.  
 
@@ -295,7 +295,7 @@ till they _a._ their offence, Hos. 5:15.
 
 **ACKNOWLEDGETH.**— He that _a._ the Son, 1 Jn. 2:23.  
 
-**ACKNOWLEDGING.**— To _a._ the truth, 2 Tim. 2:25; Titus 1:1.  
+**ACKNOWLEDGING.**— To _a._ the truth, 2 Tim. 2:25; Tit. 1:1.  
 
 **ACKNOWLEDGMENT.**— To the _a._ of, Col. 2:2.  
 
@@ -356,13 +356,13 @@ as Moses was _a._, Heb. 8:5.
 bring them up in the _a._, Eph. 6:4.  
 
 **ADOPTION.**— Received the spirit of _a._, Rom. 8:15.  
-waiting for the _a._, Ro. 8:23.  
+waiting for the _a._, Rom. 8:23.  
 to whom pertaineth the _a._, Rom. 9:4.  
 might receive the _a._ of sons, Gal. 4:5.  
 
 **ADORN.**— As a bride _a._, Is. 61:10; Rev. 21:2.  
 women _a._ in modest, 1 Tim. 2:9.  
-_a._ the doctrine of God, Titus 2:10.  
+_a._ the doctrine of God, Tit. 2:10.  
 whose _a._ not outward _a._, 1 Pet. 3:3.  
 women _a._ themselves, 1 Pet. 3:5.  
 
@@ -554,8 +554,8 @@ glory in church through all _a._, Eph. 3:21.
 
 **AGED.**— _a._ arose and stood up, Job 29:8.  
 _a._ with him full of days, Jer. 6:11.  
-that the _a._ men be sober, Titus 2:2.  
-_a._ women be in behaviour, Titus 2:3.  
+that the _a._ men be sober, Tit. 2:2.  
+_a._ women be in behaviour, Tit. 2:3.  
 such an one as Paul the _a._, Philem. 9.  
 
 **AGONY.**— Being in an _a._, Lk. 22:44.  
@@ -967,7 +967,7 @@ but the rich _a._ roughly, Prov. 18:23.
 as face _a._ to face so, Prov. 27:19.  
 and _a._ to Jerusalem, Gal. 4:25.  
 
-**ANSWERING.**— Not _a._ again, Titus 2:9.  
+**ANSWERING.**— Not _a._ again, Tit. 2:9.  
 
 **ANT.**— Go to _a._ sluggard, Prov. 6:6.  
 _a._ a people not strong, Prov. 30:25.  
@@ -1029,8 +1029,8 @@ on things after outward _a._, 2 Cor. 10:7.
 abstain from all _a._ of evil, 1 Thess. 5:22.  
 
 **APPEARED.**— Who _a._ in glory, Lk. 9:31.  
-grace of God hath _a._ to all, Titus 2:11.  
-after the love of God _a._, Titus 3:4.  
+grace of God hath _a._ to all, Tit. 2:11.  
+after the love of God _a._, Tit. 3:4.  
 hath he _a._ to put away sin, Heb. 9:26.  
 
 **APPEARETH.**— Who shall stand when he _a._, Mal. 3:2.  
@@ -1039,7 +1039,7 @@ hath he _a._ to put away sin, Heb. 9:26.
 made manifest by the _a._, 2 Tim. 1:10.  
 judge quick and dead at _a._, 2 Tim. 4:1.  
 to them also that love his _a._, 2 Tim. 4:8.  
-looking for glorious _a._, Titus 2:13.  
+looking for glorious _a._, Tit. 2:13.  
 to praise at the _a._ of Jesus Christ, 1 Pet. 1:7.  
 
 **APPETITE.**— If thou be given to _a._, Prov. 23:2.  
@@ -1430,7 +1430,7 @@ Jesus, the _a._ and finisher, Heb. 12:2.
 **AUTHORITY.**— As hav. _a._, Mt. 7:29.  
 _a._ to execute judgment, Jn. 5:27.  
 supplication for all in _a._, 1 Tim. 2:2.  
-rebuke with all _a._, Titus 2:15.  
+rebuke with all _a._, Tit. 2:15.  
 and _a._ made subject to, 1 Pet. 3:22.  
 dragon gave him _a._, Rev. 13:2.  
 
@@ -1916,7 +1916,7 @@ _b._ as a child weaned, Ps. 131:2.
 how unblameably we _b._, 1 Thess. 2:10.  
 
 **BEHAVIOUR.**— A bishop, of good _b._, 1 Tim. 3:2.  
-aged women in _b._, Titus 2:3.  
+aged women in _b._, Tit. 2:3.  
 
 **BEHEADED.**— _b._ John, Mt. 14:10; Mk. 6:16, 27; Lk. 9:9.  
 I saw the souls of them _b._, Rev. 20:4.  
@@ -2037,7 +2037,7 @@ goeth into the _b._, Mt. 15:17; Mk. 7:19.
 out of his _b._ shall flow rivers, Jn. 7:38.  
 serve their own _b._, Rom. 16:18.  
 whose God is their _b._, Phil. 3:19.  
-the Cretians slow _b._, Titus 1:12.  
+the Cretians slow _b._, Tit. 1:12.  
 
 **BELONG.**— To me _b._ vengeance, Deu. 32:35; Ps. 94:1; Heb. 10:30.  
 to the Lord _b._ mercies, Dan 9:9.  
@@ -2239,7 +2239,7 @@ shall I bring to the _b._, Is. 66:9.
 **BIRTHRIGHT.**— Gen. 25:31, 33, 34, 27:36, 43:33.  
 for a morsel sold _b.-r._, Heb. 12:16.  
 
-**BISHOP.**— 1 Tim. 3:1, 2; Titus 1:7.  
+**BISHOP.**— 1 Tim. 3:1, 2; Tit. 1:7.  
 the _b._ of your souls, 1 Pet. 2:25.  
 
 **BISHOPRIC.**— His _b._ let another, Acts 1:20.  
@@ -2289,7 +2289,7 @@ to whom is reserve, _b._, Jude 13.
 **BLAMELESS.**— In ordinances of the Lord _b._, Lk. 1:6.  
 _b._ in the day of our Lord, 1 Cor. 1:8.  
 may be _b._ and harmless, Phil. 3:6.  
-a bishop _b._, 1 Tim. 3:2; Titus 1:7.  
+a bishop _b._, 1 Tim. 3:2; Tit. 1:7.  
 they be _b._, 1 Tim. 5:7.  
 ye may be found _b._, 2 Pet. 3:14.  
 
@@ -2305,7 +2305,7 @@ scribes said this man _b._, Mt. 9:3.
 Father sanctified, thou _b._, Jn. 10:36.  
 name of God is _b._ through you, Rom. 2:24.  
 his doctrine be not _b._, 1 Tim. 6:1.  
-that the word be not _b._, Titus 2:5; Rev. 16:9, 11, 21.  
+that the word be not _b._, Tit. 2:5; Rev. 16:9, 11, 21.  
 
 **BLASPHEMER.**— Who was a _b._, 1 Tim. 1:13.  
 last days shall be _b._, 2 Tim. 3:2.  
@@ -3683,7 +3683,7 @@ casting your _c._ on him, 1 Pet. 5:7.
 _c._ about many things, Lk. 10:41.  
 I sent him the more _c._, Phil. 2:28.  
 be _c._ for nothing, but, Phil. 4:6.  
-_c._ to maintain good works, Titus 3:8.  
+_c._ to maintain good works, Tit. 3:8.  
 sought it _c._ with tears, Heb. 12:17.  
 
 **CAREFULNESS.**— I would have you without _c._, 1 Cor. 7:32.  
@@ -4882,7 +4882,7 @@ _c._ people heard him gladly, Mk. 12:37.
 had all things _c._, Acts 2:44, 4:32.  
 eaten anything _c._, Acts 10:14, 11:8.  
 should not call any man _c._, Acts 10:28.  
-my son after _c._ faith, Titus 1:4.  
+my son after _c._ faith, Tit. 1:4.  
 
 **COMMUNE.**— _c._ with your own heart, Ps. 4:4, 77:6; Eccl. 1:16.  
 
@@ -5037,7 +5037,7 @@ if our heart _c._ us not, we, 1 Jn. 3:21.
 by thy words shalt be _c._, Mt. 12:37.  
 believeth is not _c.? b._ not is _c._, Jn. 3:18.  
 and for sin, _c._ sin in flesh, Rom. 8:3.  
-being _c._ of himself, Titus 3:11.  
+being _c._ of himself, Tit. 3:11.  
 _c._ and killed the just, Jas. 5:6.  
 
 **CONDESCEND.**— _c._ to men of low estate, Rom. 12:16.  
@@ -5090,7 +5090,7 @@ through Syria _c._ the churches, Acts 15:41.
 
 **CONFORMABLE.**— _c._ to his death, Phil. 3:10.  
 
-**CONFORMED.**— _c._ to image of Son, Ro. 8:29.  
+**CONFORMED.**— _c._ to image of Son, Rom. 8:29.  
 _c._ to this world, Rom. 12:2.  
 
 **CONFOUND.**— _c._ their language, Gen. 11:7.  
@@ -5241,7 +5241,7 @@ the one preach Christ of _c._, Phil. 1:16.
 _c._ like bars of a castle, Prov. 18:19.  
 _c._ of a wife a dropping, Prov. 19:13, 27:15.  
 who hath _c._? Prov. 23:29.  
-avoid _c._ and strivings, Titus 3:9.  
+avoid _c._ and strivings, Tit. 3:9.  
 
 **CONTENTIOUS.**— Prov. 21:19, 26:21, 27:15.  
 if any seem to be _c._, 1 Cor. 11:16.  
@@ -5306,7 +5306,7 @@ _c._ to sound doctrine, 1 Tim. 1:10.
 **CONTROVERSY.**— Deu. 17:8, 19:17, 21:5, 25:1.  
 Lord hath _c._, Jer. 25:31; Hos. 4:1, 12:2; Micah 6:2.  
 
-**CONVENIENT.**— Things not _c._, Ro. 1:28.  
+**CONVENIENT.**— Things not _c._, Rom. 1:28.  
 jesting not _c._, Eph. 5:4.  
 
 **CONVERSATION.**— As be of upright _c._, Ps. 37:14.  
@@ -5326,7 +5326,7 @@ _c._ strengthen brethren, Lk. 22:32.
 **CONVERTETH.**— _c._ a sinner, Jas. 5:20.  
 
 **CONVINCE.**— _c._ me of sin, Jn. 8:46.  
-be able to _c._ gainsayers, Titus 1:9.  
+be able to _c._ gainsayers, Tit. 1:9.  
 _c._ all that are ungodly, Jude 15.  
 
 **COOL.**— Walking in _c._ of the day, Gen. 3:8.  
@@ -5642,7 +5642,7 @@ of first-fruits of his _c._, Jas. 1:18.
 **CREEP.**— Beasts of forest _c._ forth, Ps. 104:20.  
 of this sort _c._ into houses, 2 Tim. 3:6.  
 
-**CREEPING.**— _c._ things, Ps. 104:25; Eze. 8:10; Ho. 2:18; Hab. 1:14; Ac. 10:12, 11:6.  
+**CREEPING.**— _c._ things, Ps. 104:25; Eze. 8:10; Hos. 2:18; Hab. 1:14; Ac. 10:12, 11:6.  
 
 **CREPT.**— _c._ in unawares, Jude 4.  
 
@@ -5939,7 +5939,7 @@ hateth brother, is in _d._, 1 Jn. 2:9, 11.
 be thrust through with a _d._, Heb. 12:20.  
 
 **DASH.**— Right hand hath _d._, Ex. 15:6.  
-_d._ in pieces, Ps. 2:9; Is. 13:16; Ho. 13:16.  
+_d._ in pieces, Ps. 2:9; Is. 13:16; Hos. 13:16.  
 lest thou _d._ foot against a stone, Ps. 91:12; Mt. 4:6; Lk. 4:11.  
 _d._ little ones against stones, Ps. 137:9.  
 I will _d._ one against another, Jer. 13:14.  
@@ -6167,7 +6167,7 @@ deceiving and being _d._, 2 Tim. 3:13.
 **DECEIVER.**— Cursed be _d._, Mal. 1:14.  
 we remember that _d._ said, Mt. 27:63.  
 as _d._ and yet true, 2 Cor. 6:8.  
-there are many _d._, Titus 1:10.  
+there are many _d._, Tit. 1:10.  
 many _d._ this is a _d._, 2 Jn. 7.  
 
 **DECEIVETH.**— He _d._ himself, Gal. 6:3.  
@@ -6251,7 +6251,7 @@ them that _d._ themselves, 1 Tim. 1:10.
 **DEFILED.**— _d._ dwelling p. of thy name, Ps. 74:7.  
 _d._ with own works, Ps. 106:39.  
 your hands _d._ with blood, Is. 59:3.  
-conscience is _d._, 1 Cor. 8:7; Titus 1:15.  
+conscience is _d._, 1 Cor. 8:7; Tit. 1:15.  
 thereby many be _d._, Heb. 12:15.  
 not _d._ their garments, Rev. 3:4.  
 
@@ -6367,14 +6367,14 @@ shall _d._ me, him will I _d._, Mt. 10:33.
 let him _d._ himself, Mt. 16:24; Mk. 8:34.  
 if _d._ him, he will _d._ us, 2 Tim. 2:12.  
 he cannot _d._ himself, 2 Tim. 2:13.  
-but in works they _d._ him, Titus 1:16.  
+but in works they _d._ him, Tit. 1:16.  
 
 **DENIED.**— _d._ me before men, Lk. 12:9.  
 John _d._ not, I am not Christ, Jn. 1:20.  
 but ye _d._ the Holy One, Acts 3:14.  
 he hath _d._ the faith, 1 Tim. 5:8.  
 _d._ the power thereof, 2 Tim. 3:5.  
-_d._ ungodliness and, Titus 2:12.  
+_d._ ungodliness and, Tit. 2:12.  
 _d._ Lord that bought them, 2 Pet. 2:1.  
 _d._ the only Lord God, Jude 4.  
 and hast not _d._ my faith, Rev. 2:13.  
@@ -6878,7 +6878,7 @@ voice of Lord _d._ forests, Ps. 29:9.
 **DISCOURAGE.**— He shall not fail nor be _d._, Is. 42:4.  
 children, lest they be _d._, Col. 3:21.  
 
-**DISCREET.**— Gen. 41:39; Titus 2:5; Mk. 12:34.  
+**DISCREET.**— Gen. 41:39; Tit. 2:5; Mk. 12:34.  
 
 **DISCRETION.**— Guide affairs with _d._, Ps. 112:5.  
 _d._ shall preserve thee, Prov. 2:11.  
@@ -6908,13 +6908,13 @@ vessel to _d._, Rom. 9:21; 2 Tim. 2:20.
 man _d._ head, 1 Cor. 11:4, 5.  
 sown in _d._, 1 Cor. 15:43.  
 
-**DISOBEDIENCE.**— By one man's _d._, Ro. 5:19.  
+**DISOBEDIENCE.**— By one man's _d._, Rom. 5:19.  
 every _d._ received just recomp., Heb. 2:2.  
 
 **DISOBEDIENT.**— Turn _d._ to wisdom of just, Lk. 1:17.  
 forth my hands to _d._ people, Rom. 10:21.  
 law was made for _d._, 1 Tim. 1:9.  
-sometimes _d._, Titus 3:3; 1 Pet. 3:20.  
+sometimes _d._, Tit. 3:3; 1 Pet. 3:20.  
 to them _d._ the stone, 1 Pet. 2:7, 8.  
 
 **DISORDERLY.**— 2 Thess. 3:6, 7, 11.  
@@ -7104,7 +7104,7 @@ fully known my _d._, 2 Tim. 3:10.
 scripture profitable for _d._, 2 Tim. 3:16.  
 will not endure sound _d._, 2 Tim. 4:3.  
 speak things become sound _d._, Tit. 2:1.  
-in _d._ shewing incorruptness, Titus 2:7.  
+in _d._ shewing incorruptness, Tit. 2:7.  
 
 **DOCTRINES.**— After _d._ of men, Col. 2:22.  
 heed to _d._ of devils, 1 Tim. 4:1.  
@@ -7788,7 +7788,7 @@ the tradition of the _e._? Mt. 15:2; Mk. 7:3.
 ordained _e._ in every church, Acts 14:23.  
 called the _e._ of the church, Acts 20:17.  
 _e._ rule well be counted, 1 Tim. 5:17.  
-ordain _e._ in every city, Titus 1:5.  
+ordain _e._ in every city, Tit. 1:5.  
 the _e._ obtained good report, Heb. 11:2.  
 call for _e._ of church, Jas. 5:14.  
 four and twenty _e._, Rev. 4:4.  
@@ -8115,7 +8115,7 @@ moved with _e._, Acts 7:9, 17:5.
 full of _e._, murder, Rom. 1:29.  
 charity _e._ not, 1 Cor. 13:4.  
 whereof cometh _e._, 1 Tim. 6:4.  
-living in malice and _e._, Titus 3:3.  
+living in malice and _e._, Tit. 3:3.  
 spirit in us lusteth to _e._, Jas. 4:5.  
 laying aside _e._, 1 Pet. 2:1.  
 
@@ -8289,7 +8289,7 @@ who seek for glory, _e._ life, Rom. 2:7.
 might grace reign to _e._ life, Rom. 5:21.  
 but the gift of God is _e._ life, Rom. 6:23.  
 lay hold on _e._ life, 1 Tim. 6:12, 19.  
-in hope of _e._ life which God, Titus 1:2.  
+in hope of _e._ life which God, Tit. 1:2.  
 _e._ life which was with Father, 1 Jn. 1:2.  
 no murderer hath _e._ life abid., 1 Jn. 3:15.  
 that God given to us _e._ life, 1 Jn. 5:11.  
@@ -8734,7 +8734,7 @@ his _e._ as flame of fire, Rev. 1:14, 2:18, 19.
 anoint _e._ with eye salve, Rev. 3:18.  
 a lamb having seven _e._, Rev. 5:6.  
 
-**FABLES.**—1 Tim. 1:4, 4:7; 2 Tim. 4:4; Titus 1:14; 2 Pet. 1:16.  
+**FABLES.**—1 Tim. 1:4, 4:7; 2 Tim. 4:4; Tit. 1:14; 2 Pet. 1:16.  
 
 **FACE.**—I have seen God _f._ to _f._, Gen. 32:30.  
 Lord spake to Moses _f._ to _f._, Ex. 33:11.  
@@ -8877,15 +8877,15 @@ for obedience to the _f._, Rom. 1:5.
 righte. of G. revealed from _f._ to _f._, Rom. 1:17.  
 _f._ of God without effect, Rom. 3:3.  
 righte. of G. by _f._, Rom. 3:22; Phil. 3:9.  
-justified by _f._, Ro. 3:28, 5:1; Gal. 2:16, 3:24.  
-_f._ counted for righteousness, Ro. 4:5, 9.  
-they of law be heirs, _f._ is void, Ro. 4:14.  
+justified by _f._, Rom. 3:28, 5:1; Gal. 2:16, 3:24.  
+_f._ counted for righteousness, Rom. 4:5, 9.  
+they of law be heirs, _f._ is void, Rom. 4:14.  
 it is of _f._, of _f._ of Abraham, Rom. 4:16.  
 word of _f._ which we preach, Rom. 10:8.  
 then _f._ cometh by hearing, Rom. 10:17.  
-thou stand. by _f._, Ro. 11:20; 2 Cor. 1:24.  
-according to proportion of _f._, Ro. 12:6.  
-hast thou _f._? have it to thyself, Ro. 14:22.  
+thou stand. by _f._, Rom. 11:20; 2 Cor. 1:24.  
+according to proportion of _f._, Rom. 12:6.  
+hast thou _f._? have it to thyself, Rom. 14:22.  
 what is not of _f._ is sin, Rom. 14:23.  
 though I have all _f._, 1 Cor. 13:2.  
 now abideth _f._, hope, charity, 1 Cor. 13:13.  
@@ -8910,8 +8910,8 @@ concerning _f._ made shipwreck, 1 Tim. 1:19.
 holding the mystery of _f._, 1 Tim. 3:9.  
 reprobate concerning the _f._, 2 Tim. 3:8.  
 I have kept the _f._, 2 Tim. 4:7.  
-the _f._ of God's elect, Titus 1:1.  
-the common _f._, Titus 1:4.  
+the _f._ of God's elect, Tit. 1:1.  
+the common _f._, Tit. 1:4.  
 not profit, not mixed with _f._, Heb. 4:2.  
 _f._ substance of things hoped, Heb. 11:1.  
 without _f._ impos. to please G., Heb. 11:6.  
@@ -8996,7 +8996,7 @@ stars shall _f._ from heaven, Mt. 24:29; Mk. 13:25.
 in time of temptation _f._ away, Lk. 8:13.  
 I beheld Satan as lightning _f._, Lk. 10:18.  
 through their _f._ salvation, Rom. 11:11.  
-_f._ of them be riches of world, Ro. 11:12.  
+_f._ of them be riches of world, Rom. 11:12.  
 occas. to _f._ in brother's way, Rom. 14:13.  
 take heed lest he _f._, 1 Cor. 10:12.  
 _f._ into condem., 1 Tim. 3:6; Jas. 5:12.  
@@ -9756,8 +9756,8 @@ give my _f.-b._ for transgression? Micah 6:7.
 _f.-b._ among many brethren, Rom. 8:29.  
 
 **FIRST-FRUIT.**—Honour L. with _f.-f._ , Prov. 3:9.  
-which have _f.-f._ of spirit, Ro. 8:23.  
-if _f.-f._ be holy, lump is holy, Ro. 11:16.  
+which have _f.-f._ of spirit, Rom. 8:23.  
+if _f.-f._ be holy, lump is holy, Rom. 11:16.  
 C. _f.-f._ of them that slept, 1 Cor. 15:20.  
 kind of _f.-f._ of creatures, Jas. 1:18.  
 being the _f.-f._ unto God, Rev. 14:4.  
@@ -10059,7 +10059,7 @@ for my people is _f._, Jer. 4:22.
 made _f._ wisdom of world, 1 Cor. 1:20.  
 O _f._ Galatians, who hath, Gal. 3:1.  
 are ye so _f._? having begun, Gal. 3:3.  
-we were sometimes _f._, Titus 3:3.  
+we were sometimes _f._, Tit. 3:3.  
 
 **FOOLISHNESS.**—Counsel into _f._, 2 Sam.15:31.  
 thou knowest my _f._, Ps.69:5.  
@@ -10812,7 +10812,7 @@ there be no _g._ when I come, 1 Cor. 16:2.
 who _g._ thee this authority? Mt. 21:23.  
 God _g._ his only begotten Son, Jn. 3:16.  
 first _g._ ourselves to Lord, 2 Cor. 8:5.  
-_g._ himself for sins, Gal. 1:4; Titus 2:14.  
+_g._ himself for sins, Gal. 1:4; Tit. 2:14.  
 _g._ himself for me, Gal. 2:20.  
 Christ _g._ himself for church, Eph. 5:25.  
 
@@ -10824,7 +10824,7 @@ those thou _g._ me I have kept, Jn. 17:12.
 **GENDER.**—Bull _g._ and fail. not, Job 21:10.  
 hoar frost, who hath _g._ it? Job 38:29.  
 
-**GENEALOGIES.**—Give no heed to _g._, 1 Tim. 1:4; Titus 3:9.  
+**GENEALOGIES.**—Give no heed to _g._, 1 Tim. 1:4; Tit. 3:9.  
 
 **GENERATION.**—Perverse and crooked _g._, Deu. 32:5.  
 God is in _g._ of the righteous, Ps. 14:5.  
@@ -10871,7 +10871,7 @@ a teacher of _g.,_ 1 Tim, 2:7; 2Tim.1:11.
 
 **GENTLE.**— _g._ among you, 1 Thess. 2:7.  
 servant of Lord must be _g.,_ 2 Tim. 2:24,  
-_g._ shewing all meekness, Titus 3:2,  
+_g._ shewing all meekness, Tit. 3:2,  
 wisdom from above _g.,_ Jas. 3:17.  
 subject not only to _g.,_ 1 Pet. 2:18.  
 
@@ -11061,7 +11061,7 @@ I have _g._ thee on earth, Jn. 17:4.
 and I am _g._ in them, Jn. 17, 10.  
 God of fathers hath _g._ Son, Acts 3:13.  
 they _g._ him not as God, Rom. 1, 21.  
-whom he justified, them he _g.,_ Ro. 8:30.  
+whom he justified, them he _g.,_ Rom. 8:30.  
 come to be _g._ in his saints, 2 Thess. 1:10.  
 that word of Lord may be _g.,_ 2 Thess, 3:1.  
 so Christ _g._ not himself, Heb. 5:5.  
@@ -11313,7 +11313,7 @@ how to deliver the _g._, 2 Pet. 2:9.
 
 **GODLINESS.**—Mystery of _g._, 1 Tim. 3:16.  
 _g._ is profitable unto all things, 1 Tim. 4:8.  
-the truth which is after _g._, Titus 1:1.  
+the truth which is after _g._, Tit. 1:1.  
 things that pertain to _g._, 2 Pet. 1:3.  
 add to _g._, 2 Pet. 1:6, 7.  
 
@@ -11478,8 +11478,8 @@ by _g._ saved through faith, Eph. 2:5, 8.
 the riches of _g._, Eph. 2:7.  
 to every one of us is given _g._, Eph. 4:7.  
 _g._ with all that love L. J., Eph. 6:24.  
-_g._ be with you, Col. 4:18; 2 Tim. 4:22; Titus 3:15; Heb. 13:25.  
-_g._, mercy, and peace from God our F., and our Lord Jesus Christ, 1 Tim. 1:2; 2 Tim. 1:2; Titus 1:4; 2 Jn. 3.  
+_g._ be with you, Col. 4:18; 2 Tim. 4:22; Tit. 3:15; Heb. 13:25.  
+_g._, mercy, and peace from God our F., and our Lord Jesus Christ, 1 Tim. 1:2; 2 Tim. 1:2; Tit. 1:4; 2 Jn. 3.  
 let us have _g._ to serve God, Heb. 12:28.  
 _g._ and peace be multiplied, 1 Pet. 1:2.  
 the true _g._ of God, 1 Pet. 5:12.  
@@ -11675,7 +11675,7 @@ am weary with _g._ all night, Ps. 6:6.
 my _g._ is not hid from thee, Ps. 38:9.  
 to hear the _g._ of the prisoner, Ps. 102:20.  
 Jesus _g._ in himself, Jn. 11:38.  
-_g._ that cannot be uttered, Ro. 8:26.  
+_g._ that cannot be uttered, Rom. 8:26.  
 
 **GROPE.**—_g._ at noon, Deu. 28:29; Job 5:14.  
 _g._ in the dark without light, Job 12:25.  
@@ -11888,7 +11888,7 @@ offered prayers, and was _h._, Heb. 5:7.
 they that _h._ entreated that, Heb. 12:19.  
 which we have _h._, 1 Jn. 1:1, 3:5.  
 
-**HEARER.**—Not _h._ of law are just, Ro. 2:13.  
+**HEARER.**—Not _h._ of law are just, Rom. 2:13.  
 minister grace unto the _h._, Eph. 4:29.  
 if any be a _h._ of the word, Jas. 1:23.  
 not a forgetful _h._, Jas. 1:25.  
@@ -12107,7 +12107,7 @@ the _h._, as long as he is a child, Gal. 4:1.
 _h._ of God through Christ, Gal. 4:7.  
 son of bond-woman sh. not be _h._, Gal. 4:30.  
 Gentiles should be fellow-_h._, Eph. 3:6.  
-_h._ according to the hope, Titus 3:7.  
+_h._ according to the hope, Tit. 3:7.  
 whom he appointed _h._, Heb. 1:2.  
 who shall be _h._ of salvation, Heb. 1:14.  
 became _h._ of righteousness, Heb. 11:7.  
@@ -12914,8 +12914,8 @@ as others who have no _h._, 1 Thess. 4:13.
 helmet the _h._ of salvation, 1 Thess. 5:8.  
 hath given us good _h._, 2 Thess. 2:16.  
 Lord Jesus, is our _h._, 1 Tim. 1:1.  
-in _h._ of eternal life, Titus 1:2.  
-Looking for that blessed _h._, Titus 2:13.  
+in _h._ of eternal life, Tit. 1:2.  
+Looking for that blessed _h._, Tit. 2:13.  
 fled to lay hold on _h._, Heb. 6:18.  
 a better _h._, Heb. 7:19.  
 begotten to a lively _h._, 1 Pet. 1:3.  
@@ -13312,7 +13312,7 @@ _i._ and hard-hearted, Eze. 3:7.
 **IMPUTE.**—Lev. 17:4; 2 Sam. 19:19.  
 to whom L. will not _i._ sin, Rom. 4:8.  
 _i._ for righte., Rom. 4:22, 23; Jas. 2:23.  
-sin not _i._ when there is no law, Ro. 5:13.  
+sin not _i._ when there is no law, Rom. 5:13.  
 not _i._ trespasses to them, 2 Cor. 5:19.  
 
 **IMPUTETH.**—L. _i._ not iniquity, Ps. 32:2.  
@@ -14598,12 +14598,12 @@ weightier matters of _l._, Mt. 23:23.
 the _l._ was given by Moses, Jn. 1:17.  
 doth _l._ judge before it hear, Jn. 7:51.  
 received _l._ by angels, Acts 7:53.  
-Gentiles having not _l._ are a _l._, Ro. 2:14.  
-by deeds of _l._, no flesh justified, Ro. 3:20.  
+Gentiles having not _l._ are a _l._, Rom. 2:14.  
+by deeds of _l._, no flesh justified, Rom. 3:20.  
 by what _l._? of works? Nay, Rom. 3:27.  
-_l._ worketh wrath, where no _l._ is, Ro. 4:15.  
+_l._ worketh wrath, where no _l._ is, Rom. 4:15.  
 until _l._ sin was in world, Rom. 5:13.  
-_l._ entered that offence might, Ro. 5:20.  
+_l._ entered that offence might, Rom. 5:20.  
 not under the _l._, Rom. 6:14, 15; Gal. 5:18.  
 is _l._ sin? God forbid, Rom. 7:7.  
 the _l._ is holy, Rom. 7:12.  
@@ -14813,7 +14813,7 @@ who is a _l._ but he that denieth, 1 Jn.2:22.
 believeth not G. made him a _l._, 1 Jn. 5:10.  
 
 **LIARS.** —All men are _l._, Ps. 116:11.  
-the Cretians are always _l._, Titus 1:12.  
+the Cretians are always _l._, Tit. 1:12.  
 and hast found them _l._, Rev. 2:2.  
 all _l._ have their part in lake, Rev. 21:8.  
 
@@ -15486,7 +15486,7 @@ for I am meek and _l._, Mt. 11:29.
 
 **LOWLINESS.**—Eph. 4:2; Phil. 2:3.  
 
-**LUCRE.**—1 Tim. 3:3, 8; Titus 1:7, 11; 1 Pet. 5:2.  
+**LUCRE.**—1 Tim. 3:3, 8; Tit. 1:7, 11; 1 Pet. 5:2.  
 
 **LUKEWARM.**—Thou art _l._, Rev. 3:16.  
 
@@ -15513,7 +15513,7 @@ no provision to fulfil _l._, Rom. 13:14.
 conversation in _l._ of flesh, Eph. 2:3.  
 foolish and hurtful _l._, 1 Tim. 6:9.  
 flee youthful _l._, 2 Tim. 2:22.  
-that denying worldly _l._, Titus 2:12.  
+that denying worldly _l._, Tit. 2:12.  
 serving divers _l._ and pleasures, Tit. 3:3.  
 not hence, even of your _l._? Jas. 4:1.  
 according to former _l._, 1 Pet. 1:14.  
@@ -15548,7 +15548,7 @@ the _m._ of the prophet, 2 Pet. 2:16.
 
 **MAGISTRATE.**—_m._ in land, Judg. 18:7.  
 they bring you to _m._, Lk. 12:11, 58.  
-put them in mind to obey _m._, Titus 3:1.  
+put them in mind to obey _m._, Tit. 3:1.  
 
 **MAGNIFICAL.**—1 Chr. 22:5.  
 
@@ -15608,7 +15608,7 @@ being a man, _m._ thyself God, Jn. 10:33.
 **MALICE.**—Leaven of _m._, 1 Cor. 5:8.  
 _m._ be ye children, 1 Cor. 14:20.  
 put away all _m._, Eph. 4:31; Col. 3:8; 1 Pet. 2:1.  
-sometimes living in _m._, Titus 3:3.  
+sometimes living in _m._, Tit. 3:3.  
 
 **MALICIOUSNESS.**—Rom. 1:29; 1 Pet. 2:16.  
 
@@ -16031,10 +16031,10 @@ he might have _m._ on all, Rom. 11:32.
 _m._ to be faithful, 1 Cor. 7:25.  
 as we have received _m.,_ 2 Cor. 4:1.  
 God who is rich in _m.,_ Eph. 2:4.  
-_m._ and peace from God, 1 Tim. 1:2; 2 Tim. 1:2; Titus 1:4; 2 Jn. 3.  
+_m._ and peace from God, 1 Tim. 1:2; 2 Tim. 1:2; Tit. 1:4; 2 Jn. 3.  
 I obtained _m._ because, 1 Tim. 1:13, 16.  
 he may find _m._ of Lord, 2 Tim. 1:18.  
-according to _m._ he saved us, Titus 3:5.  
+according to _m._ he saved us, Tit. 3:5.  
 that we may obtain _m.,_ Heb. 4:16.  
 _m._ rejoiceth against judgment, Jas. 2:13.  
 that hath shewed no _m.,_ Jas. 2:13.  
@@ -17461,7 +17461,7 @@ because they called thee _o.,_ Jer. 30:17.
 **OUTSTRETCHED.**—_o._ arm, Deu. 26:8; Jer. 21:5, 27:5.  
 
 **OUTWARD.**— Look on o. appear, 1 Sam. 16:7.  
-which is o. in the flesh, Ro. 2:28.  
+which is o. in the flesh, Rom. 2:28.  
 
 **OWE.**— How much o. thou? Lk. 16:5, 7.  
 o. no man anything, Rom. 13:8.  
@@ -17708,7 +17708,7 @@ remembering your _p._ of hope, 1 Thess. 1:3.
 glory in you for your _p._, 2 Thess. 1:4.  
 follow after _p._, 1 Tim. 6:11.  
 thou hast known my _p._, 2 Tim. 3:10.  
-aged be sound in faith, in _p._, Titus 2:2.  
+aged be sound in faith, in _p._, Tit. 2:2.  
 ye have need of _p._, Heb. 10:36.  
 trying of faith worketh _p._, Jas. 1:3.  
 let _p._ have her perfect work, Jas. 1:4.  
@@ -17729,7 +17729,7 @@ take it _p._, 1 Pet. 2:20.
 
 **PATRIARCH.**— Acts 2:29, 7:8; Heb. 7:4.  
 
-**PATTERN.**— Shew for a _p._, 1 Tim. 1:16; Titus 2:7.  
+**PATTERN.**— Shew for a _p._, 1 Tim. 1:16; Tit. 2:7.  
 according to _p._ I shewed thee, Heb. 8:5.  
 _p._ of things be purified, Heb. 9:23.  
 
@@ -19271,7 +19271,7 @@ _p._ of eternal life, Heb. 9:15, 10:36.
 received not the _p._, Heb. 11:39.  
 this is the _p._ he hath _p._, 1 Jn. 2:25.  
 
-**PROMISES.**—To whom pertain _p._, Ro. 9:4.  
+**PROMISES.**—To whom pertain _p._, Rom. 9:4.  
 _p._ of God in him yea, and 2 Cor. 1:20.  
 to Abraham were _p._ made, Gal. 3:16.  
 through faith inherit _p._, Heb. 6:12.  
@@ -20004,7 +20004,7 @@ your time is always _r._, Jn. 7:6.
 I am _r._ not to be bound only, Acts 21:13.  
 declaration of _r._ mind, 2 Cor. 8:19.  
 I am now _r._ to be offered, 2 Tim. 4:6.  
-be _r._ to every good work, Titus 3:1.  
+be _r._ to every good work, Tit. 3:1.  
 but of a _r._ mind, 1 Pet. 5:2.  
 things that are _r._ to die, Rev. 3:2.  
 
@@ -20124,7 +20124,7 @@ but ye shall _r._ power, Acts 1:8.
 ye shall _r._ gift of Holy Ghost, Acts 2:38.  
 Lord Jesus, _r._ my spirit, Acts 7:59.  
 him weak in faith _r._ ye, Rom. 14:1.  
-_r._ one another as C. received, Ro. 15:7.  
+_r._ one another as C. received, Rom. 15:7.  
 what hast thou, didst not _r._? 1 Cor. 4:7.  
 every one _r._ things done, 2 Cor. 5:10.  
 _r._ not grace of God in vain, 2 Cor. 6:1.  
@@ -20771,7 +20771,7 @@ Judas _r._ himself, Mt. 27:3.
 
 **REPLENISH.**— Multiply and _r._ earth, Gen. 1:28, 9:1.  
 
-**REPLIEST.**— That _r._ against G.? Ro. 9:20.  
+**REPLIEST.**— That _r._ against G.? Rom. 9:20.  
 
 **REPORT.**— Shalt not raise a false _r._, Ex. 23:1.  
 brought up an evil _r._, Num. 13:32.  
@@ -21172,7 +21172,7 @@ they shall _r._ as corn, as vine, Hos. 14:7.
 _r._ thy work in midst of, Hab. 3:2.  
 
 **REVIVED.**— Sin _r._, Rom. 7:9.  
-Christ both died, rose, and _r._, Ro. 14:9.  
+Christ both died, rose, and _r._, Rom. 14:9.  
 
 **REVIVING.**— A little _r._, Ezra 9:8.  
 
@@ -21845,7 +21845,7 @@ a great _r._, Eze. 3:12; Acts 2:2.
 
 **RUST.**— Mt. 6:19; Jas. 5:3.  
 
-**SABAOTH.**— L. of _s._, Ro. 9:29; Jas. 5:4.  
+**SABAOTH.**— L. of _s._, Rom. 9:29; Jas. 5:4.  
 
 **SABBATH.**— Ex. 16:23, 25, 20:10, 31:15, 35:2.  
 neither new moon nor _s._, 2 Ki. 4:23.  
@@ -23294,7 +23294,7 @@ O ye _s._, understand wisdom, Prov. 8:5.
 whoso is _s._ let him turn in, Prov. 9:4, 16.  
 _s._ believeth every word, Prov. 14:15.  
 _s._ pass on are punished, Prov. 22:3, 27:12.  
-fair speeches deceive _s._, Ro. 16:18.  
+fair speeches deceive _s._, Rom. 16:18.  
 
 **SIMPLICITY.**— How long love _s._? Prov. 1:22.  
 in _s._ had conversation, 2 Cor. 1:12.  
@@ -23366,7 +23366,7 @@ with unleavened bread of _s._, 1 Cor. 5:8.
 in godly _s._, 2 Cor. 1:12.  
 as of _s._ in the sight of God, 2 Cor. 2:17.  
 them that love L. J. in _s._, Eph. 6:24.  
-in doctrine shewing _s._, Titus 2:7.  
+in doctrine shewing _s._, Tit. 2:7.  
 
 **SINEWS.**— Fenced with _s._, Job 10:11.  
 
@@ -24256,7 +24256,7 @@ wings as _s._ of chariots, Rev. 9:9.
 _s._ wisdom, Prov. 2:7, 8:14.  
 a _s._ heart is life of the flesh, Prov. 14:30.  
 the form of _s._ words, 2 Tim. 1:13.  
-_s._ in the faith, Titus 1:13, 2:2.  
+_s._ in the faith, Tit. 1:13, 2:2.  
 
 **SOUND.**— The trumpet _s._ long, Ex. 19:13.  
 _s._ for Moab, Is. 16:11; Jer. 48:36.  
@@ -24963,7 +24963,7 @@ not in man to direct his _s._, Jer. 10:23.
 who then is that faithful _s._? Lk. 12:42.  
 thou mayest be no longer _s._, Lk. 16:2.  
 lord commended the unjust _s._, Lk. 16:8.  
-bishop as _s._ of God, Titus 1:7.  
+bishop as _s._ of God, Tit. 1:7.  
 of Christ and _s._ of mysteries of God, 1 Cor. 4:1.  
 is required in _s._ that a man, 1 Cor. 4:2.  
 as good _s._ of grace of God, 1 Pet. 4:10.  
@@ -25368,7 +25368,7 @@ esteem him _s._ of God, Is. 53:4.
 for transgression was he _s._, Is. 53:8.  
 thou hast _s._ them, Jer. 5:3.  
 
-**STRIKER.**— No _s._, 1 Tim. 3:3; Titus 1:7.  
+**STRIKER.**— No _s._, 1 Tim. 3:3; Tit. 1:7.  
 
 **STRIPE.**— _s._ for _s._, Ex. 21:25.  
 
@@ -25532,7 +25532,7 @@ beguiled Eve through _s._, 2 Cor. 11:3.
 
 **SUBVERTER.**— Troubled you, _s._ souls, Acts 15:24.  
 to the _s._ of hearers, 2 Tim. 2:14.  
-who _s._ whole houses, Titus 1:11.  
+who _s._ whole houses, Tit. 1:11.  
 that is such is _s._ and sinneth, Tit. 3:11.  
 
 **SUCCESS.**— Have good _s._, Josh. 1:8.  
@@ -26039,7 +26039,7 @@ thine eyes shall see thy _t._, Is. 30:20.
 evangelists, pastors, _t._, Eph. 4:11.  
 desiring to be _t._ of law, 1 Tim. 1:7.  
 heap to themselves _t._, 2 Tim. 4:3.  
-women be _t._ of good things, Titus 2:3.  
+women be _t._ of good things, Tit. 2:3.  
 for time ye ought to be _t._, Heb. 5:12.  
 shall be false _t._ among you, 2 Pet. 2:1.  
 
@@ -26055,7 +26055,7 @@ which _t._ my hands to war, Ps. 144:1.
 he that teacheth on _t._, Rom. 12:7.  
 warning and _t._ every man, Col. 1:28.  
 _t._ and admonish one another, Col. 3:16.  
-_t._ things they ought not, Titus 1:11.  
+_t._ things they ought not, Tit. 1:11.  
 
 **TEAR.**— He _t._ me in his wrath, Job 16:9.  
 he _t._ himself in his anger, Job 18:4.  
@@ -27188,7 +27188,7 @@ as _t._ is in Jesus, Eph. 4:21.
 fruit of the spirit is in all _t._, Eph. 5:9.  
 loins girt with _t._, Eph. 6:14.  
 received not love of _t._, 2 Thess. 2:10.  
-to acknowledging of _t._, 2 Tim. 2:25; Titus 1:1.  
+to acknowledging of _t._, 2 Tim. 2:25; Tit. 1:1.  
 to come to knowledge of _t._, 2 Tim. 3:7.  
 ye be established in the _t._, 2 Pet. 1:12.  
 way of _t._ evil spoken of, 2 Pet. 2:2.  
@@ -27481,7 +27481,7 @@ leave other _u._, Mt. 23:23; Lk. 11:42.
 
 **UNFRUITFUL.**— Becometh _u._, Mt. 13:22.  
 my understand, Is _u._, 1 Cor. 14:14.  
-works, that they be not _u._, Titus 3:14.  
+works, that they be not _u._, Tit. 3:14.  
 
 **UNGODLY.**— Shouldest thou help _u._, 2 Chr. 19:2.  
 God delivered me to the _u._, Job 16:11.  
@@ -27503,7 +27503,7 @@ convince _u._ of their _u._ deeds, Jude 15.
 **UNGODLINESS.**— Wrath of G. against _u._, Rom. 1:18.  
 he shall turn away _u._ from Jacob, Rom. 11:26.  
 will increase unto _u._, 2 Tim. 2:16.  
-denying _u._ and worldly, Titus 2:12.  
+denying _u._ and worldly, Tit. 2:12.  
 
 **UNHOLY.**— Law for the _u._, 1 Tim. 1:9.  
 men shall be unthankful, _u._, 2 Tim. 3:2.  
@@ -27581,15 +27581,15 @@ friends of mammon of _u._, Lk. 16:9.
 true, and no _u._ in him, Jn. 7:18.  
 men who hold truth in _u._, Rom. 1:18.  
 filled with all _u._, Rom. 1:29.  
-them that obey _u._ indignation, Ro. 2:8.  
-if our _u._ commend righteous, Ro. 3:5.  
+them that obey _u._ indignation, Rom. 2:8.  
+if our _u._ commend righteous, Rom. 3:5.  
 is there _u._ with God? Rom. 9:14.  
 with deceivableness of _u._, 2 Thess. 2:10.  
 all _u._ is sin, 1 Jn. 5:17.  
 
 **UNRULY.**— Warn the _u._, 1 Thess. 5:14.  
-not accused of riot, or _u._, Titus 1:6.  
-there are many _u._ and vain, Titus 1:10.  
+not accused of riot, or _u._, Tit. 1:6.  
+there are many _u._ and vain, Tit. 1:10.  
 the tongue is an _u._ evil, Jas. 3:8.  
 
 **UNSAVOURY.**— Job 6:6.  
@@ -27690,7 +27690,7 @@ _u._ this world as not abusing it, 1 Cor. 7:31.
 _u._ not liberty for occasion, Gal. 5:13.  
 if a man _u._ it lawfully, 1 Tim. 1:8.  
 
-**USES.**— For necessary _u._, Titus 3:14.  
+**USES.**— For necessary _u._, Tit. 3:14.  
 
 **USED.**— Not _u._ this power, 1 Cor. 9:12.  
 I have _u._ none of these things, 1 Cor. 9:15.  
@@ -27771,7 +27771,7 @@ unless ye believed in _v._, 1 Cor. 15:2.
 not be desirous of _v._ glory, Gal. 5:26.  
 nothing done through _v._ glory, Phil. 2:3.  
 and our labour be in _v._, 1 Thess. 3:5.  
-they are unprofitable and _v._, Titus 3:9.  
+they are unprofitable and _v._, Tit. 3:9.  
 this man's religion is _v._, Jas. 1:26.  
 
 **VALIANT.**— A mighty _v._ man, 1 Sam. 16:18.  
@@ -28401,7 +28401,7 @@ he _w._ nothing for his soul, Eccl. 6:2.
 that they may _w._ bread, Eze. 4:17.  
 
 **WANTING.**— Found _w._, Dan. 5:27.  
-set in order the things _w._, Titus 1:5.  
+set in order the things _w._, Tit. 1:5.  
 and entire, _w._ nothing, Jas. 1:4.  
 
 **WANTON.**— _w._ eyes, Is. 3:16.  
@@ -29285,7 +29285,7 @@ he that doeth _w._ of G., 1 Jn. 2:17.
 **WILL.**— I _w._ be thou clean, Mt. 8:3.  
 do what I _w._ with my own? Mt. 20:15.  
 not as I _w._, Mt. 26:39; Mk. 14:36.  
-what _w._ I, if it be kindled, Luk. 12:49.  
+what _w._ I, if it be kindled, Lk. 12:49.  
 ye _w._ not come to me, Jn. 5:40.  
 ask what ye _w._ it be done, Jn. 15:7.  
 I _w._ that they be with me, Jn. 17:24.  
@@ -29663,8 +29663,8 @@ their _w._ did change use, Rom. 1:26.
 let _w._ keep silence, 1 Cor. 14:34.  
 let _w._ learn in silence, 1 Tim. 2:11.  
 I will that younger _w._ marry, 1 Tim. 5:14.  
-aged _w._ behave as becometh, Titus 2:3.  
-teach younger _w._ to be sober, Titus 2:4.  
+aged _w._ behave as becometh, Tit. 2:3.  
+teach younger _w._ to be sober, Tit. 2:4.  
 _w._ received dead raised, Heb. 11:35.  
 that are not defiled with _w._, Rev. 14:4.  
 
@@ -29771,8 +29771,8 @@ _w._ of Christ dwell in you richly, Col. 3:16.
 gospel came not in _w._, 1 Thess. 1:5.  
 receive it not as _w._ of men, 1 Thess. 2:13.  
 God establish you in every good _w._, 2 Thess. 2:17.  
-hath manifested his _w._, Titus 1:3.  
-holding fast _w._ as taught, Titus 1:9.  
+hath manifested his _w._, Tit. 1:3.  
+holding fast _w._ as taught, Tit. 1:9.  
 all things by _w._ of power, Heb. 1:3.  
 _w._ preached did not profit them, Heb. 4:2.  
 unskilful in _w._ of righteousness, Heb. 5:13.  
@@ -29868,7 +29868,7 @@ stablish you in every good _w._, 2 Thess. 2:17.
 come and see the _w. of G._, Ps. 66:5.  
 I beheld all the _w. of G._, Eccl. 8:17.  
 this is the _w. of G._ that ye, Jn. 6:29.  
-for meat destroy not _w. of G._, Ro. 14:20.  
+for meat destroy not _w. of G._, Rom. 14:20.  
 
 **WORK.**— L. will _w._ for us, 1 Sam. 14:6.  
 people had a mind to _w._, Neh. 4:6.  
@@ -29911,12 +29911,12 @@ for which of these _w._ do ye stone me, Jn. 10:32.
 _w._ that I do, shall he do, greater, Jn. 14:12.  
 known to God are his _w._, Acts 15:18.  
 not of _w._ but of him that, Rom. 9:11.  
-let us cast off _w._ of darkness, Ro. 13:12.  
+let us cast off _w._ of darkness, Rom. 13:12.  
 man is not justified by _w._, Gal. 2:16.  
 _w._ of the flesh are manifest, Gal. 5:19.  
 not of _w._, Eph. 2:9.  
 with unfruitful _w._ of darkness, Eph. 5:11.  
-but in _w._ they deny God, Titus 1:16.  
+but in _w._ they deny God, Tit. 1:16.  
 from dead _w._, Heb. 6:1, 9:14.  
 have not _w._ can faith save? Jas. 2:14.  
 was not Rahab justified by _w.?_ Jas. 2:25.  
@@ -30377,6 +30377,6 @@ hath a great _z._ for you, Col. 4:13.
 they are all _z._ of the law, Acts 21:20.  
 and Paul was _z._ towards God, Acts 22:3; Gal. 1:14.  
 are _z._ of spiritual gifts, 1 Cor. 14:12.  
-_z._ of good works, Titus 2:14.  
+_z._ of good works, Tit. 2:14.  
 be _z._ therefore and repent, Rev. 3:19.  
 

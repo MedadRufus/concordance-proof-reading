@@ -35,9 +35,10 @@ ABBR_REPLACEMENTS = {
     "Deut.": "Deu.", "De.": "Deu.", "Esther":"Esth.",
     "1 Kings": "1 Ki.", "2 Kings": "2 Ki.", "1 Kin.": "1 Ki.", "2 Kin.": "2 Ki.",
     "1 Chron.": "1 Chr.", "2 Chron.": "2 Chr.",
-    "Isa.": "Is.", "Ezek.": "Eze.", "Ez.": "Eze.", 
+    "Isa.": "Is.", "Ezek.": "Eze.", "Ez.": "Eze.",
+    "Ho.": "Hos.",
     "Cant.": "Song", "Mic.": "Micah",
-    "Lu.": "Lk.", "Nu.":"Num.",
+    "Lu.": "Lk.", "Luk.":"Lk.","Nu.":"Num.",
     "Pr.": "Prov.", "Ec.": "Eccl.",
     "Ju.": "Judg.",
     "Jud.": "Judg.",
@@ -45,6 +46,8 @@ ABBR_REPLACEMENTS = {
     "2 Sa.": "2 Sam.",
     "Am.": "Amos",
     "Mat.": "Mt.",
+    "Ro.": "Rom.",
+    "Titus": "Tit."
 }
 
 
