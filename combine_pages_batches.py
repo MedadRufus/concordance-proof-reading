@@ -120,12 +120,71 @@ def combine_page_batch(page_numbers, temp_dir, output_name="combined_pages.jpg",
     if base_output_name.endswith(('.jpg', '.png')):
         base_output_name = base_output_name.rsplit('.', 1)[0]
     
-    # Save as JPEG
+    # # Save as JPEG
     jpg_output = f"{base_output_name}.jpg"
-    combined_image.save(jpg_output, 'JPEG', quality=95, optimize=True)
-    print(f"✓ Saved to {jpg_output}")
+    # combined_image.save(jpg_output, 'JPEG', quality=95, optimize=True)
+    # print(f"✓ Saved to {jpg_output}")
+    
+    # # Save as PNG (full resolution)
+    # png_output = f"{base_output_name}.png"
+    # combined_image.save(png_output, 'PNG')
+    # print(f"✓ Saved to {png_output}")
+    
+    # Export individual pages at full original resolution
+    export_individual_pages_at_full_resolution(page_numbers, temp_dir, dpi)
     
     return jpg_output
+
+def export_individual_pages_at_full_resolution(page_numbers, temp_dir, dpi=300):
+    """
+    Export individual pages at full original resolution as image files.
+    
+    Args:
+        page_numbers: List of page numbers to export
+        temp_dir: Path to temporary directory containing extracted PDFs
+        dpi: Resolution in dots per inch for full resolution export
+    """
+    print(f"Exporting individual pages at full resolution (dpi={dpi}) as image files...")
+    
+    # Create directory for individual pages
+    individual_dir = "individual_pages"
+    Path(individual_dir).mkdir(exist_ok=True)
+    
+    # Process each page number
+    for page_num in page_numbers:
+        # Find all PDFs matching the page number pattern
+        medad_dir = Path(temp_dir) / ZIP_FILE_NAME
+        page_files = sorted(medad_dir.glob(f"{page_num}.*")) + sorted(medad_dir.glob(f"{page_num}"))
+        # Filter to only files (not directories)
+        page_files = [f for f in page_files if f.is_file()]
+        
+        if not page_files:
+            print(f"  Warning: No PDFs found for page {page_num}")
+            continue
+        
+        print(f"  Found {len(page_files)} PDF(s) for page {page_num}")
+        
+        # Convert each PDF page to image and save
+        for i, pdf_file in enumerate(page_files):
+            print(f"    Converting {pdf_file.name}...")
+            pdf_images = pdf2image.convert_from_path(str(pdf_file), dpi=dpi)
+            
+            # Save each image from the PDF
+            for j, img in enumerate(pdf_images):
+                # Create filename with page number and sub-page identifier
+                if len(page_files) == 1 and len(pdf_images) == 1:
+                    # Single file, single page
+                    filename = f"{individual_dir}/page_{page_num}.jpg"
+                elif len(page_files) == 1:
+                    # Single file, multiple pages
+                    filename = f"{individual_dir}/page_{page_num}_part_{j+1}.jpg"
+                else:
+                    # Multiple files, potentially multiple pages each
+                    filename = f"{individual_dir}/page_{page_num}_{i+1}_{j+1}.jpg"
+                
+                # Save as JPEG (high quality)
+                img.save(filename, 'JPEG', quality=95, optimize=True)
+                print(f"      Saved to {filename}")
 
 def combine_all_batches(zip_path, batch_size=4, dpi=150, output_dir="output", start_page=1):
     """
@@ -183,5 +242,5 @@ def combine_all_batches(zip_path, batch_size=4, dpi=150, output_dir="output", st
         print("Done!")
 
 if __name__ == "__main__":
-    zip_path = f"input/{ZIP_FILE_NAME}.zip"
-    combine_all_batches(zip_path, batch_size=2, dpi=300, output_dir="output", start_page=1)
+    zip_path = f"/media/medad/Data/concordance_digitise/{ZIP_FILE_NAME}.zip"
+    combine_all_batches(zip_path, batch_size=1, dpi=300, output_dir="output", start_page=80)
