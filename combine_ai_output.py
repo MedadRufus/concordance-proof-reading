@@ -35,7 +35,7 @@ ABBR_REPLACEMENTS = {
     "Deut.": "Deu.", "De.": "Deu.",
     "1 Kings": "1 Ki.", "2 Kings": "2 Ki.", "1 Kin.": "1 Ki.", "2 Kin.": "2 Ki.",
     "1 Chron.": "1 Chr.", "2 Chron.": "2 Chr.",
-    "Isa.": "Is.", "Ezek.": "Eze.",
+    "Isa.": "Is.", "Ezek.": "Eze.", "Ez.": "Eze.", 
     "Cant.": "Song", "Mic.": "Micah",
     "Lu.": "Lk.",
     "Pr.": "Prov.", "Ec.": "Eccl.",

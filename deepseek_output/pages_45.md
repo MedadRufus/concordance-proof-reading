@@ -345,4 +345,4 @@ he who now letteth will _l._, 2 Thess. 2. 7.
 not of _l._ but of the Spirit, 2 Cor 3. 6.  
 _l._ I have written, Gal. 6. 11.  
 
-**LETTERS.**—How know. this man _l._, Jn. 7. 15.
+**LETTERS.**—How know. this man _l._, Jn. 7. 15.  

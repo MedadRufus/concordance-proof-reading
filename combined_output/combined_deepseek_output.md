@@ -1,4 +1,4 @@
-**ABASE.**— _a._ him that is high, Ez. 21:26.  
+**ABASE.**— _a._ him that is high, Eze. 21:26.  
 walk in pride, is able to _a._, Dan. 4:37.  
 
 **ABASED.**— Exalt himself shall be _a._, Mt. 23:12; Lk. 14:11, 18:14.  
@@ -138,7 +138,7 @@ cause Jerus. to know her _a._, Eze. 16:2.
 these _a._ shall surely die, Eze. 18:13.  
 cast away _a._ of eyes, Eze. 20:7.  
 shew her all her _a._, Eze. 22:2.  
-desolate because of their _a._, Ez. 33:29.  
+desolate because of their _a._, Eze. 33:29.  
 let it suffice of _a._, Eze. 44:6.  
 _a._ from between his teeth, Zech. 9:7.  
 golden cup full of _a._, Rev. 17:4.  
@@ -1144,7 +1144,7 @@ took them up in his _a._, Mk. 10:16.
 **ARMED.**— He goeth to meet _a._ men, Job 39:21.  
 a strong man _a._, Lk. 11:21.  
 
-**ARMY.**— Exceeding great _a._, Ez. 37:10.  
+**ARMY.**— Exceeding great _a._, Eze. 37:10.  
 number of _a._ of horsemen, Rev. 9:16.  
 
 **ARMIES.**— I defy _a._ of Is., 1 Sam. 17:10.  
@@ -1375,7 +1375,7 @@ deputy believed, being _a._, Acts 13:12.
 **ASTONISHMENT.**— Smite with _a._, Deu. 28:28, 37.  
 to drink the wine of _a._, Ps. 60:3.  
 _a._ hath taken hold, Jer. 8:21.  
-I will make them an _a._, Jer. 25:9, 18; Ez. 5:15.  
+I will make them an _a._, Jer. 25:9, 18; Eze. 5:15.  
 filled with cup of _a._, Eze. 23:33.  
 
 **ATHIRST.**— Mt. 25:44; Rev. 21:6, 22:17.  
@@ -5642,7 +5642,7 @@ of first-fruits of his _c._, Jas. 1:18.
 **CREEP.**— Beasts of forest _c._ forth, Ps. 104:20.  
 of this sort _c._ into houses, 2 Tim. 3:6.  
 
-**CREEPING.**— _c._ things, Ps. 104:25; Ez. 8:10; Ho. 2:18; Hab. 1:14; Ac. 10:12, 11:6.  
+**CREEPING.**— _c._ things, Ps. 104:25; Eze. 8:10; Ho. 2:18; Hab. 1:14; Ac. 10:12, 11:6.  
 
 **CREPT.**— _c._ in unawares, Jude 4.  
 
@@ -6327,7 +6327,7 @@ _d._ us from evil, Mt. 6:13; Lk. 11:4.
 let him _d._ him now, if he, Mt. 27:43.  
 to _d._ such an one to Satan, 1 Cor. 5:5.  
 might _d._ from this evil world, Gal. 1:4.  
-L. knoweth how to _d._ godly, 2 Pet. 2:9.   
+L. knoweth how to _d._ godly, 2 Pet. 2:9.  
 
 **DELIVERANCE.**— Save by a great _d._, Gen. 45:7; 1 Chr. 11:14; Ps. 18:50.  
 me to preach _d._ to captives, Lk. 4:18.  
@@ -9896,7 +9896,7 @@ pray _f._ be not in winter, Mt. 24:20.
 thou that leadest Joseph like _f._, Ps. 80:1.  
 the footsteps of the _f._, Song 1:8.  
 ye eat fat, but feed not _f._, Eze. 34:3.  
-the _f._ of my pasture are men, Ez. 34:31.  
+the _f._ of my pasture are men, Eze. 34:31.  
 though the _f._ shall be cut off, Hab. 3:17.  
 will feed _f._ of slaughter, Zech. 11:4, 7.  
 fear not, little _f._, it is your F., Lk. 12:32.  
@@ -10655,7 +10655,7 @@ I will execute _f._ on heathen, Micah 5:15.
 **FURIOUS.**—He driveth _f._, 2 Ki. 9:20.  
 with _f._ man thou sh. not go, Prov. 22:24.  
 _f._ man aboundeth in trans., Prov. 29:22.  
-execute judgments in _f._ reb., Ez. 5:15, 25.  
+execute judgments in _f._ reb., Eze. 5:15, 25.  
 Lord revengeth and is _f._, Nah. 1:2.  
 
 **FURNACE.**—Smoking _f._, Gen. 15:17.  
@@ -11100,7 +11100,7 @@ people have changed _g.,_ Jer. 2:11.
 might be to me for a _g.,_ Jer. 13:11.  
 saying, ah his _g.,_ Jer. 22:18.  
 is the _g._ of all lands, Eze. 20:6, 15.  
-whom art thou thus like in _g.,_ Ez. 31:18.  
+whom art thou thus like in _g.,_ Eze. 31:18.  
 change their _g._ into shame, Hos. 4:7.  
 _g._ of latter house, Hag. 2:9.  
 I will be _g._ in midst of her, Zech. 2:5.  
@@ -11843,7 +11843,7 @@ _h._ ye that are far off, Is. 33:13.
 earth _h._, and all that is therein, Is. 34:1.  
 _h._, and your soul shall live, Is. 55:3.  
 are yet speaking, I will _h._, Is. 65:24.  
-he that heareth, let him _h._, Ez. 3:27.  
+he that heareth, let him _h._, Eze. 3:27.  
 hearing ye shall _h._, Mt. 13:14; Acts 28:26.  
 to _h._ things ye _h._, Mt. 13:17; Lk. 10:24.  
 if he will not _h._ thee, then, Mt. 18:16.  
@@ -11969,7 +11969,7 @@ I will give a _h._ to know me, Jer. 24:7.
 stony _h._, Eze. 11:19.  
 make a new _h._, Eze. 18:31.  
 I will give you an _h._ of flesh, Eze. 36:26.  
-uncircum. in _h._, Ez. 44:7, 9; Acts 7:51.  
+uncircum. in _h._, Eze. 44:7, 9; Acts 7:51.  
 _h._ of fathers the _h._ of chil., Mal. 4:6.  
 there will your _h._ be also, Mt. 6:21.  
 out of _h._ proceed, Mt. 15:19; Mk. 7:21.  
@@ -14791,7 +14791,8 @@ he who now letteth will _l._, 2 Thess. 2:7.
 not of _l._ but of the Spirit, 2 Cor 3:6.  
 _l._ I have written, Gal. 6:11.  
 
-**LETTERS.**—How know. this man _l._, Jn. 7:15.
+**LETTERS.**—How know. this man _l._, Jn. 7:15.  
+
 _l._ of commendation, 2 Cor. 3:1.  
 _l._ are weighty and powerful, 2 Cor. 10:10.  
 
@@ -17547,7 +17548,7 @@ take up a _p._ against you, Micah 2:4,
 without a _p._ spake he not, Mt. 13:34.  
 speakest thou this _p._ to us? Lu.12:41.  
 
-**PARABLES.**—Not speak _p._? Ez. 20:49.  
+**PARABLES.**—Not speak _p._? Eze. 20:49.  
 spake many things in _p._, Matt, 13:3.  
 how will ye know all _p._? Mk. 4, 13.  
 
@@ -17833,7 +17834,7 @@ say to Zion, thou art my _p._, Is. 51:16.
 surely they are my _p._, Is. 63:8.  
 a _p._ that provoketh me, Is. 65:3.  
 _p._ from north, Jer. 6:22, 50:41.  
-be my _p._, Jer. 24:7, 31:1, 33:38; Ez. 11:20, 36:28, 37:27; Zech. 8:8.  
+be my _p._, Jer. 24:7, 31:1, 33:38; Eze. 11:20, 36:28, 37:27; Zech. 8:8.  
 like _p._ like priest, Hos. 4:9.  
 _p._ prepared for Lord, Lk. 1:17.  
 to take out of them a _p._, Acts 15:14.  
@@ -20035,7 +20036,7 @@ gifts for the _r._, Ps. 68:18.
 woe to _r._ children, saith Lord, Is. 30:1.  
 spread hands to _r._ people, Is. 65:2.  
 this people hath a _r._ heart, Jer. 5:23.  
-_r._ house, Ez. 2:5, 6, 7, 3:9, 26, 27, 12:2, 3.  
+_r._ house, Eze. 2:5, 6, 7, 3:9, 26, 27, 12:2, 3.  
 
 **REBUKE.**—Lord shall send _r._, Deu. 28:20.  
 this is day of _r._, 2 Ki. 19:3; Is. 37:3.  
@@ -20707,8 +20708,8 @@ let it _r._ thee concerning, Ps. 90:13.
 Lord hath sworn, and will not _r._, Ps. 110:4; Heb. 7:21.  
 I purposed it, will not _r._, Jer. 4:28.  
 nation turn, _r._ of evil, Jer. 18:8, 26:13.  
-_r._ and turn yourselves, Ez. 14:6, 18:30.  
-neither spare, neither will _r._, Ez. 24:14.  
+_r._ and turn yourselves, Eze. 14:6, 18:30.  
+neither spare, neither will _r._, Eze. 24:14.  
 if he will return and _r._, Joel 2:14.  
 John preached, saying _r._, Mt. 3:2.  
 _r._ ye, and believe gospel, Mk. 1:15.  
@@ -21747,7 +21748,7 @@ more ruddy than _r._, Lam. 4:7.
 
 **RUIN.**— Who knoweth the _r.?_ Prov. 24:22.  
 made of a defenced city, a _r._, Is. 25:2.  
-iniquity shall not be your _r._, Ez. 18:30.  
+iniquity shall not be your _r._, Eze. 18:30.  
 _r._ of that house was great, Lk. 6:49.  
 
 **RULE.**— _r._ the raging of sea, Ps. 89:9.  
@@ -21894,7 +21895,7 @@ spiritual _s._, 1 Pet. 2:5.
 **SACRILEGE.**— Rom. 2:22.  
 
 **SAD.**— Thy countenance _s.?_ Neh. 2:2.  
-_s._ whom I have not made _s._, Ez. 13:22.  
+_s._ whom I have not made _s._, Eze. 13:22.  
 as ye walk, and are _s._, Lk. 24:17.  
 
 **SADNESS.**— By _s._ of countenance, Eccl. 7:3.  
@@ -22048,7 +22049,7 @@ G. shall be _s._ in righteousness, Is. 5:16.
 my _s._ ones, Is. 13:3.  
 I _s._ thee, and ordained thee, Jer. 1:5.  
 be _s._ in you, Eze. 20:41, 28:22, 36:23.  
-_s._ in sight of heathen, Ez. 38:23, 39:27.  
+_s._ in sight of heathen, Eze. 38:23, 39:27.  
 him, whom the Father _s._, Jn. 10:36.  
 that they also might be _s._, Jn. 17:19.  
 being _s._ by Holy Ghost, Rom. 15:16.  
@@ -22277,7 +22278,7 @@ a nation _s._ and peeled, Is. 18:2.
 ye have _s._ my flocks, Jer. 23:2.  
 he that _s._ Israel will gather, Jer. 31:10.  
 Israel is a _s._ sheep, Jer. 50:17.  
-flock _s._ because no shepherd, Ez. 34:5.  
+flock _s._ because no shepherd, Eze. 34:5.  
 _s._ as sheep having no shep., Mt. 9:36.  
 _s._ proud in imagination, Lk. 1:51.  
 ye shall be _s._, Jn. 16:32.  
@@ -22579,7 +22580,7 @@ _s._ ye the Lord, while Is. 55:6.
 yet they _s._ me daily, Is. 58:2.  
 ye shall _s._ me, and find me, Jer. 29:13.  
 great things? _s._ them not, Jer. 45:5.  
-I will _s._ that which was lost, Ez. 34:16.  
+I will _s._ that which was lost, Eze. 34:16.  
 unto God, to _s._ my prayer, Dan. 9:3.  
 _s._ me and ye shall live, Amos 5:4.  
 _s._ good and not evil, Amos 5:14.  
@@ -23030,8 +23031,8 @@ shall feed his flock like a s., Is. 40:11.
 L. saith of Cyrus, he is my s., Is. 44:28.  
 keep him as s. doth flock, Jer. 31:10.  
 because no s., Eze. 34:5, 8; Zech. 10:2.  
-s. seeketh out flock, sheep, Ez. 34:12.  
-I will set up one s. over them, Ez. 34:23.  
+s. seeketh out flock, sheep, Eze. 34:12.  
+I will set up one s. over them, Eze. 34:23.  
 as s. taketh out of mouth of, Amos 3:12.  
 woe to idle s., Zech. 11:17.  
 S. giveth life for his sheep, Jn. 10:11.  
@@ -29024,7 +29025,7 @@ why tarry _w._ of chariots? Judg. 5:28.
 their _w._ like a whirlwind, Is. 5:28.  
 and at the rumbling of his _w._, Jer. 47:3.  
 the appearance of the _w._, Eze. 1:16.  
-_w._ were beside them, Ez. 10:19, 11:22.  
+_w._ were beside them, Eze. 10:19, 11:22.  
 noise of rattling of the _w._, Nah. 3:2.  
 
 **WHEP.**— If I _w._ myself, Deu. 32:41.  

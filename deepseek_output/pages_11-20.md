@@ -3118,7 +3118,7 @@ _d._ us from evil, Matt. 6. 13; Luke 11. 4.
 let him _d._ him now, if he, Matt. 27. 43.  
 to _d._ such an one to Satan, 1 Cor. 5. 5.  
 might _d._ from this evil world, Gal. 1. 4.  
-L. knoweth how to _d._ godly, 2 Pet. 2. 9.   
+L. knoweth how to _d._ godly, 2 Pet. 2. 9.  
 
 **DELIVERANCE.**— Save by a great _d._, Gen. 45. 7; 1 Chr. 11. 14; Ps. 18. 50.  
 me to preach _d._ to captives, Luke 4. 18.  
