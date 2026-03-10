@@ -1,4 +1,4 @@
-_l.__ of commendation, 2 Cor. 3. 1.  
+_l._ of commendation, 2 Cor. 3. 1.  
 _l._ are weighty and powerful, 2 Cor. 10.10.  
 
 **LEVIATHAN.** —Job 41,1; Ps. 74 14, 104. 26; Isa. 27. 1.  
