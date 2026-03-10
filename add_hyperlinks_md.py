@@ -96,28 +96,44 @@ def convert_markdown_to_html(md_path, html_path):
     
     paragraphs = []
     current_root_word = None
+    current_paragraph_content = ""
     
     for line in md_content.split('\n'):
         line = line.strip()
         if not line:
+            # Skip empty lines but preserve structure
             continue
         
         # Check for root word heading
         if match := re.match(r'\*\*([A-Z][A-Z\-]+)\.\*\*', line):
+            # Save previous paragraph if exists
+            if current_paragraph_content:
+                paragraphs.append(current_paragraph_content)
+                current_paragraph_content = ""
+            
             current_root_word = match.group(1)
             # Convert markdown formatting
             line = re.sub(r'\*\*([^*]+)\*\*', r'<strong>\1</strong>', line)
             line = re.sub(r'_([^_]+)_', r'<em>\1</em>', line)
             # FIXED: Also process Bible references in heading lines!
             line = process_line_references(line, verses, current_root_word)
-            paragraphs.append(line)
+            current_paragraph_content = line
         else:
             # Convert markdown formatting
             line = re.sub(r'\*\*([^*]+)\*\*', r'<strong>\1</strong>', line)
             line = re.sub(r'_([^_]+)_', r'<em>\1</em>', line)
             # Process Bible references
             line = process_line_references(line, verses, current_root_word)
-            paragraphs.append(line)
+            
+            # Add to current paragraph content
+            if current_paragraph_content:
+                current_paragraph_content += "<br>" + line  # Use <br> for line breaks
+            else:
+                current_paragraph_content = line
+    
+    # Don't forget the last paragraph
+    if current_paragraph_content:
+        paragraphs.append(current_paragraph_content)
     
     style = """
         body { font-family: Arial, sans-serif; line-height: 1.6; margin: 10em; }
