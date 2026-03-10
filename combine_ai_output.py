@@ -39,6 +39,12 @@ ABBR_REPLACEMENTS = {
     "Cant.": "Song", "Mic.": "Micah",
     "Lu.": "Lk.", "Nu.":"Num.",
     "Pr.": "Prov.", "Ec.": "Eccl.",
+    "Ju.": "Judg.",
+    "Jud.": "Judg.",
+    "1 Sa.": "1 Sam.",
+    "2 Sa.": "2 Sam.",
+    "Am.": "Amos",
+    "Mat.": "Mt.",
 }
 
 
