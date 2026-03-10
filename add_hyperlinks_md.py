@@ -92,7 +92,7 @@ def process_line_references(line, verses, root_word):
     # Highlight standalone numbers as potential transcription errors
     line_with_highlights = re.sub(
         r'\b\d+\b',
-        r'<span class="transcription-error">\g<0> [TRANSCRIPTION ERROR]</span>',
+        r'<span class="transcription-error">\g<0> [NUMBER NOT REF]</span>',
         line_with_placeholders
     )
     
