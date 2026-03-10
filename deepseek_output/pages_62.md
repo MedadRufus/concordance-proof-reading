@@ -191,7 +191,7 @@ but they _r._ to hearken, Zech. 7. 11.
 Moses whom they _r._ saying, Acts 7. 35.  
 and nothing to be _r._, 1 Tim. 4. 4.  
 Moses _r._ to be called son, Heb. 11. 24.  
-_r._ him that spake on earth, Heb. 12. 25.
+_r._ him that spake on earth, Heb. 12. 25.  
 
 **REGARD.**—Not _r._ vain words, Ex. 5. 9.  
 let not God _r._ it from above, Job 3. 4.  
@@ -219,9 +219,9 @@ thou hast _r._ knowledge, Hos. 4. 6.
 ye _r._ command, of God, Mark 7. 9.  
 _r._ counsel of God, Luke 7. 30.  
 first be _r._ of this generation, Lu. 17. 25.  
-after second admonition _r._, Tit. 3. 10.
-that beareth thorns is _r._, Heb. 6. 8.
-inherited blessing was _r._, Heb. 12. 17.
+after second admonition _r._, Tit. 3. 10.  
+that beareth thorns is _r._, Heb. 6. 8.  
+inherited blessing was _r._, Heb. 12. 17.  
 
 **REIGN.**—Thou _r._ over us? Gen. 37. 8.  
 shall _r._ for ever, Ex. 15. 18; Ps. 146. 10  
@@ -321,4 +321,4 @@ _r._ in the Lord alway, Phil. 4. 4.
 _r._ evermore, 1 Thess. 5. 16.  
 ye _r._ with joy unspeakable, 1 Pet. 1. 8.  
 _r._ ye heavens, Rev. 12. 12.  
-_r._ over her, thou heaven, Rev. 18. 20.
+_r._ over her, thou heaven, Rev. 18. 20.  

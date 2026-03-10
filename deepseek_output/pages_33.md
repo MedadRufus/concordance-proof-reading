@@ -8,7 +8,9 @@ a _f._ man soweth strife, Prov. 16. 28.
 _f._ heart findeth no good, Prov. 17. 20.  
 the way of a man is _f._, Prov. 21. 8.  
 serv., be subject to _f._, 1 Pet. 2. 18.  
+
 **FROWARDNESS.**—_f._ is in his heart, Pr. 6. 14.  
+
 **FRUIT.**—Shewed _f._ of land, Num. 13. 26.  
 _f._ of thy body, Deut. 28. 4, 11, 18.  
 should I forsake my _f._? Judg. 9. 11.  
@@ -49,18 +51,23 @@ peaceable _f._ of righteousness, Heb. 12. 11.
 _f._ of righteous, sown in peace, Jas. 3. 18.  
 _f._ withereth, without _f._, Jude 12.  
 yield her _f._ every month, Rev. 22. 2.  
+
 **FRUITFUL.**—Be _f._ and, Gen. 1. 22.  
 gave rain and _f._ seasons, Acts 14. 17.  
 _f._ in every good work, Col. 1. 10.  
+
 **FRUITS.**—_f._ meet for repentance, Matt. 3. 8; Luke 3. 8.  
 shall know them by _f._, Matt. 7. 16, 20.  
 _f._ of righteousness, 2 Cor. 9. 10; Phil. 1. 11.  
 first partaker of the _f._, 2 Tim. 2. 6.  
 full of good _f._, Jas. 3. 17.  
 twelve manner of _f._, Rev. 22. 2.  
+
 **FRUSTRATE.**—Ezra 4. 5; Isa. 44. 25.  
 I do not _f._ the grace of God, Gal. 2. 21.  
+
 **FUEL.**—Isa. 9. 5, 19; Ezek. 15. 4, 21. 32.  
+
 **FULFIL.**—_f._ all thy petitions, Ps. 20. 5.  
 _f._ desire of them fear him, Ps. 145. 19.  
 to _f._ all righteousness, Matt. 3. 15.  
@@ -68,12 +75,15 @@ and so _f._ the law of Christ, Gal. 6. 2.
 _f._ ye my joy, Phil. 2. 2.  
 _f._ good pleasure of his will, 2 Thess. 1. 11.  
 if ye _f._ the royal law, Jas. 2. 8.  
+
 **FULFILLED.**—Till all be _f._, Matt. 5. 18.  
 until times of Gentiles be _f._, Lu. 21. 24.  
 righteousness of law be _f._ in us, Rom. 8. 4.  
 loveth another hath _f._ law, Rom. 13. 8.  
+
 **FULFILLING.**—_f._ his word, Ps. 148. 8.  
 love is the _f._ of the law, Rom. 13. 10.  
+
 **FULL.**—I went out _f._ and, Ruth 1. 21.  
 I am _f._ of matter, Job 32. 18.  
 _f._ of majesty, Ps. 29. 4.  
@@ -92,7 +102,9 @@ now ye are _f._, 1 Cor. 4. 8.
 I am instructed to be _f._, Phil. 4. 12.  
 I am _f._, Phil. 4. 18.  
 *fuller*.—Mal. 3. 2; Mark 9. 3.  
+
 **FULLY.**—_f._ set to do evil, Eccl. 8. 11.  
+
 **FULNESS.**—Of his _f._ have we received, John 1. 16.  
 much more their _f._? Rom. 11. 12.  
 _f._ of the Gentiles be come, Rom. 11. 25.  
@@ -102,6 +114,7 @@ _f._ of him that filleth all in all, Eph. 1. 23.
 filled with all _f._ of God, Eph. 3. 19.  
 in him should all _f._ dwell, Col. 1. 19.  
 in him dwelleth _f._ of Godhead, Col. 2. 9.  
+
 **FURY.**—_f._ is not in me, Isa. 27. 4.  
 _f._ of the Lord, Isa. 51. 20; Jer. 6. 11.  
 will repay _f._ to adversaries, Isa. 59. 18.  
@@ -110,11 +123,13 @@ I will fight against you in _f._, Jer. 21. 5.
 cause my _f._ to rest, Ezek. 5. 13, 21. 17.  
 will I accomplish my _f._, Ezek. 6. 12.  
 I will execute _f._ on heathen, Mic. 5. 15.  
+
 **FURIOUS.**—He driveth _f._, 2 Kin. 9. 20.  
 with _f._ man thou sh. not go, Pr. 22. 24.  
 _f._ man aboundeth in trans., Pr. 29. 22.  
 execute judgments in _f._ reb., Ez. 5. 15, 25.  
 Lord revengeth and is _f._, Nah. 1. 2.  
+
 **FURNACE.**—Smoking _f._, Gen. 15. 17.  
 Lord hath taken you out of _f._, Deut. 4. 20.  
 _f._ for gold, Prov. 17. 3, 27. 21.  
@@ -122,12 +137,16 @@ _f._ in Jerusalem, Isa. 31. 9.
 I have chosen in _f._ of affliction, Isa. 48. 10.  
 into midst of fiery _f._, Dan. 3. 6, 11.  
 cast into _f._ of fire, Matt. 13. 42, 50.  
+
 **FURNISH.**—Can God _f._ table in the wilderness? Ps. 78. 19.  
 she hath also _f._ her table, Prov. 9. 2.  
 _f._ unto all good works, 2 Tim. 3. 17.  
+
 **FURROW.**—Thou settlest _f._, Ps. 65. 10.  
 made long _f._, Ps. 129. 3.  
+
 **FURTHERANCE.**—To _f._ of gospel, Phil. 1. 12.  
+
 **GAIN.**—Is it _g._ to him that? Job 22. 3.  
 what hope though he hath _g._? Job 27. 8.  
 and the _g._ than fine gold, Prov. 3. 14.  
@@ -142,15 +161,20 @@ I make _g._ of you? 2 Cor. 12. 17, 18.
 what things were _g._ to me, Phil. 3. 7.  
 supposing _g._ is godliness, 1 Tim. 6. 5.  
 godliness with content. is _g._, 1 Tim. 6. 6.  
+
 **GAINSAYING.**—Rom. 10. 21; Jude 11.  
+
 **GALL.**—His meat is the _g._ of asps, Job 20. 14.  
 gave me _g._ for meat, Ps. 69. 21.  
 water of _g._, Jer. 8. 14, 9. 15.  
 have turned judgment to _g._, Amos 6. 12.  
 mingled with _g._, Matt. 27. 34.  
 art in _g._ of bitterness, Acts 8. 23.  
+
 **GAP.**—Stand in _g._, Ezek. 22. 30.  
+
 **GAPED.**—_g._ upon me, Job 16. 10; Ps. 22. 13.  
+
 **GARDEN.**—As _g._ of Lord, Gen. 13. 10; Isa. 51. 3.  
 _g._ inclosed is my sister, Cant. 4. 12.  
 as a _g._ which hath no water, Isa. 1. 30.  
@@ -159,10 +183,14 @@ the _g._ of God, Ezek. 28. 13, 31. 8.
 like _g._ of Eden, Ezek. 36. 35; Joel 2. 3.  
 where was a _g._, John 18. 1.  
 a _g._, and in _g._ a sepulchre, John 19. 41.  
+
 **GARDENS.**—I made me _g._, Eccl. 2. 5.  
 plant _g._ and eat fruit, Jer. 29. 5, 28.  
+
 **GARDENER.**—Supposing him _g._, Jn. 20. 15.  
+
 **GARLANDS.**—Acts 14. 13.  
+
 **GARMENT.**—Babylonish _g._, Josh. 7. 21.  
 as a _g._ that is moth-eaten, Job 13. 28.  
 I made sackcloth my _g._, Ps. 69. 11.  
@@ -173,6 +201,7 @@ _g._ of praise for spirit of heavi., Isa. 61. 3.
 hem of _g._, Matt. 9. 20, 21.  
 had not wedding _g._, Matt. 22. 11, 12.  
 hating even _g._ spotted by flesh, Jude 23.  
+
 **GARMENTS.**—_g._ are warm, Job 37. 17.  
 part my _g._ among them, Ps. 22. 18.  
 all thy _g._ smell of myrrh, Ps. 45. 8.  
@@ -185,16 +214,20 @@ cast _g._ on colt, Mark 11. 7; Luke 19. 36.
 two men in shining _g._, Luke 24. 4.  
 your _g._ are moth-eaten, Jas. 5. 2.  
 blessed that keepeth his _g._, Rev. 16. 15.  
+
 **GARNER.**—Ps. 144. 13; Joel 1. 17.  
+
 **GARNISH.**—Spirit _g._ heavens, Job 26. 13.  
 swept and _g._, Matt. 12. 44; Luke 11. 25.  
 _g._ sepulchres of righteous, Matt. 23. 29.  
+
 **GATE.**—Possess _g._ of enem., Gen. 22. 17.  
 this is the _g._ of heaven, Gen. 28. 17.  
 this _g._ of the Lord, Ps. 118. 20.  
 strait _g._ wide _g._, Matt. 7. 13; Lu. 13. 24.  
 suffered without _g._, Heb. 13. 12.  
 at beautiful _g._, Acts 3. 10.  
+
 **GATES.**—Lift up your heads, ye _g._, Ps. 24. 7, 9.  
 Lord loveth the _g._ of Zion, Ps. 87. 2.  
 he hath broken _g._ of brass, Ps. 107. 16.  
@@ -206,6 +239,7 @@ go through the _g._, Isa. 62. 10.
 _g._ of hell shall not prevail, Matt. 16. 18.  
 city had twelve _g._, Rev. 21. 12.  
 _g._ shall not be shut, Rev. 21. 25.  
+
 **GATHER.**—Will _g._ thee from all nations, Deut. 30. 3.  
 _g._ thee to fathers, 2 Kings 22. 20; 2 Chr. 34. 28.  
 if he _g._ together, Job 11. 10.  
@@ -223,6 +257,7 @@ I _g._ where I not strawed, Matt. 25. 26.
 _g._ fragments that remain, John 6. 12.  
 shall _g._ toget. in one, Jn. 11. 52; Eph. 1. 10.  
 men _g._ them and cast them, John 15. 6.  
+
 **GATHERED.**—_g._ much, Ex. 16. 18; 2 Cor. 8. 15.  
 he _g._ them out of lands, Ps. 107. 3.  
 and _g._ of every kind, Matt. 13. 47.  
@@ -230,7 +265,9 @@ two or three are _g._ together, Matt. 18. 20.
 how often would I have _g._, Matt. 23. 37.  
 before him be _g._ all nations, Matt. 25. 32.  
 _g._ together against Lord, Acts 4. 26.  
+
 **GATHERER.**—_g._ of sycam.-fr., Amos 7. 14.  
+
 **GATHERETH.**—_g._ waters of sea, Ps. 33. 7.  
 heart _g._ iniquity to itself, Ps. 41. 6.  
 _g._ outcasts of Is., Ps. 147. 2; Isa. 56. 8.  
@@ -238,9 +275,11 @@ _g._ her food in harvest, Prov. 6. 8.
 he that _g._ in summer is wise son, Pr. 10. 5.  
 he that _g._ not scattereth, Matt. 12. 30.  
 hen _g._ her chickens under, Matt. 23. 37.  
+
 **GATHERING.**—_g._ of people, Gen. 49. 10.  
 _g._ where hast not strawed, Matt. 25. 24.  
 there be no _g._ when I come, 1 Cor. 16. 2.  
+
 **GAVE.**—The Lord _g._ and the Lord, Job 1. 21.  
 who _g._ thee this authority? Matt. 21. 23.  
 God _g._ his only begotten Son, John 3. 16.  
@@ -248,12 +287,17 @@ first _g._ ourselves to Lord, 2 Cor. 8. 5.
 _g._ himself for sins, Gal. 1. 4; Titus 2. 14.  
 _g._ himself for me, Gal. 2. 20.  
 Christ _g._ himself for church, Eph. 5. 25.  
+
 **GAVEST.**—Life, thou _g._ it, Ps. 21. 4.  
 those thou _g._ me I have kept, Jn. 17. 12.  
+
 **GAZING.**—Why stand ye _g._? Acts 1. 11.  
+
 **GENDER.**—Bull _g._ and fail. not, Job 21. 10.  
 hoar frost, who hath _g._ it? Job 38. 29.  
+
 **GENEALOGIES.**—Give no heed to _g._, 1 Tim. 1. 4; Titus 3. 9.  
+
 **GENERATION.**—Perverse and crooked _g._, Deut. 32. 5.  
 God is in _g._ of the righteous, Ps. 14. 5.  
 this _g._ of them that seek him, Ps. 24. 6.  
@@ -268,6 +312,7 @@ O _g._ of vipers, Matt. 3. 7, 12. 34.
 this _g._ not pass, Matt. 24. 34; Mark 13. 30.  
 save from untoward _g._, Acts 2. 40.  
 ye are a chosen _g._, 1 Pet. 2. 9.  
+
 **GENERATIONS.**—Thoughts of heart to all _g._, Ps. 33. 11.  
 name to be remem. in all _g._, Ps. 45. 17.  
 fear thee throughout all _g._, Ps. 72. 5.  
@@ -276,7 +321,9 @@ thy remembrance to all _g._, Ps. 102. 12.
 commanded to a thousand _g._, Ps. 105. 8.  
 thy memorial through all _g._, Ps. 135. 13.  
 all _g._ shall call me blessed, Luke 1. 48.  
+
 **GENTILE.**—Rom. 2. 9, 10.  
+
 **GENTILES.**—Light to _g._, Isa. 42. 6, 49. 6; Luke 2. 32; Acts 13. 47.  
 the _g._ shall come to thy light, Isa. 60. 3.  
 forces of _g._ shall come to thee, Isa. 60. 5, 11.  
