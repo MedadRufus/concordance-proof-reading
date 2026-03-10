@@ -47,8 +47,13 @@ def create_anchor(abbr, chapter, verse, verse_text, verse_exists, root_word_foun
 
 
 def process_line_references(line, verses, root_word):
-    """Process all Bible references in a line."""
-    def replace_ref(match):
+    """Process all Bible references and highlight transcription errors."""
+    replacements = {}
+
+    def replace_ref_for_storing(match):
+        """Temporarily replace Bible references with a placeholder."""
+        placeholder = f"__REF_{len(replacements)}__"
+        
         abbr = match.group("abbr1") or match.group("abbr2")
         refs_part = match.group("refs1") or match.group("refs2")
         full_book = BOOK_ABBR_TO_FULL.get(abbr, abbr)
@@ -79,9 +84,24 @@ def process_line_references(line, verses, root_word):
             full_verse_text = f"{full_book} {chapter}:{first_verse} (KJV) - {verse_text if verse_exists else 'Reference not found'}"
             anchors.append(create_anchor(abbr, chapter, verse, full_verse_text, verse_exists, root_word_found, i, part, has_colon, single_chapter))
         
-        return ", ".join(anchors)
+        replacements[placeholder] = ", ".join(anchors)
+        return placeholder
+
+    line_with_placeholders = ref_pattern.sub(replace_ref_for_storing, line)
     
-    return ref_pattern.sub(replace_ref, line)
+    # Highlight standalone numbers as potential transcription errors
+    line_with_highlights = re.sub(
+        r'\b\d+\b',
+        r'<span class="transcription-error">\g<0> [TRANSCRIPTION ERROR]</span>',
+        line_with_placeholders
+    )
+    
+    # Restore the Bible references
+    final_line = line_with_highlights
+    for placeholder, replacement in replacements.items():
+        final_line = final_line.replace(placeholder, replacement)
+        
+    return final_line
 
 
 def convert_markdown_to_html(md_path, html_path):
@@ -169,6 +189,14 @@ def convert_markdown_to_html(md_path, html_path):
         }
         .bible-ref:hover::after {
             opacity: 1;
+        }
+        .transcription-error {
+            background-color: #ffe6e6;
+            color: #cc0000;
+            border: 1px solid #cc0000;
+            padding: 0 2px;
+            border-radius: 2px;
+            cursor: help;
         }
         .bible-ref-missing { 
             color: #cc0000; 

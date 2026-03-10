@@ -3743,7 +3743,7 @@ happy people in such a _c._, Ps. 144:15.
 **CAST.**— I will _c._ out the nations, Ex. 34:24; Lev. 18:24, 20, 23; Deu. 7:1.  
 I will not _c._ them away, Lev. 26:44.  
 _c._ how behind their backs, Neh. 9:26.  
-_c._ Pur, that is, the Lot, Esther 3:7, 9:24.  
+_c._ Pur, that is, the Lot, Esth. 3:7, 9:24.  
 God hath power to _c._ down, 2 Chr. 25:8.  
 cow _c._ not her calf, Job 21:10.  
 when men are _c._ down then, Job 22:29.  
@@ -4578,7 +4578,7 @@ to him that weareth gay _c._, Jas. 2:3.
 **CLOUD.**— A pillar of _c._, Ex. 13:21.  
 a _c._ covered the mount, Ex. 24:15, 16.  
 Lord descended in _c._, Ex.34:5; Nu.11:25.  
-Lord in pillar of _c._, Nu. 12:5; Deu. 31:15.  
+Lord in pillar of _c._, Num. 12:5; Deu. 31:15.  
 a little _c._ like a man's hand, 1 Ki. 18:44.  
 the pillar of _c._ departed not, Neh. 9:19.  
 judge through dark _c._, Job 22:13.  
@@ -4992,7 +4992,7 @@ in sin did mother _c._, Ps. 51:5.
 a virgin shall _c._ and, Is. 7:14.  
 _c._ chaff, Is. 33:11; _c._ falsehood, Is. 59:13.  
 
-**CONCEIVED.**— Have I _c._ all this people? Nu. 11:12.  
+**CONCEIVED.**— Have I _c._ all this people? Num. 11:12.  
 _c._ mischief, brought, Ps. 7:14.  
 when lust hath _c._, Jas. 1:15.  
 
@@ -7016,7 +7016,7 @@ is Christ _d._? was Paul, 1 Cor. 1:13.
 rightly _d._ the word of, 2 Tim. 2:15.  
 _d._ asunder of joints, Heb. 4:12.  
 
-**DIVINATION.**— No _d._ against Isr., Nu. 23:23.  
+**DIVINATION.**— No _d._ against Isr., Num. 23:23.  
 possessed with spirit of _d._, Acts 16:16.  
 
 **DIVINE.**— _d._ to me, 1 Sam. 28:8.  
@@ -7492,7 +7492,7 @@ this is whole _d._ of man, Eccl. 12:13.
 done that which was _d._, Lk. 17:10.  
 _d._ to minister, Rom. 15:27.  
 
-**DWELL.**— The people shall _d._ alone, Nu. 23:9.  
+**DWELL.**— The people shall _d._ alone, Num. 23:9.  
 only makest me to _d._ in safety, Ps. 4:8.  
 who shall _d._ in thy holy hill, Ps. 15:1.  
 _d._ in house of the Lord, Ps. 23:6, 27:4.  
@@ -8193,7 +8193,7 @@ hereby know we spirit of _e._, 1 Jn. 4:6.
 ran after the _e._ of Balaam, Jude 11.  
 
 **ESCAPE.**— Let none _e._, 1 Ki. 18:40.  
-think not thou shalt _e._, Esther 4:13.  
+think not thou shalt _e._, Esth. 4:13.  
 the wicked shall not _e._, Job 11:20.  
 shall they _e._ by iniquity? Ps. 56:7.  
 speaketh lies, shall not _e._, Prov. 19:5.  
@@ -10910,7 +10910,7 @@ every good and perfect _g.,_ Jas. 1:17.
 
 **GIFTS.**— Of all _g._ offer best, Num 18:29.  
 with L. is no taking of _g.,_ 2 Chron, 19:7.  
-sending _g._ to the poor, Esther 9, 22.  
+sending _g._ to the poor, Esth. 9, 22.  
 hast received _g._ for men, Ps. 68:18.  
 kings of Sheba shall offer _g.,_ Ps. 72:10.  
 though thou givest many _g.,_ Prov. 6:35.  
@@ -11025,7 +11025,7 @@ meet, we should be _g.,_ Lk. 15:32.
 Abraham saw my day was _g.,_ Jn. 8:56,  
 we are _g._ when we are weak, 2 Cor. 13:9.  
 
-**GLADNESS.**— In day of your _g.,_ Nu. 10:10.  
+**GLADNESS.**— In day of your _g.,_ Num. 10:10.  
 there was very great _g.,_ Neh. 8:17.  
 day of feasting and _g.,_ Esth. 9:17, 18, 19,  
 thou hast put _g._ in my heart, Ps. 4:7.  
@@ -16298,7 +16298,7 @@ because it lacked _m._, Lk. 8:6.
 
 **MOLLIFIED.**—_m._ with oint., Is. 1:6.  
 
-**MOMENT.**—Consume them in a _m._, Nu. 16:21.  
+**MOMENT.**—Consume them in a _m._, Num. 16:21.  
 try him every _m._, Job 7:18.  
 in a _m._ go down to grave, Job 21:13.  
 in a _m._ shall they die, Job 34:20.  
@@ -17487,7 +17487,7 @@ as an _o._ goeth to slaughter, Prov. 7:22.
 better than a stalled _o._, Prov. 15:17.  
 the _o._ knoweth his owner, Is. 1:3.  
 
-**PACIFY.**—Esther 7:10; Prov. 16:14, 21:14; Eccl. 10:4; Eze. 16:63.  
+**PACIFY.**—Esth. 7:10; Prov. 16:14, 21:14; Eccl. 10:4; Eze. 16:63.  
 
 **PAIN.**—_p._, as of woman in travail, Ps. 48:6; Is. 13:8, 26:17; Jer. 6:24, 22:23.  
 are my loins filled with _p._, Isa, 21:3.  
@@ -17924,7 +17924,7 @@ _p._ of waters, of robbers, 2 Cor. 11:26.
 
 **PERISH.**— We _p._, we all _p._, Num. 17:12.  
 a S. ready to _p._ was my father, Deu. 26:5.  
-if I _p._, I _p._, Esther 4:16.  
+if I _p._, I _p._, Esth. 4:16.  
 all flesh shall _p._ together, Job 34:15.  
 lest ye _p._ from way, Ps. 2:12.  
 they _p._ at the rebuke of thy, Ps. 80:16.  
@@ -18026,7 +18026,7 @@ a _p._ tongue falleth, Prov. 17:20.
 _p._ in his ways shall fall, Prov. 28:18.  
 speaking _p._ things, Acts 20:30.  
 
-**PERVERSENESS.**— _p._ in Israel, Nu. 23:21.  
+**PERVERSENESS.**— _p._ in Israel, Num. 23:21.  
 ye trust in _p._, Is. 30:12.  
 
 **PERVERT.**— A gift _p._, Ex. 23:8; Deu. 16:19.  
@@ -18049,7 +18049,7 @@ and there shall be _p._, Mt. 24:7.
 **PESTILENT.**— A _p._ fellow, Acts 24:5.  
 
 **PETITION.**— G. grant thy _p._, 1 Sam. 1:17.  
-what is thy _p.?_ Esther 5:6, 7:2, 9:12.  
+what is thy _p.?_ Esth. 5:6, 7:2, 9:12.  
 the Lord fulfil all thy _p._, Ps. 20:5.  
 we have _p._ we desired, 1 Jn. 5:15.  
 
@@ -19287,7 +19287,7 @@ he that _p._ edifieth church, 1 Cor. 14:4.
 greater he that _p._ than, 1 Cor. 14:5.  
 covet to _p._, 1 Cor. 14:39.  
 
-**PROPHESIED.**—_p._ and did not cease, Nu. 11:25.  
+**PROPHESIED.**—_p._ and did not cease, Num. 11:25.  
 I have not spoken, yet they _p._, Jer. 23:21.  
 Lord, have we not _p._? Mt. 7:22.  
 the prophets _p._ until John, Mt. 11:13.  
@@ -19645,7 +19645,7 @@ hath this hope _p._ himself, 1 Jn. 3:3.
 **PURIFYING.** —Sancti. to _p._ of flesh, Heb. 9:13.  
 hearts by faith, Acts 15:9.  
 
-**PURIM.** —Esther 9:26, 28, 32.  
+**PURIM.** —Esth. 9:26, 28, 32.  
 
 **PURITY.** —1 Tim. 4:12, 5:2.  
 
@@ -20670,11 +20670,11 @@ man _r._ in knowledge, Col. 3:10.
 **RENEWING.**— By _r._ mind, Rom. 12:2.  
 saved us by _r._ of Holy Ghost, Tit. 3:5.  
 
-**RENOWN.**— Men of _r._, Ge. 6:4; Nu. 16:2.  
+**RENOWN.**— Men of _r._, Ge. 6:4; Num. 16:2.  
 thy _r._ went forth, Eze. 16:14.  
 gotten thee _r._, Dan. 9:15.  
 
-**RENOWNED.**— _r._ of congregation, Nu. 1:16.  
+**RENOWNED.**— _r._ of congregation, Num. 1:16.  
 seed of evil-doers never _r._, Is. 14:20.  
 _r._ city, Eze. 26:17.  
 
@@ -20752,7 +20752,7 @@ Judas _r._ himself, Mt. 27:3.
 **REPLIEST.**— That _r._ against G.? Ro. 9:20.  
 
 **REPORT.**— Shalt not raise a false _r._, Ex. 23:1.  
-brought up an evil _r._, Nu. 13:32.  
+brought up an evil _r._, Num. 13:32.  
 it is no good _r._ I hear, 1 Sam. 2:24.  
 a good _r._ maketh fat, Prov. 15:30.  
 who hath believed our _r._? Is. 53:1; Jn. 12:38; Rom. 10:16.  
@@ -20840,7 +20840,7 @@ privately to them of _r._, Gal. 2:2.
 but made himself of no _r._, Phil. 2:7.  
 receive him, hold such in _r._, Phil. 2:29.  
 
-**REQUEST.**— What is thy _r._? Esther 5:3.  
+**REQUEST.**— What is thy _r._? Esth. 5:3.  
 that I might have my _r._, Job 6:8.  
 not withholden _r._ of lips, Ps. 21:2.  
 gave them their _r._, Ps. 106:15.  
@@ -21129,7 +21129,7 @@ we may serve God with _r._, Heb. 12:28.
 **REVEREND.**— Ps. 111:9.  
 
 **REVERSE.**— I cannot _r._, Num. 23:20.  
-no man may _r._, Esther 8:8.  
+no man may _r._, Esth. 8:8.  
 
 **REVILE.**— Blessed when men _r._ you; Mt. 5:11.  
 that passed by _r._ him, Mt. 27:39.  
@@ -23902,7 +23902,7 @@ except their Rock _s._ them, Deu. 32:30.
 he _s._ them to enemies, Judg. 2:14.  
 _s._ thyself to work evil, 1 Ki. 21:20.  
 Isr. _s._ themselves to do evil, 2 Ki. 17:17.  
-we are _s._ I and people, Esther 7:4.  
+we are _s._ I and people, Esth. 7:4.  
 Joseph was _s._ for servant, Ps. 105:17.  
 have ye _s._ yourselves, Is. 50:1.  
 ye _s._ yourselves for nought, Is. 52:3.  
@@ -24568,7 +24568,7 @@ I think I have the _s._ of G., 1 Cor. 7:40.
 _s._ of G. resteth on you, 1 Pet. 4:14.  
 hereby know ye _s._ of G., 1 Jn. 4:2.  
 
-**SPIRITS.**— G. of the _s._, Nu. 16:22, 27:16.  
+**SPIRITS.**— G. of the _s._, Num. 16:22, 27:16.  
 maketh angels _s._, Ps. 104:4; Heb. 1:7.  
 the Lord weigheth the _s._, Prov. 16:2.  
 these are four _s._ of heavens, Zech. 6:5.  
@@ -24952,7 +24952,7 @@ as good _s._ of grace of God, 1 Pet. 4:10.
 
 **STICK.**— Take a _s._ and write, Eze. 37:16, 17.  
 
-**STICKS.**— Gathered _s._ on sabbath, Nu. 15:32.  
+**STICKS.**— Gathered _s._ on sabbath, Num. 15:32.  
 I am gathering two _s._, 1 Ki. 17:12.  
 _s._ whereon thou writest, Eze. 37:20.  
 
@@ -24986,7 +24986,7 @@ peace, be _s._, Mk. 4:39.
 shall be a _s._, Is. 3:24.  
 by this time he _s._, Jn. 11:39.  
 
-**STIR.**— Who shall _s._ him up? Nu. 24:9.  
+**STIR.**— Who shall _s._ him up? Num. 24:9.  
 innocent _s._ himself against, Job 17:8.  
 none is so fierce that dare _s._, Job 41:10.  
 _s._ up thyself, and awake, Ps. 35:23.  
@@ -28138,7 +28138,7 @@ loved _w._ of unrighteous, 2 Pet. 2:15.
 I will _w._ and howl, go stripped, Micah 1:8.  
 kindreds of earth shall _w._, Rev. 1:7.  
 
-**WAILING.**— There was _w._, Esther 4:3.  
+**WAILING.**— There was _w._, Esth. 4:3.  
 a voice of _w._ is heard out of Zion, Jer. 9:19.  
 they shall weep with _w._, Eze. 27:31.  
 _w._ shall be in all, Amos 5:16, 17.  
@@ -28818,7 +28818,7 @@ out of _w._ were made strong, Heb. 11:34.
 Lord giveth thee power to get _w._, Deu. 8:18.  
 a man of _w._, Ruth 2:1.  
 thou hast not asked _w._, 2 Chr. 1:11.  
-seeking _w._ of people, Esther 10:3.  
+seeking _w._ of people, Esth. 10:3.  
 spend their days in _w._, Job 21:13.  
 that trust in their _w._, Ps. 49:6.  
 and leave their _w._ to others, Ps. 49:10.  
@@ -28919,7 +28919,7 @@ she _w._ sore in the night, Lam. 1:2.
 **WEEPING.**— _w._ before door, Num. 25:6.  
 _w._ as they went up, 2 Sam. 15:30.  
 not discern joy from _w._, Ezra 3:13.  
-in every province was _w._, Esther 4:3.  
+in every province was _w._, Esth. 4:3.  
 my face is foul with _w._, Job 16:16.  
 Lord heard voice of my _w._, Ps. 6:8.  
 _w._ may endure for a night, Ps. 30:5.  
