@@ -6900,10 +6900,6 @@ are not thou one of his _d._? Jn. 18:25.
 
 **DISCONTENTED.**— 1 Sam. 22:2.  
 
----  
-
-**File: page_22_1_1.jpg**  
-
 **DISCORD.**— He soweth _d._, Prov. 6:14, 19.  
 
 **DISCOVERED.**— Foundations of the world were _d._, 2 Sam. 22:16; Ps. 18:15.  
@@ -7028,10 +7024,6 @@ both fall into _d._, Mt. 15:14; Lk. 6:39.
 
 **DIVERSITIES.**— 1 Cor. 12:4, 6.  
 
----  
-
-**File: page_22_2_1.jpg**  
-
 **DIVIDE.**— _d._ living child, 1 Ki. 3:25, 26.  
 didst _d._ sea, Neh. 9:11; Ps. 74:13.  
 and _d._ their tongues, Ps. 55:9.  
@@ -7145,13 +7137,6 @@ scripture profitable for _d._, 2 Tim. 3:16.
 will not endure sound _d._, 2 Tim. 4:3.  
 speak things become sound _d._, Tit. 2:1.  
 in _d._ shewing incorruptness, Titus 2:7.  
-After _d._ of men, Col. 2:22.  
-heed to _d._ of devils, 1 Tim. 4:1.  
-not carried with strange _d._, Heb. 13:9.  
-
----  
-
-**File: page_22_3_1.jpg**  
 
 **DOCTRINES.**— After _d._ of men, Col. 2:22.  
 heed to _d._ of devils, 1 Tim. 4:1.  
@@ -7268,10 +7253,6 @@ that sold _d._, Mt. 21:12; Mk. 11:15; Jn. 2:14.
 
 **DRAG.**— Hab. 1:15, 16.  
 
----  
-
-**File: page_23_1_1.jpg**  
-
 **DRAGON.**— _d._ shalt thou trample, Ps. 91:13.  
 cut Rahab and wounded _d._, Is. 51:9.  
 swallowed me up like _d._, Jer. 51:34.  
@@ -7385,10 +7366,6 @@ all to _d._ into one Spirit, 1 Cor. 12:13.
 _d._ no longer water, 1 Tim. 5:23.  
 made all nations _d._ of wine, Rev. 14:8.  
 _d._ of wine of wrath of God, Rev. 14:10.  
-
----  
-
-**File: page_23_2_1.jpg**  
 
 **DRINKETH.**— _d._ iniquity like water, Job 15:16.  
 he _d._ up a river, Job 40:23.  
@@ -7614,6 +7591,7 @@ bow down thine _e._ to me, Ps. 31:2.
 like adder that stoppeth _e._, Ps. 58:4.  
 the _e._ of the wise seeketh, Prov. 18:15.  
 turneth away _e._ from hearing, Prov. 28:9.  
+he wakeneth my _e._ to hear, Is. 50:4.  
 _e._ heavy that it cannot hear, Is. 59:1.  
 their _e._ is uncircumcised, Jer. 6:10.  
 what ye hear in the _e._, Mt. 10:27.  
@@ -7715,10 +7693,6 @@ I was at _e._, Job 16:12, 21:23.
 ye women at _e._, Is. 32:9, 11.  
 woe to them that _e._ in Zion, Amos 6:1.  
 take thine _e._, eat, drink, Lk. 12:19.  
-
----  
-
-**File: page_24_1_1.jpg**  
 
 **EASED.**— What am I? Job 16:6.  
 that other men be _e._, 2 Cor. 8:13.  
@@ -7831,10 +7805,6 @@ ostrich leaveth _e._ earth, Job 39:14.
 ask _e._, will offer scorpion? Lk. 11:12.  
 
 **EIGHT.**— _e._ souls were saved, 1 Pet. 3:20.  
-
----  
-
-**File: page_24_3_1.jpg**  
 
 **ELDER.**— _e._ serve younger, Gen. 25:23; Rom. 9:12.  
 men, much _e._ than father, Job 15:10.  
@@ -8057,6 +8027,124 @@ made me wiser than mine _e._, Ps. 119:98.
 I count them mine _e._, Ps. 139:22.  
 maketh his _e._ be at peace, Prov. 16:7.  
 man's _e._ are of own house, Micah 7:6.  
+saved from our _e._, Lk. 1:71, 74.  
+as concern, gospel, they are _e._, Rom. 11:28.  
+put all _e._ under feet, 1 Cor. 15:25.  
+_e._ of the cross of Christ, Phil. 3:18.  
+_e._ in your mind by wicked, Col. 1:21.  
+till his _e._ be made footstool, Heb. 10:13.  
+
+**ENGAGED.**— Jer. 30:21.  
+
+**ENGRAVE.**— Ex. 28:11; Zech. 3:9; 2 Cor. 3:7.  
+
+**ENJOY.**— Land _e._ her Sabbaths, Lev. 26:34, 43.  
+may _e._ inheritance, Num. 36:8.  
+beget sons, not _e._ them, Deu. 28:41.  
+_e._ pleasure, Eccl. 2:1; _e._ good, Eccl. 2:24.  
+all things to _e._, 1 Tim. 6:17.  
+
+**ENLARGE.**— _e._ my steps, 2 Sam. 22:37; Ps. 18:36.  
+hast _e._ me when in distress, Ps. 4:1.  
+when shalt _e._ my heart, Ps. 119:32.  
+hell hath _e._ herself, Is. 5:14.  
+heart shall fear and be _e._, Is. 60:5.  
+O Cor. our heart is _e._, 2 Cor. 6:11.  
+be ye also _e._, 2 Cor. 6:13.  
+
+**ENLARGETH.**— Who _e._ his desire as hell, Hab. 2:5.  
+
+**ENLIGHTEN.**— L. will _e._ my darkness, Ps. 18:28.  
+lightnings _e._ world, Ps. 97:4.  
+impossible for those once _e._, Heb. 6:4.  
+
+**ENLIGHTENING.**— _e._ the eyes, Ps. 19:8.  
+
+**ENMITY.**— I will put _e._, Gen. 3:15.  
+having slain the _e._ thereby, Eph. 2:16.  
+friendship of world is _e._, Jas. 4:4.  
+
+**ENOUGH.**— I have _e._, Gen. 33:9, 11.  
+it is _e._ Joseph is yet alive, Gen. 45:28.  
+bring much more than _e._, Ex. 36:5.  
+it is _e._, 2 Sam. 24:16; 1 Ki. 19:4; 1 Chr. 21:15; Mk. 14:41; Lk. 22:38.  
+four things, say not it is _e._, Prov. 30:15.  
+fire that saith not, it is _e._, Prov. 30:16.  
+which can never have _e._, Is. 56:11.  
+will destroy till have _e._, Jer. 49:9.  
+_e._ for disciple to be as master, Mt. 10:25.  
+
+**ENQUIRE.**— _e._ of the former age, Job 8:8.  
+and to _e._ in his temple, Ps. 27:4.  
+thou dost not _e._ wisely, Eccl. 7:10.  
+if ye will _e._, ye, Is. 21:12.  
+
+**ENQUIRED.**— _e._ of L., Judg. 20:27; 1 Sam. 23:2.  
+_e._ after mine iniquity, Job 10:6.  
+and _e._ early after God, Ps. 78:34.  
+I will yet for this be _e._ of, Eze. 36:37.  
+not _e._ for the Lord, Zeph. 1:6.  
+
+**ENQUIRY.**— After vows make _e._, Prov. 20:25.  
+
+**ENRICHED.**— _e._ with river of God, Ps. 65:9.  
+every thing ye are _e._, 1 Cor. 1:5.  
+being _e._ in every thing, 2 Cor. 9:11.  
+
+**ENSAMPLE.**— 1 Cor. 10:11; Phil. 3:17; 1 Thess. 1:7; 2 Thess. 3:9; 1 Pet. 5:3; 2 Pet. 2:6.  
+
+**ENSIGN.**— Set up their _e._ for signs, Ps. 74:4.  
+stand for an _e._ to people, Is. 11:10.  
+when he lifteth up an _e._, Is. 18:3.  
+ye be left as _e._ on hill, Is. 30:17; Zech. 9:16.  
+
+**ENSUE.**— Peace, and _e._ it, 1 Pet. 3:11.  
+
+**ENTER.**— _e._ into judgment, Job 22:4.  
+_e._ into gates with thanksgiving, Ps. 100:4.  
+_e._ not into judgment, Ps. 143:2.  
+_e._ into the rock, Is. 2:10.  
+he shall _e._ into peace, Is. 57:2.  
+better to _e._ into life halt, Mt. 18:8, 9; Mk. 9:43, 45, 47.  
+if thou wilt _e._ into life, Mt. 19:17.  
+a rich man to _e._ into kingdom, Mt. 19:24; Mk. 10:25; Lk. 18:25.  
+_e._ into joy of thy L., Mt. 25:21.  
+_e._ not into temptation, Mt. 26:41; Lk. 22:40.  
+many will seek to _e._ in, Lk. 13:24.  
+and to _e._ into his glory? Lk. 24:26.  
+by me if any man _e._ in, Jn. 10:9.  
+grievous wolves shall _e._ in, Acts 20:29.  
+do _e._ into rest, if _e._ rest, Heb. 4:3, 5.  
+_e._ holiest by blood of Jesus, Heb. 10:19.  
+no man able to _e._ temple, Rev. 15:8.  
+_e._ in through gates into city, Rev. 22:14.  
+
+**ENTERED.**— As they _e._ cloud, Lk. 9:34.  
+are _e._ into their labours, Jn. 4:38.  
+by one man sin _e._, Rom. 5:12.  
+nor have _e._ heart of man, 1 Cor. 2:9.  
+_e._ not, because of unbelief, Heb. 4:6.  
+whither forerunner is for us _e._, Heb. 6:20.  
+he _e._ once holy place, Heb. 9:12, 24.  
+
+**ENTERETH.**— _e._ not by door, Jn. 10:1.  
+_e._ in by door, is the shepherd, Jn. 10:2.  
+_e._ into that within veil, Heb. 6:19.  
+
+**ENTERING.**— Promise of _e._, Heb. 4:1.  
+
+**ENTICED.**— Tempted when _e._, Jas. 1:14.  
+
+**ENTICING.**— 1 Cor. 2:4; Col. 2:4.  
+
+**ENTRANCE.**— _e._ of word giveth light, Ps. 119:130.  
+an _e._ be minis., 2 Pet. 1:11.  
+
+**ENVY.**— _e._ slayeth the silly one, Job 5:2.  
+_e._ not the oppressor, Prov. 3:31.  
+_e._ is rottenness of bones, Prov. 14:30.  
+let not heart _e._ sinners, Prov. 23:17.  
+hatred and _e._ is perished, Eccl. 9:6.  
 _e._ of Ephraim shall depart, Is. 11:13.  
 for _e._ they delivered him, Mt. 27:18.  
 moved with _e._, Acts 7:9, 17:5.  
@@ -8171,14 +8259,12 @@ _e._ thy word to thy servant, Ps. 119:38.
 till he _e._ and make Jerusalem, Is. 62:7.  
 _e._ an everlasting covenant, Eze. 16:60.  
 _e._ judgment in the gate, Amos 5:15.  
+yea, we _e._ the law, Rom. 3:31.  
+going about to _e._ own right., Rom. 10:3.  
 _e._ you in every good word, 2 Thess. 2:17.  
 Lord shall _e._ you, 2 Thess. 3:3.  
 _e._ your hearts, Jas. 5:8.  
 God of all grace _e._, 1 Pet. 5:10.  
-
----  
-
-**File: page_26_1_1.jpg**  
 
 **ESTABLISHED.**— Be thy promise _e._, 2 Chr. 1:9.  
 believe in God, so shall be _e._, 2 Chr. 20:20.  
@@ -8284,10 +8370,18 @@ my righteousness be for _e._, Is. 51:8.
 Lord will not cast off for _e._, Lam. 3:31.  
 shine as the stars for _e._ and _e._, Dan. 12:3.  
 walk in name of God for _e._, Micah 4:5.  
-
----  
-
-**File: page_26_2_1.jpg**  
+Here is the digitized content from the image.  
+thou art _e._ with me, Lk. 15:31.  
+that Christ abideth for _e._, Jn. 12:34.  
+God blessed for _e._, Rom. 9:5.  
+be glory for _e._, Gal. 1:5; Phil. 4:20.  
+so _e._ be with the Lord, 1 Thess. 4:17.  
+_e._ learning, never able, 2 Tim. 3:7.  
+_e._ liveth to make intercession, Heb. 7:25.  
+which liveth for _e._, 1 Pet. 1:23.  
+be glory, now and _e._, Jude 25.  
+who liveth for _e._ and _e._, Rev. 4:9.  
+they shall reign for _e._ and _e._, Rev. 22:5.  
 
 **EVERLASTING.**— from _e._ to _e._ thou art God, Ps. 90:2.  
 mercy of the Lord is from _e._, Ps. 103:17.  
