@@ -83,7 +83,7 @@ that God was _a._ to raise, Heb. 11. 19.
 **ABODE.**— Make our _a._, John 14. 23.  
 glory of the Lord _a._ on Sinai, Ex. 24. 16.  
 Spirit, and it _a._ on him, John 1. 32.  
-_a._ not in truth, John 8. 44.   
+_a._ not in truth, John 8. 44.  
 
 **ABOLISHED.**— That which is _a._, 2 Cor. 3. 13.  
 having _a._ the enmity, Eph. 2. 15.  
@@ -1133,7 +1133,7 @@ to whom is the _a._ of the Lord revealed, Isa. 53. 1; John 12. 38.
 his _a._ brought salvation, Isa. 59. 16, 63. 5.  
 that maketh flesh his _a._, Jer. 17. 5.  
 with an high _a._ brought, Acts 13. 17.  
-_a._ yourselves with same mind, 1 Pet. 4. 1.   
+_a._ yourselves with same mind, 1 Pet. 4. 1.  
 
 **ARMS.**— _a._ of his hands made strong, Gen. 49. 24.  
 underneath the everlasting _a._, Deut. 33. 27.  
@@ -2270,7 +2270,7 @@ a foolish son is _b._ to her, Prov. 17. 25.
 go softly in _b._ of soul, Isa. 38. 15.  
 in _b._ as in _b._ for first-born, Zech. 12. 10.  
 let all _b._ be put away, Eph. 4. 31.  
-lest any root of _b._, Heb. 12. 15.   
+lest any root of _b._, Heb. 12. 15.  
 
 **BLACK.**— My skin is _b._ upon me, Job 30. 30.  
 I am _b._ but comely, Cant. 1. 5, 6.  
@@ -2997,18 +2997,18 @@ until day _b._, Cant. 2. 17, 4. 6.
 _b._ not thy covenant with us, Jer. 14. 21.  
 that I _b._ my covenant, Zech. 11. 10.  
 _b._ one of least command.—Matt. 5. 19.  
-came together to _b._ bread, Acts 20. 7.
-mean ye to _b._ my heart? Acts 21. 13.
+came together to _b._ bread, Acts 20. 7.  
+mean ye to _b._ my heart? Acts 21. 13.  
 
-**BREAKETH.**— Flood _b._ out, Job 28. 4.
-my soul _b._ for longing, Ps. 119. 20.
-as one _b._ a potter's vessel, Jer. 19. 11.
+**BREAKETH.**— Flood _b._ out, Job 28. 4.  
+my soul _b._ for longing, Ps. 119. 20.  
+as one _b._ a potter's vessel, Jer. 19. 11.  
 
-**BREAKING.**— Wrestled till _b._ of day, Gen. 32. 24.
-known in _b._ of bread, Luke 24. 35.
-continued in _b._ of bread, Acts 2. 42.
-_b._ bread from house to house, Acts 2. 46.
-_b._ law dishonourest God, Rom. 2. 23.
+**BREAKING.**— Wrestled till _b._ of day, Gen. 32. 24.  
+known in _b._ of bread, Luke 24. 35.  
+continued in _b._ of bread, Acts 2. 42.  
+_b._ bread from house to house, Acts 2. 46.  
+_b._ law dishonourest God, Rom. 2. 23.  
 
 **BREAST.**— Shalt suck _b._ of kings, Isa. 60. 16.  
 
@@ -3108,7 +3108,7 @@ must be held in with a _b._, Ps. 32. 9.
 keep my mouth with a _b._, Ps. 39. 1.  
 a _b._ for the ass, Prov. 26. 3.  
 able to _b._ whole body, Jas. 3. 2.  
-blood to the horse _b._, Rev. 14. 20.    
+blood to the horse _b._, Rev. 14. 20.  
 
 **BRIER.**— Instead of the _b._ myrtle, Isa. 55. 13.  
 no more a pricking _b._, Ezek. 28. 24.  
