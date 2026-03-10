@@ -11775,11 +11775,11 @@ receive into everlasting _h.,_ Lk. 16:9.
 
 **HAIL.**—A grievous _h.,_ Ex. 9:18.  
 hast seen treasures of _h._? Job 38:22.  
-_h.-stones and coals, Ps. 18:12, 13.  
+_h._-stones and coals, Ps. 18:12, 13.  
 he gave them _h._ for rain, Ps. 105, 32.  
 the _h._ shall sweep away, Is. 28:17.  
 there followed _h._ and fire, Rev. 8:7.  
-there fell on men a great _h.,_ Rev. 16:21.  
+there fell on men a great _h._, Rev. 16:21.  
 
 **HAIR.**—_h._ of my flesh, Job 4:15.  
 _h._ is as a flock of goats, Song 4:1, 6:5.  
