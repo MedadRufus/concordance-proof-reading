@@ -938,58 +938,6 @@ to make in himself of _t._, Eph. 2. 15.
 
 **TWO-FOLD.**— _t._-f. more child, Matt. 23. 15.  
 
----  
-
-**File: page_81_2_1.jpg**  
-
-*This file contains the continuation of the "THIRSTY" entry and the entries from "THISTLE" through "TWO-FOLD", which have been integrated into the previous file's output to maintain the correct alphabetical and logical order of entries. Please refer to the combined output for **File: page_81_1_1.jpg** above for the complete, ordered text.*  
-
----  
-
-**File: page_81_3_1.jpg**  
-
-*This file contains the continuation of the "THRONE" entry and the entries from "THRONES" through "TWO-FOLD", which have been integrated into the previous file's output to maintain the correct alphabetical and logical order of entries. Please refer to the combined output for **File: page_81_1_1.jpg** above for the complete, ordered text.*  
-
----  
-
-**File: page_82_1_1.jpg**  
-
-*This file contains the continuation of the "TITHES" entry and the entries from "TITLE" through "TOUCHED", which have been integrated into the previous file's output to maintain the correct alphabetical and logical order of entries. Please refer to the combined output for **File: page_81_1_1.jpg** above for the complete, ordered text.*  
-
----  
-
-**File: page_82_2_1.jpg**  
-
-*This file contains the continuation of the "TOUCHETH" entry and the entries from "TOW" through "TRANSGRESS", which have been integrated into the previous file's output to maintain the correct alphabetical and logical order of entries. Please refer to the combined output for **File: page_81_1_1.jpg** above for the complete, ordered text.*  
-
----  
-
-**File: page_82_3_1.jpg**  
-
-*This file contains the continuation of the "TRAVAIL" entry and the entries from "TRAVELLING" through "TREES", which have been integrated into the previous file's output to maintain the correct alphabetical and logical order of entries. Please refer to the combined output for **File: page_81_1_1.jpg** above for the complete, ordered text.*  
-
----  
-
-**File: page_83_1_1.jpg**  
-
-*This file contains the continuation of the "TREMBLE" entry and the entries from "TREMBLED" through "TRODDEN", which have been integrated into the previous file's output to maintain the correct alphabetical and logical order of entries. Please refer to the combined output for **File: page_81_1_1.jpg** above for the complete, ordered text.*  
-
----  
-
-**File: page_83_2_1.jpg**  
-
-*This file contains the continuation of the "TROOP" entry and the entries from "TROUBLE" through "TRUST", which have been integrated into the previous file's output to maintain the correct alphabetical and logical order of entries. Please refer to the combined output for **File: page_81_1_1.jpg** above for the complete, ordered text.*  
-
----  
-
-**File: page_83_3_1.jpg**  
-
-*This file contains the continuation of the "TRUST" entry and the entries from "TRUSTED" through "TURN", which have been integrated into the previous file's output to maintain the correct alphabetical and logical order of entries. Please refer to the combined output for **File: page_81_1_1.jpg** above for the complete, ordered text.*  
-
----  
-
-**File: page_84_1_1.jpg**  
-
 **TURN.**— _t._ thou me, I shall be turned, Jer. 31. 18.  
 _t._ from your idols, Ezek. 14. 6, 18. 30, 32, 33. 9, 11; Hos. 12. 6; Joel 2. 12.  
 _t._ thou to thy God, Hos. 12. 6.  
@@ -1451,28 +1399,6 @@ wisdom _u._ her voice, Pr. 1. 20.
 **UTTERMOST.**— _u._ parts for possession, Ps. 2. 8.  
 wrath is come to _u._, 1 Thess. 2. 16.  
 save them to _u._ that come, Heb. 7. 25.  
-
----  
-
-**File: page_84_2_1.jpg**  
-
-*This file contains the continuation of the "UNDERSTAND" entry and the entries from "UNDERSTANDETH" through "UNWASHEN", which have been integrated into the previous file's output to maintain the correct alphabetical and logical order of entries. Please refer to the combined output for **File: page_84_1_1.jpg** above for the complete, ordered text.*  
-
----  
-
-**File: page_84_3_1.jpg**  
-
-*This file contains the continuation of the "UNGODLY" entry and the entries from "UNGODLINESS" through "UTTERMOST", which have been integrated into the previous file's output to maintain the correct alphabetical and logical order of entries. Please refer to the combined output for **File: page_84_1_1.jpg** above for the complete, ordered text.*  
-
----  
-
-**File: page_85_1_1.jpg**  
-
-*This file contains the continuation of the "UNTHANKFUL" entry and the entries from "UNTIMELY" through "UTTERMOST", which have been integrated into the previous file's output to maintain the correct alphabetical and logical order of entries. Please refer to the combined output for **File: page_84_1_1.jpg** above for the complete, ordered text.*  
-
----  
-
-**File: page_85_2_1.jpg**  
 
 **VAGABOND.**— A fugitive and _v._, Gen. 4. 12.  
 let his children be _v._, Ps. 109. 10.  
