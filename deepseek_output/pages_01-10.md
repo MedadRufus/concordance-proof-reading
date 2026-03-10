@@ -3291,9 +3291,3 @@ gained thy _b._, Matt. 18. 15; Luke 17. 3.
 how oft shall my _b._ sin, Matt. 18. 21.  
 speak to my _b._ that he, Luke 12. 13.  
 my _b._ had not died, John 11. 21.  
-if any want a _b._ come to, 1 Cor. 7. 12.  
-for whom Christ died, thy _b._, 1 Cor. 8. 11.  
-let _b._ go with, 1 Cor. 16. 12.  
-he is our _b._? 2 Cor. 8. 22; Gal. 1. 2.  
-a _b._ beloved in the Lord, Philem. 16.  
-know a _b._ commended, 1 Pet. 5. 12.  
