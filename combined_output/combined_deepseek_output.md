@@ -3662,11 +3662,16 @@ Lord turned the _c._ of Job, Job 42:10.
 Lord bringeth back _c._, Ps. 14:7, 85:1.  
 Lord turned again the _c._ of Zion, Ps. 126:1.  
 turn again our _c._, O Lord, Ps. 126:4.  
+for _c._ to the _c._, Jer. 15:2, 43:11.  
+I will turn away your _c._, Jer. 29:14, 30:3.  
+Judah gone into _c._, Lam. 1:3, 5.  
+I will bring again _c._ of my people, Amos 9:14.  
+Lord shall turn away _c._, Zeph. 2:7, 3:20.  
+into _c._ to the law of sin, Rom. 7:23.  
+into _c._ every thought, 2 Cor. 10:5.  
+leadeth into _c._ shall go into _c._, Rev. 13:10.  
 
-
-======================================== missing  
-
-========================================= missing  
+**CARBUNCLE.**— Ex. 28:17, 39:10; Is. 54:12.  
 
 **CARCASE.**— A lion stood by the _c._, 1 Sam. 17:46.  
 cast out as a _c._ trodden, Is. 14:19.  
@@ -4317,12 +4322,14 @@ known by _c._ wisdom of God, Eph. 3:10.
 as _c._ is subject to Christ, Eph. 5:24.  
 Christ loved the _c._ and gave, Eph. 5:25.  
 might present a glorious _c._, Eph. 5:27.  
-
-
-==================================  
-
-missing  
-====================================  
+Here is the digitized content from the image.  
+cherisheth it, as Lord the _c._, Eph. 5:29.  
+concerning Christ and the _c._, Eph. 5:32.  
+for his body's sake, the _c._, Col. 1:24.  
+how to take care of _c._ of God, 1 Tim. 3:5.  
+let not _c._ be charged, 1 Tim. 5:16.  
+_c._ in thy house, Philem. 2.  
+to _c._ of first-born, Heb. 12:23.  
 
 **CHURCHES.**— Then had the _c._ rest, Acts 9:31.  
 confirming the _c._, Acts 15:41.  
@@ -4648,12 +4655,16 @@ cometh at _c._ crowing, Mk. 13:35.
 
 **COLD.**— Gen. 8:22; Job 24:7, 37:9.  
 who stand before his _c._? Ps. 147:17.  
+as _c._ of snow in harvest, Prov. 25:13.  
+as _c._ waters to a thirsty soul, Prov. 25:25.  
+a cup of _c._ water, Mt. 10:42.  
+love of many wax _c._, Mt. 24:12.  
+in _c._ and nakedness, 2 Cor. 11:27.  
+neither _c._ nor hot, Rev. 3:15, 16.  
 
+**COLLECTION.**— 2 Chr. 24:6; 1 Cor. 16:1.  
 
-===================  
-missing till college  
-
-===================  
+**COLLEGE.**— Dwelt in _c._, 2 Ki. 22:14; 2 Chr. 34:22.  
 
 **COLOUR.**— His _c._ in cup, Prov. 23:31.  
 
@@ -6207,12 +6218,16 @@ I have _d._ to them thy name, Jn. 17:26.
 _d._ to be Son with power, Rom. 1:4.  
 
 **DECLINE.**— Shadow when it _d._, Ps. 109:23.  
+yet not _d._ from thy law, Ps. 119:51.  
+do I not _d._ from thy test, Ps. 119:157.  
 
-==================================  
-missing section  
-==================================  
+**DECREE.**— Made a _d._ for the rain, Job 28:26.  
+declare the _d._ L. hath said, Ps. 2:7.  
+made a _d._ shall not pass, Ps. 148:6.  
+princes _d._ justice, Prov. 8:15.  
 
-**DEDICATED.**— every _d._ thing be theirs, Eze. 44:29.  
+**DEDICATED.**— Deu. 20:5.  
+every _d._ thing be theirs, Eze. 44:29.  
 nor _d._ without blood, Heb. 9:18.  
 
 **DEDICATION.**— Ezra 6:17; Jn. 10:22.  
