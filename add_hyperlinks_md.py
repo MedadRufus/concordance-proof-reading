@@ -117,12 +117,19 @@ def convert_markdown_to_html(md_path, html_path):
     paragraphs = []
     current_root_word = None
     current_paragraph_content = ""
+    transcription_errors = []
     
     for line in md_content.split('\n'):
+        original_line = line
         line = line.strip()
         if not line:
             # Skip empty lines but preserve structure
             continue
+
+        # Check for transcription errors before processing
+        line_without_refs = ref_pattern.sub("", line)
+        if re.search(r'\b\d+\b', line_without_refs):
+            transcription_errors.append(original_line)
         
         # Check for root word heading
         if match := re.match(r'\*\*([A-Z][A-Z\-]+)\.\*\*', line):
@@ -154,6 +161,14 @@ def convert_markdown_to_html(md_path, html_path):
     # Don't forget the last paragraph
     if current_paragraph_content:
         paragraphs.append(current_paragraph_content)
+
+    # Print transcription errors, if any
+    if transcription_errors:
+        print("\n--- Potential Transcription Errors ---")
+        for err_line in set(transcription_errors):
+            print(err_line)
+        print("------------------------------------")
+        print("You may want to add corrections to ABBR_REPLACEMENTS in combine_ai_output.py")
     
     style = """
         body { font-family: Arial, sans-serif; line-height: 1.6; margin: 10em; }
