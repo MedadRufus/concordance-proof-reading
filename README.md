@@ -44,7 +44,7 @@ pytest --cov=.
 
 
 # Steps for transcribing with Deep Seek
-0. Generate the jpeg files of each column by running `python3 combine_pages_batches.py`. Adjust the starting page number in the last line. Images will be output to 
+0. Generate the jpeg files of each column by running `python3 combine_pages_batches.py`. Adjust the starting page number in the last line. Images will be output to [individual_pages](individual_pages)
 1. Add the text to the suitable file in [deepseek_output](deepseek_output)
 2. run `python3 fix_trailing_spaces.py`
 3. run `python3 normalize_deepseek_files.py`
