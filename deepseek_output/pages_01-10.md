@@ -1484,7 +1484,7 @@ I will heal their _b._, I will, Hos. 14. 4.
 
 **BACKWARD.**— Shadow return _b._, 2 Kings 20. 10; Isa. 38. 8.  
 _b._ I cannot perceive him, Job 23. 8.  
-driven _b._, Ps 40. 14, 70. 2.  
+driven _b._, Ps. 40. 14, 70. 2.  
 judgment is turned away _b._, Isa. 52. 14.  
 went _b._ and fell, John 18. 6.  
 

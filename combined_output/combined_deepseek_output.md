@@ -1113,10 +1113,10 @@ _a._ from the dead, and Christ, Eph. 5:14.
 **ARK.**— Took an _a._ of bulrushes, Ex. 2:3.  
 made the _a._ of shittim-wood, Ex. 37:1.  
 _a._ of the coven., Num. 10:33; Deu. 31:26; Josh. 4:7; Judg. 20:27; 1 Sam. 4:3.  
-_a._ of thy strength, 2 Ch. 6:41; Ps. 132:8.  
+_a._ of thy strength, 2 Chr. 6:41; Ps. 132:8.  
 seen in his temple the _a._, Rev. 11:19.  
 
-**ARM.**— A stretched out _a._, Exod. 6:6; Deu. 4:34; 2 Chr. 6:32; Ps. 136:12; Jer. 27:5; Eze. 20:33.  
+**ARM.**— A stretched out _a._, Ex. 6:6; Deu. 4:34; 2 Chr. 6:32; Ps. 136:12; Jer. 27:5; Eze. 20:33.  
 with him is _a._ of flesh, 2 Chr. 32:8.  
 _a._ that hath no strength, Job 26:2.  
 hast thou an _a._ like God? Job 40:9.  
