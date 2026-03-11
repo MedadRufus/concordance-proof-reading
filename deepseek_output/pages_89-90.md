@@ -208,7 +208,7 @@ thou hast played _w._, Ezek. 16. 28.
 judgment of great _w._, Rev. 17. 1, 19. 2.  
 
 **WHOREDOM.**— Hast polluted land with _w._, Jer. 3. 2.  
-through lightness of her _w._, Jer 3. 9.  
+through lightness of her _w._, Jer. 3. 9.  
 seen the lewdness of thy _w._, Jer. 13. 27.  
 is _w._ a small matter? Ezek. 16. 20.  
 put their _w._ from me, Ezek. 43. 9.  
