@@ -682,7 +682,7 @@ things done of them in _s._, Eph. 5. 12.
 every _s._ thing, Eccl. 12. 14.  
 kept _s._ from foundation, Matt. 13. 35; Rom. 16. 25.  
 
-**SECRETS.**— _s._ of wisdom, Job. 11. 6.  
+**SECRETS.**— _s._ of wisdom, Job 11. 6.  
 he knoweth _s._ of heart, Ps. 44. 21.  
 tale-bearer revealeth _s._, Pr. 11. 13, 20. 19.  
 a God that revealeth _s._, Dan. 2. 28, 47.  

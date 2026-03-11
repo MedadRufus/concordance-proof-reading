@@ -64,7 +64,7 @@ every man give as he is _a._, Deu. 16:17.
 no man _a._ to stand before, Josh. 23:9.  
 who is _a._ to stand? 1 Sam. 6:20; Job 41:10.  
 who is _a._ to judge, 1 Ki. 3:9.  
-Lord is _a._ to give much, 2 Ch. 25:9.  
+Lord is _a._ to give much, 2 Chr. 25:9.  
 who _a._ to stand before envy? Prov. 27:4.  
 our God is _a._ to deliver, Dan. 3:17, 6:20.  
 G. is _a._ of these stones, Mt. 3:9; Lk. 3:8.  
@@ -915,7 +915,7 @@ _a._ thine eyes with eye-salve, Rev. 3:18.
 
 **ANOINTED.**— Lord's _a._ is before him, 1 Sam. 16:6, 24:6, 10, 26:9, 16; 2 Sam. 1:14, 19:21; Lam. 4:20.  
 mercy to his _a._, 2 Sam. 22:51; Ps. 18:50.  
-touch not mine _a._, 1 Ch. 16:22; Ps. 105:15.  
+touch not mine _a._, 1 Chr. 16:22; Ps. 105:15.  
 the face of thine _a._, 2 Chr. 6:42; Ps. 132:10.  
 and against his _a._, Ps. 2:2.  
 the Lord saveth his _a._, Ps. 20:6.  
@@ -943,7 +943,7 @@ which is not _a._, Gal. 1:7.
 **ANSWER.**— Nor any to _a._, 1 Ki. 18:29.  
 _a._ him one of a thousand, Job 9:3.  
 call thou, and I will _a._, Job 13:22; Ps. 91:15.  
-what shall I _a._ him, Job. 31:14.  
+what shall I _a._ him, Job 31:14.  
 and _a._ me, Ps. 27:7, 86:7, 102:2, 108:6, 143:1.  
 _a._ me speedily, Ps. 102:2.  
 soft _a._ turneth away wrath, Prov. 15:1.  
@@ -1062,7 +1062,7 @@ to _a._ them that mourn in Zion, Is. 61:3.
 
 **APPOINTED.**— Is there not an _a._ time to man? Job 7:1.  
 thou hast _a._ his bounds, Job 14:5.  
-all the days of my _a._ time, Job. 14:14.  
+all the days of my _a._ time, Job 14:14.  
 preserve those _a._ to die, Ps. 79:11.  
 loose those _a._ to death, Ps. 102:20.  
 and your _a._ feasts my soul, Is. 1:14.  
@@ -1118,8 +1118,8 @@ seen in his temple the _a._, Rev. 11:19.
 
 **ARM.**— A stretched out _a._, Exod. 6:6; Deu. 4:34; 2 Chr. 6:32; Ps. 136:12; Jer. 27:5; Eze. 20:33.  
 with him is _a._ of flesh, 2 Chr. 32, 8.  
-_a._ that hath no strength, Job. 26:2.  
-hast thou an _a._ like God? Job. 40:9.  
+_a._ that hath no strength, Job 26:2.  
+hast thou an _a._ like God? Job 40:9.  
 break the _a._ of the wicked, Ps. 10:15.  
 nor their own _a._ save them, Ps. 44:3.  
 thou hast a mighty _a._, Ps. 89:13.  
@@ -3026,7 +3026,7 @@ _b._ of faith and love, 1 Thess. 5:8.
 **BREATH.**— _b._ of life, Gen. 2:7, 6:17, 7:15.  
 by _b._ of his nostrils consumed, Job 4:9.  
 in whose hand is of all, Job 12:10.  
-the _b._ of Almighty gave me life, Job. 33:4.  
+the _b._ of Almighty gave me life, Job 33:4.  
 his _b._ kindleth coals, Job 41:21.  
 made by the _b._ of his mouth, Ps. 33:6.  
 takest away _b._ they die, Ps. 104:29.  
@@ -4059,7 +4059,7 @@ _c._ me sore like a bird, Lam. 3:52.
 young women be _c._, Tit. 2:5.  
 behold your _c._ conversation, 1 Pet. 3:2.  
 
-**CHASTEN.**— Despise not _c._ of Almighty, Job. 5:17; Prov. 3:11; Heb. 12:5.  
+**CHASTEN.**— Despise not _c._ of Almighty, Job 5:17; Prov. 3:11; Heb. 12:5.  
 nor _c._ me in hot displeasure, Ps. 6:1.  
 that loveth _c._ betimes, Prov. 13:24.  
 _c._ son while hope, Prov. 19:18.  
@@ -5360,7 +5360,7 @@ except _c._ of wheat fall, Jn. 12:24.
 the same is become head of _c._, Mt. 21:42.  
 thing was not done in a _c._, Acts 26:26.  
 
-**CORNER-STONE.**— Laid _c.-s._ thereof, Job. 38:6.  
+**CORNER-STONE.**— Laid _c.-s._ thereof, Job 38:6.  
 in Zion a _c.-s._, Is. 28:16; 1 Pet. 2:6.  
 
 **CORNET.**— 2 Sam. 6:5; 2 Chr. 15:14; Ps. 98:6; Dan. 3:5; Hos. 5:8.  
@@ -5395,7 +5395,7 @@ in those they _c._ themselves, Jude 10.
 **CORRUPTIBLE.**— C. must put on incorruption, 1 Cor. 15:53.  
 not redeemed with _c._, 1 Pet. 1:18.  
 
-**CORRUPTION.**— A said to _c._ my father, Job. 17:14.  
+**CORRUPTION.**— A said to _c._ my father, Job 17:14.  
 Thine Holy One to see _c._, Ps. 16:10; Acts 13:35.  
 brought up my life from _c._, Jonah 2:6.  
 whom God raised saw no _c._, Acts 13:37.  
@@ -5906,7 +5906,7 @@ look out of windows be _d._, Eccl. 12:3.
 **DARKNESS.**— _d._ under his feet, 2 Sam. 22:10; Ps. 18:9.  
 Lord will lighten my _d._, 2 Sam. 22:29; Ps. 18:28.  
 he would dwell in thick _d._, 1 Ki. 8:12; 2 Chr. 6:1.  
-a land of _d._ as _d._ itself, Job. 10:22.  
+a land of _d._ as _d._ itself, Job 10:22.  
 no _d._ where evil-doers may hide, Job 34:22.  
 as for _d._ where is the place, Job 38:19.  
 makest _d._ and it is night, Ps. 104:20.  
@@ -7768,7 +7768,7 @@ he that wrought _e._ in Peter, Gal. 2:8.
 the word _e._ worketh, 1 Thess. 2:13.  
 
 **EGG.**— Whether young ones or _e._, Deu. 22:6.  
-any taste in white of _e._? Job. 6:6.  
+any taste in white of _e._? Job 6:6.  
 ostrich leaveth _e._ earth, Job 39:14.  
 ask _e._, will offer scorpion? Lk. 11:12.  
 
@@ -8209,7 +8209,7 @@ _e._ the edge of the sword, Heb. 11:34.
 _e._ not who refused him, Heb. 12:25.  
 _e._ the pollutions of world, 2 Pet. 2:20.  
 
-**ESCHEW.**— _e._ evil, Job. 1:1, 8, 2:3.  
+**ESCHEW.**— _e._ evil, Job 1:1, 8, 2:3.  
 let him _e._ evil, good, 1 Pet. 3:11.  
 
 **ESPOUSALS.**— Song 3:11; Jer. 2:2.  
@@ -11614,7 +11614,7 @@ not _g._ of filthy lucre, 1 Tim. 3:3, 8.
 
 **GREEN.**— Do these things in _g._ tree, Lk. 23:31.  
 
-**GREENNESS.**— Yet in _g._, Job. 8:12.  
+**GREENNESS.**— Yet in _g._, Job 8:12.  
 
 **GREET.**— _g._ one another, 1 Cor. 16:20; 2 Cor. 13:12; 1 Thess. 5:26; 1 Pet. 5:14.  
 
@@ -11859,7 +11859,7 @@ be swift to _h._, Jas. 1:19.
 **HEARD.**—They _h._ voice of the L., Gen. 3:8.  
 I have _h._ their cry, Ex. 3:7.  
 only he _h._ a voice, Deu. 4:12.  
-was silence, I _h._ a voice, Job. 4:16.  
+was silence, I _h._ a voice, Job 4:16.  
 as we have _h._, so have we seen, Ps. 48:8.  
 verily God hath _h._ me, Ps. 66:19.  
 I love L. he hath _h._ my voice, Ps. 116:1.  
@@ -12199,7 +12199,7 @@ look to rock whence ye are _h._, Is. 51:1.
 
 **HID.**—I _h._ myself, Gen. 3:10.  
 the Lord _h._ it from me, 2 Ki. 4:27.  
-_h._ from the eyes of all living, Job. 28:21.  
+_h._ from the eyes of all living, Job 28:21.  
 have not _h._ thy righteousness, Ps. 40:10.  
 my sins are not _h._ from thee, Ps. 69:5.  
 thy word I _h._ in mine heart, Ps. 119:11.  
@@ -22495,7 +22495,7 @@ things done of them in _s._, Eph. 5:12.
 every _s._ thing, Eccl. 12:14.  
 kept _s._ from foundation, Mt. 13:35; Rom. 16:25.  
 
-**SECRETS.**— _s._ of wisdom, Job. 11:6.  
+**SECRETS.**— _s._ of wisdom, Job 11:6.  
 he knoweth _s._ of heart, Ps. 44:21.  
 tale-bearer revealeth _s._, Prov. 11:13, 20:19.  
 a God that revealeth _s._, Dan. 2:28, 47.  

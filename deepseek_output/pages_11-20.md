@@ -850,7 +850,7 @@ _c._ me sore like a bird, Lam. 3. 52.
 young women be _c._, Tit. 2. 5.  
 behold your _c._ conversation, 1 Pet. 3. 2.  
 
-**CHASTEN.**— Despise not _c._ of Almighty, Job. 5. 17; Prov. 3. 11; Heb. 12. 5.  
+**CHASTEN.**— Despise not _c._ of Almighty, Job 5. 17; Prov. 3. 11; Heb. 12. 5.  
 nor _c._ me in hot displeasure, Ps. 6. 1.  
 that loveth _c._ betimes, Prov. 13. 24.  
 _c._ son while hope, Prov. 19. 18.  
@@ -2151,7 +2151,7 @@ except _c._ of wheat fall, John 12. 24.
 the same is become head of _c._, Matt. 21. 42.  
 thing was not done in a _c._, Acts 26. 26.  
 
-**CORNER-STONE.**— Laid _c.-s._ thereof, Job. 38. 6.  
+**CORNER-STONE.**— Laid _c.-s._ thereof, Job 38. 6.  
 in Zion a _c.-s._, Isa. 28. 16; 1 Pet. 2. 6.  
 
 **CORNET.**— 2 Sam. 6. 5; 2 Chron. 15. 14; Ps. 98. 6; Dan. 3. 5; Hos. 5. 8.  
@@ -2186,7 +2186,7 @@ in those they _c._ themselves, Jude 10.
 **CORRUPTIBLE.**— C. must put on incorruption, 1 Cor. 15. 53.  
 not redeemed with _c._, 1 Pet. 1. 18.  
 
-**CORRUPTION.**— A said to _c._ my father, Job. 17. 14.  
+**CORRUPTION.**— A said to _c._ my father, Job 17. 14.  
 Thine Holy One to see _c._, Ps. 16. 10; Acts 13. 35.  
 brought up my life from _c._, Jonah 2. 6.  
 whom God raised saw no _c._, Acts 13. 37.  
@@ -2697,7 +2697,7 @@ look out of windows be _d._, Eccl. 12. 3.
 **DARKNESS.**— _d._ under his feet, 2 Sam. 22. 10; Ps. 18. 9.  
 Lord will lighten my _d._, 2 Sam. 22. 29; Ps. 18. 28.  
 he would dwell in thick _d._, 1 Kings 8. 12; 2 Chron. 6. 1.  
-a land of _d._ as _d._ itself, Job. 10. 22.  
+a land of _d._ as _d._ itself, Job 10. 22.  
 no _d._ where evil-doers may hide, Job 34. 22.  
 as for _d._ where is the place, Job 38. 19.  
 makest _d._ and it is night, Ps. 104. 20.  

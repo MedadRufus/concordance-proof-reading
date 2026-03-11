@@ -64,7 +64,7 @@ every man give as he is _a._, Deut. 16. 17.
 no man _a._ to stand before, Josh. 23. 9.  
 who is _a._ to stand? 1 Sam. 6. 20; Job 41. 10.  
 who is _a._ to judge, 1 Kings 3. 9.  
-Lord is _a._ to give much, 2 Ch. 25. 9.  
+Lord is _a._ to give much, 2 Chr. 25. 9.  
 who _a._ to stand before envy? Prov. 27. 4.  
 our God is _a._ to deliver, Dan. 3. 17, 6. 20.  
 G. is _a._ of these stones, Matt. 3. 9; Lu. 3. 8.  
@@ -915,7 +915,7 @@ _a._ thine eyes with eye-salve, Rev. 3. 18.
 
 **ANOINTED.**— Lord's _a._ is before him, 1 Sam. 16. 6, 24. 6, 10, 26. 9, 16; 2 Sam. 1. 14, 19. 21; Lam. 4. 20.  
 mercy to his _a._, 2 Sam. 22. 51; Ps. 18. 50.  
-touch not mine _a._, 1 Ch. 16. 22; Ps. 105. 15.  
+touch not mine _a._, 1 Chr. 16. 22; Ps. 105. 15.  
 the face of thine _a._, 2 Chron. 6. 42; Ps. 132. 10.  
 and against his _a._, Ps. 2. 2.  
 the Lord saveth his _a._, Ps. 20. 6.  
@@ -943,7 +943,7 @@ which is not _a._, Gal. 1. 7.
 **ANSWER.**— Nor any to _a._, 1 Kin. 18. 29.  
 _a._ him one of a thousand, Job 9. 3.  
 call thou, and I will _a._, Job 13. 22; Ps. 91. 15.  
-what shall I _a._ him, Job. 31. 14.  
+what shall I _a._ him, Job 31. 14.  
 and _a._ me, Ps. 27. 7, 86. 7, 102. 2, 108. 6, 143. 1.  
 _a._ me speedily, Ps. 102. 2.  
 soft _a._ turneth away wrath, Prov. 15. 1.  
@@ -1062,7 +1062,7 @@ to _a._ them that mourn in Zion, Isa. 61. 3.
 
 **APPOINTED.**— Is there not an _a._ time to man? Job 7. 1.  
 thou hast _a._ his bounds, Job 14. 5.  
-all the days of my _a._ time, Job. 14. 14.  
+all the days of my _a._ time, Job 14. 14.  
 preserve those _a._ to die, Ps. 79. 11.  
 loose those _a._ to death, Ps. 102. 20.  
 and your _a._ feasts my soul, Isa. 1. 14.  
@@ -1118,8 +1118,8 @@ seen in his temple the _a._, Rev. 11. 19.
 
 **ARM.**— A stretched out _a._, Exod. 6. 6; Deut. 4. 34; 2 Chron. 6. 32; Ps. 136. 12; Jer. 27. 5; Ezek. 20. 33.  
 with him is _a._ of flesh, 2 Chron. 32, 8.  
-_a._ that hath no strength, Job. 26. 2.  
-hast thou an _a._ like God? Job. 40. 9.  
+_a._ that hath no strength, Job 26. 2.  
+hast thou an _a._ like God? Job 40. 9.  
 break the _a._ of the wicked, Ps. 10. 15.  
 nor their own _a._ save them, Ps. 44. 3.  
 thou hast a mighty _a._, Ps. 89. 13.  
@@ -3026,7 +3026,7 @@ _b._ of faith and love, 1 Thess. 5. 8.
 **BREATH.**— _b._ of life, Gen. 2. 7, 6. 17, 7. 15.  
 by _b._ of his nostrils consumed, Job 4. 9.  
 in whose hand is of all, Job 12. 10.  
-the _b._ of Almighty gave me life, Job. 33. 4.  
+the _b._ of Almighty gave me life, Job 33. 4.  
 his _b._ kindleth coals, Job 41. 21.  
 made by the _b._ of his mouth, Ps. 33. 6.  
 takest away _b._ they die, Ps. 104. 29.  

@@ -1232,7 +1232,7 @@ he that wrought _e._ in Peter, Gal. 2. 8.
 the word _e._ worketh, 1 Thess. 2. 13.  
 
 **EGG.**— Whether young ones or _e._, Deut. 22. 6.  
-any taste in white of _e._? Job. 6. 6.  
+any taste in white of _e._? Job 6. 6.  
 ostrich leaveth _e._ earth, Job 39. 14.  
 ask _e._, will offer scorpion? Lu. 11. 12.  
 
@@ -1673,7 +1673,7 @@ _e._ the edge of the sword, Heb. 11. 34.
 _e._ not who refused him, Heb. 12. 25.  
 _e._ the pollutions of world, 2 Pet. 2. 20.  
 
-**ESCHEW.**— _e._ evil, Job. 1. 1, 8, 2. 3.  
+**ESCHEW.**— _e._ evil, Job 1. 1, 8, 2. 3.  
 let him _e._ evil, good, 1 Pet. 3. 11.  
 
 **ESPOUSALS.**— Cant. 3. 11; Jer. 2. 2.  
