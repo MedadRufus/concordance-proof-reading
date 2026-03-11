@@ -48,7 +48,8 @@ ABBR_REPLACEMENTS = {
     "Am.": "Amos",
     "Mat.": "Mt.",
     "Ro.": "Rom.",
-    "Titus": "Tit."
+    "Titus": "Tit.",
+    "Ru.": "Ruth",
 }
 
 

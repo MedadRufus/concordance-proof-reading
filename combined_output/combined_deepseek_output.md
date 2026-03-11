@@ -9089,7 +9089,7 @@ a mighty _f._ in that land, Lk. 15:14.
 
 **FAMISH.**—Prov. 10:3; Is. 5:13; Zeph. 2:11.  
 
-**FAMOUS.**—Name be _f._ in Isr., Ru. 4:14.  
+**FAMOUS.**—Name be _f._ in Isr., Ruth 4:14.  
 man was _f._ as he lifted axes, Ps. 74:5.  
 
 **FAN.**—Whose _f._ is in hand, Is. 41:16; Jer. 4:11, 51:2; Mt. 3:12; Lk. 3:17.  
@@ -12435,7 +12435,7 @@ heavenly Father give _H. S._, Lk. 11:13.
 sealed with _H. S._ of promise, Eph. 1:13.  
 hath given us his _H. S._, 1 Thess. 4:8.  
 
-**HOME.**—L. hath brought me _h._, Ru. 1:21.  
+**HOME.**—L. hath brought me _h._, Ruth 1:21.  
 bring ark of God _h._, 1 Chr. 13:12, 13.  
 she that tarried at _h._, Ps. 68:12.  
 man goeth to his long _h._, Eccl. 12:5.  
