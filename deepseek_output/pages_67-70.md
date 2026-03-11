@@ -643,7 +643,7 @@ he gave us fruitful _s._, Acts 14. 17.
 
 **SEASONED.**— Mark 9. 50; Luke 14. 34; Col. 4. 6.  
 
-**SEAT.**— Might come to his _s.!_ Job 23. 3.  
+**SEAT.**— Might come to his _s._! Job 23. 3.  
 in _s._ of the scornful, Ps. 1. 1.  
 Pharisees sit in Moses' _s._, Matt. 23. 2.  
 where Satan's _s._ is, Rev. 2. 13.  
