@@ -420,8 +420,18 @@ nations of them _s._, Rev. 21. 24.
 
 **SAVETH.**— _s._ not with sword, 1 Sam. 17. 47.  
 he _s._ poor from the sword, Job 5. 15.  
+God who _s._ the upright, Ps. 7. 10.  
+_s._ such as be of contrite spirit, Ps. 34. 18.  
 
-**SAVIOUR.**— so he was their _s._, Isa. 63. 8.  
+**SAVIOUR.**— My refuge, my _s._, 2 Sa. 22. 3.  
+the Lord gave Israel a _s._, 2 Kings 13. 5.  
+they forgot God their _s._, Ps. 106. 21.  
+he shall send them a _s._, Isa. 19. 20.  
+the Holy One of Israel thy _s._, Isa. 43. 3.  
+beside me is no _s._, Isa. 43. 11; Hos. 13. 4.  
+a just God and a _s._, Isa. 45. 21.  
+shall know I the L. am thy _s._, Isa. 60. 16.  
+so he was their _s._, Isa. 63. 8.  
 the _s._ of Israel in trouble, Jer. 14. 8.  
 spirit rejoiced in God my _s._, Luke 1. 47.  
 born in the city of David a _s._, Lu. 2. 11.  
