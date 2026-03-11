@@ -583,7 +583,7 @@ he gave to _s._ his decree, Prov. 8. 29.
 waters cover _s._, Isa. 11. 9; Hab. 2. 14.  
 at my rebuke I dry up the _s._, Isa. 50. 2.  
 like the troubled _s._, Isa. 57. 20.  
-_s._ obey him, Mark 4. 39, 41.  
+_s._ obey him, Matt. 8. 27; Mark 4. 39, 41.  
 before throne was a _s._, Rev. 4. 6.  
 I saw a _s._ of glass, Rev. 15. 2.  
 and there was no more _s._, Rev. 21. 1.  
