@@ -400,13 +400,13 @@ hast _s._ us from enemies, Ps. 44. 7.
 _s._ them for his name's sake, Ps. 106. 8.  
 L. _s._ them out of distresses, Ps. 107. 13.  
 and we are not _s._, Jer. 8. 20.  
-who then can be _s.?_ Matt. 19. 25.  
+who then can be _s._? Matt. 19. 25.  
 he _s._ others, Matt. 27. 42; Mark 15. 31.  
 he _s._ from our enemies, Luke 1. 71.  
 that the world might be _s._, John 3. 17.  
 these I say, that ye might be _s._, Jn. 5. 34.  
 L. added such as should be _s._, Acts 2. 47.  
-what must I do to be _s.?_ Acts 16. 30.  
+what must I do to be _s._? Acts 16. 30.  
 we are _s._ by hope, Rom. 8. 24.  
 for Isr., that they may be _s._, Rom. 10. 1.  
 that the spirit may be _s._, 1 Cor. 5. 5.  
@@ -420,7 +420,8 @@ nations of them _s._, Rev. 21. 24.
 
 **SAVETH.**— _s._ not with sword, 1 Sam. 17. 47.  
 he _s._ poor from the sword, Job 5. 15.  
-so he was their _s._, Isa. 63. 8.  
+
+**SAVIOUR.**— so he was their _s._, Isa. 63. 8.  
 the _s._ of Israel in trouble, Jer. 14. 8.  
 spirit rejoiced in God my _s._, Luke 1. 47.  
 born in the city of David a _s._, Lu. 2. 11.  
@@ -428,7 +429,7 @@ this is Christ, _s._ of the world, Jn. 4. 42.
 him God exalted to be _s._, Acts 5. 31.  
 God raised to Isr. a _s._, Jesus, Acts 13. 23.  
 Christ is _s._ of body, Eph. 5. 23.  
-G. our _s._, 1 Tim. 1. 1; 2. 3; Tit. 1. 3; 2 Pet. 1. 1.  
+G. our _s._, 1 Tim. 1. 1, 2. 3; Tit. 1. 3; 2 Pet. 1. 1.  
 God who is _s._ of all men, 1 Tim. 4. 10.  
 by appearing of our _s._, 2 Tim. 1. 10.  
 to the only wise God our _s._, Jude 25.  
@@ -566,7 +567,7 @@ beware of _s._, Mark 12. 38; Luke 20. 46.
 **SCRIPTURE.**— _s._ must be fulfilled, Mark 14. 49.  
 _s._ cannot be broken, John 10. 35.  
 mighty in the _s._, Acts 18. 24.  
-what saith _s.?_ Rom. 4. 3, 11. 2; Gal. 4. 30.  
+what saith _s._? Rom. 4. 3, 11. 2; Gal. 4. 30.  
 from child hast known _s._, 2 Tim. 3. 15.  
 _s._ is by inspiration of God, 2 Tim. 3. 16.  
 no _s._ is of private inter., 2 Pet. 1. 20.  
@@ -574,7 +575,7 @@ as they do also other _s._, 2 Pet. 3. 16.
 
 **SCROLL.**— Isa. 34. 4; Rev. 6. 14.  
 
-**SEA.**— Am I a _s.?_ Job 7. 12.  
+**SEA.**— Am I a _s._? Job 7. 12.  
 _s._ saith, it is not with me, Job 28. 14.  
 this great wide _s._, Ps. 104. 25.  
 that go down to _s._, Ps. 107. 23.  
