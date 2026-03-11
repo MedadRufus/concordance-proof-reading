@@ -1291,7 +1291,7 @@ soul _c._ to the dust, Ps. 119. 25.
 
 **CLEFTS.**— Cant. 2. 14; Isa. 2. 21; Jer. 49. 16.  
 
-**CLERK.**— Town _c._ appeased, Acts. 19. 35.  
+**CLERK.**— Town _c._ appeased, Acts 19. 35.  
 
 **CLIMB.**— Shall _c._ up rocks, Jer. 4. 29.  
 _c._ wall like men of war, Joel 2. 7.  
@@ -1368,7 +1368,7 @@ to him that weareth gay _c._, Jas. 2. 3.
 
 **CLOUD.**— A pillar of _c._, Ex. 13. 21.  
 a _c._ covered the mount, Ex. 24. 15, 16.  
-Lord descended in _c._, Ex.34.5; Nu.11.25.  
+Lord descended in _c._, Ex. 34.5; Nu. 11.25.  
 Lord in pillar of _c._, Nu. 12. 5; Deu. 31. 15.  
 a little _c._ like a man's hand, 1 Kin. 18.44.  
 the pillar of _c._ departed not, Neh. 9. 19.  
@@ -1377,7 +1377,7 @@ day-time he led with _c._, Ps. 78. 14.
 favour as _c._ of later rain, Prov. 16. 15.  
 who are these flee as a _c._, Isa. 60. 8.  
 goodness as a morning _c._, Hos. 6. 4.  
-morning _c._ and early dew, Hos.13.3.  
+morning _c._ and early dew, Hos. 13. 3.  
 _c._ oversha., Matt. 17. 5; Mk. 9. 7; Lu. 9. 34.  
 Son of man coming in a _c._, Luke 21. 27.  
 a _c._ received him, Acts 1. 9.  
@@ -1612,7 +1612,7 @@ this _c._ I received of, John 10. 18.
 his _c._ is life everlasting, John 12. 50.  
 a new _c._ I give, John 13. 34; 1 John 2. 7, 8; 2 John 5.  
 as Father gave me _c._, Jn. 14. 31.  
-my _c._ that ye love, Jn. 15. 12; 1 Jn 3. 23.  
+my _c._ that ye love, Jn. 15. 12; 1 Jn. 3. 23.  
 when _c._ came, sin revived, Rom. 7. 9.  
 _c._ which was ordained to life, Rom. 7. 10.  
 _c._ is holy, just, and good, Rom. 7. 12.  

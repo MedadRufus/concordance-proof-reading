@@ -1714,7 +1714,7 @@ Christ once offered to _b._ sin, Heb. 9:28.
 **BEARETH.**— _b._ not the sword in vain, Rom. 13:4.  
 charity _b._ all things, 1 Cor. 13:7.  
 
-**BEAR.**— As _b._ robbed, 2 Sam. 17:8; Pro. 17:12.  
+**BEAR.**— As _b._ robbed, 2 Sam. 17:8; Prov. 17:12.  
 came forth two she-_b._ 2 Ki. 2:24.  
 and a ranging _b._, Prov. 28:15.  
 we roar all like _b._, Is. 59:11.  
@@ -2145,7 +2145,7 @@ to obey is _b._ than sacrifice, 1 Sam. 15:22.
 a little righteous hath _b._, Ps. 37:16.  
 _b._ to trust in Lord, Ps. 118:8, 9.  
 _b._ little with fear of Lord, Prov. 15:16.  
-_b._ dinner of herbs where love, Pro. 15:17.  
+_b._ dinner of herbs where love, Prov. 15:17.  
 _b._ a little with righteousness, Prov. 16:8.  
 _b._ to get wisdom than gold, Prov. 16:16.  
 _b._ a dry morsel and quiet, Prov. 17:1.  
@@ -4500,7 +4500,7 @@ soul _c._ to the dust, Ps. 119:25.
 
 **CLEFTS.**— Song 2:14; Is. 2:21; Jer. 49:16.  
 
-**CLERK.**— Town _c._ appeased, Acts. 19:35.  
+**CLERK.**— Town _c._ appeased, Acts 19:35.  
 
 **CLIMB.**— Shall _c._ up rocks, Jer. 4:29.  
 _c._ wall like men of war, Joel 2:7.  
@@ -4577,7 +4577,7 @@ to him that weareth gay _c._, Jas. 2:3.
 
 **CLOUD.**— A pillar of _c._, Ex. 13:21.  
 a _c._ covered the mount, Ex. 24:15, 16.  
-Lord descended in _c._, Ex.34:5; Nu.11:25.  
+Lord descended in _c._, Ex. 34:5; Num. 11:25.  
 Lord in pillar of _c._, Num. 12:5; Deu. 31:15.  
 a little _c._ like a man's hand, 1 Ki. 18:44.  
 the pillar of _c._ departed not, Neh. 9:19.  
@@ -4586,7 +4586,7 @@ day-time he led with _c._, Ps. 78:14.
 favour as _c._ of later rain, Prov. 16:15.  
 who are these flee as a _c._, Is. 60:8.  
 goodness as a morning _c._, Hos. 6:4.  
-morning _c._ and early dew, Hos.13:3.  
+morning _c._ and early dew, Hos. 13:3.  
 _c._ oversha., Mt. 17:5; Mk. 9:7; Lk. 9:34.  
 Son of man coming in a _c._, Lk. 21:27.  
 a _c._ received him, Acts 1:9.  
@@ -4821,7 +4821,7 @@ this _c._ I received of, Jn. 10:18.
 his _c._ is life everlasting, Jn. 12:50.  
 a new _c._ I give, Jn. 13:34; 1 Jn. 2:7, 8; 2 Jn. 5.  
 as Father gave me _c._, Jn. 14:31.  
-my _c._ that ye love, Jn. 15:12; 1 Jn 3:23.  
+my _c._ that ye love, Jn. 15:12; 1 Jn. 3:23.  
 when _c._ came, sin revived, Rom. 7:9.  
 _c._ which was ordained to life, Rom. 7:10.  
 _c._ is holy, just, and good, Rom. 7:12.  
@@ -4861,7 +4861,7 @@ whom the Lord _c._, 2 Cor. 10:18.
 
 **COMMENDING.**— _c._ ourselves to man's conscience, 2 Cor. 4:2.  
 
-**COMMIT.**— _c._ thy works unto Lord, Pro. 16:3.  
+**COMMIT.**— _c._ thy works unto Lord, Prov. 16:3.  
 who _c._ you the true riches? Lk. 16:11.  
 Jesus did not _c._ himself, Jn. 2:24.  
 _c._ such worthy of death, Rom. 1:32.  
@@ -8263,7 +8263,7 @@ _e._ other better than themselves, Phil. 2:3.
 _e._ highly for work's sake, 1 Thess. 5:13.  
 
 **ESTEEMED.**— _e._ words of his mouth, Job 23:12.  
-is _e._ a man of under, Pro. 17:28.  
+is _e._ a man of under, Prov. 17:28.  
 and we _e._ him not, Is. 53:3.  
 
 **ESTEEMETH.**— _e._ one day above, Rom. 14:5.  

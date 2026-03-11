@@ -50,6 +50,7 @@ ABBR_REPLACEMENTS = {
     "Ro.": "Rom.",
     "Titus": "Tit.",
     "Ru.": "Ruth",
+    "Pro.": "Prov.",
 }
 
 
