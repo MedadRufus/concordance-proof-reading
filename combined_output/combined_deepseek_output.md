@@ -604,7 +604,7 @@ esteemeth every day _a._, Rom. 14:5.
 
 **ALIVE.**— Went down _a._ into pit, Num. 16:33.  
 _a._ every one this day, Deu. 4:4.  
-and I make _a._, Deut 32:39; 1 Sam. 2:6.  
+and I make _a._, Deu. 32:39; 1 Sam. 2:6.  
 God to kill and make _a._? 2 Ki. 5:7.  
 the souls _a._, Eze. 13:18, 18:27.  
 heard that he was _a._, Mk. 16:11.  
@@ -1117,7 +1117,7 @@ _a._ of thy strength, 2 Ch. 6:41; Ps. 132:8.
 seen in his temple the _a._, Rev. 11:19.  
 
 **ARM.**— A stretched out _a._, Exod. 6:6; Deu. 4:34; 2 Chr. 6:32; Ps. 136:12; Jer. 27:5; Eze. 20:33.  
-with him is _a._ of flesh, 2 Chr. 32, 8.  
+with him is _a._ of flesh, 2 Chr. 32:8.  
 _a._ that hath no strength, Job 26:2.  
 hast thou an _a._ like God? Job 40:9.  
 break the _a._ of the wicked, Ps. 10:15.  
