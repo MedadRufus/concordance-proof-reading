@@ -1237,74 +1237,74 @@ were as _s._ going astray, 1 Pet. 2. 25.
 
 **SHEPHERD.**— The Lord is my S., Ps. 23. 1.  
 give ear, O S. of Israel, Ps. 80. 1.  
-words given from one s., Eccl. 12. 11.  
-shall feed his flock like a s., Isa. 40. 11.  
-L. saith of Cyrus, he is my s., Isa. 44. 28.  
-keep him as s. doth flock, Jer. 31. 10.  
-because no s., Ezek. 34. 5, 8; Zech. 10. 2.  
-s. seeketh out flock, sheep, Ez. 34. 12.  
-I will set up one s. over them, Ez. 34. 23.  
-as s. taketh out of mouth of, Amos 3. 12.  
-woe to idle s., Zech. 11. 17.  
+words given from one _s._, Eccl. 12. 11.  
+shall feed his flock like a _s._, Isa. 40. 11.  
+L. saith of Cyrus, he is my _s._, Isa. 44. 28.  
+keep him as _s._ doth flock, Jer. 31. 10.  
+because no _s._, Ezek. 34. 5, 8; Zech. 10. 2.  
+_s._ seeketh out flock, sheep, Ez. 34. 12.  
+I will set up one _s._ over them, Ez. 34. 23.  
+as _s._ taketh out of mouth of, Amos 3. 12.  
+woe to idle _s._, Zech. 11. 17.  
 S. giveth life for his sheep, John 10. 11.  
 I am good S., John 10. 14.  
 that great S. of sheep, Heb. 13. 20.  
 now returned unto the S., 1 Pet. 2. 25.  
 the chief S. shall appear, 1 Pet. 5. 4.  
 
-**SHEPHERDS.**— s. make folds, Isa. 13. 20.  
-s. that cannot understand, Isa. 56. 11.  
-I will set up s. over them, Jer. 23. 4.  
-s. caused them to go astray, Jer. 50. 6.  
-the s. fed themselves, Ezek. 34. 8.  
+**SHEPHERDS.**— _s._ make folds, Isa. 13. 20.  
+_s._ that cannot understand, Isa. 56. 11.  
+I will set up _s._ over them, Jer. 23. 4.  
+_s._ caused them to go astray, Jer. 50. 6.  
+the _s._ fed themselves, Ezek. 34. 8.  
 
-**SHEW-BREAD.**— David did eat s.-b., Matt. 12. 4.  
-wherein was the s.-b., Heb. 9. 2.  
+**SHEW-BREAD.**— David did eat _s._-b., Matt. 12. 4.  
+wherein was the _s._-b., Heb. 9. 2.  
 
-**SHIELD.**— s. and reward, Gen. 15. 1.  
-the s. of thy help, Deut. 33. 29.  
-Lord is our s., Ps. 33. 20, 59. 11, 84. 9.  
-Lord God is sun and s., Ps. 84. 11.  
-his truth shall be thy s., Ps. 91. 4.  
-s. to them that trust him, Prov. 30. 5.  
-above all taking s. of faith, Eph. 6. 16.  
+**SHIELD.**— _s._ and reward, Gen. 15. 1.  
+the _s._ of thy help, Deut. 33. 29.  
+Lord is our _s._, Ps. 33. 20, 59. 11, 84. 9.  
+Lord God is sun and _s._, Ps. 84. 11.  
+his truth shall be thy _s._, Ps. 91. 4.  
+_s._ to them that trust him, Prov. 30. 5.  
+above all taking _s._ of faith, Eph. 6. 16.  
 
-**SHIELDS.**— s. of earth belong to God, Ps. 47. 9.  
+**SHIELDS.**— _s._ of earth belong to God, Ps. 47. 9.  
 
-**SHILOH.**— Till s. come, Gen. 49. 10.  
+**SHILOH.**— Till _s._ come, Gen. 49. 10.  
 
-**SHINE.**— L. made his face s., Num. 6. 26.  
-s. on counsel of wicked? Job 10. 3.  
-cause his face to s. upon us, Ps. 67. 1, 80. 3, 7, 19; Dan. 9. 17.  
-between cherubim s. forth, Ps. 80. 1.  
-oil to make his face to s., Ps. 104. 15.  
-make thy face s. upon ser., Ps. 119. 135.  
-wise, shall s. as stars, Dan. 12. 3.  
-righteous s. forth as sun, Matt. 13. 43.  
-among whom ye s., Phil. 2. 15.  
+**SHINE.**— L. made his face _s._, Num. 6. 26.  
+_s._ on counsel of wicked? Job 10. 3.  
+cause his face to _s._ upon us, Ps. 67. 1, 80. 3, 7, 19; Dan. 9. 17.  
+between cherubim _s._ forth, Ps. 80. 1.  
+oil to make his face to _s._, Ps. 104. 15.  
+make thy face _s._ upon ser., Ps. 119. 135.  
+wise, shall _s._ as stars, Dan. 12. 3.  
+righteous _s._ forth as sun, Matt. 13. 43.  
+among whom ye _s._, Phil. 2. 15.  
 
-**SHINED.**— Out of Zion, God hath s., Ps. 50. 2.  
-upon them hath light s., Isa. 9. 2.  
-God hath s. in our hearts, 2 Cor. 4. 6.  
+**SHINED.**— Out of Zion, God hath _s._, Ps. 50. 2.  
+upon them hath light _s._, Isa. 9. 2.  
+God hath _s._ in our hearts, 2 Cor. 4. 6.  
 
-**SHINETH.**— The light s. in dark, Jn. 1. 5.  
-the true light now s., 1 John 2. 8.  
-countenance as the sun s., Rev. 1. 16.  
+**SHINETH.**— The light _s._ in dark, Jn. 1. 5.  
+the true light now _s._, 1 John 2. 8.  
+countenance as the sun _s._, Rev. 1. 16.  
 
-**SHIPS.**— Passed as the swift s., Job 9. 26.  
-there go the s., Ps. 104. 26.  
-that go down to sea in s., Ps. 107. 23.  
-she is like merchant s., Prov. 31. 14.  
-the s., though they be great, Jas. 3. 4.  
+**SHIPS.**— Passed as the swift _s._, Job 9. 26.  
+there go the _s._, Ps. 104. 26.  
+that go down to sea in _s._, Ps. 107. 23.  
+she is like merchant _s._, Prov. 31. 14.  
+the _s._, though they be great, Jas. 3. 4.  
 
-**SHIPWRECK.**— Thrice suffered s., 2 Cor. 11. 25.  
-concerning faith made s., 1 Tim. 1. 19.  
+**SHIPWRECK.**— Thrice suffered _s._, 2 Cor. 11. 25.  
+concerning faith made _s._, 1 Tim. 1. 19.  
 
-**SHOOT.**— They s. out lip, Ps. 22. 7.  
-God shall s. at them, Ps. 64. 7.  
+**SHOOT.**— They _s._ out lip, Ps. 22. 7.  
+God shall _s._ at them, Ps. 64. 7.  
 
-**SHORT.**— Light s. because of darkness, Job 17. 12.  
-come s. of glory, Rom. 3. 23.  
-a s. work Lord will make, Rom. 9. 28.  
+**SHORT.**— Light _s._ because of darkness, Job 17. 12.  
+come _s._ of glory, Rom. 3. 23.  
+a _s._ work Lord will make, Rom. 9. 28.  
 
-**SHORTENED.**— Days hast thou s., Ps. 89. 45, 102. 23.  
+**SHORTENED.**— Days hast thou _s._, Ps. 89. 45, 102. 23.  
