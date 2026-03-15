@@ -1,4 +1,4 @@
-_t._ Christ Jesus who enabled, 1 tim. 1. 12.  
+_t._ Christ Jesus who enabled, 1 Tim. 1. 12.  
 this is _t._-worthy, 1 Pet. 2. 19.  
 
 **THANKFUL.**— Be _t._, Ps. 100. 4; Col. 3. 15.  
@@ -2380,7 +2380,7 @@ I hate every false _w._, Ps. 119. 104, 128.
 lead me in the _w._ everlasting, Ps. 139. 24.  
 he preserveth _w._ of saints, Prov. 2. 8.  
 _w._ of wicked is as darkness, Prov. 4. 19.  
-_w._ of life, Prov. 6. 23; 15. 24; Jer. 21. 8.  
+_w._ of life, Prov. 6. 23, 15. 24; Jer. 21. 8.  
 _w._ of transgressors is hard, Prov. 13. 15.  
 _w._ which seemeth right, Prov. 14. 12, 16. 25.  
 knowest not _w._ of Spirit, Eccl. 11. 5.  

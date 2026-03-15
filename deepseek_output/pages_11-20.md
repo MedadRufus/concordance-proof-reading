@@ -850,7 +850,7 @@ _c._ me sore like a bird, Lam. 3. 52.
 young women be _c._, Tit. 2. 5.  
 behold your _c._ conversation, 1 Pet. 3. 2.  
 
-**CHASTEN.**— Despise not _c._ of Almighty, Job. 5. 17; Prov. 3. 11; Heb. 12. 5.  
+**CHASTEN.**— Despise not _c._ of Almighty, Job 5. 17; Prov. 3. 11; Heb. 12. 5.  
 nor _c._ me in hot displeasure, Ps. 6. 1.  
 that loveth _c._ betimes, Prov. 13. 24.  
 _c._ son while hope, Prov. 19. 18.  
@@ -1291,7 +1291,7 @@ soul _c._ to the dust, Ps. 119. 25.
 
 **CLEFTS.**— Cant. 2. 14; Isa. 2. 21; Jer. 49. 16.  
 
-**CLERK.**— Town _c._ appeased, Acts. 19. 35.  
+**CLERK.**— Town _c._ appeased, Acts 19. 35.  
 
 **CLIMB.**— Shall _c._ up rocks, Jer. 4. 29.  
 _c._ wall like men of war, Joel 2. 7.  
@@ -1368,7 +1368,7 @@ to him that weareth gay _c._, Jas. 2. 3.
 
 **CLOUD.**— A pillar of _c._, Ex. 13. 21.  
 a _c._ covered the mount, Ex. 24. 15, 16.  
-Lord descended in _c._, Ex.34.5; Nu.11.25.  
+Lord descended in _c._, Ex. 34.5; Nu. 11.25.  
 Lord in pillar of _c._, Nu. 12. 5; Deu. 31. 15.  
 a little _c._ like a man's hand, 1 Kin. 18.44.  
 the pillar of _c._ departed not, Neh. 9. 19.  
@@ -1377,7 +1377,7 @@ day-time he led with _c._, Ps. 78. 14.
 favour as _c._ of later rain, Prov. 16. 15.  
 who are these flee as a _c._, Isa. 60. 8.  
 goodness as a morning _c._, Hos. 6. 4.  
-morning _c._ and early dew, Hos.13.3.  
+morning _c._ and early dew, Hos. 13. 3.  
 _c._ oversha., Matt. 17. 5; Mk. 9. 7; Lu. 9. 34.  
 Son of man coming in a _c._, Luke 21. 27.  
 a _c._ received him, Acts 1. 9.  
@@ -1612,7 +1612,7 @@ this _c._ I received of, John 10. 18.
 his _c._ is life everlasting, John 12. 50.  
 a new _c._ I give, John 13. 34; 1 John 2. 7, 8; 2 John 5.  
 as Father gave me _c._, Jn. 14. 31.  
-my _c._ that ye love, Jn. 15. 12; 1 Jn 3. 23.  
+my _c._ that ye love, Jn. 15. 12; 1 Jn. 3. 23.  
 when _c._ came, sin revived, Rom. 7. 9.  
 _c._ which was ordained to life, Rom. 7. 10.  
 _c._ is holy, just, and good, Rom. 7. 12.  
@@ -2151,7 +2151,7 @@ except _c._ of wheat fall, John 12. 24.
 the same is become head of _c._, Matt. 21. 42.  
 thing was not done in a _c._, Acts 26. 26.  
 
-**CORNER-STONE.**— Laid _c.-s._ thereof, Job. 38. 6.  
+**CORNER-STONE.**— Laid _c.-s._ thereof, Job 38. 6.  
 in Zion a _c.-s._, Isa. 28. 16; 1 Pet. 2. 6.  
 
 **CORNET.**— 2 Sam. 6. 5; 2 Chron. 15. 14; Ps. 98. 6; Dan. 3. 5; Hos. 5. 8.  
@@ -2186,7 +2186,7 @@ in those they _c._ themselves, Jude 10.
 **CORRUPTIBLE.**— C. must put on incorruption, 1 Cor. 15. 53.  
 not redeemed with _c._, 1 Pet. 1. 18.  
 
-**CORRUPTION.**— A said to _c._ my father, Job. 17. 14.  
+**CORRUPTION.**— A said to _c._ my father, Job 17. 14.  
 Thine Holy One to see _c._, Ps. 16. 10; Acts 13. 35.  
 brought up my life from _c._, Jonah 2. 6.  
 whom God raised saw no _c._, Acts 13. 37.  
@@ -2697,7 +2697,7 @@ look out of windows be _d._, Eccl. 12. 3.
 **DARKNESS.**— _d._ under his feet, 2 Sam. 22. 10; Ps. 18. 9.  
 Lord will lighten my _d._, 2 Sam. 22. 29; Ps. 18. 28.  
 he would dwell in thick _d._, 1 Kings 8. 12; 2 Chron. 6. 1.  
-a land of _d._ as _d._ itself, Job. 10. 22.  
+a land of _d._ as _d._ itself, Job 10. 22.  
 no _d._ where evil-doers may hide, Job 34. 22.  
 as for _d._ where is the place, Job 38. 19.  
 makest _d._ and it is night, Ps. 104. 20.  

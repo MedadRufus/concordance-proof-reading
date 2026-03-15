@@ -34,7 +34,7 @@ be swift to _h._, Jas. 1. 19.
 **HEARD.**—They _h._ voice of the L., Gen. 3. 8.  
 I have _h._ their cry, Ex. 3. 7.  
 only he _h._ a voice, Deut. 4. 12.  
-was silence, I _h._ a voice, Job. 4. 16.  
+was silence, I _h._ a voice, Job 4. 16.  
 as we have _h._, so have we seen, Ps. 48. 8.  
 verily God hath _h._ me, Ps. 66. 19.  
 I love L. he hath _h._ my voice, Ps. 116. 1.  

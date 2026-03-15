@@ -1064,7 +1064,7 @@ my _s._ is weary of life, Job 10. 1.
 in whose hand is _s._ of every, Job 12. 10.  
 if your _s._ were in my soul's, Job 16. 4.  
 what his _s._ desireth, even, Job 23. 13.  
-when God taketh away his _s._, Job. 27. 8.  
+when God taketh away his _s._, Job 27. 8.  
 _s._ draweth near unto grave, Job 33. 22.  
 not leave my _s._ in, Ps. 16. 10; Acts 2. 27.  
 converting the _s._, Ps. 19. 7.  
@@ -1126,7 +1126,7 @@ _s._ of the grinding is low, Eccl. 12. 4.
 hearest _s._ thereof, but, John 3. 8.  
 _s._ as of a rushing wind, Acts 2. 2.  
 _s._ went into all earth, Rom. 10. 18.  
-things without life giving _s._, 1Cor. 14. 7, 8.  
+things without life giving _s._, 1 Cor. 14. 7, 8.  
 as the _s._ of many waters, Rev. 1. 15.  
 wings as _s._ of chariots, Rev. 9. 9.  
 

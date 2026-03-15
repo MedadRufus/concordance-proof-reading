@@ -64,7 +64,7 @@ every man give as he is _a._, Deu. 16:17.
 no man _a._ to stand before, Josh. 23:9.  
 who is _a._ to stand? 1 Sam. 6:20; Job 41:10.  
 who is _a._ to judge, 1 Ki. 3:9.  
-Lord is _a._ to give much, 2 Ch. 25:9.  
+Lord is _a._ to give much, 2 Chr. 25:9.  
 who _a._ to stand before envy? Prov. 27:4.  
 our God is _a._ to deliver, Dan. 3:17, 6:20.  
 G. is _a._ of these stones, Mt. 3:9; Lk. 3:8.  
@@ -604,7 +604,7 @@ esteemeth every day _a._, Rom. 14:5.
 
 **ALIVE.**— Went down _a._ into pit, Num. 16:33.  
 _a._ every one this day, Deu. 4:4.  
-and I make _a._, Deut 32:39; 1 Sam. 2:6.  
+and I make _a._, Deu. 32:39; 1 Sam. 2:6.  
 God to kill and make _a._? 2 Ki. 5:7.  
 the souls _a._, Eze. 13:18, 18:27.  
 heard that he was _a._, Mk. 16:11.  
@@ -915,7 +915,7 @@ _a._ thine eyes with eye-salve, Rev. 3:18.
 
 **ANOINTED.**— Lord's _a._ is before him, 1 Sam. 16:6, 24:6, 10, 26:9, 16; 2 Sam. 1:14, 19:21; Lam. 4:20.  
 mercy to his _a._, 2 Sam. 22:51; Ps. 18:50.  
-touch not mine _a._, 1 Ch. 16:22; Ps. 105:15.  
+touch not mine _a._, 1 Chr. 16:22; Ps. 105:15.  
 the face of thine _a._, 2 Chr. 6:42; Ps. 132:10.  
 and against his _a._, Ps. 2:2.  
 the Lord saveth his _a._, Ps. 20:6.  
@@ -943,7 +943,7 @@ which is not _a._, Gal. 1:7.
 **ANSWER.**— Nor any to _a._, 1 Ki. 18:29.  
 _a._ him one of a thousand, Job 9:3.  
 call thou, and I will _a._, Job 13:22; Ps. 91:15.  
-what shall I _a._ him, Job. 31:14.  
+what shall I _a._ him, Job 31:14.  
 and _a._ me, Ps. 27:7, 86:7, 102:2, 108:6, 143:1.  
 _a._ me speedily, Ps. 102:2.  
 soft _a._ turneth away wrath, Prov. 15:1.  
@@ -1062,7 +1062,7 @@ to _a._ them that mourn in Zion, Is. 61:3.
 
 **APPOINTED.**— Is there not an _a._ time to man? Job 7:1.  
 thou hast _a._ his bounds, Job 14:5.  
-all the days of my _a._ time, Job. 14:14.  
+all the days of my _a._ time, Job 14:14.  
 preserve those _a._ to die, Ps. 79:11.  
 loose those _a._ to death, Ps. 102:20.  
 and your _a._ feasts my soul, Is. 1:14.  
@@ -1113,13 +1113,13 @@ _a._ from the dead, and Christ, Eph. 5:14.
 **ARK.**— Took an _a._ of bulrushes, Ex. 2:3.  
 made the _a._ of shittim-wood, Ex. 37:1.  
 _a._ of the coven., Num. 10:33; Deu. 31:26; Josh. 4:7; Judg. 20:27; 1 Sam. 4:3.  
-_a._ of thy strength, 2 Ch. 6:41; Ps. 132:8.  
+_a._ of thy strength, 2 Chr. 6:41; Ps. 132:8.  
 seen in his temple the _a._, Rev. 11:19.  
 
-**ARM.**— A stretched out _a._, Exod. 6:6; Deu. 4:34; 2 Chr. 6:32; Ps. 136:12; Jer. 27:5; Eze. 20:33.  
-with him is _a._ of flesh, 2 Chr. 32, 8.  
-_a._ that hath no strength, Job. 26:2.  
-hast thou an _a._ like God? Job. 40:9.  
+**ARM.**— A stretched out _a._, Ex. 6:6; Deu. 4:34; 2 Chr. 6:32; Ps. 136:12; Jer. 27:5; Eze. 20:33.  
+with him is _a._ of flesh, 2 Chr. 32:8.  
+_a._ that hath no strength, Job 26:2.  
+hast thou an _a._ like God? Job 40:9.  
 break the _a._ of the wicked, Ps. 10:15.  
 nor their own _a._ save them, Ps. 44:3.  
 thou hast a mighty _a._, Ps. 89:13.  
@@ -1484,7 +1484,7 @@ I will heal their _b._, I will, Hos. 14:4.
 
 **BACKWARD.**— Shadow return _b._, 2 Ki. 20:10; Is. 38:8.  
 _b._ I cannot perceive him, Job 23:8.  
-driven _b._, Ps 40:14, 70:2.  
+driven _b._, Ps. 40:14, 70:2.  
 judgment is turned away _b._, Is. 52:14.  
 went _b._ and fell, Jn. 18:6.  
 
@@ -1714,7 +1714,7 @@ Christ once offered to _b._ sin, Heb. 9:28.
 **BEARETH.**— _b._ not the sword in vain, Rom. 13:4.  
 charity _b._ all things, 1 Cor. 13:7.  
 
-**BEAR.**— As _b._ robbed, 2 Sam. 17:8; Pro. 17:12.  
+**BEAR.**— As _b._ robbed, 2 Sam. 17:8; Prov. 17:12.  
 came forth two she-_b._ 2 Ki. 2:24.  
 and a ranging _b._, Prov. 28:15.  
 we roar all like _b._, Is. 59:11.  
@@ -2145,7 +2145,7 @@ to obey is _b._ than sacrifice, 1 Sam. 15:22.
 a little righteous hath _b._, Ps. 37:16.  
 _b._ to trust in Lord, Ps. 118:8, 9.  
 _b._ little with fear of Lord, Prov. 15:16.  
-_b._ dinner of herbs where love, Pro. 15:17.  
+_b._ dinner of herbs where love, Prov. 15:17.  
 _b._ a little with righteousness, Prov. 16:8.  
 _b._ to get wisdom than gold, Prov. 16:16.  
 _b._ a dry morsel and quiet, Prov. 17:1.  
@@ -3026,7 +3026,7 @@ _b._ of faith and love, 1 Thess. 5:8.
 **BREATH.**— _b._ of life, Gen. 2:7, 6:17, 7:15.  
 by _b._ of his nostrils consumed, Job 4:9.  
 in whose hand is of all, Job 12:10.  
-the _b._ of Almighty gave me life, Job. 33:4.  
+the _b._ of Almighty gave me life, Job 33:4.  
 his _b._ kindleth coals, Job 41:21.  
 made by the _b._ of his mouth, Ps. 33:6.  
 takest away _b._ they die, Ps. 104:29.  
@@ -4059,7 +4059,7 @@ _c._ me sore like a bird, Lam. 3:52.
 young women be _c._, Tit. 2:5.  
 behold your _c._ conversation, 1 Pet. 3:2.  
 
-**CHASTEN.**— Despise not _c._ of Almighty, Job. 5:17; Prov. 3:11; Heb. 12:5.  
+**CHASTEN.**— Despise not _c._ of Almighty, Job 5:17; Prov. 3:11; Heb. 12:5.  
 nor _c._ me in hot displeasure, Ps. 6:1.  
 that loveth _c._ betimes, Prov. 13:24.  
 _c._ son while hope, Prov. 19:18.  
@@ -4500,7 +4500,7 @@ soul _c._ to the dust, Ps. 119:25.
 
 **CLEFTS.**— Song 2:14; Is. 2:21; Jer. 49:16.  
 
-**CLERK.**— Town _c._ appeased, Acts. 19:35.  
+**CLERK.**— Town _c._ appeased, Acts 19:35.  
 
 **CLIMB.**— Shall _c._ up rocks, Jer. 4:29.  
 _c._ wall like men of war, Joel 2:7.  
@@ -4577,7 +4577,7 @@ to him that weareth gay _c._, Jas. 2:3.
 
 **CLOUD.**— A pillar of _c._, Ex. 13:21.  
 a _c._ covered the mount, Ex. 24:15, 16.  
-Lord descended in _c._, Ex.34:5; Nu.11:25.  
+Lord descended in _c._, Ex. 34:5; Num. 11:25.  
 Lord in pillar of _c._, Num. 12:5; Deu. 31:15.  
 a little _c._ like a man's hand, 1 Ki. 18:44.  
 the pillar of _c._ departed not, Neh. 9:19.  
@@ -4586,7 +4586,7 @@ day-time he led with _c._, Ps. 78:14.
 favour as _c._ of later rain, Prov. 16:15.  
 who are these flee as a _c._, Is. 60:8.  
 goodness as a morning _c._, Hos. 6:4.  
-morning _c._ and early dew, Hos.13:3.  
+morning _c._ and early dew, Hos. 13:3.  
 _c._ oversha., Mt. 17:5; Mk. 9:7; Lk. 9:34.  
 Son of man coming in a _c._, Lk. 21:27.  
 a _c._ received him, Acts 1:9.  
@@ -4821,7 +4821,7 @@ this _c._ I received of, Jn. 10:18.
 his _c._ is life everlasting, Jn. 12:50.  
 a new _c._ I give, Jn. 13:34; 1 Jn. 2:7, 8; 2 Jn. 5.  
 as Father gave me _c._, Jn. 14:31.  
-my _c._ that ye love, Jn. 15:12; 1 Jn 3:23.  
+my _c._ that ye love, Jn. 15:12; 1 Jn. 3:23.  
 when _c._ came, sin revived, Rom. 7:9.  
 _c._ which was ordained to life, Rom. 7:10.  
 _c._ is holy, just, and good, Rom. 7:12.  
@@ -4861,7 +4861,7 @@ whom the Lord _c._, 2 Cor. 10:18.
 
 **COMMENDING.**— _c._ ourselves to man's conscience, 2 Cor. 4:2.  
 
-**COMMIT.**— _c._ thy works unto Lord, Pro. 16:3.  
+**COMMIT.**— _c._ thy works unto Lord, Prov. 16:3.  
 who _c._ you the true riches? Lk. 16:11.  
 Jesus did not _c._ himself, Jn. 2:24.  
 _c._ such worthy of death, Rom. 1:32.  
@@ -5360,7 +5360,7 @@ except _c._ of wheat fall, Jn. 12:24.
 the same is become head of _c._, Mt. 21:42.  
 thing was not done in a _c._, Acts 26:26.  
 
-**CORNER-STONE.**— Laid _c.-s._ thereof, Job. 38:6.  
+**CORNER-STONE.**— Laid _c.-s._ thereof, Job 38:6.  
 in Zion a _c.-s._, Is. 28:16; 1 Pet. 2:6.  
 
 **CORNET.**— 2 Sam. 6:5; 2 Chr. 15:14; Ps. 98:6; Dan. 3:5; Hos. 5:8.  
@@ -5395,7 +5395,7 @@ in those they _c._ themselves, Jude 10.
 **CORRUPTIBLE.**— C. must put on incorruption, 1 Cor. 15:53.  
 not redeemed with _c._, 1 Pet. 1:18.  
 
-**CORRUPTION.**— A said to _c._ my father, Job. 17:14.  
+**CORRUPTION.**— A said to _c._ my father, Job 17:14.  
 Thine Holy One to see _c._, Ps. 16:10; Acts 13:35.  
 brought up my life from _c._, Jonah 2:6.  
 whom God raised saw no _c._, Acts 13:37.  
@@ -5906,7 +5906,7 @@ look out of windows be _d._, Eccl. 12:3.
 **DARKNESS.**— _d._ under his feet, 2 Sam. 22:10; Ps. 18:9.  
 Lord will lighten my _d._, 2 Sam. 22:29; Ps. 18:28.  
 he would dwell in thick _d._, 1 Ki. 8:12; 2 Chr. 6:1.  
-a land of _d._ as _d._ itself, Job. 10:22.  
+a land of _d._ as _d._ itself, Job 10:22.  
 no _d._ where evil-doers may hide, Job 34:22.  
 as for _d._ where is the place, Job 38:19.  
 makest _d._ and it is night, Ps. 104:20.  
@@ -7768,7 +7768,7 @@ he that wrought _e._ in Peter, Gal. 2:8.
 the word _e._ worketh, 1 Thess. 2:13.  
 
 **EGG.**— Whether young ones or _e._, Deu. 22:6.  
-any taste in white of _e._? Job. 6:6.  
+any taste in white of _e._? Job 6:6.  
 ostrich leaveth _e._ earth, Job 39:14.  
 ask _e._, will offer scorpion? Lk. 11:12.  
 
@@ -8209,7 +8209,7 @@ _e._ the edge of the sword, Heb. 11:34.
 _e._ not who refused him, Heb. 12:25.  
 _e._ the pollutions of world, 2 Pet. 2:20.  
 
-**ESCHEW.**— _e._ evil, Job. 1:1, 8, 2:3.  
+**ESCHEW.**— _e._ evil, Job 1:1, 8, 2:3.  
 let him _e._ evil, good, 1 Pet. 3:11.  
 
 **ESPOUSALS.**— Song 3:11; Jer. 2:2.  
@@ -8263,7 +8263,7 @@ _e._ other better than themselves, Phil. 2:3.
 _e._ highly for work's sake, 1 Thess. 5:13.  
 
 **ESTEEMED.**— _e._ words of his mouth, Job 23:12.  
-is _e._ a man of under, Pro. 17:28.  
+is _e._ a man of under, Prov. 17:28.  
 and we _e._ him not, Is. 53:3.  
 
 **ESTEEMETH.**— _e._ one day above, Rom. 14:5.  
@@ -9089,7 +9089,7 @@ a mighty _f._ in that land, Lk. 15:14.
 
 **FAMISH.**—Prov. 10:3; Is. 5:13; Zeph. 2:11.  
 
-**FAMOUS.**—Name be _f._ in Isr., Ru. 4:14.  
+**FAMOUS.**—Name be _f._ in Isr., Ruth 4:14.  
 man was _f._ as he lifted axes, Ps. 74:5.  
 
 **FAN.**—Whose _f._ is in hand, Is. 41:16; Jer. 4:11, 51:2; Mt. 3:12; Lk. 3:17.  
@@ -11614,7 +11614,7 @@ not _g._ of filthy lucre, 1 Tim. 3:3, 8.
 
 **GREEN.**— Do these things in _g._ tree, Lk. 23:31.  
 
-**GREENNESS.**— Yet in _g._, Job. 8:12.  
+**GREENNESS.**— Yet in _g._, Job 8:12.  
 
 **GREET.**— _g._ one another, 1 Cor. 16:20; 2 Cor. 13:12; 1 Thess. 5:26; 1 Pet. 5:14.  
 
@@ -11859,7 +11859,7 @@ be swift to _h._, Jas. 1:19.
 **HEARD.**—They _h._ voice of the L., Gen. 3:8.  
 I have _h._ their cry, Ex. 3:7.  
 only he _h._ a voice, Deu. 4:12.  
-was silence, I _h._ a voice, Job. 4:16.  
+was silence, I _h._ a voice, Job 4:16.  
 as we have _h._, so have we seen, Ps. 48:8.  
 verily God hath _h._ me, Ps. 66:19.  
 I love L. he hath _h._ my voice, Ps. 116:1.  
@@ -12199,7 +12199,7 @@ look to rock whence ye are _h._, Is. 51:1.
 
 **HID.**—I _h._ myself, Gen. 3:10.  
 the Lord _h._ it from me, 2 Ki. 4:27.  
-_h._ from the eyes of all living, Job. 28:21.  
+_h._ from the eyes of all living, Job 28:21.  
 have not _h._ thy righteousness, Ps. 40:10.  
 my sins are not _h._ from thee, Ps. 69:5.  
 thy word I _h._ in mine heart, Ps. 119:11.  
@@ -12435,7 +12435,7 @@ heavenly Father give _H. S._, Lk. 11:13.
 sealed with _H. S._ of promise, Eph. 1:13.  
 hath given us his _H. S._, 1 Thess. 4:8.  
 
-**HOME.**—L. hath brought me _h._, Ru. 1:21.  
+**HOME.**—L. hath brought me _h._, Ruth 1:21.  
 bring ark of God _h._, 1 Chr. 13:12, 13.  
 she that tarried at _h._, Ps. 68:12.  
 man goeth to his long _h._, Eccl. 12:5.  
@@ -22213,13 +22213,13 @@ hast _s._ us from enemies, Ps. 44:7.
 _s._ them for his name's sake, Ps. 106:8.  
 L. _s._ them out of distresses, Ps. 107:13.  
 and we are not _s._, Jer. 8:20.  
-who then can be _s.?_ Mt. 19:25.  
+who then can be _s._? Mt. 19:25.  
 he _s._ others, Mt. 27:42; Mk. 15:31.  
 he _s._ from our enemies, Lk. 1:71.  
 that the world might be _s._, Jn. 3:17.  
 these I say, that ye might be _s._, Jn. 5:34.  
 L. added such as should be _s._, Acts 2:47.  
-what must I do to be _s.?_ Acts 16:30.  
+what must I do to be _s._? Acts 16:30.  
 we are _s._ by hope, Rom. 8:24.  
 for Isr., that they may be _s._, Rom. 10:1.  
 that the spirit may be _s._, 1 Cor. 5:5.  
@@ -22233,6 +22233,17 @@ nations of them _s._, Rev. 21:24.
 
 **SAVETH.**— _s._ not with sword, 1 Sam. 17:47.  
 he _s._ poor from the sword, Job 5:15.  
+God who _s._ the upright, Ps. 7:10.  
+_s._ such as be of contrite spirit, Ps. 34:18.  
+
+**SAVIOUR.**— My refuge, my _s._, 2 Sam. 22:3.  
+the Lord gave Israel a _s._, 2 Ki. 13:5.  
+they forgot God their _s._, Ps. 106:21.  
+he shall send them a _s._, Is. 19:20.  
+the Holy One of Israel thy _s._, Is. 43:3.  
+beside me is no _s._, Is. 43:11; Hos. 13:4.  
+a just God and a _s._, Is. 45:21.  
+shall know I the L. am thy _s._, Is. 60:16.  
 so he was their _s._, Is. 63:8.  
 the _s._ of Israel in trouble, Jer. 14:8.  
 spirit rejoiced in God my _s._, Lk. 1:47.  
@@ -22241,7 +22252,7 @@ this is Christ, _s._ of the world, Jn. 4:42.
 him God exalted to be _s._, Acts 5:31.  
 God raised to Isr. a _s._, Jesus, Acts 13:23.  
 Christ is _s._ of body, Eph. 5:23.  
-G. our _s._, 1 Tim. 1:1; 2:3; Tit. 1:3; 2 Pet. 1:1.  
+G. our _s._, 1 Tim. 1:1, 2:3; Tit. 1:3; 2 Pet. 1:1.  
 God who is _s._ of all men, 1 Tim. 4:10.  
 by appearing of our _s._, 2 Tim. 1:10.  
 to the only wise God our _s._, Jude 25.  
@@ -22379,7 +22390,7 @@ beware of _s._, Mk. 12:38; Lk. 20:46.
 **SCRIPTURE.**— _s._ must be fulfilled, Mk. 14:49.  
 _s._ cannot be broken, Jn. 10:35.  
 mighty in the _s._, Acts 18:24.  
-what saith _s.?_ Rom. 4:3, 11:2; Gal. 4:30.  
+what saith _s._? Rom. 4:3, 11:2; Gal. 4:30.  
 from child hast known _s._, 2 Tim. 3:15.  
 _s._ is by inspiration of God, 2 Tim. 3:16.  
 no _s._ is of private inter., 2 Pet. 1:20.  
@@ -22387,7 +22398,7 @@ as they do also other _s._, 2 Pet. 3:16.
 
 **SCROLL.**— Is. 34:4; Rev. 6:14.  
 
-**SEA.**— Am I a _s.?_ Job 7:12.  
+**SEA.**— Am I a _s._? Job 7:12.  
 _s._ saith, it is not with me, Job 28:14.  
 this great wide _s._, Ps. 104:25.  
 that go down to _s._, Ps. 107:23.  
@@ -22395,7 +22406,7 @@ he gave to _s._ his decree, Prov. 8:29.
 waters cover _s._, Is. 11:9; Hab. 2:14.  
 at my rebuke I dry up the _s._, Is. 50:2.  
 like the troubled _s._, Is. 57:20.  
-_s._ obey him, Mk. 4:39, 41.  
+_s._ obey him, Mt. 8:27; Mk. 4:39, 41.  
 before throne was a _s._, Rev. 4:6.  
 I saw a _s._ of glass, Rev. 15:2.  
 and there was no more _s._, Rev. 21:1.  
@@ -22455,7 +22466,7 @@ he gave us fruitful _s._, Acts 14:17.
 
 **SEASONED.**— Mk. 9:50; Lk. 14:34; Col. 4:6.  
 
-**SEAT.**— Might come to his _s.!_ Job 23:3.  
+**SEAT.**— Might come to his _s._! Job 23:3.  
 in _s._ of the scornful, Ps. 1:1.  
 Pharisees sit in Moses' _s._, Mt. 23:2.  
 where Satan's _s._ is, Rev. 2:13.  
@@ -22484,7 +22495,7 @@ things done of them in _s._, Eph. 5:12.
 every _s._ thing, Eccl. 12:14.  
 kept _s._ from foundation, Mt. 13:35; Rom. 16:25.  
 
-**SECRETS.**— _s._ of wisdom, Job. 11:6.  
+**SECRETS.**— _s._ of wisdom, Job 11:6.  
 he knoweth _s._ of heart, Ps. 44:21.  
 tale-bearer revealeth _s._, Prov. 11:13, 20:19.  
 a God that revealeth _s._, Dan. 2:28, 47.  
@@ -23049,77 +23060,77 @@ were as _s._ going astray, 1 Pet. 2:25.
 
 **SHEPHERD.**— The Lord is my S., Ps. 23:1.  
 give ear, O S. of Israel, Ps. 80:1.  
-words given from one s., Eccl. 12:11.  
-shall feed his flock like a s., Is. 40:11.  
-L. saith of Cyrus, he is my s., Is. 44:28.  
-keep him as s. doth flock, Jer. 31:10.  
-because no s., Eze. 34:5, 8; Zech. 10:2.  
-s. seeketh out flock, sheep, Eze. 34:12.  
-I will set up one s. over them, Eze. 34:23.  
-as s. taketh out of mouth of, Amos 3:12.  
-woe to idle s., Zech. 11:17.  
+words given from one _s._, Eccl. 12:11.  
+shall feed his flock like a _s._, Is. 40:11.  
+L. saith of Cyrus, he is my _s._, Is. 44:28.  
+keep him as _s._ doth flock, Jer. 31:10.  
+because no _s._, Eze. 34:5, 8; Zech. 10:2.  
+_s._ seeketh out flock, sheep, Eze. 34:12.  
+I will set up one _s._ over them, Eze. 34:23.  
+as _s._ taketh out of mouth of, Amos 3:12.  
+woe to idle _s._, Zech. 11:17.  
 S. giveth life for his sheep, Jn. 10:11.  
 I am good S., Jn. 10:14.  
 that great S. of sheep, Heb. 13:20.  
 now returned unto the S., 1 Pet. 2:25.  
 the chief S. shall appear, 1 Pet. 5:4.  
 
-**SHEPHERDS.**— s. make folds, Is. 13:20.  
-s. that cannot understand, Is. 56:11.  
-I will set up s. over them, Jer. 23:4.  
-s. caused them to go astray, Jer. 50:6.  
-the s. fed themselves, Eze. 34:8.  
+**SHEPHERDS.**— _s._ make folds, Is. 13:20.  
+_s._ that cannot understand, Is. 56:11.  
+I will set up _s._ over them, Jer. 23:4.  
+_s._ caused them to go astray, Jer. 50:6.  
+the _s._ fed themselves, Eze. 34:8.  
 
-**SHEW-BREAD.**— David did eat s.-b., Mt. 12:4.  
-wherein was the s.-b., Heb. 9:2.  
+**SHEW-BREAD.**— David did eat _s._-b., Mt. 12:4.  
+wherein was the _s._-b., Heb. 9:2.  
 
-**SHIELD.**— s. and reward, Gen. 15:1.  
-the s. of thy help, Deu. 33:29.  
-Lord is our s., Ps. 33:20, 59:11, 84:9.  
-Lord God is sun and s., Ps. 84:11.  
-his truth shall be thy s., Ps. 91:4.  
-s. to them that trust him, Prov. 30:5.  
-above all taking s. of faith, Eph. 6:16.  
+**SHIELD.**— _s._ and reward, Gen. 15:1.  
+the _s._ of thy help, Deu. 33:29.  
+Lord is our _s._, Ps. 33:20, 59:11, 84:9.  
+Lord God is sun and _s._, Ps. 84:11.  
+his truth shall be thy _s._, Ps. 91:4.  
+_s._ to them that trust him, Prov. 30:5.  
+above all taking _s._ of faith, Eph. 6:16.  
 
-**SHIELDS.**— s. of earth belong to God, Ps. 47:9.  
+**SHIELDS.**— _s._ of earth belong to God, Ps. 47:9.  
 
-**SHILOH.**— Till s. come, Gen. 49:10.  
+**SHILOH.**— Till _s._ come, Gen. 49:10.  
 
-**SHINE.**— L. made his face s., Num. 6:26.  
-s. on counsel of wicked? Job 10:3.  
-cause his face to s. upon us, Ps. 67:1, 80:3, 7, 19; Dan. 9:17.  
-between cherubim s. forth, Ps. 80:1.  
-oil to make his face to s., Ps. 104:15.  
-make thy face s. upon ser., Ps. 119:135.  
-wise, shall s. as stars, Dan. 12:3.  
-righteous s. forth as sun, Mt. 13:43.  
-among whom ye s., Phil. 2:15.  
+**SHINE.**— L. made his face _s._, Num. 6:26.  
+_s._ on counsel of wicked? Job 10:3.  
+cause his face to _s._ upon us, Ps. 67:1, 80:3, 7, 19; Dan. 9:17.  
+between cherubim _s._ forth, Ps. 80:1.  
+oil to make his face to _s._, Ps. 104:15.  
+make thy face _s._ upon ser., Ps. 119:135.  
+wise, shall _s._ as stars, Dan. 12:3.  
+righteous _s._ forth as sun, Mt. 13:43.  
+among whom ye _s._, Phil. 2:15.  
 
-**SHINED.**— Out of Zion, God hath s., Ps. 50:2.  
-upon them hath light s., Is. 9:2.  
-God hath s. in our hearts, 2 Cor. 4:6.  
+**SHINED.**— Out of Zion, God hath _s._, Ps. 50:2.  
+upon them hath light _s._, Is. 9:2.  
+God hath _s._ in our hearts, 2 Cor. 4:6.  
 
-**SHINETH.**— The light s. in dark, Jn. 1:5.  
-the true light now s., 1 Jn. 2:8.  
-countenance as the sun s., Rev. 1:16.  
+**SHINETH.**— The light _s._ in dark, Jn. 1:5.  
+the true light now _s._, 1 Jn. 2:8.  
+countenance as the sun _s._, Rev. 1:16.  
 
-**SHIPS.**— Passed as the swift s., Job 9:26.  
-there go the s., Ps. 104:26.  
-that go down to sea in s., Ps. 107:23.  
-she is like merchant s., Prov. 31:14.  
-the s., though they be great, Jas. 3:4.  
+**SHIPS.**— Passed as the swift _s._, Job 9:26.  
+there go the _s._, Ps. 104:26.  
+that go down to sea in _s._, Ps. 107:23.  
+she is like merchant _s._, Prov. 31:14.  
+the _s._, though they be great, Jas. 3:4.  
 
-**SHIPWRECK.**— Thrice suffered s., 2 Cor. 11:25.  
-concerning faith made s., 1 Tim. 1:19.  
+**SHIPWRECK.**— Thrice suffered _s._, 2 Cor. 11:25.  
+concerning faith made _s._, 1 Tim. 1:19.  
 
-**SHOOT.**— They s. out lip, Ps. 22:7.  
-God shall s. at them, Ps. 64:7.  
+**SHOOT.**— They _s._ out lip, Ps. 22:7.  
+God shall _s._ at them, Ps. 64:7.  
 
-**SHORT.**— Light s. because of darkness, Job 17:12.  
-come s. of glory, Rom. 3:23.  
-a s. work Lord will make, Rom. 9:28.  
+**SHORT.**— Light _s._ because of darkness, Job 17:12.  
+come _s._ of glory, Rom. 3:23.  
+a _s._ work Lord will make, Rom. 9:28.  
 
-**SHORTENED.**— Days hast thou s., Ps. 89:45, 102:23.  
+**SHORTENED.**— Days hast thou _s._, Ps. 89:45, 102:23.  
 
 years of wicked shall be _s._, Prov. 10:27.  
 except those days be _s._, Mt. 24:22.  
@@ -24187,7 +24198,7 @@ my _s._ is weary of life, Job 10:1.
 in whose hand is _s._ of every, Job 12:10.  
 if your _s._ were in my soul's, Job 16:4.  
 what his _s._ desireth, even, Job 23:13.  
-when God taketh away his _s._, Job. 27:8.  
+when God taketh away his _s._, Job 27:8.  
 _s._ draweth near unto grave, Job 33:22.  
 not leave my _s._ in, Ps. 16:10; Acts 2:27.  
 converting the _s._, Ps. 19:7.  
@@ -24249,7 +24260,7 @@ _s._ of the grinding is low, Eccl. 12:4.
 hearest _s._ thereof, but, Jn. 3:8.  
 _s._ as of a rushing wind, Acts 2:2.  
 _s._ went into all earth, Rom. 10:18.  
-things without life giving _s._, 1Cor. 14:7, 8.  
+things without life giving _s._, 1 Cor. 14:7, 8.  
 as the _s._ of many waters, Rev. 1:15.  
 wings as _s._ of chariots, Rev. 9:9.  
 
@@ -26335,7 +26346,7 @@ God be _t._ ye were servants, Rom. 6:17.
 I _t._ my God on your behalf, 1 Cor. 1:4.  
 we are bound to _t._ God, 2 Thess. 1:3.  
 
-_t._ Christ Jesus who enabled, 1 tim. 1:12.  
+_t._ Christ Jesus who enabled, 1 Tim. 1:12.  
 this is _t._-worthy, 1 Pet. 2:19.  
 
 **THANKFUL.**— Be _t._, Ps. 100:4; Col. 3:15.  
@@ -28717,7 +28728,7 @@ I hate every false _w._, Ps. 119:104, 128.
 lead me in the _w._ everlasting, Ps. 139:24.  
 he preserveth _w._ of saints, Prov. 2:8.  
 _w._ of wicked is as darkness, Prov. 4:19.  
-_w._ of life, Prov. 6:23; 15:24; Jer. 21:8.  
+_w._ of life, Prov. 6:23, 15:24; Jer. 21:8.  
 _w._ of transgressors is hard, Prov. 13:15.  
 _w._ which seemeth right, Prov. 14:12, 16:25.  
 knowest not _w._ of Spirit, Eccl. 11:5.  
@@ -29103,7 +29114,7 @@ thou hast played _w._, Eze. 16:28.
 judgment of great _w._, Rev. 17:1, 19:2.  
 
 **WHOREDOM.**— Hast polluted land with _w._, Jer. 3:2.  
-through lightness of her _w._, Jer 3:9.  
+through lightness of her _w._, Jer. 3:9.  
 seen the lewdness of thy _w._, Jer. 13:27.  
 is _w._ a small matter? Eze. 16:20.  
 put their _w._ from me, Eze. 43:9.  

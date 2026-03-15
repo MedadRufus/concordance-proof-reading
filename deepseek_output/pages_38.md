@@ -64,7 +64,7 @@ look to rock whence ye are _h._, Isa. 51. 1.
 
 **HID.**—I _h._ myself, Gen. 3. 10.  
 the Lord _h._ it from me, 2 Kings 4. 27.  
-_h._ from the eyes of all living, Job. 28. 21.  
+_h._ from the eyes of all living, Job 28. 21.  
 have not _h._ thy righteousness, Ps. 40. 10.  
 my sins are not _h._ from thee, Ps. 69. 5.  
 thy word I _h._ in mine heart, Ps. 119. 11.  

@@ -125,7 +125,7 @@ not _g._ of filthy lucre, 1 Tim. 3. 3, 8.
 
 **GREEN.**— Do these things in _g._ tree, Lu. 23. 31.  
 
-**GREENNESS.**— Yet in _g._, Job. 8. 12.  
+**GREENNESS.**— Yet in _g._, Job 8. 12.  
 
 **GREET.**— _g._ one another, 1 Cor. 16. 20; 2 Cor. 13. 12; 1 Thess. 5. 26; 1 Pet. 5. 14.  
 
