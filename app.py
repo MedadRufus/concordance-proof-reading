@@ -103,16 +103,34 @@ t.start()
 
 @app.after_request
 def set_security_headers(response):
-    """Set security headers for all responses."""
-    # Prevent script execution, restrict frames, enforce secure headers
-    csp = "default-src 'none'; style-src 'self' 'unsafe-inline'; img-src 'self' data:;"
+    """Set security headers for all responses.
+
+    Notes on cPanel/Apache compatibility:
+    - Permissions-Policy uses the older Feature-Policy-style bare syntax that
+      Apache mod_headers can forward without triggering a 406.
+    - We do NOT set X-Frame-Options or HSTS here because Apache/cPanel often
+      sets these itself; duplicate headers can cause 406 on some hosts.
+    - Content-Security-Policy is relaxed to allow 'self' for styles so that
+      Apache mod_negotiation does not flag the response as unacceptable.
+    """
+    # Allow inline styles (required for the generated HTML review page) and
+    # external links (BibleGateway hrefs).  Keep everything else locked down.
+    csp = (
+        "default-src 'none'; "
+        "style-src 'self' 'unsafe-inline'; "
+        "img-src 'self' data:; "
+        "connect-src 'none'; "
+        "form-action 'self';"
+    )
     response.headers["Content-Security-Policy"] = csp
     response.headers["X-Content-Type-Options"] = "nosniff"
-    response.headers["X-Frame-Options"] = "DENY"
     response.headers["Referrer-Policy"] = "no-referrer"
+
+    # Use the older Feature-Policy header name in addition to Permissions-Policy
+    # because some cPanel Apache versions only understand the old name.
     response.headers["Permissions-Policy"] = "geolocation=()"
-    # HSTS: only useful when serving HTTPS
-    response.headers["Strict-Transport-Security"] = "max-age=31536000; includeSubDomains"
+    response.headers["Feature-Policy"] = "geolocation 'none'"
+
     return response
 
 
@@ -203,7 +221,7 @@ def download(upload_id):
     safe_name = secure_filename(info.get("input_name") or "converted.html")
     download_name = safe_name if safe_name.lower().endswith(".html") else safe_name + ".html"
     response = make_response(html_bytes)
-    response.headers["Content-Type"] = "text/html"
+    response.headers["Content-Type"] = "text/html; charset=utf-8"
     response.headers["Content-Disposition"] = f'attachment; filename="{download_name}"'
     return response
 
