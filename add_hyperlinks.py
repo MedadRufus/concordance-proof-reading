@@ -572,14 +572,19 @@ class Reference:  # pylint: disable=too-many-instance-attributes
 
         if not verse:
             css_class = "bible-ref-missing"
-            ref_text = f"{visible} [REF NOT FOUND]"
-            tooltip_content = f"{full_key} (KJV) - Reference not found"
+            ref_text = visible
+            tooltip_content = (
+                f"<span class='tip-label tip-missing'>❌ Wrong reference</span>"
+                f"<span class='tip-verse-key'>{html.escape(full_key)}</span>"
+                f"This verse does not exist in the KJV. "
+                f"Check the reference in the ODT and correct the chapter/verse number."
+            )
             issue_id = f"issue-{len(issues)}" if issues is not None else None
             if issues is not None:
                 issues.append({
                     "id": issue_id,
                     "type": "ref-not-found",
-                    "label": ref_text,
+                    "label": visible,
                     "detail": full_key,
                     "root": self.root_word,
                 })
@@ -591,18 +596,27 @@ class Reference:  # pylint: disable=too-many-instance-attributes
                 css_class = "bible-ref"
                 ref_text = visible
                 tooltip_content = (
-                    f"<strong>{html.escape(root)}</strong>: {full_key} (KJV) - {bolded_verse}"
+                    f"<span class='tip-label tip-ok'>✔ Linked</span>"
+                    f"<span class='tip-verse-key'>{html.escape(full_key)}</span>"
+                    f"<em>{bolded_verse}</em>"
                 )
             else:
                 css_class = "bible-ref-no-root"
-                ref_text = f"{visible} [ROOT WORD MISSING]"
-                tooltip_content = f"{full_key} (KJV) - {html.escape(verse)}"
+                ref_text = visible
+                tooltip_content = (
+                    f"<span class='tip-label tip-noroot'>⚠ Wrong verse?</span>"
+                    f"<span class='tip-verse-key'>{html.escape(full_key)}</span>"
+                    f"The word <strong style='background:#ffff00;color:#000'>{html.escape(root)}</strong> "
+                    f"does not appear in this verse. The reference may point to the wrong verse — "
+                    f"check and correct it in the ODT.<br><br>"
+                    f"<em>{html.escape(verse)}</em>"
+                )
                 issue_id = f"issue-{len(issues)}" if issues is not None else None
                 if issues is not None:
                     issues.append({
                         "id": issue_id,
                         "type": "root-missing",
-                        "label": ref_text,
+                        "label": visible,
                         "detail": full_key,
                         "root": self.root_word,
                     })
@@ -690,8 +704,14 @@ def highlight_orphan_numbers(html_fragment: str, issues: list | None = None) -> 
         id_attr = f' id="{issue_id}"' if issue_id else ""
         return (
             f'<span class="ref-pair"{id_attr}>'
-            f'<span class="ocr-suspect">Unlinked: {token}</span>'
-            f'<span class="tooltip">Possible OCR error / unlinked reference: {token}</span>'
+            f'<span class="ocr-suspect">{token}</span>'
+            f'<span class="tooltip">'
+            f"<span class='tip-label tip-unlinked'>🔗 Unlinked number</span>"
+            f"<span class='tip-verse-key'>{token}</span>"
+            f"This looks like a Bible reference but has no book name attached. "
+            f"Add the missing book abbreviation before this number in the ODT "
+            f"(e.g. change <em>{token}</em> to <em>Ps. {token}</em>)."
+            f'</span>'
             f'</span>'
         )
 
@@ -729,156 +749,7 @@ def convert_odt_bytes_to_html(odt_bytes):
     issues: list = []
     paragraphs = extract_paragraphs(doc, kjv_verses, issues)
 
-    style = """
-        body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            margin: 10em;
-        }
-        p {
-            margin: 0 0 1em 0;
-        }
-
-        /* ── Issues summary table ───────────────────────────────────────── */
-        #issues-summary {
-            border-collapse: collapse;
-            width: 100%;
-            margin-bottom: 3em;
-            font-size: 13px;
-        }
-        #issues-summary caption {
-            font-size: 16px;
-            font-weight: bold;
-            text-align: left;
-            padding: 0 0 0.5em 0;
-            color: #333;
-        }
-        #issues-summary th {
-            background: #f0f0f0;
-            border: 1px solid #ccc;
-            padding: 6px 10px;
-            text-align: left;
-            white-space: nowrap;
-        }
-        #issues-summary td {
-            border: 1px solid #ddd;
-            padding: 5px 10px;
-            vertical-align: top;
-        }
-        #issues-summary tr:nth-child(even) td {
-            background: #fafafa;
-        }
-        #issues-summary tr:hover td {
-            background: #f5f5f5;
-        }
-        .issue-badge {
-            display: inline-block;
-            border-radius: 3px;
-            padding: 1px 6px;
-            font-size: 11px;
-            font-weight: bold;
-            white-space: nowrap;
-        }
-        .badge-ref-not-found  { background:#ffe6e6; color:#cc0000; border:1px solid #cc0000; }
-        .badge-root-missing   { background:#fff9e6; color:#cc6600; border:1px solid #cc6600; }
-        .badge-unlinked-ref   { background:#ffe6e6; color:#cc0000; border:1px solid #cc0000; }
-        #issues-summary a.jump-link {
-            color: #0055aa;
-            text-decoration: none;
-            font-weight: bold;
-        }
-        #issues-summary a.jump-link:hover { text-decoration: underline; }
-
-        /* Reference pair container */
-        .ref-pair {
-            position: relative;
-            display: inline-block;
-            margin-right: 0.2em;
-        }
-
-        /* Tooltip styling */
-        .tooltip {
-            position: absolute;
-            bottom: 100%;
-            left: 50%;
-            transform: translateX(-50%);
-            background: #333;
-            color: white;
-            padding: 8px 12px;
-            border-radius: 4px;
-            font-size: 12px;
-            z-index: 1000;
-            opacity: 0;
-            visibility: hidden;
-            pointer-events: none;
-            white-space: normal;
-            min-width: 200px;
-            word-wrap: break-word;
-            margin-bottom: 6px;
-            box-shadow: 0 2px 6px rgba(0,0,0,0.3);
-            transition: opacity 0.2s ease;
-        }
-
-        .ref-pair:hover .tooltip {
-            opacity: 1;
-            visibility: visible;
-        }
-
-        /* Link styles */
-        .bible-ref {
-            color: #0066cc;
-            cursor: help;
-            border-bottom: 1px dotted #0066cc;
-            text-decoration: none;
-        }
-        .bible-ref:hover {
-            background-color: #f0f8ff;
-            text-decoration: underline;
-        }
-
-        .bible-ref-missing {
-            color: #cc0000;
-            cursor: help;
-            border-bottom: 2px solid #cc0000;
-            text-decoration: none;
-            background-color: #ffe6e6;
-        }
-        .bible-ref-missing:hover {
-            background-color: #ffcccc;
-            text-decoration: underline;
-        }
-
-        .bible-ref-no-root {
-            color: #cc6600;
-            cursor: help;
-            border-bottom: 2px dashed #cc6600;
-            text-decoration: none;
-            background-color: #fff9e6;
-        }
-        .bible-ref-no-root:hover {
-            background-color: #ffebcc;
-            text-decoration: underline;
-        }
-
-        /* Enhanced highlighting for matched words in tooltips */
-        .tooltip strong {
-            background-color: #ffff00; /* Yellow background */
-            color: #000; /* Black text */
-            padding: 1px 2px;
-            border-radius: 2px;
-            font-weight: bold;
-        }
-
-        /* OCR suspect / unlinked reference — same style as ref-not-found */
-        .ocr-suspect {
-            color: #cc0000;
-            cursor: help;
-            border-bottom: 2px solid #cc0000;
-            text-decoration: none;
-            background-color: #ffe6e6;
-            font-weight: bold;
-        }
-    """
+    style = ""  # styles are now in write_html directly
 
     return write_html(paragraphs, style, issues)
 
@@ -977,9 +848,9 @@ def extract_paragraphs(doc, verses, issues: list):
         substitution_func = create_substitution_function(verses, root_word, issues)
 
         rendered_segments = []
+
         for seg in segments:
             new_seg = ref_pattern.sub(substitution_func, seg)
-            # After linking known references, highlight any leftover orphan numbers
             new_seg = highlight_orphan_numbers(new_seg, issues)
             rendered_segments.append(new_seg)
 
@@ -989,89 +860,350 @@ def extract_paragraphs(doc, verses, issues: list):
     return paragraphs
 
 
-def build_issues_table(issues: list) -> str:
-    """Return an HTML table summarising all issues, with jump-to links."""
+def build_issues_panel(issues: list) -> str:
+    """Return a sticky sidebar panel listing all issues with jump links."""
     if not issues:
-        return '<p><em>No issues found.</em></p>\n'
+        return ''
 
-    BADGE = {
-        "ref-not-found": ('<span class="issue-badge badge-ref-not-found">Ref not found</span>', "Ref not found"),
-        "root-missing":  ('<span class="issue-badge badge-root-missing">Root word missing</span>', "Root word missing"),
-        "unlinked-ref":  ('<span class="issue-badge badge-unlinked-ref">Unlinked reference</span>', "Unlinked reference"),
-    }
-
-    # Count by type for the header summary line
     counts: dict[str, int] = {}
     for issue in issues:
         counts[issue["type"]] = counts.get(issue["type"], 0) + 1
 
-    summary_parts = []
-    for itype, (badge_html, _) in BADGE.items():
-        if itype in counts:
-            summary_parts.append(f"{badge_html} &times; {counts[itype]}")
-    summary_line = " &nbsp; ".join(summary_parts)
+    n_missing  = counts.get("ref-not-found", 0)
+    n_noroot   = counts.get("root-missing", 0)
+    n_unlinked = counts.get("unlinked-ref", 0)
 
-    rows = []
-    for n, issue in enumerate(issues, start=1):
-        itype = issue["type"]
-        badge_html = BADGE.get(itype, (html.escape(itype), itype))[0]
-        label = html.escape(issue["label"])
-        detail = html.escape(issue["detail"])
-        root = html.escape(issue["root"]) if issue["root"] else "—"
-        issue_id = issue["id"]
-        jump = f'<a class="jump-link" href="#{issue_id}" title="Jump to occurrence in document">↓ {label}</a>'
-        rows.append(
-            f"<tr>"
-            f"<td>{n}</td>"
-            f"<td>{badge_html}</td>"
-            f"<td>{jump}</td>"
-            f"<td>{detail}</td>"
-            f"<td>{root}</td>"
-            f"</tr>"
-        )
+    # Group rows by type so editor can tackle one category at a time
+    sections = [
+        ("ref-not-found", "❌ Wrong reference",   "panel-missing",  n_missing,
+         "This verse does not exist in the KJV — the chapter/verse number is wrong."),
+        ("root-missing",  "⚠ Wrong verse?",       "panel-noroot",   n_noroot,
+         "The heading word isn't found in this verse — may point to the wrong verse."),
+        ("unlinked-ref",  "🔗 Unlinked number",   "panel-unlinked", n_unlinked,
+         "Looks like a reference but has no book name — add the book abbreviation."),
+    ]
 
-    rows_html = "\n".join(rows)
-    return f"""<table id="issues-summary">
-  <caption>Issues summary &mdash; {len(issues)} total &nbsp; ({summary_line})</caption>
-  <thead>
-    <tr>
-      <th>#</th>
-      <th>Type</th>
-      <th>Reference</th>
-      <th>Verse key</th>
-      <th>Root word</th>
-    </tr>
-  </thead>
-  <tbody>
-{rows_html}
-  </tbody>
-</table>
+    html_parts = ['<div id="issues-panel">']
+    html_parts.append('<div id="panel-header">')
+    html_parts.append('<strong>Issues to fix</strong>')
+    html_parts.append(
+        f'<span class="panel-counts">'
+        f'<span class="pc missing">{n_missing} wrong ref</span>'
+        f'<span class="pc noroot">{n_noroot} wrong verse?</span>'
+        f'<span class="pc unlinked">{n_unlinked} unlinked</span>'
+        f'</span>'
+    )
+    html_parts.append('</div>')  # panel-header
+
+    for itype, label, css, count, explanation in sections:
+        if count == 0:
+            continue
+        group_issues = [iss for iss in issues if iss["type"] == itype]
+        html_parts.append(f'<div class="panel-section {css}">')
+        html_parts.append(f'<div class="section-heading">{label} <span class="section-count">{count}</span></div>')
+        html_parts.append(f'<div class="section-explain">{explanation}</div>')
+        html_parts.append('<ol class="issue-list">')
+        for iss in group_issues:
+            root_note = f' <span class="root-note">({html.escape(iss["root"])})</span>' if iss["root"] else ""
+            html_parts.append(
+                f'<li><a class="jump-link" href="#{iss["id"]}">'
+                f'{html.escape(iss["label"])}</a>'
+                f'{root_note}'
+                f'<span class="verse-key">{html.escape(iss["detail"])}</span>'
+                f'</li>'
+            )
+        html_parts.append('</ol>')
+        html_parts.append('</div>')  # panel-section
+
+    html_parts.append('</div>')  # issues-panel
+    return '\n'.join(html_parts)
+
+
+def build_legend() -> str:
+    """Return a compact colour-key legend bar."""
+    return """
+<div id="legend">
+  <strong>Colour key:</strong>
+  <span class="leg leg-ok">Blue = linked correctly ✔ (hover to see verse)</span>
+  <span class="leg leg-missing">Red background = ❌ wrong reference — verse doesn't exist</span>
+  <span class="leg leg-noroot">Amber background = ⚠ wrong verse? — heading word not found in verse</span>
+  <span class="leg leg-unlinked">Red underline = 🔗 unlinked number — missing book name</span>
+</div>
 """
 
 
-def write_html(paragraphs, style, issues: list | None = None):
-    """Write *paragraphs* to an HTML string wrapped in a simple HTML document.
+def write_html(paragraphs, _style_unused, issues: list | None = None):
+    """Write paragraphs to a self-contained HTML document optimised for hand-editing review."""
 
-    If *issues* is provided, an issues-summary table is inserted at the top of
-    the ``<body>`` so the reader can see all problems at a glance and click
-    through to each occurrence.
-    """
-    html_content = (
-        "<!DOCTYPE html>\n"
+    style = """
+/* ── Reset & base ─────────────────────────────────────────────── */
+*, *::before, *::after { box-sizing: border-box; }
+body {
+    font-family: Georgia, serif;
+    font-size: 15px;
+    line-height: 1.7;
+    background: #f7f7f5;
+    color: #222;
+    margin: 0;
+    padding: 0;
+}
+
+/* ── Layout: sidebar + main ───────────────────────────────────── */
+#layout {
+    display: flex;
+    align-items: flex-start;
+    min-height: 100vh;
+}
+#main {
+    flex: 1;
+    min-width: 0;
+    padding: 2em 3em 4em 2em;
+    max-width: 900px;
+}
+p {
+    margin: 0 0 0.6em 0;
+    padding: 3px 6px;
+    border-radius: 3px;
+}
+p:hover {
+    background: #efefec;
+}
+
+/* ── Legend bar ───────────────────────────────────────────────── */
+#legend {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    padding: 10px 16px;
+    margin-bottom: 1.8em;
+    font-size: 13px;
+    line-height: 2;
+}
+#legend strong { margin-right: 12px; }
+.leg { display: inline-block; margin-right: 16px; padding: 2px 8px; border-radius: 3px; }
+.leg-ok      { color: #0066cc; border-bottom: 1px dotted #0066cc; }
+.leg-missing { background: #ffe6e6; color: #cc0000; font-weight: bold; }
+.leg-noroot  { background: #fff3cd; color: #7a4f00; border-bottom: 2px dashed #cc8800; }
+.leg-unlinked{ color: #cc0000; border-bottom: 2px solid #cc0000; font-weight: bold; }
+
+/* ── Sticky sidebar panel ─────────────────────────────────────── */
+#issues-panel {
+    width: 280px;
+    min-width: 260px;
+    position: sticky;
+    top: 0;
+    max-height: 100vh;
+    overflow-y: auto;
+    background: #fff;
+    border-right: 1px solid #ddd;
+    font-size: 12.5px;
+    line-height: 1.5;
+    padding-bottom: 2em;
+}
+#panel-header {
+    background: #2c3e50;
+    color: #fff;
+    padding: 12px 14px;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+#panel-header strong { font-size: 14px; display: block; margin-bottom: 6px; }
+.panel-counts { display: flex; gap: 6px; flex-wrap: wrap; }
+.pc {
+    padding: 2px 7px;
+    border-radius: 10px;
+    font-size: 11px;
+    font-weight: bold;
+    white-space: nowrap;
+}
+.pc.missing  { background: #ffe6e6; color: #cc0000; }
+.pc.noroot   { background: #fff3cd; color: #7a4f00; }
+.pc.unlinked { background: #ffe6e6; color: #cc0000; }
+
+.panel-section { border-bottom: 1px solid #eee; padding: 10px 14px; }
+.panel-missing .section-heading { color: #cc0000; }
+.panel-noroot  .section-heading { color: #7a4f00; }
+.panel-unlinked .section-heading { color: #cc0000; }
+.section-heading {
+    font-weight: bold;
+    font-size: 12.5px;
+    margin-bottom: 4px;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+.section-count {
+    background: #eee;
+    color: #333;
+    border-radius: 8px;
+    padding: 0 6px;
+    font-size: 11px;
+}
+.section-explain {
+    color: #666;
+    font-size: 11.5px;
+    margin-bottom: 6px;
+    font-style: italic;
+}
+.issue-list {
+    margin: 0;
+    padding-left: 18px;
+}
+.issue-list li {
+    margin-bottom: 5px;
+}
+.jump-link {
+    color: #0055cc;
+    text-decoration: none;
+    font-weight: bold;
+}
+.jump-link:hover { text-decoration: underline; }
+.root-note {
+    color: #888;
+    font-size: 11px;
+    font-style: italic;
+}
+.verse-key {
+    display: block;
+    color: #999;
+    font-size: 11px;
+    padding-left: 2px;
+}
+
+/* ── Reference pair & tooltip ─────────────────────────────────── */
+.ref-pair {
+    position: relative;
+    display: inline-block;
+}
+.tooltip {
+    display: none;
+    position: absolute;
+    bottom: calc(100% + 6px);
+    left: 50%;
+    transform: translateX(-50%);
+    background: #1a1a2e;
+    color: #eee;
+    padding: 10px 14px;
+    border-radius: 6px;
+    font-size: 12.5px;
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+    z-index: 9999;
+    min-width: 260px;
+    max-width: 420px;
+    word-wrap: break-word;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.35);
+    white-space: normal;
+    pointer-events: none;
+}
+.ref-pair:hover .tooltip { display: block; }
+
+/* Tooltip inner labels */
+.tip-label {
+    display: inline-block;
+    padding: 2px 8px;
+    border-radius: 3px;
+    font-weight: bold;
+    font-size: 11px;
+    margin-bottom: 5px;
+}
+.tip-ok      { background: #1a6b1a; color: #fff; }
+.tip-missing { background: #cc0000; color: #fff; }
+.tip-noroot  { background: #cc8800; color: #fff; }
+.tip-unlinked{ background: #cc0000; color: #fff; }
+.tip-verse-key {
+    display: block;
+    color: #aad4ff;
+    font-size: 11.5px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.tooltip em { color: #ddd; font-style: normal; }
+.tooltip strong {
+    background: #ffff00;
+    color: #000;
+    padding: 0 2px;
+    border-radius: 2px;
+}
+
+/* ── Bible reference link styles ──────────────────────────────── */
+.bible-ref {
+    color: #0066cc;
+    text-decoration: none;
+    border-bottom: 1px dotted #0066cc;
+    cursor: help;
+}
+.bible-ref:hover { background: #e8f0fe; }
+
+.bible-ref-missing {
+    color: #cc0000;
+    font-weight: bold;
+    background: #ffe6e6;
+    border-bottom: 2px solid #cc0000;
+    text-decoration: none;
+    cursor: help;
+    padding: 0 2px;
+    border-radius: 2px;
+}
+.bible-ref-missing:hover { background: #ffcccc; }
+
+.bible-ref-no-root {
+    color: #7a4f00;
+    background: #fff3cd;
+    border-bottom: 2px dashed #cc8800;
+    text-decoration: none;
+    cursor: help;
+    padding: 0 2px;
+    border-radius: 2px;
+}
+.bible-ref-no-root:hover { background: #ffe8a0; }
+
+.ocr-suspect {
+    color: #cc0000;
+    font-weight: bold;
+    border-bottom: 2px solid #cc0000;
+    cursor: help;
+    padding: 0 1px;
+}
+
+/* ── Scroll-to highlight ──────────────────────────────────────── */
+:target {
+    outline: 3px solid #f5a623;
+    outline-offset: 2px;
+    border-radius: 2px;
+    animation: flash 1.8s ease-out;
+}
+@keyframes flash {
+    0%   { background: #fff3cd; }
+    100% { background: transparent; }
+}
+"""
+
+    issues_panel = build_issues_panel(issues) if issues else ''
+    legend = build_legend()
+
+    paras_html = '\n'.join(f'<p>{p}</p>' for p in paragraphs)
+
+    return (
+        '<!DOCTYPE html>\n'
         '<html lang="en">\n'
-        "<head>\n"
-        '    <meta charset="UTF-8">\n'
-        "    <title>Bible Concordance</title>\n"
-        f"    <style>{style}</style>\n"
-        "</head>\n"
-        "<body>\n"
+        '<head>\n'
+        '  <meta charset="UTF-8">\n'
+        '  <meta name="viewport" content="width=device-width, initial-scale=1">\n'
+        '  <title>Bible Concordance — Editor Review</title>\n'
+        f'  <style>{style}</style>\n'
+        '</head>\n'
+        '<body>\n'
+        '<div id="layout">\n'
+        f'{issues_panel}\n'
+        '<div id="main">\n'
+        f'{legend}\n'
+        f'{paras_html}\n'
+        '</div>\n'  # #main
+        '</div>\n'  # #layout
+        '</body>\n</html>'
     )
-    if issues is not None:
-        html_content += build_issues_table(issues)
-    for p in paragraphs:
-        html_content += f"<p>{p}</p>\n"
-    html_content += "</body>\n</html>"
-    return html_content
 
 
 def convert_odt_to_html(odt_path, html_path):
