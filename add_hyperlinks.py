@@ -113,6 +113,28 @@ BRANCH_MULTI_CHP_BOOKS = (
 BRANCH_SINGLE_CHP_BOOKS = rf"(?P<abbr2>{SINGLE_PATTERN})\s+(?P<refs2>\d+(?:,\s*\d+)*)(?!:)"
 ref_pattern = re.compile(rf"\b(?:{BRANCH_MULTI_CHP_BOOKS}|{BRANCH_SINGLE_CHP_BOOKS})")
 
+# Pattern to detect orphan numbers/references that look like they should be linked
+# but weren't caught by the main ref_pattern.
+# Matches things like: "119:107", "58:3", "13:36", "5.8", "9.21,23"
+# i.e. a number (with optional dot-separated sub-number or colon-verse) that appears
+# in prose context (not already inside an HTML tag).
+ORPHAN_REF_PATTERN = re.compile(
+    r"""
+    (?<![="\w])          # not preceded by = or " (i.e. not inside an HTML attribute)
+    \b
+    (
+        \d+              # chapter / psalm number
+        (?:              # optionally followed by:
+            [:.]\d+      # :verse  or  .verse  (OCR dot-for-colon)
+            (?:,\s*\d+)* # and more comma-separated verses
+        )?
+    )
+    \b
+    (?!["\w])            # not followed by " or word char (not inside HTML attribute)
+    """,
+    re.VERBOSE,
+)
+
 
 def load_kjv(path):
     """Load KJV verse JSON from `path` and return the parsed mapping."""
@@ -137,7 +159,7 @@ def load_kjv(path):
 class Reference:  # pylint: disable=too-many-instance-attributes
     """Represent a parsed Bible reference and produce HTML anchor/link information."""
 
-    # 10 args are justified here - it’s a data carrier.
+    # 10 args are justified here - it's a data carrier.
     def __init__(  # pylint: disable=too-many-arguments,too-many-positional-arguments
         self,
         abbr,
@@ -226,8 +248,12 @@ class Reference:  # pylint: disable=too-many-instance-attributes
         """Return full verse key like 'Proverbs 24:24'."""
         return f"{self.book} {self.chapter}:{self.verse}"
 
-    def to_anchor(self, index: int) -> str:
-        """Construct the anchor HTML for this reference with a real tooltip span."""
+    def to_anchor(self, index: int, issues: list | None = None) -> str:
+        """Construct the anchor HTML for this reference with a real tooltip span.
+
+        If *issues* is provided, append a dict describing any problem found so
+        the summary table at the top of the page can link directly to it.
+        """
         full_key = self.get_full_verse_key()
         verse = self.verses.get(full_key, "")
         visible = self.visible(index)
@@ -237,16 +263,23 @@ class Reference:  # pylint: disable=too-many-instance-attributes
             f"{self.book}+{self.chapter}%3A{self.verse}&version=KJV"
         )
 
+        issue_id: str | None = None
+
         if not verse:
             css_class = "bible-ref-missing"
             ref_text = f"{visible} [REF NOT FOUND]"
             tooltip_content = f"{full_key} (KJV) - Reference not found"
+            issue_id = f"issue-{len(issues)}" if issues is not None else None
+            if issues is not None:
+                issues.append({
+                    "id": issue_id,
+                    "type": "ref-not-found",
+                    "label": ref_text,
+                    "detail": full_key,
+                    "root": self.root_word,
+                })
         else:
             root = self.root_word
-
-            # For performance on limited compute, use a simpler approach without spaCy
-            # but still preserve the basic functionality
-
             bolded_verse, matched_any = self.find_root_word_matches(verse, root)
 
             if matched_any:
@@ -259,10 +292,20 @@ class Reference:  # pylint: disable=too-many-instance-attributes
                 css_class = "bible-ref-no-root"
                 ref_text = f"{visible} [ROOT WORD MISSING]"
                 tooltip_content = f"{full_key} (KJV) - {html.escape(verse)}"
+                issue_id = f"issue-{len(issues)}" if issues is not None else None
+                if issues is not None:
+                    issues.append({
+                        "id": issue_id,
+                        "type": "root-missing",
+                        "label": ref_text,
+                        "detail": full_key,
+                        "root": self.root_word,
+                    })
 
+        id_attr = f' id="{issue_id}"' if issue_id else ""
         escaped_ref_text = html.escape(ref_text)
         return (
-            f'<span class="ref-pair">'
+            f'<span class="ref-pair"{id_attr}>'
             f'<a href="{html.escape(url)}" class="{css_class}">{escaped_ref_text}</a>'
             f'<span class="tooltip">{tooltip_content}</span>'
             f"</span>"
@@ -309,6 +352,67 @@ def parse_references_with_root(text, verses, root_word):
     return results
 
 
+def highlight_orphan_numbers(html_fragment: str, issues: list | None = None) -> str:
+    """
+    In the rendered HTML fragment, find numeric tokens that look like they could
+    be Bible references (e.g. "119:107", "58:3", "5.8") but are sitting in plain
+    text — i.e. NOT already inside any HTML element (tag or its content).
+
+    Those tokens are wrapped in <span class="ocr-suspect"> so they stand out
+    visually as likely OCR errors / missed references.
+
+    Strategy: track nesting depth by scanning open/close tags.  Only text at
+    depth 0 (outside all tags) is eligible for highlighting.
+    """
+    TOKEN_RE = re.compile(r"(</?[a-zA-Z][^>]*?>|<!--.*?-->)", re.DOTALL)
+
+    ORPHAN_RE = re.compile(
+        r"\b\d+[:.]\d+(?:,\s*\d+)*\b"  # chapter:verse  or  chapter.verse
+        r"|\b\d+\.\d+\b"               # number.number (OCR dot-for-colon)
+    )
+
+    def replace_orphan(m):
+        token = m.group(0)
+        issue_id = f"issue-{len(issues)}" if issues is not None else None
+        if issues is not None:
+            issues.append({
+                "id": issue_id,
+                "type": "unlinked-ref",
+                "label": token,
+                "detail": "Possible OCR error or unrecognised reference format",
+                "root": None,
+            })
+        id_attr = f' id="{issue_id}"' if issue_id else ""
+        return (
+            f'<span class="ref-pair"{id_attr}>'
+            f'<span class="ocr-suspect">Unlinked: {token}</span>'
+            f'<span class="tooltip">Possible OCR error / unlinked reference: {token}</span>'
+            f'</span>'
+        )
+
+    parts = TOKEN_RE.split(html_fragment)
+    result = []
+    depth = 0  # HTML nesting depth
+
+    for part in parts:
+        if TOKEN_RE.fullmatch(part):
+            # It's a tag token — adjust depth and pass through unchanged.
+            if part.startswith("</"):
+                depth = max(0, depth - 1)
+            elif not part.endswith("/>"):  # not self-closing
+                depth += 1
+            result.append(part)
+        else:
+            # Plain text run — only highlight when we're at the top level,
+            # i.e. not inside any HTML element's content.
+            if depth == 0:
+                result.append(ORPHAN_RE.sub(replace_orphan, part))
+            else:
+                result.append(part)
+
+    return "".join(result)
+
+
 def convert_odt_bytes_to_html(odt_bytes):
     """Convert ODT bytes to an HTML string (keeps everything in memory)."""
 
@@ -317,7 +421,8 @@ def convert_odt_bytes_to_html(odt_bytes):
     bio = io.BytesIO(odt_bytes)
     doc = load(bio)
 
-    paragraphs = extract_paragraphs(doc, kjv_verses)
+    issues: list = []
+    paragraphs = extract_paragraphs(doc, kjv_verses, issues)
 
     style = """
         body {
@@ -328,6 +433,56 @@ def convert_odt_bytes_to_html(odt_bytes):
         p {
             margin: 0 0 1em 0;
         }
+
+        /* ── Issues summary table ───────────────────────────────────────── */
+        #issues-summary {
+            border-collapse: collapse;
+            width: 100%;
+            margin-bottom: 3em;
+            font-size: 13px;
+        }
+        #issues-summary caption {
+            font-size: 16px;
+            font-weight: bold;
+            text-align: left;
+            padding: 0 0 0.5em 0;
+            color: #333;
+        }
+        #issues-summary th {
+            background: #f0f0f0;
+            border: 1px solid #ccc;
+            padding: 6px 10px;
+            text-align: left;
+            white-space: nowrap;
+        }
+        #issues-summary td {
+            border: 1px solid #ddd;
+            padding: 5px 10px;
+            vertical-align: top;
+        }
+        #issues-summary tr:nth-child(even) td {
+            background: #fafafa;
+        }
+        #issues-summary tr:hover td {
+            background: #f5f5f5;
+        }
+        .issue-badge {
+            display: inline-block;
+            border-radius: 3px;
+            padding: 1px 6px;
+            font-size: 11px;
+            font-weight: bold;
+            white-space: nowrap;
+        }
+        .badge-ref-not-found  { background:#ffe6e6; color:#cc0000; border:1px solid #cc0000; }
+        .badge-root-missing   { background:#fff9e6; color:#cc6600; border:1px solid #cc6600; }
+        .badge-unlinked-ref   { background:#ffe6e6; color:#cc0000; border:1px solid #cc0000; }
+        #issues-summary a.jump-link {
+            color: #0055aa;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        #issues-summary a.jump-link:hover { text-decoration: underline; }
 
         /* Reference pair container */
         .ref-pair {
@@ -399,7 +554,7 @@ def convert_odt_bytes_to_html(odt_bytes):
             background-color: #ffebcc;
             text-decoration: underline;
         }
-        
+
         /* Enhanced highlighting for matched words in tooltips */
         .tooltip strong {
             background-color: #ffff00; /* Yellow background */
@@ -408,9 +563,19 @@ def convert_odt_bytes_to_html(odt_bytes):
             border-radius: 2px;
             font-weight: bold;
         }
+
+        /* OCR suspect / unlinked reference — same style as ref-not-found */
+        .ocr-suspect {
+            color: #cc0000;
+            cursor: help;
+            border-bottom: 2px solid #cc0000;
+            text-decoration: none;
+            background-color: #ffe6e6;
+            font-weight: bold;
+        }
     """
 
-    return write_html(paragraphs, style)
+    return write_html(paragraphs, style, issues)
 
 
 def extract_root_word(txt):
@@ -464,7 +629,7 @@ def extract_root_word(txt):
     return root_word
 
 
-def extract_paragraphs(doc, verses):
+def extract_paragraphs(doc, verses, issues: list):
     paragraphs = []
 
     all_elements = doc.getElementsByType(P)
@@ -495,20 +660,22 @@ def extract_paragraphs(doc, verses):
         segments = [s.strip() for s in remainder.split("|") if s.strip()]
 
         # Create a closure to avoid repeated function creation
-        def create_substitution_function(verses, root_word):
+        def create_substitution_function(verses, root_word, issues):
             def substitute_references(match):
                 refs = parse_references_with_root(match.group(0), verses, root_word)
-                anchor_texts = [ref.to_anchor(i) for i, ref in enumerate(refs)]
+                anchor_texts = [ref.to_anchor(i, issues) for i, ref in enumerate(refs)]
                 result = ", ".join(anchor_texts)
                 return result if result else html.escape(match.group(0))
 
             return substitute_references
 
-        substitution_func = create_substitution_function(verses, root_word)
+        substitution_func = create_substitution_function(verses, root_word, issues)
 
         rendered_segments = []
         for seg in segments:
             new_seg = ref_pattern.sub(substitution_func, seg)
+            # After linking known references, highlight any leftover orphan numbers
+            new_seg = highlight_orphan_numbers(new_seg, issues)
             rendered_segments.append(new_seg)
 
         final_line = f"<strong>{html.escape(root_word)}</strong> " + " | ".join(rendered_segments)
@@ -517,8 +684,73 @@ def extract_paragraphs(doc, verses):
     return paragraphs
 
 
-def write_html(paragraphs, style):
-    """Write `paragraphs` to an HTML string wrapped in a simple HTML document using `style`."""
+def build_issues_table(issues: list) -> str:
+    """Return an HTML table summarising all issues, with jump-to links."""
+    if not issues:
+        return '<p><em>No issues found.</em></p>\n'
+
+    BADGE = {
+        "ref-not-found": ('<span class="issue-badge badge-ref-not-found">Ref not found</span>', "Ref not found"),
+        "root-missing":  ('<span class="issue-badge badge-root-missing">Root word missing</span>', "Root word missing"),
+        "unlinked-ref":  ('<span class="issue-badge badge-unlinked-ref">Unlinked reference</span>', "Unlinked reference"),
+    }
+
+    # Count by type for the header summary line
+    counts: dict[str, int] = {}
+    for issue in issues:
+        counts[issue["type"]] = counts.get(issue["type"], 0) + 1
+
+    summary_parts = []
+    for itype, (badge_html, _) in BADGE.items():
+        if itype in counts:
+            summary_parts.append(f"{badge_html} &times; {counts[itype]}")
+    summary_line = " &nbsp; ".join(summary_parts)
+
+    rows = []
+    for n, issue in enumerate(issues, start=1):
+        itype = issue["type"]
+        badge_html = BADGE.get(itype, (html.escape(itype), itype))[0]
+        label = html.escape(issue["label"])
+        detail = html.escape(issue["detail"])
+        root = html.escape(issue["root"]) if issue["root"] else "—"
+        issue_id = issue["id"]
+        jump = f'<a class="jump-link" href="#{issue_id}" title="Jump to occurrence in document">↓ {label}</a>'
+        rows.append(
+            f"<tr>"
+            f"<td>{n}</td>"
+            f"<td>{badge_html}</td>"
+            f"<td>{jump}</td>"
+            f"<td>{detail}</td>"
+            f"<td>{root}</td>"
+            f"</tr>"
+        )
+
+    rows_html = "\n".join(rows)
+    return f"""<table id="issues-summary">
+  <caption>Issues summary &mdash; {len(issues)} total &nbsp; ({summary_line})</caption>
+  <thead>
+    <tr>
+      <th>#</th>
+      <th>Type</th>
+      <th>Reference</th>
+      <th>Verse key</th>
+      <th>Root word</th>
+    </tr>
+  </thead>
+  <tbody>
+{rows_html}
+  </tbody>
+</table>
+"""
+
+
+def write_html(paragraphs, style, issues: list | None = None):
+    """Write *paragraphs* to an HTML string wrapped in a simple HTML document.
+
+    If *issues* is provided, an issues-summary table is inserted at the top of
+    the ``<body>`` so the reader can see all problems at a glance and click
+    through to each occurrence.
+    """
     html_content = (
         "<!DOCTYPE html>\n"
         '<html lang="en">\n'
@@ -529,6 +761,8 @@ def write_html(paragraphs, style):
         "</head>\n"
         "<body>\n"
     )
+    if issues is not None:
+        html_content += build_issues_table(issues)
     for p in paragraphs:
         html_content += f"<p>{p}</p>\n"
     html_content += "</body>\n</html>"
