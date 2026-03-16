@@ -101,8 +101,8 @@ sorted_abbrs = sorted(BOOK_ABBR_TO_FULL, key=lambda x: -len(x))
 non_single = [a for a in sorted_abbrs if a not in SINGLE_CHAPTER_ABBR]
 single = [a for a in sorted_abbrs if a in SINGLE_CHAPTER_ABBR]
 
-NON_SINGLE_PATTERN = "|".join(re.escape(a) for a in non_single)
-SINGLE_PATTERN = "|".join(re.escape(a) for a in single)
+NON_SINGLE_PATTERN = "|".join(re.escape(a).replace(r"\ ", r"[\  \xa0]") for a in non_single)
+SINGLE_PATTERN = "|".join(re.escape(a).replace(r"\ ", r"[\  \xa0]") for a in single)
 
 # Pattern supports two branches:
 #  - regular (book + chapter:verse[, ...]) for non-single-chapter books
@@ -637,7 +637,10 @@ def parse_references_with_root(text, verses, root_word):
     for match in ref_pattern.finditer(text):
         abbr = match.group("abbr1") or match.group("abbr2")
         refs_part = match.group("refs1") or match.group("refs2")
-        full_book = BOOK_ABBR_TO_FULL.get(abbr, abbr)
+        # Normalise non-breaking space in numbered-book abbreviations
+        # so "1\xa0Cor." looks up correctly as "1 Cor." in the dict
+        abbr_key = abbr.replace("\xa0", " ")
+        full_book = BOOK_ABBR_TO_FULL.get(abbr_key, abbr_key)
         single_chapter = full_book in SINGLE_CHAPTER_BOOKS
 
         parts = [p.strip() for p in refs_part.split(",")]
@@ -656,7 +659,7 @@ def parse_references_with_root(text, verses, root_word):
 
             results.append(
                 Reference(
-                    abbr=abbr,
+                    abbr=abbr_key,
                     book=full_book,
                     chapter=chapter,
                     verse=verse,
@@ -814,7 +817,9 @@ def extract_paragraphs(doc, verses, issues: list):
         raw_txt = teletype.extractText(elem)
         if not raw_txt.strip():
             continue
-        txt = re.sub(r"\s+", " ", raw_txt).strip()
+        # Collapse only ordinary whitespace (space/tab/newline), preserving
+        # non-breaking space (U+00A0) and other special spaces (U+2006, etc.)
+        txt = re.sub(r"[ \t\r\n]+", " ", raw_txt).strip()
 
         # Extract root word using the new function
         root_word = extract_root_word(txt)
