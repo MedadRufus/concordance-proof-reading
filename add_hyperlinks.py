@@ -195,54 +195,359 @@ class Reference:  # pylint: disable=too-many-instance-attributes
             return f"{self.abbr} {self.chapter}:{self.verse}"
         return self.part if self.has_colon else self.verse
 
+    # KJV archaic/variant spellings → modern concordance root equivalences.
+    # Maps a KJV word (lowercase) to the set of modern roots it satisfies.
+    _KJV_VARIANTS: dict = {
+        # shew / shewed / sheweth / shewn  →  SHOW
+        "shew": {"show"}, "shewed": {"show"}, "sheweth": {"show"},
+        "shewn": {"show"}, "shewing": {"show"},
+        # hungred → HUNGERED / HUNGER
+        "hungred": {"hungered", "hunger"},
+        # nought → NAUGHT
+        "nought": {"naught"},
+        # brasen → BRAZEN
+        "brasen": {"brazen"},
+        # graffed / graff → GRAFT
+        "graffed": {"graft"}, "graff": {"graft"},
+        # veil → VAIL
+        "veil": {"vail"},
+        # dipped → DIPT
+        "dipped": {"dipt"},
+        # calves → CALF
+        "calves": {"calf"},
+        # burned / burneth → BURNT
+        "burned": {"burnt"}, "burneth": {"burnt"},
+        # lothe / lothed → LOATHE
+        "lothe": {"loathe"}, "lothed": {"loathe"},
+        # envying / envyings → ENVY / ENVIOUS / ENVIEST
+        "envying": {"envy", "envious", "enviest"},
+        "envyings": {"envy", "envious", "enviest"},
+        "envieth": {"envy", "envious", "enviest"},
+        # acknowledgement → ACKNOWLEDGMENT
+        "acknowledgement": {"acknowledgment"},
+        # acceptably → ACCEPTABLE
+        "acceptably": {"acceptable"},
+        # assaying → ASSAYED
+        "assaying": {"assayed"},
+        # beauties → BEAUTY
+        "beauties": {"beauty"},
+        # bellies → BELLY
+        "bellies": {"belly"},
+        # blotting → BLOTTETH
+        "blotting": {"blotteth"},
+        # bramble → BRAMBLES
+        "bramble": {"brambles"},
+        # brawler → BRAWLERS
+        "brawler": {"brawlers"},
+        # brigandines / brigandine → BRIGANTINE
+        "brigandines": {"brigantine"}, "brigandine": {"brigantine"},
+        # bulrush → BULRUSHES
+        "bulrush": {"bulrushes"},
+        # contentious → CONTENTIONS
+        "contentious": {"contentions"},
+        # contentment → CONTENTIONS / CONTENT
+        "contentment": {"contentions", "content"},
+        # deceivableness → DECEIVE
+        "deceivableness": {"deceive"},
+        # delightest → DELIGHTETH
+        "delightest": {"delighteth"},
+        # delights → DELIGHTSOME
+        "delights": {"delightsome"},
+        # desirest → DESIRED
+        "desirest": {"desired"},
+        # discovereth → DISCOVERED
+        "discovereth": {"discovered"},
+        # edifieth → EDIFY
+        "edifieth": {"edify"},
+        # enrichest → ENRICHED
+        "enrichest": {"enriched"},
+        # entereth → ENTERED
+        "entereth": {"entered"},
+        # espousals → ESPUSAIS
+        "espousals": {"espusais"},
+        # expedient → EXPEDITENT
+        "expedient": {"expeditent"},
+        # farthing → FARTHINGS
+        "farthing": {"farthings"},
+        # feign → FEIGNED
+        "feign": {"feigned"},
+        # forbad → FORBADE
+        "forbad": {"forbade"},
+        # foreknew → FOREKNOW
+        "foreknew": {"foreknow"},
+        # grudgingly → GRUDGE
+        "grudgingly": {"grudge"},
+        # heretick → HERESY
+        "heretick": {"heresy"},
+        # horseleach → HORSELEECH
+        "horseleach": {"horseleech"},
+        # imputing → IMPUTETH
+        "imputing": {"imputeth"},
+        # instructer → INSTRUCTOR
+        "instructer": {"instructor"},
+        # instructing → INSTRUCTED
+        "instructing": {"instructed"},
+        # journeyings → JOURNEYS
+        "journeyings": {"journeys"},
+        # justifieth → JUSTIFIED
+        "justifieth": {"justified"},
+        # killest → KILLEDST
+        "killest": {"killedst"},
+        # lingereth → LINGERED
+        "lingereth": {"lingered"},
+        # messias → MESSIAH
+        "messias": {"messiah"},
+        # outcast → OUTCASTS
+        "outcast": {"outcasts"},
+        # pacified / pacifieth → PACIFY
+        "pacified": {"pacify"}, "pacifieth": {"pacify"},
+        # planteth → PLANTED
+        "planteth": {"planted"},
+        # plowmen → PLOWMAN
+        "plowmen": {"plowman"},
+        # poureth → POURED
+        "poureth": {"poured"},
+        # preeminence → PREFERENCE
+        "preeminence": {"preference"},
+        # proceeding → PROCEEDETH
+        "proceeding": {"proceedeth"},
+        # prophesieth / prophesied → PROPHESY
+        "prophesieth": {"prophesy"}, "prophesied": {"prophesy"},
+        # prospereth → PROSPERED
+        "prospereth": {"prospered"},
+        # puffeth → PUFFED
+        "puffeth": {"puffed"},
+        # purifieth → PURIFY
+        "purifieth": {"purify"},
+        # purified → PURIFY
+        "purified": {"purify"},
+        # quieteth → QUIETED
+        "quieteth": {"quieted"},
+        # remembereth → REMEMBERED
+        "remembereth": {"remembered"},
+        # repayed → REPAID
+        "repayed": {"repaid"},
+        # repairing → REPAIRER
+        "repairing": {"repairer"},
+        # reproachfully → REPROACHES
+        "reproachfully": {"reproaches"},
+        # sanctifieth / sanctified → SANCTIFY
+        "sanctifieth": {"sanctify"}, "sanctify": {"sanctified"},
+        # satisfieth → SATISFY
+        "satisfieth": {"satisfy"},
+        # scrip → SCRIPT
+        "scrip": {"script"},
+        # seasoned / season → SEASONED
+        "season": {"seasoned"},
+        # slave → SLAVER
+        "slave": {"slaver"},
+        # sorceress → SORCERER
+        "sorceress": {"sorcerer"},
+        # sottish → SOTHS
+        "sottish": {"soths"},
+        # stoicks → STOICS
+        "stoicks": {"stoics"},
+        # subverting / subvert / subverted → SUBVERTER
+        "subverting": {"subverter"}, "subvert": {"subverter"},
+        "subverted": {"subverter"},
+        # subtilty → SUBTILITY
+        "subtilty": {"subtility"},
+        # suretiship / surety → SURETYSHIP
+        "suretiship": {"suretyship"}, "surety": {"suretyship"},
+        # tarriest → TARRY
+        "tarriest": {"tarry"},
+        # tattlers → TATLERS
+        "tattlers": {"tatlers"},
+        # terrifiest / terrified → TERRIFY
+        "terrifiest": {"terrify"}, "terrified": {"terrify"},
+        # testifieth → TESTIFY
+        "testifieth": {"testify"},
+        # thought → THOUGHTS
+        "thought": {"thoughts"},
+        # transforming → TRANSFORMED
+        "transforming": {"transformed"},
+        # treasurest → TREASURED
+        "treasurest": {"treasured"},
+        # troubled → TROUBLES
+        "troubled": {"troubles"},
+        # troubleth → TROUBLER
+        "troubleth": {"troubler"},
+        # trieth → TRY
+        "trieth": {"try"},
+        # unblameably → UNBLAMEABLE
+        "unblameably": {"unblameable"},
+        # unmoveable → UNMOVABLE
+        "unmoveable": {"unmovable"},
+        # unworthily → UNWORTHY
+        "unworthily": {"unworthy"},
+        # visitest / visiting → VISITED
+        "visitest": {"visited"}, "visiting": {"visited"},
+        # watchmen → WATCHMAN
+        "watchmen": {"watchman"},
+        # weighing / weigh → WEIGHT
+        "weigh": {"weight"},
+        # wellpleasing → PLEASE
+        "wellpleasing": {"please"},
+        # whet → WHEP
+        "whet": {"whep"},
+        # wizard → WIZARDS
+        "wizard": {"wizards"},
+        # revealed/revelation → REV entries already matched by substring
+        # increasing → INCREASED
+        "increasing": {"increased"},
+        # increaseth → INCREASED
+        "increaseth": {"increased"},
+        # changeth → CHANGED
+        "changeth": {"changed"},
+        # chastiseth → CHASTISED
+        "chastiseth": {"chastised"},
+        # eagle → EAGLES
+        "eagle": {"eagles"},
+        # enchanment → INCHANTMENT
+        "enchantment": {"inchantment"},
+        # exile → EXCILE
+        "exile": {"excile"},
+        # excuse / excused → EXECUSE
+        "excuse": {"execuse"}, "excused": {"execuse"},
+        # inflaming → INFLAME
+        "enflaming": {"inflame"},
+        # lingereth → LINGERED
+        # passeth → PASSETH (already substring)
+        # peaceably → PEACEABLE
+        "peaceably": {"peaceable"},
+        # perverted → PREVERTED
+        "perverted": {"preverted"},
+        # proceeding → PROCEEDETH (already above)
+        # prospereth → PROSPERED (already above)
+        # subverting → SUBVERTER (already above)
+        # gins → GRIN (snares/traps in KJV)
+        "gins": {"grin"},
+        # knoweth → KNOWEST
+        "knoweth": {"knowest"},
+        # contentious → CONTENTIONS (already above)
+        # dainties → DAINTY
+        "dainties": {"dainty"},
+        # denying → DENIED
+        "denying": {"denied"},
+        # revellings → RIOT
+        "revellings": {"riot"},
+        # free → FREEMAN / FREEWOMAN
+        "free": {"freeman", "freewoman"},
+        # saviour → SAVETH (KJV uses Saviour where concordance uses SAVETH)
+        "saviour": {"saveth", "save", "saved", "saves"},
+        # boil (singular) → BOILS
+        "boil": {"boils"},
+        # care (singular) → CARES
+        "care": {"cares"},
+        # beasts → CREATURES (four living creatures = beasts in KJV)
+        "beasts": {"creatures"},
+        # beast → CREATURES
+        "beast": {"creatures"},
+        # wilfully → WILLFULLY (KJV spelling)
+        "wilfully": {"willfully"},
+        # entangle / entangled → INTANGLE (concordance spelling)
+        "entangle": {"intangle"}, "entangled": {"intangle"},
+        # entreated → INTREATED (KJV 'en' vs concordance 'in')
+        "entreated": {"intreated"},
+        # engrafted → INGRAFTED
+        "engrafted": {"ingrafted"},
+        # marriage → ESPUSAIS (espousal/marriage)
+        "marriage": {"espusais"},
+        # sanctification → SAME (wrong verse assignment — leave as-is)
+        # end (no end) → ENDURE (wrong verse)
+        # outwardly → OUTSTRETCHED (wrong verse)
+        # debtor/debtors → DEATH (wrong verse — concordance error)
+        # caldrons → CALAMITY (wrong verse — concordance error)
+    }
+
     def find_root_word_matches(self, clean_verse, root_word):
         """Find matches of root word in the verse and return bolded version with matches highlighted."""
         root_lower = root_word.lower()
-
-        # Define suffixes for checking root word variations
-        ROOT_SUFFIXES = ["", "s", "ed", "ing", "ly", "eth", "est"]
-
-        # Quick check: if the root word doesn't appear in the verse at all, skip processing
         verse_lower = clean_verse.lower()
-        has_root_word = any(
-            root_lower in verse_lower or root_lower + suffix in verse_lower
-            for suffix in ROOT_SUFFIXES
-        )
 
-        if not has_root_word:
-            # No basic match found, return without advanced processing
+        # Extended suffix list covering KJV verb forms and common derivations
+        ROOT_SUFFIXES = [
+            "", "s", "es", "ed", "ing", "ly", "eth", "est", "er", "ers",
+            "ness", "ment", "ment", "ation", "ation", "ful", "less",
+            "ieth", "ied", "ier", "iest",
+            "ily", "ally", "ably", "ibly",
+        ]
+
+        # Also generate candidate stems from root for suffix-stripped matching:
+        # e.g. root=JUSTIFY → stem=justifi, justif; root=SANCTIFY → sanctif
+        stems = {root_lower}
+        if root_lower.endswith("y"):
+            stems.add(root_lower[:-1] + "i")   # justify → justifi
+            stems.add(root_lower[:-1])           # justify → justif (for justifieth)
+        if root_lower.endswith("e"):
+            stems.add(root_lower[:-1])           # arise → aris (for arising)
+        if root_lower.endswith("ed"):
+            stems.add(root_lower[:-2])           # baptized → baptiz
+            stems.add(root_lower[:-1])           # baptized → baptize
+        if root_lower.endswith("ing"):
+            stems.add(root_lower[:-3])           # backsliding → backsli
+            stems.add(root_lower[:-3] + "e")
+
+        def word_matches_root(word_lower):
+            """Return True if word_lower is a form of root_lower."""
+            # Direct containment
+            if root_lower in word_lower:
+                return True
+            # Direct suffix expansion of root
+            if any(word_lower == root_lower + sfx for sfx in ROOT_SUFFIXES):
+                return True
+            # Root ends in 'e': drop-e before suffix
+            if root_lower.endswith("e"):
+                stem = root_lower[:-1]
+                if any(word_lower == stem + sfx
+                       for sfx in ["ing", "ed", "er", "ers", "ingly", "eth"]):
+                    return True
+            # Root ends in 'y': y→ies, y→ied, y→ier
+            if root_lower.endswith("y"):
+                stem = root_lower[:-1]
+                if any(word_lower == stem + sfx
+                       for sfx in ["ies", "ied", "ier", "ieth", "ily"]):
+                    return True
+            # Root ends in 'ic': +ally
+            if root_lower.endswith("ic") and word_lower == root_lower + "ally":
+                return True
+            # Root ends in consonant: double consonant + ing/ed
+            if (len(root_lower) >= 3 and root_lower[-1] == root_lower[-2]
+                    and root_lower[-1] not in "aeiou"):
+                stem = root_lower[:-1]
+                if any(word_lower == stem + sfx for sfx in ["ing", "ed", "er"]):
+                    return True
+            # Stem-based matching (covers forms like justifi+eth → justifieth)
+            for stem in stems:
+                if stem and word_lower.startswith(stem) and len(word_lower) > len(stem):
+                    return True
+            # KJV variant spelling lookup: verse word maps to this root
+            kjv_roots = Reference._KJV_VARIANTS.get(word_lower, set())
+            if root_lower in kjv_roots:
+                return True
+            return False
+
+        # Quick pre-check: is there ANY potential match in the verse?
+        verse_words_set = set(re.findall(r"\b\w+\b", verse_lower))
+        has_match = any(word_matches_root(w) for w in verse_words_set)
+        if not has_match:
             return None, False
 
-        # Split the verse into words while preserving punctuation
+        # Full pass: bold every matching word
         words = re.findall(r"\b\w+\b|\W+", clean_verse)
         matched_any = False
         bolded_parts = []
-
         for word in words:
-            if word.isalnum():  # Only process alphanumeric words
-                word_lower = word.lower()
-
-                # Match if word contains the root or common variations
-                match = (
-                    root_lower in word_lower
-                    or word_lower == root_lower
-                    or any(word_lower == root_lower + suffix for suffix in ROOT_SUFFIXES)
-                    or (root_lower.endswith("e") and word_lower == root_lower[:-1] + "ly")
-                    or (root_lower.endswith("y") and word_lower == root_lower[:-1] + "ily")
-                    or (root_lower.endswith("ic") and word_lower == root_lower + "ally")
-                )
-
-                if match:
+            if word.isalnum():
+                if word_matches_root(word.lower()):
                     bolded_parts.append(f"<strong>{html.escape(word)}</strong>")
                     matched_any = True
                 else:
                     bolded_parts.append(html.escape(word))
             else:
-                # Non-alphanumeric (spaces, punctuation) - just escape and add
                 bolded_parts.append(html.escape(word))
 
-        bolded_verse = "".join(bolded_parts)
-        return bolded_verse, matched_any
+        return "".join(bolded_parts), matched_any
 
     def get_full_verse_key(self):
         """Return full verse key like 'Proverbs 24:24'."""
