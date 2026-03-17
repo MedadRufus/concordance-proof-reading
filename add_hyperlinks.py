@@ -223,8 +223,6 @@ class Reference:  # pylint: disable=too-many-instance-attributes
         "envying": {"envy", "envious", "enviest"},
         "envyings": {"envy", "envious", "enviest"},
         "envieth": {"envy", "envious", "enviest"},
-        # acknowledgement → ACKNOWLEDGMENT
-        "acknowledgement": {"acknowledgment"},
         # acceptably → ACCEPTABLE
         "acceptably": {"acceptable"},
         # assaying → ASSAYED
@@ -239,14 +237,12 @@ class Reference:  # pylint: disable=too-many-instance-attributes
         "bramble": {"brambles"},
         # brawler → BRAWLERS
         "brawler": {"brawlers"},
-        # brigandines / brigandine → BRIGANTINE
-        "brigandines": {"brigantine"}, "brigandine": {"brigantine"},
         # bulrush → BULRUSHES
         "bulrush": {"bulrushes"},
         # contentious → CONTENTIONS
         "contentious": {"contentions"},
-        # contentment → CONTENTIONS / CONTENT
-        "contentment": {"contentions", "content"},
+        # contentment →  CONTENT
+        "contentment": {"content"},
         # deceivableness → DECEIVE
         "deceivableness": {"deceive"},
         # delightest → DELIGHTETH
@@ -263,10 +259,6 @@ class Reference:  # pylint: disable=too-many-instance-attributes
         "enrichest": {"enriched"},
         # entereth → ENTERED
         "entereth": {"entered"},
-        # espousals → ESPUSAIS
-        "espousals": {"espusais"},
-        # expedient → EXPEDITENT
-        "expedient": {"expeditent"},
         # farthing → FARTHINGS
         "farthing": {"farthings"},
         # feign → FEIGNED
@@ -388,8 +380,6 @@ class Reference:  # pylint: disable=too-many-instance-attributes
         "weigh": {"weight"},
         # wellpleasing → PLEASE
         "wellpleasing": {"please"},
-        # whet → WHEP
-        "whet": {"whep"},
         # wizard → WIZARDS
         "wizard": {"wizards"},
         # revealed/revelation → REV entries already matched by substring
@@ -403,10 +393,6 @@ class Reference:  # pylint: disable=too-many-instance-attributes
         "chastiseth": {"chastised"},
         # eagle → EAGLES
         "eagle": {"eagles"},
-        # enchanment → INCHANTMENT
-        "enchantment": {"inchantment"},
-        # exile → EXCILE
-        "exile": {"excile"},
         # excuse / excused → EXECUSE
         "excuse": {"execuse"}, "excused": {"execuse"},
         # inflaming → INFLAME
@@ -420,8 +406,6 @@ class Reference:  # pylint: disable=too-many-instance-attributes
         # proceeding → PROCEEDETH (already above)
         # prospereth → PROSPERED (already above)
         # subverting → SUBVERTER (already above)
-        # gins → GRIN (snares/traps in KJV)
-        "gins": {"grin"},
         # knoweth → KNOWEST
         "knoweth": {"knowest"},
         # contentious → CONTENTIONS (already above)
@@ -443,16 +427,6 @@ class Reference:  # pylint: disable=too-many-instance-attributes
         "beasts": {"creatures"},
         # beast → CREATURES
         "beast": {"creatures"},
-        # wilfully → WILLFULLY (KJV spelling)
-        "wilfully": {"willfully"},
-        # entangle / entangled → INTANGLE (concordance spelling)
-        "entangle": {"intangle"}, "entangled": {"intangle"},
-        # entreated → INTREATED (KJV 'en' vs concordance 'in')
-        "entreated": {"intreated"},
-        # engrafted → INGRAFTED
-        "engrafted": {"ingrafted"},
-        # marriage → ESPUSAIS (espousal/marriage)
-        "marriage": {"espusais"},
         # sanctification → SAME (wrong verse assignment — leave as-is)
         # end (no end) → ENDURE (wrong verse)
         # outwardly → OUTSTRETCHED (wrong verse)
