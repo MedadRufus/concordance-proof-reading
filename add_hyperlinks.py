@@ -449,7 +449,11 @@ class Reference:  # pylint: disable=too-many-instance-attributes
     }
 
     def find_root_word_matches(self, clean_verse, root_word):
-        """Find matches of root word in the verse and return bolded version with matches highlighted."""
+        """Find matches of root word in the verse and return bolded version with matches highlighted.
+
+        Returns (html_verse, matched_any, variants_found) where variants_found is a sorted
+        list of the distinct word forms of root_word that appeared in the verse.
+        """
         root_lower = root_word.lower()
         verse_lower = clean_verse.lower()
 
@@ -526,23 +530,26 @@ class Reference:  # pylint: disable=too-many-instance-attributes
         verse_words_set = set(re.findall(r"\b\w+\b", verse_lower))
         has_match = any(word_matches_root(w) for w in verse_words_set)
         if not has_match:
-            return None, False
+            return None, False, []
 
         # Full pass: bold every matching word
         words = re.findall(r"\b\w+\b|\W+", clean_verse)
         matched_any = False
+        variants_found: list[str] = []
         bolded_parts = []
         for word in words:
             if word.isalnum():
                 if word_matches_root(word.lower()):
                     bolded_parts.append(f"<strong>{html.escape(word)}</strong>")
                     matched_any = True
+                    if word.lower() not in [v.lower() for v in variants_found]:
+                        variants_found.append(word)
                 else:
                     bolded_parts.append(html.escape(word))
             else:
                 bolded_parts.append(html.escape(word))
 
-        return "".join(bolded_parts), matched_any
+        return "".join(bolded_parts), matched_any, sorted(variants_found, key=str.lower)
 
     def get_full_verse_key(self):
         """Return full verse key like 'Proverbs 24:24'."""
@@ -585,15 +592,42 @@ class Reference:  # pylint: disable=too-many-instance-attributes
                 })
         else:
             root = self.root_word
-            bolded_verse, matched_any = self.find_root_word_matches(verse, root)
+            bolded_verse, matched_any, variants = self.find_root_word_matches(verse, root)
 
             if matched_any:
-                css_class = "bible-ref"
+                # Determine if the match was on the exact root word or only on variant forms
+                exact_match = any(v.lower() == root.lower() for v in variants)
+                other_forms = [v for v in variants if v.lower() != root.lower()]
+
+                if exact_match:
+                    css_class = "bible-ref"
+                    tip_label = "<span class='tip-label tip-ok'>✔ Linked</span>"
+                else:
+                    # Only variant forms found — make this visually distinct
+                    css_class = "bible-ref-variant"
+                    tip_label = "<span class='tip-label tip-variant'>~ Variant form</span>"
+                    issue_id = f"issue-{len(issues)}" if issues is not None else None
+                    if issues is not None:
+                        forms_str = ", ".join(other_forms)
+                        issues.append({
+                            "id": issue_id,
+                            "type": "variant-form",
+                            "label": visible,
+                            "detail": full_key,
+                            "root": self.root_word,
+                            "forms": forms_str,
+                        })
+
                 ref_text = visible
+                variants_html = ""
+                if other_forms:
+                    forms_str = html.escape(", ".join(other_forms))
+                    variants_html = f"<span class='tip-variants'>Variant forms found: {forms_str}</span>"
                 tooltip_content = (
-                    f"<span class='tip-label tip-ok'>✔ Linked</span>"
+                    f"{tip_label}"
                     f"<span class='tip-verse-key'>{html.escape(full_key)}</span>"
                     f"<em>{bolded_verse}</em>"
+                    f"{variants_html}"
                 )
             else:
                 css_class = "bible-ref-no-root"
@@ -886,6 +920,7 @@ def build_issues_panel(issues: list) -> str:
     n_missing  = counts.get("ref-not-found", 0)
     n_noroot   = counts.get("root-missing", 0)
     n_unlinked = counts.get("unlinked-ref", 0)
+    n_variant  = counts.get("variant-form", 0)
 
     # Group rows by type so editor can tackle one category at a time
     sections = [
@@ -893,6 +928,8 @@ def build_issues_panel(issues: list) -> str:
          "This verse does not exist in the KJV — the chapter/verse number is wrong."),
         ("root-missing",  "⚠ Wrong verse?",       "panel-noroot",   n_noroot,
          "The heading word isn't found in this verse — may point to the wrong verse."),
+        ("variant-form",  "~ Variant form",        "panel-variant",  n_variant,
+         "The heading word appears in a different form in this verse (e.g. abased for ABASE)."),
         ("unlinked-ref",  "🔗 Unlinked number",   "panel-unlinked", n_unlinked,
          "Looks like a reference but has no book name — add the book abbreviation."),
     ]
@@ -904,6 +941,7 @@ def build_issues_panel(issues: list) -> str:
         f'<span class="panel-counts">'
         f'<span class="pc missing">{n_missing} wrong ref</span>'
         f'<span class="pc noroot">{n_noroot} wrong verse?</span>'
+        f'<span class="pc variant">{n_variant} variant</span>'
         f'<span class="pc unlinked">{n_unlinked} unlinked</span>'
         f'</span>'
     )
@@ -918,11 +956,12 @@ def build_issues_panel(issues: list) -> str:
         html_parts.append(f'<div class="section-explain">{explanation}</div>')
         html_parts.append('<ol class="issue-list">')
         for iss in group_issues:
-            root_note = f' <span class="root-note">({html.escape(iss["root"])})</span>' if iss["root"] else ""
+            root_note = f' <span class="root-note">({html.escape(iss["root"])})</span>' if iss.get("root") else ""
+            forms_note = f' <span class="root-note">→ {html.escape(iss["forms"])}</span>' if iss.get("forms") else ""
             html_parts.append(
                 f'<li><a class="jump-link" href="#{iss["id"]}">'
                 f'{html.escape(iss["label"])}</a>'
-                f'{root_note}'
+                f'{root_note}{forms_note}'
                 f'<span class="verse-key">{html.escape(iss["detail"])}</span>'
                 f'</li>'
             )
@@ -939,6 +978,7 @@ def build_legend() -> str:
 <div id="legend">
   <strong>Colour key:</strong>
   <span class="leg leg-ok">Blue = linked correctly ✔ (hover to see verse)</span>
+  <span class="leg leg-variant">Green background = ~ variant form — heading word found in a different form</span>
   <span class="leg leg-missing">Red background = ❌ wrong reference — verse doesn't exist</span>
   <span class="leg leg-noroot">Amber background = ⚠ wrong verse? — heading word not found in verse</span>
   <span class="leg leg-unlinked">Red underline = 🔗 unlinked number — missing book name</span>
@@ -999,6 +1039,7 @@ p:hover {
 .leg-missing { background: #ffe6e6; color: #cc0000; font-weight: bold; }
 .leg-noroot  { background: #fff3cd; color: #7a4f00; border-bottom: 2px dashed #cc8800; }
 .leg-unlinked{ color: #cc0000; border-bottom: 2px solid #cc0000; font-weight: bold; }
+.leg-variant { background: #e6f4ee; color: #0a6640; border-bottom: 2px solid #0a9960; }
 
 /* ── Sticky sidebar panel ─────────────────────────────────────── */
 #issues-panel {
@@ -1035,11 +1076,13 @@ p:hover {
 .pc.noroot   { background: #fff3cd; color: #7a4f00; }
 .pc.unlinked { background: #ffe6e6; color: #cc0000; }
 .pc.all-clear { background: #d4edda; color: #155724; }
+.pc.variant  { background: #d4edda; color: #0a6640; }
 
 .panel-section { border-bottom: 1px solid #eee; padding: 10px 14px; }
 .panel-missing .section-heading { color: #cc0000; }
 .panel-noroot  .section-heading { color: #7a4f00; }
 .panel-unlinked .section-heading { color: #cc0000; }
+.panel-variant .section-heading { color: #0a6640; }
 .section-heading {
     font-weight: bold;
     font-size: 12.5px;
@@ -1127,12 +1170,20 @@ p:hover {
 .tip-missing { background: #cc0000; color: #fff; }
 .tip-noroot  { background: #cc8800; color: #fff; }
 .tip-unlinked{ background: #cc0000; color: #fff; }
+.tip-variant { background: #1a6b55; color: #fff; }
 .tip-verse-key {
     display: block;
     color: #aad4ff;
     font-size: 11.5px;
     font-weight: bold;
     margin-bottom: 5px;
+}
+.tip-variants {
+    display: block;
+    color: #aaffcc;
+    font-size: 11px;
+    margin-top: 5px;
+    font-style: italic;
 }
 .tooltip em { color: #ddd; font-style: normal; }
 .tooltip strong {
@@ -1150,6 +1201,17 @@ p:hover {
     cursor: help;
 }
 .bible-ref:hover { background: #e8f0fe; }
+
+.bible-ref-variant {
+    color: #0a6640;
+    background: #e6f4ee;
+    border-bottom: 2px solid #0a9960;
+    text-decoration: none;
+    cursor: help;
+    padding: 0 2px;
+    border-radius: 2px;
+}
+.bible-ref-variant:hover { background: #c3e8d4; }
 
 .bible-ref-missing {
     color: #cc0000;
