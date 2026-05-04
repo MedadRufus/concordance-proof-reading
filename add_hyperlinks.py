@@ -382,6 +382,20 @@ class Reference:  # pylint: disable=too-many-instance-attributes
         "wellpleasing": {"please"},
         # wizard → WIZARDS
         "wizard": {"wizards"},
+        # ankles (modern KJV editions) → ANCLES (archaic concordance spelling)
+        "ankles": {"ancles"},
+        # cloak (some KJV editions) → CLOKE (archaic concordance spelling)
+        "cloak": {"cloke"},
+        # honor / honored (some KJV editions) → HONOUR
+        "honor": {"honour"}, "honored": {"honour"}, "honoring": {"honour"},
+        # long-suffering (hyphenated in some KJV editions) → LONGSUFFERING
+        "long-suffering": {"longsuffering"},
+        # standard / bearer (KJV editions that hyphenate standard-bearer) → STANDARDBEARER
+        "standard": {"standardbearer"}, "bearer": {"standardbearer"},
+        # stumble / stumbling (1 Pet 2:8 has 'stone of stumbling') → STUMBLINGSTONE
+        "stumble": {"stumblingstone"}, "stumbling": {"stumblingstone"},
+        # wondrously variant spellings
+        "wonderously": {"wondrously"}, "wondrously": {"wondrously"},
         # revealed/revelation → REV entries already matched by substring
         # increasing → INCREASED
         "increasing": {"increased"},
@@ -498,6 +512,13 @@ class Reference:  # pylint: disable=too-many-instance-attributes
             # KJV variant spelling lookup: verse word maps to this root
             kjv_roots = Reference._KJV_VARIANTS.get(word_lower, set())
             if root_lower in kjv_roots:
+                return True
+            # Compound-word prefix check: verse splits a compound at a hyphen,
+            # so individual parts (e.g. 'long', 'standard', 'stumbling') should
+            # match roots that start with them (e.g. 'longsuffering',
+            # 'standardbearer', 'stumblingstone').
+            # Guard with minimum length to avoid false positives.
+            if len(word_lower) >= 4 and root_lower.startswith(word_lower):
                 return True
             return False
 
@@ -842,7 +863,21 @@ def extract_paragraphs(doc, verses, issues: list):
 def build_issues_panel(issues: list) -> str:
     """Return a sticky sidebar panel listing all issues with jump links."""
     if not issues:
-        return ''
+        return (
+            '<div id="issues-panel">'
+            '<div id="panel-header">'
+            '<strong>Issues to fix</strong>'
+            '<span class="panel-counts">'
+            '<span class="pc all-clear">✔ No issues</span>'
+            '</span>'
+            '</div>'
+            '<div class="panel-section panel-allclear">'
+            '<div class="section-explain" style="padding-top:8px;">'
+            'All references checked out — no wrong verses, missing references, or unlinked numbers found.'
+            '</div>'
+            '</div>'
+            '</div>'
+        )
 
     counts: dict[str, int] = {}
     for issue in issues:
@@ -999,6 +1034,7 @@ p:hover {
 .pc.missing  { background: #ffe6e6; color: #cc0000; }
 .pc.noroot   { background: #fff3cd; color: #7a4f00; }
 .pc.unlinked { background: #ffe6e6; color: #cc0000; }
+.pc.all-clear { background: #d4edda; color: #155724; }
 
 .panel-section { border-bottom: 1px solid #eee; padding: 10px 14px; }
 .panel-missing .section-heading { color: #cc0000; }
@@ -1159,7 +1195,7 @@ p:hover {
 }
 """
 
-    issues_panel = build_issues_panel(issues) if issues else ''
+    issues_panel = build_issues_panel(issues if issues is not None else [])
     legend = build_legend()
 
     paras_html = '\n'.join(f'<p>{p}</p>' for p in paragraphs)
