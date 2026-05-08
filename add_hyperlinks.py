@@ -10,6 +10,7 @@ import io
 import json
 import os
 import re
+import zipfile
 
 from odf import teletype
 from odf.opendocument import load
@@ -777,6 +778,8 @@ def convert_odt_bytes_to_html(odt_bytes):
 
     bio = io.BytesIO(odt_bytes)
     doc = load(bio)
+    # Stash raw bytes so extract_paragraphs can read the XML for Lord rendering
+    doc.contentxml = odt_bytes
 
     issues: list = []
     paragraphs = extract_paragraphs(doc, kjv_verses, issues)
@@ -838,60 +841,155 @@ def extract_root_word(txt):
 
 
 def extract_paragraphs(doc, verses, issues: list):
-    paragraphs = []
+    # Pre-build a list of per-paragraph LORD-span offsets from the raw ODT XML.
+    # teletype.extractText gives correct plain text; we just need to know WHERE
+    # in that plain text the LORD small-caps spans fall, so we can inject
+    # <span class="lord-sc">ord</span> at the right positions in the HTML output.
+    #
+    # For each ODT paragraph we record a list of plain-text character positions
+    # where the 'ord' of a LORD span starts (i.e. position of 'o' in 'Lord').
+    lord_positions_by_para: dict[int, list[int]] = {}
+    try:
+        odt_bytes_raw = getattr(doc, "contentxml", None)
+        if odt_bytes_raw is not None:
+            import zipfile as _zf
+            if isinstance(odt_bytes_raw, (bytes, bytearray)) and odt_bytes_raw[:2] == b"PK":
+                with _zf.ZipFile(io.BytesIO(odt_bytes_raw)) as _z:
+                    raw_xml = _z.read("content.xml").decode("utf-8")
+            else:
+                raw_xml = odt_bytes_raw if isinstance(odt_bytes_raw, str) else odt_bytes_raw.decode("utf-8")
 
+            LORD_SPAN_RE = re.compile(
+                r'L<text:span text:style-name="T9990">ord</text:span>'
+            )
+            PARA_RE = re.compile(r"<text:p\b[^>]*>(.*?)</text:p>", re.DOTALL)
+            TAG_RE  = re.compile(r"<[^>]+>")
+
+            for _para_idx, _pm in enumerate(PARA_RE.finditer(raw_xml)):
+                inner = _pm.group(1)
+                if "T9990" not in inner:
+                    continue
+                # Walk the inner XML, tracking plain-text position and recording
+                # where each LORD span's 'ord' falls in plain text.
+                positions = []
+                plain_pos = 0
+                i = 0
+                while i < len(inner):
+                    # Check for LORD span at this position
+                    m = LORD_SPAN_RE.match(inner, i)
+                    if m:
+                        # 'L' is at plain_pos, 'ord' starts at plain_pos+1
+                        positions.append(plain_pos + 1)
+                        plain_pos += 4  # L + o + r + d
+                        i = m.end()
+                        continue
+                    if inner[i] == '<':
+                        # Skip to end of tag
+                        close = inner.find('>', i)
+                        i = close + 1 if close != -1 else len(inner)
+                        continue
+                    plain_pos += 1
+                    i += 1
+                if positions:
+                    lord_positions_by_para[_para_idx] = positions
+    except Exception:
+        pass  # fall back to plain rendering silently
+
+    paragraphs = []
     all_elements = doc.getElementsByType(P)
 
-    for idx, elem in enumerate(all_elements):
+    # We need to map odf element index → XML paragraph index.
+    # Both are in document order; non-empty teletype paragraphs correspond 1-to-1
+    # with non-empty XML paragraphs (some XML paras are empty and skipped by odf).
+    # We track a shared counter across both iterators.
+    xml_para_idx = -1  # incremented each time we see a non-empty odf element
+
+    for elem in all_elements:
         raw_txt = teletype.extractText(elem)
         if not raw_txt.strip():
             continue
-        # Collapse only ordinary whitespace (space/tab/newline), preserving
-        # non-breaking space (U+00A0) and other special spaces (U+2006, etc.)
+        xml_para_idx += 1
         txt = re.sub(r"[ \t\r\n]+", " ", raw_txt).strip()
 
-        # Extract root word using the new function
         root_word = extract_root_word(txt)
 
         if root_word is None:
-            # No root word found → treat as plain text
             paragraphs.append(html.escape(txt))
             continue
 
-        # Now split by |, but only after root word
-        # Remove root word from txt for segment parsing
-        # Find where root_word appears (first occurrence)
         root_pos = txt.find(root_word)
         if root_pos == -1:
             paragraphs.append(html.escape(txt))
             continue
 
-        remainder = txt[root_pos + len(root_word) :].lstrip()
+        remainder = txt[root_pos + len(root_word):].lstrip()
         segments = [s.strip() for s in remainder.split("|") if s.strip()]
 
-        # Create a closure to avoid repeated function creation
+        # Get LORD span positions for this paragraph (in plain-text coords).
+        lord_pos_set = set(lord_positions_by_para.get(xml_para_idx, []))
+
         def create_substitution_function(verses, root_word, issues):
             def substitute_references(match):
                 refs = parse_references_with_root(match.group(0), verses, root_word)
                 anchor_texts = [ref.to_anchor(i, issues) for i, ref in enumerate(refs)]
                 result = ", ".join(anchor_texts)
                 return result if result else html.escape(match.group(0))
-
             return substitute_references
 
         substitution_func = create_substitution_function(verses, root_word, issues)
 
         rendered_segments = []
 
+        # plain-text offset of where the remainder starts (after root word)
+        remainder_start = root_pos + len(root_word)
+        # account for lstrip()
+        remainder_start += len(txt[root_pos + len(root_word):]) - len(txt[root_pos + len(root_word):].lstrip())
+
+        seg_offset = remainder_start  # tracks position in txt for each segment
+
         for seg in segments:
-            new_seg = ref_pattern.sub(substitution_func, seg)
+            # Find where this segment starts in txt (skip the '|' separator)
+            seg_start_in_txt = txt.find(seg, seg_offset)
+            if seg_start_in_txt == -1:
+                seg_start_in_txt = seg_offset
+
+            # Build the HTML for this segment by html-escaping char by char,
+            # injecting lord-sc spans at the recorded positions.
+            seg_html_parts = []
+            for ci, ch in enumerate(seg):
+                abs_pos = seg_start_in_txt + ci
+                if abs_pos in lord_pos_set:
+                    # This 'o' starts the small-caps 'ord' — emit the span
+                    seg_html_parts.append('<span class="lord-sc">ord</span>')
+                    # Skip 'r' and 'd' which follow
+                    # (they are already consumed by the span)
+                    continue
+                # Skip 'r' and 'd' that are part of an already-emitted lord span
+                # We detect this by checking if pos-1 or pos-2 was a lord_pos
+                if (abs_pos - 1) in lord_pos_set or (abs_pos - 2) in lord_pos_set:
+                    continue
+                seg_html_parts.append(html.escape(ch))
+            seg_html = "".join(seg_html_parts)
+
+            # Linkify references in the segment
+            new_seg = _splice_refs_into_lord_seg(seg, seg_html, substitution_func)
             new_seg = highlight_orphan_numbers(new_seg, issues)
             rendered_segments.append(new_seg)
+
+            seg_offset = seg_start_in_txt + len(seg) + 1  # +1 for '|'
 
         final_line = f"<strong>{html.escape(root_word)}</strong> " + " | ".join(rendered_segments)
         paragraphs.append(final_line)
 
     return paragraphs
+
+
+def _splice_refs_into_lord_seg(plain_seg: str, lord_html: str, substitution_func) -> str:
+    """Linkify references from plain_seg into the already lord-rendered lord_html."""
+    for m in ref_pattern.finditer(plain_seg):
+        anchor = substitution_func(m)
+        lord_html = lord_html.replace(html.escape(m.group(0)), anchor, 1)
+    return lord_html
 
 
 def build_issues_panel(issues: list) -> str:
@@ -982,6 +1080,7 @@ def build_legend() -> str:
   <span class="leg leg-missing">Red background = ❌ wrong reference — verse doesn't exist</span>
   <span class="leg leg-noroot">Amber background = ⚠ wrong verse? — heading word not found in verse</span>
   <span class="leg leg-unlinked">Red underline = 🔗 unlinked number — missing book name</span>
+  <span class="leg">L<span class="lord-sc">ord</span> = tetragrammaton (YHWH) rendered as small-caps per KJV; plain Lord = Adonai</span>
 </div>
 """
 
@@ -1242,6 +1341,12 @@ p:hover {
     border-bottom: 2px solid #cc0000;
     cursor: help;
     padding: 0 1px;
+}
+
+/* LORD small-caps rendering (matches ODT: L + small-caps "ord") */
+.lord-sc {
+    font-variant: small-caps;
+    letter-spacing: 0.03em;
 }
 
 /* ── Scroll-to highlight ──────────────────────────────────────── */
