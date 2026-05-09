@@ -703,6 +703,50 @@ def parse_references_with_root(text, verses, root_word):
     return results
 
 
+
+def _build_lord_lookup(kjv_verses):
+    lookup = {}
+    for key, text in kjv_verses.items():
+        forms = set(re.findall(r"\b(LORD|Lord)\b", text))
+        if forms:
+            lookup[key] = frozenset(forms)
+    return lookup
+
+_LORD_PAT = re.compile(r"\b(LORD|Lord)\b")
+
+def _replace_lord_in_seg(seg, lord_lookup):
+    ref_positions = []
+    for m in ref_pattern.finditer(seg):
+        abbr = m.group("abbr1") or m.group("abbr2")
+        refs_raw = m.group("refs1") or m.group("refs2")
+        abbr_key = abbr.replace("\xa0", " ")
+        full_book = BOOK_ABBR_TO_FULL.get(abbr_key, abbr_key)
+        single = full_book in SINGLE_CHAPTER_BOOKS
+        cur_ch = None
+        for part in refs_raw.split(","):
+            part = part.strip()
+            if ":" in part:
+                cur_ch, verse = part.split(":", 1)
+            else:
+                verse = part
+                if single: cur_ch = "1"
+            if cur_ch:
+                ref_positions.append((m.start(), f"{full_book} {cur_ch}:{verse}"))
+    out = []; last = 0
+    for m in _LORD_PAT.finditer(seg):
+        out.append(html.escape(seg[last:m.start()]))
+        last = m.end()
+        key = next((k for p, k in ref_positions if p >= m.start()), None)
+        if key is None:
+            key = next((k for p, k in reversed(ref_positions) if p < m.start()), None)
+        forms = lord_lookup.get(key, frozenset()) if key else frozenset()
+        if forms == frozenset({"LORD"}):
+            out.append('L<span class="lord-sc">ord</span>')
+        else:
+            out.append(html.escape(m.group()))
+    out.append(html.escape(seg[last:]))
+    return "".join(out)
+
 def highlight_orphan_numbers(html_fragment: str, issues: list | None = None) -> str:
     """
     In the rendered HTML fragment, find numeric tokens that look like they could
@@ -837,17 +881,58 @@ def extract_root_word(txt):
     return root_word
 
 
-def extract_paragraphs(doc, verses, issues: list):
+LORD_SC_MARKER = "\x00LORD_SC\x00"  # placeholder preserved through plain-text processing
+
+_TEXT_ATTR  = ("urn:oasis:names:tc:opendocument:xmlns:text:1.0", "style-name")
+_SPACE_ATTR = ("urn:oasis:names:tc:opendocument:xmlns:text:1.0", "c")
+_SPACE_QNAME = ("urn:oasis:names:tc:opendocument:xmlns:text:1.0", "s")
+
+
+def _extract_text_with_lord(elem) -> str:
+    """Extract text from an ODT paragraph element, replacing
+    L + <text:span T9990>ord</text:span>  with LORD_SC_MARKER."""
+    from odf.element import Element
+
+    parts = []
+
+    def walk(node):
+        if not isinstance(node, Element):
+            parts.append(str(node) if node is not None else "")
+            return
+        # text:s (space) element
+        if node.qname == _SPACE_QNAME:
+            count = int(node.attributes.get(_SPACE_ATTR, "1"))
+            parts.append(" " * count)
+            return
+        # Check for our small-caps span
+        if node.attributes.get(_TEXT_ATTR) == "T9990":
+            inner = "".join(
+                str(c) for c in node.childNodes
+                if not isinstance(c, Element)
+            )
+            if inner == "ord" and parts and parts[-1].endswith("L"):
+                parts[-1] = parts[-1][:-1]
+                parts.append(LORD_SC_MARKER)
+                return
+            else:
+                parts.append(inner)
+                return
+        for child in node.childNodes:
+            walk(child)
+
+    walk(elem)
+    return "".join(parts)
+
+
+def extract_paragraphs(doc, verses, issues: list, lord_lookup: dict = None):
     paragraphs = []
 
     all_elements = doc.getElementsByType(P)
 
     for idx, elem in enumerate(all_elements):
-        raw_txt = teletype.extractText(elem)
+        raw_txt = _extract_text_with_lord(elem)
         if not raw_txt.strip():
             continue
-        # Collapse only ordinary whitespace (space/tab/newline), preserving
-        # non-breaking space (U+00A0) and other special spaces (U+2006, etc.)
         txt = re.sub(r"[ \t\r\n]+", " ", raw_txt).strip()
 
         # Extract root word using the new function
@@ -855,7 +940,8 @@ def extract_paragraphs(doc, verses, issues: list):
 
         if root_word is None:
             # No root word found → treat as plain text
-            paragraphs.append(html.escape(txt))
+            plain = html.escape(txt).replace(LORD_SC_MARKER, 'L<span class="lord-sc">ord</span>')
+            paragraphs.append(plain)
             continue
 
         # Now split by |, but only after root word
@@ -884,11 +970,25 @@ def extract_paragraphs(doc, verses, issues: list):
         rendered_segments = []
 
         for seg in segments:
-            new_seg = ref_pattern.sub(substitution_func, seg)
+            if lord_lookup:
+                # Replace LORD/Lord in plain text BEFORE ref linkification,
+                # using nearest KJV verse to determine the correct form.
+                seg_html = _replace_lord_in_seg(seg, lord_lookup)
+                # Now linkify refs: run substitution_func against original seg,
+                # then replace the escaped ref text in the lord-rendered html.
+                for m in ref_pattern.finditer(seg):
+                    anchor = substitution_func(m)
+                    seg_html = seg_html.replace(html.escape(m.group(0)), anchor, 1)
+                new_seg = seg_html
+            else:
+                new_seg = ref_pattern.sub(substitution_func, seg)
+            # Convert LORD_SC_MARKER (from ODT small-caps span) to HTML
+            new_seg = new_seg.replace(LORD_SC_MARKER, 'L<span class="lord-sc">ord</span>')
             new_seg = highlight_orphan_numbers(new_seg, issues)
             rendered_segments.append(new_seg)
 
         final_line = f"<strong>{html.escape(root_word)}</strong> " + " | ".join(rendered_segments)
+        final_line = final_line.replace(LORD_SC_MARKER, 'L<span class="lord-sc">ord</span>')
         paragraphs.append(final_line)
 
     return paragraphs
@@ -982,6 +1082,9 @@ def build_legend() -> str:
   <span class="leg leg-missing">Red background = ❌ wrong reference — verse doesn't exist</span>
   <span class="leg leg-noroot">Amber background = ⚠ wrong verse? — heading word not found in verse</span>
   <span class="leg leg-unlinked">Red underline = 🔗 unlinked number — missing book name</span>
+  &nbsp;&nbsp;<strong>Lord:</strong>
+  <span class="leg">L<span class="lord-sc">ord</span> = <em>LORD</em> in KJV (YHWH)</span>
+  <span class="leg">Lord = <em>Lord</em> in KJV (Adonai)</span>
 </div>
 """
 
@@ -1243,6 +1346,9 @@ p:hover {
     cursor: help;
     padding: 0 1px;
 }
+
+/* LORD (tetragrammaton): L + small-caps ord, matching ODT rendering */
+.lord-sc { font-variant: small-caps; }
 
 /* ── Scroll-to highlight ──────────────────────────────────────── */
 :target {
