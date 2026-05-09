@@ -704,13 +704,6 @@ def parse_references_with_root(text, verses, root_word):
 
 
 
-def _build_lord_lookup(kjv_verses):
-    lookup = {}
-    for key, text in kjv_verses.items():
-        forms = set(re.findall(r"\b(LORD|Lord)\b", text))
-        if forms:
-            lookup[key] = frozenset(forms)
-    return lookup
 
 _LORD_PAT = re.compile(r"\b(LORD|Lord)\b")
 
