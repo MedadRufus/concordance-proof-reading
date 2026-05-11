@@ -8,6 +8,8 @@ import json
 import time
 import re
 import sys
+import os
+import hashlib
 import requests
 from bs4 import BeautifulSoup
 
@@ -42,29 +44,49 @@ HEADERS = {
 session = requests.Session()
 session.headers.update(HEADERS)
 
+CACHE_DIR = "cache"
+os.makedirs(CACHE_DIR, exist_ok=True)
+
 
 def book_to_url_name(book_name):
     """Convert book name to URL-safe format (spaces to hyphens)."""
     return book_name.replace(" ", "-")
 
 
+def get_cache_path(book_name, chapter_num):
+    """Get cache file path for a chapter."""
+    cache_key = f"{book_name}_{chapter_num}"
+    return os.path.join(CACHE_DIR, f"{cache_key}.html")
+
+
 def scrape_chapter(book_name, chapter_num, retries=3):
     """Scrape all verses from a single chapter. Returns list of (verse_num, text) tuples."""
     url_book = book_to_url_name(book_name)
     url = f"{BASE_URL}/{url_book}-Chapter-{chapter_num}/"
+    cache_path = get_cache_path(book_name, chapter_num)
 
-    for attempt in range(retries):
-        try:
-            resp = session.get(url, timeout=30)
-            resp.raise_for_status()
-            break
-        except Exception as e:
-            if attempt == retries - 1:
-                print(f"  ERROR fetching {url}: {e}", file=sys.stderr)
-                return []
-            time.sleep(2 ** attempt)
+    # Try to load from cache first
+    if os.path.exists(cache_path):
+        with open(cache_path, 'r', encoding='utf-8') as f:
+            html_content = f.read()
+    else:
+        # Fetch from network
+        for attempt in range(retries):
+            try:
+                resp = session.get(url, timeout=30)
+                resp.raise_for_status()
+                html_content = resp.text
+                # Save to cache
+                with open(cache_path, 'w', encoding='utf-8') as f:
+                    f.write(html_content)
+                break
+            except Exception as e:
+                if attempt == retries - 1:
+                    print(f"  ERROR fetching {url}: {e}", file=sys.stderr)
+                    return []
+                time.sleep(2 ** attempt)
 
-    soup = BeautifulSoup(resp.text, "html.parser")
+    soup = BeautifulSoup(html_content, "html.parser")
 
     # Verses are inside <div id="div"> as <p><a href="..."><span id="N">N </span>text</a></p>
     verse_div = soup.find("div", {"id": "div"})
@@ -90,10 +112,9 @@ def scrape_chapter(book_name, chapter_num, retries=3):
         # Remove the span (verse number) from the anchor text, then get remaining text
         span.decompose()
 
-        # Get text, handling <em> tags (italicised supplied words in KJV)
-        # Replace <em> content inline (keep the words, just unwrap the tag)
-        raw_text = a.get_text(" ", strip=True)
-        # Normalise whitespace
+        # Get text without adding extra spaces
+        raw_text = a.get_text()
+        # Normalise whitespace - collapse multiple spaces but preserve single spaces
         raw_text = re.sub(r"\s+", " ", raw_text).strip()
 
         verses.append((verse_num, raw_text))
