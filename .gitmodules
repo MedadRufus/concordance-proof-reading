@@ -1,3 +1,6 @@
 [submodule "kjv"]
 	path = kjv
 	url = https://github.com/aruljohn/Bible-kjv.git
+[submodule "farskipper/kjv"]
+	path = farskipper/kjv
+	url = https://github.com/farskipper/kjv.git

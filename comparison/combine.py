@@ -10,7 +10,7 @@ def normalize(text):
 
 # Load B1
 b1 = {}
-for filepath in glob.glob('/home/claude/bible1/*.json'):
+for filepath in glob.glob('../kjv/*.json'):
     fname = os.path.basename(filepath).replace('.json','')
     if fname == 'Books': continue
     with open(filepath) as f:
@@ -22,12 +22,12 @@ for filepath in glob.glob('/home/claude/bible1/*.json'):
             b1[ref] = normalize(v['text'])
 
 # Load B2
-with open('/home/claude/bible2/json/verses-1769.json') as f:
+with open('../farskipper/kjv/json/verses-1769.json') as f:
     b2_raw = json.load(f)
 b2 = {ref: normalize(text) for ref, text in b2_raw.items()}
 
 # Load B3
-with open('/mnt/user-data/uploads/kjv.json') as f:
+with open('../scraping/kjv.json') as f:
     b3_raw = json.load(f)
 b3 = {}
 for book, chapters in b3_raw.items():
@@ -80,8 +80,8 @@ def sort_key(ref):
 # Build diffs for all 3 pairs separately
 pairs = {
     'b1_b2': (b1, b2, 'aruljohn/Bible-kjv', 'farskipper/kjv'),
-    'b1_b3': (b1, b3, 'aruljohn/Bible-kjv', 'kjvonline.org'),
-    'b2_b3': (b2, b3, 'farskipper/kjv', 'kjvonline.org'),
+    'b1_b3': (b1, b3, 'aruljohn/Bible-kjv', 'kingjamesbibleonline.org'),
+    'b2_b3': (b2, b3, 'farskipper/kjv', 'kingjamesbibleonline.org'),
 }
 
 pair_diffs = {}
@@ -113,6 +113,6 @@ for pair_key, (ba, bb, na, nb) in pairs.items():
     print(f"{pair_key}: {len(diffs)} diffs — {totals}")
 
 output = {'pairs': pair_diffs, 'books': pair_books, 'totals': pair_totals}
-with open('/home/claude/bible_pairs.json', 'w') as f:
+with open('bible_pairs.json', 'w') as f:
     json.dump(output, f)
-print("Done. Size:", os.path.getsize('/home/claude/bible_pairs.json'))
+print("Done. Size:", os.path.getsize('bible_pairs.json'))

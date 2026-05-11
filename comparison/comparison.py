@@ -1,7 +1,6 @@
-python3 << 'PYEOF'
 import json, os
 
-with open('/home/claude/bible_pairs.json') as f:
+with open('bible_pairs.json') as f:
     data = json.load(f)
 
 data_js = json.dumps(data)
@@ -107,11 +106,11 @@ mark.ins { background: rgba(26,92,26,0.1); color: var(--word-ins); border-radius
     <span class="pair-count" id="pcount-b1_b2"></span>
   </div>
   <div class="pair-btn" id="pairbtn-b1_b3">
-    aruljohn vs kjvonline
+    aruljohn vs kingjamesbibleonline
     <span class="pair-count" id="pcount-b1_b3"></span>
   </div>
   <div class="pair-btn" id="pairbtn-b2_b3">
-    farskipper vs kjvonline
+    farskipper vs kingjamesbibleonline
     <span class="pair-count" id="pcount-b2_b3"></span>
   </div>
 </div>
@@ -152,8 +151,8 @@ parts.append(''';
 
   var PAIR_NAMES = {
     b1_b2: ['aruljohn/Bible-kjv', 'farskipper/kjv'],
-    b1_b3: ['aruljohn/Bible-kjv', 'kjvonline.org'],
-    b2_b3: ['farskipper/kjv', 'kjvonline.org']
+    b1_b3: ['aruljohn/Bible-kjv', 'kingjamesbibleonline.org'],
+    b2_b3: ['farskipper/kjv', 'kingjamesbibleonline.org']
   };
 
   var BADGE = {
@@ -297,6 +296,6 @@ parts.append(''';
 ''')
 
 html = ''.join(parts)
-with open('/home/claude/bible3way_pairs_final.html', 'w') as f:
+with open('bible3way_pairs_final.html', 'w') as f:
     f.write(html)
 print("Written, size:", len(html))
