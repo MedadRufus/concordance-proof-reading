@@ -296,6 +296,6 @@ parts.append(''';
 ''')
 
 html = ''.join(parts)
-with open('bible3way_pairs_final.html', 'w') as f:
+with open('bible3way_pairs.html', 'w') as f:
     f.write(html)
 print("Written, size:", len(html))
