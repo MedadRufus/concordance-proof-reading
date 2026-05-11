@@ -101,11 +101,11 @@ mark.ins { background: rgba(26,92,26,0.1); color: var(--word-ins); border-radius
 </header>
 
 <div class="pair-bar">
-  <div class="pair-btn active" id="pairbtn-b1_b2">
+  <div class="pair-btn" id="pairbtn-b1_b2">
     aruljohn vs farskipper
     <span class="pair-count" id="pcount-b1_b2"></span>
   </div>
-  <div class="pair-btn" id="pairbtn-b1_b3">
+  <div class="pair-btn active" id="pairbtn-b1_b3">
     aruljohn vs kingjamesbibleonline
     <span class="pair-count" id="pcount-b1_b3"></span>
   </div>
@@ -145,7 +145,7 @@ parts.append(''';
 </script>
 <script>
 (function() {
-  var currentPair = 'b1_b2';
+  var currentPair = 'b1_b3';
   var currentCat = 'all';
   var currentBook = 'ALL';
 
