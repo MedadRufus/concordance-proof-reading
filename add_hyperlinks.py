@@ -481,33 +481,20 @@ class Reference:  # pylint: disable=too-many-instance-attributes
             stems.add(root_lower[:-3] + "e")
 
         def word_matches_root(word_lower):
-            """Return True if word_lower is a recognised inflection of root_lower."""
-            # Known inflectional suffixes — what can legitimately follow a root.
-            # Compound-forming remnants ('man', 'pers', 'beloved') are NOT in this set.
-            INFLECT = {
-                "", "s", "es", "ed", "ing", "ly", "eth", "est", "er", "ers",
-                "ness", "ment", "ful", "less", "ieth", "ied", "ier", "iest",
-                "ily", "ally", "ably", "ibly", "ingly", "edst", "d", "st",
-            }
-
-            # Rule 1: word starts with root; only accept if remainder is an
-            # inflectional suffix.  Prevents root='free' matching 'freeman',
-            # root='well' matching 'wellbeloved', root='worship' matching
-            # 'worshippers' (pers not in INFLECT), etc.
-            if word_lower.startswith(root_lower):
-                if word_lower[len(root_lower):] in INFLECT:
-                    return True
-
+            """Return True if word_lower is a form of root_lower."""
+            # Direct containment
+            if root_lower in word_lower:
+                return True
             # Direct suffix expansion of root
             if any(word_lower == root_lower + sfx for sfx in ROOT_SUFFIXES):
                 return True
-            # Root ends in 'e': drop-e before suffix (min stem len 2)
+            # Root ends in 'e': drop-e before suffix
             if root_lower.endswith("e"):
                 stem = root_lower[:-1]
-                if len(stem) >= 2 and any(word_lower == stem + sfx
+                if any(word_lower == stem + sfx
                        for sfx in ["ing", "ed", "er", "ers", "ingly", "eth"]):
                     return True
-            # Root ends in 'y': y->ies, y->ied, y->ier
+            # Root ends in 'y': y→ies, y→ied, y→ier
             if root_lower.endswith("y"):
                 stem = root_lower[:-1]
                 if any(word_lower == stem + sfx
@@ -516,38 +503,26 @@ class Reference:  # pylint: disable=too-many-instance-attributes
             # Root ends in 'ic': +ally
             if root_lower.endswith("ic") and word_lower == root_lower + "ally":
                 return True
-            # Root ends in consonant: double consonant + ing/ed/er (root already doubled)
+            # Root ends in consonant: double consonant + ing/ed
             if (len(root_lower) >= 3 and root_lower[-1] == root_lower[-2]
                     and root_lower[-1] not in "aeiou"):
                 stem = root_lower[:-1]
                 if any(word_lower == stem + sfx for sfx in ["ing", "ed", "er"]):
                     return True
-            # CVC doubling: short roots ending in vowel+consonant double the
-            # final consonant before a vowel suffix (cut->cutteth, beg->begging).
-            # English rule: 1-syllable root, single short vowel before final consonant.
-            if (len(root_lower) >= 3
-                    and root_lower[-1] not in "aeiou"
-                    and root_lower[-2] in "aeiou"
-                    and root_lower[-3] not in "aeiou"):
-                doubled = root_lower + root_lower[-1]
-                CVC_INFLECT = INFLECT | {"ar", "ars", "en"}
-                if word_lower.startswith(doubled) and word_lower[len(doubled):] in CVC_INFLECT:
-                    return True
-            # Stem-based matching (justifi+eth, backsli+ding).
-            # Same INFLECT guard; min stem 3 prevents 'be'(bee), 'ow'(owe), 'tr'(try).
+            # Stem-based matching (covers forms like justifi+eth → justifieth)
             for stem in stems:
-                if (stem and len(stem) >= 3
-                        and word_lower.startswith(stem)
-                        and word_lower[len(stem):] in INFLECT):
+                if stem and word_lower.startswith(stem) and len(word_lower) > len(stem):
                     return True
-            # KJV variant spelling lookup
+            # KJV variant spelling lookup: verse word maps to this root
             kjv_roots = Reference._KJV_VARIANTS.get(word_lower, set())
             if root_lower in kjv_roots:
                 return True
-            # Compound-word prefix check: VERSE word is a component of a compound
-            # root (e.g. verse has 'stumbling', root is 'stumblingstone').
-            # Require word >= 6 chars to avoid short words falsely matching.
-            if len(word_lower) >= 6 and root_lower.startswith(word_lower):
+            # Compound-word prefix check: verse splits a compound at a hyphen,
+            # so individual parts (e.g. 'long', 'standard', 'stumbling') should
+            # match roots that start with them (e.g. 'longsuffering',
+            # 'standardbearer', 'stumblingstone').
+            # Guard with minimum length to avoid false positives.
+            if len(word_lower) >= 4 and root_lower.startswith(word_lower):
                 return True
             return False
 
@@ -580,13 +555,11 @@ class Reference:  # pylint: disable=too-many-instance-attributes
         """Return full verse key like 'Proverbs 24:24'."""
         return f"{self.book} {self.chapter}:{self.verse}"
 
-    def to_anchor(self, index: int, issues, spec_forms: set = None) -> str:
+    def to_anchor(self, index: int, issues: list | None = None) -> str:
         """Construct the anchor HTML for this reference with a real tooltip span.
 
-        *spec_forms* is the set of variant forms declared in the ODT heading
-        (e.g. {'bellies'} for BELLY (-ies)).  If the only variants found in the
-        verse are all members of *spec_forms*, the reference is treated as a
-        normal ✔ Linked match rather than a ~ Unmatched variant.
+        If *issues* is provided, append a dict describing any problem found so
+        the summary table at the top of the page can link directly to it.
         """
         full_key = self.get_full_verse_key()
         verse = self.verses.get(full_key, "")
@@ -630,38 +603,26 @@ class Reference:  # pylint: disable=too-many-instance-attributes
                     css_class = "bible-ref"
                     tip_label = "<span class='tip-label tip-ok'>✔ Linked</span>"
                 else:
-                    # Check if all found forms are declared in the spec
-                    other_forms = [v for v in variants if v.lower() != root.lower()]
-                    all_in_spec = (
-                        spec_forms is not None
-                        and bool(spec_forms)
-                        and all(v.lower() in {s.lower() for s in spec_forms} for v in other_forms)
-                    )
-                    if all_in_spec:
-                        # Every variant form is declared in the heading spec → treat as linked
-                        css_class = "bible-ref"
-                        tip_label = "<span class='tip-label tip-ok'>✔ Linked</span>"
-                    else:
-                        # Not in spec and not the root word — flag as unmatched variant
-                        css_class = "bible-ref-variant"
-                        tip_label = "<span class='tip-label tip-variant'>~ Unmatched variant</span>"
-                        issue_id = f"issue-{len(issues)}" if issues is not None else None
-                        if issues is not None:
-                            forms_str = ", ".join(other_forms)
-                            issues.append({
-                                "id": issue_id,
-                                "type": "variant-form",
-                                "label": visible,
-                                "detail": full_key,
-                                "root": self.root_word,
-                                "forms": forms_str,
-                            })
+                    # Only variant forms found — make this visually distinct
+                    css_class = "bible-ref-variant"
+                    tip_label = "<span class='tip-label tip-variant'>~ Variant form</span>"
+                    issue_id = f"issue-{len(issues)}" if issues is not None else None
+                    if issues is not None:
+                        forms_str = ", ".join(other_forms)
+                        issues.append({
+                            "id": issue_id,
+                            "type": "variant-form",
+                            "label": visible,
+                            "detail": full_key,
+                            "root": self.root_word,
+                            "forms": forms_str,
+                        })
 
                 ref_text = visible
                 variants_html = ""
                 if other_forms:
                     forms_str = html.escape(", ".join(other_forms))
-                    variants_html = f"<span class='tip-variants'>Unmatched variants found: {forms_str}</span>"
+                    variants_html = f"<span class='tip-variants'>Variant forms found: {forms_str}</span>"
                 tooltip_content = (
                     f"{tip_label}"
                     f"<span class='tip-verse-key'>{html.escape(full_key)}</span>"
@@ -742,7 +703,44 @@ def parse_references_with_root(text, verses, root_word):
     return results
 
 
-def highlight_orphan_numbers(html_fragment: str, issues: list) -> str:
+
+
+_LORD_PAT = re.compile(r"\b(LORD|Lord)\b")
+
+def _replace_lord_in_seg(seg, lord_lookup):
+    ref_positions = []
+    for m in ref_pattern.finditer(seg):
+        abbr = m.group("abbr1") or m.group("abbr2")
+        refs_raw = m.group("refs1") or m.group("refs2")
+        abbr_key = abbr.replace("\xa0", " ")
+        full_book = BOOK_ABBR_TO_FULL.get(abbr_key, abbr_key)
+        single = full_book in SINGLE_CHAPTER_BOOKS
+        cur_ch = None
+        for part in refs_raw.split(","):
+            part = part.strip()
+            if ":" in part:
+                cur_ch, verse = part.split(":", 1)
+            else:
+                verse = part
+                if single: cur_ch = "1"
+            if cur_ch:
+                ref_positions.append((m.start(), f"{full_book} {cur_ch}:{verse}"))
+    out = []; last = 0
+    for m in _LORD_PAT.finditer(seg):
+        out.append(html.escape(seg[last:m.start()]))
+        last = m.end()
+        key = next((k for p, k in ref_positions if p >= m.start()), None)
+        if key is None:
+            key = next((k for p, k in reversed(ref_positions) if p < m.start()), None)
+        forms = lord_lookup.get(key, frozenset()) if key else frozenset()
+        if forms == frozenset({"LORD"}):
+            out.append('L<span class="lord-sc">ord</span>')
+        else:
+            out.append(html.escape(m.group()))
+    out.append(html.escape(seg[last:]))
+    return "".join(out)
+
+def highlight_orphan_numbers(html_fragment: str, issues: list | None = None) -> str:
     """
     In the rendered HTML fragment, find numeric tokens that look like they could
     be Bible references (e.g. "119:107", "58:3", "5.8") but are sitting in plain
@@ -814,200 +812,15 @@ def convert_odt_bytes_to_html(odt_bytes):
 
     kjv_verses = load_kjv(KJV_JSON_PATH)
 
-    # Build lord lookup: verse key → frozenset of LORD/Lord forms in that verse
-    lord_lookup = {
-        k: frozenset(re.findall(r'\b(LORD|Lord)\b', v))
-        for k, v in kjv_verses.items()
-        if re.search(r'\b(LORD|Lord)\b', v)
-    }
-
     bio = io.BytesIO(odt_bytes)
     doc = load(bio)
 
     issues: list = []
-    paragraphs = extract_paragraphs(doc, kjv_verses, issues, lord_lookup)
+    paragraphs = extract_paragraphs(doc, kjv_verses, issues)
 
     style = ""  # styles are now in write_html directly
 
     return write_html(paragraphs, style, issues)
-
-
-_KNOWN_LABELS = {
-    'adj', 'adv', 'adverb', 'noun', 'verb', 'n', 's.',
-    'adhere', 'divide', 'metal', 'arid land', 'to predict',
-    'relating to god',
-}
-
-_SPEC_RE = re.compile(r"^\s*(\([^)]+\))\s*")
-
-_Y_STRIP_I_IN  = {'ies','ied','ieth','iest','ily'}   # suffix already carries the 'i'
-_Y_STRIP_ADD_I = {'eth','est','ed','er'}              # need to insert 'i' (y→i stem)
-_Y_STRIP       = _Y_STRIP_I_IN | _Y_STRIP_ADD_I      # all y-stem suffixes
-_PLAIN_PLURAL  = {'s', "'s", "s'", "'"}
-
-
-def parse_variant_spec(root: str, spec_str: str) -> set:
-    """Return the set of word forms defined by the ODT variant spec for *root*.
-
-    SCHEMA
-    ══════
-    The spec is the parenthesised text immediately after the root heading, e.g.::
-
-        BELLY (-ies)              →  bellies
-        ADORN (-ed, -eth, -ing)   →  adorned, adorneth, adorning
-        EDIFY (-eth)              →  edifieth
-        ASSAYED (-ing)            →  assaying
-
-    Each comma-separated token starting with '-' (or a bare lowercase token not
-    in KNOWN_LABELS) is a SUFFIX RULE.  All other tokens are grammatical labels
-    (noun, verb, adj., adhere, …) and are ignored.
-
-    Non-breaking hyphens (U+2011) are treated identically to ASCII hyphens.
-
-    Rules — applied in priority order, first match wins:
-
-    Rule A  root ends in consonant+'ed'  +  suffix == 'ing'
-            Strip 'ed', append 'ing'.  Guards against roots like PROCEED (ends
-            in vowel+'ed') where the suffix is part of the root, not a tense marker.
-            ASSAYED + -ing  →  assaying
-            (PROCEED + -ing → proceeding  falls through to Rule F — correct)
-
-    Rule B  root ends in 'ed'  +  suffix in {est, eth, edst}
-            Strip 'ed', append suffix.
-            BLASPHEMED + -eth  →  blasphemeth
-            PAINTED    + -edst →  paintedst
-
-    Rule B2 root ends in 'eth'  +  suffix in {est, ing}
-            Strip 'eth', append suffix.  Handles entries like DELIGHTETH (-est)
-            and BLOTTETH (-ing) where the root is already an inflected form.
-            DELIGHTETH + -est  →  delightest
-            BLOTTETH   + -ing  →  blotting
-
-    Rule C  root ends in consonant+'y'  +  suffix in Y_STRIP
-            Two sub-cases:
-            C1  suffix in Y_STRIP_I_IN  (ies, ied, ieth, iest, ily)
-                Strip 'y', append suffix unchanged (the 'i' is in the suffix).
-                BELLY   + -ies  →  bellies
-                TRY     + -ieth →  trieth
-            C2  suffix in Y_STRIP_ADD_I  (eth, est, ed, er)
-                Strip 'y', insert 'i', append suffix.
-                EDIFY   + -eth  →  edifieth
-                PROPHESY + -ed  →  prophesied
-            Note: '-ing' is intentionally excluded from Rule C — English y+ing is
-            direct (signify+ing = signifying), handled by Rule F.
-
-    Rule D  root ends in 'le'  +  suffix == 'ly'
-            Strip 'le', append 'ly'.
-            ACCEPTABLE + -ly  →  acceptably
-            PEACEABLE  + -ly  →  peaceably
-
-    Rule E  root ends in 'e'  +  suffix starts with a VOWEL
-            +  suffix is NOT a plain plural (s, 's, s', ')
-            Strip trailing 'e', append suffix.
-            ADVANTAGE + -eth  →  advantageth   (suffix starts with 'e')
-            COMPARE   + -ing  →  comparing     (suffix starts with 'i')
-            (SAFE + -ly  falls through to Rule F → safely, because 'l' is not a vowel)
-
-    Rule F  default — direct concatenation: root + suffix
-            SAFE      + -ly   →  safely
-            BASE      + -r    →  baser
-            ACQUAINT  + -ed   →  acquainted
-            ABHOR     + -red  →  abhorred   (doubled consonant already in spec)
-            ALWAY     + -s    →  always
-
-    Possessive-plural corollary:
-            For suffix ending in apostrophe (s', '), also add the plain-s form.
-            ADDER + -s'  →  {adders', adders}
-    """
-    inner  = spec_str.strip().lstrip('(').rstrip(')')
-    # Normalise non-breaking hyphens to ASCII
-    inner  = inner.replace('\u2011', '-')
-    tokens = [t.strip() for t in inner.split(',')]
-    r      = root.lower()
-    result: set = set()
-
-    for tok in tokens:
-        tok = tok.strip().replace('\u2011', '-')
-        if tok.startswith('-'):
-            sfx = tok[1:]
-        elif tok and re.match(r"^[a-z'.]+$", tok) and tok.rstrip('.') not in _KNOWN_LABELS:
-            sfx = tok.rstrip('.')  # bare suffix, strip trailing dots (e.g. 's.' → 's')
-            if sfx in _KNOWN_LABELS:
-                continue
-        else:
-            continue           # grammatical label — skip
-        if not sfx:
-            continue
-
-        # Rule A: consonant+'ed' root + -ing  (or 'ied' root + -ing → denying)
-        if sfx == 'ing' and r.endswith('ied'):
-            # y→i stem reversed: strip 'ied', add 'ying'
-            result.add(r[:-3] + 'ying')
-        elif (r.endswith('ed') and sfx == 'ing'
-                and len(r) >= 3 and r[-3] not in 'aeiou'):
-            result.add(r[:-2] + 'ing')
-
-        # Rule B: 'ed' root + verbal suffix
-        elif r.endswith('ed') and sfx in ('est', 'eth', 'edst'):
-            result.add(r[:-2] + sfx)
-
-        # Rule B2: 'eth' root + est/ing
-        elif r.endswith('eth') and sfx in ('est', 'ing'):
-            result.add(r[:-3] + sfx)
-
-        # Rule C: consonant+'y' root + y-strip suffixes
-        elif (r.endswith('y') and len(r) >= 2
-              and r[-2] not in 'aeiou'
-              and sfx in _Y_STRIP):
-            if sfx in _Y_STRIP_I_IN:
-                result.add(r[:-1] + sfx)          # C1: i already in suffix
-            else:
-                result.add(r[:-1] + 'i' + sfx)    # C2: insert i
-
-        # Rule D: 'le' root + -ly  or  'able' root + -ably
-        elif r.endswith('able') and sfx == 'ably':
-            result.add(r[:-4] + 'ably')
-
-        elif r.endswith('le') and sfx == 'ly':
-            result.add(r[:-2] + 'ly')
-
-        # Rule E pre-case: double-'e' root + 'e'-start suffix → strip one 'e' to avoid triple-e
-        elif (r.endswith('ee') and sfx and sfx[0] == 'e'
-              and sfx not in _PLAIN_PLURAL):
-            result.add(r[:-1] + sfx)
-
-        # Rule E: single-'e' root + vowel-start suffix (not plain plural)
-        elif (r.endswith('e') and len(r) >= 2 and r[-2] != 'e'
-              and sfx and sfx[0] in 'aeiou'
-              and sfx not in _PLAIN_PLURAL):
-            result.add(r[:-1] + sfx)
-
-        # Rule F: default
-        else:
-            result.add(r + sfx)
-
-        # Possessive-plural corollary: -s' or -' also implies plain plural
-        if sfx.endswith("'") or sfx == "s'":
-            plain = re.sub(r"'+$", '', r + sfx)   # strip trailing apostrophes
-            result.add(plain)
-
-    return result
-
-
-def extract_spec(remainder: str):
-    """Return (spec_str_or_None, remainder_with_spec_stripped)."""
-    m = _SPEC_RE.match(remainder)
-    if m:
-        return m.group(1), remainder[m.end():]
-    return None, remainder
-
-
-def extract_spec(remainder: str):
-    """Return (spec_str_or_None, remainder_with_spec_stripped)."""
-    m = _SPEC_RE.match(remainder)
-    if m:
-        return m.group(1), remainder[m.end():]
-    return None, remainder
 
 
 def extract_root_word(txt):
@@ -1061,53 +874,47 @@ def extract_root_word(txt):
     return root_word
 
 
-_LORD_PAT = re.compile(r"\b(LORD|Lord)\b")
+LORD_SC_MARKER = "\x00LORD_SC\x00"  # placeholder preserved through plain-text processing
+
+_TEXT_ATTR  = ("urn:oasis:names:tc:opendocument:xmlns:text:1.0", "style-name")
+_SPACE_ATTR = ("urn:oasis:names:tc:opendocument:xmlns:text:1.0", "c")
+_SPACE_QNAME = ("urn:oasis:names:tc:opendocument:xmlns:text:1.0", "s")
 
 
-def _replace_lord_in_seg(seg: str, lord_lookup: dict) -> str:
-    """Replace LORD/Lord tokens in a plain-text segment with KJV-correct HTML.
+def _extract_text_with_lord(elem) -> str:
+    """Extract text from an ODT paragraph element, replacing
+    L + <text:span T9990>ord</text:span>  with LORD_SC_MARKER."""
+    from odf.element import Element
 
-    Looks up the nearest verse reference in the segment to determine whether
-    the KJV uses LORD (YHWH) or Lord (Adonai), then emits:
-      LORD  →  L<span class="lord-sc">ord</span>
-      Lord  →  plain Lord
-    If the verse has both forms, or no verse is found, keeps original text.
-    """
-    ref_positions = []
-    for m in ref_pattern.finditer(seg):
-        abbr = m.group("abbr1") or m.group("abbr2")
-        refs_raw = m.group("refs1") or m.group("refs2")
-        abbr_key = abbr.replace("\xa0", " ")
-        full_book = BOOK_ABBR_TO_FULL.get(abbr_key, abbr_key)
-        single = full_book in SINGLE_CHAPTER_BOOKS
-        cur_ch = None
-        for part in refs_raw.split(","):
-            part = part.strip()
-            if ":" in part:
-                cur_ch, verse = part.split(":", 1)
+    parts = []
+
+    def walk(node):
+        if not isinstance(node, Element):
+            parts.append(str(node) if node is not None else "")
+            return
+        # text:s (space) element
+        if node.qname == _SPACE_QNAME:
+            count = int(node.attributes.get(_SPACE_ATTR, "1"))
+            parts.append(" " * count)
+            return
+        # Check for our small-caps span
+        if node.attributes.get(_TEXT_ATTR) == "T9990":
+            inner = "".join(
+                str(c) for c in node.childNodes
+                if not isinstance(c, Element)
+            )
+            if inner == "ord" and parts and parts[-1].endswith("L"):
+                parts[-1] = parts[-1][:-1]
+                parts.append(LORD_SC_MARKER)
+                return
             else:
-                verse = part
-                if single:
-                    cur_ch = "1"
-            if cur_ch:
-                ref_positions.append((m.start(), f"{full_book} {cur_ch}:{verse}"))
+                parts.append(inner)
+                return
+        for child in node.childNodes:
+            walk(child)
 
-    out = []
-    last = 0
-    for m in _LORD_PAT.finditer(seg):
-        out.append(html.escape(seg[last:m.start()]))
-        last = m.end()
-        # nearest ref: first at/after this position, else last before
-        key = next((k for p, k in ref_positions if p >= m.start()), None)
-        if key is None:
-            key = next((k for p, k in reversed(ref_positions) if p < m.start()), None)
-        forms = lord_lookup.get(key, frozenset()) if key else frozenset()
-        if forms == frozenset({"LORD"}):
-            out.append('L<span class="lord-sc">ord</span>')
-        else:
-            out.append(html.escape(m.group()))   # Lord or ambiguous → plain
-    out.append(html.escape(seg[last:]))
-    return "".join(out)
+    walk(elem)
+    return "".join(parts)
 
 
 def extract_paragraphs(doc, verses, issues: list, lord_lookup: dict = None):
@@ -1116,11 +923,9 @@ def extract_paragraphs(doc, verses, issues: list, lord_lookup: dict = None):
     all_elements = doc.getElementsByType(P)
 
     for idx, elem in enumerate(all_elements):
-        raw_txt = teletype.extractText(elem)
+        raw_txt = _extract_text_with_lord(elem)
         if not raw_txt.strip():
             continue
-        # Collapse only ordinary whitespace (space/tab/newline), preserving
-        # non-breaking space (U+00A0) and other special spaces (U+2006, etc.)
         txt = re.sub(r"[ \t\r\n]+", " ", raw_txt).strip()
 
         # Extract root word using the new function
@@ -1128,9 +933,12 @@ def extract_paragraphs(doc, verses, issues: list, lord_lookup: dict = None):
 
         if root_word is None:
             # No root word found → treat as plain text
-            paragraphs.append(html.escape(txt))
+            plain = html.escape(txt).replace(LORD_SC_MARKER, 'L<span class="lord-sc">ord</span>')
+            paragraphs.append(plain)
             continue
 
+        # Now split by |, but only after root word
+        # Remove root word from txt for segment parsing
         # Find where root_word appears (first occurrence)
         root_pos = txt.find(root_word)
         if root_pos == -1:
@@ -1138,53 +946,43 @@ def extract_paragraphs(doc, verses, issues: list, lord_lookup: dict = None):
             continue
 
         remainder = txt[root_pos + len(root_word) :].lstrip()
-
-        # Extract optional variant spec e.g. "(-ies)" or "(-ed, -eth)"
-        spec_str, remainder = extract_spec(remainder)
-        spec_forms: set = parse_variant_spec(root_word, spec_str) if spec_str else set()
-
         segments = [s.strip() for s in remainder.split("|") if s.strip()]
 
         # Create a closure to avoid repeated function creation
-        def create_substitution_function(verses, root_word, issues, spec_forms):
+        def create_substitution_function(verses, root_word, issues):
             def substitute_references(match):
                 refs = parse_references_with_root(match.group(0), verses, root_word)
-                anchor_texts = [ref.to_anchor(i, issues, spec_forms) for i, ref in enumerate(refs)]
+                anchor_texts = [ref.to_anchor(i, issues) for i, ref in enumerate(refs)]
                 result = ", ".join(anchor_texts)
                 return result if result else html.escape(match.group(0))
 
             return substitute_references
 
-        substitution_func = create_substitution_function(verses, root_word, issues, spec_forms)
+        substitution_func = create_substitution_function(verses, root_word, issues)
 
         rendered_segments = []
 
         for seg in segments:
             if lord_lookup:
-                # Replace LORD/Lord tokens using KJV verse lookup
+                # Replace LORD/Lord in plain text BEFORE ref linkification,
+                # using nearest KJV verse to determine the correct form.
                 seg_html = _replace_lord_in_seg(seg, lord_lookup)
-                # Linkify references on top of the lord-rendered HTML
+                # Now linkify refs: run substitution_func against original seg,
+                # then replace the escaped ref text in the lord-rendered html.
                 for m in ref_pattern.finditer(seg):
                     anchor = substitution_func(m)
                     seg_html = seg_html.replace(html.escape(m.group(0)), anchor, 1)
                 new_seg = seg_html
             else:
                 new_seg = ref_pattern.sub(substitution_func, seg)
+            # Convert LORD_SC_MARKER (from ODT small-caps span) to HTML
+            new_seg = new_seg.replace(LORD_SC_MARKER, 'L<span class="lord-sc">ord</span>')
             new_seg = highlight_orphan_numbers(new_seg, issues)
             rendered_segments.append(new_seg)
 
-        # Build heading: bold root word + optional spec hint in muted text
-        spec_html = (
-            f' <span class="variant-spec">{html.escape(spec_str)}</span>'
-            if spec_str else ""
-        )
-        final_line = (
-            f"<strong>{html.escape(root_word)}</strong>{spec_html} "
-            + " | ".join(rendered_segments)
-        )
+        final_line = f"<strong>{html.escape(root_word)}</strong> " + " | ".join(rendered_segments)
+        final_line = final_line.replace(LORD_SC_MARKER, 'L<span class="lord-sc">ord</span>')
         paragraphs.append(final_line)
-
-    return paragraphs
 
     return paragraphs
 
@@ -1223,8 +1021,8 @@ def build_issues_panel(issues: list) -> str:
          "This verse does not exist in the KJV — the chapter/verse number is wrong."),
         ("root-missing",  "⚠ Wrong verse?",       "panel-noroot",   n_noroot,
          "The heading word isn't found in this verse — may point to the wrong verse."),
-        ("variant-form",  "~ Unmatched variant",   "panel-variant",  n_variant,
-         "The form found in the verse is not the root word and not declared in the heading spec — check if it should be added."),
+        ("variant-form",  "~ Variant form",        "panel-variant",  n_variant,
+         "The heading word appears in a different form in this verse (e.g. abased for ABASE)."),
         ("unlinked-ref",  "🔗 Unlinked number",   "panel-unlinked", n_unlinked,
          "Looks like a reference but has no book name — add the book abbreviation."),
     ]
@@ -1236,7 +1034,7 @@ def build_issues_panel(issues: list) -> str:
         f'<span class="panel-counts">'
         f'<span class="pc missing">{n_missing} wrong ref</span>'
         f'<span class="pc noroot">{n_noroot} wrong verse?</span>'
-        f'<span class="pc variant">{n_variant} unmatched variant</span>'
+        f'<span class="pc variant">{n_variant} variant</span>'
         f'<span class="pc unlinked">{n_unlinked} unlinked</span>'
         f'</span>'
     )
@@ -1273,20 +1071,18 @@ def build_legend() -> str:
 <div id="legend">
   <strong>Colour key:</strong>
   <span class="leg leg-ok">Blue = linked correctly ✔ (hover to see verse)</span>
-  <span class="leg leg-variant">Green background = ~ Unmatched variant — form found in verse is not the root word and not declared in spec</span>
+  <span class="leg leg-variant">Green background = ~ variant form — heading word found in a different form</span>
   <span class="leg leg-missing">Red background = ❌ wrong reference — verse doesn't exist</span>
   <span class="leg leg-noroot">Amber background = ⚠ wrong verse? — heading word not found in verse</span>
   <span class="leg leg-unlinked">Red underline = 🔗 unlinked number — missing book name</span>
   &nbsp;&nbsp;<strong>Lord:</strong>
-  <span class="leg">L<span class="lord-sc">ord</span> = YHWH (LORD in KJV)</span>
-  <span class="leg">Lord = Adonai (Lord in KJV)</span>
-  &nbsp;&nbsp;<strong>Heading:</strong>
-  <span class="leg"><strong>WORD</strong> <span class="variant-spec">(-es)</span> = declared forms — these are not flagged as unmatched variant</span>
+  <span class="leg">L<span class="lord-sc">ord</span> = <em>LORD</em> in KJV (YHWH)</span>
+  <span class="leg">Lord = <em>Lord</em> in KJV (Adonai)</span>
 </div>
 """
 
 
-def write_html(paragraphs, _style_unused, issues: list):
+def write_html(paragraphs, _style_unused, issues: list | None = None):
     """Write paragraphs to a self-contained HTML document optimised for hand-editing review."""
 
     style = """
@@ -1544,16 +1340,8 @@ p:hover {
     padding: 0 1px;
 }
 
-/* LORD (tetragrammaton): L + small-caps ord */
+/* LORD (tetragrammaton): L + small-caps ord, matching ODT rendering */
 .lord-sc { font-variant: small-caps; }
-
-/* Variant spec hint shown after bold root word, e.g. (-ies) */
-.variant-spec {
-    font-size: 12px;
-    color: #888;
-    font-style: italic;
-    font-weight: normal;
-}
 
 /* ── Scroll-to highlight ──────────────────────────────────────── */
 :target {
