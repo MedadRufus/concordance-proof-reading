@@ -407,8 +407,6 @@ class Reference:  # pylint: disable=too-many-instance-attributes
         "chastiseth": {"chastised"},
         # eagle → EAGLES
         "eagle": {"eagles"},
-        # excuse / excused → EXECUSE
-        "excuse": {"execuse"}, "excused": {"execuse"},
         # inflaming → INFLAME
         "enflaming": {"inflame"},
         # lingereth → LINGERED
@@ -427,8 +425,6 @@ class Reference:  # pylint: disable=too-many-instance-attributes
         "dainties": {"dainty"},
         # denying → DENIED
         "denying": {"denied"},
-        # revellings → RIOT
-        "revellings": {"riot"},
         # free → FREEMAN / FREEWOMAN
         "free": {"freeman", "freewoman"},
         # saviour → SAVETH (KJV uses Saviour where concordance uses SAVETH)
