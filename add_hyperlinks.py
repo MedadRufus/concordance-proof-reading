@@ -555,7 +555,7 @@ class Reference:  # pylint: disable=too-many-instance-attributes
         """Return full verse key like 'Proverbs 24:24'."""
         return f"{self.book} {self.chapter}:{self.verse}"
 
-    def to_anchor(self, index: int, issues: list | None = None) -> str:
+    def to_anchor(self, index: int, issues: list ) -> str:
         """Construct the anchor HTML for this reference with a real tooltip span.
 
         If *issues* is provided, append a dict describing any problem found so
@@ -740,7 +740,7 @@ def _replace_lord_in_seg(seg, lord_lookup):
     out.append(html.escape(seg[last:]))
     return "".join(out)
 
-def highlight_orphan_numbers(html_fragment: str, issues: list | None = None) -> str:
+def highlight_orphan_numbers(html_fragment: str, issues: list) -> str:
     """
     In the rendered HTML fragment, find numeric tokens that look like they could
     be Bible references (e.g. "119:107", "58:3", "5.8") but are sitting in plain
@@ -1082,7 +1082,7 @@ def build_legend() -> str:
 """
 
 
-def write_html(paragraphs, _style_unused, issues: list | None = None):
+def write_html(paragraphs, _style_unused, issues: list):
     """Write paragraphs to a self-contained HTML document optimised for hand-editing review."""
 
     style = """
