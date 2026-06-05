@@ -446,6 +446,8 @@ class Reference:  # pylint: disable=too-many-instance-attributes
         # outwardly → OUTSTRETCHED (wrong verse)
         # debtor/debtors → DEATH (wrong verse — concordance error)
         # caldrons → CALAMITY (wrong verse — concordance error)
+        # firstripe (KJV spelling) → FRISTRIPE (concordance spelling for FIRSTRIPE)
+        "firstripe": {"fristripe", "firstripe"},
     }
 
     def find_root_word_matches(self, clean_verse, root_word):
