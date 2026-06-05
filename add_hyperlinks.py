@@ -985,6 +985,51 @@ def extract_paragraphs(doc, verses, issues: list, lord_lookup: dict = None):
     return paragraphs
 
 
+# Regex to extract the root word from a rendered paragraph string.
+# Paragraphs with a root word always start: <strong>ROOTWORD</strong>
+_PARA_ROOT_RE = re.compile(r'^<strong>([^<]+)</strong>')
+
+
+def _annotate_order_issues(paragraphs: list, issues: list) -> list:
+    """Return a new list of paragraph strings where any paragraph whose root word
+    is alphabetically out of order relative to the previous root word is wrapped
+    in a <span class="root-out-of-order"> marker and an issue is appended.
+
+    The paragraph string itself is left unchanged in content; the detection flag
+    is carried via a data attribute on the <p> tag added later in write_html.
+    We store the issue index alongside the paragraph by returning tuples:
+      (paragraph_html, issue_id_or_None)
+    """
+    annotated = []
+    prev_root = None
+
+    for para in paragraphs:
+        m = _PARA_ROOT_RE.match(para)
+        if not m:
+            annotated.append((para, None))
+            continue
+
+        curr_root = m.group(1).strip()
+
+        if prev_root is not None and curr_root < prev_root:
+            issue_id = f"issue-{len(issues)}"
+            issues.append({
+                "id": issue_id,
+                "type": "order",
+                "label": curr_root,
+                "detail": f"Comes after {prev_root}",
+                "root": curr_root,
+                "prev_root": prev_root,
+            })
+            annotated.append((para, issue_id))
+        else:
+            annotated.append((para, None))
+
+        prev_root = curr_root
+
+    return annotated
+
+
 def build_issues_panel(issues: list) -> str:
     """Return a sticky sidebar panel listing all issues with jump links."""
     if not issues:
@@ -1012,9 +1057,12 @@ def build_issues_panel(issues: list) -> str:
     n_noroot   = counts.get("root-missing", 0)
     n_unlinked = counts.get("unlinked-ref", 0)
     n_variant  = counts.get("variant-form", 0)
+    n_order    = counts.get("order", 0)
 
     # Group rows by type so editor can tackle one category at a time
     sections = [
+        ("order",         "↕ Wrong order",        "panel-order",    n_order,
+         "This heading appears out of alphabetical order — it comes after the previous heading but should sort before it."),
         ("ref-not-found", "❌ Wrong reference",   "panel-missing",  n_missing,
          "This verse does not exist in the KJV — the chapter/verse number is wrong."),
         ("root-missing",  "⚠ Wrong verse?",       "panel-noroot",   n_noroot,
@@ -1030,6 +1078,7 @@ def build_issues_panel(issues: list) -> str:
     html_parts.append('<strong>Issues to fix</strong>')
     html_parts.append(
         f'<span class="panel-counts">'
+        f'<span class="pc order">{n_order} order</span>'
         f'<span class="pc missing">{n_missing} wrong ref</span>'
         f'<span class="pc noroot">{n_noroot} wrong verse?</span>'
         f'<span class="pc variant">{n_variant} variant</span>'
@@ -1047,12 +1096,16 @@ def build_issues_panel(issues: list) -> str:
         html_parts.append(f'<div class="section-explain">{explanation}</div>')
         html_parts.append('<ol class="issue-list">')
         for iss in group_issues:
-            root_note = f' <span class="root-note">({html.escape(iss["root"])})</span>' if iss.get("root") else ""
-            forms_note = f' <span class="root-note">→ {html.escape(iss["forms"])}</span>' if iss.get("forms") else ""
+            if itype == "order":
+                detail_note = f' <span class="root-note">(after {html.escape(iss["prev_root"])})</span>'
+            else:
+                root_note = f' <span class="root-note">({html.escape(iss["root"])})</span>' if iss.get("root") else ""
+                forms_note = f' <span class="root-note">→ {html.escape(iss["forms"])}</span>' if iss.get("forms") else ""
+                detail_note = root_note + forms_note
             html_parts.append(
                 f'<li><a class="jump-link" href="#{iss["id"]}">'
                 f'{html.escape(iss["label"])}</a>'
-                f'{root_note}{forms_note}'
+                f'{detail_note}'
                 f'<span class="verse-key">{html.escape(iss["detail"])}</span>'
                 f'</li>'
             )
@@ -1073,6 +1126,7 @@ def build_legend() -> str:
   <span class="leg leg-missing">Red background = ❌ wrong reference — verse doesn't exist</span>
   <span class="leg leg-noroot">Amber background = ⚠ wrong verse? — heading word not found in verse</span>
   <span class="leg leg-unlinked">Red underline = 🔗 unlinked number — missing book name</span>
+  <span class="leg leg-order">Orange left border = ↕ out of alphabetical order</span>
   &nbsp;&nbsp;<strong>Lord:</strong>
   <span class="leg">L<span class="lord-sc">ord</span> = <em>LORD</em> in KJV (YHWH)</span>
   <span class="leg">Lord = <em>Lord</em> in KJV (Adonai)</span>
@@ -1082,6 +1136,14 @@ def build_legend() -> str:
 
 def write_html(paragraphs, _style_unused, issues: list):
     """Write paragraphs to a self-contained HTML document optimised for hand-editing review."""
+
+    if issues is None:
+        issues = []
+
+    # Detect out-of-order root words and annotate paragraphs.
+    # This appends "order" issues to the issues list and returns
+    # (para_html, issue_id_or_None) tuples.
+    annotated = _annotate_order_issues(paragraphs, issues)
 
     style = """
 /* ── Reset & base ─────────────────────────────────────────────── */
@@ -1117,6 +1179,19 @@ p:hover {
     background: #efefec;
 }
 
+/* ── Out-of-order paragraph highlight ────────────────────────── */
+p.root-out-of-order {
+    border-left: 4px solid #e67e00;
+    background: #fff8ee;
+    padding-left: 8px;
+}
+p.root-out-of-order:hover {
+    background: #ffefd4;
+}
+p.root-out-of-order strong:first-child {
+    color: #b85c00;
+}
+
 /* ── Legend bar ───────────────────────────────────────────────── */
 #legend {
     background: #fff;
@@ -1134,6 +1209,7 @@ p:hover {
 .leg-noroot  { background: #fff3cd; color: #7a4f00; border-bottom: 2px dashed #cc8800; }
 .leg-unlinked{ color: #cc0000; border-bottom: 2px solid #cc0000; font-weight: bold; }
 .leg-variant { background: #e6f4ee; color: #0a6640; border-bottom: 2px solid #0a9960; }
+.leg-order   { border-left: 4px solid #e67e00; padding-left: 6px; color: #b85c00; background: #fff8ee; }
 
 /* ── Sticky sidebar panel ─────────────────────────────────────── */
 #issues-panel {
@@ -1171,12 +1247,14 @@ p:hover {
 .pc.unlinked { background: #ffe6e6; color: #cc0000; }
 .pc.all-clear { background: #d4edda; color: #155724; }
 .pc.variant  { background: #d4edda; color: #0a6640; }
+.pc.order    { background: #fff0d4; color: #b85c00; }
 
 .panel-section { border-bottom: 1px solid #eee; padding: 10px 14px; }
-.panel-missing .section-heading { color: #cc0000; }
-.panel-noroot  .section-heading { color: #7a4f00; }
+.panel-missing  .section-heading { color: #cc0000; }
+.panel-noroot   .section-heading { color: #7a4f00; }
 .panel-unlinked .section-heading { color: #cc0000; }
-.panel-variant .section-heading { color: #0a6640; }
+.panel-variant  .section-heading { color: #0a6640; }
+.panel-order    .section-heading { color: #b85c00; }
 .section-heading {
     font-weight: bold;
     font-size: 12.5px;
@@ -1354,10 +1432,19 @@ p:hover {
 }
 """
 
-    issues_panel = build_issues_panel(issues if issues is not None else [])
+    issues_panel = build_issues_panel(issues)
     legend = build_legend()
 
-    paras_html = '\n'.join(f'<p>{p}</p>' for p in paragraphs)
+    # Build paragraph HTML, applying the out-of-order class and id where needed.
+    para_parts = []
+    for para_html, issue_id in annotated:
+        if issue_id:
+            para_parts.append(
+                f'<p class="root-out-of-order" id="{issue_id}">{para_html}</p>'
+            )
+        else:
+            para_parts.append(f'<p>{para_html}</p>')
+    paras_html = '\n'.join(para_parts)
 
     return (
         '<!DOCTYPE html>\n'
